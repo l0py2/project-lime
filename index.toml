@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/server_scripts/global.js"
+hash = "3a9aea06d843d3860a6fac53ad9df785a0b277cb33b9f57f9868bc560247ff04"
+
+[[files]]
+file = "kubejs/server_scripts/removed_items.js"
+hash = "5736e6ed42eb942ac32902d8b563b9396e469d32e44e36c2641a4bc85664aaa2"
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "54a2e4c03d3944cde756e2b6ab31ac10c9adbfe4eb08679ac3c08f69fe692447"
 metafile = true
@@ -158,6 +166,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
 metafile = true
 
 [[files]]
