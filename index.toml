@@ -1,12 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/server_scripts/compat.js"
+hash = "74b2e15e5925264cfe9651a4c3a83e4156d7d1b57b6b96e8216a23f245966f25"
+
+[[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "3a9aea06d843d3860a6fac53ad9df785a0b277cb33b9f57f9868bc560247ff04"
+hash = "5deba5007a132a36f809a192e59bc4b4fe4b2593b8c4840645a5fd99b18e6617"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
-hash = "5736e6ed42eb942ac32902d8b563b9396e469d32e44e36c2641a4bc85664aaa2"
+hash = "d4baad2b8ee0adfd1144078e8cc3799916f6cb818f55441ca99078f07537a031"
 
 [[files]]
 file = "mods/amendments.pw.toml"
