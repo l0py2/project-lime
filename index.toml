@@ -2,11 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "kubejs/server_scripts/compat.js"
-hash = "74b2e15e5925264cfe9651a4c3a83e4156d7d1b57b6b96e8216a23f245966f25"
+hash = "2575ced4f75093b47a39a83c48e04eb0e557687b51f2ef2c0c1f24886f01097e"
+
+[[files]]
+file = "kubejs/server_scripts/energy_compat.js"
+hash = "dd26edc188db60b440c16ca1fb027c8c59f78706afb1cc5b9fa60a5556ad4fcd"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "5deba5007a132a36f809a192e59bc4b4fe4b2593b8c4840645a5fd99b18e6617"
+hash = "94ae137c510b103df37cebe55cfdf38e733faa0730a031289e3331bf8ef3d431"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
