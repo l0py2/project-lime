@@ -1,5 +1,3 @@
-// priority: 2
-
 ServerEvents.recipes(event => {
 	function newAgeEnergising(energyNeeded, input, output) {
 		event.custom({

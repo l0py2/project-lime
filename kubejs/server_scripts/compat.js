@@ -1,5 +1,3 @@
-// priority: 2
-
 ServerEvents.recipes(event => {
 	event.remove({
 		input: global.id.SP('flax'),

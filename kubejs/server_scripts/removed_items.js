@@ -1,5 +1,3 @@
-// priority: 1
-
 const removedItems = [
 	global.id.CN('electrical_connector'),
 	global.id.CN('copper_wire'),

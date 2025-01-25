@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "kubejs/server_scripts/compat.js"
-hash = "2575ced4f75093b47a39a83c48e04eb0e557687b51f2ef2c0c1f24886f01097e"
+hash = "d919dbda87e56b88c8dd0e131dd02a04cb5974d180652e1d453a0c130d598854"
 
 [[files]]
 file = "kubejs/server_scripts/energy_compat.js"
-hash = "dd26edc188db60b440c16ca1fb027c8c59f78706afb1cc5b9fa60a5556ad4fcd"
+hash = "fcc73b0c9ab0418c55d7848fc94cfc154801d9694a3889d9c7b9c53f22658161"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
@@ -14,7 +14,7 @@ hash = "94ae137c510b103df37cebe55cfdf38e733faa0730a031289e3331bf8ef3d431"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
-hash = "d4baad2b8ee0adfd1144078e8cc3799916f6cb818f55441ca99078f07537a031"
+hash = "0071662ddcd90aa4840758138c995326657c62776cc4d77cc588825d3757088e"
 
 [[files]]
 file = "mods/amendments.pw.toml"
