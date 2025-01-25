@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/alexsmobs.toml"
-hash = "f9a64727415a252b7c5609e9d4918958c1bb907192e98d1601022a1e150ce008"
-
-[[files]]
 file = "kubejs/server_scripts/compat.js"
 hash = "d919dbda87e56b88c8dd0e131dd02a04cb5974d180652e1d453a0c130d598854"
 
@@ -36,6 +32,11 @@ hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
 
 [[files]]
+file = "mods/architects-palette.pw.toml"
+hash = "ea0e1047f953916c926acb92182c550ddfb93d1ac67b490a0d6b3f4627ba80aa"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
@@ -53,6 +54,11 @@ metafile = true
 [[files]]
 file = "mods/citadel.pw.toml"
 hash = "ab769d9c60cfba798a0538bad596e374dc9c68a9c59ad83684afc66ce4ebfe7f"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
@@ -153,6 +159,16 @@ metafile = true
 [[files]]
 file = "mods/enderman-overhaul.pw.toml"
 hash = "f29e468a2aa1801bc8d9fdb0608b148d3e6eca97b25ef146a3e5d26bdff03f89"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-mod.pw.toml"
+hash = "0d7dfa1092a6e3718176b519e40af24315010ad1b9bd77142275b06121e374a2"
+metafile = true
+
+[[files]]
+file = "mods/epic-knights-armor-and-weapons.pw.toml"
+hash = "d36b542f5b2cbdc4784d8339f387b8291b631023bf4ce305da4ca3f7c89cc1be"
 metafile = true
 
 [[files]]

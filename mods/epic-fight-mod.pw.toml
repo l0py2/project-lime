@@ -1,0 +1,13 @@
+name = "EpicFight"
+filename = "epicfight-forge-20.9.6-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6e626d4955a92da24b84f3a408dff04ab4c5459"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5922122
+project-id = 405076
