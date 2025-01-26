@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/alexsmobs.toml"
+hash = "d15fda4e203d1462e9b595ca23acef21e7f06e3a82ab6767ef493caa7dc4da3f"
+
+[[files]]
+file = "config/epicfight-client.toml"
+hash = "338c31d263fe9d07e1f76667b996afc9c2c709a97441165da0518644d1c95409"
+
+[[files]]
 file = "kubejs/server_scripts/compat.js"
 hash = "d919dbda87e56b88c8dd0e131dd02a04cb5974d180652e1d453a0c130d598854"
 
@@ -10,11 +18,11 @@ hash = "fcc73b0c9ab0418c55d7848fc94cfc154801d9694a3889d9c7b9c53f22658161"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "94ae137c510b103df37cebe55cfdf38e733faa0730a031289e3331bf8ef3d431"
+hash = "803c946e0c3bd2ad60fd1d42a46332920f9b3a1eced97ff01881385324f480a4"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
-hash = "0071662ddcd90aa4840758138c995326657c62776cc4d77cc588825d3757088e"
+hash = "39a7d0846e1626c1d30cca84de665ab01992ef4f69dbba0fafe8a8eec45dec56"
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
@@ -162,6 +170,11 @@ hash = "f29e468a2aa1801bc8d9fdb0608b148d3e6eca97b25ef146a3e5d26bdff03f89"
 metafile = true
 
 [[files]]
+file = "mods/energymeter.pw.toml"
+hash = "96c83f92d038524c36df54aadad8a3d8ba4a3f3643b998a1a5a228a9f35e2abc"
+metafile = true
+
+[[files]]
 file = "mods/epic-fight-mod.pw.toml"
 hash = "0d7dfa1092a6e3718176b519e40af24315010ad1b9bd77142275b06121e374a2"
 metafile = true
@@ -199,6 +212,11 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "b9a7e71472f5f88229bf2f9e214b223b3900052bdc56075906d7a22acf74568c"
+metafile = true
+
+[[files]]
+file = "mods/immersive-engineering.pw.toml"
+hash = "5508a5c035dffcb22c6ff5b2a52235f753fc4361221be8b97c25b8650efefba6"
 metafile = true
 
 [[files]]

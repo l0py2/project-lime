@@ -8,5 +8,7 @@ global.id = {
 	KJ: id => `kubejs:${id}`,
 	MC: id => `minecraft:${id}`,
 	QK: id => `quark:${id}`,
-	SP: id => `supplementaries:${id}`
+	SP: id => `supplementaries:${id}`,
+	IE: id => `immersiveengineering:${id}`,
+	EK: id => `magistuarmory:${id}`
 };
