@@ -13,16 +13,20 @@ file = "kubejs/server_scripts/compat.js"
 hash = "d919dbda87e56b88c8dd0e131dd02a04cb5974d180652e1d453a0c130d598854"
 
 [[files]]
-file = "kubejs/server_scripts/energy_compat.js"
+file = "kubejs/server_scripts/energy.js"
 hash = "fcc73b0c9ab0418c55d7848fc94cfc154801d9694a3889d9c7b9c53f22658161"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "803c946e0c3bd2ad60fd1d42a46332920f9b3a1eced97ff01881385324f480a4"
+hash = "83908beac64e3bc54d69340fefb3d6466135173adac9d8f8092c84c04a70d3f5"
+
+[[files]]
+file = "kubejs/server_scripts/materials.js"
+hash = "d2f0019398240e07852a05a22a079f7bbbc0f2e03a719ecdf1c3120e6a5296d9"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
-hash = "39a7d0846e1626c1d30cca84de665ab01992ef4f69dbba0fafe8a8eec45dec56"
+hash = "0db43be4fa896f28562c1d828d25729e7060d22f0245be1168c47c42ae909990"
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
@@ -242,6 +246,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-immersive-engineering-unofficial.pw.toml"
+hash = "4edfe55c601c7af5dc9ebb1368b797a32ecb8829efa49c3a6700fbd8f714703a"
 metafile = true
 
 [[files]]
