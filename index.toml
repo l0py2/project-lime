@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "d15fda4e203d1462e9b595ca23acef21e7f06e3a82ab6767ef493caa7dc4da3f"
+hash = "f9a64727415a252b7c5609e9d4918958c1bb907192e98d1601022a1e150ce008"
 
 [[files]]
 file = "config/epicfight-client.toml"
@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "a9c37cc0b87641c4e4ee89e7835d340f7beb06409276dc90f867346ede86b7bb"
+hash = "cecf861a5103ad5d9509a3b3b74d395640ca8a5f453839b73ab9be5d3dd3ad2a"
 metafile = true
 
 [[files]]
@@ -186,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "cee22c328c96018d9f9d8106be0bd51ffc59a38175ba9dfd706fe64f3a075217"
+hash = "b6fd0b09fea8b151835e09cafe2d10fbdfa97ae875893192368e6c6fad746998"
 metafile = true
 
 [[files]]
@@ -201,7 +201,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "42a0f2975f5a46a3b460ac2e7d0886a88c1472d9bcf25e752735af3435bc61d9"
+hash = "33fa562371d146316118a5eb6c1e5ba10674b9b307732b95ec0ceab21ec56ad0"
 metafile = true
 
 [[files]]
@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "de3310ed1f65e3efa94a7112501307d6439822c7b080c472363e4a3b7eb2e94c"
+hash = "ce3945c1b4a49b32fa17e91396a019e00efd773e7ae76df7c078397f9ac74fc3"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d200393b4761cbfec1664fc1a8c1c2326665beaccf6dfb430741dbd03e3c208c"
+hash = "59c83aff76fec2f34cf0ddd59dc926b6c6a3baaed67764b9511bc77b52427156"
 metafile = true
 
 [[files]]
@@ -311,22 +311,22 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "0bcbce26618836400069f0f80acc73b4a709a1f5fb70ed65697cbaa00254a576"
+hash = "97c56d291e8afc0230e9c27175653c97d0056fb512c347da794d7e134244bfc8"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "494daa322c67dfe91bd41715a469afb1b161162d2e56a1e45671b25e8bf14f1d"
+hash = "789231379673950e4cd7045ff08c2deab1925a393cf549b865f9f855b7164617"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f8f7ef4451163f17c562f99de5f9cb78825dcdaabc9aea656a7292daa35a8a6d"
+hash = "ed43db0a420f92c5fda3fd8a5ed6b42f40080f4e0187ae6fc6e38f397dda65ca"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "ed5eadfa0e89a970bf039f59cf487de84631eec8814d75ec960b870b5dbefc45"
+hash = "dae23028aa7277af04a35f968d20662e837224f9427f3de182d61a4bed983440"
 metafile = true
 
 [[files]]
