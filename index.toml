@@ -9,6 +9,10 @@ file = "config/epicfight-client.toml"
 hash = "338c31d263fe9d07e1f76667b996afc9c2c709a97441165da0518644d1c95409"
 
 [[files]]
+file = "defaultconfigs/immersiveengineering-server.toml"
+hash = "ad2efff16b950624be9d9fadfac39fcfa153df1c6d6a777385f417118f72ee0a"
+
+[[files]]
 file = "kubejs/server_scripts/compat.js"
 hash = "d919dbda87e56b88c8dd0e131dd02a04cb5974d180652e1d453a0c130d598854"
 
@@ -18,15 +22,15 @@ hash = "fcc73b0c9ab0418c55d7848fc94cfc154801d9694a3889d9c7b9c53f22658161"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "83908beac64e3bc54d69340fefb3d6466135173adac9d8f8092c84c04a70d3f5"
+hash = "fe3c26139c5ce4616021a12905eca43de23da69f223857cbe191722f13c85c1b"
 
 [[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "d2f0019398240e07852a05a22a079f7bbbc0f2e03a719ecdf1c3120e6a5296d9"
+hash = "a774774bda6cecd5b3e95b6b36c1956236eeb28631077d9ceb45a51153da3dec"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
-hash = "0db43be4fa896f28562c1d828d25729e7060d22f0245be1168c47c42ae909990"
+hash = "748e8e629187216c98b3fd207fd96335d3e8334333d8bb105e658d13c9a6eb5c"
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
@@ -154,6 +158,11 @@ hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
 metafile = true
 
 [[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "6d5b51a81ccf1a172c9d15461f6405d32f55fbd1b27b8ab6b272fca9fd817508"
+metafile = true
+
+[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "a8e4a90179f2c556af989855ed6bfcc6e49cda091562cd8b261f77d0cbd2e84a"
 metafile = true
@@ -164,8 +173,18 @@ hash = "daef210e9d3922c541bfa5e62acf19f30202682b143b651cb6c9959e6a53821d"
 metafile = true
 
 [[files]]
+file = "mods/emi-trades-villager-trading-emi-plugin.pw.toml"
+hash = "27b1964e1583318e348f75fcb6a955c47f0d8650fcef62c6a07b7b1891bd2526"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "f297130ffd9011c86bf9d6cc0759c5b57d289b41a420faaef404b0f0b1b13df6"
+metafile = true
+
+[[files]]
+file = "mods/emiffect-status-effects-emi-plugin.pw.toml"
+hash = "cf53ff3d2ea7e7aed6a8045414b2c9b80405ce1e26d1c2d43bd75a9ddaf715c9"
 metafile = true
 
 [[files]]

@@ -24,23 +24,23 @@ ServerEvents.recipes(event => {
 		);
 	}
 
-	replaceInput(global.id.CN('copper_wire'), global.id.CA('copper_wire'));
-	replaceInput(global.id.FD('rope'), global.id.SP('rope'));
-	replaceOutput(global.id.FD('rope'), global.id.SP('rope'));
-	replaceInput(global.id.CR('copper_sheet'), global.id.IE('plate_copper'));
-	replaceInput(global.id.CR('golden_sheet'), global.id.IE('plate_gold'));
-	replaceOutput(global.id.CR('golden_sheet'), global.id.IE('plate_gold'));
+	function replaceAll(original, replacement) {
+		replaceInput(original, replacement);
+		replaceOutput(original, replacement);
+	}
+
+	replaceAll(global.id.CA('electrum_sheet'), global.tag.M('plates/electrum'));
+	replaceAll(global.id.CR('copper_sheet'), global.tag.M('plates/copper'));
+	replaceAll(global.id.CR('golden_sheet'), global.tag.M('plates/gold'));
+	replaceAll(global.id.CR('iron_sheet'), global.tag.M('plates/iron'));
+	replaceAll(global.id.FD('rope'), global.tag.M('rope'));
+	replaceAll(global.id.CA('iron_rod'), global.tag.M('plates/iron'));
+	replaceInput(global.id.CN('copper_wire'), global.tag.M('wires/copper'));
+	replaceInput(global.id.CA('electrum_wire'), global.tag.M('wires/electrum'));
 
 	global.removedItems.forEach(item => {
 		event.remove({
 			output: item
 		});
-	});
-});
-
-ServerEvents.tags('item', event => {
-	global.removedItems.forEach(item => {
-		event.removeAllTagsFrom(item);
-		event.add(global.id.KJ('removed'), item);
 	});
 });
