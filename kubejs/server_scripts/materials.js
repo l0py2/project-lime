@@ -88,4 +88,41 @@ ServerEvents.recipes(event => {
 	rodByRolling(global.id.M('ingots/gold'), global.id.CA('gold_rod'));
 	rodByRolling(global.id.M('ingots/electrum'), global.id.CA('electrum_rod'));
 	rodByRolling(global.id.M('ingots/brass'), global.id.CA('brass_rod'));
+
+	function wireByRolling(inputTag, output) {
+		rolling(
+			{ tag: inputTag },
+			{ item: output, count: 2 }
+		);
+	}
+
+	const wireMaterials = [
+		'copper',
+		'electrum',
+		'aluminum',
+		'steel',
+		'lead',
+		'iron',
+		'gold'
+	];
+
+	wireMaterials.forEach(material => {
+		event.remove({
+			output: global.tag.M(`wires/${material}`)
+		});
+
+		event.recipes.immersiveengineering.metal_press(
+			Item.of(global.tag.M(`wires/${material}`), 2),
+			global.tag.M(`ingots/${material}`),
+			global.id.IE('mold_wire')
+		);
+	});
+
+	wireByRolling(global.id.M('plates/copper'), global.id.IE('wire_copper'));
+	wireByRolling(global.id.M('plates/electrum'), global.id.IE('wire_electrum'));
+	wireByRolling(global.id.M('plates/aluminum'), global.id.IE('wire_aluminum'));
+	wireByRolling(global.id.M('plates/steel'), global.id.IE('wire_steel'));
+	wireByRolling(global.id.M('plates/lead'), global.id.IE('wire_lead'));
+	wireByRolling(global.id.M('plates/iron'), global.id.CA('iron_wire'));
+	wireByRolling(global.id.M('plates/gold'), global.id.CA('gold_wire'));
 });
