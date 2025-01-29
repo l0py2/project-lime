@@ -17,14 +17,6 @@ file = "defaultconfigs/immersiveengineering-server.toml"
 hash = "ad2efff16b950624be9d9fadfac39fcfa153df1c6d6a777385f417118f72ee0a"
 
 [[files]]
-file = "kubejs/config/common.properties"
-hash = "78ff98344777b42d097199826aba44f79be331bf985a56aa0930815cd12252e8"
-
-[[files]]
-file = "kubejs/config/dev.properties"
-hash = "a2af23bc393a19aae10f6666e8b4c5db2eec1de3c377a4127739992fb74dac59"
-
-[[files]]
 file = "kubejs/server_scripts/compat.js"
 hash = "d919dbda87e56b88c8dd0e131dd02a04cb5974d180652e1d453a0c130d598854"
 
