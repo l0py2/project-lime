@@ -5,6 +5,10 @@ file = "config/alexsmobs.toml"
 hash = "f9a64727415a252b7c5609e9d4918958c1bb907192e98d1601022a1e150ce008"
 
 [[files]]
+file = "config/almostunified/unify.json"
+hash = "ef1ce38eec2e41c4eca431ce1ac0af648d5bacd3e1c0be5a658c7528f95db6a7"
+
+[[files]]
 file = "config/epicfight-client.toml"
 hash = "338c31d263fe9d07e1f76667b996afc9c2c709a97441165da0518644d1c95409"
 
@@ -30,19 +34,20 @@ hash = "e023a8f4f70b73f254e35f14824552f5b20ef9b48297d6411f5526d3f36c7343"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "fe3c26139c5ce4616021a12905eca43de23da69f223857cbe191722f13c85c1b"
-
-[[files]]
-file = "kubejs/server_scripts/materials.js"
-hash = "25902d34bd41484a92fea399355dd9962a0504b95212bf1a6ecb8357447e9596"
+hash = "4d996c597ded61949f35860180d3d514c34886bb6726001deb278b763dc1c051"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
-hash = "748e8e629187216c98b3fd207fd96335d3e8334333d8bb105e658d13c9a6eb5c"
+hash = "6db5a38b1264af7ee67ced0fabf1040f20b85fb8a8d1dd9d590e85eca16c04cf"
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
+metafile = true
+
+[[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "6c1abc7203698f420023a1655bc803113babd2dc00b2ced0e071de8b46147b5a"
 metafile = true
 
 [[files]]
@@ -276,11 +281,6 @@ hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-immersive-engineering-unofficial.pw.toml"
-hash = "4edfe55c601c7af5dc9ebb1368b797a32ecb8829efa49c3a6700fbd8f714703a"
-metafile = true
-
-[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
@@ -347,7 +347,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "97c56d291e8afc0230e9c27175653c97d0056fb512c347da794d7e134244bfc8"
+hash = "c8b37566de64e61962ee384290bcb3d6317746609dc643fa76ad5d87ccabf7bf"
 metafile = true
 
 [[files]]
