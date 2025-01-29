@@ -125,4 +125,39 @@ ServerEvents.recipes(event => {
 	wireByRolling(global.id.M('plates/lead'), global.id.IE('wire_lead'));
 	wireByRolling(global.id.M('plates/iron'), global.id.CA('iron_wire'));
 	wireByRolling(global.id.M('plates/gold'), global.id.CA('gold_wire'));
+
+	function dustByMaterial(material, output) {
+		event.remove({
+			input: global.tag.M(`ingots/${material}`),
+			output: global.tag.M(`dusts/${material}`)
+		});
+
+		event.recipes.create.crushing(
+			output,
+			global.tag.M(`ingots/${material}`)
+		);
+
+		event.recipes.immersiveengineering.crusher(
+			output,
+			global.id.MC('iron_ingot')
+		);
+	}
+
+	const ieDustMaterials = [
+		'copper',
+		'aluminum',
+		'lead',
+		'silver',
+		'nickel',
+		'uranium',
+		'constantan',
+		'electrum',
+		'steel',
+		'iron',
+		'gold'
+	];
+
+	ieDustMaterials.forEach(material => {
+		dustByMaterial(material, global.id.IE(`dust_${material}`));
+	});
 });

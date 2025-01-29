@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
 
 	const createCopperBlocks = [
 		'copper_shingle_stairs',
-		'copper_single_slab',
+		'copper_shingle_slab',
 		'copper_shingles'
 	];
 
