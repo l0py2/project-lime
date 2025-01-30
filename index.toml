@@ -17,6 +17,10 @@ file = "defaultconfigs/immersiveengineering-server.toml"
 hash = "ad2efff16b950624be9d9fadfac39fcfa153df1c6d6a777385f417118f72ee0a"
 
 [[files]]
+file = "kubejs/client_scripts/removed.js"
+hash = "1002fd5c87743895bcb311b0c1f49035610405dd3a9bc7ac3e02826f35f59cff"
+
+[[files]]
 file = "kubejs/server_scripts/compat.js"
 hash = "d919dbda87e56b88c8dd0e131dd02a04cb5974d180652e1d453a0c130d598854"
 
@@ -25,12 +29,16 @@ file = "kubejs/server_scripts/energy.js"
 hash = "e023a8f4f70b73f254e35f14824552f5b20ef9b48297d6411f5526d3f36c7343"
 
 [[files]]
-file = "kubejs/server_scripts/global.js"
-hash = "4d996c597ded61949f35860180d3d514c34886bb6726001deb278b763dc1c051"
+file = "kubejs/server_scripts/materials.js"
+hash = "68642682da890506096e24bb7858972541685fb06b10aee2a92ac92c7ca32ea1"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
 hash = "6db5a38b1264af7ee67ced0fabf1040f20b85fb8a8d1dd9d590e85eca16c04cf"
+
+[[files]]
+file = "kubejs/startup_scripts/global.js"
+hash = "c9e9bda2a5139b2791861de4f81886373aec1b365c3e8446d70296b2cb4d82c6"
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
