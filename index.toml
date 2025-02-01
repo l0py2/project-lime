@@ -33,6 +33,10 @@ file = "kubejs/client_scripts/removed.js"
 hash = "558f3c9f4e24b44af9d47c3f500a537de1e26f2396937246833e15bd960e8d39"
 
 [[files]]
+file = "kubejs/config/defaultoptions.txt"
+hash = "fc5d4a0f8ba2d037ae202f1c654b6e4c789ee87683484d8884399fb0100875c9"
+
+[[files]]
 file = "kubejs/server_scripts/blueprints.js"
 hash = "838cc947430c703c4ed3098639ed7cf891f14018c5c1cd73d05add0643f42877"
 
