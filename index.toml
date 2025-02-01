@@ -46,7 +46,7 @@ hash = "68642682da890506096e24bb7858972541685fb06b10aee2a92ac92c7ca32ea1"
 
 [[files]]
 file = "kubejs/server_scripts/ore_processing.js"
-hash = "9374a1a932f30d66453d3ea87dcb5ce04f982066c888b41c417b820706a31d81"
+hash = "1984aa53310e10c9dc82557f3c7eebbf59581e9370c9e4b17872eb9405b41b75"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"

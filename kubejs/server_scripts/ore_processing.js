@@ -56,6 +56,9 @@ ServerEvents.recipes(event => {
 		event.remove({ id: global.id.IE(`crusher/ore_${metal}`) });
 		event.remove({ id: global.id.IE(`crusher/raw_block_${metal}`) });
 		event.remove({ id: global.id.IE(`crusher/raw_ore_${metal}`) });
+		event.remove({ id: global.id.IE(`arcfurnace/ore_${metal}`) });
+		event.remove({ id: global.id.IE(`arcfurnace/raw_ore_${metal}`) });
+		event.remove({ id: global.id.IE(`arcfurnace/raw_block_${metal}`) });
 
 		event.recipes.create.milling(
 			[
@@ -183,6 +186,71 @@ ServerEvents.recipes(event => {
 			]
 		});
 
+		event.custom({
+			type: global.id.IE('arc_furnace'),
+			additives: [],
+			energy: 102400,
+			input: {
+				tag: global.id.M(`ores/${metal}`)
+			},
+			results: [
+				{
+					base_ingredient: { tag: global.id.M(`ingots/${metal}`) },
+					count: 6
+				}
+			],
+			slag: { tag: global.id.M('slag') },
+			time: 200
+		});
+
+
+		event.custom({
+			type: global.id.IE('arc_furnace'),
+			additives: [],
+			energy: 25600,
+			input: {
+				tag: global.id.M(`raw_materials/${metal}`)
+			},
+			results: [
+				{
+					base_ingredient: { tag: global.id.M(`ingots/${metal}`) },
+					count: 3
+				}
+			],
+			time: 100
+		});
+
+		event.custom({
+			type: global.id.IE('arc_furnace'),
+			additives: [],
+			energy: 230400,
+			input: {
+				tag: global.id.M(`storage_blocks/raw_${metal}`)
+			},
+			results: [
+				{
+					base_ingredient: { tag: global.id.M(`ingots/${metal}`) },
+					count: 27
+				}
+			],
+			time: 900
+		});
+
+		event.custom({
+			type: global.id.IE('arc_furnace'),
+			additives: [],
+			energy: 25600,
+			input: {
+				item: global.id.CR(`crushed_raw_${metal}`)
+			},
+			results: [
+				{
+					base_ingredient: { tag: global.id.M(`ingots/${metal}`) },
+					count: 1
+				}
+			],
+			time: 100
+		});
 	});
 
 	function metalOreWashing(metal, commonSecondary, rareSecondary) {
