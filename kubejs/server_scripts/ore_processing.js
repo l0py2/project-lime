@@ -169,12 +169,18 @@ ServerEvents.recipes(event => {
 
 		event.custom({
 			type: global.id.IE('crusher'),
+			// Handle missing dusts like zinc dust
+			conditions: [{
+				type: global.id.M('not'),
+				value: {
+					type: global.id.M('tag_empty'),
+					tag: global.id.M(`dusts/${metal}`)
+				}
+			}],
 			energy: 6000,
 			input: { item: global.id.CR(`crushed_raw_${metal}`) },
 			result: {
-				base_ingredient: {
-					tag: global.id.M(`dusts/${metal}`)
-				}
+				base_ingredient: { tag: global.id.M(`dusts/${metal}`) }
 			},
 			secondaries: [
 				{
