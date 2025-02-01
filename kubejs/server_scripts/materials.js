@@ -1,7 +1,9 @@
 ServerEvents.recipes(event => {
 	const removedRecipes = [
 		'tacz:gunpowder',
-		'immersiveengineering:crafting/gunpowder_from_dusts'
+		'immersiveengineering:crafting/gunpowder_from_dusts',
+		'create:crushing/blaze_rod',
+		'immersiveengineering:crusher/blaze_powder'
 	];
 
 	removedRecipes.forEach(recipe => {
@@ -50,4 +52,38 @@ ServerEvents.recipes(event => {
 		}
 	);
 
+	event.recipes.create.crushing(
+		[
+			Item.of(global.id.MC('blaze_powder'), 4),
+			Item.of(global.id.MC('blaze_powder')).withChance(0.5),
+			Item.of(global.tag.M('dusts/sulfur')).withChance(0.5)
+		],
+		global.tag.M('rods/blaze')
+	);
+
+	event.custom({
+		type: global.id.IE('crusher'),
+		energy: 1600,
+		input: {
+			tag: global.id.M('rods/blaze')
+		},
+		result: {
+			count: 4,
+			item: global.id.MC('blaze_powder')
+		},
+		secondaries: [
+			{
+				chance: 0.5,
+				output: {
+					item: global.id.MC('blaze_powder')
+				}
+			},
+			{
+				chance: 0.5,
+				output: {
+					tag: global.id.M('dusts/sulfur')
+				}
+			}
+		]
+	});
 });

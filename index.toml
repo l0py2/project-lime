@@ -50,7 +50,7 @@ hash = "e023a8f4f70b73f254e35f14824552f5b20ef9b48297d6411f5526d3f36c7343"
 
 [[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "471ed77b3ff873008228d00aea734355e074abf0b2b327807ad4148274b88061"
+hash = "879cc1f68980ef05b51af8b651ad4e8b31453fb06084816b1295d3d4085127e3"
 
 [[files]]
 file = "kubejs/server_scripts/ore_processing.js"
