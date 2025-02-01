@@ -203,7 +203,6 @@ ServerEvents.recipes(event => {
 			time: 200
 		});
 
-
 		event.custom({
 			type: global.id.IE('arc_furnace'),
 			additives: [],
@@ -281,4 +280,183 @@ ServerEvents.recipes(event => {
 	metalOreWashing('aluminum', null, null);
 	metalOreWashing('uranium', null, global.tag.M('nuggets/lead'));
 	metalOreWashing('nickel', null, null);
+
+	event.remove({ id: global.id.CR('crushing/coal_ore') });
+	event.remove({ id: global.id.IE('crusher/ore_coal') });
+	event.recipes.create.crushing(
+		[
+			Item.of(global.id.MC('coal'), 4),
+			Item.of(global.id.MC('coal')).withChance(0.5),
+			Item.of(global.tag.M('dusts/sulfur')).withChance(0.5),
+			Item.of(global.id.CR('experience_nugget')).withChance(0.5)
+		],
+		global.tag.M('ores/coal')
+	);
+	event.custom({
+		type: global.id.IE('crusher'),
+		energy: 1600,
+		input: {
+			tag: global.id.M('ores/coal')
+		},
+		result: {
+			item: global.id.MC('coal'),
+			count: 4
+		},
+		secondaries: [
+			{
+				chance: 0.5,
+				output: {
+					item: global.id.MC('coal')
+				}
+			},
+			{
+				chance: 0.5,
+				output: {
+					item: global.id.CR('experience_nugget')
+				}
+			},
+			{
+				chance: 0.5,
+				output: {
+					tag: global.id.M('dusts/sulfur')
+				}
+			}
+		]
+	});
+
+	event.remove({ id: global.id.CR('crushing/nether_gold_ore') });
+
+	event.remove({ id: global.id.IE('arcfurnace/netherite_scrap') });
+	event.custom({
+		type: global.id.IE('arc_furnace'),
+		additives: [],
+		energy: 512000,
+		input: { item: global.id.MC('ancient_debris') },
+		results: [
+			{
+				item: global.id.MC('netherite_scrap'),
+				count: 2
+			}
+		],
+		slag: { tag: global.id.M('slag') },
+		time: 100
+	});
+	event.recipes.create.crushing(
+		[
+			global.id.MC('netherite_scrap'),
+			Item.of(global.id.MC('netherite_scrap')).withChance(0.5)
+		],
+		global.id.MC('ancient_debris')
+	);
+	event.custom({
+		type: global.id.IE('crusher'),
+		energy: 6000,
+		input: { item: global.id.MC('ancient_debris') },
+		result: {
+			base_ingredient: {
+				item: global.id.MC('netherite_scrap')
+			}
+		},
+		secondaries: [
+			{
+				chance: 0.5,
+				output: {
+					item: global.id.MC('netherite_scrap')
+				}
+			}
+		]
+	});
+
+	event.remove({ id: global.id.CR('crushing/nether_quartz_ore') });
+	event.remove({ id: global.id.IE('crusher/ore_quartz') });
+	event.recipes.create.crushing(
+		[
+			Item.of(global.tag.M('gems/quartz'), 4),
+			Item.of(global.tag.M('gems/quartz')).withChance(0.5),
+			Item.of(global.tag.M('dusts/sulfur')).withChance(0.5),
+			Item.of(global.id.CR('experience_nugget')).withChance(0.5)
+		],
+		global.tag.M('ores/quartz')
+	);
+	event.custom({
+		type: global.id.IE('crusher'),
+		energy: 1600,
+		input: {
+			tag: global.id.M('ores/quartz')
+		},
+		result: {
+			base_ingredient: {
+				tag: global.id.M('gems/quartz')
+			},
+			count: 4
+		},
+		secondaries: [
+			{
+				chance: 0.5,
+				output: {
+					tag: global.id.M('gems/quartz')
+				}
+			},
+			{
+				chance: 0.5,
+				output: {
+					item: global.id.CR('experience_nugget')
+				}
+			},
+			{
+				chance: 0.5,
+				output: {
+					tag: global.id.M('dusts/sulfur')
+				}
+			}
+		]
+	});
+
+	const gems = [
+		'emerald',
+		'lapis',
+		'diamond'
+	];
+
+	gems.forEach(gem => {
+		event.remove({ id: global.id.CR(`crushing/${gem}_ore`) });
+		event.remove({ id: global.id.CR(`crushing/deepslate_${gem}_ore`) });
+		event.remove({ id: global.id.IE(`crusher/ore_${gem}`) });
+
+		event.recipes.create.crushing(
+			[
+				Item.of(global.tag.M(`gems/${gem}`), 4),
+				Item.of(global.tag.M(`gems/${gem}`)).withChance(0.5),
+				Item.of(global.id.CR('experience_nugget')).withChance(0.5)
+			],
+			global.tag.M(`ores/${gem}`)
+		);
+		event.custom({
+			type: global.id.IE('crusher'),
+			energy: 1600,
+			input: {
+				tag: global.id.M(`ores/${gem}`)
+			},
+			result: {
+				base_ingredient: {
+					tag: global.id.M(`gems/${gem}`)
+				},
+				count: 4
+			},
+			secondaries: [
+				{
+					chance: 0.5,
+					output: {
+						tag: global.id.M(`gems/${gem}`)
+					}
+				},
+				{
+					chance: 0.5,
+					output: {
+						item: global.id.CR('experience_nugget')
+					}
+				}
+			]
+		});
+	});
 });
