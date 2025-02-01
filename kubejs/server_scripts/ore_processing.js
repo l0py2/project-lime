@@ -30,3 +30,187 @@ ServerEvents.blockLootTables(event => {
 		});
 	});
 });
+
+ServerEvents.recipes(event => {
+	const metals = [
+		'iron',
+		'gold',
+		'copper',
+		'zinc',
+		'silver',
+		'lead',
+		'aluminum',
+		'uranium',
+		'nickel'
+	];
+
+	metals.forEach(metal => {
+		event.remove({ id: global.id.CR(`crushing/${metal}_ore`) });
+		event.remove({ id: global.id.CR(`crushing/deepslate_${metal}_ore`) });
+		event.remove({ id: global.id.CR(`crushing/raw_${metal}_block`) });
+		event.remove({ id: global.id.CR(`crushing/raw_${metal}`) });
+		event.remove({ id: global.id.CR(`splashing/crushed_raw_${metal}`) });
+		event.remove({ id: global.id.CR(`splashing/immersiveengineering/crushed_raw_${metal}`) });
+		event.remove({ id: global.id.IE(`crafting/hammercrushing_${metal}`) });
+		event.remove({ id: global.id.IE(`crafting/raw_hammercrushing_${metal}`) });
+		event.remove({ id: global.id.IE(`crusher/ore_${metal}`) });
+		event.remove({ id: global.id.IE(`crusher/raw_block_${metal}`) });
+		event.remove({ id: global.id.IE(`crusher/raw_ore_${metal}`) });
+
+		event.recipes.create.milling(
+			[
+				global.tag.M(`raw_materials/${metal}`),
+				Item.of(global.tag.M(`raw_materials/${metal}`)).withChance(0.5)
+			],
+			global.tag.M(`ores/${metal}`)
+		);
+
+		event.recipes.create.crushing(
+			[
+				global.id.CR(`crushed_raw_${metal}`),
+				Item.of(global.id.CR(`crushed_raw_${metal}`)).withChance(0.5),
+				Item.of(global.id.CR('experience_nugget')).withChance(0.5)
+			],
+			global.tag.M(`ores/${metal}`)
+		);
+
+		event.custom({
+			type: global.id.IE('crusher'),
+			energy: 6000,
+			input: { tag: global.id.M(`ores/${metal}`) },
+			result: {
+				base_ingredient: {
+					item: global.id.CR(`crushed_raw_${metal}`)
+				}
+			},
+			secondaries: [
+				{
+					chance: 0.5,
+					output: {
+						item: global.id.CR(`crushed_raw_${metal}`)
+					}
+				},
+				{
+					chance: 0.5,
+					output: {
+						item: global.id.CR('experience_nugget')
+					}
+				}
+			]
+		});
+
+		event.recipes.create.crushing(
+			[
+				Item.of(global.id.CR(`crushed_raw_${metal}`), 2),
+				global.id.CR('experience_nugget')
+			],
+			global.tag.M(`raw_materials/${metal}`)
+		);
+
+		event.custom({
+			type: global.id.IE('crusher'),
+			energy: 6000,
+			input: { tag: global.id.M(`raw_materials/${metal}`) },
+			result: {
+				base_ingredient: {
+					item: global.id.CR(`crushed_raw_${metal}`)
+				},
+				count: 2
+			},
+			secondaries: [
+				{
+					chance: 1,
+					output: {
+						item: global.id.CR('experience_nugget')
+					}
+				}
+			]
+		});
+
+		event.recipes.create.crushing(
+			[
+				Item.of(global.id.CR(`crushed_raw_${metal}`), 18),
+				Item.of(global.id.CR('experience_nugget'), 9)
+			],
+			global.tag.M(`storage_blocks/raw_${metal}`)
+		);
+
+		event.custom({
+			type: global.id.IE('crusher'),
+			energy: 54000,
+			input: { tag: global.id.M(`storage_blocks/raw_${metal}`) },
+			result: {
+				base_ingredient: {
+					item: global.id.CR(`crushed_raw_${metal}`)
+				},
+				count: 18
+			},
+			secondaries: [
+				{
+					chance: 1,
+					output: {
+						item: global.id.CR('experience_nugget'),
+						count: 9
+					}
+				}
+			]
+		});
+
+		event.recipes.create.crushing(
+			[
+				global.tag.M(`dusts/${metal}`),
+				Item.of(global.tag.M(`dusts/${metal}`)).withChance(0.5)
+			],
+			global.id.CR(`crushed_raw_${metal}`)
+		);
+
+		event.custom({
+			type: global.id.IE('crusher'),
+			energy: 6000,
+			input: { item: global.id.CR(`crushed_raw_${metal}`) },
+			result: {
+				base_ingredient: {
+					tag: global.id.M(`dusts/${metal}`)
+				}
+			},
+			secondaries: [
+				{
+					chance: 0.5,
+					output: {
+						tag: global.id.M(`dusts/${metal}`)
+					}
+				}
+			]
+		});
+
+	});
+
+	function metalOreWashing(metal, commonSecondary, rareSecondary) {
+		const results = [
+			Item.of(global.tag.M(`nuggets/${metal}`), 18)
+		];
+
+		if(commonSecondary != null) {
+			results.push(Item.of(commonSecondary, 2).withChance(0.8));
+		}
+
+		if(rareSecondary != null) {
+			results.push(Item.of(rareSecondary).withChance(0.1));
+		}
+
+		event.recipes.create.splashing(
+			results,
+			global.id.CR(`crushed_raw_${metal}`)
+		);
+	}
+
+	metalOreWashing('iron', global.tag.M('dusts/redstone'), global.tag.M('nuggets/nickel'));
+	metalOreWashing('gold', global.tag.M('gems/quartz'), null);
+	metalOreWashing('copper', global.tag.M('clay'), global.tag.M('nuggets/gold'));
+	metalOreWashing('zinc', global.tag.M('dusts/sulfur'), null);
+	metalOreWashing('silver', null, global.tag.M('nuggets/lead'));
+	metalOreWashing('lead', null, global.tag.M('nuggets/silver'));
+	metalOreWashing('aluminum', null, null);
+	metalOreWashing('uranium', null, global.tag.M('nuggets/lead'));
+	metalOreWashing('nickel', null, null);
+});

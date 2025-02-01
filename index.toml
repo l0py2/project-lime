@@ -18,7 +18,7 @@ hash = "ad2efff16b950624be9d9fadfac39fcfa153df1c6d6a777385f417118f72ee0a"
 
 [[files]]
 file = "kubejs/client_scripts/removed.js"
-hash = "1002fd5c87743895bcb311b0c1f49035610405dd3a9bc7ac3e02826f35f59cff"
+hash = "558f3c9f4e24b44af9d47c3f500a537de1e26f2396937246833e15bd960e8d39"
 
 [[files]]
 file = "kubejs/server_scripts/compat.js"
@@ -31,6 +31,10 @@ hash = "e023a8f4f70b73f254e35f14824552f5b20ef9b48297d6411f5526d3f36c7343"
 [[files]]
 file = "kubejs/server_scripts/materials.js"
 hash = "68642682da890506096e24bb7858972541685fb06b10aee2a92ac92c7ca32ea1"
+
+[[files]]
+file = "kubejs/server_scripts/ore_processing.js"
+hash = "9374a1a932f30d66453d3ea87dcb5ce04f982066c888b41c417b820706a31d81"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
@@ -233,6 +237,16 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "bdf046db320a0d8477bf69460b930f4a8ab95b884a9c9eeb064848a8479a87cf"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "5d5819b14f3e0088d99e82f2a6b2f77df2b566726c9380b89b858b4246c69d25"
 metafile = true
 
 [[files]]
