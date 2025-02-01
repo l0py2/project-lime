@@ -1,0 +1,6 @@
+{
+	"equipMonstersOnlyIfHard": false,
+	"equipChance": 0.5,
+	"overrideEquipment": false,
+	"enableSurcoatRecipeForAllArmor": true
+}

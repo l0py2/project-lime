@@ -1,0 +1,5 @@
+[loot]
+	skill_book_mob_drop_chance_modifier = 1
+	skill_book_chest_drop_chance_modifier = 0
+[default_gamerule]
+	noMobsInBossfight = false

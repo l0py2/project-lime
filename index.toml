@@ -13,6 +13,18 @@ file = "config/epicfight-client.toml"
 hash = "338c31d263fe9d07e1f76667b996afc9c2c709a97441165da0518644d1c95409"
 
 [[files]]
+file = "config/epicfight.toml"
+hash = "7e6efa17398cde51a298755401cb5ae1e7357b7a1445fd74a3c89e5eb8170720"
+
+[[files]]
+file = "config/epicknights/general.json5"
+hash = "7b124343effc952220a09e9f6690a3ffb70b0d781aa7188657999c9a10c5223d"
+
+[[files]]
+file = "config/epicknights/mobs_equipment.json5"
+hash = "15bce137bd295b77586f1fbb653a5d474614bee81f204523ca602cd02232171d"
+
+[[files]]
 file = "defaultconfigs/immersiveengineering-server.toml"
 hash = "ad2efff16b950624be9d9fadfac39fcfa153df1c6d6a777385f417118f72ee0a"
 
@@ -45,6 +57,11 @@ file = "kubejs/startup_scripts/global.js"
 hash = "c9e9bda2a5139b2791861de4f81886373aec1b365c3e8446d70296b2cb4d82c6"
 
 [[files]]
+file = "mods/alexs-delight.pw.toml"
+hash = "99f6d4e46f784953d16aa1ce5f72327b21487dc0e27d3143c8a6b60c6d02381a"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
@@ -56,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "54a2e4c03d3944cde756e2b6ab31ac10c9adbfe4eb08679ac3c08f69fe692447"
+hash = "ae9a1adc0c29e847190a8f551683427a57fbb131f4e3cbf89176f54eb3e23a90"
 metafile = true
 
 [[files]]
@@ -216,7 +233,7 @@ metafile = true
 
 [[files]]
 file = "mods/epic-fight-mod.pw.toml"
-hash = "0d7dfa1092a6e3718176b519e40af24315010ad1b9bd77142275b06121e374a2"
+hash = "6b3f95fcf6d0cf16a7bc63c08e881d0e735c380b4b68a0515ef8c483fac17392"
 metafile = true
 
 [[files]]
@@ -226,7 +243,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "b6fd0b09fea8b151835e09cafe2d10fbdfa97ae875893192368e6c6fad746998"
+hash = "46eb8bc63b1096f09b72d37ea31d2188a017545b3f3d5721dc0ab57fa083476d"
 metafile = true
 
 [[files]]
@@ -305,6 +322,11 @@ hash = "bbba6ac677c4e82b397501e4db188fadcafc4dacff02b835e4b8a44ffcc9a3c7"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "cd4fe8b667d14c946028050cf9e4c3367868f79d9f429ec18eb47cce34e021a3"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "59c83aff76fec2f34cf0ddd59dc926b6c6a3baaed67764b9511bc77b52427156"
 metafile = true
@@ -361,27 +383,27 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "c8b37566de64e61962ee384290bcb3d6317746609dc643fa76ad5d87ccabf7bf"
+hash = "834f90fa134d284524222d08e209d88b469f1c39899572e84613ead42060ff1a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "789231379673950e4cd7045ff08c2deab1925a393cf549b865f9f855b7164617"
+hash = "9fb4f257474751e5b3602f0c418c10ebbaee39bc284c5676b7e29171c8797562"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "ed43db0a420f92c5fda3fd8a5ed6b42f40080f4e0187ae6fc6e38f397dda65ca"
+hash = "a1f89bf391f89cb28eb4e267e84d1cde3b3a5929d13aa6ab2cb5a7e3a5bbb2eb"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "dae23028aa7277af04a35f968d20662e837224f9427f3de182d61a4bed983440"
+hash = "5d8b45f1f5a5fad26e787dc65714928c55e21c56915e33406027f3a7071b6c3d"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "723383140ebcc04db20bb47a2d5dc5667894ed4f12605ec63488dba9de608eaf"
+hash = "a91067d97f099e488fba04f9b7f20dbb4096d04e597380db38c42994949c43d8"
 metafile = true
 
 [[files]]
