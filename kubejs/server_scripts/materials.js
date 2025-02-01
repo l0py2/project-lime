@@ -1,79 +1,53 @@
 ServerEvents.recipes(event => {
 	const removedRecipes = [
-		'immersiveengineering:crafting/stick_iron',
-		'immersiveengineering:crafting/stick_steel',
-		'immersiveengineering:crafting/stick_aluminum',
-		'immersiveengineering:crafting/plate_copper_hammering',
-		'immersiveengineering:crafting/plate_aluminum_hammering',
-		'immersiveengineering:crafting/plate_lead_hammering',
-		'immersiveengineering:crafting/plate_silver_hammering',
-		'immersiveengineering:crafting/plate_nickel_hammering',
-		'immersiveengineering:crafting/plate_uranium_hammering',
-		'immersiveengineering:crafting/plate_constantan_hammering',
-		'immersiveengineering:crafting/plate_electrum_hammering',
-		'magistuarmory:steel_plate',
-		'immersiveengineering:crafting/plate_steel_hammering',
-		'immersiveengineering:crafting/plate_iron_hammering',
-		'immersiveengineering:crafting/plate_gold_hammering',
-		'immersiveengineering:crafting/wire_copper',
-		'immersiveengineering:crafting/wire_electrum',
-		'immersiveengineering:crafting/wire_aluminum',
-		'immersiveengineering:crafting/wire_steel',
-		'immersiveengineering:crafting/wire_lead'
+		'tacz:gunpowder',
+		'immersiveengineering:crafting/gunpowder_from_dusts'
 	];
 
 	removedRecipes.forEach(recipe => {
 		event.remove({ id: recipe });
 	});
 
-	event.recipes.create.pressing(
-		global.tag.M('plates/electrum'),
-		global.tag.M('ingots/electrum')
+	event.shaped(
+		Item.of(global.tag.M('gunpowder'), 6),
+		[
+			'AAA',
+			'ABC',
+			'   '
+		],
+		{
+			A: global.tag.M('dusts/saltpeter'),
+			B: global.tag.M('dusts/sulfur'),
+			C: global.id.MC('coal')
+		}
 	);
 
-	[
-		'copper',
-		'aluminum',
-		'lead',
-		'silver',
-		'nickel',
-		'uranium',
-		'constantan',
-		'electrum',
-		'steel',
-		'iron',
-		'gold'
-	].forEach(material => {
-		event.recipes.create.milling(
-			global.tag.M(`dusts/${material}`),
-			global.tag.M(`ingots/${material}`)
-		);
-	});
+	event.shaped(
+		Item.of(global.tag.M('gunpowder'), 9),
+		[
+			'AAA',
+			'ABC',
+			'   '
+		],
+		{
+			A: global.tag.M('dusts/saltpeter'),
+			B: global.tag.M('dusts/sulfur'),
+			C: global.id.MC('charcoal')
+		}
+	);
 
-	event.custom({
-		type: global.id.IE('crusher'),
-		energy: 6000,
-		input: { tag: global.id.M('obsidian') },
-		result: {
-			count: 1,
-			tag: global.id.M('dusts/obsidian')
-		},
-		secondaries: [
-			{
-				chance: 0.75,
-				output: { tag: global.id.M('obsidian') }
-			}
-		]
-	});
+	event.shaped(
+		Item.of(global.tag.M('gunpowder'), 12),
+		[
+			'AAA',
+			'ABC',
+			'   '
+		],
+		{
+			A: global.tag.M('dusts/saltpeter'),
+			B: global.tag.M('dusts/sulfur'),
+			C: global.tag.M('coal_coke')
+		}
+	);
 
-	event.custom({
-		type: global.id.IE('crusher'),
-		energy: 3000,
-		input: { tag: global.id.M('gems/diamond') },
-		result: {
-			count: 1,
-			tag: global.id.M('dusts/diamond')
-		},
-		secondaries: []
-	});
 });
