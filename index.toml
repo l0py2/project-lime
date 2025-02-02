@@ -29,6 +29,10 @@ file = "defaultconfigs/immersiveengineering-server.toml"
 hash = "ad2efff16b950624be9d9fadfac39fcfa153df1c6d6a777385f417118f72ee0a"
 
 [[files]]
+file = "kubejs/assets/immersiveengineering/sounds/dire_switch.ogg"
+hash = "808c26859196e4f66d6676db9998fd9ab040d70f66a3879d64c8ae5d56a6177a"
+
+[[files]]
 file = "kubejs/client_scripts/removed.js"
 hash = "558f3c9f4e24b44af9d47c3f500a537de1e26f2396937246833e15bd960e8d39"
 
@@ -136,6 +140,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+hash = "b398f76eb373a7a47a26a63ea2b52676859fb01b764e49c19dfdc09e005cd4e2"
 metafile = true
 
 [[files]]
@@ -280,7 +289,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "33fa562371d146316118a5eb6c1e5ba10674b9b307732b95ec0ceab21ec56ad0"
+hash = "fd0df6f14400f69678d3c06bc87df2e7edb2c6c424dca07a452d39180d18ea04"
 metafile = true
 
 [[files]]
@@ -400,17 +409,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "9fb4f257474751e5b3602f0c418c10ebbaee39bc284c5676b7e29171c8797562"
+hash = "ce4e1ba169fdc19802fb25645b3f3592a0dbc81b6c718f5d7e877b22038a0ad5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "a1f89bf391f89cb28eb4e267e84d1cde3b3a5929d13aa6ab2cb5a7e3a5bbb2eb"
+hash = "12908e0d7c1904838a56bc91030fc713a8a9b61bc94708c795a87c79846a5781"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "5d8b45f1f5a5fad26e787dc65714928c55e21c56915e33406027f3a7071b6c3d"
+hash = "5cc50f4b1a1f64a172fb8242c0c35a770128a3c08bd24d3a4b10b4e2a0b450d3"
 metafile = true
 
 [[files]]
