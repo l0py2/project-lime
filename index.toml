@@ -38,7 +38,7 @@ hash = "558f3c9f4e24b44af9d47c3f500a537de1e26f2396937246833e15bd960e8d39"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "fc5d4a0f8ba2d037ae202f1c654b6e4c789ee87683484d8884399fb0100875c9"
+hash = "7aeb5942b25b69d3ebe2b0fe91affaf5698ac94adbc543494b096b45865cbe3a"
 
 [[files]]
 file = "kubejs/server_scripts/blueprints.js"
@@ -105,6 +105,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "9dae802973a30aed624261c4dbae65643ea656c337a0cba936e06427aa66023e"
 metafile = true
 
 [[files]]
@@ -208,6 +213,11 @@ hash = "02e3f47ff5a2fa074996387e14c81718e5c4df16dbe75ba1e1021157352f7815"
 metafile = true
 
 [[files]]
+file = "mods/dynamiclights-reforged.pw.toml"
+hash = "8f2270a50a633db681826cbfb691e6efdb25e1e0c4702125c13d525b52fe229f"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
 metafile = true
@@ -303,6 +313,11 @@ hash = "b9a7e71472f5f88229bf2f9e214b223b3900052bdc56075906d7a22acf74568c"
 metafile = true
 
 [[files]]
+file = "mods/immersive-aircraft.pw.toml"
+hash = "600d67f2aca5df16c7cc4526583f852b569049cd052beb9efc465cbe247c0d64"
+metafile = true
+
+[[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "5508a5c035dffcb22c6ff5b2a52235f753fc4361221be8b97c25b8650efefba6"
 metafile = true
@@ -358,6 +373,11 @@ hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "a7c0ebd38acb25387eeb4e77ddf4f9e09ce0e03e1ce6e59758fe25e678250d02"
 metafile = true
@@ -405,6 +425,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "834f90fa134d284524222d08e209d88b469f1c39899572e84613ead42060ff1a"
+metafile = true
+
+[[files]]
+file = "mods/sodium-options-api.pw.toml"
+hash = "5240c62752415b5d66d4beffec4fe98c253eba8ebcbb2a5c1097fc3ad3de0b00"
 metafile = true
 
 [[files]]
