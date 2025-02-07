@@ -65,12 +65,16 @@ file = "kubejs/server_scripts/ore_processing.js"
 hash = "59e43708a91e722c1135c0c414c2944402fd97cbb830e9e7e568d6ee8bb50dc5"
 
 [[files]]
+file = "kubejs/server_scripts/quality_of_life.js"
+hash = "802ad47d51476cccfa6ef8418b6e2103d03bde268b6868d0b9f3f931fc98b4d0"
+
+[[files]]
 file = "kubejs/server_scripts/removed_items.js"
 hash = "6db5a38b1264af7ee67ced0fabf1040f20b85fb8a8d1dd9d590e85eca16c04cf"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "c9e9bda2a5139b2791861de4f81886373aec1b365c3e8446d70296b2cb4d82c6"
+hash = "21e19ec342a3ae3d80bca0ffc9b09c0797f2df087a8e29e5eefb826c96f7c6b3"
 
 [[files]]
 file = "mods/alexs-delight.pw.toml"

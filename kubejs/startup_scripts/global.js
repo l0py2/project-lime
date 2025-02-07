@@ -20,6 +20,7 @@ global.tag = {
 
 global.removedItems = [
 	global.id.CA('alternator'),
+	global.id.CA('capacitor'),
 	global.id.CA('connector'),
 	global.id.CA('copper_spool'),
 	global.id.CA('electric_motor'),
@@ -28,6 +29,8 @@ global.removedItems = [
 	global.id.CA('festive_spool'),
 	global.id.CA('gold_spool'),
 	global.id.CA('large_connector'),
+	global.id.CA('modular_accumulator'),
+	global.id.CA('portable_energy_interface'),
 	global.id.CA('redstone_relay'),
 	global.id.CA('small_light_connector'),
 	global.id.CA('spool'),
