@@ -66,7 +66,7 @@ hash = "59e43708a91e722c1135c0c414c2944402fd97cbb830e9e7e568d6ee8bb50dc5"
 
 [[files]]
 file = "kubejs/server_scripts/quality_of_life.js"
-hash = "802ad47d51476cccfa6ef8418b6e2103d03bde268b6868d0b9f3f931fc98b4d0"
+hash = "0a1e4ddb6f6931b453a817226db2e832d09aa3219e69d6d9d05e6f511861443d"
 
 [[files]]
 file = "kubejs/server_scripts/removed_items.js"
@@ -113,7 +113,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "9dae802973a30aed624261c4dbae65643ea656c337a0cba936e06427aa66023e"
+hash = "8b1ceee52c48c13d48ef1bedb768cd7d2d6f5db3d196ebc6f42b3aa4103e9b34"
 metafile = true
 
 [[files]]
@@ -153,12 +153,12 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "b398f76eb373a7a47a26a63ea2b52676859fb01b764e49c19dfdc09e005cd4e2"
+hash = "ffa609907fd0f338204de9af2c795b1698f374dff630ac1b6d4ec836a943e102"
 metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "ba31cf397fdb97674e9f9c12060c232a8fab97f5d6ed67187e489801c3b3d173"
+hash = "a9d9e6145902376f581fd32b22c8d463d53a562a1d3f03bd56742b32b6678e5c"
 metafile = true
 
 [[files]]
@@ -173,7 +173,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "743546e2e192962ef1c006a756acff4706ec0e1a2ed9d2b5a5daeb34e7d0cb4f"
+hash = "2db78de43f113bb7ceefa7bcb1c2d8f1d33363ed83dde7593abca19cf4c957c4"
 metafile = true
 
 [[files]]
@@ -233,7 +233,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-loot.pw.toml"
-hash = "a8e4a90179f2c556af989855ed6bfcc6e49cda091562cd8b261f77d0cbd2e84a"
+hash = "7c5790cb26410eb6b27499529eed86951545c0fafc4e5d4bd4c98bfab09b1baa"
 metafile = true
 
 [[files]]
@@ -283,7 +283,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "33a72d14d33abd2bd32d2f2986930ae58a8d6dde581656a08b466df10d0250e8"
+hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
 metafile = true
 
 [[files]]
@@ -293,7 +293,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "bdf046db320a0d8477bf69460b930f4a8ab95b884a9c9eeb064848a8479a87cf"
+hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
 metafile = true
 
 [[files]]
@@ -388,7 +388,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "f018db7f4541de930100bb993123ce30e5455afa13309212a0aefc2148c5305c"
+hash = "60eadd450e70dd09ae239ab7f5e90fd8623fd69daa0737a5f119eb9530e10a28"
 metafile = true
 
 [[files]]
@@ -438,22 +438,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ce4e1ba169fdc19802fb25645b3f3592a0dbc81b6c718f5d7e877b22038a0ad5"
+hash = "faebffbb969f9fc5c9622fca559eca0f82e6b5eb443b2294a360d57920b4fc81"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "12908e0d7c1904838a56bc91030fc713a8a9b61bc94708c795a87c79846a5781"
+hash = "1c262ed2cfca24891a9afa77d10b8dec38b334fb320e646ffdc71fc9f2c2503b"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "5cc50f4b1a1f64a172fb8242c0c35a770128a3c08bd24d3a4b10b4e2a0b450d3"
+hash = "c0db64ab6188f19fbe1a8159ecfd5af8afbda05b313c4e4af4b405f806233acb"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "a91067d97f099e488fba04f9b7f20dbb4096d04e597380db38c42994949c43d8"
+hash = "ebd88a1f80cdc0dccad35ea15648dad22f8fcf5856b47777290b2312607e8a64"
 metafile = true
 
 [[files]]

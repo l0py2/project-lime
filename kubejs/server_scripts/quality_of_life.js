@@ -24,4 +24,6 @@ ServerEvents.recipes(event => {
 			B: global.tag.M('ingots/iron')
 		}
 	);
+
+	event.blasting(global.tag.M('dusts/sulfur'), global.tag.M('eggs'));
 });
