@@ -352,6 +352,11 @@ hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-immersive-engineering-unofficial.pw.toml"
+hash = "4edfe55c601c7af5dc9ebb1368b797a32ecb8829efa49c3a6700fbd8f714703a"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
