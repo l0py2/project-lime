@@ -282,6 +282,11 @@ hash = "46eb8bc63b1096f09b72d37ea31d2188a017545b3f3d5721dc0ab57fa083476d"
 metafile = true
 
 [[files]]
+file = "mods/falling-tree.pw.toml"
+hash = "c403c22a6334812040538866bc4851f28358c1d8f8b44f029f4c1c82f94ca5e1"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
 metafile = true
@@ -289,16 +294,6 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-forge.pw.toml"
-hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
-metafile = true
-
-[[files]]
-file = "mods/ftb-ultimine-forge.pw.toml"
-hash = "5d5819b14f3e0088d99e82f2a6b2f77df2b566726c9380b89b858b4246c69d25"
 metafile = true
 
 [[files]]
@@ -362,11 +357,6 @@ hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
 
 [[files]]
-file = "mods/leaves-be-gone.pw.toml"
-hash = "bbba6ac677c4e82b397501e4db188fadcafc4dacff02b835e4b8a44ffcc9a3c7"
-metafile = true
-
-[[files]]
 file = "mods/lootr.pw.toml"
 hash = "cd4fe8b667d14c946028050cf9e4c3367868f79d9f429ec18eb47cce34e021a3"
 metafile = true
@@ -399,11 +389,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "dd105e501832dcd4e443015af266973c58586553331512a6c171d865dd36c3bc"
-metafile = true
-
-[[files]]
-file = "mods/puzzles-lib.pw.toml"
-hash = "d99946cb99e0d71fc13f2ff0e87108618b1f42486ff0ab3c3b99fa40c66efc9a"
 metafile = true
 
 [[files]]
