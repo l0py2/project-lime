@@ -1,8 +1,0 @@
-[machines]
-	thermoelectric_output = 2.0
-	dieselGen_output = 8192
-	[machines.metal_press]
-		timeModifier = 0.2
-[tools]
-	[tools.railgun]
-		damage_modifier = 5.0

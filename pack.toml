@@ -1,12 +1,12 @@
 name = "Project Lime"
 author = "l0py2, Lagosta4K"
-version = "0.1.0"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "88971ecd2704e1b25e6b997ceb1a3e58971e229ddfb126e038498b642ac3d5ca"
+hash = "7b81c9e9d9e6e21a9865a2dded0dfd77e7683d679b98fe5b0114eaed9a31f17e"
 
 [versions]
 forge = "47.3.0"
