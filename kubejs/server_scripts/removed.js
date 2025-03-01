@@ -13,4 +13,12 @@ ServerEvents.recipes(event => {
 			output: item
 		});
 	}
+
+	for(const [original, replacement] of global.replacements) {
+		event.replaceInput(
+			{ input: original },
+			original,
+			replacement
+		);
+	}
 });

@@ -1,0 +1,13 @@
+name = "Supplementaries"
+filename = "supplementaries-1.21-3.0.39-beta-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b180634d7e37c05166cde0f1480b3f466d8d4a2e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6252054
+project-id = 412082

@@ -1,0 +1,3 @@
+[farming]
+	#Which rope should Tomato Vines leave behind when mined by hand?
+	defaultTomatoVineRope = "supplementaries:rope"

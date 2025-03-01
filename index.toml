@@ -1,8 +1,24 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/farmersdelight-common.toml"
+hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
+
+[[files]]
 file = "kubejs/client_scripts/removed.js"
-hash = "8f00ac86b4536bb0f6bf853a698d1660466fb5adb811cd390631848eb4fd3920"
+hash = "93631b9581482dda11f3eaf4d8f1472808fd545c1c6522ce6ef91b1ef6285150"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_table/chests/fd_abandoned_mineshaft.json"
+hash = "f244c069f405f156f75798a5bee9d01983da5248b97a5b2774ab86ff74e30c12"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_table/chests/fd_shipwreck_supply.json"
+hash = "968815dbb2049a9df5a18196eadf14c000c78b929d446f179ddb386d89334485"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_table/chests/fd_simple_dungeon.json"
+hash = "bf6b26edab7ec10b76a0ccb4bf631ad58ed22e0963d3f035dfa61b05240f84bb"
 
 [[files]]
 file = "kubejs/server_scripts/food.js"
@@ -14,11 +30,11 @@ hash = "53551b6c8c00abf3f7add5b2891ca6f6d0e385b3b251a0d688635c6c1403e148"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
-hash = "c744ee26e3c84ade8c594ddcda28d3d12c4ff63a44590e10ef523f6812abb147"
+hash = "e59b94defdc88ba5404e21edfd2d01dc91c27c299427c8a8d0419eb5cf3ac596"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "5110c0c12cf12b3eaaec0f8f732a7497372b1bb9252a27db1914297cf4a8884d"
+hash = "47cfd7b8f9e65e5be0d30b863fc23d1ed2bb517fa5c3d18e1d4d1761862bb98b"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -207,7 +223,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "291af8934f4e04a2c4ec9abb69f59bc8b56066be47658d432856b1d6470cdfb6"
+hash = "4d71f8f1bd102f0c118fcf33a45b2c3b490eb89f8a8e5a873712173c2a6378bd"
 metafile = true
 
 [[files]]
@@ -233,6 +249,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "5dea91ea2463c50bb983f5d6b0ae484e801121c3f36dc86200350c08b0e631ec"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "51579c41cb422e211823df47fba581623854b189a600f013fb7278862c6a2900"
 metafile = true
 
 [[files]]
