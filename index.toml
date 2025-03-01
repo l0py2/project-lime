@@ -1,6 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/client_scripts/removed.js"
+hash = "558f3c9f4e24b44af9d47c3f500a537de1e26f2396937246833e15bd960e8d39"
+
+[[files]]
+file = "kubejs/server_scripts/food.js"
+hash = "2f638e309a2050ceaa31aefe92479bb90b8581ec65e02fdc437b37802c342b85"
+
+[[files]]
+file = "kubejs/server_scripts/ores.js"
+hash = "60fc2f7984863a9fa42f2e8fedc459f9249665a960db5a15e5c08ea6b4f0f176"
+
+[[files]]
+file = "kubejs/server_scripts/removed.js"
+hash = "c744ee26e3c84ade8c594ddcda28d3d12c4ff63a44590e10ef523f6812abb147"
+
+[[files]]
+file = "kubejs/startup_scripts/global.js"
+hash = "e89d010ebdf83dbf4c1389827db5c983a25487dc5746e8c00c217775cb6420f3"
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "6c1abc7203698f420023a1655bc803113babd2dc00b2ced0e071de8b46147b5a"
 metafile = true
@@ -21,6 +41,11 @@ hash = "1611542f5f481a64e11b4a32789bd71f43e16a07e5c548ccc668c4b5de05e2bd"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
@@ -36,8 +61,18 @@ hash = "cecf861a5103ad5d9509a3b3b74d395640ca8a5f453839b73ab9be5d3dd3ad2a"
 metafile = true
 
 [[files]]
+file = "mods/cultural-delights.pw.toml"
+hash = "8db1cd4c66964aa6c04de1b55e81fc4db49692bf3b2666aacd588a7bfe95eec2"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "42a7ffa2efa0ccf9260b887714b5da8e17cc7a9a59d02aaa8061bd5bf0ab0612"
+metafile = true
+
+[[files]]
+file = "mods/delightful.pw.toml"
+hash = "7e66dc768ce9a290edf6b25bb0ee760b7aafabb8c161a2181306dfb3b2bfddee"
 metafile = true
 
 [[files]]
@@ -86,8 +121,18 @@ hash = "83e74ad407f51b12d1dd2f477323fbb012e03c50b7921416674329e5265d09a4"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/fruits-delight.pw.toml"
+hash = "4593cb02e181080c27a3afa34ed36ea2cf6b74f239f9552a9c30d8385564b941"
 metafile = true
 
 [[files]]
