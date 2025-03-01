@@ -1,13 +1,13 @@
 name = "NetherPortalFix"
-filename = "netherportalfix-forge-1.20-13.0.1.jar"
+filename = "netherportalfix-neoforge-1.21.1-21.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b110e4590177475dcde70dd9dafd5257116ad9f8"
+hash = "7cf40ec774392823e709da7659a6d4a5a04c8c9d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4939735
+file-id = 5623547
 project-id = 241160
