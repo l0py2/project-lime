@@ -221,6 +221,21 @@ hash = "5451c741d85dd5d577c60aaa9b5b42fbfe7037d3c728330dbafb8b704dfcd60d"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "c7390408edd433cf4e3381926668e784c2e575e1be58399ad71741a277805b48"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "fef053b6d59d3a9b8f8ecddf63923a6752ea3da9905c2100e21f86682ddd0af7"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "5dea91ea2463c50bb983f5d6b0ae484e801121c3f36dc86200350c08b0e631ec"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap-fair-play-edition.pw.toml"
 hash = "17f9f28d4a141165ca4b615b89f941cdaea5da3941cf7afe3ccb57aef93895b1"
 metafile = true
