@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "d431dc0ea1314bfd84dc10c94186f5f44318c8b20009574657fdb70c1a5497fa"
+
+[[files]]
 file = "kubejs/client_scripts/removed.js"
 hash = "558f3c9f4e24b44af9d47c3f500a537de1e26f2396937246833e15bd960e8d39"
 
@@ -201,6 +205,11 @@ hash = "dd105e501832dcd4e443015af266973c58586553331512a6c171d865dd36c3bc"
 metafile = true
 
 [[files]]
+file = "mods/quark.pw.toml"
+hash = "d92b242de1f5ba59226bbe69a6567493434874ecb63413fec62d82b43f081f4e"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
 metafile = true
@@ -233,4 +242,9 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "8d43bc249fa19f6f8952d530c990377669e00559063a96da67a456d5f3d4f79e"
+metafile = true
+
+[[files]]
+file = "mods/zeta.pw.toml"
+hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
 metafile = true
