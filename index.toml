@@ -26,11 +26,6 @@ hash = "93ee94801a715829fd1dd170ce76b70e4ce382c4326e5fe846dd99c5b50df4a2"
 metafile = true
 
 [[files]]
-file = "mods/amendments.pw.toml"
-hash = "3be42054b11087f043a61ab8204ffea5bb6dfca38733c3811d01b92d876d7da8"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5820ee677da3df8d38b89fb2490be39e600b4eb1cf864a344f3cdf59e1879d25"
 metafile = true
@@ -58,6 +53,11 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "3010b495fe348272f66e11617aefd064372979efc6c295502feeb8ecc7fcd3fb"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "9611d86fa097db5aff3a6bc0a085ddcaf423fb819494d24cb096566131e49cbf"
 metafile = true
 
 [[files]]
@@ -218,11 +218,6 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "5451c741d85dd5d577c60aaa9b5b42fbfe7037d3c728330dbafb8b704dfcd60d"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "1ce9d620eddeb47b96339395aaa26bd59012549ec05b502c300e9296d17710e6"
 metafile = true
 
 [[files]]
