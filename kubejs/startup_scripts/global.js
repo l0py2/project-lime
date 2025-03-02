@@ -7,7 +7,8 @@ global.id = {
 	CD: id => `culturaldelights:${id}`,
 	FD: id => `farmersdelight:${id}`,
 	BC: id => `brewinandchewin:${id}`,
-	SP: id => `supplementaries:${id}`
+	SP: id => `supplementaries:${id}`,
+	CR: id => `create:${id}`
 };
 
 global.tag = {
@@ -17,16 +18,23 @@ global.tag = {
 	CD: tag => `#culturaldelights:${tag}`,
 	FD: tag => `#farmersdelight:${tag}`,
 	BC: tag => `#brewinandchewin:${tag}`,
-	SP: tag => `#supplementaries:${tag}`
+	SP: tag => `#supplementaries:${tag}`,
+	CR: tag => `#create:${tag}`
 };
 
 global.removedItems = [
 	global.id.BC('sweet_berry_jam'),
 	global.id.BC('glow_berry_marmalade'),
 	global.id.BC('apple_jelly'),
-	global.id.FD('rope')
+	global.id.FD('rope'),
+	global.id.FD('wheat_dough')
 ];
 
 global.replacements = new Map([
-	[global.id.FD('rope'), global.tag.M('ropes')]
+	[global.id.FD('rope'), global.tag.M('ropes')],
+	[global.id.FD('wheat_dough'), global.tag.M('doughs/wheat')]
+]);
+
+global.tagReplacements = new Map([
+	[global.tag.M('foods/dough'), global.tag.M('doughs')]
 ]);

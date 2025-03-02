@@ -8,13 +8,15 @@ ServerEvents.recipes(event => {
 		'emerald',
 		'lapis',
 		'diamond',
-		'quartz'
+		'quartz',
+		'zinc'
 	];
 
 	const metals = [
 		'iron',
 		'copper',
-		'gold'
+		'gold',
+		'zinc'
 	];
 
 	for(const ore of ores) {
@@ -29,6 +31,11 @@ ServerEvents.recipes(event => {
 		event.remove({
 			type: global.id.MC('smelting'),
 			input: global.tag.M(`raw_materials/${metal}`)
+		});
+
+		event.remove({
+			type: global.id.MC('smelting'),
+			input: global.id.CR(`crushed_raw_${metal}`)
 		});
 	}
 

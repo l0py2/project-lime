@@ -9,6 +9,10 @@ file = "kubejs/client_scripts/removed.js"
 hash = "93631b9581482dda11f3eaf4d8f1472808fd545c1c6522ce6ef91b1ef6285150"
 
 [[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/scarlet_pierogi.json"
+hash = "2616d33322b2b8903930a162777b4908df2dc246eeafcff0a700570dace6bffc"
+
+[[files]]
 file = "kubejs/data/farmersdelight/loot_table/chests/fd_abandoned_mineshaft.json"
 hash = "f244c069f405f156f75798a5bee9d01983da5248b97a5b2774ab86ff74e30c12"
 
@@ -21,20 +25,44 @@ file = "kubejs/data/farmersdelight/loot_table/chests/fd_simple_dungeon.json"
 hash = "bf6b26edab7ec10b76a0ccb4bf631ad58ed22e0963d3f035dfa61b05240f84bb"
 
 [[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/blueberry_muffin.json"
+hash = "377a8db6516bf66a7846faf177264cc98bdd7a60713d84fc6a3de06ffa768e48"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/cranberry_muffin.json"
+hash = "92506d9c6ef00c8c54f58501cc94b481c941afe20553a0c52da4d7479e7056c3"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/dumplings.json"
+hash = "394121142cc8a3b235bb966364eda6a26f85513ce0d60e5329e47b6adfb92ae9"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cutting/tag_dough.json"
+hash = "1d1c025d3a1b9f5fdff9c2c685ed49e5a7b273e40b16f82f6142eb2bb7b30511"
+
+[[files]]
+file = "kubejs/server_scripts/compat.js"
+hash = "dd058789627efa6a52b228d9a241c4975a76e767f45a0bef28cb969ae7f3abe4"
+
+[[files]]
 file = "kubejs/server_scripts/food.js"
-hash = "dde2db8ab484edd7fa861b08c3ea173e2ec57b58a2abf71ff71eec7b1526322a"
+hash = "e80c1ec20dce6da5256d0fe3a6992fad0de9003776467df5c3640fdbab652b54"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "53551b6c8c00abf3f7add5b2891ca6f6d0e385b3b251a0d688635c6c1403e148"
+hash = "493bef560d7232c23825173f40c1f11e3927364a8a09d02f3570e191146f6eaa"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
-hash = "e59b94defdc88ba5404e21edfd2d01dc91c27c299427c8a8d0419eb5cf3ac596"
+hash = "c744ee26e3c84ade8c594ddcda28d3d12c4ff63a44590e10ef523f6812abb147"
+
+[[files]]
+file = "kubejs/server_scripts/replacements.js"
+hash = "7647f2556e0e6582b7a1ef568ccf932946d5ab9bf636fd445db2773c3ae060f9"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "47cfd7b8f9e65e5be0d30b863fc23d1ed2bb517fa5c3d18e1d4d1761862bb98b"
+hash = "b30c4a0500a362d884e36c8b5f17053c2f2d0a7dd625b539e5de4ab03d93571f"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -77,6 +105,11 @@ hash = "9611d86fa097db5aff3a6bc0a085ddcaf423fb819494d24cb096566131e49cbf"
 metafile = true
 
 [[files]]
+file = "mods/creeper-overhaul.pw.toml"
+hash = "09f8e2af6cb0a5151a44390389ec62012296ec069dd21eb418079e17b48c2f18"
+metafile = true
+
+[[files]]
 file = "mods/cultural-delights.pw.toml"
 hash = "cd6e0cc483152bac279296bcded6e6a9a4087efcc23b64b19f18991989cbff38"
 metafile = true
@@ -112,6 +145,11 @@ hash = "2f000026770f1e73616d1f205e9c12f6dccf3a1c6a75e7b9417cd5da96dadcf9"
 metafile = true
 
 [[files]]
+file = "mods/enderman-overhaul.pw.toml"
+hash = "18ff135f3f902bd5350f6f8a7117ef4c7bfc106cf34ad1115722bcdff154971b"
+metafile = true
+
+[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "26548b737334ce6471ba57ff8ec2171d98c5d4b47badaaf679d0f03019ffa44a"
 metafile = true
@@ -139,6 +177,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "244b1a3a3fa33fbbe45dd1516d0279c33fdcfef6157d3784cb1c895e3b09e826"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "e1646cf433abe533dce054c680d225391d3926296657ac8965cba50fbd3b7218"
 metafile = true
 
 [[files]]
@@ -209,6 +252,16 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "6a48780ffd4bc3b941f81232c84034aba5ff7645ea635c604de6df71e6596bb3"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "dfb0f7f0e79f25695ba40da7367ae4ee91c8abc3547845d117a47ecd6844b3e7"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "9d2afaf79996b50e3ec0f858eea54c77105ba7aba6d7444f8dca9559718bb4d8"
 metafile = true
 
 [[files]]

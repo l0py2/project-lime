@@ -21,7 +21,8 @@ ServerEvents.recipes(event => {
 		[global.id.MC('porkchop'), global.id.MC('cooked_porkchop')],
 		[global.id.MC('potato'), global.id.MC('baked_potato')],
 		[global.id.MC('rabbit'), global.id.MC('cooked_rabbit')],
-		[global.id.MC('salmon'), global.id.MC('cooked_salmon')]
+		[global.id.MC('salmon'), global.id.MC('cooked_salmon')],
+		[global.id.CR('dough'), global.id.MC('bread')]
 	]);
 
 	for(const [raw, cooked] of foods) {
