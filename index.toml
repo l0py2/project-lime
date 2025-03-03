@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/chalk-common.toml"
+hash = "4618873ea96f252301e2056b7caa83be38d2d0bfdbbfaea0237aa8c5661712d7"
+
+[[files]]
 file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
@@ -70,6 +74,11 @@ hash = "93ee94801a715829fd1dd170ce76b70e4ce382c4326e5fe846dd99c5b50df4a2"
 metafile = true
 
 [[files]]
+file = "mods/amendments.pw.toml"
+hash = "4200c102ef646b37b6e171cf40fd40722a7e065ee1ba93ef3a5ad5b707d54d74"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5820ee677da3df8d38b89fb2490be39e600b4eb1cf864a344f3cdf59e1879d25"
 metafile = true
@@ -82,6 +91,16 @@ metafile = true
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "466713636a7706abe3cadb89992717a95b739422217eaae660d9ea0468f87b00"
+metafile = true
+
+[[files]]
+file = "mods/chalk.pw.toml"
+hash = "b27a0261faa8d2472d9a41fa11370b7ae30dd2f141f3bcd0a117f7866db5d287"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "fe8b5115a0b4b8b4eb596da39c532d3274b21480abe3d2f40fa723676f0b99f1"
 metafile = true
 
 [[files]]
@@ -171,7 +190,7 @@ metafile = true
 
 [[files]]
 file = "mods/fruits-delight.pw.toml"
-hash = "10e6216889a468d202183be603efb3a0ba9b49b18766b546686e77b4db8a0fc1"
+hash = "56b8cc46b1aba6a7ddc8b43d9bb94408cce9df15db85351b57fc8df09fb29fd1"
 metafile = true
 
 [[files]]
