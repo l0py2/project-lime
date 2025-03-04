@@ -90,7 +90,7 @@ metafile = true
 
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
-hash = "466713636a7706abe3cadb89992717a95b739422217eaae660d9ea0468f87b00"
+hash = "e0625f0b158508db25290e5f0378fa5d90090fb35ab2ea5d105a2311afe57185"
 metafile = true
 
 [[files]]
@@ -171,11 +171,6 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "26548b737334ce6471ba57ff8ec2171d98c5d4b47badaaf679d0f03019ffa44a"
-metafile = true
-
-[[files]]
-file = "mods/falling-tree.pw.toml"
-hash = "942736c11baec981007a89f08c77c5058f9d2fe56e9010566c8c29df5c572149"
 metafile = true
 
 [[files]]
@@ -331,6 +326,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "51579c41cb422e211823df47fba581623854b189a600f013fb7278862c6a2900"
+metafile = true
+
+[[files]]
+file = "mods/treechop.pw.toml"
+hash = "f0770e8df6212a00fcea3dcd72bdcaa344fa745593abc867b7e499fb493556b6"
 metafile = true
 
 [[files]]
