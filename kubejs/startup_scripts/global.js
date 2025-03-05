@@ -9,7 +9,9 @@ global.id = {
 	BC: id => `brewinandchewin:${id}`,
 	SP: id => `supplementaries:${id}`,
 	CR: id => `create:${id}`,
-	CF: id => `comforts:${id}`
+	CF: id => `comforts:${id}`,
+	SS: id => `sophisticatedstorage:${id}`,
+	SB: id => `sophisticatedbackpacks:${id}`
 };
 
 global.tag = {
@@ -21,7 +23,9 @@ global.tag = {
 	BC: tag => `#brewinandchewin:${tag}`,
 	SP: tag => `#supplementaries:${tag}`,
 	CR: tag => `#create:${tag}`,
-	CF: tag => `#comforts:${tag}`
+	CF: tag => `#comforts:${tag}`,
+	SS: tag => `#sophisticatedstorage:${tag}`,
+	SB: tag => `#sophisticatedbackpacks:${tag}`
 };
 
 global.removedItems = [
@@ -34,7 +38,16 @@ global.removedItems = [
 
 global.removedRecipes = [
 	global.id.CF('rope_and_nail'),
-	global.id.FD('bread_from_smoking')
+	global.id.FD('bread_from_smoking'),
+	global.id.MC('cake'),
+	global.id.SS('smoking_upgrade_from_smelting_upgrade'),
+	global.id.SS('auto_smoking_upgrade_from_auto_smelting_upgrade'),
+	global.id.SS('blasting_upgrade_from_smelting_upgrade'),
+	global.id.SS('auto_blasting_upgrade_from_auto_smelting_upgrade'),
+	global.id.SB('smoking_upgrade_from_smelting_upgrade'),
+	global.id.SB('auto_smoking_upgrade_from_auto_smelting_upgrade'),
+	global.id.SB('blasting_upgrade_from_smelting_upgrade'),
+	global.id.SB('auto_blasting_upgrade_from_auto_smelting_upgrade')
 ];
 
 global.inputReplacements = new Map([

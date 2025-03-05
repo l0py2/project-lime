@@ -9,8 +9,12 @@ file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "273b033403b3bc377ea91a4044780f39d0f173d96c9725f3904b8d763bec7600"
+
+[[files]]
 file = "kubejs/client_scripts/removed.js"
-hash = "93631b9581482dda11f3eaf4d8f1472808fd545c1c6522ce6ef91b1ef6285150"
+hash = "eff88b56cea59a499bf633946d61875f2650be6e184378815747fc513b189fea"
 
 [[files]]
 file = "kubejs/data/brewinandchewin/recipe/cooking/scarlet_pierogi.json"
@@ -70,7 +74,7 @@ hash = "ca6c7223e85f4f8351ccc1bb298f11c6a407c49eb5cb879083e2b19db5b4865f"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "d59af52f80e0197c2d02c5f032a84ade2cb97ed24dee7ec6b176e4b85f7b4ac7"
+hash = "4aa7fb599a7ed03d41935288440a64fed944f96c7e179f3cf262e35d6a26d549"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -319,7 +323,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "fef053b6d59d3a9b8f8ecddf63923a6752ea3da9905c2100e21f86682ddd0af7"
+hash = "4921b5e1627cf9660decd945d6c9e1305729c22f8362e0be6eea87faf7224a73"
 metafile = true
 
 [[files]]
