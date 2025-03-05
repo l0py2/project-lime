@@ -43,4 +43,8 @@ ServerEvents.recipes(event => {
 		type: global.id.MC('smelting'),
 		input: global.tag.M('ores/netherite_scrap')
 	});
+
+	event.smelting(global.id.MC('copper_ingot'), global.tag.M('ores/copper')).xp(0.7);
+	event.smelting(global.id.MC('copper_ingot'), global.tag.M('raw_materials/copper')).xp(0.7);
+	event.smelting(global.id.MC('copper_ingot'), global.id.CR('crushed_raw_copper')).xp(0.1);
 });

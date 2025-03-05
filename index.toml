@@ -54,19 +54,23 @@ hash = "e80c1ec20dce6da5256d0fe3a6992fad0de9003776467df5c3640fdbab652b54"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "493bef560d7232c23825173f40c1f11e3927364a8a09d02f3570e191146f6eaa"
+hash = "f51e009f2389f3801316b3ba5595bc4ea15dc48ff88d696f9651839c9ceaf42d"
+
+[[files]]
+file = "kubejs/server_scripts/progression.js"
+hash = "58bdb89f6734cca1c9013789137ba0d8d54f0c9993a8b0b5542b7918f74ef045"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
-hash = "c744ee26e3c84ade8c594ddcda28d3d12c4ff63a44590e10ef523f6812abb147"
+hash = "ce59e4158f1ebe241c8d4ad0f9022fe8d8653abf11ce60e37b7668a29fed9a90"
 
 [[files]]
 file = "kubejs/server_scripts/replacements.js"
-hash = "7647f2556e0e6582b7a1ef568ccf932946d5ab9bf636fd445db2773c3ae060f9"
+hash = "ca6c7223e85f4f8351ccc1bb298f11c6a407c49eb5cb879083e2b19db5b4865f"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "b30c4a0500a362d884e36c8b5f17053c2f2d0a7dd625b539e5de4ab03d93571f"
+hash = "d59af52f80e0197c2d02c5f032a84ade2cb97ed24dee7ec6b176e4b85f7b4ac7"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
