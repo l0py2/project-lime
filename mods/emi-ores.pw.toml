@@ -1,13 +1,13 @@
 name = "EMI Ores"
-filename = "emi_ores-1.2+1.21.1+neoforge.jar"
+filename = "emi_ores-1.2+1.20.1+forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2326620a11ad9ca463ef3a8cfa7d8f5ae169b756"
+hash = "c821f26e4a00c14fb453bfdb7628aec59fd2acf1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6060348
+file-id = 6060341
 project-id = 974009

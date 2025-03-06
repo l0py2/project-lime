@@ -1,13 +1,13 @@
 name = "AppleSkin"
-filename = "appleskin-neoforge-mc1.21-3.0.5.jar"
+filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "057b483076431549ca8257095e498e42321abb60"
+hash = "81919356f84eab14258db98924b66c3c38e372b1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5586600
+file-id = 4770828
 project-id = 248787
