@@ -1,7 +1,7 @@
 // priority: 0
 
 global.id = {
-	M: id => `c:${id}`,
+	M: id => `forge:${id}`,
 	MC: id => `minecraft:${id}`,
 	KJ: id => `kubejs:${id}`,
 	CD: id => `culturaldelights:${id}`,
@@ -11,11 +11,12 @@ global.id = {
 	CR: id => `create:${id}`,
 	CF: id => `comforts:${id}`,
 	SS: id => `sophisticatedstorage:${id}`,
-	SB: id => `sophisticatedbackpacks:${id}`
+	SB: id => `sophisticatedbackpacks:${id}`,
+	DF: id => `delightful:${id}`
 };
 
 global.tag = {
-	M: tag => `#c:${tag}`,
+	M: tag => `#forge:${tag}`,
 	MC: tag => `#minecraft:${tag}`,
 	KJ: tag => `#kubejs:${tag}`,
 	CD: tag => `#culturaldelights:${tag}`,
@@ -25,7 +26,8 @@ global.tag = {
 	CR: tag => `#create:${tag}`,
 	CF: tag => `#comforts:${tag}`,
 	SS: tag => `#sophisticatedstorage:${tag}`,
-	SB: tag => `#sophisticatedbackpacks:${tag}`
+	SB: tag => `#sophisticatedbackpacks:${tag}`,
+	DF: tag => `#delightful:${tag}`
 };
 
 global.removedItems = [
@@ -38,7 +40,7 @@ global.removedItems = [
 
 global.removedRecipes = [
 	global.id.CF('rope_and_nail'),
-	global.id.FD('bread_from_smoking'),
+	global.id.CR('smoking/bread'),
 	global.id.MC('cake'),
 	global.id.SS('smoking_upgrade_from_smelting_upgrade'),
 	global.id.SS('auto_smoking_upgrade_from_auto_smelting_upgrade'),
@@ -52,7 +54,7 @@ global.removedRecipes = [
 
 global.inputReplacements = new Map([
 	[global.id.FD('rope'), global.tag.M('ropes')],
-	[global.id.FD('wheat_dough'), global.tag.M('doughs/wheat')]
+	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')]
 ]);
 
 global.outputReplacements = new Map([
@@ -61,5 +63,4 @@ global.outputReplacements = new Map([
 ]);
 
 global.tagReplacements = new Map([
-	[global.tag.M('foods/dough'), global.tag.M('doughs/wheat')]
 ]);

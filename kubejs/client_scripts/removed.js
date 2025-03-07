@@ -1,4 +1,4 @@
-ItemEvents.modifyTooltips(event => {
+ItemEvents.tooltip(event => {
 	event.add(global.removedItems, Text.red('Item removed'));
 
 	for(const [original, replacement] of global.inputReplacements) {

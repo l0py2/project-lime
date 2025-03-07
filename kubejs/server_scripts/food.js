@@ -22,7 +22,11 @@ ServerEvents.recipes(event => {
 		[global.id.MC('potato'), global.id.MC('baked_potato')],
 		[global.id.MC('rabbit'), global.id.MC('cooked_rabbit')],
 		[global.id.MC('salmon'), global.id.MC('cooked_salmon')],
-		[global.id.CR('dough'), global.id.MC('bread')]
+		[global.id.CR('dough'), global.id.MC('bread')],
+		[global.id.DF('cactus_flesh'), global.id.DF('cactus_steak')],
+		[global.id.DF('acorn'), global.id.DF('roasted_acorn')],
+		[global.id.DF('venison_chops'), global.id.DF('cooked_venison_chops')],
+		[global.id.DF('raw_goat'), global.id.DF('cooked_goat')]
 	]);
 
 	for(const [raw, cooked] of foods) {

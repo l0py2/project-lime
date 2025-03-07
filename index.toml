@@ -14,11 +14,11 @@ hash = "273b033403b3bc377ea91a4044780f39d0f173d96c9725f3904b8d763bec7600"
 
 [[files]]
 file = "kubejs/client_scripts/removed.js"
-hash = "eff88b56cea59a499bf633946d61875f2650be6e184378815747fc513b189fea"
+hash = "f4c06db83440c1136dfcd4315b0df34f67246a8b8488579fdff9200518afd863"
 
 [[files]]
-file = "kubejs/data/brewinandchewin/recipe/cooking/scarlet_pierogi.json"
-hash = "2616d33322b2b8903930a162777b4908df2dc246eeafcff0a700570dace6bffc"
+file = "kubejs/data/brewinandchewin/recipes/cooking/scarlet_pierogi.json"
+hash = "10fa66e87d6aff64287a1e437a7a8a3c1bd92a352c95eca1a3999efb0b8ef4f1"
 
 [[files]]
 file = "kubejs/data/farmersdelight/loot_table/chests/fd_abandoned_mineshaft.json"
@@ -33,28 +33,16 @@ file = "kubejs/data/farmersdelight/loot_table/chests/fd_simple_dungeon.json"
 hash = "bf6b26edab7ec10b76a0ccb4bf631ad58ed22e0963d3f035dfa61b05240f84bb"
 
 [[files]]
-file = "kubejs/data/farmersdelight/recipe/cooking/blueberry_muffin.json"
-hash = "377a8db6516bf66a7846faf177264cc98bdd7a60713d84fc6a3de06ffa768e48"
+file = "kubejs/data/farmersdelight/recipes/cooking/dumplings.json"
+hash = "e4843644f43254c797ef16b395fbf1284e6bad8b26f78b9f100763f832bca08a"
 
 [[files]]
-file = "kubejs/data/farmersdelight/recipe/cooking/cranberry_muffin.json"
-hash = "92506d9c6ef00c8c54f58501cc94b481c941afe20553a0c52da4d7479e7056c3"
-
-[[files]]
-file = "kubejs/data/farmersdelight/recipe/cooking/dumplings.json"
-hash = "394121142cc8a3b235bb966364eda6a26f85513ce0d60e5329e47b6adfb92ae9"
-
-[[files]]
-file = "kubejs/data/farmersdelight/recipe/cutting/tag_dough.json"
-hash = "1d1c025d3a1b9f5fdff9c2c685ed49e5a7b273e40b16f82f6142eb2bb7b30511"
-
-[[files]]
-file = "kubejs/server_scripts/compat.js"
-hash = "dd058789627efa6a52b228d9a241c4975a76e767f45a0bef28cb969ae7f3abe4"
+file = "kubejs/data/farmersdelight/recipes/cutting/tag_dough.json"
+hash = "627d8e1029399e156ea038a986d5926e94b127354e35a7ebe9623b6488a489d1"
 
 [[files]]
 file = "kubejs/server_scripts/food.js"
-hash = "e80c1ec20dce6da5256d0fe3a6992fad0de9003776467df5c3640fdbab652b54"
+hash = "f5735e7260daeb026c689b5fdd77fc507a7979441051c30a137bd0d5449b8f0c"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
@@ -66,15 +54,11 @@ hash = "58bdb89f6734cca1c9013789137ba0d8d54f0c9993a8b0b5542b7918f74ef045"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
-hash = "ce59e4158f1ebe241c8d4ad0f9022fe8d8653abf11ce60e37b7668a29fed9a90"
-
-[[files]]
-file = "kubejs/server_scripts/replacements.js"
-hash = "ca6c7223e85f4f8351ccc1bb298f11c6a407c49eb5cb879083e2b19db5b4865f"
+hash = "4751ea290e5a6387595db20c3d846a6158bb3fb5a70ca6988589fac6782ba3df"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "4aa7fb599a7ed03d41935288440a64fed944f96c7e179f3cf262e35d6a26d549"
+hash = "5c88bbbb46470abd7b544890bebbd141007da4fb0960b9a6108ecd46f7f1c4ad"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -149,6 +133,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "42a7ffa2efa0ccf9260b887714b5da8e17cc7a9a59d02aaa8061bd5bf0ab0612"
+metafile = true
+
+[[files]]
+file = "mods/delightful.pw.toml"
+hash = "7e66dc768ce9a290edf6b25bb0ee760b7aafabb8c161a2181306dfb3b2bfddee"
 metafile = true
 
 [[files]]

@@ -2,7 +2,7 @@
 
 ServerEvents.tags('item', event => {
 	for(const item of global.removedItems) {
-		// event.removeAllTagsFrom(item);
+		event.removeAllTagsFrom(item);
 		event.add(global.id.KJ('removed'), item);
 	}
 });
