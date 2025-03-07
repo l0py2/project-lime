@@ -12,7 +12,8 @@ global.id = {
 	CF: id => `comforts:${id}`,
 	SS: id => `sophisticatedstorage:${id}`,
 	SB: id => `sophisticatedbackpacks:${id}`,
-	DF: id => `delightful:${id}`
+	DF: id => `delightful:${id}`,
+	QK: id => `quark:${id}`
 };
 
 global.tag = {
@@ -27,7 +28,8 @@ global.tag = {
 	CF: tag => `#comforts:${tag}`,
 	SS: tag => `#sophisticatedstorage:${tag}`,
 	SB: tag => `#sophisticatedbackpacks:${tag}`,
-	DF: tag => `#delightful:${tag}`
+	DF: tag => `#delightful:${tag}`,
+	QK: tag => `#quark:${tag}`
 };
 
 global.removedItems = [
@@ -35,7 +37,8 @@ global.removedItems = [
 	global.id.BC('glow_berry_marmalade'),
 	global.id.BC('apple_jelly'),
 	global.id.FD('rope'),
-	global.id.FD('wheat_dough')
+	global.id.FD('wheat_dough'),
+	global.id.QK('rope')
 ];
 
 global.removedRecipes = [

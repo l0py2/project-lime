@@ -9,6 +9,10 @@ file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "d431dc0ea1314bfd84dc10c94186f5f44318c8b20009574657fdb70c1a5497fa"
+
+[[files]]
 file = "config/sophisticatedbackpacks-server.toml"
 hash = "273b033403b3bc377ea91a4044780f39d0f173d96c9725f3904b8d763bec7600"
 
@@ -42,15 +46,15 @@ hash = "627d8e1029399e156ea038a986d5926e94b127354e35a7ebe9623b6488a489d1"
 
 [[files]]
 file = "kubejs/server_scripts/food.js"
-hash = "f5735e7260daeb026c689b5fdd77fc507a7979441051c30a137bd0d5449b8f0c"
+hash = "258183cf1a08d2154a856f7f07d659b6aeec29c33dd84646892a81051cbf2201"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "f51e009f2389f3801316b3ba5595bc4ea15dc48ff88d696f9651839c9ceaf42d"
+hash = "4f6a78b0766f7a3987ce82d253dc098d1efbbf33aac42b670e4526655ee37f5d"
 
 [[files]]
 file = "kubejs/server_scripts/progression.js"
-hash = "58bdb89f6734cca1c9013789137ba0d8d54f0c9993a8b0b5542b7918f74ef045"
+hash = "66e944b8b079d98457c4889d17f5c634ae87e062c6949087af1dbd3ac4aa9d90"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
@@ -58,7 +62,7 @@ hash = "4751ea290e5a6387595db20c3d846a6158bb3fb5a70ca6988589fac6782ba3df"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "5c88bbbb46470abd7b544890bebbd141007da4fb0960b9a6108ecd46f7f1c4ad"
+hash = "2f7d8d8914d4e2558a7a35c5cab441ca3435de042f1962fef8952f12214b8889"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -281,6 +285,11 @@ hash = "dd105e501832dcd4e443015af266973c58586553331512a6c171d865dd36c3bc"
 metafile = true
 
 [[files]]
+file = "mods/quark.pw.toml"
+hash = "d92b242de1f5ba59226bbe69a6567493434874ecb63413fec62d82b43f081f4e"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "e242387207a2538b5ccb55697174c65e549e1eb2fef9da37e1ad3734e0372b65"
 metafile = true
@@ -343,4 +352,9 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "8d43bc249fa19f6f8952d530c990377669e00559063a96da67a456d5f3d4f79e"
+metafile = true
+
+[[files]]
+file = "mods/zeta.pw.toml"
+hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
 metafile = true

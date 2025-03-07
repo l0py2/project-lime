@@ -26,7 +26,8 @@ ServerEvents.recipes(event => {
 		[global.id.DF('cactus_flesh'), global.id.DF('cactus_steak')],
 		[global.id.DF('acorn'), global.id.DF('roasted_acorn')],
 		[global.id.DF('venison_chops'), global.id.DF('cooked_venison_chops')],
-		[global.id.DF('raw_goat'), global.id.DF('cooked_goat')]
+		[global.id.DF('raw_goat'), global.id.DF('cooked_goat')],
+		[global.id.QK('crab_leg'), global.id.QK('cooked_crab_leg')]
 	]);
 
 	for(const [raw, cooked] of foods) {
