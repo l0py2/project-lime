@@ -90,6 +90,11 @@ hash = "1611542f5f481a64e11b4a32789bd71f43e16a07e5c548ccc668c4b5de05e2bd"
 metafile = true
 
 [[files]]
+file = "mods/botarium.pw.toml"
+hash = "008c942efc2e2ec221dd1a760b4a50e2f24ede37747731ba794f5e845554adcb"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
 metafile = true
@@ -117,6 +122,21 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "cecf861a5103ad5d9509a3b3b74d395640ca8a5f453839b73ab9be5d3dd3ad2a"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "cb048e7c3809dc73231f3a501b9d1e9ab6aa00e25f58ee58296dcee8c8f9c4fc"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "ba81f1ea77e2d8d98669001e344966ed7b234e464b02b92da32ba93ed1409479"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "daf1255fbd2312eaef5aed51d659c4db0d5bd99ff193dfd9425b5cf0e2121ab9"
 metafile = true
 
 [[files]]
@@ -332,6 +352,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "11200bd0dd2d6ad0399b466d1fac4f82166f8637f820789a940e6e3a04a076c4"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "ebc991519db80f7009e67023483354bb562ee939eeac754cf4cb290e29d01761"
 metafile = true
 
 [[files]]
