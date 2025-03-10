@@ -13,7 +13,8 @@ global.id = {
 	SS: id => `sophisticatedstorage:${id}`,
 	SB: id => `sophisticatedbackpacks:${id}`,
 	DF: id => `delightful:${id}`,
-	QK: id => `quark:${id}`
+	QK: id => `quark:${id}`,
+	IE: id => `immersiveengineering:${id}`
 };
 
 global.tag = {
@@ -29,7 +30,8 @@ global.tag = {
 	SS: tag => `#sophisticatedstorage:${tag}`,
 	SB: tag => `#sophisticatedbackpacks:${tag}`,
 	DF: tag => `#delightful:${tag}`,
-	QK: tag => `#quark:${tag}`
+	QK: tag => `#quark:${tag}`,
+	IE: tag => `#immersiveengineering:${tag}`
 };
 
 global.removedItems = [
