@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "cb048e7c3809dc73231f3a501b9d1e9ab6aa00e25f58ee58296dcee8c8f9c4fc"
+hash = "c7193b5dc511caf376fe856d3f2f5eedb994cf4f73a40cca7cd61be3fb77757b"
 metafile = true
 
 [[files]]
@@ -142,6 +142,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "c2e63418455ca7d355e4d6128c68c064a4eb996d34bdf9fa096923ec250ef8f2"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "8c6d2dff8778cdeaad90179a845a732562d4dab67ab1fb58c1eee0f34bcc12db"
 metafile = true
 
 [[files]]
@@ -210,6 +215,11 @@ hash = "f29e468a2aa1801bc8d9fdb0608b148d3e6eca97b25ef146a3e5d26bdff03f89"
 metafile = true
 
 [[files]]
+file = "mods/energymeter.pw.toml"
+hash = "96c83f92d038524c36df54aadad8a3d8ba4a3f3643b998a1a5a228a9f35e2abc"
+metafile = true
+
+[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "87e77b3a90d27e21cc0e26e206e7325a8f1465b64c7fdf11f3f993e029b54106"
 metafile = true
@@ -231,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "fd0df6f14400f69678d3c06bc87df2e7edb2c6c424dca07a452d39180d18ea04"
+hash = "a564acf776c87622ceab1ca636510b26cf38c613abb544b6e57c244af45694cc"
 metafile = true
 
 [[files]]
@@ -261,7 +271,7 @@ metafile = true
 
 [[files]]
 file = "mods/jaopca.pw.toml"
-hash = "e27ee85458122d15a31d6e739de98e4979d9a03a679f366fc607341523748c97"
+hash = "7afbe55592636e9d19043b5f5c5a8abc4fe4c03c220566f1cbe982f87e50831c"
 metafile = true
 
 [[files]]
@@ -351,7 +361,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "11200bd0dd2d6ad0399b466d1fac4f82166f8637f820789a940e6e3a04a076c4"
+hash = "f08c0d97c4de9d257c11a553e4145143579bb8ce032961a141f9db6243f3af38"
 metafile = true
 
 [[files]]
