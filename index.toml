@@ -25,6 +25,10 @@ file = "config/sophisticatedbackpacks-server.toml"
 hash = "273b033403b3bc377ea91a4044780f39d0f173d96c9725f3904b8d763bec7600"
 
 [[files]]
+file = "kubejs/assets/immersiveengineering/sounds/dire_switch.ogg"
+hash = "808c26859196e4f66d6676db9998fd9ab040d70f66a3879d64c8ae5d56a6177a"
+
+[[files]]
 file = "kubejs/client_scripts/removed.js"
 hash = "f4c06db83440c1136dfcd4315b0df34f67246a8b8488579fdff9200518afd863"
 
