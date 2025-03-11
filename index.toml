@@ -139,7 +139,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "ba81f1ea77e2d8d98669001e344966ed7b234e464b02b92da32ba93ed1409479"
+hash = "c325aa8388d7b22f9c574e7e1b89d786e49da696f12c309f2545fa235a96321d"
 metafile = true
 
 [[files]]
@@ -229,7 +229,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "87e77b3a90d27e21cc0e26e206e7325a8f1465b64c7fdf11f3f993e029b54106"
+hash = "7115c7e8264168cbaa840a50b3097272f85fbb597c10e7380e5573b5710a40d6"
 metafile = true
 
 [[files]]
