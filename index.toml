@@ -278,11 +278,6 @@ hash = "aba5a3408880f30daf3442ff6d0a640e9a78e578d9f0c3a3be175ca12dbc3167"
 metafile = true
 
 [[files]]
-file = "mods/jaopca.pw.toml"
-hash = "7afbe55592636e9d19043b5f5c5a8abc4fe4c03c220566f1cbe982f87e50831c"
-metafile = true
-
-[[files]]
 file = "mods/jei.pw.toml"
 hash = "fd35eb8e67f11aec4ae71465ac1b2d9599039d1b3efd8f463655b58f744b5a09"
 metafile = true
