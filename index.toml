@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/almostunified/unify.json"
+hash = "a8f2a9cc1eaac30d34942f12ce51914ce00b8d236465724882117cdd9f078d14"
+
+[[files]]
 file = "config/chalk-common.toml"
 hash = "4618873ea96f252301e2056b7caa83be38d2d0bfdbbfaea0237aa8c5661712d7"
 
@@ -9,8 +13,12 @@ file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
+file = "config/immersiveengineering-common.toml"
+hash = "212d895fc14eeda3e85d7af14208dca07dfad21bbedb9517e73cf41debb3e0eb"
+
+[[files]]
 file = "config/quark-common.toml"
-hash = "d431dc0ea1314bfd84dc10c94186f5f44318c8b20009574657fdb70c1a5497fa"
+hash = "23d862053847f46db9a4ed16093614abe55e04e6050c76e1f32376f7a1700f96"
 
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
@@ -355,6 +363,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
+metafile = true
+
+[[files]]
+file = "mods/sawmill.pw.toml"
+hash = "ec9d9cf55405c1520fab9a8147f241ec2016c66610335fb30e4230f7b1d25b0f"
 metafile = true
 
 [[files]]
