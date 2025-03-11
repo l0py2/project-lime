@@ -66,7 +66,7 @@ hash = "258183cf1a08d2154a856f7f07d659b6aeec29c33dd84646892a81051cbf2201"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "4f6a78b0766f7a3987ce82d253dc098d1efbbf33aac42b670e4526655ee37f5d"
+hash = "34892cac8f224af9b83fade68fc280276adf0d163c2f6dc735951ea034a0dfb9"
 
 [[files]]
 file = "kubejs/server_scripts/progression.js"

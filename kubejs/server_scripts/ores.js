@@ -9,14 +9,31 @@ ServerEvents.recipes(event => {
 		'lapis',
 		'diamond',
 		'quartz',
-		'zinc'
+		'zinc',
+		'uranium',
+		'lead',
+		'nickel',
+		'silver',
+		'aluminum'
 	];
 
 	const metals = [
 		'iron',
 		'copper',
 		'gold',
-		'zinc'
+		'zinc',
+		'uranium',
+		'lead',
+		'nickel',
+		'silver',
+		'aluminum'
+	];
+
+	const alloys = [
+		'electrum',
+		'constantan',
+		'steel',
+		'hop_graphite'
 	];
 
 	for(const ore of ores) {
@@ -24,7 +41,6 @@ ServerEvents.recipes(event => {
 			type: global.id.MC('smelting'),
 			input: global.tag.M(`ores/${ore}`)
 		});
-
 	}
 
 	for(const metal of metals) {
@@ -47,6 +63,18 @@ ServerEvents.recipes(event => {
 			type: global.id.MC('smelting'),
 			input: global.id.QK(`raw_${metal}_bricks`)
 		});
+
+		event.remove({
+			type: global.id.MC('smelting'),
+			input: global.tag.M(`dusts/${metal}`)
+		});
+	}
+
+	for (const alloy of alloys) {
+		event.remove({
+			type: global.id.MC('smelting'),
+			input: global.tag.M(`dusts/${alloy}`)
+		});
 	}
 
 	event.remove({
@@ -59,4 +87,5 @@ ServerEvents.recipes(event => {
 	event.smelting(global.id.MC('copper_ingot'), global.tag.M('storage_blocks/raw_copper')).xp(6.3);
 	event.smelting(global.id.MC('copper_ingot'), global.id.CR('crushed_raw_copper')).xp(0.1);
 	event.smelting(global.id.MC('copper_ingot'), global.id.QK('raw_copper_bricks')).xp(6.3);
+	event.smelting(global.id.MC('copper_ingot'), global.tag.M('dusts/copper'));
 });
