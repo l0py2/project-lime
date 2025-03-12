@@ -74,7 +74,7 @@ hash = "66e944b8b079d98457c4889d17f5c634ae87e062c6949087af1dbd3ac4aa9d90"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
-hash = "4751ea290e5a6387595db20c3d846a6158bb3fb5a70ca6988589fac6782ba3df"
+hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
 
 [[files]]
 file = "kubejs/server_scripts/voltage.js"
@@ -82,7 +82,7 @@ hash = "5f40e348b20e3fc172374d9bc4e3d997017f214c84d3d43960bc22b475970130"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "93ef57f6fb2cdbe3b36d95435ffcf2642cde94bb54aacba519d663d6aad3bfe3"
+hash = "95c5e7d9b808a20ac62350e10be657caea33ae7212ebfe86e473c9b53decc33d"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

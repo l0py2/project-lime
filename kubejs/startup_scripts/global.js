@@ -14,7 +14,8 @@ global.id = {
 	SB: id => `sophisticatedbackpacks:${id}`,
 	DF: id => `delightful:${id}`,
 	QK: id => `quark:${id}`,
-	IE: id => `immersiveengineering:${id}`
+	IE: id => `immersiveengineering:${id}`,
+	DG: id => `createdieselgenerators:${id}`
 };
 
 global.tag = {
@@ -31,7 +32,8 @@ global.tag = {
 	SB: tag => `#sophisticatedbackpacks:${tag}`,
 	DF: tag => `#delightful:${tag}`,
 	QK: tag => `#quark:${tag}`,
-	IE: tag => `#immersiveengineering:${tag}`
+	IE: tag => `#immersiveengineering:${tag}`,
+	DG: tag => `#createdieselgenerators:${tag}`
 };
 
 global.removedItems = [
@@ -40,7 +42,18 @@ global.removedItems = [
 	global.id.BC('apple_jelly'),
 	global.id.FD('rope'),
 	global.id.FD('wheat_dough'),
-	global.id.QK('rope')
+	global.id.QK('rope'),
+	global.id.DG('wire_cutters'),
+	global.id.DG('hammer'),
+	global.id.DG('mold'),
+	global.id.DG('track_layers_bar'),
+	global.id.DG('sheet_metal_panel'),
+	global.id.DG('oil_barrel')
+];
+
+global.removedRecipeTypes = [
+	global.id.DG('wire_cutting'),
+	global.id.DG('hammering')
 ];
 
 global.removedRecipes = [

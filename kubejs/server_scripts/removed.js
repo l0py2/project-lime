@@ -8,6 +8,10 @@ ServerEvents.tags('item', event => {
 });
 
 ServerEvents.recipes(event => {
+	for(const type of global.removedRecipeTypes) {
+		event.remove({ type: type });
+	}
+
 	for(const recipe of global.removedRecipes) {
 		event.remove({ id: recipe });
 	}
