@@ -71,7 +71,13 @@ global.removedItems = [
 	global.id.CA('festive_spool'),
 	global.id.CA('tesla_coil'),
 	global.id.CA('portable_energy_interface'),
-	global.id.CA('modular_accumulator')
+	global.id.CA('modular_accumulator'),
+	global.id.IE('waterwheel_segment'),
+	global.id.IE('watermill'),
+	global.id.IE('windmill_sail'),
+	global.id.IE('windmill_blade'),
+	global.id.IE('windmill'),
+	global.id.IE('dynamo')
 ];
 
 global.removedRecipeTypes = [
@@ -98,7 +104,8 @@ global.inputReplacements = new Map([
 	[global.id.FD('rope'), global.tag.M('ropes')],
 	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')],
 	[global.id.NA('copper_wire'), global.tag.M('wires/copper')],
-	[global.id.CA('copper_spool'), global.tag.M('wires/copper')]
+	[global.id.CA('copper_spool'), global.tag.M('wires/copper')],
+	[global.id.IE('windmill'), global.id.CR('windmill_bearing')]
 ]);
 
 global.outputReplacements = new Map([

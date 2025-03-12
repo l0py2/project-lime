@@ -1,28 +1,14 @@
 ServerEvents.recipes(event => {
 	function newAgeEnergising(input, output, energy) {
-		const ingredients = input.startsWith('#') ?
-			[{
-				tag: input.slice(1)
-			}]
-			:
-			[{
-				item: input
-			}];
-
-		const results = output.startsWith('#') ?
-			[{
-				tag: output.slice(1)
-			}]
-			:
-			[{
-				item: output
-			}];
-
 		event.custom({
 			type: global.id.NA('energising'),
 			energy_needed: energy,
-			ingredients: ingredients,
-			results: results
+			ingredients: [{
+				item: input
+			}],
+			results: [{
+				item: output
+			}]
 		});
 	}
 
