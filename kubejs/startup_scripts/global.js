@@ -16,7 +16,8 @@ global.id = {
 	QK: id => `quark:${id}`,
 	IE: id => `immersiveengineering:${id}`,
 	DG: id => `createdieselgenerators:${id}`,
-	NA: id => `create_new_age:${id}`
+	NA: id => `create_new_age:${id}`,
+	CA: id => `createaddition:${id}`
 };
 
 global.tag = {
@@ -35,7 +36,8 @@ global.tag = {
 	QK: tag => `#quark:${tag}`,
 	IE: tag => `#immersiveengineering:${tag}`,
 	DG: tag => `#createdieselgenerators:${tag}`,
-	NA: tag => `#create_new_age:${tag}`
+	NA: tag => `#create_new_age:${tag}`,
+	CA: tag => `#createaddition:${tag}`
 };
 
 global.removedItems = [
@@ -48,19 +50,34 @@ global.removedItems = [
 	global.id.DG('wire_cutters'),
 	global.id.DG('hammer'),
 	global.id.DG('mold'),
-	global.id.DG('track_layers_bar'),
+	global.id.DG('track_layers_bag'),
 	global.id.DG('sheet_metal_panel'),
 	global.id.DG('oil_barrel'),
 	global.id.NA('electrical_connector'),
 	global.id.NA('copper_wire'),
 	global.id.NA('overcharged_iron_wire'),
 	global.id.NA('overcharged_golden_wire'),
-	global.id.NA('overcharged_diamond_wire')
+	global.id.NA('overcharged_diamond_wire'),
+	global.id.CA('electric_motor'),
+	global.id.CA('alternator'),
+	global.id.CA('connector'),
+	global.id.CA('small_light_connector'),
+	global.id.CA('large_connector'),
+	global.id.CA('redstone_relay'),
+	global.id.CA('spool'),
+	global.id.CA('copper_spool'),
+	global.id.CA('gold_spool'),
+	global.id.CA('electrum_spool'),
+	global.id.CA('festive_spool'),
+	global.id.CA('tesla_coil'),
+	global.id.CA('portable_energy_interface'),
+	global.id.CA('modular_accumulator')
 ];
 
 global.removedRecipeTypes = [
 	global.id.DG('wire_cutting'),
-	global.id.DG('hammering')
+	global.id.DG('hammering'),
+	global.id.CA('charging')
 ];
 
 global.removedRecipes = [
@@ -80,7 +97,8 @@ global.removedRecipes = [
 global.inputReplacements = new Map([
 	[global.id.FD('rope'), global.tag.M('ropes')],
 	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')],
-	[global.id.NA('copper_wire'), global.tag.M('wires/copper')]
+	[global.id.NA('copper_wire'), global.tag.M('wires/copper')],
+	[global.id.CA('copper_spool'), global.tag.M('wires/copper')]
 ]);
 
 global.outputReplacements = new Map([

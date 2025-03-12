@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "a8f2a9cc1eaac30d34942f12ce51914ce00b8d236465724882117cdd9f078d14"
+hash = "2430bfa5293669b704602f42fdc026f3a7d28dc11e567759de77a8fe559014c3"
 
 [[files]]
 file = "config/chalk-common.toml"
@@ -61,6 +61,10 @@ file = "kubejs/data/farmersdelight/recipes/cutting/tag_dough.json"
 hash = "627d8e1029399e156ea038a986d5926e94b127354e35a7ebe9623b6488a489d1"
 
 [[files]]
+file = "kubejs/server_scripts/compat/charging.js"
+hash = "5e795fcceeb6f72c7ee26b7599732fa911c8fd90b2fa7b82de2fbf6c1ca85ff7"
+
+[[files]]
 file = "kubejs/server_scripts/food.js"
 hash = "258183cf1a08d2154a856f7f07d659b6aeec29c33dd84646892a81051cbf2201"
 
@@ -82,7 +86,7 @@ hash = "5f40e348b20e3fc172374d9bc4e3d997017f214c84d3d43960bc22b475970130"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "a4d0d9117d82ca8a10e1c975f60666c2ea39f18132880aa4f05a75314a0110b5"
+hash = "1e5184369877f655d9a3c2e4c85fdfe2312ea5606659933f9cae9a097e2a4966"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
