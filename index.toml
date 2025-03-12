@@ -82,7 +82,7 @@ hash = "5f40e348b20e3fc172374d9bc4e3d997017f214c84d3d43960bc22b475970130"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "95c5e7d9b808a20ac62350e10be657caea33ae7212ebfe86e473c9b53decc33d"
+hash = "a4d0d9117d82ca8a10e1c975f60666c2ea39f18132880aa4f05a75314a0110b5"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

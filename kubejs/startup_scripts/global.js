@@ -15,7 +15,8 @@ global.id = {
 	DF: id => `delightful:${id}`,
 	QK: id => `quark:${id}`,
 	IE: id => `immersiveengineering:${id}`,
-	DG: id => `createdieselgenerators:${id}`
+	DG: id => `createdieselgenerators:${id}`,
+	NA: id => `create_new_age:${id}`
 };
 
 global.tag = {
@@ -33,7 +34,8 @@ global.tag = {
 	DF: tag => `#delightful:${tag}`,
 	QK: tag => `#quark:${tag}`,
 	IE: tag => `#immersiveengineering:${tag}`,
-	DG: tag => `#createdieselgenerators:${tag}`
+	DG: tag => `#createdieselgenerators:${tag}`,
+	NA: tag => `#create_new_age:${tag}`
 };
 
 global.removedItems = [
@@ -48,7 +50,12 @@ global.removedItems = [
 	global.id.DG('mold'),
 	global.id.DG('track_layers_bar'),
 	global.id.DG('sheet_metal_panel'),
-	global.id.DG('oil_barrel')
+	global.id.DG('oil_barrel'),
+	global.id.NA('electrical_connector'),
+	global.id.NA('copper_wire'),
+	global.id.NA('overcharged_iron_wire'),
+	global.id.NA('overcharged_golden_wire'),
+	global.id.NA('overcharged_diamond_wire')
 ];
 
 global.removedRecipeTypes = [
@@ -72,7 +79,8 @@ global.removedRecipes = [
 
 global.inputReplacements = new Map([
 	[global.id.FD('rope'), global.tag.M('ropes')],
-	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')]
+	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')],
+	[global.id.NA('copper_wire'), global.tag.M('wires/copper')]
 ]);
 
 global.outputReplacements = new Map([
