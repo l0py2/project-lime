@@ -65,6 +65,46 @@ file = "kubejs/data/immersiveengineering/recipes/arc_recycling_list.json"
 hash = "448cb52d2478bfdc978f8e5bf55ee0fbdf4eaa3bd551a0d2f241fb4feec0b50f"
 
 [[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/bottling_machine.nbt"
+hash = "2ce37beb5d3aa126508b51e53450d4685ca1bb161722b3f07a3aa9908aaf15a6"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/crusher.nbt"
+hash = "5972cbfc94ad8c1f9d708daf3248dfa061e12fa68eabeea0e115c6001c19b6b6"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/diesel_generator.nbt"
+hash = "e7ac63dd216d7dc50a2d7463e6b84d80ac39a4be842cab68c3967ea7dd63bb01"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/lightning_rod.nbt"
+hash = "5e5cbd402672a45bec3d2a6b8dfcacefd2bbbef6da1ac216c60676dde1ea9703"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/metal_press.nbt"
+hash = "7f051ca1e83e84165c3705b90f1d7d6618988b9672e64148e55b71532f42035d"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/mixer.nbt"
+hash = "5e5cbd402672a45bec3d2a6b8dfcacefd2bbbef6da1ac216c60676dde1ea9703"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/sawmill.nbt"
+hash = "5972cbfc94ad8c1f9d708daf3248dfa061e12fa68eabeea0e115c6001c19b6b6"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/sheetmetal_tank.nbt"
+hash = "4f40af79be3705c2dd9051eac1e0842563929c3bf111787760f5f2329d2698f8"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/silo.nbt"
+hash = "701011c614e826deccd4d2e6edfa3e69adf78b767908404562a40296a8c13b8a"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/squeezer.nbt"
+hash = "5e5cbd402672a45bec3d2a6b8dfcacefd2bbbef6da1ac216c60676dde1ea9703"
+
+[[files]]
 file = "kubejs/server_scripts/compat/charging.js"
 hash = "c667695b95f8332f2d495c01a98357c25ba5ae06339c8446532beada0cca6664"
 
