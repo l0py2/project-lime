@@ -6,7 +6,7 @@ hash = "f755f9ff4778ff5e7d7ae725161ee23ecee28b8d7db5b782b573e3e09a668b5f"
 
 [[files]]
 file = "config/chalk-common.toml"
-hash = "4618873ea96f252301e2056b7caa83be38d2d0bfdbbfaea0237aa8c5661712d7"
+hash = "40642fc0e5851ff67e700140e756c1d0c9ed83970169ddb18dfb1a67d5da962d"
 
 [[files]]
 file = "config/create_new_age-common.toml"
