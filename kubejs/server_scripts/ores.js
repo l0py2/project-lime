@@ -9,31 +9,18 @@ ServerEvents.recipes(event => {
 		'lapis',
 		'diamond',
 		'quartz',
-		'zinc',
-		'uranium',
-		'lead',
-		'nickel',
-		'silver',
-		'aluminum'
+		'zinc'
 	];
 
 	const metals = [
 		'iron',
 		'copper',
 		'gold',
-		'zinc',
-		'uranium',
-		'lead',
-		'nickel',
-		'silver',
-		'aluminum'
+		'zinc'
 	];
 
 	const alloys = [
-		'electrum',
-		'constantan',
-		'steel',
-		'hop_graphite'
+		'electrum'
 	];
 
 	for(const ore of ores) {

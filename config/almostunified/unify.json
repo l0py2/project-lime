@@ -2,7 +2,6 @@
 	"modPriorities": [
 		"minecraft",
 		"kubejs",
-		"immersiveengineering",
 		"create",
 		"createaddition"
 	],
