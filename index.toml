@@ -61,8 +61,12 @@ file = "kubejs/data/farmersdelight/recipes/cutting/tag_dough.json"
 hash = "627d8e1029399e156ea038a986d5926e94b127354e35a7ebe9623b6488a489d1"
 
 [[files]]
+file = "kubejs/data/immersiveengineering/recipes/arc_recycling_list.json"
+hash = "448cb52d2478bfdc978f8e5bf55ee0fbdf4eaa3bd551a0d2f241fb4feec0b50f"
+
+[[files]]
 file = "kubejs/server_scripts/compat/charging.js"
-hash = "5e795fcceeb6f72c7ee26b7599732fa911c8fd90b2fa7b82de2fbf6c1ca85ff7"
+hash = "c667695b95f8332f2d495c01a98357c25ba5ae06339c8446532beada0cca6664"
 
 [[files]]
 file = "kubejs/server_scripts/food.js"
@@ -86,7 +90,7 @@ hash = "5f40e348b20e3fc172374d9bc4e3d997017f214c84d3d43960bc22b475970130"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "1e5184369877f655d9a3c2e4c85fdfe2312ea5606659933f9cae9a097e2a4966"
+hash = "821eedcdb92f075ab1188c157c88362e4ed7bacabfd88bc6d4e3125fcacb4479"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
