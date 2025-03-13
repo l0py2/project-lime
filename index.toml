@@ -65,6 +65,14 @@ file = "kubejs/data/immersiveengineering/recipes/arc_recycling_list.json"
 hash = "448cb52d2478bfdc978f8e5bf55ee0fbdf4eaa3bd551a0d2f241fb4feec0b50f"
 
 [[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/assembler.nbt"
+hash = "5e5cbd402672a45bec3d2a6b8dfcacefd2bbbef6da1ac216c60676dde1ea9703"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/auto_workbench.nbt"
+hash = "6c8b248a1aa1ab9ffd4acfef57ac622884c6be7ad4e11bf92ed4ed40322df7f0"
+
+[[files]]
 file = "kubejs/data/immersiveengineering/structures/multiblocks/bottling_machine.nbt"
 hash = "2ce37beb5d3aa126508b51e53450d4685ca1bb161722b3f07a3aa9908aaf15a6"
 
@@ -77,6 +85,10 @@ file = "kubejs/data/immersiveengineering/structures/multiblocks/diesel_generator
 hash = "e7ac63dd216d7dc50a2d7463e6b84d80ac39a4be842cab68c3967ea7dd63bb01"
 
 [[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/fermenter.nbt"
+hash = "d06554642727808fd5c7a7d058f7e0fa7248577b2b3adb7c18ef4ed4f8112330"
+
+[[files]]
 file = "kubejs/data/immersiveengineering/structures/multiblocks/lightning_rod.nbt"
 hash = "5e5cbd402672a45bec3d2a6b8dfcacefd2bbbef6da1ac216c60676dde1ea9703"
 
@@ -87,6 +99,10 @@ hash = "7f051ca1e83e84165c3705b90f1d7d6618988b9672e64148e55b71532f42035d"
 [[files]]
 file = "kubejs/data/immersiveengineering/structures/multiblocks/mixer.nbt"
 hash = "5e5cbd402672a45bec3d2a6b8dfcacefd2bbbef6da1ac216c60676dde1ea9703"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/refinery.nbt"
+hash = "eebc4cdb3a379f63996510e1a09b2b3113bda4fceebb8f58549f96c2e237e39c"
 
 [[files]]
 file = "kubejs/data/immersiveengineering/structures/multiblocks/sawmill.nbt"
