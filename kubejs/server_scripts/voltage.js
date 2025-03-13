@@ -1,17 +1,8 @@
 BlockEvents.rightClicked(event => {
-	const hvConnectors = [
-		global.id.IE('connector_hv'),
-		global.id.IE('capacitor_hv')
-	];
+	const isHvConnector = global.hvConnectors.indexOf(event.item.id) != -1;
+	const isMvMachine = global.mvMachines.indexOf(event.block.id) != -1;
 
-	const hvBlacklist = [
-		global.id.IE('metal_press')
-	];
-
-	const isHvConnector = hvConnectors.indexOf(event.item.id) != -1;
-	const onHvBlacklist = hvBlacklist.indexOf(event.block.id) != -1;
-
-	if (isHvConnector && onHvBlacklist) {
+	if (isHvConnector && isMvMachine) {
 		event.cancel();
 	}
 });

@@ -34,7 +34,7 @@ hash = "f4c06db83440c1136dfcd4315b0df34f67246a8b8488579fdff9200518afd863"
 
 [[files]]
 file = "kubejs/client_scripts/voltage.js"
-hash = "021a17f53e868fd2cde3d25857fb63c7d0fad04cef994d7947cf004c3f564d07"
+hash = "614f94173380966b3104a055b5e86846260f74eef0e3943bae4b25b0f36f9696"
 
 [[files]]
 file = "kubejs/data/brewinandchewin/recipes/cooking/scarlet_pierogi.json"
@@ -142,11 +142,11 @@ hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
 
 [[files]]
 file = "kubejs/server_scripts/voltage.js"
-hash = "5f40e348b20e3fc172374d9bc4e3d997017f214c84d3d43960bc22b475970130"
+hash = "eee89ce7e97a69ee87913dd5a93f4b7f9268f66bbf1597493cc59705a53fc7fe"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "821eedcdb92f075ab1188c157c88362e4ed7bacabfd88bc6d4e3125fcacb4479"
+hash = "79e30b4ed9d030bfd071c3a33f1ac1a205e1f18277553512d87aec91dd165b5f"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

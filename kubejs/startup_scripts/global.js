@@ -77,7 +77,22 @@ global.removedItems = [
 	global.id.IE('windmill_sail'),
 	global.id.IE('windmill_blade'),
 	global.id.IE('windmill'),
-	global.id.IE('dynamo')
+	global.id.IE('dynamo'),
+	global.id.IE('fluid_pipe'),
+	global.id.IE('strip_curtain'),
+	global.id.IE('conveyor_basic'),
+	global.id.IE('sorter'),
+	global.id.IE('conveyor_redstone'),
+	global.id.IE('conveyor_dropper'),
+	global.id.IE('conveyor_vertical'),
+	global.id.IE('conveyor_splitter'),
+	global.id.IE('conveyor_extract'),
+	global.id.IE('turntable'),
+	global.id.IE('item_batcher'),
+	global.id.IE('fluid_pump'),
+	global.id.IE('fluid_placer'),
+	global.id.IE('fluid_sorter'),
+	global.id.IE('thermoelectric_generator')
 ];
 
 global.removedRecipeTypes = [
@@ -105,7 +120,9 @@ global.inputReplacements = new Map([
 	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')],
 	[global.id.NA('copper_wire'), global.tag.M('wires/copper')],
 	[global.id.CA('copper_spool'), global.tag.M('wires/copper')],
-	[global.id.IE('windmill'), global.id.CR('windmill_bearing')]
+	[global.id.IE('windmill'), global.id.CR('windmill_bearing')],
+	[global.id.IE('fluid_pipe'), global.id.CR('pipe')],
+	[global.id.IE('turntable'), global.id.CR('mechanical_bearing')]
 ]);
 
 global.outputReplacements = new Map([
@@ -115,3 +132,11 @@ global.outputReplacements = new Map([
 
 global.tagReplacements = new Map([
 ]);
+
+global.hvConnectors = [
+	global.id.IE('connector_hv'),
+	global.id.IE('capacitor_hv')
+];
+
+global.mvMachines = [
+];
