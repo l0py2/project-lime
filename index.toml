@@ -65,18 +65,6 @@ file = "kubejs/server_scripts/compat/wires.js"
 hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
 
 [[files]]
-file = "kubejs/server_scripts/food.js"
-hash = "258183cf1a08d2154a856f7f07d659b6aeec29c33dd84646892a81051cbf2201"
-
-[[files]]
-file = "kubejs/server_scripts/ores.js"
-hash = "cc4c16533051f2ee942850d41596379d224f058147d1ea515a9b6c9226c1c6aa"
-
-[[files]]
-file = "kubejs/server_scripts/progression.js"
-hash = "66e944b8b079d98457c4889d17f5c634ae87e062c6949087af1dbd3ac4aa9d90"
-
-[[files]]
 file = "kubejs/server_scripts/removed.js"
 hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
 
