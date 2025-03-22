@@ -33,6 +33,10 @@ file = "kubejs/client_scripts/removed.js"
 hash = "f4c06db83440c1136dfcd4315b0df34f67246a8b8488579fdff9200518afd863"
 
 [[files]]
+file = "kubejs/config/client.properties"
+hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
+
+[[files]]
 file = "kubejs/data/brewinandchewin/recipes/cooking/scarlet_pierogi.json"
 hash = "10fa66e87d6aff64287a1e437a7a8a3c1bd92a352c95eca1a3999efb0b8ef4f1"
 
@@ -63,6 +67,10 @@ hash = "c667695b95f8332f2d495c01a98357c25ba5ae06339c8446532beada0cca6664"
 [[files]]
 file = "kubejs/server_scripts/compat/wires.js"
 hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
+
+[[files]]
+file = "kubejs/server_scripts/qol.js"
+hash = "4b29da911dd86142fc9baeaef48fe805e8bd7de1fb4228904d5f450434607aa3"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
