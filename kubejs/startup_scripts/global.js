@@ -39,9 +39,6 @@ global.tag = {
 };
 
 global.removedItems = [
-	global.id.BC('apple_jelly'),
-	global.id.BC('glow_berry_marmalade'),
-	global.id.BC('sweet_berry_jam'),
 	global.id.CA('alternator'),
 	global.id.CA('electric_motor'),
 	global.id.DG('hammer'),

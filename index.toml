@@ -78,7 +78,7 @@ hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "a94ea2777a872d491f598b2847d1f958797076334da8cbdece70ce64610f2e15"
+hash = "ed3cc78cee921e5537d63f11ea2e608f7e24a6fffa324836e44743a2f18ecc25"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "90d208b257c34c5a6b8407802316e60e9a1d857e80e626cbd04c31811eca1cb9"
+hash = "7bb1e916fe77f8ef5f563bf485bb6b52ee9ca219b01ca766c20f6e9a40dceac1"
 metafile = true
 
 [[files]]
@@ -251,18 +251,13 @@ hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
-file = "mods/fruits-delight.pw.toml"
-hash = "88b6da55fc90c2ae2055c4556b0cb9d344848ece37f6766819e0e35efa849983"
-metafile = true
-
-[[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "bec7dc809f89b3d38937d4ff26ba66c682d98aa3c92cc8d8cff68d4c8a5edcd6"
+hash = "44d0d42f597e0490b9158777068fd1faa77018ce524138e5937d7415763a3e95"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0b24312ff5783cbb9c2707e16eb791ed12adb765259dd154cd09a00cc3fc38e2"
+hash = "598758f152e98916bc6eea2ad73a82b47a6e6934f4b0ba1e1f6593773afd1a50"
 metafile = true
 
 [[files]]
