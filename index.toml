@@ -305,11 +305,6 @@ hash = "4edfe55c601c7af5dc9ebb1368b797a32ecb8829efa49c3a6700fbd8f714703a"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-mekanism-unofficial.pw.toml"
-hash = "a195d0ea25a8b006762a5fa1dd097f3acf1a884e0ef567bde11f696e587bd62d"
-metafile = true
-
-[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
@@ -317,21 +312,6 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
-metafile = true
-
-[[files]]
-file = "mods/mekanism-generators.pw.toml"
-hash = "30b016d6a30bc7122b355a8f4e626b5c6f1415045d88e56d79c0cdda3650c809"
-metafile = true
-
-[[files]]
-file = "mods/mekanism-tools.pw.toml"
-hash = "068f9b5a1060973fb9f92beb1db1085171d48d0b6aff35686926643c7fd36f44"
-metafile = true
-
-[[files]]
-file = "mods/mekanism.pw.toml"
-hash = "c2242c43a5eda039f62b6afca6db01d38f598e63563eb7477f79e53a542550c4"
 metafile = true
 
 [[files]]
