@@ -125,6 +125,11 @@ hash = "e85ac4a7776a805899c99b738ea6cad96cdc6f683958446c6cb99c21462cb97e"
 metafile = true
 
 [[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "20fcd633516ef654e4a1546ab7e1cd4e22bc96a087544ae583f85df9b7a65468"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "db01ff332b926267e5343601473582e51cddd1dff7c0bfef0809dc9802c07480"
 metafile = true
@@ -407,6 +412,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "04ef40f47440fb3f76353df141db3d0cc428894f44f0bae7068ea3f3435fbe5a"
+metafile = true
+
+[[files]]
+file = "mods/tools-complement.pw.toml"
+hash = "7e40039563b86450462026886c96e8c29d977d5c3f1fee05ee676fcba2cc988b"
 metafile = true
 
 [[files]]
