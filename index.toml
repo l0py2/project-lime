@@ -90,11 +90,6 @@ hash = "907e4afa0784efe2ebf0cbf41a2741643d97aae907bea8863709c5f52d1e044c"
 metafile = true
 
 [[files]]
-file = "mods/all-the-trims.pw.toml"
-hash = "771494578ebb46fbe81cdabfaa4fbb752edae5f0ffa97f93ed9f4af6e0cbe788"
-metafile = true
-
-[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "6c1abc7203698f420023a1655bc803113babd2dc00b2ced0e071de8b46147b5a"
 metafile = true
@@ -297,6 +292,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "01fccb8f3abe9c7f542ec610aef0c647bdc5a8ce0677c74e340ba4c2da0614af"
+metafile = true
+
+[[files]]
+file = "mods/functional-armor-trim.pw.toml"
+hash = "22ea1b5e9abb934484efeec9a819794f93d710702c1cb7d56bb0a11c29d83ae1"
 metafile = true
 
 [[files]]
