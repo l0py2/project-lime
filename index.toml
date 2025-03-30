@@ -140,18 +140,8 @@ hash = "e85ac4a7776a805899c99b738ea6cad96cdc6f683958446c6cb99c21462cb97e"
 metafile = true
 
 [[files]]
-file = "mods/cofh-core.pw.toml"
-hash = "20fcd633516ef654e4a1546ab7e1cd4e22bc96a087544ae583f85df9b7a65468"
-metafile = true
-
-[[files]]
 file = "mods/comforts.pw.toml"
 hash = "db01ff332b926267e5343601473582e51cddd1dff7c0bfef0809dc9802c07480"
-metafile = true
-
-[[files]]
-file = "mods/configured.pw.toml"
-hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
 metafile = true
 
 [[files]]
@@ -315,11 +305,6 @@ hash = "b9a7e71472f5f88229bf2f9e214b223b3900052bdc56075906d7a22acf74568c"
 metafile = true
 
 [[files]]
-file = "mods/immersive-engineering.pw.toml"
-hash = "6439c6f409308c4a89a12708b54cef41aa5382dc78e6f352b3e8005e96a21a8e"
-metafile = true
-
-[[files]]
 file = "mods/in-control.pw.toml"
 hash = "87febabd3473f1f70a8b8703276a9623f8e3129fcebc82b0b7457d2e4dfe151e"
 metafile = true
@@ -347,11 +332,6 @@ metafile = true
 [[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "7e9ef26310359f482e595815664b3d08381b30c6517c32a58078b0999e1d953a"
-metafile = true
-
-[[files]]
-file = "mods/kubejs-immersive-engineering-unofficial.pw.toml"
-hash = "4edfe55c601c7af5dc9ebb1368b797a32ecb8829efa49c3a6700fbd8f714703a"
 metafile = true
 
 [[files]]
@@ -467,11 +447,6 @@ metafile = true
 [[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "aaca9ae5d888e74a2502305df67cd240330f5b6b2a800b19c1d7cb53bf1dc4f6"
-metafile = true
-
-[[files]]
-file = "mods/tools-complement.pw.toml"
-hash = "7e40039563b86450462026886c96e8c29d977d5c3f1fee05ee676fcba2cc988b"
 metafile = true
 
 [[files]]
