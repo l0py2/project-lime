@@ -85,6 +85,16 @@ file = "kubejs/startup_scripts/global.js"
 hash = "ed3cc78cee921e5537d63f11ea2e608f7e24a6fffa324836e44743a2f18ecc25"
 
 [[files]]
+file = "mods/advanced-netherite.pw.toml"
+hash = "907e4afa0784efe2ebf0cbf41a2741643d97aae907bea8863709c5f52d1e044c"
+metafile = true
+
+[[files]]
+file = "mods/all-the-trims.pw.toml"
+hash = "771494578ebb46fbe81cdabfaa4fbb752edae5f0ffa97f93ed9f4af6e0cbe788"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "6c1abc7203698f420023a1655bc803113babd2dc00b2ced0e071de8b46147b5a"
 metafile = true
