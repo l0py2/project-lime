@@ -498,7 +498,7 @@ hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
 
 [[files]]
 file = "kubejs/server_scripts/guns/pistols.js"
-hash = "9a19ef4b70beab8f7e4afece875408f8c9ee666d69cfc7161ef6d0b718f2fb95"
+hash = "fba7d71e809093f04c70917447e068a67e20fd7729816456536f525bf3ef918a"
 
 [[files]]
 file = "kubejs/server_scripts/qol.js"
@@ -510,11 +510,11 @@ hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "6efc5be69e3c46313f65850002836f04a6af4d657fe159a3357237c0a444f002"
+hash = "2e855b880492665eac82686a581abef06ff75e251259778691023f661acc79b4"
 
 [[files]]
 file = "kubejs/startup_scripts/incompleted.js"
-hash = "ad90e793d0cbb3d3e8ad90c2ce283281c8ef108242feee4a32f9ac6a0d86695b"
+hash = "31764b0b7c011852d1bf5c5f58736af24657fc5883d5b8c202be2e080f69f0fa"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
