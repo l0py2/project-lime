@@ -16,7 +16,8 @@ global.id = {
 	QK: id => `quark:${id}`,
 	DG: id => `createdieselgenerators:${id}`,
 	NA: id => `create_new_age:${id}`,
-	CA: id => `createaddition:${id}`
+	CA: id => `createaddition:${id}`,
+	TZ: id => `tacz:${id}`
 };
 
 global.tag = {
@@ -35,7 +36,8 @@ global.tag = {
 	QK: tag => `#quark:${tag}`,
 	DG: tag => `#createdieselgenerators:${tag}`,
 	NA: tag => `#create_new_age:${tag}`,
-	CA: tag => `#createaddition:${tag}`
+	CA: tag => `#createaddition:${tag}`,
+	TZ: tag => `#tacz:${tag}`
 };
 
 global.removedItems = [
@@ -50,7 +52,8 @@ global.removedItems = [
 	global.id.FD('rope'),
 	global.id.FD('wheat_dough'),
 	global.id.NA('copper_wire'),
-	global.id.QK('rope')
+	global.id.QK('rope'),
+	global.id.DG('huge_diesel_engine')
 ];
 
 global.removedRecipeTypes = [
