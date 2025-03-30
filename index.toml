@@ -150,6 +150,11 @@ hash = "db01ff332b926267e5343601473582e51cddd1dff7c0bfef0809dc9802c07480"
 metafile = true
 
 [[files]]
+file = "mods/configured.pw.toml"
+hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
@@ -365,6 +370,11 @@ hash = "5ebfccec321146cf5c65f00b6cb98907930f2b927131d25b727f4c97fd34025e"
 metafile = true
 
 [[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "dd105e501832dcd4e443015af266973c58586553331512a6c171d865dd36c3bc"
 metafile = true
@@ -432,6 +442,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "04ef40f47440fb3f76353df141db3d0cc428894f44f0bae7068ea3f3435fbe5a"
+metafile = true
+
+[[files]]
+file = "mods/timeless-and-classics-zero.pw.toml"
+hash = "aaca9ae5d888e74a2502305df67cd240330f5b6b2a800b19c1d7cb53bf1dc4f6"
 metafile = true
 
 [[files]]
