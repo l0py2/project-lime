@@ -683,7 +683,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "3dfe3020f7b0e9144947aa7d7d076484e738f8a225177c9e0121f7a3d8c85934"
+hash = "8d1837a31fdfc4692e50cff294e293be77095f063049d9912e486250f0191641"
 metafile = true
 
 [[files]]
@@ -733,7 +733,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "44d0d42f597e0490b9158777068fd1faa77018ce524138e5937d7415763a3e95"
+hash = "7685b99141b8493ca796b816151320f6a46fa3a6fc2ff8c749ecc8cf32cb9df3"
 metafile = true
 
 [[files]]
@@ -818,7 +818,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "dd105e501832dcd4e443015af266973c58586553331512a6c171d865dd36c3bc"
+hash = "2a0cb33fb2c23f157e0295ae75f48c7531441e451187cc9fedf5054d728be929"
 metafile = true
 
 [[files]]
@@ -853,7 +853,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "bbed5792ab8d818d5cf5f25387427e6fd1999376d330f7cd0a6ff55554073adb"
+hash = "74605dbc168a001511741a85318364fc67d83f975528d279005304a182d87762"
 metafile = true
 
 [[files]]
@@ -868,22 +868,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "f774a1eca63915333543b245112bedbf0629d2faa024a96e43767f62e11216df"
+hash = "ce5b7461610475ccbce6b9fd16c1aac18e272539947492d47047f7076327ddfa"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "ba0d09b4be617cfed5f21963a55df7df9399bd4ed378b6013d4d43c1c8f71bf5"
+hash = "4d10afb9f6e717c0125f86599d1d402ab88b41e5988a34b56971138e05ec5d97"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "e3843023da5072a439165fac238528a20b80adb28e68e9b3fa8582f2125d5236"
+hash = "e92a4622c799664b6767e5887a5724d48d847d0487e304b30b702056d2446bbb"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "04ef40f47440fb3f76353df141db3d0cc428894f44f0bae7068ea3f3435fbe5a"
+hash = "e7cacbfc09f20dd5da90496d3667a5d936e6eb7894c398ff8f766ace81c563c1"
 metafile = true
 
 [[files]]
