@@ -498,7 +498,7 @@ hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
 
 [[files]]
 file = "kubejs/server_scripts/guns/pistols.js"
-hash = "fba7d71e809093f04c70917447e068a67e20fd7729816456536f525bf3ef918a"
+hash = "c7eb632af9be2e899f33beeb2af7c10420390815b0175dbe5a0e97dcdf59578e"
 
 [[files]]
 file = "kubejs/server_scripts/qol.js"
