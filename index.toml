@@ -22,7 +22,7 @@ hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "d3a15d9041029c916ee5834b3c59cc44023b31c207b735b561f5e104852cb58a"
+hash = "4c3b78db6738faff185a5f255dd74a63320a6ca4551858b248f4d751062028d3"
 
 [[files]]
 file = "config/quark-common.toml"
