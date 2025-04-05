@@ -21,6 +21,10 @@ file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
+file = "config/forgery/features.ini"
+hash = "d3a15d9041029c916ee5834b3c59cc44023b31c207b735b561f5e104852cb58a"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "23d862053847f46db9a4ed16093614abe55e04e6050c76e1f32376f7a1700f96"
 
