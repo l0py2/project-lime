@@ -53,13 +53,16 @@ global.removedItems = [
 	global.id.FD('wheat_dough'),
 	global.id.NA('copper_wire'),
 	global.id.QK('rope'),
-	global.id.DG('huge_diesel_engine')
+	global.id.DG('huge_diesel_engine'),
+	global.id.TZ('gun_smith_table')
 ];
 
 global.removedRecipeTypes = [
 	global.id.CA('charging'),
 	global.id.DG('hammering'),
-	global.id.DG('wire_cutting')
+	global.id.DG('wire_cutting'),
+	global.id.DG('compression_molding'),
+	global.id.DG('casting')
 ];
 
 global.removedRecipes = [
