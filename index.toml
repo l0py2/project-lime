@@ -22,7 +22,7 @@ hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "4c3b78db6738faff185a5f255dd74a63320a6ca4551858b248f4d751062028d3"
+hash = "3adfe8f19d5de7c2460ed7414e215ae968b25872a4d436e0d59be81624dfb842"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -776,7 +776,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "59c83aff76fec2f34cf0ddd59dc926b6c6a3baaed67764b9511bc77b52427156"
+hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
 metafile = true
 
 [[files]]
