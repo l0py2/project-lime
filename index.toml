@@ -469,10 +469,6 @@ file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
-file = "kubejs/data/brewinandchewin/recipes/cooking/scarlet_pierogi.json"
-hash = "10fa66e87d6aff64287a1e437a7a8a3c1bd92a352c95eca1a3999efb0b8ef4f1"
-
-[[files]]
 file = "kubejs/data/farmersdelight/loot_table/chests/fd_abandoned_mineshaft.json"
 hash = "f244c069f405f156f75798a5bee9d01983da5248b97a5b2774ab86ff74e30c12"
 
@@ -485,16 +481,16 @@ file = "kubejs/data/farmersdelight/loot_table/chests/fd_simple_dungeon.json"
 hash = "bf6b26edab7ec10b76a0ccb4bf631ad58ed22e0963d3f035dfa61b05240f84bb"
 
 [[files]]
-file = "kubejs/data/farmersdelight/recipes/cooking/dumplings.json"
-hash = "e4843644f43254c797ef16b395fbf1284e6bad8b26f78b9f100763f832bca08a"
-
-[[files]]
-file = "kubejs/data/farmersdelight/recipes/cutting/tag_dough.json"
-hash = "627d8e1029399e156ea038a986d5926e94b127354e35a7ebe9623b6488a489d1"
+file = "kubejs/server_scripts/compat/brewin-and-chewin.js"
+hash = "942d010c58607b3f63c65b155c79ea09a16471500813294376d9c0b687377427"
 
 [[files]]
 file = "kubejs/server_scripts/compat/charging.js"
 hash = "c667695b95f8332f2d495c01a98357c25ba5ae06339c8446532beada0cca6664"
+
+[[files]]
+file = "kubejs/server_scripts/compat/farmers-delight.js"
+hash = "486be28f5cdeabacdc86e79a1613328d4226ff38573c23db53b4814182521c17"
 
 [[files]]
 file = "kubejs/server_scripts/compat/wires.js"
@@ -510,7 +506,7 @@ hash = "c7eb632af9be2e899f33beeb2af7c10420390815b0175dbe5a0e97dcdf59578e"
 
 [[files]]
 file = "kubejs/server_scripts/qol.js"
-hash = "4b29da911dd86142fc9baeaef48fe805e8bd7de1fb4228904d5f450434607aa3"
+hash = "d634c3803a0f97c1b5ab839098ccd19b9213c1848547493dcb263418ab82c78f"
 
 [[files]]
 file = "kubejs/server_scripts/removed.js"
@@ -523,6 +519,10 @@ hash = "d7c568db682b874595e3d3d08549e5222425b07466c4a9c157c3b4861941dca7"
 [[files]]
 file = "kubejs/startup_scripts/incompleted.js"
 hash = "5e1e9786ceec00592177cef737039be428a2b70875e1ae1cddf0fef527b8cf07"
+
+[[files]]
+file = "kubejs/startup_scripts/recipes.js"
+hash = "57f1ea73fb6dbe29b4182eb6c38d6abcf25372ea0767931d73243d00134126b1"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
