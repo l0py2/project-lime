@@ -626,12 +626,12 @@ metafile = true
 
 [[files]]
 file = "mods/cultural-delights.pw.toml"
-hash = "c38ab0fa16d0c0a29bbfa59ff6aad0241a9cc3abf621ff663fac92b7a6d58573"
+hash = "e3869746bbdfdd35f1423383cd1b1a9d2734cf7ec6473fbfdcc2ab61de2047cc"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "68960354be9294d5761b636b94e4f54715119602e83c4dd107698021dbeca16b"
+hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
@@ -671,7 +671,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "b0255e234468055440b05f2160e41f8cd75f61f91942f9d91549654f98899911"
+hash = "d48a1ea93de8cd5febb95ba52989d8d9ab4e998cfbdf9c1076a9f2e571d2fcbe"
 metafile = true
 
 [[files]]
@@ -856,17 +856,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "1e09564045d3ba4a1306793b4a910f2555c06eff1d043224bbf6118e1408d81d"
+hash = "3df251df080ff82fdedb080330c822b30676b162e1fae512e7958499545f9f98"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "cd02395c8f038a10032deef65110b2fc598c048e7091b19c70784792ddf03f8a"
+hash = "5f5ff476ec6082dc2dbba0755ea82f82a6559ab776bedc9a66d0e8cc05f6b93a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "3289769caddd7b2d154ffd5e8c6835fd82738797731242cabc097be59b80013c"
+hash = "a17c29cb214ea3b3a9de6a9b45edcc81c40243546bc19ecd1395f3048b362fbf"
 metafile = true
 
 [[files]]
