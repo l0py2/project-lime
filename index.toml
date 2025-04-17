@@ -505,6 +505,10 @@ file = "kubejs/server_scripts/guns/pistols.js"
 hash = "c7eb632af9be2e899f33beeb2af7c10420390815b0175dbe5a0e97dcdf59578e"
 
 [[files]]
+file = "kubejs/server_scripts/guns/plastic.js"
+hash = "8b1445c9bdc16233597891ca2ce05dd90605345a4f098dc9d400a3c055b7481c"
+
+[[files]]
 file = "kubejs/server_scripts/qol.js"
 hash = "d634c3803a0f97c1b5ab839098ccd19b9213c1848547493dcb263418ab82c78f"
 
