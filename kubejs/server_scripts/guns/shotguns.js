@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 	event.stonecutting(global.id.KJ('incomplete_db_short'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_db_long'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_m870'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_aa12'), global.tag.M('plates/iron'));
 
 	let incomplete;
 
