@@ -513,6 +513,10 @@ file = "kubejs/server_scripts/removed.js"
 hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
 
 [[files]]
+file = "kubejs/startup_scripts/fluids.js"
+hash = "2f9a7b11298851740af25b8bf68eef49da614d0e3de5ce93452fb559e3a8118a"
+
+[[files]]
 file = "kubejs/startup_scripts/global.js"
 hash = "d7c568db682b874595e3d3d08549e5222425b07466c4a9c157c3b4861941dca7"
 
@@ -691,7 +695,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "8d1837a31fdfc4692e50cff294e293be77095f063049d9912e486250f0191641"
+hash = "b95877b8d6f69db8f0c2fb3a4f76f7c6bc2f86896aec004acf350b1102ce27a1"
 metafile = true
 
 [[files]]
@@ -811,7 +815,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "2f3081029fe8b579d4a60d2191613ed17cb4bff3390280c56817cb8149422aef"
+hash = "4eb683644ee4e38e00b06df946b71ad8fedaa860fcabbd91ec6ceb71c65b8d81"
 metafile = true
 
 [[files]]
@@ -841,7 +845,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "74605dbc168a001511741a85318364fc67d83f975528d279005304a182d87762"
+hash = "e7d596f25bd16e1cd85b34896f69c8801312de601f5af48cb412a2be505f09fb"
 metafile = true
 
 [[files]]
@@ -856,17 +860,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3df251df080ff82fdedb080330c822b30676b162e1fae512e7958499545f9f98"
+hash = "ae0d219d3860f5b6339a2932afc5ef161052254d4be15bb1448ea3efe20c68c2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5f5ff476ec6082dc2dbba0755ea82f82a6559ab776bedc9a66d0e8cc05f6b93a"
+hash = "66e660c470b68d9fb90fba53520ab580c66767aecb37f453b0c1be473c802f82"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "a17c29cb214ea3b3a9de6a9b45edcc81c40243546bc19ecd1395f3048b362fbf"
+hash = "6136c27eca7b024f9be32fc42c43f7270886cec4bffae814d8c92ef51e56c448"
 metafile = true
 
 [[files]]
