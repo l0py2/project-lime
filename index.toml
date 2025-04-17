@@ -26,7 +26,11 @@ hash = "3adfe8f19d5de7c2460ed7414e215ae968b25872a4d436e0d59be81624dfb842"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "23d862053847f46db9a4ed16093614abe55e04e6050c76e1f32376f7a1700f96"
+hash = "61ebdd995eb620ca4238436ba3ad1197d53ba923adb351db26c1443e86dffef2"
+
+[[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "0558192a2375667743fe0548e9e6f34f36d266a999389c8b5bb93cd8ca5b3740"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
@@ -469,15 +473,15 @@ file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
-file = "kubejs/data/farmersdelight/loot_table/chests/fd_abandoned_mineshaft.json"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_abandoned_mineshaft.json"
 hash = "f244c069f405f156f75798a5bee9d01983da5248b97a5b2774ab86ff74e30c12"
 
 [[files]]
-file = "kubejs/data/farmersdelight/loot_table/chests/fd_shipwreck_supply.json"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_shipwreck_supply.json"
 hash = "968815dbb2049a9df5a18196eadf14c000c78b929d446f179ddb386d89334485"
 
 [[files]]
-file = "kubejs/data/farmersdelight/loot_table/chests/fd_simple_dungeon.json"
+file = "kubejs/data/farmersdelight/loot_tables/chests/fd_simple_dungeon.json"
 hash = "bf6b26edab7ec10b76a0ccb4bf631ad58ed22e0963d3f035dfa61b05240f84bb"
 
 [[files]]
