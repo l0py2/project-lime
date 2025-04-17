@@ -873,17 +873,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ae0d219d3860f5b6339a2932afc5ef161052254d4be15bb1448ea3efe20c68c2"
+hash = "b3d5e86532853ee461355f36acbeb1452f67580104a7fda608c99ebfff653bde"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "66e660c470b68d9fb90fba53520ab580c66767aecb37f453b0c1be473c802f82"
+hash = "b5023fb8ff2fee37fee75ad44912888c176ef99c8b0039af41db43ecceeeac6e"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "6136c27eca7b024f9be32fc42c43f7270886cec4bffae814d8c92ef51e56c448"
+hash = "c18734b90bb9197d5ba832eaa1aa023f97bbaf266b1fe0fb18eebc0e9b2f5b99"
 metafile = true
 
 [[files]]
@@ -913,5 +913,5 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "98a5f14605e51677639c024541e9453a95911cbc21edfe94057b0ac4a8073ddd"
+hash = "557d160e4a3d856c6bbe36c39ee7c6cd42824363690b61d5f23bbac153c8edbc"
 metafile = true
