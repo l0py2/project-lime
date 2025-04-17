@@ -599,6 +599,11 @@ hash = "cecf861a5103ad5d9509a3b3b74d395640ca8a5f453839b73ab9be5d3dd3ad2a"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "aad7b7fe7acf5248e663376efa788dbd16a3b8e1b97142f8e345b9ed3add7b0e"
+metafile = true
+
+[[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "c7193b5dc511caf376fe856d3f2f5eedb994cf4f73a40cca7cd61be3fb77757b"
 metafile = true
