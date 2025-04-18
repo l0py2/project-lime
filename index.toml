@@ -647,6 +647,11 @@ hash = "daf1255fbd2312eaef5aed51d659c4db0d5bd99ff193dfd9425b5cf0e2121ab9"
 metafile = true
 
 [[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "151ac2021e8e202ab3a666c65f14a73d585e20419b4dc657f25616d87251b700"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "04eff00e4383097d9809dec31ab08976a4516fd5a2fe348b88a532507f68e6ba"
 metafile = true
@@ -812,6 +817,11 @@ hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
 metafile = true
 
 [[files]]
+file = "mods/map-atlases-forge.pw.toml"
+hash = "72f1a5bebbe6f81c877e31325022a22e08d831bab9b85d86f084fe60d930331e"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
 metafile = true
@@ -888,7 +898,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "b3d5e86532853ee461355f36acbeb1452f67580104a7fda608c99ebfff653bde"
+hash = "d03b81a12dd6fa5c46d7b51c22b4f1d51f5f5c48e57c9c8c53930b9a18d71f36"
 metafile = true
 
 [[files]]
@@ -898,7 +908,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "c18734b90bb9197d5ba832eaa1aa023f97bbaf266b1fe0fb18eebc0e9b2f5b99"
+hash = "d7a442b5845e5d425edd62c804ea76737eed938cb764014aaa50629f049cc927"
 metafile = true
 
 [[files]]
