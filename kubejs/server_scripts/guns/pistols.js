@@ -1,6 +1,10 @@
 ServerEvents.recipes(event => {
 	event.stonecutting(global.id.KJ('incomplete_deagle_golden'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_p320'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_glock_17'), global.tag.M('plates/iron'));
 	event.stonecutting(global.id.KJ('incomplete_m1911'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_cz75'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_deagle'), global.tag.M('plates/iron'));
 
 	let incomplete;
 

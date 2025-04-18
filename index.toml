@@ -502,7 +502,7 @@ hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
 
 [[files]]
 file = "kubejs/server_scripts/guns/ammo.js"
-hash = "b5dfdc1f11d4a9a57587d53c99a152475e27219a5de212a59a59905a2196a716"
+hash = "5f82934e6d38680332be97c4d995e4972f465e4ff0d6371f5d1de4711a826c4f"
 
 [[files]]
 file = "kubejs/server_scripts/guns/explosive.js"
@@ -514,7 +514,7 @@ hash = "3ce622a3e1a21a54d97bc155a8341a642ee60017047daad1e14abdd96f76f6fe"
 
 [[files]]
 file = "kubejs/server_scripts/guns/pistols.js"
-hash = "828512e2b667d042f184266f069321554c468d6bae55745e74e9071e6d842c5b"
+hash = "bd6f7ca79f5e98f6fad3264a7b06afa9e6fe6079b873443470e713bc11daa7ed"
 
 [[files]]
 file = "kubejs/server_scripts/guns/plastic.js"
@@ -523,6 +523,10 @@ hash = "8b1445c9bdc16233597891ca2ce05dd90605345a4f098dc9d400a3c055b7481c"
 [[files]]
 file = "kubejs/server_scripts/guns/shotguns.js"
 hash = "1dfe045ab50dd5f6b3f612059a4aa042a059f802ebea6a1f7341cf254a3a1aef"
+
+[[files]]
+file = "kubejs/server_scripts/guns/sub-machine-guns.js"
+hash = "0effea8ebd4da569130b220c88e6ad01bf9a2d292f566498bc987382c3dfb172"
 
 [[files]]
 file = "kubejs/server_scripts/qol.js"
