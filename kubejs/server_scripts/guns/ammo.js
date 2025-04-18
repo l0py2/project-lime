@@ -9,6 +9,9 @@ ServerEvents.recipes(event => {
 	event.stonecutting(global.id.KJ('incomplete_40mm'), global.tag.M('gunpowder'));
 	event.stonecutting(global.id.KJ('incomplete_rpg_rocket'), global.tag.M('gunpowder'));
 	event.stonecutting(global.id.KJ('incomplete_57x28'), global.tag.M('gunpowder'));
+	event.stonecutting(global.id.KJ('incomplete_338'), global.tag.M('gunpowder'));
+	event.stonecutting(global.id.KJ('incomplete_50bmg'), global.tag.M('gunpowder'));
+	event.stonecutting(global.id.KJ('incomplete_30_06'), global.tag.M('gunpowder'));
 
 	let incomplete;
 
@@ -174,6 +177,58 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('nuggets/iron')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('nuggets/copper')]),
+			event.recipes.createPressing(incomplete, incomplete)
+		]
+	).transitionalItem(incomplete).loops(1);
+
+	incomplete = global.id.KJ('incomplete_338');
+	event.recipes.create.sequenced_assembly(
+		[
+			Item.of(global.id.TZ('ammo'), '{AmmoId:"tacz:338"}')
+		],
+		incomplete,
+		[
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/brass')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('ingots/iron')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/copper')]),
+			event.recipes.createPressing(incomplete, incomplete)
+		]
+	).transitionalItem(incomplete).loops(1);
+
+	incomplete = global.id.KJ('incomplete_50bmg');
+	event.recipes.create.sequenced_assembly(
+		[
+			Item.of(global.id.TZ('ammo'), '{AmmoId:"tacz:50bmg"}')
+		],
+		incomplete,
+		[
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/brass')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/brass')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('ingots/iron')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/copper')]),
+			event.recipes.createPressing(incomplete, incomplete)
+		]
+	).transitionalItem(incomplete).loops(1);
+
+	incomplete = global.id.KJ('incomplete_30_06');
+	event.recipes.create.sequenced_assembly(
+		[
+			Item.of(global.id.TZ('ammo'), '{AmmoId:"tacz:30_06"}')
+		],
+		incomplete,
+		[
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/brass')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('ingots/iron')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/copper')]),
 			event.recipes.createPressing(incomplete, incomplete)
 		]
 	).transitionalItem(incomplete).loops(1);
