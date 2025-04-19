@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
 		],
 		incomplete,
 		[
-			event.recipes.createFilling(incomplete, [incomplete, Fluid.of(global.id.KJ('liquid_plastic'), FluidAmounts.BOTTLE)]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/brass')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('gunpowder')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('nuggets/iron')]),

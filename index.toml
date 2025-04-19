@@ -502,15 +502,31 @@ hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
 
 [[files]]
 file = "kubejs/server_scripts/guns/ammo.js"
-hash = "5e52d0f7f58baae8d79c5d80c27081e95fbdbdcb63c7cacb8927a4668f63a8c9"
+hash = "f605b864a503a2ffff3fe563539beb37396139d22cc068c848fe6684d9b17e50"
+
+[[files]]
+file = "kubejs/server_scripts/guns/assault-rifles.js"
+hash = "bb2823c77ff813b1c1d6b7bd743f795dbd48b6e3a2b6b02e8d1ce089274805ef"
+
+[[files]]
+file = "kubejs/server_scripts/guns/battle-rifles.js"
+hash = "9cd745bff1924b177ce2322698a5947f4a0e25393aa51e062a048454150c58c4"
+
+[[files]]
+file = "kubejs/server_scripts/guns/carbines.js"
+hash = "29a6dfc4eb29180f1c379073ac9f8361f8c788b5468ffad37c401a495f1a9ba3"
+
+[[files]]
+file = "kubejs/server_scripts/guns/designated-marksman-rifles.js"
+hash = "c0f9f6d60a06abdd23e77f60b0fdad99c83f82db4dd3827bafb56e505d94ba8d"
 
 [[files]]
 file = "kubejs/server_scripts/guns/explosive.js"
-hash = "554693997cebcd5304a930a03cc80abd00e2ba8cf6dc1899248ab06ffd38df4a"
+hash = "e2d791f645eb9a57175acb73c568848f7290730f16b4ce10e455dbb866e64699"
 
 [[files]]
 file = "kubejs/server_scripts/guns/machine-guns.js"
-hash = "3ce622a3e1a21a54d97bc155a8341a642ee60017047daad1e14abdd96f76f6fe"
+hash = "0f173ed2caf15d76ecb6644bff652d811038a772371e90f744470c2dc39e4062"
 
 [[files]]
 file = "kubejs/server_scripts/guns/pistols.js"
