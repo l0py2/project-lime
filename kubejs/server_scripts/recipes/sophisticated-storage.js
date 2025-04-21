@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 	function chestShaped(input, woodType, count) {
 		event.shaped(
-			Item.of('sophisticatedstorage:chest', count, `{woodType:"${woodType}"}`),
+			Item.of(global.id.SS('chest'), count, `{woodType:"${woodType}"}`),
 			[
 				'AAA',
 				'A A',
@@ -37,4 +37,18 @@ ServerEvents.recipes(event => {
 	chestShaped(global.id.MC('cherry_log'), 'cherry', 4);
 	chestShaped(global.id.MC('bamboo_planks'), 'bamboo', 1);
 	chestShaped(global.tag.MC('bamboo_blocks'), 'bamboo', 2);
+
+	event.shapeless(
+		global.id.MC('chest'),
+		[
+			global.id.SS('chest')
+		]
+	);
+
+	event.shapeless(
+		Item.of(global.id.SS('chest'), '{woodType:"oak"}'),
+		[
+			global.id.MC('chest')
+		]
+	);
 });

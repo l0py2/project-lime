@@ -55,7 +55,6 @@ global.removedItems = [
 	global.id.QK('rope'),
 	global.id.DG('huge_diesel_engine'),
 	global.id.TZ('gun_smith_table'),
-	global.id.MC('chest'),
 	global.id.SS('basic_tier_upgrade')
 ];
 
@@ -78,7 +77,9 @@ global.removedRecipes = [
 	global.id.SS('auto_blasting_upgrade_from_auto_smelting_upgrade'),
 	global.id.SS('auto_smoking_upgrade_from_auto_smelting_upgrade'),
 	global.id.SS('blasting_upgrade_from_smelting_upgrade'),
-	global.id.SS('smoking_upgrade_from_smelting_upgrade')
+	global.id.SS('smoking_upgrade_from_smelting_upgrade'),
+	global.id.MC('chest'),
+	global.id.QK('tweaks/crafting/utility/chests/mixed_chest_wood_but_without_exclusions')
 ];
 
 global.inputReplacements = new Map([
@@ -93,7 +94,6 @@ global.outputReplacements = new Map([
 ]);
 
 global.dropReplacements = new Map([
-	[global.id.MC('chest'), Item.of(global.id.SS('chest'), '{woodType:"oak"}')]
 ]);
 
 global.tagReplacements = new Map([
