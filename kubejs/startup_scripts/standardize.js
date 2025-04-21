@@ -54,7 +54,9 @@ global.removedItems = [
 	global.id.NA('copper_wire'),
 	global.id.QK('rope'),
 	global.id.DG('huge_diesel_engine'),
-	global.id.TZ('gun_smith_table')
+	global.id.TZ('gun_smith_table'),
+	global.id.MC('chest'),
+	global.id.SS('basic_tier_upgrade')
 ];
 
 global.removedRecipeTypes = [
@@ -88,6 +90,10 @@ global.inputReplacements = new Map([
 global.outputReplacements = new Map([
 	[global.id.FD('rope'), global.id.SP('rope')],
 	[global.id.FD('wheat_dough'), global.id.CR('dough')]
+]);
+
+global.dropReplacements = new Map([
+	[global.id.MC('chest'), Item.of(global.id.SS('chest'), '{woodType:"oak"}')]
 ]);
 
 global.tagReplacements = new Map([

@@ -485,6 +485,10 @@ file = "kubejs/server_scripts/compat/farmers-delight.js"
 hash = "486be28f5cdeabacdc86e79a1613328d4226ff38573c23db53b4814182521c17"
 
 [[files]]
+file = "kubejs/server_scripts/compat/sophisticated-storage.js"
+hash = "f75ee2ebe818c76c18535ab6b8ef21c9719c3cd59056de049d861c6c341bd34c"
+
+[[files]]
 file = "kubejs/server_scripts/compat/wires.js"
 hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
 
@@ -495,6 +499,10 @@ hash = "8b1445c9bdc16233597891ca2ce05dd90605345a4f098dc9d400a3c055b7481c"
 [[files]]
 file = "kubejs/server_scripts/recipes/qol.js"
 hash = "d634c3803a0f97c1b5ab839098ccd19b9213c1848547493dcb263418ab82c78f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sophisticated-storage.js"
+hash = "3984f5a40a4d29434eddd8f63a38490ea19b147b06da055180eb7583f24c5a1f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/tacz/ammo.js"
@@ -562,7 +570,7 @@ hash = "0effea8ebd4da569130b220c88e6ad01bf9a2d292f566498bc987382c3dfb172"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "475fdf00dfaf9547390fd82fa305c19f5d0d7f7273f6f830eb3dbe25a0631d25"
+hash = "3980dbcae9619cc6fe5b72588ac5b72f310bb482493bea85db4bdd811c0587b5"
 
 [[files]]
 file = "kubejs/startup_scripts/custom-items/fluids.js"
@@ -578,7 +586,7 @@ hash = "687e91df58d37b43404e8c00dfeee6ab3b6c2e85ecdbff4bdac3feac2fe7b733"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "d7c568db682b874595e3d3d08549e5222425b07466c4a9c157c3b4861941dca7"
+hash = "af3c1524c287f5e36edbe64a87e4b99f3dfce18b1836070f3bbbce77dd64d14a"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"

@@ -3,12 +3,23 @@
 LootJS.modifiers(event => {
 	const lootTables = event.addLootTableModifier(/.*/);
 
+	for(const [original, replacement] of global.dropReplacements) {
+		lootTables.replaceLoot(original, replacement);
+	}
+
 	for(const item of global.removedItems) {
 		lootTables.removeLoot(item);
 	}
 });
 
 ServerEvents.tags('item', event => {
+	for(const item of global.removedItems) {
+		event.removeAllTagsFrom(item);
+		event.add(global.id.KJ('removed'), item);
+	}
+});
+
+ServerEvents.tags('block', event => {
 	for(const item of global.removedItems) {
 		event.removeAllTagsFrom(item);
 		event.add(global.id.KJ('removed'), item);
