@@ -808,7 +808,7 @@ metafile = true
 
 [[files]]
 file = "mods/geophilic.pw.toml"
-hash = "b586590f7d6bcc8b2c4862f9d17efa0d4181949409b3c9e7b764af559e0e4d8e"
+hash = "a1cd6717a88d46c89946347bfa7c6b705de5f70e8b3d00732a6719d2f622e4e8"
 metafile = true
 
 [[files]]
@@ -948,7 +948,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "d7a442b5845e5d425edd62c804ea76737eed938cb764014aaa50629f049cc927"
+hash = "de1301eed3f9d884662bc966ab6dd07c4d3dd91cb3d53ee8f885fd85fe698548"
 metafile = true
 
 [[files]]
