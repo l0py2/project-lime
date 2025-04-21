@@ -1,5 +1,13 @@
 // priority: 1
 
+LootJS.modifiers(event => {
+	const lootTables = event.addLootTableModifier(/.*/);
+
+	for(const item of global.removedItems) {
+		lootTables.removeLoot(item);
+	}
+});
+
 ServerEvents.tags('item', event => {
 	for(const item of global.removedItems) {
 		event.removeAllTagsFrom(item);

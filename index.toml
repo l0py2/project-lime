@@ -473,18 +473,6 @@ file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
-file = "kubejs/data/farmersdelight/loot_tables/chests/fd_abandoned_mineshaft.json"
-hash = "f244c069f405f156f75798a5bee9d01983da5248b97a5b2774ab86ff74e30c12"
-
-[[files]]
-file = "kubejs/data/farmersdelight/loot_tables/chests/fd_shipwreck_supply.json"
-hash = "968815dbb2049a9df5a18196eadf14c000c78b929d446f179ddb386d89334485"
-
-[[files]]
-file = "kubejs/data/farmersdelight/loot_tables/chests/fd_simple_dungeon.json"
-hash = "bf6b26edab7ec10b76a0ccb4bf631ad58ed22e0963d3f035dfa61b05240f84bb"
-
-[[files]]
 file = "kubejs/server_scripts/compat/brewin-and-chewin.js"
 hash = "942d010c58607b3f63c65b155c79ea09a16471500813294376d9c0b687377427"
 
@@ -574,7 +562,7 @@ hash = "0effea8ebd4da569130b220c88e6ad01bf9a2d292f566498bc987382c3dfb172"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
+hash = "475fdf00dfaf9547390fd82fa305c19f5d0d7f7273f6f830eb3dbe25a0631d25"
 
 [[files]]
 file = "kubejs/startup_scripts/custom-items/fluids.js"
