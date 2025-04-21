@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_m700');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m700",HasBulletInBarrel:0b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m700",HasBulletInBarrel:0b}')
 		],
 		incomplete,
 		[
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_m107');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m107",HasBulletInBarrel:0b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m107",HasBulletInBarrel:0b}')
 		],
 		incomplete,
 		[
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incomplete, [incomplete, global.id.CR('large_cogwheel')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.id.CR('precision_mechanism')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.id.CR('precision_mechanism')]),
-			event.recipes.createDeploying(incomplete, [incomplete, global.id.MC('netherite_scrap')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('ingots/netherite')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/iron')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/iron')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/iron')]),
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_m95');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m95",HasBulletInBarrel:0b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m95",HasBulletInBarrel:0b}')
 		],
 		incomplete,
 		[
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incomplete, [incomplete, global.id.CR('large_cogwheel')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.id.CR('precision_mechanism')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/obsidian')]),
-			event.recipes.createDeploying(incomplete, [incomplete, global.id.MC('netherite_scrap')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('ingots/netherite')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/iron')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/iron')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/iron')]),
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_ai_awp');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:ai_awp",HasBulletInBarrel:0b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:ai_awp",HasBulletInBarrel:0b}')
 		],
 		incomplete,
 		[

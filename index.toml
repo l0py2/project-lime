@@ -465,7 +465,7 @@ file = "kubejs/assets/kubejs/textures/item/gun/vector45.png"
 hash = "27eb7aabc7e0ba35e7fe323f5b48b92ed4f6921698ff6674efcefe275bb0fc15"
 
 [[files]]
-file = "kubejs/client_scripts/removed.js"
+file = "kubejs/client_scripts/standardize.js"
 hash = "f4c06db83440c1136dfcd4315b0df34f67246a8b8488579fdff9200518afd863"
 
 [[files]]
@@ -501,76 +501,100 @@ file = "kubejs/server_scripts/compat/wires.js"
 hash = "6b105a05bda89099907121af18adc16e7d8626b0459d38c7a555e18eabf5a9b6"
 
 [[files]]
-file = "kubejs/server_scripts/guns/ammo.js"
-hash = "f605b864a503a2ffff3fe563539beb37396139d22cc068c848fe6684d9b17e50"
-
-[[files]]
-file = "kubejs/server_scripts/guns/assault-rifles.js"
-hash = "bb2823c77ff813b1c1d6b7bd743f795dbd48b6e3a2b6b02e8d1ce089274805ef"
-
-[[files]]
-file = "kubejs/server_scripts/guns/battle-rifles.js"
-hash = "9cd745bff1924b177ce2322698a5947f4a0e25393aa51e062a048454150c58c4"
-
-[[files]]
-file = "kubejs/server_scripts/guns/carbines.js"
-hash = "29a6dfc4eb29180f1c379073ac9f8361f8c788b5468ffad37c401a495f1a9ba3"
-
-[[files]]
-file = "kubejs/server_scripts/guns/designated-marksman-rifles.js"
-hash = "c0f9f6d60a06abdd23e77f60b0fdad99c83f82db4dd3827bafb56e505d94ba8d"
-
-[[files]]
-file = "kubejs/server_scripts/guns/explosive.js"
-hash = "e2d791f645eb9a57175acb73c568848f7290730f16b4ce10e455dbb866e64699"
-
-[[files]]
-file = "kubejs/server_scripts/guns/machine-guns.js"
-hash = "0f173ed2caf15d76ecb6644bff652d811038a772371e90f744470c2dc39e4062"
-
-[[files]]
-file = "kubejs/server_scripts/guns/pistols.js"
-hash = "bd6f7ca79f5e98f6fad3264a7b06afa9e6fe6079b873443470e713bc11daa7ed"
-
-[[files]]
-file = "kubejs/server_scripts/guns/plastic.js"
+file = "kubejs/server_scripts/recipes/plastic.js"
 hash = "8b1445c9bdc16233597891ca2ce05dd90605345a4f098dc9d400a3c055b7481c"
 
 [[files]]
-file = "kubejs/server_scripts/guns/shotguns.js"
-hash = "1dfe045ab50dd5f6b3f612059a4aa042a059f802ebea6a1f7341cf254a3a1aef"
-
-[[files]]
-file = "kubejs/server_scripts/guns/snipers.js"
-hash = "3385217ef7afee12b1322a983dacf6ef0d59ba359288d85cacd73f1ae9f15eff"
-
-[[files]]
-file = "kubejs/server_scripts/guns/sub-machine-guns.js"
-hash = "0effea8ebd4da569130b220c88e6ad01bf9a2d292f566498bc987382c3dfb172"
-
-[[files]]
-file = "kubejs/server_scripts/qol.js"
+file = "kubejs/server_scripts/recipes/qol.js"
 hash = "d634c3803a0f97c1b5ab839098ccd19b9213c1848547493dcb263418ab82c78f"
 
 [[files]]
-file = "kubejs/server_scripts/removed.js"
+file = "kubejs/server_scripts/recipes/tacz/ammo.js"
+hash = "f605b864a503a2ffff3fe563539beb37396139d22cc068c848fe6684d9b17e50"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/assault-rifles.js"
+hash = "bb2823c77ff813b1c1d6b7bd743f795dbd48b6e3a2b6b02e8d1ce089274805ef"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/attachments/ammo.js"
+hash = "9f7d9b493f33e7ec49592637b7db8bf96f36907ee6d531cb817c1b938db5c433"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/attachments/grips.js"
+hash = "f551d43e78fa5b0440980e6bd689327135328ef6f7e2753960ec081eb1cd1a01"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/attachments/muzzle-devices.js"
+hash = "81d24ad01cf2786c5fe0b2a6e88b1c344d427738902b87c0f37dd5836af0386d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/attachments/sights.js"
+hash = "7fae4f40131b0758821183e7e96971e11ca4d5b0e24efca1fcdf22511ca01132"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/attachments/stocks.js"
+hash = "a3417204fbb5b6afce3dff1a999e33dc9f32e237039c31df283dfcbcc807a6e2"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/battle-rifles.js"
+hash = "9cd745bff1924b177ce2322698a5947f4a0e25393aa51e062a048454150c58c4"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/carbines.js"
+hash = "29a6dfc4eb29180f1c379073ac9f8361f8c788b5468ffad37c401a495f1a9ba3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/designated-marksman-rifles.js"
+hash = "c0f9f6d60a06abdd23e77f60b0fdad99c83f82db4dd3827bafb56e505d94ba8d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/explosive.js"
+hash = "e2d791f645eb9a57175acb73c568848f7290730f16b4ce10e455dbb866e64699"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/machine-guns.js"
+hash = "0f173ed2caf15d76ecb6644bff652d811038a772371e90f744470c2dc39e4062"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/pistols.js"
+hash = "bd6f7ca79f5e98f6fad3264a7b06afa9e6fe6079b873443470e713bc11daa7ed"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/shotguns.js"
+hash = "1dfe045ab50dd5f6b3f612059a4aa042a059f802ebea6a1f7341cf254a3a1aef"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/snipers.js"
+hash = "059b351dc0a7d7c8ecac155f19d8fe83183b81a45b6c7b873d1041d67d49618b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/tacz/sub-machine-guns.js"
+hash = "0effea8ebd4da569130b220c88e6ad01bf9a2d292f566498bc987382c3dfb172"
+
+[[files]]
+file = "kubejs/server_scripts/standardize.js"
 hash = "186850d68905986b7eb37ad7913cc66554586fa7b98d66387341894160ee2158"
 
 [[files]]
-file = "kubejs/startup_scripts/fluids.js"
+file = "kubejs/startup_scripts/custom-items/fluids.js"
 hash = "2f9a7b11298851740af25b8bf68eef49da614d0e3de5ce93452fb559e3a8118a"
 
 [[files]]
-file = "kubejs/startup_scripts/global.js"
-hash = "d7c568db682b874595e3d3d08549e5222425b07466c4a9c157c3b4861941dca7"
-
-[[files]]
-file = "kubejs/startup_scripts/incompleted.js"
+file = "kubejs/startup_scripts/custom-items/incomplete-tacz.js"
 hash = "5e1e9786ceec00592177cef737039be428a2b70875e1ae1cddf0fef527b8cf07"
 
 [[files]]
-file = "kubejs/startup_scripts/recipes.js"
-hash = "57f1ea73fb6dbe29b4182eb6c38d6abcf25372ea0767931d73243d00134126b1"
+file = "kubejs/startup_scripts/custom-recipes.js"
+hash = "687e91df58d37b43404e8c00dfeee6ab3b6c2e85ecdbff4bdac3feac2fe7b733"
+
+[[files]]
+file = "kubejs/startup_scripts/identifiers.js"
+hash = "7f85e789d9ca4595fca8bbf0b24dc27cccecc4926b9c4f8b86779324de5ec4da"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize.js"
+hash = "72cb6588c11b254512ba0cfc74ed78bc22a7e22ea355e42654e618efa06883b5"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
