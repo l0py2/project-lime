@@ -589,12 +589,8 @@ file = "kubejs/startup_scripts/custom-recipes.js"
 hash = "687e91df58d37b43404e8c00dfeee6ab3b6c2e85ecdbff4bdac3feac2fe7b733"
 
 [[files]]
-file = "kubejs/startup_scripts/identifiers.js"
-hash = "7f85e789d9ca4595fca8bbf0b24dc27cccecc4926b9c4f8b86779324de5ec4da"
-
-[[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "72cb6588c11b254512ba0cfc74ed78bc22a7e22ea355e42654e618efa06883b5"
+hash = "d7c568db682b874595e3d3d08549e5222425b07466c4a9c157c3b4861941dca7"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
@@ -849,6 +845,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
 metafile = true
 
 [[files]]
