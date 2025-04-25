@@ -730,7 +730,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-loot.pw.toml"
-hash = "7c5790cb26410eb6b27499529eed86951545c0fafc4e5d4bd4c98bfab09b1baa"
+hash = "53d5d1b9287e8f53e4fff7405dcf7bfe90d5686571031bda1a6eba87a65bfa57"
 metafile = true
 
 [[files]]
@@ -885,7 +885,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "2a0cb33fb2c23f157e0295ae75f48c7531441e451187cc9fedf5054d728be929"
+hash = "8c65958007f81cdf1a57dac999ec7ffdde17cce6154c9a2f75bbb389fd11efbf"
 metafile = true
 
 [[files]]
@@ -935,22 +935,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d03b81a12dd6fa5c46d7b51c22b4f1d51f5f5c48e57c9c8c53930b9a18d71f36"
+hash = "d36e105a94e3e8263f36e856521d0c484b59c01449695ca3153d936818549680"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "b5023fb8ff2fee37fee75ad44912888c176ef99c8b0039af41db43ecceeeac6e"
+hash = "cf4aabd2ddd1d3d71fdcc51c5d20abb19f9f210ac262555d4d0efa3d6d52f8bc"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "de1301eed3f9d884662bc966ab6dd07c4d3dd91cb3d53ee8f885fd85fe698548"
+hash = "3e2ed105a125cae0d19bf18ebc1640fec703885855db7ec779fa490b08cec934"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "45a53404a7460d30dbf6d7689d267059106243423edb75844946e1d56f4dcc0e"
+hash = "8986e6f46fb7a38b79dd2ede394c62716b6f863e74d6edfc396a5a301a375cda"
 metafile = true
 
 [[files]]
