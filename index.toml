@@ -493,6 +493,10 @@ file = "kubejs/data/minecraft/worldgen/structure_set/jungle_temples.json"
 hash = "115f8468300957440536a95d46be5159b7d9cb5775322f6e1147ad8659d625ec"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/mineshafts.json"
+hash = "c9b751826f43767a4d211efd35102df850fc249d75e46aae50280699a6e81284"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/nether_complexes.json"
 hash = "2fee15c4a709c37f086678121e1e27756365749bc0a07cd6eda539e522b96db7"
 
@@ -547,6 +551,10 @@ hash = "c667695b95f8332f2d495c01a98357c25ba5ae06339c8446532beada0cca6664"
 [[files]]
 file = "kubejs/server_scripts/compat/farmers-delight.js"
 hash = "486be28f5cdeabacdc86e79a1613328d4226ff38573c23db53b4814182521c17"
+
+[[files]]
+file = "kubejs/server_scripts/compat/furnaces.js"
+hash = "76ebf47db2e777da0c30423cd45f8737c324c1f8ef03ad9b266be188310fb63d"
 
 [[files]]
 file = "kubejs/server_scripts/compat/sophisticated-storage.js"
@@ -650,7 +658,7 @@ hash = "687e91df58d37b43404e8c00dfeee6ab3b6c2e85ecdbff4bdac3feac2fe7b733"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "7e17ecc599eafaf5a8778e48ab456b7a1d47f19a05a49322f062078653a28762"
+hash = "6e9c271b0802e876a013f924e6d0cbe7ba461814a2e34b51d9de94f22467eb75"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"

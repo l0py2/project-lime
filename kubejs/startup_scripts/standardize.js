@@ -94,13 +94,22 @@ global.removedRecipes = [
 	global.id.SS('blasting_upgrade_from_smelting_upgrade'),
 	global.id.SS('smoking_upgrade_from_smelting_upgrade'),
 	global.id.MC('chest'),
-	global.id.QK('tweaks/crafting/utility/chests/mixed_chest_wood_but_without_exclusions')
+	global.id.QK('tweaks/crafting/utility/chests/mixed_chest_wood_but_without_exclusions'),
+	global.id.QK('building/crafting/furnaces/blackstone_blast_furnace'),
+	global.id.QK('building/crafting/furnaces/deepslate_blast_furnace'),
+	global.id.QK('building/crafting/furnaces/blackstone_minecart'),
+	global.id.QK('building/crafting/furnaces/deepslate_minecart'),
+	global.id.QK('building/crafting/furnaces/blackstone_minecart_tweaked'),
+	global.id.QK('building/crafting/furnaces/deepslate_minecart_tweaked'),
+	global.id.QK('building/crafting/furnaces/blackstone_smoker'),
+	global.id.QK('building/crafting/furnaces/deepslate_smoker')
 ];
 
 global.inputReplacements = new Map([
 	[global.id.FD('rope'), global.tag.M('ropes')],
 	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')],
-	[global.id.NA('copper_wire'), global.tag.M('wires/copper')]
+	[global.id.NA('copper_wire'), global.tag.M('wires/copper')],
+	[global.id.MC('furnace'), global.tag.M('furnaces')]
 ]);
 
 global.outputReplacements = new Map([
