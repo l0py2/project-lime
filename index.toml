@@ -26,7 +26,7 @@ hash = "3adfe8f19d5de7c2460ed7414e215ae968b25872a4d436e0d59be81624dfb842"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "61ebdd995eb620ca4238436ba3ad1197d53ba923adb351db26c1443e86dffef2"
+hash = "434798b2b3c5faae541eb6ba76858fc6522393dd3e8e9a0dd5c032a7863d2c54"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -980,11 +980,6 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
-metafile = true
-
-[[files]]
-file = "mods/sawmill.pw.toml"
-hash = "ec9d9cf55405c1520fab9a8147f241ec2016c66610335fb30e4230f7b1d25b0f"
 metafile = true
 
 [[files]]

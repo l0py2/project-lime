@@ -1,7 +1,20 @@
 [building]
 	Rope = false
 	"Variant Chests" = false
-	"Variant Furnaces" = false
+	"Variant Furnaces" = true
+	"Variant Bookshelves" = true
+	"Variant Ladders" = true
+	"Vertical Planks" = true
+	"Vertical Slabs" = true
+
 	[building.variant_chests]
 		"Enable Reverting Wooden Chests" = true
 		"Replace Worldgen Chests" = false
+
+[automation]
+	Crafter = false
+	"Dispensers Place Blocks" = false
+	"Iron Rod" = false
+
+[world]
+	"Monster Box" = false
