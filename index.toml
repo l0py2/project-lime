@@ -698,6 +698,11 @@ hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
 metafile = true
 
 [[files]]
+file = "mods/caelus.pw.toml"
+hash = "5155ae1ca2c606df2001422a48cd167d2449160d5fe12a302753dee69af7fe92"
+metafile = true
+
+[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
 metafile = true
@@ -795,6 +800,11 @@ metafile = true
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "8f2270a50a633db681826cbfb691e6efdb25e1e0c4702125c13d525b52fe229f"
+metafile = true
+
+[[files]]
+file = "mods/elytra-slot.pw.toml"
+hash = "2a3437d7259d88da14de0b4dfec2b5ac805f33b1814fecbfd5eabc5b49155620"
 metafile = true
 
 [[files]]
@@ -1025,6 +1035,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "3e2ed105a125cae0d19bf18ebc1640fec703885855db7ec779fa490b08cec934"
+metafile = true
+
+[[files]]
+file = "mods/spyglass-improvements.pw.toml"
+hash = "20a83d346e216aa6d1d3ee0258b744c700af490b6f68464c518b7f8747863d1a"
 metafile = true
 
 [[files]]
