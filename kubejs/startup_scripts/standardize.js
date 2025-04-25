@@ -55,7 +55,8 @@ global.removedItems = [
 	global.id.QK('rope'),
 	global.id.DG('huge_diesel_engine'),
 	global.id.TZ('gun_smith_table'),
-	global.id.SS('basic_tier_upgrade')
+	global.id.SS('basic_tier_upgrade'),
+	global.id.MC('chest')
 ];
 
 global.removedRecipeTypes = [
@@ -94,6 +95,7 @@ global.outputReplacements = new Map([
 ]);
 
 global.dropReplacements = new Map([
+	[global.id.MC('chest'), Item.of(global.id.SS('chest'), '{woodType:"oak"}')]
 ]);
 
 global.tagReplacements = new Map([

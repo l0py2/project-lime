@@ -502,7 +502,7 @@ hash = "d634c3803a0f97c1b5ab839098ccd19b9213c1848547493dcb263418ab82c78f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/sophisticated-storage.js"
-hash = "b47d09f02784397e5f9df9f1757ea9dd4f301405b4f7402dc995695147b05d34"
+hash = "23d4e63fd6637c1b1d98115041b1af397385f04950515c12fa8e0d143086215a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/tacz/ammo.js"
@@ -586,7 +586,7 @@ hash = "687e91df58d37b43404e8c00dfeee6ab3b6c2e85ecdbff4bdac3feac2fe7b733"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "aa12ce139b8c66ae3326f4e405c78a79475d3bdf383ee75583d4593760835654"
+hash = "c6f80bb5defcb036014a7722a6a4b12bac462e26e358d9af1261a5bf4878de96"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"

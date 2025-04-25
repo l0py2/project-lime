@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({ output: global.id.SS('chest') });
 	chestShaped(global.tag.MC('planks'), 'oak', 1);
+	chestShaped(global.tag.MC('logs'), 'oak', 4);
 	chestShaped(global.id.MC('acacia_planks'), 'acacia', 1);
 	chestShaped(global.id.MC('acacia_log'), 'acacia', 4);
 	chestShaped(global.id.MC('birch_planks'), 'birch', 1);
@@ -37,18 +38,4 @@ ServerEvents.recipes(event => {
 	chestShaped(global.id.MC('cherry_log'), 'cherry', 4);
 	chestShaped(global.id.MC('bamboo_planks'), 'bamboo', 1);
 	chestShaped(global.tag.MC('bamboo_blocks'), 'bamboo', 2);
-
-	event.shapeless(
-		global.id.MC('chest'),
-		[
-			global.id.SS('chest')
-		]
-	);
-
-	event.shapeless(
-		Item.of(global.id.SS('chest'), '{woodType:"oak"}'),
-		[
-			global.id.MC('chest')
-		]
-	);
 });
