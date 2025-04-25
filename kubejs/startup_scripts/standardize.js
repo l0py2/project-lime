@@ -17,7 +17,8 @@ global.id = {
 	DG: id => `createdieselgenerators:${id}`,
 	NA: id => `create_new_age:${id}`,
 	CA: id => `createaddition:${id}`,
-	TZ: id => `tacz:${id}`
+	TZ: id => `tacz:${id}`,
+	CC: id => `create_connected:${id}`
 };
 
 global.tag = {
@@ -37,7 +38,8 @@ global.tag = {
 	DG: tag => `#createdieselgenerators:${tag}`,
 	NA: tag => `#create_new_age:${tag}`,
 	CA: tag => `#createaddition:${tag}`,
-	TZ: tag => `#tacz:${tag}`
+	TZ: tag => `#tacz:${tag}`,
+	CC: tag => `#create_connected:${tag}`
 };
 
 global.removedItems = [
@@ -57,7 +59,18 @@ global.removedItems = [
 	global.id.TZ('gun_smith_table'),
 	global.id.SS('basic_tier_upgrade'),
 	global.id.MC('chest'),
-	global.id.MC('barrel')
+	global.id.MC('barrel'),
+	global.id.CC('copycat_block'),
+	global.id.CC('copycat_slab'),
+	global.id.CC('copycat_beam'),
+	global.id.CC('copycat_vertical_step'),
+	global.id.CC('copycat_stairs'),
+	global.id.CC('copycat_fence'),
+	global.id.CC('copycat_fence_gate'),
+	global.id.CC('copycat_wall'),
+	global.id.CC('copycat_board'),
+	global.id.CC('copycat_box'),
+	global.id.CC('copycat_catwalk')
 ];
 
 global.removedRecipeTypes = [

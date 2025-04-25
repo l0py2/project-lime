@@ -650,7 +650,7 @@ hash = "687e91df58d37b43404e8c00dfeee6ab3b6c2e85ecdbff4bdac3feac2fe7b733"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "54c199421c7228cd566e1d1996da306e4aa5b70eabbac82f12e0eee05f47495f"
+hash = "7e17ecc599eafaf5a8778e48ab456b7a1d47f19a05a49322f062078653a28762"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
