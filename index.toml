@@ -473,6 +473,70 @@ file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json"
+hash = "c6ab67ea3c707c0fe34d5e335f7ab2925516e68c7555d62511a1cdbf5644833c"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/desert_pyramids.json"
+hash = "5023583d0339fdb8de3f7d3a6bfa81938c5d77d1f6734d5ed1ba8b08d680caf2"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/end_cities.json"
+hash = "e2cc651ed757bd09959f906c4ea9282db54a5849295918deeac010e9c63ef363"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/igloos.json"
+hash = "fc3a083f06a6a9d2c7dd855d0c76064018e18092902f0edac81ca9b1cc82795b"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/jungle_temples.json"
+hash = "115f8468300957440536a95d46be5159b7d9cb5775322f6e1147ad8659d625ec"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/nether_complexes.json"
+hash = "2fee15c4a709c37f086678121e1e27756365749bc0a07cd6eda539e522b96db7"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ocean_monuments.json"
+hash = "8cc63ff38eb9363a4f324a26ca457cdcea4301a36b79105e699868c92aeaff30"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ocean_ruins.json"
+hash = "57109733cfa09331f2cc27d797cc9ec6cf0a9ad1898d48137f9ab93cc64a8c39"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/pillager_outposts.json"
+hash = "70128b82d03226de096868d3344b4f50fa199047ce9519896224546f541f1c13"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ruined_portals.json"
+hash = "28facac14d30e0cf10df4e386722f9a64e858333ef0d697752031d148388caa4"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/shipwrecks.json"
+hash = "d4bb970806ac699944bde8978643022e2228426353d15c3353354c287a262fe0"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/strongholds.json"
+hash = "750a56f62d933bf754875faba85db2646ec45db0d7de5fbb3889e888cae1ea7f"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/swamp_huts.json"
+hash = "6bde66dacd2b6f15bb44c8aaf68f1c94ad3012b7ea3b452a0003c49733cf2cb7"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/trail_ruins.json"
+hash = "232f3f11d4817dee3116849a37f0de2f2306d6ee5d8b8f50230992da74fc86d7"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/villages.json"
+hash = "9b95087b4af130404ff75d0eb791100679c94d382338eded3d4c91dad1b79d6e"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/woodland_mansions.json"
+hash = "a9ba751c6453ed10e890ffc5fc40659fab9dba71b5fd42cfddb1401975aaf5bc"
+
+[[files]]
 file = "kubejs/server_scripts/compat/brewin-and-chewin.js"
 hash = "942d010c58607b3f63c65b155c79ea09a16471500813294376d9c0b687377427"
 
