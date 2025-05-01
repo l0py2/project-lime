@@ -667,7 +667,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "6c1abc7203698f420023a1655bc803113babd2dc00b2ced0e071de8b46147b5a"
+hash = "1bd2a0c8cc2cd8a8db1698cfdfcb565e5399c6fcd954ae3452c619c401da1d7a"
 metafile = true
 
 [[files]]
@@ -862,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "b95877b8d6f69db8f0c2fb3a4f76f7c6bc2f86896aec004acf350b1102ce27a1"
+hash = "5a35cb010ab1c87d79c44393fd7c9f78da54c36643697d2a5a7ac05cf74005d0"
 metafile = true
 
 [[files]]
@@ -877,7 +877,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgery.pw.toml"
-hash = "ead70e2d2745d9ab8dbd74c2c65333c8be0219709620564901f2512f85e9508a"
+hash = "96914793f7662475f665009d5388608cfd294393ad33e12a05282fdb0d8d8745"
 metafile = true
 
 [[files]]
@@ -1002,7 +1002,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "e7d596f25bd16e1cd85b34896f69c8801312de601f5af48cb412a2be505f09fb"
+hash = "0d422c8149fafa618f0d1d227e610f661fbbe66608b33a60b9d614127ffbb08c"
 metafile = true
 
 [[files]]
@@ -1022,12 +1022,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d36e105a94e3e8263f36e856521d0c484b59c01449695ca3153d936818549680"
+hash = "fadae3e68878ab3ecf44dd4e53ead83ee81a44e971c78032ab69cdf530361fc5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "cf4aabd2ddd1d3d71fdcc51c5d20abb19f9f210ac262555d4d0efa3d6d52f8bc"
+hash = "5865d44a4a9f6d0913d9dbe1220973f8701a3613a64bf92052299a4beba78f27"
 metafile = true
 
 [[files]]
@@ -1037,7 +1037,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "3e2ed105a125cae0d19bf18ebc1640fec703885855db7ec779fa490b08cec934"
+hash = "0f743908fc760c7f9b355bb3d9535c88eb1bad729bb08932f84a4118018272b1"
 metafile = true
 
 [[files]]
@@ -1052,7 +1052,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "8986e6f46fb7a38b79dd2ede394c62716b6f863e74d6edfc396a5a301a375cda"
+hash = "e06b639b9475918643d71f95eb745bb6a5f7033d7f36f057bacb0e93b3d03279"
 metafile = true
 
 [[files]]
