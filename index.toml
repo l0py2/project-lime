@@ -1,2 +1,141 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
+metafile = true
+
+[[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "65eb3254419ce3c5ef9e51950833c9431a23fc96216b09081187e695326d522e"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "8414a136dd695904e4fbb6c91b3c541706933b44f5f8c860ac51b594168e7fb2"
+metafile = true
+
+[[files]]
+file = "mods/catalogue.pw.toml"
+hash = "9ac4b1561ea7c44ce427edadb181fb3785e423727f50900e7668ccf00b386979"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "d362a013bef0c4e8ade6bf77e97478833902210cc70ad7d133aece3f1c3e37a6"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
+metafile = true
+
+[[files]]
+file = "mods/corpse-x-curios-api-compat.pw.toml"
+hash = "4dd0153bfd4279bf7264ec1384bf60c8e1777bfc13a799114c4cd207fd32691c"
+metafile = true
+
+[[files]]
+file = "mods/corpse.pw.toml"
+hash = "3010b495fe348272f66e11617aefd064372979efc6c295502feeb8ecc7fcd3fb"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
+metafile = true
+
+[[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "9237b88b063c87c5f4b5a79c5ff8a7c287537f3deabe04027efee8298ac380dd"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "40325ca229417ffbfb117a06a113724c131d653eb1096c66aacc0d45de7fcb50"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+hash = "ae65d1488be0f83b339ac6022115cd284dfc5d88bcfdf7a65fbfdc0dd9f1254b"
+metafile = true
+
+[[files]]
+file = "mods/emi-professions-emip.pw.toml"
+hash = "754913a9771c3c3a550773c59d7d8c04536585b17ddc8b045ad3af9a11080cf9"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "b772e8a158c45c21844c4acf10f2031335ccc8d05837532ad01034057221bdbd"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "e64ecb726e09cec46a58f44d73fcf9a9c6634ac2c08e0224d3c24ed95c053b29"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "5bc824e369b9a085c7381f768356ce19c062d1b81e2302149684df62c60a16c8"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "b2e4e9c22fa6dbdedf14fefc64ae45ab6354ff00246e8c950d720ea9198eb75e"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "908cbf89e774b114d1dc3aef4806c9d2d782cfd314be001718bb690af9b074a8"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "78cf82fda4c8a7ea9556cf4481b43f38762151bcac0a09fd412f82d5f0883cc7"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "5dbf6efac80bb42bb52875dd04a70839619b1b4c83f646bea668ebbddd4c1b49"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "9dfeb4b87e376aacf809236ade964c2e37943aaff4d7a5774442f7cca52b76de"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap-fair-play-edition.pw.toml"
+hash = "17f9f28d4a141165ca4b615b89f941cdaea5da3941cf7afe3ccb57aef93895b1"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "093f100528ac07fd2875d8d43e9db9b04eed6066df684df33bb52d9724419847"
+metafile = true
