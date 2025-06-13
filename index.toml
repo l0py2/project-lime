@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/amendments.pw.toml"
+hash = "f6b0270e42cdd96ee23cdd3e79280f2d1a91a1b13184b77912c1550600a20c3a"
+metafile = true
+
+[[files]]
+file = "mods/apathy-mod.pw.toml"
+hash = "c9de0ce7d115c01bff83ae71430c4af455a972fc52f05437ed63ecd9eecfd4b0"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
 metafile = true
@@ -21,6 +31,16 @@ hash = "9ac4b1561ea7c44ce427edadb181fb3785e423727f50900e7668ccf00b386979"
 metafile = true
 
 [[files]]
+file = "mods/chalk.pw.toml"
+hash = "b27a0261faa8d2472d9a41fa11370b7ae30dd2f141f3bcd0a117f7866db5d287"
+metafile = true
+
+[[files]]
+file = "mods/cobblegen.pw.toml"
+hash = "f671ee0519a53ef77eb3290e4c9b4de9789f61b7b1719f2b636a3aa3b085e875"
+metafile = true
+
+[[files]]
 file = "mods/configured.pw.toml"
 hash = "d362a013bef0c4e8ade6bf77e97478833902210cc70ad7d133aece3f1c3e37a6"
 metafile = true
@@ -31,13 +51,33 @@ hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "2fe10dc3d6938e782d5af5298a050448173a1839690907a1745becfb9ff8f0e2"
+metafile = true
+
+[[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
 hash = "4dd0153bfd4279bf7264ec1384bf60c8e1777bfc13a799114c4cd207fd32691c"
 metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "3010b495fe348272f66e11617aefd064372979efc6c295502feeb8ecc7fcd3fb"
+hash = "79e19349dcdea3b4e2425974f58afcac5103f65f8e4abd7cecacc1bd37f78cb0"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "2833872a872aa3741489527a10bcdead0dee2cdbd34d53a3aa483fdbff8e4079"
+metafile = true
+
+[[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "f1e8b22f412b06eee32c2555922ba188dad9cae76d13dad46fa9080b2e763a5f"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "1070f0faa541f5be34e84140f981d12e08d6d4ee753a7b0b0938c3b8760b2bd2"
 metafile = true
 
 [[files]]
@@ -71,6 +111,11 @@ hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "94a3f62be55b8772c8d3259cfaa6d42ff38137d5835fe5b56a96c114e169b8ac"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
 metafile = true
@@ -78,6 +123,26 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "b772e8a158c45c21844c4acf10f2031335ccc8d05837532ad01034057221bdbd"
+metafile = true
+
+[[files]]
+file = "mods/geophilic.pw.toml"
+hash = "a1cd6717a88d46c89946347bfa7c6b705de5f70e8b3d00732a6719d2f622e4e8"
+metafile = true
+
+[[files]]
+file = "mods/immersive-aircraft.pw.toml"
+hash = "51108048fd88cd4375b7f91c5327f8ec0d6eb3295ccb9011d42520784c175409"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "f3a2612a5aff1c844fa8b0f07d27f422a57c1a19fde35a12a5092ac9f170122c"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons.pw.toml"
+hash = "89420f657cec1038646f75531ae388e92d27c51c84b1f121e935ae5aecf995be"
 metafile = true
 
 [[files]]
@@ -126,16 +191,16 @@ hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
+file = "mods/selene.pw.toml"
+hash = "efda96e144fc2056d5fdff28ab675579eed866d5aaa891fefba2b5400ed5a725"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
 metafile = true
 
 [[files]]
-file = "mods/xaeros-minimap-fair-play-edition.pw.toml"
-hash = "17f9f28d4a141165ca4b615b89f941cdaea5da3941cf7afe3ccb57aef93895b1"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-world-map.pw.toml"
-hash = "093f100528ac07fd2875d8d43e9db9b04eed6066df684df33bb52d9724419847"
+file = "mods/supplementaries.pw.toml"
+hash = "bdb41354b79e009ac3e6c2589c6636e22b4172be55e197c5235268abf33d99bf"
 metafile = true

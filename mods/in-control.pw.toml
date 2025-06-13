@@ -1,0 +1,13 @@
+name = "In Control!"
+filename = "incontrol-1.21-10.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f7eb8f96630f33d9e386a6579fc927cd7f9cb20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6549389
+project-id = 257356
