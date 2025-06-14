@@ -26,6 +26,31 @@ hash = "8414a136dd695904e4fbb6c91b3c541706933b44f5f8c860ac51b594168e7fb2"
 metafile = true
 
 [[files]]
+file = "mods/beds-dont-explode.pw.toml"
+hash = "73c62b0214db4f70043f5175a4212a9864b3bbb11b72f71979c19bf681cfe01f"
+metafile = true
+
+[[files]]
+file = "mods/berry-good.pw.toml"
+hash = "b039bd5cd51fc1710878f9c234884c2c1120a7e6962ab54df60ef2dafc1d5cdd"
+metafile = true
+
+[[files]]
+file = "mods/blueprint.pw.toml"
+hash = "ef4c7bb9f0c537709c43666c5a341e113a0bd5b1838eca3738046eea21181a90"
+metafile = true
+
+[[files]]
+file = "mods/boatload.pw.toml"
+hash = "093bbdf2b32efeccf0ba627ab71ba5dfcd1143bebc856d151a7dcbb460af6c02"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "c854b73ec29fc1b2af09becafc5380d24dbe91ee809bd3803166563c13d98214"
+metafile = true
+
+[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "9ac4b1561ea7c44ce427edadb181fb3785e423727f50900e7668ccf00b386979"
 metafile = true
@@ -33,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/chalk.pw.toml"
 hash = "b27a0261faa8d2472d9a41fa11370b7ae30dd2f141f3bcd0a117f7866db5d287"
+metafile = true
+
+[[files]]
+file = "mods/clayworks.pw.toml"
+hash = "456af7a391f6a05e1374a5a6526a9732d4007803f313c85e255a248970a4d6c5"
 metafile = true
 
 [[files]]
@@ -68,6 +98,21 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "2833872a872aa3741489527a10bcdead0dee2cdbd34d53a3aa483fdbff8e4079"
+metafile = true
+
+[[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "957e3a23d0b1514b5de323abce452b454eb313805e2fd82377b8cd3ae7a66b42"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "2d6bcaf1b9ab4c0f7b57e40e74f15cbd7476d4720be25a48afb467d5e1633e9c"
+metafile = true
+
+[[files]]
+file = "mods/create-garnished-reworked.pw.toml"
+hash = "6d871d0191cc11530ea5ccd91fb60f74b55c57c4103c2f3e592e448392b2cabc"
 metafile = true
 
 [[files]]
@@ -108,6 +153,11 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "52897fa40bb1928447dbc2f6370286285996566f670121fd6514d853e8de50b6"
 metafile = true
 
 [[files]]
@@ -161,6 +211,11 @@ hash = "b2e4e9c22fa6dbdedf14fefc64ae45ab6354ff00246e8c950d720ea9198eb75e"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "0070d40d56a423665b251572f1af7ba375fcd3101ca01592ee7447535a29f08a"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "908cbf89e774b114d1dc3aef4806c9d2d782cfd314be001718bb690af9b074a8"
 metafile = true
@@ -178,6 +233,16 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "5dbf6efac80bb42bb52875dd04a70839619b1b4c83f646bea668ebbddd4c1b49"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "b6aadb8e32f440b51cd958b68eee57b9fe5bab26c7cf2f56d0340cf7f593030f"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "6b8153ddabbacbde1bae8fe5b763fcf9aef674c7060a228a03b61d73bc5c3314"
 metafile = true
 
 [[files]]
@@ -203,4 +268,14 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "bdb41354b79e009ac3e6c2589c6636e22b4172be55e197c5235268abf33d99bf"
+metafile = true
+
+[[files]]
+file = "mods/universal-bone-meal-forge.pw.toml"
+hash = "0444907534a713c6a85af393479f1c5734f85f527ba470b9ef4705c123b5c84f"
+metafile = true
+
+[[files]]
+file = "mods/woodworks.pw.toml"
+hash = "1e8dea6381451dbeb0059223d418751c11481b15e32530f3ae8dd6ac9324aebd"
 metafile = true
