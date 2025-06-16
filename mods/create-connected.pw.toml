@@ -1,13 +1,13 @@
 name = "Create: Connected"
-filename = "create_connected-1.1.4-mc1.21.1.jar"
+filename = "create_connected-1.1.5-mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "77f174a68122c476665e00e93e72549ebfa9a09a"
+hash = "dacb42d398a046a215836c921a89cbbc6c745b34"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6629575
+file-id = 6650114
 project-id = 947914

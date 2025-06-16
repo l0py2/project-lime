@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "2fe10dc3d6938e782d5af5298a050448173a1839690907a1745becfb9ff8f0e2"
+hash = "e8562dd1a88ce84401100e45dbe9edcb8a04b67922718832acb1d1cc6e759b65"
 metafile = true
 
 [[files]]
@@ -96,13 +96,18 @@ hash = "79e19349dcdea3b4e2425974f58afcac5103f65f8e4abd7cecacc1bd37f78cb0"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "705afd37fe84d9d4ea5b39eaed4f136649e4f5880ab1f2be4cb41f0bbce6a49a"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
-hash = "2833872a872aa3741489527a10bcdead0dee2cdbd34d53a3aa483fdbff8e4079"
+hash = "1b5fdd7e705ff7c612a7cf53dbf8fd4eda9c5a4dedd61cd07576363a8fa224ea"
 metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "957e3a23d0b1514b5de323abce452b454eb313805e2fd82377b8cd3ae7a66b42"
+hash = "90f38f6a4539b7f69be95865e409157605e7aad6d3a7f673b84f552caec3ccd1"
 metafile = true
 
 [[files]]
