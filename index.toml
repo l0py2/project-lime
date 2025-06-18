@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/chalk.pw.toml"
-hash = "b27a0261faa8d2472d9a41fa11370b7ae30dd2f141f3bcd0a117f7866db5d287"
+hash = "cd8af7e252a28e82de8a5650696cec221b7b30fd2602f1e31c20ef4a469e3012"
 metafile = true
 
 [[files]]
@@ -113,11 +113,6 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "2d6bcaf1b9ab4c0f7b57e40e74f15cbd7476d4720be25a48afb467d5e1633e9c"
-metafile = true
-
-[[files]]
-file = "mods/create-garnished-reworked.pw.toml"
-hash = "6d871d0191cc11530ea5ccd91fb60f74b55c57c4103c2f3e592e448392b2cabc"
 metafile = true
 
 [[files]]
@@ -182,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/geophilic.pw.toml"
-hash = "a1cd6717a88d46c89946347bfa7c6b705de5f70e8b3d00732a6719d2f622e4e8"
+hash = "eed66cb6cda1b41031cf42b4fd1d5907a136eb54de48bbcbbbbb8c28dc648aed"
 metafile = true
 
 [[files]]
@@ -202,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "e64ecb726e09cec46a58f44d73fcf9a9c6634ac2c08e0224d3c24ed95c053b29"
+hash = "63777b41574a0a991a58257a9d90194f605d2a6b74cbc19e81e4006e51985cb5"
 metafile = true
 
 [[files]]
@@ -243,11 +238,6 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "5dbf6efac80bb42bb52875dd04a70839619b1b4c83f646bea668ebbddd4c1b49"
-metafile = true
-
-[[files]]
-file = "mods/patchouli.pw.toml"
-hash = "b6aadb8e32f440b51cd958b68eee57b9fe5bab26c7cf2f56d0340cf7f593030f"
 metafile = true
 
 [[files]]
