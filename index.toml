@@ -11,11 +11,6 @@ hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
 metafile = true
 
 [[files]]
-file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
-metafile = true
-
-[[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "65eb3254419ce3c5ef9e51950833c9431a23fc96216b09081187e695326d522e"
 metafile = true
@@ -96,6 +91,11 @@ hash = "705afd37fe84d9d4ea5b39eaed4f136649e4f5880ab1f2be4cb41f0bbce6a49a"
 metafile = true
 
 [[files]]
+file = "mods/create-confectionery.pw.toml"
+hash = "39d487bdf8979cc0b63a0d34ace0477e9aae5835e33fd9213aecca994025eca1"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "8701d2de2aed028e47e6281adde0c0582e92518f72eac2e3774093ee6e51b3be"
 metafile = true
@@ -113,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "f1e8b22f412b06eee32c2555922ba188dad9cae76d13dad46fa9080b2e763a5f"
+metafile = true
+
+[[files]]
+file = "mods/create-stuff-additions.pw.toml"
+hash = "3a37f452485e16f15a044572da46c48891015ae86c78d8268cb77078e6ca4f4f"
 metafile = true
 
 [[files]]
@@ -221,11 +226,6 @@ hash = "5bc824e369b9a085c7381f768356ce19c062d1b81e2302149684df62c60a16c8"
 metafile = true
 
 [[files]]
-file = "mods/kubejs.pw.toml"
-hash = "b2e4e9c22fa6dbdedf14fefc64ae45ab6354ff00246e8c950d720ea9198eb75e"
-metafile = true
-
-[[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "0070d40d56a423665b251572f1af7ba375fcd3101ca01592ee7447535a29f08a"
 metafile = true
@@ -243,16 +243,6 @@ metafile = true
 [[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "78cf82fda4c8a7ea9556cf4481b43f38762151bcac0a09fd412f82d5f0883cc7"
-metafile = true
-
-[[files]]
-file = "mods/oritech.pw.toml"
-hash = "294165a912ba6d3c190d44903b0b308d84815beb9a0fc70c268ec9126e2ebdf9"
-metafile = true
-
-[[files]]
-file = "mods/owo-lib.pw.toml"
-hash = "ee35392cd74464af3b668fac4356b6e0415be59c21c09f257fb5c83d1b01a0fe"
 metafile = true
 
 [[files]]
@@ -276,11 +266,6 @@ hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
 
 [[files]]
-file = "mods/rhino.pw.toml"
-hash = "9dfeb4b87e376aacf809236ade964c2e37943aaff4d7a5774442f7cca52b76de"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
@@ -293,11 +278,6 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
-metafile = true
-
-[[files]]
-file = "mods/stitch.pw.toml"
-hash = "2bf5ac5ed2c5473668ab97ae8de1ad750b09503366d29c045d22c883c4d030cd"
 metafile = true
 
 [[files]]
