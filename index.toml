@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "52897fa40bb1928447dbc2f6370286285996566f670121fd6514d853e8de50b6"
+hash = "011bcebacd0c2ec891a56b5c76cfd1871864bc59c3ebd449903d4bb115e96972"
 metafile = true
 
 [[files]]
@@ -193,11 +193,6 @@ metafile = true
 [[files]]
 file = "mods/geophilic.pw.toml"
 hash = "eed66cb6cda1b41031cf42b4fd1d5907a136eb54de48bbcbbbbb8c28dc648aed"
-metafile = true
-
-[[files]]
-file = "mods/immersive-aircraft.pw.toml"
-hash = "51108048fd88cd4375b7f91c5327f8ec0d6eb3295ccb9011d42520784c175409"
 metafile = true
 
 [[files]]
@@ -272,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "a13433bf1f1920a486fd88ac83e54b5481692ea2955971be947ecde0eebc38ab"
+hash = "22e521457272921e495585d2ecbb1bf42902f46d8decad58662f520f4d9ab0dd"
 metafile = true
 
 [[files]]
