@@ -41,11 +41,6 @@ hash = "093bbdf2b32efeccf0ba627ab71ba5dfcd1143bebc856d151a7dcbb460af6c02"
 metafile = true
 
 [[files]]
-file = "mods/brewin-and-chewin.pw.toml"
-hash = "c854b73ec29fc1b2af09becafc5380d24dbe91ee809bd3803166563c13d98214"
-metafile = true
-
-[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "9ac4b1561ea7c44ce427edadb181fb3785e423727f50900e7668ccf00b386979"
 metafile = true
@@ -82,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "79e19349dcdea3b4e2425974f58afcac5103f65f8e4abd7cecacc1bd37f78cb0"
+hash = "d4e404f869a1ac64ca8447681c2e6c3c7c64c7b186aa2f9c929693d4db23cb47"
 metafile = true
 
 [[files]]
@@ -107,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "2d6bcaf1b9ab4c0f7b57e40e74f15cbd7476d4720be25a48afb467d5e1633e9c"
+hash = "d225f436d245791b859fba618e997ef5741ef5fc5b7ed4e557b5331d52dcb31d"
 metafile = true
 
 [[files]]
@@ -167,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "011bcebacd0c2ec891a56b5c76cfd1871864bc59c3ebd449903d4bb115e96972"
+hash = "43e508fa547f1fdd96a2803b4af2658920c9531152e72a71f0c8f03316d75bed"
 metafile = true
 
 [[files]]
@@ -207,17 +202,22 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "63777b41574a0a991a58257a9d90194f605d2a6b74cbc19e81e4006e51985cb5"
+hash = "609ef5b1508d581a70d521234571c160c987354dfbb0d7e9cb3be7e18e5494b8"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "85a2a7d20c6e6bba9f2dceb2673e5ca772c914f6fd98574f74bb9873576a83eb"
+hash = "888283f82ec13bd4bb1076740c2fec706d237be8a6739cfbcaea5897883acb5e"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
+hash = "5a9474718a5218bbc7d8303691e4b368b65d8fc933b2fc92cee4502eed2c6423"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "5bc824e369b9a085c7381f768356ce19c062d1b81e2302149684df62c60a16c8"
+hash = "8fb821696362916090187ec37c353f7fd6da70e83c0b493ec3d6e669934febb2"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "3d891fcc827151f9414f1c88c0f8d3bc95003265068dbfa725785277a855394f"
+hash = "28bcf0c949f3e6a304f72a4c4ab368aa43e265e5c392bf1017a2d37846986f3d"
 metafile = true
 
 [[files]]
@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "22e521457272921e495585d2ecbb1bf42902f46d8decad58662f520f4d9ab0dd"
+hash = "a0822a53e5d1c22e28d6074ac0f5eaf968e3bd9282a4e35799b4a0e14a7d69c1"
 metafile = true
 
 [[files]]
@@ -277,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "07793372ab011f62591a52eb51b260d3b48adbec3d994a26ae56a5edf58699b4"
+hash = "c66556917c084e7f2b4d98f81114dbbb0f3dd71121484368d3d70fd150e1be7e"
 metafile = true
 
 [[files]]
