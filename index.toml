@@ -21,6 +21,11 @@ hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
 
 [[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "9215ce0a0748d0c3775f7f47851a437f5e02997d7a32d890c253bb1b4e3c7939"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
@@ -351,6 +356,11 @@ hash = "bbba6ac677c4e82b397501e4db188fadcafc4dacff02b835e4b8a44ffcc9a3c7"
 metafile = true
 
 [[files]]
+file = "mods/mantle.pw.toml"
+hash = "762dd9943dd96c50167fe9840aff910fb52bb89cad14a5352bd3ca27aafe5c53"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "539298bf1a9f71a14adb8b58eae8f31c56348770231e09b38cd422fa83c4b710"
 metafile = true
@@ -446,8 +456,23 @@ hash = "d97655330510c21898fe03027bd9841e34af2c6bc89372f22a6b23e71068b5ab"
 metafile = true
 
 [[files]]
+file = "mods/tcintegrations.pw.toml"
+hash = "b69cc3995c2de75b5cb9f0d999cd11bf05225da0ec209c8244ae88a6f6f58f56"
+metafile = true
+
+[[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "61466bd93ab560b9e8e5270a196a1776c8348d20875a18d6e32a825327b79046"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-construct.pw.toml"
+hash = "da92e9606b616857fd108d05d713d93cd9f6c586ed00ca0b696cc90f19eba6b4"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-levelling-addon.pw.toml"
+hash = "66fd483f4311166307c184c29f3e81f56179ed5ab094328b2c1413e91ba4c68a"
 metafile = true
 
 [[files]]
