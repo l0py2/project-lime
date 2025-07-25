@@ -17,10 +17,6 @@ file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
-file = "config/forgery/features.ini"
-hash = "3fed56aa78b8db56d7c4a8920984c065ed489ada42d9ceba33dec5e836c4800d"
-
-[[files]]
 file = "config/sophisticatedbackpacks-common.toml"
 hash = "0558192a2375667743fe0548e9e6f34f36d266a999389c8b5bb93cd8ca5b3740"
 
