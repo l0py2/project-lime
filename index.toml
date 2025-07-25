@@ -453,6 +453,10 @@ file = "kubejs/assets/kubejs/textures/item/gun/vector45.png"
 hash = "27eb7aabc7e0ba35e7fe323f5b48b92ed4f6921698ff6674efcefe275bb0fc15"
 
 [[files]]
+file = "kubejs/client_scripts/standardize.js"
+hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
+
+[[files]]
 file = "kubejs/server_scripts/standardize.js"
 hash = "5d2a971fac11d2f469be836477db9bb93a3234ab29ad83558a945a56f2ab0c0f"
 
