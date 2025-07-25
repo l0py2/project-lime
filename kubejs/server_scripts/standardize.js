@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
 	}
 
 	for(const [original, replacement] of global.outputReplacements) {
-		event.replaceInput(
+		event.replaceOutput(
 			{ output: original },
 			original,
 			replacement

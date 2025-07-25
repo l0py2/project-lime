@@ -454,7 +454,7 @@ hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "5d2a971fac11d2f469be836477db9bb93a3234ab29ad83558a945a56f2ab0c0f"
+hash = "7210c476a5a95bfcb5b697ad0fc7f95400e4fe83e58f5bf87e94018b97b40f3a"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
@@ -540,6 +540,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "790de162313fcbe950496580db107eb8da2ae29060cbf611764d1bb352461d03"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
 
 [[files]]
@@ -700,6 +705,11 @@ metafile = true
 [[files]]
 file = "mods/emiffect-status-effects-emi-plugin.pw.toml"
 hash = "cf53ff3d2ea7e7aed6a8045414b2c9b80405ce1e26d1c2d43bd75a9ddaf715c9"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "2f30de9a0d70d37a56c283c98c69e0d264515d5876b7e2a9d78d1f1941692a3f"
 metafile = true
 
 [[files]]
