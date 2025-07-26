@@ -51,14 +51,6 @@ ServerEvents.recipes(event => {
 		);
 	}
 
-	for(const [original, replacement] of global.tagReplacements) {
-		event.replaceInput(
-			{ input: original },
-			original,
-			replacement
-		);
-	}
-
 	for(const item of global.removedItems) {
 		event.remove({ output: item });
 	}

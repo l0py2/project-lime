@@ -89,16 +89,24 @@ file = "kubejs/client_scripts/standardize.js"
 hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
 
 [[files]]
+file = "kubejs/config/client.properties"
+hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
+
+[[files]]
+file = "kubejs/server_scripts/new-items/materials.js"
+hash = "a5b8942eb514bdd2e2a45612bd0ec8e4d8dc665240b8f1c4da5b8b63d091f6a2"
+
+[[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "7210c476a5a95bfcb5b697ad0fc7f95400e4fe83e58f5bf87e94018b97b40f3a"
+hash = "8832a0025068a64514bd148c0d9a17910c15ce38ccfe9fe1f384932ccd157e70"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "03828f3bb778d1d7ee115ce4634218ef33a2e3ea3b1ee4f6f89f3b0a53cb6022"
+hash = "e2e3425eca8980df76dac8c82a2ccf55b70658722ce9bfe7ae868357c578ced7"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
-hash = "63145c4dada7313b7361b6f673b923513b0d1261ac4a1509d629e5b2fb247b82"
+hash = "9b0052fc99e90a092aae19f36fa2aa47aaab44c1ab6b240706b83da160d17425"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
@@ -106,7 +114,7 @@ hash = "6279549b50b16c7997863e533e46f791264be4ed48b842140240a8c551720317"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "372b69022325ae953cb1c9764d7b18a657553610be2cbf01be584c831eb285aa"
+hash = "e51abda3c229e74108d011dccf8bdfe189972941e80b1756b940079ac74dde37"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
