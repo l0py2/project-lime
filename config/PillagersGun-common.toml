@@ -1,0 +1,8 @@
+#The chance of pillager armed with a gun.
+#Range: 0.0 ~ 1.0
+"Armed Chance" = 0.1
+
+["Combat - Guard Villager & Recruits"]
+	#The chance of Guard or Recruit armed with a gun.
+	#Range: 0.0 ~ 1.0
+	"Villager Armed Chance" = 0.1

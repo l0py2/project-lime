@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/PillagersGun-common.toml"
+hash = "f6b92bc8cf37a71b35a42f16be21b05f06d4f6bd44510bdb0a90c484afebf62a"
+
+[[files]]
 file = "config/almostunified/unify.json"
 hash = "f755f9ff4778ff5e7d7ae725161ee23ecee28b8d7db5b782b573e3e09a668b5f"
 
