@@ -17,6 +17,14 @@ file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
+file = "config/guardvillagers-common.toml"
+hash = "d048807b75deee250257983dc35c00fb8571847ee294b5f402a5c9a1a9b6acb6"
+
+[[files]]
+file = "config/openloader/data/project-lime-advancements/pack.mcmeta"
+hash = "4669da9df5f6dbbedd884d280fbe0a24322e214362fe96e5d4270a830f9018a7"
+
+[[files]]
 file = "config/sophisticatedbackpacks-common.toml"
 hash = "0558192a2375667743fe0548e9e6f34f36d266a999389c8b5bb93cd8ca5b3740"
 
@@ -458,7 +466,7 @@ hash = "7210c476a5a95bfcb5b697ad0fc7f95400e4fe83e58f5bf87e94018b97b40f3a"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "ed99626874d7ebd70189b6da5157e1c8c1db30056ac3cdd9994e390be669fdd2"
+hash = "03828f3bb778d1d7ee115ce4634218ef33a2e3ea3b1ee4f6f89f3b0a53cb6022"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/incomplete-tacz.js"
@@ -466,7 +474,7 @@ hash = "5e1e9786ceec00592177cef737039be428a2b70875e1ae1cddf0fef527b8cf07"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
-hash = "99b5c6c35bc1bae2a1cc777d326d77cf4499ea1e615ee4ab4eec41e38de05e73"
+hash = "6279549b50b16c7997863e533e46f791264be4ed48b842140240a8c551720317"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
@@ -858,6 +866,11 @@ hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+hash = "f1a2d3a570a6ce0722f0136b4b57371fc067ad7f329e1df9cd3cd765619ac759"
+metafile = true
+
+[[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "cc83aa838038bc43e9db3a173b15740108d2c3a38c1398c3a8ed9efd63faa2dd"
 metafile = true
@@ -870,6 +883,11 @@ metafile = true
 [[files]]
 file = "mods/personality.pw.toml"
 hash = "e6bb4fed1cbfd16fc6c08655f39c3b1098010203dfc893b59dbc63306ad65996"
+metafile = true
+
+[[files]]
+file = "mods/pillagers-gun.pw.toml"
+hash = "8ef0003ca2fd534188cd8f2401ddee1c7844824513dcde12a1798c3eac9ec0d6"
 metafile = true
 
 [[files]]
