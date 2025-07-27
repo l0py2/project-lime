@@ -2,6 +2,7 @@
 
 global.removedItems = [
 	global.id.AA('compressor'),
+	global.id.AA('oil_bucket'),
 	global.id.FD('rope'),
 	global.id.FD('wheat_dough'),
 	global.id.PC('sourdough'),
@@ -19,7 +20,6 @@ global.removedRecipes = [
 	global.id.CR('smoking/bread'),
 	global.id.FD('wheat_dough'),
 	global.id.MC('bread'),
-	global.id.MC('farmersdelight.dough'),
 	global.id.PC('explosion_crafting/wheat_flour'),
 	global.id.PC('pressure_chamber/wheat_flour')
 ];

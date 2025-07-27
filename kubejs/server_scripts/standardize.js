@@ -26,6 +26,13 @@ ServerEvents.tags('block', event => {
 	}
 });
 
+ServerEvents.tags('fluid', event => {
+	for(const item of global.removedItems) {
+		event.removeAllTagsFrom(item);
+		event.add(global.id.KJ('removed'), item);
+	}
+});
+
 ServerEvents.recipes(event => {
 	for(const type of global.removedRecipeTypes) {
 		event.remove({ type: type });

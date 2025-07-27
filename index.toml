@@ -33,6 +33,10 @@ file = "config/sophisticatedbackpacks-common.toml"
 hash = "0558192a2375667743fe0548e9e6f34f36d266a999389c8b5bb93cd8ca5b3740"
 
 [[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "273b033403b3bc377ea91a4044780f39d0f173d96c9725f3904b8d763bec7600"
+
+[[files]]
 file = "kubejs/assets/ad_astra/textures/item/calorite_plate.png"
 hash = "3c44b3f298b0724b634c8cafdf99b54d5a918232afc15d5afceb8d116de12c89"
 
@@ -93,12 +97,16 @@ file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
+file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
+hash = "7a8f1b530ff06ea62b606c32120cde6923f317d19883986390c2cad1a6d6a54b"
+
+[[files]]
 file = "kubejs/server_scripts/new-items/materials.js"
 hash = "a5b8942eb514bdd2e2a45612bd0ec8e4d8dc665240b8f1c4da5b8b63d091f6a2"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "8832a0025068a64514bd148c0d9a17910c15ce38ccfe9fe1f384932ccd157e70"
+hash = "0a224c4bcaef86fb17e5869067f4b5c2779384ae1804f45a555fe006761b5e19"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
@@ -114,7 +122,7 @@ hash = "6279549b50b16c7997863e533e46f791264be4ed48b842140240a8c551720317"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "e51abda3c229e74108d011dccf8bdfe189972941e80b1756b940079ac74dde37"
+hash = "846a7a53f3fce00016635e76c1747b1e3334fc7f8e913eb45d969ab32613e8bb"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -523,7 +531,7 @@ metafile = true
 
 [[files]]
 file = "mods/pillagers-gun.pw.toml"
-hash = "8ef0003ca2fd534188cd8f2401ddee1c7844824513dcde12a1798c3eac9ec0d6"
+hash = "1d97c2fe6ee014b327115627c16958f36ad841fb2a8730e68ece0d6a8e63dda0"
 metafile = true
 
 [[files]]
@@ -568,7 +576,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "249b06b92b446ce2a6983b8b573e4a285edbe3060a63e233170200ef80794d42"
+hash = "e0548d91800ab5f229477179a8d1ed50cab20d82a43450d51f37aa5d5f362ec4"
 metafile = true
 
 [[files]]
@@ -578,7 +586,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f13b1a634b1e821070711549e50159733b747bb208801ec8411816e1b77a534a"
+hash = "06e36faed348504854eab93e873b1232158fc9ff1e08aa8f3dd614b2c067f58b"
 metafile = true
 
 [[files]]
