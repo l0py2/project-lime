@@ -38,39 +38,23 @@ hash = "273b033403b3bc377ea91a4044780f39d0f173d96c9725f3904b8d763bec7600"
 
 [[files]]
 file = "kubejs/assets/ad_astra/textures/item/calorite_plate.png"
-hash = "3c44b3f298b0724b634c8cafdf99b54d5a918232afc15d5afceb8d116de12c89"
-
-[[files]]
-file = "kubejs/assets/ad_astra/textures/item/calorite_rod.png"
-hash = "1e4b0c166045a0d30128ca66cf6dae58367c3c91098252f29bae14171c1a2083"
+hash = "6f76cb4de1b2f1f7fd3e46853b7d34620e64015c8d9fd9303331f72136c94a9c"
 
 [[files]]
 file = "kubejs/assets/ad_astra/textures/item/desh_plate.png"
-hash = "fdbc52f6970cd4d2a6cd5162b25bac892ed122d7cff533e84596747cfb76beb0"
-
-[[files]]
-file = "kubejs/assets/ad_astra/textures/item/desh_rod.png"
-hash = "b3fa9ae9d8df65c6b93e3124fa7418c88d03a8e914e1d2df20d1deb720d717d2"
-
-[[files]]
-file = "kubejs/assets/ad_astra/textures/item/etrium_plate.png"
-hash = "1e9c215bb6b9756ba409882c1da07f4c1b101bcfd4ecfe7ff4794ad1be821a81"
-
-[[files]]
-file = "kubejs/assets/ad_astra/textures/item/etrium_rod.png"
-hash = "d4f7d34326077087e990531bcd00ab96278b1e7ca83787cd8ff4ba72eb19e7d4"
+hash = "0aa235b51f94d12f6f1a31b85dc981c8c15fffc02ea96fd5497889e653e5c972"
 
 [[files]]
 file = "kubejs/assets/ad_astra/textures/item/ostrum_plate.png"
-hash = "a6288a694a7e854dee13bb8a92c5f6d2170eadf1a1f20bccb3a1be7e9d158684"
-
-[[files]]
-file = "kubejs/assets/ad_astra/textures/item/ostrum_rod.png"
-hash = "e9b4f82df67002f0fa1902ff405fae8cc8d3ca60fba7a03d7dca63ec5609eb2d"
+hash = "e7173bf980027eebd7e8f02659c1d8e963acb7aa82185836388ca64465eff6c7"
 
 [[files]]
 file = "kubejs/assets/ad_astra/textures/item/steel_plate.png"
-hash = "30a32b67dbfdbbaa4b3c78f9ce85cbea052ca1151d9eb13a76c332346b09677d"
+hash = "74703eaf221a9eefee0412956832b42fe575535a4ea852a4d7a32a24b7a81877"
+
+[[files]]
+file = "kubejs/assets/create/textures/item/copper_sheet.png"
+hash = "3a64774b4318910e29f5cdab49b34290352aed3a55aa67d5b8ff70b2adeaabb1"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/gear/iron_gear.png"
@@ -82,11 +66,23 @@ hash = "ee0988fecacdd467134e6eb95a7eccec63cd3300f0a8a8ef7c99c792523b236f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/plate/compressed_iron_plate.png"
-hash = "8719d83302f8cefb76801d49166f9a3e56782b01208c4132208b9387f6fdcd86"
+hash = "ded3a4489a69ebee595fd4585759ffa4579fcf986c33b250ee398f52488d87f4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/rod/calorite_rod.png"
+hash = "1e4b0c166045a0d30128ca66cf6dae58367c3c91098252f29bae14171c1a2083"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/rod/compressed_iron_rod.png"
 hash = "b86c67480cb255cc6c691ec496c7252e0e84bc721822f453c3352fa6109813cf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/rod/desh_rod.png"
+hash = "b3fa9ae9d8df65c6b93e3124fa7418c88d03a8e914e1d2df20d1deb720d717d2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/rod/ostrum_rod.png"
+hash = "e9b4f82df67002f0fa1902ff405fae8cc8d3ca60fba7a03d7dca63ec5609eb2d"
 
 [[files]]
 file = "kubejs/client_scripts/standardize.js"
@@ -114,7 +110,7 @@ hash = "e2e3425eca8980df76dac8c82a2ccf55b70658722ce9bfe7ae868357c578ced7"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
-hash = "9b0052fc99e90a092aae19f36fa2aa47aaab44c1ab6b240706b83da160d17425"
+hash = "cec77371faa750b9d4b36cf6aacb9e4bb775c170df074e675b2a1978246a7530"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
@@ -266,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aquatic-ambitions.pw.toml"
-hash = "2e8374105dc2f4cbf9a0b3cf290c4726097ff83ce00d5f0598b0fe4fc7b4c30f"
+hash = "9d5dd6afb2285a20a61462ce04a7d6f2c5df4d2dc313221df2307f4459ed537d"
 metafile = true
 
 [[files]]
@@ -376,7 +372,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "2a2d265662f5d43ebb4aaef5f9f03174693cc7066d02aa96faf319ce7b8d9336"
+hash = "114db2f6e473ccfe94eebf0111b5304445cbfd0a1a20f916ecbee35beb0045fa"
 metafile = true
 
 [[files]]
@@ -491,12 +487,12 @@ metafile = true
 
 [[files]]
 file = "mods/mantle.pw.toml"
-hash = "762dd9943dd96c50167fe9840aff910fb52bb89cad14a5352bd3ca27aafe5c53"
+hash = "4f818ebe7421a0ae41154fb479273dab515993b76c194c815d824f98e4f53a5e"
 metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "539298bf1a9f71a14adb8b58eae8f31c56348770231e09b38cd422fa83c4b710"
+hash = "9776ebb457af27863e5c320c5cf84bccdcd5cc2a79b19455657510fa75d35744"
 metafile = true
 
 [[files]]
@@ -531,7 +527,7 @@ metafile = true
 
 [[files]]
 file = "mods/pillagers-gun.pw.toml"
-hash = "1d97c2fe6ee014b327115627c16958f36ad841fb2a8730e68ece0d6a8e63dda0"
+hash = "306619362cd9ef947ba29e06cf4e0793995c8b73a7e03ea6f55195d669369b0a"
 metafile = true
 
 [[files]]
@@ -581,12 +577,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "e7cc88d71d6511a48b6dabf167032ff4f279f1aa61254d1e595bf543614769c8"
+hash = "3db2bafb0b84a6abb3b0e56bcdbd772c0bfe9a171f2df8c6293236a6ddb2cbed"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "06e36faed348504854eab93e873b1232158fc9ff1e08aa8f3dd614b2c067f58b"
+hash = "bca498a73d554610d0429f255e8b02c661b8d46dacb956be3bc7cf849299b455"
 metafile = true
 
 [[files]]

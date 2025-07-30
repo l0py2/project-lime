@@ -1,13 +1,13 @@
 name = "Pillager's Gun"
-filename = "Pillagers Gun-1.20.1-forge-3.0.0.jar"
+filename = "Pillagers Gun-1.20.1-forge-3.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "28fe4eb6b60b03d20d0da4c6231895d67a496d95"
+hash = "a2293f6a1c73ad0bbd616bc09ccdb9ef6221d2b0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6816020
+file-id = 6824058
 project-id = 948255
