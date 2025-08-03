@@ -1,0 +1,30 @@
+#!/bin/sh
+
+git clone https://github.com/MCModderAnchor/TACZ.git -b 1.20.1 --depth 1 tacz
+
+BASE_DIR='./kubejs/assets/kubejs/textures/item/incomplete'
+
+mkdir -p "$BASE_DIR/gun"
+mkdir -p "$BASE_DIR/ammo"
+mkdir -p "$BASE_DIR/attachment"
+
+TACZ_BASE_DIR='./tacz/src/main/resources/assets/tacz/custom/tacz_default_gun/assets/tacz/textures'
+
+cp -rfT "$TACZ_BASE_DIR/gun/slot" "$BASE_DIR/gun"
+cp -rfT "$TACZ_BASE_DIR/ammo/slot" "$BASE_DIR/ammo"
+cp -rfT "$TACZ_BASE_DIR/attachment/slot" "$BASE_DIR/attachment"
+
+rm -rf tacz
+
+SCRIPT_PATH='./kubejs/startup_scripts/new-items/tacz-incomplete.js'
+
+printf "StartupEvents.registry('item', event => {\n" > "$SCRIPT_PATH"
+
+for FILE in $(find "$BASE_DIR" -type f)
+do
+	ITEM_NAME=$(basename "$FILE" | cut -d '.' -f 1)
+	ASSET_PATH=$(printf '%s' "$FILE" | cut -d '/' -f 6-9 | cut -d '.' -f 1)
+	printf "\tevent.create('incomplete_%s').texture('kubejs:%s');\n" "$ITEM_NAME" "$ASSET_PATH" >> "$SCRIPT_PATH"
+done
+
+printf "});\n" >> "$SCRIPT_PATH"
