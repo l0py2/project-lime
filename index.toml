@@ -65,598 +65,6 @@ file = "kubejs/assets/kubejs/textures/item/gear/steel_gear.png"
 hash = "ee0988fecacdd467134e6eb95a7eccec63cd3300f0a8a8ef7c99c792523b236f"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/12g.png"
-hash = "c681a04148a2054120c927abb38d70f97a5bff0c394481406e77e715a4597224"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/308.png"
-hash = "a74c7df9d132957476346b749f2307b01c4d47981f120bcd8b006f3011380fcd"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/30_06.png"
-hash = "e638414461059f41637ea62ca2ec33957793f34a82bb86abd2826c2bd0494340"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/338.png"
-hash = "1e715a47f726f65af29724f59d3961b49b3eec98cf9cc6dbdbeaa5149ef67db8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/357mag.png"
-hash = "62c683ac0f48cfd03c746d706ca6c20c20f1738d680a7f90c83db154d7f98ac8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/40mm.png"
-hash = "1589cdfd98c895e9a297c17d4120aaed734facbb26442a0afdec6acec16e6f82"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/45_70.png"
-hash = "dc807585740bca012276c38057ba7598249c8877d200935ce1735ba7234de77c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/45acp.png"
-hash = "333c1867f57ddb4722b6623f5b026c03f7d1b7086004cb2b019461e84baf521c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/46x30.png"
-hash = "caec856bdc434d41255b397524b4f1f4efa4a4ec578de8f8a863d04eb3cc2a29"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/50ae.png"
-hash = "df52f81457e8a7d6bb3b37b6fa012c41a8647aad2d9d3c6752cd20fdf54a492f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/50bmg.png"
-hash = "85a0a3ef69189a7056a7e6ab38b4d02d45ba676bb3c9271b8f8df1630d82491d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/556x45.png"
-hash = "0ebb21a29597a46524c308912426e96b1dc372ebb8d9dc18bd95431bd5673ad7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/57x28.png"
-hash = "76f2ae8e5eec836e54508211805492cb503981fe4e85d742bdbdd5c751b47681"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/58x42.png"
-hash = "3ef61ea430a372d66eee4f32682358469aab14369504ba531897c6e6d796b0b3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/68x51fury.png"
-hash = "5beb219e3c0b2f60181cb5c144d1446274e53e6c9f4e15ac6e3b319b53bff275"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/762x25.png"
-hash = "45b5976baa34a083365649371a56db82d5c0bb99388601bfeaf33ece5b193940"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/762x39.png"
-hash = "05f7096e1db00d3f9dcdae03d8cea97a5f8adee8d6f430898b017f2522d41593"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/762x54.png"
-hash = "a42020609aa9a2608a58783f202f480e47b184d9996c05a8c2d4677e8d5c56ec"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/9mm.png"
-hash = "b6880faa82776e7dfcc6a00db8eb80bc6777c4790811d8166f3c2649b9dd811c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/ammo/rpg_rocket.png"
-hash = "163ae96eac110b8f966b8b42155c1e5ef1599afe10188d3875d14e444ec88059"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/ammo_mod_fmj.png"
-hash = "4f3c4579bc9d7e1a40f85276008b9025abc8b3ad45462468835c8defbe568d8f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/ammo_mod_he.png"
-hash = "5c61bf18b00b3c8f61d16faf1d1d89784e6825cd5d02525ac9ebf77b2bb19f08"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/ammo_mod_hp.png"
-hash = "2b8dee91fb31a18d1dccc93224917680baf8b4b814e747baac6f005060a3e466"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/ammo_mod_i.png"
-hash = "85c5ad79a5c9f4a61280b32f9a0f598420c1a2368a36b922eb1901c25a341ee8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/bayonet_6h3.png"
-hash = "a34afd11d59b4779aca0048887979cfdb0532ba75e26b23fc08d793ee514cd78"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/bayonet_m9.png"
-hash = "98e44e422da0c5221bf95b75421d1b8ef721e67f92f7ea7ad63917d5d6401ac6"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/deagle_golden_long_barrel.png"
-hash = "d0eb889f8f04ac0d05efce581ac56c313735addf78a3fac89234676a40cfcef6"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/extended_mag_1.png"
-hash = "9e0dc42eb2f7ee04522c28f09d9c5c052ac56fd0b77b5bf8987f164dbc13f1f8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/extended_mag_2.png"
-hash = "6f2660e9d78303c47708bea6ccabf4ac08fc2eaf86bc1572fc1c023fb9463358"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/extended_mag_3.png"
-hash = "5bff018b0206d6e50fdde9725bc2c280250c2b6a9f7ddb60bff0db1e86c6133c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_cobra.png"
-hash = "f5b03e31f5ed182712c9e201892781298228800a55e12544db8778a4ad646bb8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_cqr.png"
-hash = "bd2b5dfb3a3dec80c31067da73c1fb0a2d9cad55a259a6c0c09ba11ef81897a5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_magpul_afg_2.png"
-hash = "a2b3b3f634e8b0048de219360df78647dbd2acdadb03dc2f879cb506cbfacaf8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_osovets_black.png"
-hash = "d4624168e5ebe359aeea0cfb1cfa8b320026680d7e6061c85a04d30304c04b98"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_rk0.png"
-hash = "d3614b1ea8c39a8ada24bd15712ebd98c9ce397ccd8b7e798a0541756f7ec1d0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_rk1_b25u.png"
-hash = "dfb508dbce13f13c013e0fbf534335613b8c94b0017ae60553332e24eb07c062"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_rk6.png"
-hash = "3d8f7a7580af6f96928e0c7a6cf1742cc4b756a3087e7acd55113b545db9e5c1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_se_5.png"
-hash = "4b110714b109af51780c5ece9391f871d0eb2f4410aa94bc71d292175af15082"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_td.png"
-hash = "996f469f1e56dbee54242b56d1a6c631be8f59b1b9688fb8c030cbc5574bbbf7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_vertical_military.png"
-hash = "1fbd66846ffc751f070fb591b66299b2dc193b4a57ec53363bfa2422ce2052dd"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_vertical_ranger.png"
-hash = "7aa795e0fcbf47733d6f6f90dfc482e088a5a7a39f8d407fc48e2005b1de286a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/grip_vertical_talon.png"
-hash = "6abb184edbc3f1ab3ebfdc6dfb9532757dac1b9a1b96c69d44c2331668694f23"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/laser_compact_slot.png"
-hash = "aec4abf3fcf5dc00dc5e3d03fe291a8a5c268d97150c804bd079aba59b882a45"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/laser_lopro_slot.png"
-hash = "5abfa38a881e579632d76f5084b0508e70c3b35c9c3572cb71b091c730920f08"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/laser_nightstick_slot.png"
-hash = "bf4f0940ac7fd008c467dbeebeba77358c8759689c6598e5f5cd550cfc025e77"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/light_extended_mag_1.png"
-hash = "eda2e3ebf951e8a139f02bef858603714492254f2325a147c33a3f4bdd87ed61"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/light_extended_mag_2.png"
-hash = "c36c36e6a7954b3a528106bbb7c139175f446fe9e05cd90a90a5f1965700dab6"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/light_extended_mag_3.png"
-hash = "d641621a7e51ff16b603123b5b15013705fd8af4a9dc1381467b147195646378"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_brake_cthulhu.png"
-hash = "99948d928fa47e3b6eeb9e3d7b5d5d7095157b38a5938276937d859c9eee67e3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_brake_cyclone_d2.png"
-hash = "c63091923fdfe208af274bb3914674656a16ec3c7aba65dcd77983c58cfafcbb"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_brake_pioneer.png"
-hash = "16d77536843bb647aadae90e391ddd2c71d9dfdc53b9069bff0fab73f05a1cd3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_brake_timeless50_slot.png"
-hash = "f6c8f5b5e563730f026183ef91ee82197196a3f462151a6d8abb6cb21e9a8c92"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_brake_trex.png"
-hash = "d231a022a4cd1353860e3e1190c7d5fe16625a060229720ff8c2a6518075a7fb"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_compensator_trident.png"
-hash = "417a19ffbcb0db270d9fd0ebcae1d1993974c208e2534a65694b0b8dc812993f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_silencer_knight_qd.png"
-hash = "c68029faa072aa6d8420c5f83d8648a7378b8218504a0c900e105575084535a7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_silencer_mirage.png"
-hash = "f25504d0f60fd253600c8e04753ff88eabc43b9154a279b2bf47cf9f83008fc9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_silencer_phantom_s1.png"
-hash = "c156cd6eab819bda8104ca2bbbf2891cef564bf72ebef4ef95edcbfd1b9a3c15"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_silencer_ptilopsis.png"
-hash = "e6387151be9b42ce35082d78b37e9d875f28909d6a5f8fbc2c248a70b8435ebc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_silencer_ursus.png"
-hash = "b1492742ab24a94fbd5b27115727e485dd0349b04f8aef2fe357e65cc85f222d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/muzzle_silencer_vulture.png"
-hash = "92684bcf64255fa6b5e627aba0162959f3c95921b63ae44ec589eee8255589af"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/oem_stock_heavy.png"
-hash = "8d0818a65a6d1a70a4fd7b83fb007bca6ccc93fcc544764c8709f55e8727197b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/oem_stock_light.png"
-hash = "a91cd242075ae164020e8134a26fbb2698f8058a10e21b02a1593865b1422a06"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/oem_stock_tactical.png"
-hash = "6adb14aec151dc09b198a2135ef69b57a9c955b965f2d6a51a8acb5afc3dec0c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_1873_6x_slot.png"
-hash = "2fd7a539e6b015d067c29aa4b73a86cf0d25d92dbc13143b8ee8a5c3ff3f124a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_acog_ta31.png"
-hash = "023dd2d953f5a1168e7027e15499724ffcae6f0567f1105d0bb7ae08af8813e1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_aug_default.png"
-hash = "6f86838d5fbbb8cdd1130387e7bcff1edb872c520e49efb89e799f374b5553c5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_contender_slot.png"
-hash = "8d9ba1e7ce2ac9a4eb7b2479cbfaaeab1b8e819e8cda79c27513a78a1410256a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_elcan_4x.png"
-hash = "08350f40460aad048feba7c12a39a0aa001f56ab696805455559c146d9d3bb2a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_hamr_slot.png"
-hash = "0f6b6db0980df077c31e967339271de82e7d4073144cab19388bdb5ac5245a64"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_lpvo_1_6.png"
-hash = "d3b581d5ae4978a9abe0a019751480a115b9c1d6efae1660ea90c1d9d51d1e9e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_mk5hd_slot.png"
-hash = "4b57384a804dadccf26e48be1d8b4ff77ff3237b83fcee2e8f09367e6f1ab1a2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_retro_2x.png"
-hash = "5351b9cb6a7f767e60afb74d5df0a2ffda9e6fdd96f5d3432bca5eeff30f2fb2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_scout_slot.png"
-hash = "1e5db548be2ba0725a4a4c50956baeca37e27b8194d2b62a97b288e4132fc15a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_standard_8x.png"
-hash = "981fe50817ad4ab80c0cf7415b73a871d60b81f8f860165043965b6f1fd26018"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/scope_vudu.png"
-hash = "77ad66acf3910ef2b2c73041e0e7da51934b42ed01a5f9234cfc90c5c5467853"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_552.png"
-hash = "26f5aeeff84c7a86f91775afd8fab66cb498a7652ed5f8eeeac3a41aa3ab6f71"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_acro_pistol.png"
-hash = "6e78fc2f6b6e21ce832169d9601677faec140982febb50b77a2a6c250fc99e77"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_acro_rifle.png"
-hash = "a3510d7768f0ba972c8ad0ebd64692e81f0d275e2c12e2439c318a2540db1c01"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_coyote.png"
-hash = "c81bcc4643aa2283a2fa10239d3cef414f986560920108c7e2e0807443d8ec52"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_deltapoint_pistol.png"
-hash = "835ea8c4f86dbb50dbcf110ee8048cb02432d13ccec614a48b09f1bdf83a932e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_deltapoint_rifle.png"
-hash = "39b59572e81a963ea5b786cebe848bcb1826e8b9bdb23c1ace9f7584baf29eab"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_exp3.png"
-hash = "5eea9f5e41ad147d202bcc44ed17255b35915bc66cb4dfb7dbb72eb348275b2b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_fastfire_pistol.png"
-hash = "c14a908c115aea3b6ac84d1fbd1f19e0e8d7655ffd3bb8237e449611d404a68d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_fastfire_rifle.png"
-hash = "6a1a38b55806459c60946a2995cb2c33de1a590f83cea1518fef1d41b8a171aa"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_okp7.png"
-hash = "ebf23bbf5e0aed5c23e9339448b02e0fff02d8683042e719eb6a263eaf994920"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_p90.png"
-hash = "0ca6cc997f9738ec3c36ce992d4e654246e0462bd9a80df5b681c6c7ad6ba519"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_pk06_pistol.png"
-hash = "fdf177edada16d21f89ed9522af559fa8a23f2e1bc9fd5b4b8bbb7be6d016205"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_pk06_rifle.png"
-hash = "5318364068db370dc23abcfc1fb1a6087781b2d67d37d473bd8fb166fab321b5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_rmr_dot.png"
-hash = "1038e00d4cea15b602e91823ea995942ef6c49564a6834d478a34473a9562f92"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_sro_dot.png"
-hash = "29b066e564a73e0fbaad9b8c67baa620c00efead91d880ecaa8d366bc3f8ce2e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_srs_02.png"
-hash = "39f96fef79d756702b16a57932ac80a8435d7adcd88620cf22a59b3defe007f1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_t1.png"
-hash = "954deb610a86d1b9a1537aaed03c052fc91e5ccf108673e503196d71d9eaeeee"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_t2.png"
-hash = "4e58b28b7c401c0d4a924cbae497d4485013bdcd6879b9164b2c761b16163c63"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sight_uh1.png"
-hash = "707aeb756b4033d1b2d427446c25c7ba2f344d1523e15548f4aa9b653b5151cb"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sniper_extended_mag_1.png"
-hash = "9e3df3a20c0f4669231603bc27fb733b9f8e59b47eaaa684cd87731aac7e8acf"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sniper_extended_mag_2.png"
-hash = "1acb19453762765c1044a9e107749360c16b121304794fa50e2c326e9fd8db35"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/sniper_extended_mag_3.png"
-hash = "5c5d691d3c8f4486f57c6fb3b8e9200da6c15c138c4962bd8c93ef3d92930429"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_ak12.png"
-hash = "7c552a16fac22c6799184d3bd3afc89fc85a7d81eda6de4a6012860f440b6422"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_carbon_bone_c5.png"
-hash = "922eb2435e811b52ff2188d41f890e946325190e6608973f9e1be27819ba7911"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_hk_slim_line.png"
-hash = "7377b88fec1103e6aa0ca396c5df956f1b6aedd0b3c9aa5be278b4b32b47f409"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_m4ss.png"
-hash = "bc5089939815a4cfad340557b8f63b32f7c603da4b2dda1d48975c608e255495"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_militech_b5.png"
-hash = "25f3e81cd5c9bf6b1b8d19792c5a1c153dd6f5803f2e31b8e0e5a0504cdf10b0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_moe.png"
-hash = "cc543b59e626f577588e8ab5f93da70d5f8a7e5d4b40793b58840b4e8ff98cce"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_ripstock.png"
-hash = "b204c1f488bf8db9e2a4029dbaafb5a07502e468748214304dfe2a9d6f8b86e8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_sba3.png"
-hash = "842bea2f3aea251f9d025d54587702ce107efb81d1132205872a334feb1b38ff"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/attachment/stock_tactical_ar.png"
-hash = "766c50c40247ee5715c9de4d86e86417b868068761343c136bae9abe22dffbaf"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/aa12.png"
-hash = "d5e7ef2c273c6784b14c6cd5d86b77935396be9eee639fe49f93cc1efdf29136"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/ai_awp.png"
-hash = "438f94c31d86323bfae0e0918c6919b75fe92432a1ffbf3bf42bfb5e97e23313"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/ak47.png"
-hash = "603ee362ee183335c71f5f5b0f55c8f0ecc5d2b56ee5a2fb69210d6cfa518c56"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/aug.png"
-hash = "5e44b80d2085500a73862ba2853a4795a35017904452bf574030d6f2f766b169"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/b93r_slot.png"
-hash = "3f8396cf4c1c666b2bb372a3e5333803654d02ccd67db6f1281234509958d64d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/cz75.png"
-hash = "e688bc19a9e315f01f6a51a4910cb2f4fba0e4edafe7a99818821e0edf93a09b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/db_long.png"
-hash = "4a6fca4cae0fcf4c0fa70979c727f061b89415a7cbe53d874f46df474a4c5cc5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/db_short.png"
-hash = "5a39a69493a4ab2249cec4857e2b70cd31b077f0767b48f1f9a646eb4df40431"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/deagle.png"
-hash = "de5f6fa90ec977fd901db6edc4e74e1b306906347bd45db1e6dcf626c0f1ddc2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/deagle_golden.png"
-hash = "a56f2302722dfb2e0775f1b6ae149fe2f4ee0fc224ee968fecc3a2b5b7f7f261"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/g36k.png"
-hash = "ad3e391773884e735d1f99afee328bdde5c69dce658783fe3fc154c120bd6e05"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/glock_17.png"
-hash = "45e1558e16b2d1d29a615840d10ec33a8590d80b8fccec5de43f5c7eed19a57e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/hk416d.png"
-hash = "0dc4e7386412c74d40aa76cd0a2557cf19890955a1e1f1a83aa7e08002bfaf28"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/hk_g3.png"
-hash = "1ccb9ff11af1075473dfcb83ad37f00d6f24578e950353aa759862ba40abfadb"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/hk_mp5a5.png"
-hash = "9ad2303f7188ddc3f48a6248f7afd365a91b6fc73ac16e178cbfdb1f3963d69c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m107.png"
-hash = "caf24e19ecfd373704ea609f60835a7bc4ce4cfd14d1da6300bcd78fa33a4f45"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m16a1.png"
-hash = "a25beb6c83940e96e59762e694bbeeda4c1935dc3e6d6a0116e35c3b411ec8b9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m16a4.png"
-hash = "e94e42647c30deb97e2d89299fbccfc5d2d95a225793c432c0184b7f83daf90d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m1911.png"
-hash = "363ba36fa376a3dcce00499c9b8285761435d34b25360ebbc3da5f31d06178a5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m249.png"
-hash = "e85fdcc08e4b99e55f7242f889e0a0f2af570ce4fc24c47ce6967a8c6d921854"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m320.png"
-hash = "c97700ee9397ddd96b396a69ac3c482947fb4f8c91b5235bbf35b5299c71d316"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m4a1.png"
-hash = "77b30fdc7ad1e16e8b3661895e6036e638b55100eeeabde378c448a6769e3006"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m700.png"
-hash = "18367609cd935bf294af49fb01fc7f279f007fc677517051a5d44309bc838cb9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m870.png"
-hash = "c2ef289ac96f4d8d3ed673e14434fad28354c98c88d013f707f032c87b26ad6f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/m95.png"
-hash = "da9b7e675dbfbfcefcea022d91cda341be71b3751b0d49ab3d5b743f8f86c04b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/minigun.png"
-hash = "4b48a580d12c75fd80f3b538b5ea28f2ed8f7057e56b8a5879066f3e9601baeb"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/mk14.png"
-hash = "2e47ed0e5661e57b79323f994669d51982490c5613c525ad13cc32d735f5cab4"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/p320.png"
-hash = "c132d94fe21ea3060f14acf375a3db0c2248a77d6b88021cf557b05a6e8a4b25"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/p90.png"
-hash = "116f530f89888e3982763fad8a1cebc0761ba3334382dba8533d8f7bb134e9f5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/qbz_95.png"
-hash = "e721c639ab2f6cfe8f920c685f7cd2d2541217970b850305ba2c5868d6b079e2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/rpg7.png"
-hash = "85332a825aebe9b5ea7934b6916bc131502ee4c19cb3833f8aafa3272e18edfe"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/rpk.png"
-hash = "d5a8104373f90d709ac14c1b8d55d69ea6cbd783ba7f96fd89c3e96f3b552f89"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/scar_h.png"
-hash = "271c3ae030e4c38bdac3261320265a1a23f9f0450ebbc66a08dee08db47b27b3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/scar_l.png"
-hash = "67f7ab36436828388bd72d495001608e783aa4b3364074070c0e2b7a61ddbbbc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/sks_tactical.png"
-hash = "4928f77deb9ad7c636c664786941e75abd1b115a6fc0b64ec7b7cc17f2cec338"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/spr15hb_slot.png"
-hash = "1a8add4cb82a3cf28611e1add672df4b4a99ab7418dee3eb568b5e01d4307e73"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/springfield1873_slot.png"
-hash = "a453298460eea4d96aadc98dafc8225fa5294ba923d198db222ee8bd8ca38da4"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/timeless50_slot.png"
-hash = "6e377e14f4e1d929d9ee90f7153ce217ed29e9b59e62c25148f10944fee9b488"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/type_81.png"
-hash = "f1f4ff6cb3cd50ee1a467bdc57811dec54230ce7009b6cc1448262fc005eb713"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/ump45.png"
-hash = "c7dad9bc9d0ad844bc0d95afff47ea836e3acc327961f0aaac2f0b8198b2e05f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/uzi.png"
-hash = "7025df1f8001d473fbe1564aad1d16d817cf2cac1237505373c4c8e21fb7331f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete/gun/vector45.png"
-hash = "27eb7aabc7e0ba35e7fe323f5b48b92ed4f6921698ff6674efcefe275bb0fc15"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/plate/compressed_iron_plate.png"
 hash = "ded3a4489a69ebee595fd4585759ffa4579fcf986c33b250ee398f52488d87f4"
 
@@ -675,6 +83,598 @@ hash = "b3fa9ae9d8df65c6b93e3124fa7418c88d03a8e914e1d2df20d1deb720d717d2"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/rod/ostrum_rod.png"
 hash = "e9b4f82df67002f0fa1902ff405fae8cc8d3ca60fba7a03d7dca63ec5609eb2d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/12g.png"
+hash = "c681a04148a2054120c927abb38d70f97a5bff0c394481406e77e715a4597224"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/308.png"
+hash = "a74c7df9d132957476346b749f2307b01c4d47981f120bcd8b006f3011380fcd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/30_06.png"
+hash = "e638414461059f41637ea62ca2ec33957793f34a82bb86abd2826c2bd0494340"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/338.png"
+hash = "1e715a47f726f65af29724f59d3961b49b3eec98cf9cc6dbdbeaa5149ef67db8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/357mag.png"
+hash = "62c683ac0f48cfd03c746d706ca6c20c20f1738d680a7f90c83db154d7f98ac8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/40mm.png"
+hash = "1589cdfd98c895e9a297c17d4120aaed734facbb26442a0afdec6acec16e6f82"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/45_70.png"
+hash = "dc807585740bca012276c38057ba7598249c8877d200935ce1735ba7234de77c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/45acp.png"
+hash = "333c1867f57ddb4722b6623f5b026c03f7d1b7086004cb2b019461e84baf521c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/46x30.png"
+hash = "caec856bdc434d41255b397524b4f1f4efa4a4ec578de8f8a863d04eb3cc2a29"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/50ae.png"
+hash = "df52f81457e8a7d6bb3b37b6fa012c41a8647aad2d9d3c6752cd20fdf54a492f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/50bmg.png"
+hash = "85a0a3ef69189a7056a7e6ab38b4d02d45ba676bb3c9271b8f8df1630d82491d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/556x45.png"
+hash = "0ebb21a29597a46524c308912426e96b1dc372ebb8d9dc18bd95431bd5673ad7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/57x28.png"
+hash = "76f2ae8e5eec836e54508211805492cb503981fe4e85d742bdbdd5c751b47681"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/58x42.png"
+hash = "3ef61ea430a372d66eee4f32682358469aab14369504ba531897c6e6d796b0b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/68x51fury.png"
+hash = "5beb219e3c0b2f60181cb5c144d1446274e53e6c9f4e15ac6e3b319b53bff275"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/762x25.png"
+hash = "45b5976baa34a083365649371a56db82d5c0bb99388601bfeaf33ece5b193940"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/762x39.png"
+hash = "05f7096e1db00d3f9dcdae03d8cea97a5f8adee8d6f430898b017f2522d41593"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/762x54.png"
+hash = "a42020609aa9a2608a58783f202f480e47b184d9996c05a8c2d4677e8d5c56ec"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/9mm.png"
+hash = "b6880faa82776e7dfcc6a00db8eb80bc6777c4790811d8166f3c2649b9dd811c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/rpg_rocket.png"
+hash = "163ae96eac110b8f966b8b42155c1e5ef1599afe10188d3875d14e444ec88059"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_fmj.png"
+hash = "4f3c4579bc9d7e1a40f85276008b9025abc8b3ad45462468835c8defbe568d8f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_he.png"
+hash = "5c61bf18b00b3c8f61d16faf1d1d89784e6825cd5d02525ac9ebf77b2bb19f08"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_hp.png"
+hash = "2b8dee91fb31a18d1dccc93224917680baf8b4b814e747baac6f005060a3e466"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_i.png"
+hash = "85c5ad79a5c9f4a61280b32f9a0f598420c1a2368a36b922eb1901c25a341ee8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/bayonet_6h3.png"
+hash = "a34afd11d59b4779aca0048887979cfdb0532ba75e26b23fc08d793ee514cd78"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/bayonet_m9.png"
+hash = "98e44e422da0c5221bf95b75421d1b8ef721e67f92f7ea7ad63917d5d6401ac6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/deagle_golden_long_barrel.png"
+hash = "d0eb889f8f04ac0d05efce581ac56c313735addf78a3fac89234676a40cfcef6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_mag_1.png"
+hash = "9e0dc42eb2f7ee04522c28f09d9c5c052ac56fd0b77b5bf8987f164dbc13f1f8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_mag_2.png"
+hash = "6f2660e9d78303c47708bea6ccabf4ac08fc2eaf86bc1572fc1c023fb9463358"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_mag_3.png"
+hash = "5bff018b0206d6e50fdde9725bc2c280250c2b6a9f7ddb60bff0db1e86c6133c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_cobra.png"
+hash = "f5b03e31f5ed182712c9e201892781298228800a55e12544db8778a4ad646bb8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_cqr.png"
+hash = "bd2b5dfb3a3dec80c31067da73c1fb0a2d9cad55a259a6c0c09ba11ef81897a5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_magpul_afg_2.png"
+hash = "a2b3b3f634e8b0048de219360df78647dbd2acdadb03dc2f879cb506cbfacaf8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_osovets_black.png"
+hash = "d4624168e5ebe359aeea0cfb1cfa8b320026680d7e6061c85a04d30304c04b98"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_rk0.png"
+hash = "d3614b1ea8c39a8ada24bd15712ebd98c9ce397ccd8b7e798a0541756f7ec1d0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_rk1_b25u.png"
+hash = "dfb508dbce13f13c013e0fbf534335613b8c94b0017ae60553332e24eb07c062"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_rk6.png"
+hash = "3d8f7a7580af6f96928e0c7a6cf1742cc4b756a3087e7acd55113b545db9e5c1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_se_5.png"
+hash = "4b110714b109af51780c5ece9391f871d0eb2f4410aa94bc71d292175af15082"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_td.png"
+hash = "996f469f1e56dbee54242b56d1a6c631be8f59b1b9688fb8c030cbc5574bbbf7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_vertical_military.png"
+hash = "1fbd66846ffc751f070fb591b66299b2dc193b4a57ec53363bfa2422ce2052dd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_vertical_ranger.png"
+hash = "7aa795e0fcbf47733d6f6f90dfc482e088a5a7a39f8d407fc48e2005b1de286a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_vertical_talon.png"
+hash = "6abb184edbc3f1ab3ebfdc6dfb9532757dac1b9a1b96c69d44c2331668694f23"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/laser_compact_slot.png"
+hash = "aec4abf3fcf5dc00dc5e3d03fe291a8a5c268d97150c804bd079aba59b882a45"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/laser_lopro_slot.png"
+hash = "5abfa38a881e579632d76f5084b0508e70c3b35c9c3572cb71b091c730920f08"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/laser_nightstick_slot.png"
+hash = "bf4f0940ac7fd008c467dbeebeba77358c8759689c6598e5f5cd550cfc025e77"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_1.png"
+hash = "eda2e3ebf951e8a139f02bef858603714492254f2325a147c33a3f4bdd87ed61"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_2.png"
+hash = "c36c36e6a7954b3a528106bbb7c139175f446fe9e05cd90a90a5f1965700dab6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_3.png"
+hash = "d641621a7e51ff16b603123b5b15013705fd8af4a9dc1381467b147195646378"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_brake_cthulhu.png"
+hash = "99948d928fa47e3b6eeb9e3d7b5d5d7095157b38a5938276937d859c9eee67e3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_brake_cyclone_d2.png"
+hash = "c63091923fdfe208af274bb3914674656a16ec3c7aba65dcd77983c58cfafcbb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_brake_pioneer.png"
+hash = "16d77536843bb647aadae90e391ddd2c71d9dfdc53b9069bff0fab73f05a1cd3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_brake_timeless50_slot.png"
+hash = "f6c8f5b5e563730f026183ef91ee82197196a3f462151a6d8abb6cb21e9a8c92"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_brake_trex.png"
+hash = "d231a022a4cd1353860e3e1190c7d5fe16625a060229720ff8c2a6518075a7fb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_compensator_trident.png"
+hash = "417a19ffbcb0db270d9fd0ebcae1d1993974c208e2534a65694b0b8dc812993f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_silencer_knight_qd.png"
+hash = "c68029faa072aa6d8420c5f83d8648a7378b8218504a0c900e105575084535a7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_silencer_mirage.png"
+hash = "f25504d0f60fd253600c8e04753ff88eabc43b9154a279b2bf47cf9f83008fc9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_silencer_phantom_s1.png"
+hash = "c156cd6eab819bda8104ca2bbbf2891cef564bf72ebef4ef95edcbfd1b9a3c15"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_silencer_ptilopsis.png"
+hash = "e6387151be9b42ce35082d78b37e9d875f28909d6a5f8fbc2c248a70b8435ebc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_silencer_ursus.png"
+hash = "b1492742ab24a94fbd5b27115727e485dd0349b04f8aef2fe357e65cc85f222d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/muzzle_silencer_vulture.png"
+hash = "92684bcf64255fa6b5e627aba0162959f3c95921b63ae44ec589eee8255589af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/oem_stock_heavy.png"
+hash = "8d0818a65a6d1a70a4fd7b83fb007bca6ccc93fcc544764c8709f55e8727197b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/oem_stock_light.png"
+hash = "a91cd242075ae164020e8134a26fbb2698f8058a10e21b02a1593865b1422a06"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/oem_stock_tactical.png"
+hash = "6adb14aec151dc09b198a2135ef69b57a9c955b965f2d6a51a8acb5afc3dec0c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_1873_6x_slot.png"
+hash = "2fd7a539e6b015d067c29aa4b73a86cf0d25d92dbc13143b8ee8a5c3ff3f124a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_acog_ta31.png"
+hash = "023dd2d953f5a1168e7027e15499724ffcae6f0567f1105d0bb7ae08af8813e1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_aug_default.png"
+hash = "6f86838d5fbbb8cdd1130387e7bcff1edb872c520e49efb89e799f374b5553c5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_contender_slot.png"
+hash = "8d9ba1e7ce2ac9a4eb7b2479cbfaaeab1b8e819e8cda79c27513a78a1410256a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_elcan_4x.png"
+hash = "08350f40460aad048feba7c12a39a0aa001f56ab696805455559c146d9d3bb2a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_hamr_slot.png"
+hash = "0f6b6db0980df077c31e967339271de82e7d4073144cab19388bdb5ac5245a64"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_lpvo_1_6.png"
+hash = "d3b581d5ae4978a9abe0a019751480a115b9c1d6efae1660ea90c1d9d51d1e9e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_mk5hd_slot.png"
+hash = "4b57384a804dadccf26e48be1d8b4ff77ff3237b83fcee2e8f09367e6f1ab1a2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_retro_2x.png"
+hash = "5351b9cb6a7f767e60afb74d5df0a2ffda9e6fdd96f5d3432bca5eeff30f2fb2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_scout_slot.png"
+hash = "1e5db548be2ba0725a4a4c50956baeca37e27b8194d2b62a97b288e4132fc15a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_standard_8x.png"
+hash = "981fe50817ad4ab80c0cf7415b73a871d60b81f8f860165043965b6f1fd26018"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_vudu.png"
+hash = "77ad66acf3910ef2b2c73041e0e7da51934b42ed01a5f9234cfc90c5c5467853"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_552.png"
+hash = "26f5aeeff84c7a86f91775afd8fab66cb498a7652ed5f8eeeac3a41aa3ab6f71"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_acro_pistol.png"
+hash = "6e78fc2f6b6e21ce832169d9601677faec140982febb50b77a2a6c250fc99e77"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_acro_rifle.png"
+hash = "a3510d7768f0ba972c8ad0ebd64692e81f0d275e2c12e2439c318a2540db1c01"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_coyote.png"
+hash = "c81bcc4643aa2283a2fa10239d3cef414f986560920108c7e2e0807443d8ec52"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_deltapoint_pistol.png"
+hash = "835ea8c4f86dbb50dbcf110ee8048cb02432d13ccec614a48b09f1bdf83a932e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_deltapoint_rifle.png"
+hash = "39b59572e81a963ea5b786cebe848bcb1826e8b9bdb23c1ace9f7584baf29eab"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_exp3.png"
+hash = "5eea9f5e41ad147d202bcc44ed17255b35915bc66cb4dfb7dbb72eb348275b2b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_fastfire_pistol.png"
+hash = "c14a908c115aea3b6ac84d1fbd1f19e0e8d7655ffd3bb8237e449611d404a68d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_fastfire_rifle.png"
+hash = "6a1a38b55806459c60946a2995cb2c33de1a590f83cea1518fef1d41b8a171aa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_okp7.png"
+hash = "ebf23bbf5e0aed5c23e9339448b02e0fff02d8683042e719eb6a263eaf994920"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_p90.png"
+hash = "0ca6cc997f9738ec3c36ce992d4e654246e0462bd9a80df5b681c6c7ad6ba519"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_pk06_pistol.png"
+hash = "fdf177edada16d21f89ed9522af559fa8a23f2e1bc9fd5b4b8bbb7be6d016205"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_pk06_rifle.png"
+hash = "5318364068db370dc23abcfc1fb1a6087781b2d67d37d473bd8fb166fab321b5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_rmr_dot.png"
+hash = "1038e00d4cea15b602e91823ea995942ef6c49564a6834d478a34473a9562f92"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_sro_dot.png"
+hash = "29b066e564a73e0fbaad9b8c67baa620c00efead91d880ecaa8d366bc3f8ce2e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_srs_02.png"
+hash = "39f96fef79d756702b16a57932ac80a8435d7adcd88620cf22a59b3defe007f1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_t1.png"
+hash = "954deb610a86d1b9a1537aaed03c052fc91e5ccf108673e503196d71d9eaeeee"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_t2.png"
+hash = "4e58b28b7c401c0d4a924cbae497d4485013bdcd6879b9164b2c761b16163c63"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_uh1.png"
+hash = "707aeb756b4033d1b2d427446c25c7ba2f344d1523e15548f4aa9b653b5151cb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sniper_extended_mag_1.png"
+hash = "9e3df3a20c0f4669231603bc27fb733b9f8e59b47eaaa684cd87731aac7e8acf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sniper_extended_mag_2.png"
+hash = "1acb19453762765c1044a9e107749360c16b121304794fa50e2c326e9fd8db35"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sniper_extended_mag_3.png"
+hash = "5c5d691d3c8f4486f57c6fb3b8e9200da6c15c138c4962bd8c93ef3d92930429"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_ak12.png"
+hash = "7c552a16fac22c6799184d3bd3afc89fc85a7d81eda6de4a6012860f440b6422"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_carbon_bone_c5.png"
+hash = "922eb2435e811b52ff2188d41f890e946325190e6608973f9e1be27819ba7911"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_hk_slim_line.png"
+hash = "7377b88fec1103e6aa0ca396c5df956f1b6aedd0b3c9aa5be278b4b32b47f409"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_m4ss.png"
+hash = "bc5089939815a4cfad340557b8f63b32f7c603da4b2dda1d48975c608e255495"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_militech_b5.png"
+hash = "25f3e81cd5c9bf6b1b8d19792c5a1c153dd6f5803f2e31b8e0e5a0504cdf10b0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_moe.png"
+hash = "cc543b59e626f577588e8ab5f93da70d5f8a7e5d4b40793b58840b4e8ff98cce"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_ripstock.png"
+hash = "b204c1f488bf8db9e2a4029dbaafb5a07502e468748214304dfe2a9d6f8b86e8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_sba3.png"
+hash = "842bea2f3aea251f9d025d54587702ce107efb81d1132205872a334feb1b38ff"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_tactical_ar.png"
+hash = "766c50c40247ee5715c9de4d86e86417b868068761343c136bae9abe22dffbaf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/aa12.png"
+hash = "d5e7ef2c273c6784b14c6cd5d86b77935396be9eee639fe49f93cc1efdf29136"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/ai_awp.png"
+hash = "438f94c31d86323bfae0e0918c6919b75fe92432a1ffbf3bf42bfb5e97e23313"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/ak47.png"
+hash = "603ee362ee183335c71f5f5b0f55c8f0ecc5d2b56ee5a2fb69210d6cfa518c56"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/aug.png"
+hash = "5e44b80d2085500a73862ba2853a4795a35017904452bf574030d6f2f766b169"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/b93r_slot.png"
+hash = "3f8396cf4c1c666b2bb372a3e5333803654d02ccd67db6f1281234509958d64d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/cz75.png"
+hash = "e688bc19a9e315f01f6a51a4910cb2f4fba0e4edafe7a99818821e0edf93a09b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/db_long.png"
+hash = "4a6fca4cae0fcf4c0fa70979c727f061b89415a7cbe53d874f46df474a4c5cc5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/db_short.png"
+hash = "5a39a69493a4ab2249cec4857e2b70cd31b077f0767b48f1f9a646eb4df40431"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/deagle.png"
+hash = "de5f6fa90ec977fd901db6edc4e74e1b306906347bd45db1e6dcf626c0f1ddc2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/deagle_golden.png"
+hash = "a56f2302722dfb2e0775f1b6ae149fe2f4ee0fc224ee968fecc3a2b5b7f7f261"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/g36k.png"
+hash = "ad3e391773884e735d1f99afee328bdde5c69dce658783fe3fc154c120bd6e05"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/glock_17.png"
+hash = "45e1558e16b2d1d29a615840d10ec33a8590d80b8fccec5de43f5c7eed19a57e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/hk416d.png"
+hash = "0dc4e7386412c74d40aa76cd0a2557cf19890955a1e1f1a83aa7e08002bfaf28"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/hk_g3.png"
+hash = "1ccb9ff11af1075473dfcb83ad37f00d6f24578e950353aa759862ba40abfadb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/hk_mp5a5.png"
+hash = "9ad2303f7188ddc3f48a6248f7afd365a91b6fc73ac16e178cbfdb1f3963d69c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m107.png"
+hash = "caf24e19ecfd373704ea609f60835a7bc4ce4cfd14d1da6300bcd78fa33a4f45"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m16a1.png"
+hash = "a25beb6c83940e96e59762e694bbeeda4c1935dc3e6d6a0116e35c3b411ec8b9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m16a4.png"
+hash = "e94e42647c30deb97e2d89299fbccfc5d2d95a225793c432c0184b7f83daf90d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m1911.png"
+hash = "363ba36fa376a3dcce00499c9b8285761435d34b25360ebbc3da5f31d06178a5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m249.png"
+hash = "e85fdcc08e4b99e55f7242f889e0a0f2af570ce4fc24c47ce6967a8c6d921854"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m320.png"
+hash = "c97700ee9397ddd96b396a69ac3c482947fb4f8c91b5235bbf35b5299c71d316"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m4a1.png"
+hash = "77b30fdc7ad1e16e8b3661895e6036e638b55100eeeabde378c448a6769e3006"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m700.png"
+hash = "18367609cd935bf294af49fb01fc7f279f007fc677517051a5d44309bc838cb9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m870.png"
+hash = "c2ef289ac96f4d8d3ed673e14434fad28354c98c88d013f707f032c87b26ad6f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/m95.png"
+hash = "da9b7e675dbfbfcefcea022d91cda341be71b3751b0d49ab3d5b743f8f86c04b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/minigun.png"
+hash = "4b48a580d12c75fd80f3b538b5ea28f2ed8f7057e56b8a5879066f3e9601baeb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/mk14.png"
+hash = "2e47ed0e5661e57b79323f994669d51982490c5613c525ad13cc32d735f5cab4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/p320.png"
+hash = "c132d94fe21ea3060f14acf375a3db0c2248a77d6b88021cf557b05a6e8a4b25"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/p90.png"
+hash = "116f530f89888e3982763fad8a1cebc0761ba3334382dba8533d8f7bb134e9f5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/qbz_95.png"
+hash = "e721c639ab2f6cfe8f920c685f7cd2d2541217970b850305ba2c5868d6b079e2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/rpg7.png"
+hash = "85332a825aebe9b5ea7934b6916bc131502ee4c19cb3833f8aafa3272e18edfe"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/rpk.png"
+hash = "d5a8104373f90d709ac14c1b8d55d69ea6cbd783ba7f96fd89c3e96f3b552f89"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/scar_h.png"
+hash = "271c3ae030e4c38bdac3261320265a1a23f9f0450ebbc66a08dee08db47b27b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/scar_l.png"
+hash = "67f7ab36436828388bd72d495001608e783aa4b3364074070c0e2b7a61ddbbbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/sks_tactical.png"
+hash = "4928f77deb9ad7c636c664786941e75abd1b115a6fc0b64ec7b7cc17f2cec338"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/spr15hb_slot.png"
+hash = "1a8add4cb82a3cf28611e1add672df4b4a99ab7418dee3eb568b5e01d4307e73"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/springfield1873_slot.png"
+hash = "a453298460eea4d96aadc98dafc8225fa5294ba923d198db222ee8bd8ca38da4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/timeless50_slot.png"
+hash = "6e377e14f4e1d929d9ee90f7153ce217ed29e9b59e62c25148f10944fee9b488"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/type_81.png"
+hash = "f1f4ff6cb3cd50ee1a467bdc57811dec54230ce7009b6cc1448262fc005eb713"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/ump45.png"
+hash = "c7dad9bc9d0ad844bc0d95afff47ea836e3acc327961f0aaac2f0b8198b2e05f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/uzi.png"
+hash = "7025df1f8001d473fbe1564aad1d16d817cf2cac1237505373c4c8e21fb7331f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/vector45.png"
+hash = "27eb7aabc7e0ba35e7fe323f5b48b92ed4f6921698ff6674efcefe275bb0fc15"
 
 [[files]]
 file = "kubejs/client_scripts/standardize.js"
@@ -698,7 +698,7 @@ hash = "0a224c4bcaef86fb17e5869067f4b5c2779384ae1804f45a555fe006761b5e19"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "e2e3425eca8980df76dac8c82a2ccf55b70658722ce9bfe7ae868357c578ced7"
+hash = "7d7c1f7aaaa2d38a5e6df1224c15df80a01942128128a5c2d85c2ed05086ba8f"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
@@ -706,7 +706,7 @@ hash = "5e70d6a634659252ce2c8982996d2f4f33cc562c3fb5685cf36511552fef0e5f"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/tacz-incomplete.js"
-hash = "0af2c63f6526e97eb484dd5b8545b43de23cab5fcdfe79d8c679fef3c8ec8bfb"
+hash = "db3ede8cc9da287342a3e7728112fd454804fa8b50df6597503842df10d5f559"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
@@ -719,6 +719,11 @@ hash = "846a7a53f3fce00016635e76c1747b1e3334fc7f8e913eb45d969ab32613e8bb"
 [[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
+metafile = true
+
+[[files]]
+file = "mods/advanced-netherite.pw.toml"
+hash = "907e4afa0784efe2ebf0cbf41a2741643d97aae907bea8863709c5f52d1e044c"
 metafile = true
 
 [[files]]
@@ -1082,11 +1087,6 @@ hash = "e8ffbf5788712fac841e1bb0bff8969697f99be47d6f1c3f41ebe9ac965016d3"
 metafile = true
 
 [[files]]
-file = "mods/mantle.pw.toml"
-hash = "4f818ebe7421a0ae41154fb479273dab515993b76c194c815d824f98e4f53a5e"
-metafile = true
-
-[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "9776ebb457af27863e5c320c5cf84bccdcd5cc2a79b19455657510fa75d35744"
 metafile = true
@@ -1168,7 +1168,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "cb07c379c25296d11d3805801ab2963f2196b5f3f38c3e46453db2e59193248c"
+hash = "4a5d3ec8e5ff7bfb67e3a8dd95e421504fd0daa271979648a785fba7c073c674"
 metafile = true
 
 [[files]]
@@ -1197,28 +1197,18 @@ hash = "d992e6db811c943de28e1064e7f4beeac10349ed58a90094253812f9cfc1387d"
 metafile = true
 
 [[files]]
+file = "mods/tacz-bullet-proof-enchant-add-on.pw.toml"
+hash = "264b19a262cbf246dbb7ce8fb1e7dcc55e3eec71fe3b0171b81ac2d207dd2cef"
+metafile = true
+
+[[files]]
 file = "mods/tacz-lesraisins-tactical-equipements.pw.toml"
 hash = "d97655330510c21898fe03027bd9841e34af2c6bc89372f22a6b23e71068b5ab"
 metafile = true
 
 [[files]]
-file = "mods/tcintegrations.pw.toml"
-hash = "b69cc3995c2de75b5cb9f0d999cd11bf05225da0ec209c8244ae88a6f6f58f56"
-metafile = true
-
-[[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "61466bd93ab560b9e8e5270a196a1776c8348d20875a18d6e32a825327b79046"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-construct.pw.toml"
-hash = "da92e9606b616857fd108d05d713d93cd9f6c586ed00ca0b696cc90f19eba6b4"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-levelling-addon.pw.toml"
-hash = "66fd483f4311166307c184c29f3e81f56179ed5ab094328b2c1413e91ba4c68a"
 metafile = true
 
 [[files]]
@@ -1240,7 +1230,3 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
 metafile = true
-
-[[files]]
-file = "tacz-incomplete-creator"
-hash = "54f84afbad98f22ed9801bdedbfc6cf6ef016ac6b69f9f5b45334e7517fbcc2c"

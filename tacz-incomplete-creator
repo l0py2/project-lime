@@ -2,7 +2,9 @@
 
 git clone https://github.com/MCModderAnchor/TACZ.git -b 1.20.1 --depth 1 tacz
 
-BASE_DIR='./kubejs/assets/kubejs/textures/item/incomplete'
+BASE_DIR='./kubejs/assets/kubejs/textures/item/tacz_incomplete'
+
+rm -rf "$BASE_DIR"
 
 mkdir -p "$BASE_DIR/gun"
 mkdir -p "$BASE_DIR/ammo"
@@ -22,7 +24,7 @@ printf "StartupEvents.registry('item', event => {\n" > "$SCRIPT_PATH"
 
 for FILE in $(find "$BASE_DIR" -type f)
 do
-	ITEM_NAME=$(basename "$FILE" | cut -d '.' -f 1)
+	ITEM_NAME=$(basename "$FILE" | cut -d '.' -f 1 | sed 's/_slot$//')
 	ASSET_PATH=$(printf '%s' "$FILE" | cut -d '/' -f 6-9 | cut -d '.' -f 1)
 	printf "\tevent.create('incomplete_%s').texture('kubejs:%s');\n" "$ITEM_NAME" "$ASSET_PATH" >> "$SCRIPT_PATH"
 done
