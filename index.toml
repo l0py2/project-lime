@@ -2,7 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/PillagersGun-common.toml"
-hash = "f6b92bc8cf37a71b35a42f16be21b05f06d4f6bd44510bdb0a90c484afebf62a"
+hash = "4f92daae9c8697ac32a27fb28f82324788d6996f22f66a6f1eae68838d643af8"
+
+[[files]]
+file = "config/alexsmobs.toml"
+hash = "2899a22626cd1131584b56a6af8524c049df73fe1b7010746b144068cce076fb"
 
 [[files]]
 file = "config/almostunified/unify.json"
@@ -14,7 +18,7 @@ hash = "40642fc0e5851ff67e700140e756c1d0c9ed83970169ddb18dfb1a67d5da962d"
 
 [[files]]
 file = "config/create_new_age-common.toml"
-hash = "69908c3a422e88d274cb39bb66e4d9f741eba754a954a71b52e515f604578e4c"
+hash = "554840f18fcdbf574f3e13c4e1393af85e6d18c892e3e86dc9ab6bc470540e42"
 
 [[files]]
 file = "config/farmersdelight-common.toml"
@@ -753,7 +757,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "bcc1a00d272a45143109d2808452a9d24bbc886fe199488fb4b7819a79454d17"
+hash = "79523f8a2fbc15ae38e14662193d5f089c8dd9c7bb56873264d1e13892e99092"
 metafile = true
 
 [[files]]

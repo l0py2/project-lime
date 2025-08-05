@@ -1,8 +1,29 @@
 #The chance of pillager armed with a gun.
 #Range: 0.0 ~ 1.0
-"Armed Chance" = 0.1
+"Armed Chance" = 0.2
+#The chance of pillagers will drop their guns on death.
+#Range: 0.0 ~ 1.0
+"Drop Chance" = 0.0
 
-["Combat - Guard Villager & Recruits"]
+["Compat - TACZ"]
+	#Whether gunners are allowed to use TACZ firearms.
+	"TACZ Compat" = true
+	#Whether gunners are allowed to spawn with TACZ firearms.
+	#WARNING: Spawning with TACZ firearms will significantly increase the game's difficulty.
+	#
+	"Spawn With TACZ" = true
+	#Whether gunners consume ammo when using TACZ firearms.
+	#If enabled, gunners that spawn with TACZ weapons will also receive some spare ammunition.
+	#
+	"Gunner Needs Ammo In TACZ" = false
+
+	["Compat - TACZ"."Compat - Guard Villager & Recruits"]
+		#Whether Guard or Recruit will spawn with gun in TACZ.
+		"Villager Spawn With TACZ Gun" = true
+
+["Compat - Guard Villager & Recruits"]
+	#Whether Guard or Recruit will spawn with gun.
+	"Villager Spawn With Gun" = true
 	#The chance of Guard or Recruit armed with a gun.
 	#Range: 0.0 ~ 1.0
-	"Villager Armed Chance" = 0.1
+	"Villager Armed Chance" = 0.2

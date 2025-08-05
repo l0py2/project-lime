@@ -1,3 +1,3 @@
 #Maximum depth of network pathfinding
 #Range: > 1
-maxPathfindingDepth = 4096
+maxPathfindingDepth = 8192
