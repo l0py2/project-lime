@@ -58,7 +58,6 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_sight_552').texture('kubejs:item/tacz_incomplete/attachment/sight_552');
 	event.create('incomplete_scope_hamr').texture('kubejs:item/tacz_incomplete/attachment/scope_hamr_slot');
 	event.create('incomplete_stock_ak12').texture('kubejs:item/tacz_incomplete/attachment/stock_ak12');
-	event.create('incomplete_laser_lopro').texture('kubejs:item/tacz_incomplete/attachment/laser_lopro_slot');
 	event.create('incomplete_oem_stock_heavy').texture('kubejs:item/tacz_incomplete/attachment/oem_stock_heavy');
 	event.create('incomplete_scope_mk5hd').texture('kubejs:item/tacz_incomplete/attachment/scope_mk5hd_slot');
 	event.create('incomplete_extended_mag_3').texture('kubejs:item/tacz_incomplete/attachment/extended_mag_3');
@@ -113,8 +112,6 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_muzzle_silencer_ptilopsis').texture('kubejs:item/tacz_incomplete/attachment/muzzle_silencer_ptilopsis');
 	event.create('incomplete_scope_acog_ta31').texture('kubejs:item/tacz_incomplete/attachment/scope_acog_ta31');
 	event.create('incomplete_muzzle_silencer_vulture').texture('kubejs:item/tacz_incomplete/attachment/muzzle_silencer_vulture');
-	event.create('incomplete_laser_nightstick').texture('kubejs:item/tacz_incomplete/attachment/laser_nightstick_slot');
-	event.create('incomplete_laser_compact').texture('kubejs:item/tacz_incomplete/attachment/laser_compact_slot');
 	event.create('incomplete_762x25').texture('kubejs:item/tacz_incomplete/ammo/762x25');
 	event.create('incomplete_338').texture('kubejs:item/tacz_incomplete/ammo/338');
 	event.create('incomplete_50bmg').texture('kubejs:item/tacz_incomplete/ammo/50bmg');

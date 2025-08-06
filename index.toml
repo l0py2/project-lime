@@ -209,18 +209,6 @@ file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_m
 hash = "5bff018b0206d6e50fdde9725bc2c280250c2b6a9f7ddb60bff0db1e86c6133c"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/laser_compact_slot.png"
-hash = "aec4abf3fcf5dc00dc5e3d03fe291a8a5c268d97150c804bd079aba59b882a45"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/laser_lopro_slot.png"
-hash = "5abfa38a881e579632d76f5084b0508e70c3b35c9c3572cb71b091c730920f08"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/laser_nightstick_slot.png"
-hash = "bf4f0940ac7fd008c467dbeebeba77358c8759689c6598e5f5cd550cfc025e77"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_1.png"
 hash = "eda2e3ebf951e8a139f02bef858603714492254f2325a147c33a3f4bdd87ed61"
 
@@ -657,6 +645,10 @@ file = "kubejs/server_scripts/tacz/attachements/grips.js"
 hash = "13968ad69bff69262399354ebfd9078da723c193cec816dc115e6659fb006699"
 
 [[files]]
+file = "kubejs/server_scripts/tacz/attachements/lasers.js"
+hash = "87d1da25295d739322a9ae20ea84a58f61bbed99dcd8e441013d2f77cbfa5deb"
+
+[[files]]
 file = "kubejs/startup_scripts/identifiers.js"
 hash = "7d7c1f7aaaa2d38a5e6df1224c15df80a01942128128a5c2d85c2ed05086ba8f"
 
@@ -666,7 +658,7 @@ hash = "5e70d6a634659252ce2c8982996d2f4f33cc562c3fb5685cf36511552fef0e5f"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/tacz-incomplete.js"
-hash = "31710134e858a35e6d6904d3fd5183f78602b845bc903e9f498f2962f84f3453"
+hash = "62520aa5f82bb22cb1efdeabaabe309eb92a56a8bedc52e2a263d9f760d4a98c"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
