@@ -209,54 +209,6 @@ file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_m
 hash = "5bff018b0206d6e50fdde9725bc2c280250c2b6a9f7ddb60bff0db1e86c6133c"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_cobra.png"
-hash = "f5b03e31f5ed182712c9e201892781298228800a55e12544db8778a4ad646bb8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_cqr.png"
-hash = "bd2b5dfb3a3dec80c31067da73c1fb0a2d9cad55a259a6c0c09ba11ef81897a5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_magpul_afg_2.png"
-hash = "a2b3b3f634e8b0048de219360df78647dbd2acdadb03dc2f879cb506cbfacaf8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_osovets_black.png"
-hash = "d4624168e5ebe359aeea0cfb1cfa8b320026680d7e6061c85a04d30304c04b98"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_rk0.png"
-hash = "d3614b1ea8c39a8ada24bd15712ebd98c9ce397ccd8b7e798a0541756f7ec1d0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_rk1_b25u.png"
-hash = "dfb508dbce13f13c013e0fbf534335613b8c94b0017ae60553332e24eb07c062"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_rk6.png"
-hash = "3d8f7a7580af6f96928e0c7a6cf1742cc4b756a3087e7acd55113b545db9e5c1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_se_5.png"
-hash = "4b110714b109af51780c5ece9391f871d0eb2f4410aa94bc71d292175af15082"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_td.png"
-hash = "996f469f1e56dbee54242b56d1a6c631be8f59b1b9688fb8c030cbc5574bbbf7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_vertical_military.png"
-hash = "1fbd66846ffc751f070fb591b66299b2dc193b4a57ec53363bfa2422ce2052dd"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_vertical_ranger.png"
-hash = "7aa795e0fcbf47733d6f6f90dfc482e088a5a7a39f8d407fc48e2005b1de286a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/grip_vertical_talon.png"
-hash = "6abb184edbc3f1ab3ebfdc6dfb9532757dac1b9a1b96c69d44c2331668694f23"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/laser_compact_slot.png"
 hash = "aec4abf3fcf5dc00dc5e3d03fe291a8a5c268d97150c804bd079aba59b882a45"
 
@@ -701,6 +653,10 @@ file = "kubejs/server_scripts/standardize.js"
 hash = "0a224c4bcaef86fb17e5869067f4b5c2779384ae1804f45a555fe006761b5e19"
 
 [[files]]
+file = "kubejs/server_scripts/tacz/attachements/grips.js"
+hash = "13968ad69bff69262399354ebfd9078da723c193cec816dc115e6659fb006699"
+
+[[files]]
 file = "kubejs/startup_scripts/identifiers.js"
 hash = "7d7c1f7aaaa2d38a5e6df1224c15df80a01942128128a5c2d85c2ed05086ba8f"
 
@@ -710,7 +666,7 @@ hash = "5e70d6a634659252ce2c8982996d2f4f33cc562c3fb5685cf36511552fef0e5f"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/tacz-incomplete.js"
-hash = "db3ede8cc9da287342a3e7728112fd454804fa8b50df6597503842df10d5f559"
+hash = "31710134e858a35e6d6904d3fd5183f78602b845bc903e9f498f2962f84f3453"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
@@ -757,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "79523f8a2fbc15ae38e14662193d5f089c8dd9c7bb56873264d1e13892e99092"
+hash = "539733801bfa3b911bfe8aef7d1c5e1ebed3f0f75a2b5699f86906140857d30c"
 metafile = true
 
 [[files]]
@@ -1057,7 +1013,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "aba5a3408880f30daf3442ff6d0a640e9a78e578d9f0c3a3be175ca12dbc3167"
+hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
 metafile = true
 
 [[files]]
@@ -1182,7 +1138,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "bca498a73d554610d0429f255e8b02c661b8d46dacb956be3bc7cf849299b455"
+hash = "d6a4767bca94328181b0019ec9f7be3f2c223bcb8c778e7994db6cbcf8542e7a"
 metafile = true
 
 [[files]]
