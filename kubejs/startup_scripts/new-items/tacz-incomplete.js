@@ -1,6 +1,5 @@
 StartupEvents.registry('item', event => {
 	event.create('incomplete_m320').texture('kubejs:item/tacz_incomplete/gun/m320');
-	event.create('incomplete_deagle_golden').texture('kubejs:item/tacz_incomplete/gun/deagle_golden');
 	event.create('incomplete_sks_tactical').texture('kubejs:item/tacz_incomplete/gun/sks_tactical');
 	event.create('incomplete_hk416d').texture('kubejs:item/tacz_incomplete/gun/hk416d');
 	event.create('incomplete_b93r').texture('kubejs:item/tacz_incomplete/gun/b93r_slot');
@@ -43,26 +42,17 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_hk_g3').texture('kubejs:item/tacz_incomplete/gun/hk_g3');
 	event.create('incomplete_sight_srs_02').texture('kubejs:item/tacz_incomplete/attachment/sight_srs_02');
 	event.create('incomplete_scope_standard_8x').texture('kubejs:item/tacz_incomplete/attachment/scope_standard_8x');
-	event.create('incomplete_stock_m4ss').texture('kubejs:item/tacz_incomplete/attachment/stock_m4ss');
-	event.create('incomplete_stock_militech_b5').texture('kubejs:item/tacz_incomplete/attachment/stock_militech_b5');
-	event.create('incomplete_bayonet_m9').texture('kubejs:item/tacz_incomplete/attachment/bayonet_m9');
 	event.create('incomplete_sight_acro_rifle').texture('kubejs:item/tacz_incomplete/attachment/sight_acro_rifle');
-	event.create('incomplete_stock_sba3').texture('kubejs:item/tacz_incomplete/attachment/stock_sba3');
 	event.create('incomplete_sight_uh1').texture('kubejs:item/tacz_incomplete/attachment/sight_uh1');
 	event.create('incomplete_sniper_extended_mag_3').texture('kubejs:item/tacz_incomplete/attachment/sniper_extended_mag_3');
-	event.create('incomplete_stock_tactical_ar').texture('kubejs:item/tacz_incomplete/attachment/stock_tactical_ar');
 	event.create('incomplete_sight_t1').texture('kubejs:item/tacz_incomplete/attachment/sight_t1');
 	event.create('incomplete_scope_scout').texture('kubejs:item/tacz_incomplete/attachment/scope_scout_slot');
-	event.create('incomplete_stock_moe').texture('kubejs:item/tacz_incomplete/attachment/stock_moe');
 	event.create('incomplete_light_extended_mag_3').texture('kubejs:item/tacz_incomplete/attachment/light_extended_mag_3');
 	event.create('incomplete_sight_552').texture('kubejs:item/tacz_incomplete/attachment/sight_552');
 	event.create('incomplete_scope_hamr').texture('kubejs:item/tacz_incomplete/attachment/scope_hamr_slot');
-	event.create('incomplete_stock_ak12').texture('kubejs:item/tacz_incomplete/attachment/stock_ak12');
-	event.create('incomplete_oem_stock_heavy').texture('kubejs:item/tacz_incomplete/attachment/oem_stock_heavy');
 	event.create('incomplete_scope_mk5hd').texture('kubejs:item/tacz_incomplete/attachment/scope_mk5hd_slot');
 	event.create('incomplete_extended_mag_3').texture('kubejs:item/tacz_incomplete/attachment/extended_mag_3');
 	event.create('incomplete_sight_deltapoint_rifle').texture('kubejs:item/tacz_incomplete/attachment/sight_deltapoint_rifle');
-	event.create('incomplete_stock_ripstock').texture('kubejs:item/tacz_incomplete/attachment/stock_ripstock');
 	event.create('incomplete_sight_acro_pistol').texture('kubejs:item/tacz_incomplete/attachment/sight_acro_pistol');
 	event.create('incomplete_light_extended_mag_2').texture('kubejs:item/tacz_incomplete/attachment/light_extended_mag_2');
 	event.create('incomplete_ammo_mod_i').texture('kubejs:item/tacz_incomplete/attachment/ammo_mod_i');
@@ -78,11 +68,8 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_light_extended_mag_1').texture('kubejs:item/tacz_incomplete/attachment/light_extended_mag_1');
 	event.create('incomplete_deagle_golden_long_barrel').texture('kubejs:item/tacz_incomplete/attachment/deagle_golden_long_barrel');
 	event.create('incomplete_sight_t2').texture('kubejs:item/tacz_incomplete/attachment/sight_t2');
-	event.create('incomplete_oem_stock_tactical').texture('kubejs:item/tacz_incomplete/attachment/oem_stock_tactical');
 	event.create('incomplete_sight_sro_dot').texture('kubejs:item/tacz_incomplete/attachment/sight_sro_dot');
-	event.create('incomplete_bayonet_6h3').texture('kubejs:item/tacz_incomplete/attachment/bayonet_6h3');
 	event.create('incomplete_scope_retro_2x').texture('kubejs:item/tacz_incomplete/attachment/scope_retro_2x');
-	event.create('incomplete_oem_stock_light').texture('kubejs:item/tacz_incomplete/attachment/oem_stock_light');
 	event.create('incomplete_scope_contender').texture('kubejs:item/tacz_incomplete/attachment/scope_contender_slot');
 	event.create('incomplete_ammo_mod_he').texture('kubejs:item/tacz_incomplete/attachment/ammo_mod_he');
 	event.create('incomplete_sniper_extended_mag_2').texture('kubejs:item/tacz_incomplete/attachment/sniper_extended_mag_2');
@@ -95,9 +82,7 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_scope_lpvo_1_6').texture('kubejs:item/tacz_incomplete/attachment/scope_lpvo_1_6');
 	event.create('incomplete_ammo_mod_fmj').texture('kubejs:item/tacz_incomplete/attachment/ammo_mod_fmj');
 	event.create('incomplete_sight_fastfire_rifle').texture('kubejs:item/tacz_incomplete/attachment/sight_fastfire_rifle');
-	event.create('incomplete_stock_carbon_bone_c5').texture('kubejs:item/tacz_incomplete/attachment/stock_carbon_bone_c5');
 	event.create('incomplete_sight_exp3').texture('kubejs:item/tacz_incomplete/attachment/sight_exp3');
-	event.create('incomplete_stock_hk_slim_line').texture('kubejs:item/tacz_incomplete/attachment/stock_hk_slim_line');
 	event.create('incomplete_scope_vudu').texture('kubejs:item/tacz_incomplete/attachment/scope_vudu');
 	event.create('incomplete_scope_acog_ta31').texture('kubejs:item/tacz_incomplete/attachment/scope_acog_ta31');
 	event.create('incomplete_762x25').texture('kubejs:item/tacz_incomplete/ammo/762x25');

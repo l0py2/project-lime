@@ -185,18 +185,6 @@ file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_i
 hash = "85c5ad79a5c9f4a61280b32f9a0f598420c1a2368a36b922eb1901c25a341ee8"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/bayonet_6h3.png"
-hash = "a34afd11d59b4779aca0048887979cfdb0532ba75e26b23fc08d793ee514cd78"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/bayonet_m9.png"
-hash = "98e44e422da0c5221bf95b75421d1b8ef721e67f92f7ea7ad63917d5d6401ac6"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/deagle_golden_long_barrel.png"
-hash = "d0eb889f8f04ac0d05efce581ac56c313735addf78a3fac89234676a40cfcef6"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_mag_1.png"
 hash = "9e0dc42eb2f7ee04522c28f09d9c5c052ac56fd0b77b5bf8987f164dbc13f1f8"
 
@@ -219,18 +207,6 @@ hash = "c36c36e6a7954b3a528106bbb7c139175f446fe9e05cd90a90a5f1965700dab6"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_3.png"
 hash = "d641621a7e51ff16b603123b5b15013705fd8af4a9dc1381467b147195646378"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/oem_stock_heavy.png"
-hash = "8d0818a65a6d1a70a4fd7b83fb007bca6ccc93fcc544764c8709f55e8727197b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/oem_stock_light.png"
-hash = "a91cd242075ae164020e8134a26fbb2698f8058a10e21b02a1593865b1422a06"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/oem_stock_tactical.png"
-hash = "6adb14aec151dc09b198a2135ef69b57a9c955b965f2d6a51a8acb5afc3dec0c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_1873_6x_slot.png"
@@ -367,42 +343,6 @@ hash = "1acb19453762765c1044a9e107749360c16b121304794fa50e2c326e9fd8db35"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sniper_extended_mag_3.png"
 hash = "5c5d691d3c8f4486f57c6fb3b8e9200da6c15c138c4962bd8c93ef3d92930429"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_ak12.png"
-hash = "7c552a16fac22c6799184d3bd3afc89fc85a7d81eda6de4a6012860f440b6422"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_carbon_bone_c5.png"
-hash = "922eb2435e811b52ff2188d41f890e946325190e6608973f9e1be27819ba7911"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_hk_slim_line.png"
-hash = "7377b88fec1103e6aa0ca396c5df956f1b6aedd0b3c9aa5be278b4b32b47f409"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_m4ss.png"
-hash = "bc5089939815a4cfad340557b8f63b32f7c603da4b2dda1d48975c608e255495"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_militech_b5.png"
-hash = "25f3e81cd5c9bf6b1b8d19792c5a1c153dd6f5803f2e31b8e0e5a0504cdf10b0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_moe.png"
-hash = "cc543b59e626f577588e8ab5f93da70d5f8a7e5d4b40793b58840b4e8ff98cce"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_ripstock.png"
-hash = "b204c1f488bf8db9e2a4029dbaafb5a07502e468748214304dfe2a9d6f8b86e8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_sba3.png"
-hash = "842bea2f3aea251f9d025d54587702ce107efb81d1132205872a334feb1b38ff"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/stock_tactical_ar.png"
-hash = "766c50c40247ee5715c9de4d86e86417b868068761343c136bae9abe22dffbaf"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/aa12.png"
@@ -605,6 +545,10 @@ file = "kubejs/server_scripts/tacz/attachements/muzzle-devices.js"
 hash = "21ce174cbadbee1c3190e288b3cf6ac0f474fbd8829745e0d58acae3b63e8396"
 
 [[files]]
+file = "kubejs/server_scripts/tacz/attachements/stocks.js"
+hash = "52872badc26ddeb3d731af3c2e6f53ad0f971c098f31aad10e5a6f29d3557c2e"
+
+[[files]]
 file = "kubejs/startup_scripts/identifiers.js"
 hash = "7d7c1f7aaaa2d38a5e6df1224c15df80a01942128128a5c2d85c2ed05086ba8f"
 
@@ -614,7 +558,7 @@ hash = "5e70d6a634659252ce2c8982996d2f4f33cc562c3fb5685cf36511552fef0e5f"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/tacz-incomplete.js"
-hash = "76df44e6f036514adc3f99b5913917488948350ac5b57a22d06ff569d1b32073"
+hash = "23e122a653d3835beae08b808e4098e2dc9c3300402519f3e7cefda8cea69919"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
