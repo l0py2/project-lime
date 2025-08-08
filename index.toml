@@ -481,6 +481,10 @@ file = "kubejs/server_scripts/standardize.js"
 hash = "0a224c4bcaef86fb17e5869067f4b5c2779384ae1804f45a555fe006761b5e19"
 
 [[files]]
+file = "kubejs/server_scripts/tacz/ammunitions.js"
+hash = "dce02f76d61ea22bb7db7ca7c279b79a089a146422cc47c2ca22905ecaf81e8e"
+
+[[files]]
 file = "kubejs/server_scripts/tacz/attachements/grips.js"
 hash = "13968ad69bff69262399354ebfd9078da723c193cec816dc115e6659fb006699"
 
@@ -499,6 +503,50 @@ hash = "21ce174cbadbee1c3190e288b3cf6ac0f474fbd8829745e0d58acae3b63e8396"
 [[files]]
 file = "kubejs/server_scripts/tacz/attachements/stocks.js"
 hash = "52872badc26ddeb3d731af3c2e6f53ad0f971c098f31aad10e5a6f29d3557c2e"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/grenades.js"
+hash = "2c1816dda0f24ad7c03be98773543865a1d5d8c52db79c559c72eb7b937622d9"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/assault-rifles.js"
+hash = "c0407f458d42cdef35b0091bb7c193146749c6b6b4e67d2750b00aeeb5afe52d"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/battle-rifles.js"
+hash = "c26961d0490aad8c3a6e4e0ab4035ce15115f3cd8ef0ea3d0f1f0fd0ac7a0792"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/heavy-weapons.js"
+hash = "203646d97300f75f1d098145c6665fcb2a565969e69b313b890d0331341fcd0c"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/marksman-rfiles.js"
+hash = "fc1f690f54930cd4e9e7ce3d4cc2dc95ce9f6c32f90873bff5fe1dd741a8ade5"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/melees.js"
+hash = "46cccfbd58e7b927c118c6b4b261df064a438b64ed33778c8b64b73115b2275d"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/pistols.js"
+hash = "24d4c79b02047b4eb26382ef293c8d904a91f9bb7e5b44071926387fd97f4135"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/shotguns.js"
+hash = "f25ace7339dfefaf91337a4a728121a8cda25193518822bf55e75ac62c57d1fa"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/sniper-rifles.js"
+hash = "850f6bbb4c2665df735f548b3e11a645b8befc899d1bbbbb164ff56e1b249c0c"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/sub-machine-guns.js"
+hash = "d9b982ba3a0cc9c1486bf124a060852912c1aa2a099ff7397c177b36df80cfd8"
+
+[[files]]
+file = "kubejs/server_scripts/tacz/weapons/trapdoor-rifle.js"
+hash = "1cc37886ec9fc842b7b5f48b741e4df9c9c0d414a8a0edfec4e61ea39d66d847"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
