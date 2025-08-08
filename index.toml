@@ -169,46 +169,6 @@ file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/ammo/rpg_rocket.png"
 hash = "163ae96eac110b8f966b8b42155c1e5ef1599afe10188d3875d14e444ec88059"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_fmj.png"
-hash = "4f3c4579bc9d7e1a40f85276008b9025abc8b3ad45462468835c8defbe568d8f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_he.png"
-hash = "5c61bf18b00b3c8f61d16faf1d1d89784e6825cd5d02525ac9ebf77b2bb19f08"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_hp.png"
-hash = "2b8dee91fb31a18d1dccc93224917680baf8b4b814e747baac6f005060a3e466"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/ammo_mod_i.png"
-hash = "85c5ad79a5c9f4a61280b32f9a0f598420c1a2368a36b922eb1901c25a341ee8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_mag_1.png"
-hash = "9e0dc42eb2f7ee04522c28f09d9c5c052ac56fd0b77b5bf8987f164dbc13f1f8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_mag_2.png"
-hash = "6f2660e9d78303c47708bea6ccabf4ac08fc2eaf86bc1572fc1c023fb9463358"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/extended_mag_3.png"
-hash = "5bff018b0206d6e50fdde9725bc2c280250c2b6a9f7ddb60bff0db1e86c6133c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_1.png"
-hash = "eda2e3ebf951e8a139f02bef858603714492254f2325a147c33a3f4bdd87ed61"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_2.png"
-hash = "c36c36e6a7954b3a528106bbb7c139175f446fe9e05cd90a90a5f1965700dab6"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/light_extended_mag_3.png"
-hash = "d641621a7e51ff16b603123b5b15013705fd8af4a9dc1381467b147195646378"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/scope_1873_6x_slot.png"
 hash = "2fd7a539e6b015d067c29aa4b73a86cf0d25d92dbc13143b8ee8a5c3ff3f124a"
 
@@ -331,18 +291,6 @@ hash = "4e58b28b7c401c0d4a924cbae497d4485013bdcd6879b9164b2c761b16163c63"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sight_uh1.png"
 hash = "707aeb756b4033d1b2d427446c25c7ba2f344d1523e15548f4aa9b653b5151cb"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sniper_extended_mag_1.png"
-hash = "9e3df3a20c0f4669231603bc27fb733b9f8e59b47eaaa684cd87731aac7e8acf"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sniper_extended_mag_2.png"
-hash = "1acb19453762765c1044a9e107749360c16b121304794fa50e2c326e9fd8db35"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/attachment/sniper_extended_mag_3.png"
-hash = "5c5d691d3c8f4486f57c6fb3b8e9200da6c15c138c4962bd8c93ef3d92930429"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tacz_incomplete/gun/aa12.png"
@@ -541,6 +489,10 @@ file = "kubejs/server_scripts/tacz/attachements/lasers.js"
 hash = "87d1da25295d739322a9ae20ea84a58f61bbed99dcd8e441013d2f77cbfa5deb"
 
 [[files]]
+file = "kubejs/server_scripts/tacz/attachements/magazine.js"
+hash = "65701427a9050cd97d374ac0eb77d5503fa4390c967f5b67cc61f9270692eaef"
+
+[[files]]
 file = "kubejs/server_scripts/tacz/attachements/muzzle-devices.js"
 hash = "21ce174cbadbee1c3190e288b3cf6ac0f474fbd8829745e0d58acae3b63e8396"
 
@@ -558,7 +510,7 @@ hash = "5e70d6a634659252ce2c8982996d2f4f33cc562c3fb5685cf36511552fef0e5f"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/tacz-incomplete.js"
-hash = "23e122a653d3835beae08b808e4098e2dc9c3300402519f3e7cefda8cea69919"
+hash = "dab37e167863222920a32e34445c350751c9abf326921356f1e4884b75b88e23"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
