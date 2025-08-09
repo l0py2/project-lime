@@ -521,8 +521,8 @@ file = "kubejs/server_scripts/tacz/weapons/heavy-weapons.js"
 hash = "203646d97300f75f1d098145c6665fcb2a565969e69b313b890d0331341fcd0c"
 
 [[files]]
-file = "kubejs/server_scripts/tacz/weapons/marksman-rfiles.js"
-hash = "fc1f690f54930cd4e9e7ce3d4cc2dc95ce9f6c32f90873bff5fe1dd741a8ade5"
+file = "kubejs/server_scripts/tacz/weapons/marksman-rifles.js"
+hash = "3c298a1f027d803c23518a831d0321203a4ffe9ade7571e9d61ae96d446d84ef"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/melees.js"
@@ -530,7 +530,7 @@ hash = "46cccfbd58e7b927c118c6b4b261df064a438b64ed33778c8b64b73115b2275d"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/pistols.js"
-hash = "24d4c79b02047b4eb26382ef293c8d904a91f9bb7e5b44071926387fd97f4135"
+hash = "1fe80df7bc8a340d9a18d1ef738147116ce752626e342e0002555f6a028a3f57"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/shotguns.js"
@@ -546,7 +546,7 @@ hash = "d9b982ba3a0cc9c1486bf124a060852912c1aa2a099ff7397c177b36df80cfd8"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/trapdoor-rifle.js"
-hash = "1cc37886ec9fc842b7b5f48b741e4df9c9c0d414a8a0edfec4e61ea39d66d847"
+hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
@@ -605,7 +605,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "539733801bfa3b911bfe8aef7d1c5e1ebed3f0f75a2b5699f86906140857d30c"
+hash = "4709c27d13b34395b5d1a72affab6c5d86dd0878afdfa811fe9eb0f270dbb227"
 metafile = true
 
 [[files]]
@@ -616,6 +616,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+metafile = true
+
+[[files]]
+file = "mods/art-of-forging-a-tetra-addon.pw.toml"
+hash = "e7a896b4567d9d51f6efeac1c1aa0c81416c00dc858fa07105764d0304f3c774"
 metafile = true
 
 [[files]]
@@ -684,6 +689,11 @@ hash = "fa8421392e4c113284951d22e1a931a7cbf43bfaa8be9645b7cf648626727b59"
 metafile = true
 
 [[files]]
+file = "mods/cobweb.pw.toml"
+hash = "bc5bde51620622b9f415bcc3dfea4dca5bd17171383cf4290e1075b7352adbe0"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "db01ff332b926267e5343601473582e51cddd1dff7c0bfef0809dc9802c07480"
 metafile = true
@@ -734,6 +744,11 @@ hash = "643d695c3fa6973c50f5815966df42b7259921f6078b54ebb88e958dfa9298a5"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "200b30b8eeaaf2fa9e8345fcabdd80f6195b5af67926fb1e277931100e7e1eff"
 metafile = true
@@ -755,7 +770,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "caa0aad2f0ef5f82f2e26f09191931513cdfec1462793f1ad72f249b868cf983"
+hash = "2ad430fa5ca6941fbb645e48d3cce6d6f176be571e7baba08b1fc983caa823a5"
 metafile = true
 
 [[files]]
@@ -940,12 +955,17 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "9776ebb457af27863e5c320c5cf84bccdcd5cc2a79b19455657510fa75d35744"
+hash = "5859dfd186c4ac5e7e4627639dc2aeca5478dd1f9d6f09020e49a9788edbf4de"
 metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
+metafile = true
+
+[[files]]
+file = "mods/mutil.pw.toml"
+hash = "6161befd655a400fb4a07d8702b62c3f24f828d5ee6336c3dcacd6bcaff78fc1"
 metafile = true
 
 [[files]]
@@ -1030,7 +1050,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d6a4767bca94328181b0019ec9f7be3f2c223bcb8c778e7994db6cbcf8542e7a"
+hash = "5f29baf659705d42c6f3a7b1f6bdb227c9474d20577aeaf72e5763a288ab67a4"
+metafile = true
+
+[[files]]
+file = "mods/soul-fire-d.pw.toml"
+hash = "e57e859ea89936329910a05213e4f93e9972bc8c3a767bea031a34041274f72d"
 metafile = true
 
 [[files]]
@@ -1056,6 +1081,26 @@ metafile = true
 [[files]]
 file = "mods/tacz-lesraisins-tactical-equipements.pw.toml"
 hash = "d97655330510c21898fe03027bd9841e34af2c6bc89372f22a6b23e71068b5ab"
+metafile = true
+
+[[files]]
+file = "mods/tetra-extras.pw.toml"
+hash = "6c13c3df782b0716f78c1844e76c5f465f60d87f40e10505801e6b388ece4c17"
+metafile = true
+
+[[files]]
+file = "mods/tetra.pw.toml"
+hash = "714c409d92150537ada20684288310ab44d3a0d29dc833ccf088b24f848ff8c9"
+metafile = true
+
+[[files]]
+file = "mods/tetracelium.pw.toml"
+hash = "40070ccdbae58ee140f3c41b94abb61e88d2496348b00f0b601abab70f0c111a"
+metafile = true
+
+[[files]]
+file = "mods/tetranomicon.pw.toml"
+hash = "e1c67611aa8ac579d7299e273cac8798b28927b9366ec799cc5133cced89d958"
 metafile = true
 
 [[files]]

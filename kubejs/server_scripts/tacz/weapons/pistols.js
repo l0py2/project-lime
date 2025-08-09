@@ -4,8 +4,8 @@ ServerEvents.recipes(event => {
 	event.stonecutting(global.id.KJ('incomplete_p320'), global.tag.M('plates/iron'));
 	event.stonecutting(global.id.KJ('incomplete_deagle_golden'), global.tag.M('plates/gold'));
 	event.stonecutting(global.id.KJ('incomplete_deagle'), global.tag.M('plates/iron'));
-	event.stonecutting(global.id.KJ('incomplete_timeless50_slot'), global.tag.M('plates/gold'));
-	event.stonecutting(global.id.KJ('incomplete_b93r_slot'), global.tag.M('plates/iron'));
+	event.stonecutting(global.id.KJ('incomplete_timeless50'), global.tag.M('plates/gold'));
+	event.stonecutting(global.id.KJ('incomplete_b93r'), global.tag.M('plates/iron'));
 	event.stonecutting(global.id.KJ('incomplete_cz75'), global.tag.M('plates/iron'));
 
 	let incomplete;
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
 
 	//Timeless .50
 
-	incomplete = global.id.KJ('incomplete_timeless50_slot');
+	incomplete = global.id.KJ('incomplete_timeless50');
 	event.recipes.create.sequenced_assembly(
 		[
 			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:timeless50",HasBulletInBarrel:1b}')
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
 
 	//B93R Recipe
 
-	incomplete = global.id.KJ('incomplete_b93r_slot');
+	incomplete = global.id.KJ('incomplete_b93r');
 	event.recipes.create.sequenced_assembly(
 		[
 			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"BURST",GunId:"tacz:b93r",HasBulletInBarrel:1b}')

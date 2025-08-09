@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-	event.stonecutting(global.id.KJ('incomplete_spr15hb_slot'), global.tag.M('plates/steel'));
+	event.stonecutting(global.id.KJ('incomplete_spr15hb'), global.tag.M('plates/steel'));
 	event.stonecutting(global.id.KJ('incomplete_mk14'), global.tag.M('plates/steel'));
 	event.stonecutting(global.id.KJ('incomplete_sks_tactical'), global.tag.M('plates/steel'));
 
@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 
 	//SPR-15 HB Recipe
 
-	incomplete = global.id.KJ('incomplete_spr15hb_slot');
+	incomplete = global.id.KJ('incomplete_spr15hb');
 	event.recipes.create.sequenced_assembly(
 		[
 			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:spr15hb",HasBulletInBarrel:1b}')
