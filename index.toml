@@ -605,7 +605,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "4709c27d13b34395b5d1a72affab6c5d86dd0878afdfa811fe9eb0f270dbb227"
+hash = "85dae3ab07607422f12127a83c5b3e7878bd6a1382ec5b5686eba3bbd76315fb"
 metafile = true
 
 [[files]]
@@ -1035,7 +1035,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3db2bafb0b84a6abb3b0e56bcdbd772c0bfe9a171f2df8c6293236a6ddb2cbed"
+hash = "b1c0df2dd2700ca4ae9750530c059d8eff7a0a1568cf5f88ebf88a859b3df565"
 metafile = true
 
 [[files]]
