@@ -6,7 +6,7 @@ hash = "2899a22626cd1131584b56a6af8524c049df73fe1b7010746b144068cce076fb"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "f755f9ff4778ff5e7d7ae725161ee23ecee28b8d7db5b782b573e3e09a668b5f"
+hash = "387ff96097483eaf7b9417f7e4333c8ef87509e1f0cdab15070016d14fe01979"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -59,6 +59,22 @@ hash = "74703eaf221a9eefee0412956832b42fe575535a4ea852a4d7a32a24b7a81877"
 [[files]]
 file = "kubejs/assets/create/textures/item/copper_sheet.png"
 hash = "3a64774b4318910e29f5cdab49b34290352aed3a55aa67d5b8ff70b2adeaabb1"
+
+[[files]]
+file = "kubejs/assets/createaddition/textures/items/brass_rod.png"
+hash = "c5b9ab51e9ce17dd4a42396bfcc571153b71863963cebe742ba9fe234d08da5c"
+
+[[files]]
+file = "kubejs/assets/createaddition/textures/items/bronze_rod.png"
+hash = "0d34fe52b981426b8e90f744d1a8fc8512e7fa8f7f107cca20cfd60e7d7b159c"
+
+[[files]]
+file = "kubejs/assets/createaddition/textures/items/copper_rod.png"
+hash = "4575cc651e73b66f9a64c5a6e9eab4f98b47016195612a8ad8e6cdd6d222197c"
+
+[[files]]
+file = "kubejs/assets/createaddition/textures/items/gold_rod.png"
+hash = "445f54da72be6aa3ec3a0851850f57a3d8ae70fd29f1930b01d764758f56c75f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/gear/iron_gear.png"
@@ -474,7 +490,11 @@ hash = "7a8f1b530ff06ea62b606c32120cde6923f317d19883986390c2cad1a6d6a54b"
 
 [[files]]
 file = "kubejs/server_scripts/new-items/materials.js"
-hash = "a5b8942eb514bdd2e2a45612bd0ec8e4d8dc665240b8f1c4da5b8b63d091f6a2"
+hash = "008b5d26ddd389e0431522c0f9d21485b46a69865a6bc8dbe3ae65044db1646e"
+
+[[files]]
+file = "kubejs/server_scripts/quality-of-life/recipes.js"
+hash = "9330038df3ac2bf4eebf150bb792744f50aa839fc755cbc3e5070785f45b1814"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
@@ -514,7 +534,7 @@ hash = "2c1816dda0f24ad7c03be98773543865a1d5d8c52db79c559c72eb7b937622d9"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/assault-rifles.js"
-hash = "c0407f458d42cdef35b0091bb7c193146749c6b6b4e67d2750b00aeeb5afe52d"
+hash = "6f4e7e57f347a0333e106051a2bc5cb9a7b3d3bab917e4a98126b24ccb3d6242"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/battle-rifles.js"
@@ -546,7 +566,7 @@ hash = "850f6bbb4c2665df735f548b3e11a645b8befc899d1bbbbb164ff56e1b249c0c"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/sub-machine-guns.js"
-hash = "d9b982ba3a0cc9c1486bf124a060852912c1aa2a099ff7397c177b36df80cfd8"
+hash = "020b9f225e3bdfc2639c99631ca4d7db34575423d0f9556b67cd18b6a73c2b94"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/trapdoor-rifle.js"
@@ -554,7 +574,7 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "7d7c1f7aaaa2d38a5e6df1224c15df80a01942128128a5c2d85c2ed05086ba8f"
+hash = "158d3908135c0d62fab38f6860ea52dff2bca007c4d1ba0a3e80100d33b01812"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
@@ -570,7 +590,7 @@ hash = "6279549b50b16c7997863e533e46f791264be4ed48b842140240a8c551720317"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "846a7a53f3fce00016635e76c1747b1e3334fc7f8e913eb45d969ab32613e8bb"
+hash = "cd14ef7093a154038d7a0da59b81d7cdceef4f404c0b629de4a57e3959198494"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

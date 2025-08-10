@@ -12,16 +12,10 @@ ServerEvents.tags('item', event => {
 });
 
 ServerEvents.recipes(event => {
-	event.recipes.create.milling(global.tag.M('sheets/iron'), item.of(global.tag.M('rods/iron'), 2));
-	event.recipes.create.milling(global.tag.M('sheets/compressed_iron'), item.of(global.tag.M('rods/compressed_iron'), 2));
-	event.recipes.create.milling(global.tag.M('sheets/steel'), item.of(global.tag.M('rods/steel'), 2));
-	event.recipes.create.milling(global.tag.M('sheets/ostrum'), item.of(global.id.KJ('ostrum_rod'), 2));
-	event.recipes.create.milling(global.tag.M('sheets/desh'), item.of(global.id.KJ('desh_rod'), 2));
-	event.recipes.create.milling(global.tag.M('sheets/calorite'), item.of(global.id.KJ('calorite_rod'), 2));
-	
+
 	//Compressed Steel Plate Recipe
 	
-	event.recipes.create.pressing(global.tag.M('ingots/compressed_iron'), global.tag.M('sheets/compressed_iron'));
+	event.recipes.create.pressing(global.tag.M('plates/compressed_iron'), global.tag.M('ingots/compressed_iron'));
   
 	//Steel Gear Recipe
   
