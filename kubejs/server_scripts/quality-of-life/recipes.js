@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
 			'D D'
 		],
 		{
-			I: global.tag.M('gems/diamond')
+			D: global.tag.M('gems/diamond')
 		}
 	);
 });
