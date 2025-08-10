@@ -1,16 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/PillagersGun-common.toml"
-hash = "4f92daae9c8697ac32a27fb28f82324788d6996f22f66a6f1eae68838d643af8"
-
-[[files]]
 file = "config/alexsmobs.toml"
 hash = "2899a22626cd1131584b56a6af8524c049df73fe1b7010746b144068cce076fb"
 
 [[files]]
 file = "config/almostunified/unify.json"
 hash = "f755f9ff4778ff5e7d7ae725161ee23ecee28b8d7db5b782b573e3e09a668b5f"
+
+[[files]]
+file = "config/blockswap/block_swap.json5"
+hash = "1da844a4138263513a175a6761b54b0765d0f253b8bc92de07a7b40599b5fe9c"
 
 [[files]]
 file = "config/chalk-common.toml"
@@ -639,6 +639,11 @@ hash = "ebbde8e5cd1fc05113f61fb32d98277292474aef5a2cb6892e3b263c9130002d"
 metafile = true
 
 [[files]]
+file = "mods/block-swap.pw.toml"
+hash = "1d093db0add8486b407b1323d2add62c1710469922722ec2531f78ef667ec259"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "790de162313fcbe950496580db107eb8da2ae29060cbf611764d1bb352461d03"
 metafile = true
@@ -676,11 +681,6 @@ metafile = true
 [[files]]
 file = "mods/citadel.pw.toml"
 hash = "0c8838dba7d2090968ca9ec633260d42ca16f1df186a780bd5965994541d9f74"
-metafile = true
-
-[[files]]
-file = "mods/clayworks.pw.toml"
-hash = "fa8421392e4c113284951d22e1a931a7cbf43bfaa8be9645b7cf648626727b59"
 metafile = true
 
 [[files]]
@@ -889,11 +889,6 @@ hash = "5ef78421a13ef39b9708f37997d797fa9ae70bdbb5da14b6356299f9cd33a2c4"
 metafile = true
 
 [[files]]
-file = "mods/in-control.pw.toml"
-hash = "cd0eccae2401b54d1e36fbdc3ae19ec7c51e5b7004e2a19cb4d17922f14735fe"
-metafile = true
-
-[[files]]
 file = "mods/incubation.pw.toml"
 hash = "0369534c917c40abad906a7087198ec286f543860a38b68453111a80ca755e2a"
 metafile = true
@@ -981,11 +976,6 @@ metafile = true
 [[files]]
 file = "mods/personality.pw.toml"
 hash = "e6bb4fed1cbfd16fc6c08655f39c3b1098010203dfc893b59dbc63306ad65996"
-metafile = true
-
-[[files]]
-file = "mods/pillagers-gun.pw.toml"
-hash = "306619362cd9ef947ba29e06cf4e0793995c8b73a7e03ea6f55195d669369b0a"
 metafile = true
 
 [[files]]
