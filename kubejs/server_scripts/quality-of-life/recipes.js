@@ -13,6 +13,9 @@ ServerEvents.recipes(event => {
 			L: global.tag.M('leather'),
 			I: global.tag.M('ingots/iron')
 		}
+	);
+	
+	event.shaped(
 	
 		//Iron Horse Armor Recipe
 		
@@ -25,7 +28,10 @@ ServerEvents.recipes(event => {
 		{
 			I: global.tag.M('ingots/iron')
 		}
-		
+	);
+	
+	event.shaped(
+	
 		//Gold Horse Armor Recipe
 		
 		Item.of('minecraft:golden_horse_armor'),
@@ -37,7 +43,10 @@ ServerEvents.recipes(event => {
 		{
 			G: global.tag.M('ingots/gold')
 		}
-		
+	);
+	
+	event.shaped(
+	
 		//Diamond Horse Armor Recipe
 		
 		Item.of('minecraft:diamond_horse_armor'),
@@ -49,5 +58,5 @@ ServerEvents.recipes(event => {
 		{
 			I: global.tag.M('gems/diamond')
 		}
-	)
-})
+	);
+});
