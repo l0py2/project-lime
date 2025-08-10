@@ -619,11 +619,6 @@ hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
-file = "mods/art-of-forging-a-tetra-addon.pw.toml"
-hash = "e7a896b4567d9d51f6efeac1c1aa0c81416c00dc858fa07105764d0304f3c774"
-metafile = true
-
-[[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "1b912abaf6db8c9107e2de1b891c0900aa9db637b90e926dcdee9688e6f49b32"
 metafile = true
@@ -686,11 +681,6 @@ metafile = true
 [[files]]
 file = "mods/clayworks.pw.toml"
 hash = "fa8421392e4c113284951d22e1a931a7cbf43bfaa8be9645b7cf648626727b59"
-metafile = true
-
-[[files]]
-file = "mods/cobweb.pw.toml"
-hash = "bc5bde51620622b9f415bcc3dfea4dca5bd17171383cf4290e1075b7352adbe0"
 metafile = true
 
 [[files]]
@@ -1051,11 +1041,6 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "5f29baf659705d42c6f3a7b1f6bdb227c9474d20577aeaf72e5763a288ab67a4"
-metafile = true
-
-[[files]]
-file = "mods/soul-fire-d.pw.toml"
-hash = "e57e859ea89936329910a05213e4f93e9972bc8c3a767bea031a34041274f72d"
 metafile = true
 
 [[files]]
