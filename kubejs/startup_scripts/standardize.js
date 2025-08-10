@@ -6,7 +6,9 @@ global.removedItems = [
 	global.id.FD('rope'),
 	global.id.FD('wheat_dough'),
 	global.id.PC('sourdough'),
-	global.id.PC('wheat_flour')
+	global.id.PC('wheat_flour'),
+	global.id.CA('iron_rod'),
+	global.id.AA('iron_plate')
 ];
 
 global.removedRecipeTypes = [
@@ -21,7 +23,8 @@ global.removedRecipes = [
 	global.id.FD('wheat_dough'),
 	global.id.MC('bread'),
 	global.id.PC('explosion_crafting/wheat_flour'),
-	global.id.PC('pressure_chamber/wheat_flour')
+	global.id.PC('pressure_chamber/wheat_flour'),
+	global.id.CR('industrial_iron_block_from_ingots_iron_stonecutting')
 ];
 
 global.inputReplacements = new Map([
