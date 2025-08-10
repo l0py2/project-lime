@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/steel')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.id.CR('precision_mechanism')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/desh')]),
-			event.recipes.createDeploying(incomplete, [incomplete, global.id.KJ('incomplete_scope_retro_2x')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.id.KJ('incomplete_scope_aug_default')]),
 			event.recipes.createFilling(incomplete, [incomplete,  Fluid.of(global.id.PC('plastic'), FluidAmounts.BOTTLE)]),
 			event.recipes.createPressing(incomplete, incomplete)
 		]

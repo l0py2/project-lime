@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('rods/steel')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.id.CR('precision_mechanism')]),
 			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/steel')]),
-			event.recipes.createDeploying(incomplete, [incomplete, global.tag.M('plates/steel')]),
+			event.recipes.createDeploying(incomplete, [incomplete, global.tag.KJ('incomplete_sight_p90')]),
 			event.recipes.createFilling(incomplete, [incomplete,  Fluid.of(global.id.PC('plastic'), FluidAmounts.BOTTLE)]),
 			event.recipes.createPressing(incomplete, incomplete)
 		]
