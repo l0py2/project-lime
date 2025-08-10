@@ -12,7 +12,33 @@ ServerEvents.tags('item', event => {
 });
 
 ServerEvents.recipes(event => {
-  event.recipes.create.milling(global.tag.M('sheets/iron'), item.of(global.tag.M('rods/iron'), 2))
-  event.recipes.create.milling(global.tag.M('sheets/compressed_iron'), item.of(global.tag.M('rods/compressed_iron'), 2))
-  event.recipes.create.milling(global.tag.M('sheets/steel'), item.of(global.tag.M('rods/steel'), 2))
+	event.recipes.create.milling(global.tag.M('sheets/iron'), item.of(global.tag.M('rods/iron'), 2))
+	event.recipes.create.milling(global.tag.M('sheets/compressed_iron'), item.of(global.tag.M('rods/compressed_iron'), 2))
+	event.recipes.create.milling(global.tag.M('sheets/steel'), item.of(global.tag.M('rods/steel'), 2))
+  
+	event.shaped(
+		Item.of('kubejs:steel_gear'),
+		[
+			' S ',
+			'SIS',
+			' S '
+		],
+		{
+			I: global.tag.M('ingots/iron'),
+			S: global.tag.M('ingots/steel')
+		}
+	)
+
+	event.shaped(
+		Item.of('kubejs:iron_gear'),
+		[
+			' I ',
+			'I I',
+			' I '
+		],
+		{
+			I: global.tag.M('ingots/iron')
+		}
+		)
 })
+
