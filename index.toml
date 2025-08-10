@@ -501,6 +501,10 @@ file = "kubejs/server_scripts/tacz/attachements/muzzle-devices.js"
 hash = "21ce174cbadbee1c3190e288b3cf6ac0f474fbd8829745e0d58acae3b63e8396"
 
 [[files]]
+file = "kubejs/server_scripts/tacz/attachements/sights.js"
+hash = "fabce36f5ac5bd3e5898c187cd6e257cc10c28a11e818a9aeadf2c46afb209bd"
+
+[[files]]
 file = "kubejs/server_scripts/tacz/attachements/stocks.js"
 hash = "52872badc26ddeb3d731af3c2e6f53ad0f971c098f31aad10e5a6f29d3557c2e"
 
