@@ -15,5 +15,14 @@ global.recipes = {
 		}
 
 		return itemObject;
+	},
+	CA: {
+		rolling: (input, output) => {
+			return {
+				type: global.id.CA('rolling'),
+				input: input,
+				result: output
+			};
+		}
 	}
 }

@@ -28,7 +28,9 @@ global.removedRecipes = [
 	global.id.MC('bread'),
 	global.id.PC('explosion_crafting/wheat_flour'),
 	global.id.PC('pressure_chamber/wheat_flour'),
-	global.id.CR('industrial_iron_block_from_ingots_iron_stonecutting')
+	global.id.CR('industrial_iron_block_from_ingots_iron_stonecutting'),
+	global.id.AA('iron_rod'),
+	global.id.AA('steel_rod')
 ];
 
 global.inputReplacements = new Map([

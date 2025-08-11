@@ -493,8 +493,8 @@ file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
 hash = "7a8f1b530ff06ea62b606c32120cde6923f317d19883986390c2cad1a6d6a54b"
 
 [[files]]
-file = "kubejs/server_scripts/new-items/materials.js"
-hash = "f44e6060103b455de3f53470882d016747e429e8b6350c2ce6520766d49a612f"
+file = "kubejs/server_scripts/materials.js"
+hash = "038771b535cc648e23b1a9cfa0a617b2e22438f22a67c78412790e00ca0b74b5"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
@@ -590,11 +590,11 @@ hash = "dab37e167863222920a32e34445c350751c9abf326921356f1e4884b75b88e23"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
-hash = "6279549b50b16c7997863e533e46f791264be4ed48b842140240a8c551720317"
+hash = "698d5df329ed3ccc67af6ce7bf040fac7e13e11ac5081b3c18621d568fc6c29e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "7dc0061b1d3410c1f8a0a3cbf7840c468b94e8ce2636fbea7b464e40073505be"
+hash = "00b7f67a91fca2651cd73fc741fc15e5a24ca35ba2be2cc55812216176dc0d3b"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
