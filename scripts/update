@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd ..
+
 packwiz refresh
 
 KUBEJS_DIR="$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Project Lime/minecraft/kubejs"

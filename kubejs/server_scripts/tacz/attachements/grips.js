@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_td"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_td"}'),
 		[
 			' A ',
 			'ABC',
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_se_5"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_se_5"}'),
 		[
 			' A ',
 			'ABC',
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_rk1_b25u"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_rk1_b25u"}'),
 		[
 			'CBC',
 			'ABA',
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_vertical_ranger"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_vertical_ranger"}'),
 		[
 			'DAC',
 			'ABA',
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_vertical_military"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_vertical_military"}'),
 		[
 			'ACA',
 			'ABA',
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_vertical_talon"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_vertical_talon"}'),
 		[
 			' C ',
 			'ABA',
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_osovets_black"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_osovets_black"}'),
 		[
 			' C ',
 			'ABA',
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_rk0"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_rk0"}'),
 		[
 			' AC',
 			'ABA',
@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_magpul_afg_2"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_magpul_afg_2"}'),
 		[
 			'ABB',
 			'CAA'
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_rk6"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_rk6"}'),
 		[
 			'AB',
 			'CA'
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:grip_cobra"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:grip_cobra"}'),
 		[
 			'ABB',
 			'AAA',

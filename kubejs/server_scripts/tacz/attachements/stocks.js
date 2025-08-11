@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_ripstock"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_ripstock"}'),
 		[
 			'AAB',
 			' CB',
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_m4ss"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_m4ss"}'),
 		[
 			'AAB',
 			'BCB',
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_militech_b5"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_militech_b5"}'),
 		[
 			'AAB',
 			'BCB'
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_hk_slim_line"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_hk_slim_line"}'),
 		[
 			'AAB',
 			' BB',
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_tactical_ar"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_tactical_ar"}'),
 		[
 			'AAB',
 			'CAB'
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_sba3"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_sba3"}'),
 		[
 			'AAB',
 			' CB'
@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_moe"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_moe"}'),
 		[
 			'AAB',
 			'BBB',
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_carbon_bone_c5"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_carbon_bone_c5"}'),
 		[
 			'AAB',
 			' CB',
@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:stock_ak12"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:stock_ak12"}'),
 		[
 			'AAB',
 			' BB'
@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:oem_stock_heavy"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:oem_stock_heavy"}'),
 		[
 			'AAB',
 			'CBB'
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:oem_stock_light"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:oem_stock_light"}'),
 		[
 			'AAB',
 			'C B'
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:oem_stock_tactical"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:oem_stock_tactical"}'),
 		[
 			'BAA',
 			' BB'

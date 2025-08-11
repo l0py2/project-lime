@@ -61,19 +61,23 @@ file = "kubejs/assets/create/textures/item/copper_sheet.png"
 hash = "3a64774b4318910e29f5cdab49b34290352aed3a55aa67d5b8ff70b2adeaabb1"
 
 [[files]]
-file = "kubejs/assets/createaddition/textures/items/brass_rod.png"
+file = "kubejs/assets/createaddition/textures/item/brass_rod.png"
 hash = "c5b9ab51e9ce17dd4a42396bfcc571153b71863963cebe742ba9fe234d08da5c"
 
 [[files]]
-file = "kubejs/assets/createaddition/textures/items/bronze_rod.png"
+file = "kubejs/assets/createaddition/textures/item/bronze_rod.png"
 hash = "0d34fe52b981426b8e90f744d1a8fc8512e7fa8f7f107cca20cfd60e7d7b159c"
 
 [[files]]
-file = "kubejs/assets/createaddition/textures/items/copper_rod.png"
+file = "kubejs/assets/createaddition/textures/item/copper_rod.png"
 hash = "4575cc651e73b66f9a64c5a6e9eab4f98b47016195612a8ad8e6cdd6d222197c"
 
 [[files]]
-file = "kubejs/assets/createaddition/textures/items/gold_rod.png"
+file = "kubejs/assets/createaddition/textures/item/electrum_rod.png"
+hash = "ab508d3d155c50a19e1cc0eed63d23ccd05364b490be8f0306af62646ffa228c"
+
+[[files]]
+file = "kubejs/assets/createaddition/textures/item/gold_rod.png"
 hash = "445f54da72be6aa3ec3a0851850f57a3d8ae70fd29f1930b01d764758f56c75f"
 
 [[files]]
@@ -490,11 +494,11 @@ hash = "7a8f1b530ff06ea62b606c32120cde6923f317d19883986390c2cad1a6d6a54b"
 
 [[files]]
 file = "kubejs/server_scripts/new-items/materials.js"
-hash = "008b5d26ddd389e0431522c0f9d21485b46a69865a6bc8dbe3ae65044db1646e"
+hash = "f44e6060103b455de3f53470882d016747e429e8b6350c2ce6520766d49a612f"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
-hash = "9330038df3ac2bf4eebf150bb792744f50aa839fc755cbc3e5070785f45b1814"
+hash = "50e500686e37c898e0e6965c92f7763546ebbb9e85cdbb973445bde8492329d8"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
@@ -506,27 +510,27 @@ hash = "dce02f76d61ea22bb7db7ca7c279b79a089a146422cc47c2ca22905ecaf81e8e"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/attachements/grips.js"
-hash = "13968ad69bff69262399354ebfd9078da723c193cec816dc115e6659fb006699"
+hash = "f21d72aaf03101b4266db237eb80a0bce5008fd3c227e3a75db6309f4a428e2d"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/attachements/lasers.js"
-hash = "87d1da25295d739322a9ae20ea84a58f61bbed99dcd8e441013d2f77cbfa5deb"
+hash = "59c9cf064f2012046b3bb19ea8a0e6ed38e3fa408b516e2e3fde1c94a2186eb9"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/attachements/magazine.js"
-hash = "65701427a9050cd97d374ac0eb77d5503fa4390c967f5b67cc61f9270692eaef"
+hash = "46ba5f07b458a3381203bd2f5f056929f148f4446dcd2a6b71ea9531e31d96c1"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/attachements/muzzle-devices.js"
-hash = "21ce174cbadbee1c3190e288b3cf6ac0f474fbd8829745e0d58acae3b63e8396"
+hash = "18d00406cd4275c77fa53a8e4c69a3b9d20e4cc6e8e1c40347728a4797eb2de8"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/attachements/sights.js"
-hash = "fabce36f5ac5bd3e5898c187cd6e257cc10c28a11e818a9aeadf2c46afb209bd"
+hash = "90b1bfd643e542247f67cd0445666bb059d6c246a5e92f2bbd21956616941e6c"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/attachements/stocks.js"
-hash = "52872badc26ddeb3d731af3c2e6f53ad0f971c098f31aad10e5a6f29d3557c2e"
+hash = "2a1b129f80545a249d3c95ae078aa33af644df1ef45bf1b7524e4fdb116cfc8d"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/grenades.js"
@@ -538,15 +542,15 @@ hash = "6f4e7e57f347a0333e106051a2bc5cb9a7b3d3bab917e4a98126b24ccb3d6242"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/battle-rifles.js"
-hash = "c26961d0490aad8c3a6e4e0ab4035ce15115f3cd8ef0ea3d0f1f0fd0ac7a0792"
+hash = "464afb7c1c0e20bbf1a631211708591d113dae90f728816329979c62aedf49b3"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/heavy-weapons.js"
-hash = "203646d97300f75f1d098145c6665fcb2a565969e69b313b890d0331341fcd0c"
+hash = "55da652f1a22fe504d7da92066918e731d003c4e630ac5670af39b83ed5d374b"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/marksman-rifles.js"
-hash = "3c298a1f027d803c23518a831d0321203a4ffe9ade7571e9d61ae96d446d84ef"
+hash = "12f1d229d5a66ce0fe1e8481c6bf4a49eaa0d01cf62b16ee29f425a0468b773a"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/melees.js"

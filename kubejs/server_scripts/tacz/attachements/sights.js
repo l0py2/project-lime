@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
 	event.stonecutting(global.id.KJ('incomplete_sight_p90'), global.tag.M('gems/amethyst'));
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:scope_1873_6x"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:scope_1873_6x"}'),
 		[
 			'AAA',
 			'BCC',
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
 
 	function level3Sight(sightName) {
 		event.recipes.create.mechanical_crafting(
-			Item.of('tacz:attachment', `{AttachmentId:"tacz:${sightName}"}`),
+			Item.of(global.id.TZ('attachment'), `{AttachmentId:"tacz:${sightName}"}`),
 			[
 				' BBBB',
 				' CDDD',
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
 
 	function level2Sight(sightName) {
 		event.recipes.create.mechanical_crafting(
-			Item.of('tacz:attachment', `{AttachmentId:"tacz:${sightName}"}`),
+			Item.of(global.id.TZ('attachment'), `{AttachmentId:"tacz:${sightName}"}`),
 			[
 				' BBB',
 				' CDD',
@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
 
 	function level1Sight(sightName) {
 		event.recipes.create.mechanical_crafting(
-			Item.of('tacz:attachment', `{AttachmentId:"tacz:${sightName}"}`),
+			Item.of(global.id.TZ('attachment'), `{AttachmentId:"tacz:${sightName}"}`),
 			[
 				' BB',
 				' CD',

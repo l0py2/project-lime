@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_silencer_ursus"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_silencer_ursus"}'),
 		[
 			'AA',
 			'BC',
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:deagle_golden_long_barrel"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:deagle_golden_long_barrel"}'),
 		[
 			'A',
 			'B',
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_silencer_knight_qd"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_silencer_knight_qd"}'),
 		[
 			'A ',
 			'BC',
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_silencer_vulture"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_silencer_vulture"}'),
 		[
 			'AAA',
 			'CBC',
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_compensator_trident"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_compensator_trident"}'),
 		[
 			'A ',
 			'BC',
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:bayonet_6h3"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:bayonet_6h3"}'),
 		[
 			'ABC'
 		],
@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_silencer_mirage"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_silencer_mirage"}'),
 		[
 			'A',
 			'B',
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_brake_trex"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_brake_trex"}'),
 		[
 			'AC',
 			'CB',
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_brake_cyclone_d2"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_brake_cyclone_d2"}'),
 		[
 			'AC',
 			' B',
@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_brake_pioneer"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_brake_pioneer"}'),
 		[
 			' C',
 			'AB',
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_brake_timeless50"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_brake_timeless50"}'),
 		[
 			'A',
 			'B',
@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_brake_cthulhu"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_brake_cthulhu"}'),
 		[
 			'CAC',
 			' B ',
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:bayonet_m9"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:bayonet_m9"}'),
 		[
 			'ABC'
 		],
@@ -175,7 +175,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_silencer_ptilopsis"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_silencer_ptilopsis"}'),
 		[
 			'A ',
 			'BC',
@@ -189,7 +189,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:muzzle_silencer_phantom_s1"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:muzzle_silencer_phantom_s1"}'),
 		[
 			'A ',
 			'BC',

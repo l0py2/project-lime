@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_spr15hb');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:spr15hb",HasBulletInBarrel:1b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:spr15hb",HasBulletInBarrel:1b}')
 		],
 		incomplete,
 		[
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_sks_tactical');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:sks_tactical",HasBulletInBarrel:1b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:sks_tactical",HasBulletInBarrel:1b}')
 		],
 		incomplete,
 		[

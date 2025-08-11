@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:laser_nightstick"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:laser_nightstick"}'),
 		[
 			'ABA',
 			'CDC',
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:laser_compact"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:laser_compact"}'),
 		[
 			'ABA',
 			'CDC',
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
 	);
 
 	event.recipes.create.mechanical_crafting(
-		Item.of('tacz:attachment', '{AttachmentId:"tacz:laser_lopro"}'),
+		Item.of(global.id.TZ('attachment'), '{AttachmentId:"tacz:laser_lopro"}'),
 		[
 			'ABC',
 			'DED',

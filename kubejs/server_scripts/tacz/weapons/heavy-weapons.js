@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_rpg7');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:rpg7",HasBulletInBarrel:1b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:rpg7",HasBulletInBarrel:1b}')
 		],
 		incomplete,
 		[
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_m320');
 	event.recipes.create.sequenced_assembly(
 		[
-		Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m320",HasBulletInBarrel:1b}')
+		Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"SEMI",GunId:"tacz:m320",HasBulletInBarrel:1b}')
 		],
 		incomplete,
 		[
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_rpk');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"AUTO",GunId:"tacz:rpk",HasBulletInBarrel:1b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"AUTO",GunId:"tacz:rpk",HasBulletInBarrel:1b}')
 		],
 		incomplete,
 		[
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_m249');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"AUTO",GunId:"tacz:m249",HasBulletInBarrel:1b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"AUTO",GunId:"tacz:m249",HasBulletInBarrel:1b}')
 		],
 		incomplete,
 		[
@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
 	incomplete = global.id.KJ('incomplete_minigun');
 	event.recipes.create.sequenced_assembly(
 		[
-			Item.of('tacz:modern_kinetic_gun', '{GunCurrentAmmoCount:0,GunFireMode:"AUTO",GunId:"tacz:minigun",HasBulletInBarrel:1b}')
+			Item.of(global.id.TZ('modern_kinetic_gun'), '{GunCurrentAmmoCount:0,GunFireMode:"AUTO",GunId:"tacz:minigun",HasBulletInBarrel:1b}')
 		],
 		incomplete,
 		[
