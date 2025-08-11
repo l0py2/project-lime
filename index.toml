@@ -633,7 +633,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "85dae3ab07607422f12127a83c5b3e7878bd6a1382ec5b5686eba3bbd76315fb"
+hash = "cee46747f723df3b222ac856f00a94ef532986ea54aafc88eaa2dce1557aa27f"
 metafile = true
 
 [[files]]
@@ -1134,4 +1134,9 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-new-age-retexture.pw.toml"
+hash = "80f1c18e13daa8c790b20dc66069bcba3b6b9054329b9b0e6445ef02664fa004"
 metafile = true
