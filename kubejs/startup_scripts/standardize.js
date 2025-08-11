@@ -8,7 +8,11 @@ global.removedItems = [
 	global.id.PC('sourdough'),
 	global.id.PC('wheat_flour'),
 	global.id.CA('iron_rod'),
-	global.id.AA('iron_plate')
+	global.id.AA('iron_plate'),
+	global.id.TZ('gun_smith_table'),
+	global.id.TZ('workbench_c'),
+	global.id.TZ('workbench_b'),
+	global.id.TZ('workbench_a')
 ];
 
 global.removedRecipeTypes = [
