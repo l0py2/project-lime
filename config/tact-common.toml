@@ -1,0 +1,6 @@
+#----------------------------------
+#
+# Whether to revert the End Story back to its original form when beating Minecraft.
+# Alex's Caves replaces this story with their own. This config puts it back to normal if enabled.
+#
+restoreEndStory = true
