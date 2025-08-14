@@ -4,7 +4,9 @@ cd ..
 
 packwiz refresh
 
-KUBEJS_DIR="$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Project Lime/minecraft/kubejs"
+MINECRAFT_DIR="$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Project Lime/minecraft"
+KUBEJS_DIR="$MINECRAFT_DIR/kubejs"
 
 rm -rf "$KUBEJS_DIR"
 cp -r ./kubejs "$KUBEJS_DIR"
+cp ./config/item_obliterator.json5 "$MINECRAFT_DIR/config/item_obliterator.json5"

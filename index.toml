@@ -29,6 +29,10 @@ file = "config/guardvillagers-common.toml"
 hash = "d048807b75deee250257983dc35c00fb8571847ee294b5f402a5c9a1a9b6acb6"
 
 [[files]]
+file = "config/item_obliterator.json5"
+hash = "3dc9ff7becc645b935537f58c4d52014bf9789139c6d69d6ce1a2b3da991460c"
+
+[[files]]
 file = "config/openloader/data/project-lime-advancements/pack.mcmeta"
 hash = "4669da9df5f6dbbedd884d280fbe0a24322e214362fe96e5d4270a830f9018a7"
 
@@ -996,6 +1000,11 @@ hash = "7c993c8854fa4a7510e886ada88f3070ccdfcf4ca199dda558a4f6b0318f0132"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "07fc40541ee106402ce9eb26888d7d078e5fd28cd01a00cbc04dd57839c6aeeb"
+metafile = true
+
+[[files]]
 file = "mods/jade-addons.pw.toml"
 hash = "140a929fda55621de5a03378f7478f587e0a1e912a3e46815fa7305070d2c71c"
 metafile = true
@@ -1048,6 +1057,11 @@ metafile = true
 [[files]]
 file = "mods/mutil.pw.toml"
 hash = "6161befd655a400fb4a07d8702b62c3f24f828d5ee6336c3dcacd6bcaff78fc1"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "318a137293d0919ddeb5e25c3facd5bc83de60366ac6cd5707d28ee650330f62"
 metafile = true
 
 [[files]]
