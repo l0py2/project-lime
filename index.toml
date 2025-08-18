@@ -701,7 +701,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "cee46747f723df3b222ac856f00a94ef532986ea54aafc88eaa2dce1557aa27f"
+hash = "e0c17015fa2f3bdbf2fc29a26386ed304de91f7f4bad4cfb709a367b4184989e"
 metafile = true
 
 [[files]]
@@ -801,7 +801,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "ecb38d3ef28fa3ffe3d368f59e789da9529fce4b43efa266f779000b40c6c88e"
+hash = "3642843372cb6cbd10e85086c328f0a77941e16fdc7d135e08265912fcd84a6c"
 metafile = true
 
 [[files]]
@@ -931,7 +931,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "114db2f6e473ccfe94eebf0111b5304445cbfd0a1a20f916ecbee35beb0045fa"
+hash = "fc851e8513d8bf0b44db131a8eb543cec69336bae04ef61579fed663f59e09e2"
 metafile = true
 
 [[files]]
@@ -966,7 +966,7 @@ metafile = true
 
 [[files]]
 file = "mods/geophilic.pw.toml"
-hash = "eed66cb6cda1b41031cf42b4fd1d5907a136eb54de48bbcbbbbb8c28dc648aed"
+hash = "9bb4e8f02a494e0591d2ce23e7bef04f78b536ed228a9235a60fdf4ed15da02d"
 metafile = true
 
 [[files]]
@@ -1131,17 +1131,17 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "4a5d3ec8e5ff7bfb67e3a8dd95e421504fd0daa271979648a785fba7c073c674"
+hash = "a613623e8da061f5bd864c0b8d73788a587aaaab2947a2b7e79ff423c698e2a3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "b1c0df2dd2700ca4ae9750530c059d8eff7a0a1568cf5f88ebf88a859b3df565"
+hash = "211c3a72fb3085e2356214da945bbe46c0dd045a6e27929b5c162ba58bc40962"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5f29baf659705d42c6f3a7b1f6bdb227c9474d20577aeaf72e5763a288ab67a4"
+hash = "c926446d83c568b4863f6bd15a4e022c5247739a0afa9a4fd49856c2f254f8a6"
 metafile = true
 
 [[files]]
@@ -1151,7 +1151,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "b6e96f4d009b04c0bc19a0093645db8087347927c41ae526dd3508f8ff44da10"
+hash = "64e8143e1b158f1eb3ead424853951af3b9db0907a8e5b47da61048943038b29"
 metafile = true
 
 [[files]]

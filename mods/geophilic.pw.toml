@@ -1,13 +1,13 @@
 name = "Geophilic – Vanilla Biome Overhauls"
-filename = "Geophilic v3.4.2 f15-80.mod.jar"
+filename = "Geophilic v3.4.3 f15-80.mod.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ce2a105c9de82726e0d04b446695882f6dafde38"
+hash = "3b2d0095722ec606d77c5d723629acdd8bac0610"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6662167
+file-id = 6897930
 project-id = 711216
