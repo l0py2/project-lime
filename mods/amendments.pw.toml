@@ -1,13 +1,13 @@
 name = "Amendments"
-filename = "amendments-1.20-2.1.2.jar"
+filename = "amendments-1.20-2.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c0123ad617c57bf046c320272c0200d55211b790"
+hash = "fe3e9ccd53ae05f10f8fc720f9235ee01f505987"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6888943
+file-id = 6902659
 project-id = 896746

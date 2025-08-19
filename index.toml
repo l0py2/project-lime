@@ -701,7 +701,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "e0c17015fa2f3bdbf2fc29a26386ed304de91f7f4bad4cfb709a367b4184989e"
+hash = "5066223747bb701831e22f5831f367a54beb92878fb34cf85c9376bccd66996b"
 metafile = true
 
 [[files]]
@@ -866,7 +866,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "9fd99767788ac2057a81fc222cfc5d21930ea23698be8fad70899f21c6c54d4e"
+hash = "3e0fdd1d033fabe1be9660e05ad03ca19a7defdded1b6b4244d89d55fe50aec1"
 metafile = true
 
 [[files]]
@@ -1131,7 +1131,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "a613623e8da061f5bd864c0b8d73788a587aaaab2947a2b7e79ff423c698e2a3"
+hash = "6e1f95fef4a876674734edd52608618ca5ab56db07d02e800486acddf2acf0d1"
 metafile = true
 
 [[files]]
