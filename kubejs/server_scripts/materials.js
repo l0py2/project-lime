@@ -54,32 +54,32 @@ ServerEvents.recipes(event => {
 	);
 
 	event.custom(global.recipes.CA.rolling(
-		global.recipes.itemWithCount(global.tag.M('ingots/compressed_iron'), 1),
-		global.recipes.itemWithCount(global.id.KJ('compressed_iron_rod'), 2)
+		Item.of(global.tag.M('ingots/compressed_iron'), 1),
+		Item.of(global.id.KJ('compressed_iron_rod'), 2)
 	));
 
 	event.custom(global.recipes.CA.rolling(
-		global.recipes.itemWithCount(global.tag.M('ingots/calorite'), 1),
-		global.recipes.itemWithCount(global.id.KJ('calorite_rod'), 2)
+		Item.of(global.tag.M('ingots/calorite'), 1),
+		Item.of(global.id.KJ('calorite_rod'), 2)
 	));
 
 	event.custom(global.recipes.CA.rolling(
-		global.recipes.itemWithCount(global.tag.M('ingots/desh'), 1),
-		global.recipes.itemWithCount(global.id.KJ('desh_rod'), 2)
+		Item.of(global.tag.M('ingots/desh'), 1),
+		Item.of(global.id.KJ('desh_rod'), 2)
 	));
 
 	event.custom(global.recipes.CA.rolling(
-		global.recipes.itemWithCount(global.tag.M('ingots/ostrum'), 1),
-		global.recipes.itemWithCount(global.id.KJ('ostrum_rod'), 2)
+		Item.of(global.tag.M('ingots/ostrum'), 1),
+		Item.of(global.id.KJ('ostrum_rod'), 2)
 	));
 
 	event.custom(global.recipes.CA.rolling(
-		global.recipes.itemWithCount(global.tag.M('ingots/steel'), 1),
-		global.recipes.itemWithCount(global.id.AA('steel_rod'), 2)
+		Item.of(global.tag.M('ingots/steel'), 1),
+		Item.of(global.id.AA('steel_rod'), 2)
 	));
 
 	event.custom(global.recipes.CA.rolling(
-		global.recipes.itemWithCount(global.tag.M('ingots/iron'), 1),
-		global.recipes.itemWithCount(global.id.AA('iron_rod'), 2)
+		Item.of(global.tag.M('ingots/iron'), 1),
+		Item.of(global.id.AA('iron_rod'), 2)
 	));
 });

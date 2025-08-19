@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
 		'SSS'
 	], {
 		S: global.tag.M('plates/compressed_iron'),
-		B: global.tag.M('stone_buttons'),
+		B: global.tag.MC('stone_buttons'),
 		P: global.id.MC('gunpowder')
 	});
 

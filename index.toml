@@ -89,6 +89,10 @@ file = "kubejs/assets/createaddition/textures/item/gold_rod.png"
 hash = "445f54da72be6aa3ec3a0851850f57a3d8ae70fd29f1930b01d764758f56c75f"
 
 [[files]]
+file = "kubejs/assets/immersiveengineering/sounds/dire_switch.ogg"
+hash = "808c26859196e4f66d6676db9998fd9ab040d70f66a3879d64c8ae5d56a6177a"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/gear/iron_gear.png"
 hash = "4adef4d14446d839935bb294a43d20fe5bec562d9d850c55ad4812f7181865b5"
 
@@ -562,7 +566,7 @@ hash = "0ccd3b184f0ffa19e0e35fcb283432e5d1b6f97a698da332e87df0ae4d95c500"
 
 [[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "038771b535cc648e23b1a9cfa0a617b2e22438f22a67c78412790e00ca0b74b5"
+hash = "881446890944a740a2c96df230919a955b3f637361eb732753cc6649d4a7a21b"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
@@ -602,7 +606,7 @@ hash = "2a1b129f80545a249d3c95ae078aa33af644df1ef45bf1b7524e4fdb116cfc8d"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/grenades.js"
-hash = "2c1816dda0f24ad7c03be98773543865a1d5d8c52db79c559c72eb7b937622d9"
+hash = "72ec8b066a76054e880c2d81a852c361e99128851ea1572c487beedd13722081"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/assault-rifles.js"
@@ -658,7 +662,7 @@ hash = "dab37e167863222920a32e34445c350751c9abf326921356f1e4884b75b88e23"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
-hash = "698d5df329ed3ccc67af6ce7bf040fac7e13e11ac5081b3c18621d568fc6c29e"
+hash = "e81aea809c826b0f183ee26f6db0ffb71007641765a67cb94b71ef87fe88a496"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
@@ -987,6 +991,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "5ef78421a13ef39b9708f37997d797fa9ae70bdbb5da14b6356299f9cd33a2c4"
+metafile = true
+
+[[files]]
+file = "mods/immersive-engineering.pw.toml"
+hash = "6439c6f409308c4a89a12708b54cef41aa5382dc78e6f352b3e8005e96a21a8e"
 metafile = true
 
 [[files]]
