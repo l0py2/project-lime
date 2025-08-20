@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/alexscaves-general.toml"
+hash = "5c5d67af70ad90bad2c67ab656e7afbd215c037a6db4fc7355be0c8116443e84"
+
+[[files]]
 file = "config/alexsmobs.toml"
-hash = "2899a22626cd1131584b56a6af8524c049df73fe1b7010746b144068cce076fb"
+hash = "8c94dc654ac89e15d65d3123bc9d7eccf48807c9dd4f6f2b3623ee3332dfbe54"
 
 [[files]]
 file = "config/almostunified/unify.json"
@@ -14,19 +18,19 @@ hash = "1da844a4138263513a175a6761b54b0765d0f253b8bc92de07a7b40599b5fe9c"
 
 [[files]]
 file = "config/chalk-common.toml"
-hash = "40642fc0e5851ff67e700140e756c1d0c9ed83970169ddb18dfb1a67d5da962d"
+hash = "1f53a492fedb3463e545d0be7e0151229c7af489f24ea0df25c0baeed51771b7"
 
 [[files]]
 file = "config/create_new_age-common.toml"
-hash = "554840f18fcdbf574f3e13c4e1393af85e6d18c892e3e86dc9ab6bc470540e42"
+hash = "94c31fe6cb3142f2987e1a0e1bef6ab6ed1e9c0827d22a77cdebab6a75b55c53"
 
 [[files]]
 file = "config/farmersdelight-common.toml"
-hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
+hash = "c70e3bc4190481b671a4517351510886a3bb92d1f7b7b5babb1dc4487b6ff9d9"
 
 [[files]]
 file = "config/guardvillagers-common.toml"
-hash = "d048807b75deee250257983dc35c00fb8571847ee294b5f402a5c9a1a9b6acb6"
+hash = "1af254f774bebc20a1f95e84dc4daf56decd3e1b98b4ec4ccc14919efa3a7ca6"
 
 [[files]]
 file = "config/item_obliterator.json5"
@@ -38,15 +42,15 @@ hash = "4669da9df5f6dbbedd884d280fbe0a24322e214362fe96e5d4270a830f9018a7"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
-hash = "0558192a2375667743fe0548e9e6f34f36d266a999389c8b5bb93cd8ca5b3740"
+hash = "101b2c3afacf80b07df488735591d32e69ada873f399a6ca66bf077ddfee1ec4"
 
 [[files]]
 file = "config/tact-common.toml"
-hash = "be51531d6713fb7f8b248b81195692bebfc06bbf3c582b6918f1fb6fd6ec531f"
+hash = "fcf6d19f3adcc7308e88c83b3760d4270068f5beabd9d9f1fd321495f181f168"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
-hash = "273b033403b3bc377ea91a4044780f39d0f173d96c9725f3904b8d763bec7600"
+hash = "598fc8fb3a53062e2d2904532259a691b37e8b03e0fcb00790fec79d17badfdb"
 
 [[files]]
 file = "kubejs/assets/ad_astra/textures/item/calorite_plate.png"
