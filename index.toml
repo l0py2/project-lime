@@ -10,7 +10,7 @@ hash = "8c94dc654ac89e15d65d3123bc9d7eccf48807c9dd4f6f2b3623ee3332dfbe54"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "387ff96097483eaf7b9417f7e4333c8ef87509e1f0cdab15070016d14fe01979"
+hash = "d1babeb894499fa4f00e99b7dee1906ce2b5e032a72d5512b6433d0956e3547c"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -33,6 +33,10 @@ file = "config/guardvillagers-common.toml"
 hash = "1af254f774bebc20a1f95e84dc4daf56decd3e1b98b4ec4ccc14919efa3a7ca6"
 
 [[files]]
+file = "config/immersiveengineering-common.toml"
+hash = "3c8986fe02b6361ee6ca7ccd9725fe778a198270e837ca40c2cfee89efbae3ad"
+
+[[files]]
 file = "config/item_obliterator.json5"
 hash = "3dc9ff7becc645b935537f58c4d52014bf9789139c6d69d6ce1a2b3da991460c"
 
@@ -47,6 +51,10 @@ hash = "101b2c3afacf80b07df488735591d32e69ada873f399a6ca66bf077ddfee1ec4"
 [[files]]
 file = "config/tact-common.toml"
 hash = "fcf6d19f3adcc7308e88c83b3760d4270068f5beabd9d9f1fd321495f181f168"
+
+[[files]]
+file = "defaultconfigs/immersiveengineering-server.toml"
+hash = "7e2e7afa77b66303ac06b32f62180968721673c78349995c8761a07db3f6b2c0"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
