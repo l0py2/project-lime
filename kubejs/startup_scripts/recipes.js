@@ -6,10 +6,7 @@ global.recipes = {
 			return {
 				type: global.id.CA('rolling'),
 				input: input.toJson(),
-				result: {
-					item: output.getId(),
-					count: output.getCount()
-				}
+				result: output.toJson()
 			};
 		}
 	}

@@ -5,7 +5,8 @@
 		"create",
 		"immersiveengineering",
 		"ad_astra",
-		"createaddition"
+		"createaddition",
+		"alexscaves"
 	],
 	"stoneStrata": [
 		"stone",
@@ -91,5 +92,5 @@
 		"cucumber:shaped_tag"
 	],
 	"ignoredRecipes": [],
-	"itemsHidingJeiRei": true
+	"itemsHidingJeiRei": false
 }

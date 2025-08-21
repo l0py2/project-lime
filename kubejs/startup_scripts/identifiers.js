@@ -11,7 +11,9 @@ global.id = {
 	PC: id => `pneumaticcraft:${id}`,
 	TZ: id => `tacz:${id}`,
 	CA: id => `createaddition:${id}`,
-	LR: id => `lrtactical:${id}`
+	LR: id => `lrtactical:${id}`,
+	IE: id => `immersiveengineering:${id}`,
+	AC: id => `alexscaves:${id}`
 };
 
 global.tag = {
@@ -25,5 +27,7 @@ global.tag = {
 	PC: tag => `#pneumaticcraft:${tag}`,
 	TZ: tag => `#tacz:${tag}`,
 	CA: tag => `#createaddition:${tag}`,
-	LR: tag => `#lrtactical:${tag}`
+	LR: tag => `#lrtactical:${tag}`,
+	IE: tag => `#immersiveengineering:${tag}`,
+	AC: tag => `#alexscaves:${tag}`
 };

@@ -10,7 +10,7 @@ hash = "2899a22626cd1131584b56a6af8524c049df73fe1b7010746b144068cce076fb"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "d1babeb894499fa4f00e99b7dee1906ce2b5e032a72d5512b6433d0956e3547c"
+hash = "1aed286b4675615c04e8dbc0b90c0e3cfe8e517881608a75f8bfae86343cec56"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -30,7 +30,11 @@ hash = "d048807b75deee250257983dc35c00fb8571847ee294b5f402a5c9a1a9b6acb6"
 
 [[files]]
 file = "config/immersiveengineering-common.toml"
-hash = "251eabd02c879948115170c14a9842b669d2e6a684f08f5e50bba8c9627fcc00"
+hash = "94d9a9b90a60562a3a9a5a4304424ac77a3355305b401ff305a0163787b34c4a"
+
+[[files]]
+file = "config/item_obliterator.json5"
+hash = "3dc9ff7becc645b935537f58c4d52014bf9789139c6d69d6ce1a2b3da991460c"
 
 [[files]]
 file = "config/openloader/data/project-lime-advancements/pack.mcmeta"
@@ -505,12 +509,20 @@ file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
+file = "kubejs/config/defaultoptions.txt"
+hash = "6acde66cb2a3d705c230d034026599dea346580bd98ef1be02cc867b13235c56"
+
+[[files]]
 file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
 hash = "7a8f1b530ff06ea62b606c32120cde6923f317d19883986390c2cad1a6d6a54b"
 
 [[files]]
 file = "kubejs/data/alexscaves/worldgen/structure_set/underground_cabin.json"
 hash = "78826cad8af34aba9af7f4443ccdff554b07cfb474685222ba01bc9a641bc4ea"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/recipes/arc_recycling_list.json"
+hash = "19485d8979e5e053c7d1f2520fb142b9e7c16a1576210395cd7c25ed75f8999e"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json"
@@ -654,7 +666,7 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "07451c5e0181e488822daad12ebd14e7dbdd6f95da5e519c1b1897d55e7cd92c"
+hash = "2aa643b87877c7de3ce5f2365bc70d832ea80881770830be6b24cb48c30d8959"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
@@ -666,11 +678,11 @@ hash = "dab37e167863222920a32e34445c350751c9abf326921356f1e4884b75b88e23"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
-hash = "e81aea809c826b0f183ee26f6db0ffb71007641765a67cb94b71ef87fe88a496"
+hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "00b7f67a91fca2651cd73fc741fc15e5a24ca35ba2be2cc55812216176dc0d3b"
+hash = "4a22afca5a090e3e8590b1517d71d8c56c2d0b4f0582fe71f001413b0465b8c2"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

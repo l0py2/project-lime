@@ -1,0 +1,9 @@
+version:3465
+autoJump:false
+enableVsync:false
+renderDistance:12
+simulationDistance:12
+entityDistanceScaling:1.0
+guiScale:2
+lang:en_us
+rawMouseInput:true

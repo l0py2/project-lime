@@ -2,17 +2,30 @@
 
 global.removedItems = [
 	global.id.AA('compressor'),
+	global.id.AA('iron_plate'),
+	global.id.AA('iron_rod'),
 	global.id.AA('oil_bucket'),
+	global.id.AA('steel_ingot'),
+	global.id.AA('steel_nugget'),
+	global.id.AA('steel_plate'),
+	global.id.AA('steel_rod'),
+	global.id.CA('electrum_ingot'),
+	global.id.CA('electrum_sheet'),
+	global.id.CA('electrum_wire'),
+	global.id.CA('iron_rod'),
 	global.id.FD('rope'),
 	global.id.FD('wheat_dough'),
+	global.id.IE('nugget_copper'),
+	global.id.IE('plate_copper'),
+	global.id.IE('plate_gold'),
+	global.id.IE('plate_iron'),
+	global.id.PC('copper_nugget'),
 	global.id.PC('sourdough'),
 	global.id.PC('wheat_flour'),
-	global.id.CA('iron_rod'),
-	global.id.AA('iron_plate'),
 	global.id.TZ('gun_smith_table'),
-	global.id.TZ('workbench_c'),
+	global.id.TZ('workbench_a'),
 	global.id.TZ('workbench_b'),
-	global.id.TZ('workbench_a')
+	global.id.TZ('workbench_c')
 ];
 
 global.removedRecipeTypes = [
