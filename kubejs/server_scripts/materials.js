@@ -15,6 +15,9 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.M('gears/iron'), global.id.KJ('iron_gear'));
 	event.add(global.id.M('gears'), global.id.KJ('steel_gear'));
 	event.add(global.id.M('gears/steel'), global.id.KJ('steel_gear'));
+	
+	event.add(global.id.M('circuits'), global.id.PC('printed_circuit_board'));
+	event.add(global.id.M('circuits/crude'), global.id.PC('printed_circuit_board'));
 });
 
 ServerEvents.recipes(event => {
