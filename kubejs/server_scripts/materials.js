@@ -15,7 +15,7 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.M('gears/iron'), global.id.KJ('iron_gear'));
 	event.add(global.id.M('gears'), global.id.KJ('steel_gear'));
 	event.add(global.id.M('gears/steel'), global.id.KJ('steel_gear'));
-	
+
 	event.add(global.id.M('circuits'), global.id.PC('printed_circuit_board'));
 	event.add(global.id.M('circuits/crude'), global.id.PC('printed_circuit_board'));
 });
@@ -78,11 +78,11 @@ ServerEvents.recipes(event => {
 
 	event.custom(global.recipes.CA.rolling(
 		Item.of(global.tag.M('ingots/steel'), 1),
-		Item.of(global.id.AA('steel_rod'), 2)
+		Item.of(global.id.IE('steel_rod'), 2)
 	));
 
 	event.custom(global.recipes.CA.rolling(
 		Item.of(global.tag.M('ingots/iron'), 1),
-		Item.of(global.id.AA('iron_rod'), 2)
+		Item.of(global.id.IE('iron_rod'), 2)
 	));
 });

@@ -2,17 +2,45 @@
 
 global.removedItems = [
 	global.id.AA('compressor'),
+	global.id.AA('desh_cable'),
+	global.id.AA('desh_fluid_pipe'),
+	global.id.AA('energizer'),
+	global.id.AA('etrionic_blast_furnace'),
+	global.id.AA('etrionic_capacitor'),
+	global.id.AA('fan'),
 	global.id.AA('iron_plate'),
 	global.id.AA('iron_rod'),
+	global.id.AA('nasa_workbench'),
 	global.id.AA('oil_bucket'),
+	global.id.AA('ostrum_fluid_pipe'),
+	global.id.AA('steel_cable'),
 	global.id.AA('steel_ingot'),
 	global.id.AA('steel_nugget'),
 	global.id.AA('steel_plate'),
 	global.id.AA('steel_rod'),
+	global.id.AA('water_pump'),
+	global.id.CA('alternator'),
+	global.id.CA('connector'),
+	global.id.CA('copper_spool'),
+	global.id.CA('copper_wire'),
+	global.id.CA('electric_motor'),
 	global.id.CA('electrum_ingot'),
 	global.id.CA('electrum_sheet'),
+	global.id.CA('electrum_spool'),
 	global.id.CA('electrum_wire'),
+	global.id.CA('gold_spool'),
 	global.id.CA('iron_rod'),
+	global.id.CA('large_connector'),
+	global.id.CA('redstone_relay'),
+	global.id.CA('small_light_connector'),
+	global.id.CA('spool'),
+	global.id.CN('blank_circuit'),
+	global.id.CN('copper_circuit'),
+	global.id.CN('copper_wire'),
+	global.id.CN('electrical_connector'),
+	global.id.CN('overcharged_diamond_wire'),
+	global.id.CN('overcharged_golden_wire'),
+	global.id.CN('overcharged_iron_wire'),
 	global.id.FD('rope'),
 	global.id.FD('wheat_dough'),
 	global.id.IE('nugget_copper'),
@@ -26,22 +54,12 @@ global.removedItems = [
 	global.id.TZ('workbench_a'),
 	global.id.TZ('workbench_b'),
 	global.id.TZ('workbench_c'),
-	global.id.AA('nasa_workbench'),
-	global.id.AA('etrionic_blast_furnace'),
-	global.id.AA('energizer'),
-	global.id.AA('etrionic_capacitor'),
-	global.id.AA('fan'),
-	global.id.AA('steel_cable'),
-	global.id.AA('desh_cable'),
-	global.id.AA('desh_fluid_pipe'),
-	global.id.AA('ostrum_fluid_pipe'),
-	global.id.AA('water_pump')
 ];
 
 global.removedRecipeTypes = [
 	global.id.AA('compressing'),
 	global.id.AA('nasa_workbench'),
-	global.id.AA('alloying'),
+	global.id.AA('alloying')
 ];
 
 global.removedRecipes = [
@@ -119,7 +137,9 @@ global.inputReplacements = new Map([
 	[global.id.FD('rope'), global.tag.M('rope')],
 	[global.id.FD('wheat_dough'), global.tag.M('dough/wheat')],
 	[global.id.PC('sourdough'), global.tag.M('dough')],
-	[global.id.PC('wheat_flour'), global.tag.M('flour')]
+	[global.id.PC('wheat_flour'), global.tag.M('flour')],
+	[global.id.CN('copper_circuit'), global.id.CC('control_chip')],
+	[global.id.CA('copper_spool'), global.id.IE('wirecoil_copper')]
 ]);
 
 global.outputReplacements = new Map([

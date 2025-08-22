@@ -15,7 +15,9 @@ global.id = {
 	IE: id => `immersiveengineering:${id}`,
 	AC: id => `alexscaves:${id}`,
 	AN: id => `advancednetherite:${id}`,
-	TT: id => `tetra:${id}`
+	TT: id => `tetra:${id}`,
+	CN: id => `create_new_age:${id}`,
+	CC: id => `create_connected:${id}`
 };
 
 global.tag = {
@@ -33,5 +35,7 @@ global.tag = {
 	IE: tag => `#immersiveengineering:${tag}`,
 	AC: tag => `#alexscaves:${tag}`,
 	AN: tag => `#advancednetherite:${tag}`,
-	TT: tag => `#tetra:${tag}`
+	TT: tag => `#tetra:${tag}`,
+	CN: tag => `#create_new_age:${tag}`,
+	CC: tag => `#create_connected:${tag}`
 };

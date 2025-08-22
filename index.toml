@@ -25,6 +25,10 @@ file = "config/farmersdelight-common.toml"
 hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
+file = "config/forgery/features.ini"
+hash = "761cf31cf282a0417ff2b1cb26f0d4f60aed07db89c42ec7f833b40b4f9697e2"
+
+[[files]]
 file = "config/guardvillagers-common.toml"
 hash = "d048807b75deee250257983dc35c00fb8571847ee294b5f402a5c9a1a9b6acb6"
 
@@ -598,7 +602,7 @@ hash = "70b6988449ee51d390be8a2b80d70499342b7459a6e0838dc4587e409fc63bc2"
 
 [[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "469be1270d66fb546a62a7f685d1f74928a038ad26a4fddb6373651afa5c6043"
+hash = "0521712995b54cdda22c7e4359a21e5a08a0e214382f2881b17d21bd510df538"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
@@ -682,7 +686,7 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "1498c6b4897d79c614a2c13a4b1f6593dce66667f956f863f28886f4986a6160"
+hash = "0ad00daae5c3eb403d2cc8746fa0d5d8bbda2d6c8965045af5d5bb13763e4b15"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
@@ -698,7 +702,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "2130f8b96692ac63f57f048f647b432bb0d8d916067e539302273020774c2a3d"
+hash = "426e28a69fede6e6523de123780de4b9d5516fc55c1f9fe2cac509cf6f9217f2"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
