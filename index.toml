@@ -65,10 +65,6 @@ file = "kubejs/assets/ad_astra/textures/item/ostrum_plate.png"
 hash = "e7173bf980027eebd7e8f02659c1d8e963acb7aa82185836388ca64465eff6c7"
 
 [[files]]
-file = "kubejs/assets/ad_astra/textures/item/steel_plate.png"
-hash = "74703eaf221a9eefee0412956832b42fe575535a4ea852a4d7a32a24b7a81877"
-
-[[files]]
 file = "kubejs/assets/create/textures/item/copper_sheet.png"
 hash = "3a64774b4318910e29f5cdab49b34290352aed3a55aa67d5b8ff70b2adeaabb1"
 
@@ -95,6 +91,10 @@ hash = "445f54da72be6aa3ec3a0851850f57a3d8ae70fd29f1930b01d764758f56c75f"
 [[files]]
 file = "kubejs/assets/immersiveengineering/sounds/dire_switch.ogg"
 hash = "808c26859196e4f66d6676db9998fd9ab040d70f66a3879d64c8ae5d56a6177a"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/steel_plate.png"
+hash = "74703eaf221a9eefee0412956832b42fe575535a4ea852a4d7a32a24b7a81877"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/gear/iron_gear.png"
@@ -581,8 +581,24 @@ file = "kubejs/data/minecraft/worldgen/structure_set/villages.json"
 hash = "0ccd3b184f0ffa19e0e35fcb283432e5d1b6f97a698da332e87df0ae4d95c500"
 
 [[files]]
+file = "kubejs/server_scripts/ad-astra/engines/engines.js"
+hash = "2062631371e393193f3686f2f50fa572ef3dbe7bc11eaef99406192803509eda"
+
+[[files]]
+file = "kubejs/server_scripts/ad-astra/machines/recipes.js"
+hash = "f4034a9e9678931ce0c03bcc8a6a0cd48068a3f95d6bdf3fb89697387eedf578"
+
+[[files]]
+file = "kubejs/server_scripts/ad-astra/rockets/recipes.js"
+hash = "67185429c15ad1c1710cfeb6edf33fc493808215785c8f7687c3b37afa50b314"
+
+[[files]]
+file = "kubejs/server_scripts/ad-astra/space-suits/recipes.js"
+hash = "70b6988449ee51d390be8a2b80d70499342b7459a6e0838dc4587e409fc63bc2"
+
+[[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "881446890944a740a2c96df230919a955b3f637361eb732753cc6649d4a7a21b"
+hash = "469be1270d66fb546a62a7f685d1f74928a038ad26a4fddb6373651afa5c6043"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
@@ -658,7 +674,7 @@ hash = "850f6bbb4c2665df735f548b3e11a645b8befc899d1bbbbb164ff56e1b249c0c"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/sub-machine-guns.js"
-hash = "020b9f225e3bdfc2639c99631ca4d7db34575423d0f9556b67cd18b6a73c2b94"
+hash = "a56458fdcbf91acea11b2a04b73b48f69057e1bb8af1167c88322bc72403ed21"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/weapons/trapdoor-rifle.js"
@@ -682,7 +698,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "64b5ed534614c74b2470553b61347635d15ca8f440ecd5bd59a8c8538765806b"
+hash = "724ca97b208272bfa81f3f84b731de766ee39dff705ebb332f8507dfd87939a6"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

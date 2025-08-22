@@ -25,11 +25,23 @@ global.removedItems = [
 	global.id.TZ('gun_smith_table'),
 	global.id.TZ('workbench_a'),
 	global.id.TZ('workbench_b'),
-	global.id.TZ('workbench_c')
+	global.id.TZ('workbench_c'),
+	global.id.AA('nasa_workbench'),
+	global.id.AA('etrionic_blast_furnace'),
+	global.id.AA('energizer'),
+	global.id.AA('etrionic_capacitor'),
+	global.id.AA('fan'),
+	global.id.AA('steel_cable'),
+	global.id.AA('desh_cable'),
+	global.id.AA('desh_fluid_pipe'),
+	global.id.AA('ostrum_fluid_pipe'),
+	global.id.AA('water_pump')
 ];
 
 global.removedRecipeTypes = [
-	global.id.AA('compressing')
+	global.id.AA('compressing'),
+	global.id.AA('nasa_workbench'),
+	global.id.AA('alloying'),
 ];
 
 global.removedRecipes = [
@@ -53,7 +65,11 @@ global.removedRecipes = [
 	global.id.AN('netherite_gold_pickaxe_smithing'),
 	global.id.AN('netherite_emerald_pickaxe_smithing'),
 	global.id.AN('netherite_diamond_pickaxe_smithing'),
-	global.id.IE('crafting/pickaxe_steel')
+	global.id.IE('crafting/pickaxe_steel'),
+	global.id.AA('steel_engine'),
+	global.id.AA('desh_engine'),
+	global.id.AA('ostrum_engine'),
+	global.id.AA('calorite_engine')
 ];
 
 global.inputReplacements = new Map([
