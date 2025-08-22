@@ -18,13 +18,37 @@ ServerEvents.tags('item', event => {
 
 	event.add(global.id.M('circuits'), global.id.PC('printed_circuit_board'));
 	event.add(global.id.M('circuits/crude'), global.id.PC('printed_circuit_board'));
+
+	event.add(global.id.M('plates'), global.id.KJ('tin_plate'));
+	event.add(global.id.M('plates/tin'), global.id.KJ('tin_plate'));
+	event.add(global.id.M('plates'), global.id.KJ('bronze_plate'));
+	event.add(global.id.M('plates/bronze'), global.id.KJ('bronze_plate'));
+	event.add(global.id.M('plates'), global.id.KJ('osmium_plate'));
+	event.add(global.id.M('plates/osmium'), global.id.KJ('osmium_plate'));
+	event.add(global.id.M('plates'), global.id.KJ('lead_plate'));
+	event.add(global.id.M('plates/lead'), global.id.KJ('lead_plate'));
+	event.add(global.id.M('plates'), global.id.KJ('refined_obsidian_plate'));
+	event.add(global.id.M('plates/refined_obsidian'), global.id.KJ('refined_obsidian_plate'));
+	event.add(global.id.M('plates'), global.id.KJ('refined_glowstone_plate'));
+	event.add(global.id.M('plates/refined_glowstone'), global.id.KJ('refined_glowstone_plate'));
+	event.add(global.id.M('plates'), global.id.KJ('refined_glowstone_plate'));
+	event.add(global.id.M('plates/refined_glowstone'), global.id.KJ('refined_glowstone_plate'));
+	event.add(global.id.M('plates'), global.id.KJ('uranium_plate'));
+	event.add(global.id.M('plates/uranium'), global.id.KJ('uranium_plate'));
 });
 
 ServerEvents.recipes(event => {
 
-	//Compressed Steel Plate Recipe
+	//plates recipes
 
 	event.recipes.create.pressing(global.tag.M('plates/compressed_iron'), global.tag.M('ingots/compressed_iron'));
+	event.recipes.create.pressing(global.tag.M('plates/tin'), global.tag.M('ingots/tin'));
+	event.recipes.create.pressing(global.tag.M('plates/bronze'), global.tag.M('ingots/bronze'));
+	event.recipes.create.pressing(global.tag.M('plates/osmium'), global.tag.M('ingots/osmium'));
+	event.recipes.create.pressing(global.tag.M('plates/uranium'), global.tag.M('ingots/uranium'));
+	event.recipes.create.pressing(global.tag.M('plates/lead'), global.tag.M('ingots/lead'));
+	event.recipes.create.pressing(global.tag.M('plates/refined_obsidian'), global.tag.M('ingots/refined_obsidian'));
+	event.recipes.create.pressing(global.tag.M('plates/refined_glowstone'), global.tag.M('ingots/refined_glowstone'));
 
 	//Steel Gear Recipe
 

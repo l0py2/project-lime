@@ -10,7 +10,7 @@ hash = "2899a22626cd1131584b56a6af8524c049df73fe1b7010746b144068cce076fb"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "1aed286b4675615c04e8dbc0b90c0e3cfe8e517881608a75f8bfae86343cec56"
+hash = "224fc7746984e683522fcba9cc55dd717b51837d47180bf76ed1957087f71b26"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -34,7 +34,7 @@ hash = "d048807b75deee250257983dc35c00fb8571847ee294b5f402a5c9a1a9b6acb6"
 
 [[files]]
 file = "config/immersiveengineering-common.toml"
-hash = "94d9a9b90a60562a3a9a5a4304424ac77a3355305b401ff305a0163787b34c4a"
+hash = "4292b622cca35d251eecab4c5a57a8bfa3bb5de51d964ec206499a6df89033cb"
 
 [[files]]
 file = "config/item_obliterator.json5"
@@ -73,6 +73,14 @@ file = "kubejs/assets/create/textures/item/copper_sheet.png"
 hash = "3a64774b4318910e29f5cdab49b34290352aed3a55aa67d5b8ff70b2adeaabb1"
 
 [[files]]
+file = "kubejs/assets/create/textures/item/crushed_raw_lead.png"
+hash = "d8ec1982d05effad4d25af1df0523eb680755fd7bbfd417001ad176885e63db7"
+
+[[files]]
+file = "kubejs/assets/create/textures/item/crushed_raw_uranium.png"
+hash = "d9e8d9d5f4f1475924684d8f84f014c18cd35fea02df88a0c20cd02022a66d9d"
+
+[[files]]
 file = "kubejs/assets/createaddition/textures/item/brass_rod.png"
 hash = "c5b9ab51e9ce17dd4a42396bfcc571153b71863963cebe742ba9fe234d08da5c"
 
@@ -97,7 +105,51 @@ file = "kubejs/assets/immersiveengineering/sounds/dire_switch.ogg"
 hash = "808c26859196e4f66d6676db9998fd9ab040d70f66a3879d64c8ae5d56a6177a"
 
 [[files]]
-file = "kubejs/assets/immersiveengineering/textures/steel_plate.png"
+file = "kubejs/assets/immersiveengineering/textures/item/graphite_electrode.png"
+hash = "4067a3150a8925e3bf0070dd34dbaf6f2f0ab6d056cd206602e7c36a4e19d703"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/material_plate_duroplast.png"
+hash = "a00e545f5460b0751501b5414c9f2c42dc8cdce8d62b1a906c61258c5ac603d6"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/material_stick_aluminum.png"
+hash = "db3ffdaf9d3d11912e45153c3b28c141ad51f622d6ff784623ed3b01e0b75717"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/material_stick_iron.png"
+hash = "e6414daab39362890b6b95e5fd992f0afa682dd18aee30f7aa98e7638818d4f2"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/material_stick_steel.png"
+hash = "27a972acdcd205f6989d3d7fd4271ccc60eed76a308a0a9dd813d5c0ea95c906"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/material_stick_treated.png"
+hash = "09e88cebba610d12b80d084c0d51d0c8c1efba1836b5e96d37b1bb84019ec2c6"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/metal_plate_aluminum.png"
+hash = "4144a3d636629926d314385e9932046f240eb57a5ccc4a23e3424debb06d7b8d"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/metal_plate_constantan.png"
+hash = "e200de99969c6fd1ba6b2ee530ebe919ecddde9e2d32969149296a9f08341a7c"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/metal_plate_electrum.png"
+hash = "c98df26d54ed777bc8511398da7cc4307cf75e495a1d4df710770d3fdfc93f9b"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/metal_plate_nickel.png"
+hash = "198b49d0b191a25a57c17e40fc8d5bb002e4562a2c1fed9f363e23d94d3faab2"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/metal_plate_silver.png"
+hash = "f2e0cda8336f7ab76af63cf893d8304e7586b303451cdb5239d30c1efa688731"
+
+[[files]]
+file = "kubejs/assets/immersiveengineering/textures/item/metal_plate_steel.png"
 hash = "74703eaf221a9eefee0412956832b42fe575535a4ea852a4d7a32a24b7a81877"
 
 [[files]]
@@ -109,8 +161,36 @@ file = "kubejs/assets/kubejs/textures/item/gear/steel_gear.png"
 hash = "ee0988fecacdd467134e6eb95a7eccec63cd3300f0a8a8ef7c99c792523b236f"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/plate/bronze_plate.png"
+hash = "38f774d73ca96df09558a2048763219257d77fadc7ac5a1ce657c6d534a144f2"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/plate/compressed_iron_plate.png"
 hash = "ded3a4489a69ebee595fd4585759ffa4579fcf986c33b250ee398f52488d87f4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plate/lead_plate.png"
+hash = "d837d3d3cb495b395f920ca08a2c2e45b7bd38f2cc753d7c5a586c595974f078"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plate/osmium_plate.png"
+hash = "2f275e13598ca7b53c4e2a21518f914e720f5642883c3f2f17c034022abaa6fd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plate/refined_glowstone_plate.png"
+hash = "0ed571975285338ea70e33e153adc03803cc93c724ea29d5b67c3a1774f285de"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plate/refined_obsidian_plate.png"
+hash = "41d9caefa3f56323df6e557e2a479cc143799ebf336ecfbe0042d900604837a4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plate/tin_plate.png"
+hash = "a40779e27ca5ed351bb1566bd51c8b805fa91abbf191a1e77a1168d727ae0bba"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plate/uranium_plate.png"
+hash = "74f4c1342e90f64714c990e356dfebb70c4eb3a3c6b9677bcb96d8a38e04db87"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/rod/calorite_rod.png"
@@ -514,7 +594,7 @@ hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "6acde66cb2a3d705c230d034026599dea346580bd98ef1be02cc867b13235c56"
+hash = "13c4ad1f0b06d9deca2286d62cca5844ad4080b18a50b495c6aa57b8975e5c89"
 
 [[files]]
 file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
@@ -527,6 +607,10 @@ hash = "78826cad8af34aba9af7f4443ccdff554b07cfb474685222ba01bc9a641bc4ea"
 [[files]]
 file = "kubejs/data/immersiveengineering/recipes/arc_recycling_list.json"
 hash = "19485d8979e5e053c7d1f2520fb142b9e7c16a1576210395cd7c25ed75f8999e"
+
+[[files]]
+file = "kubejs/data/mekanism/recipes/control_circuit/basic.json"
+hash = "1e2cd6e12541a8608eed9069b3ea68b22a471b2533ac443a0900dd60ce4a9b57"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json"
@@ -590,27 +674,79 @@ hash = "c8ce6ed05bc4699a338b3bcc39fb28f448d11ec882dfefe31148d4dcc6697c7c"
 
 [[files]]
 file = "kubejs/server_scripts/ad-astra/engines/engines.js"
-hash = "2062631371e393193f3686f2f50fa572ef3dbe7bc11eaef99406192803509eda"
+hash = "7c3002775fe89764910b412699d4c856fd199eafbc6c55148ad1f4b81b702fb0"
 
 [[files]]
 file = "kubejs/server_scripts/ad-astra/machines/recipes.js"
-hash = "f4034a9e9678931ce0c03bcc8a6a0cd48068a3f95d6bdf3fb89697387eedf578"
+hash = "e642eef93d0ab9f316af320e229795950e0faf272338fc4c139167cad5406518"
 
 [[files]]
 file = "kubejs/server_scripts/ad-astra/rockets/recipes.js"
-hash = "67185429c15ad1c1710cfeb6edf33fc493808215785c8f7687c3b37afa50b314"
+hash = "c21f758777b40f9c5d63f5dbae897b822e0c95022e96d35b56e3d525258c89c2"
 
 [[files]]
 file = "kubejs/server_scripts/ad-astra/space-suits/recipes.js"
-hash = "70b6988449ee51d390be8a2b80d70499342b7459a6e0838dc4587e409fc63bc2"
+hash = "36274d21e86447f107f986a8a4804191c2f2b425cfdba33fc5c2f305ad7b3318"
+
+[[files]]
+file = "kubejs/server_scripts/ad-astra/tags.js"
+hash = "0aebdc5d6b53388fb336d5555ee54f57ab2b1cc94e7d0df83573f1ef6fd78058"
 
 [[files]]
 file = "kubejs/server_scripts/materials.js"
-hash = "0521712995b54cdda22c7e4359a21e5a08a0e214382f2881b17d21bd510df538"
+hash = "ea70baf8ae6cee6a7657245b5d9dfe4ac06d8357d516fe08bd9b277cad76c2f0"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/new_tags.js"
+hash = "4aa924e50fbb1a8bebcb3f81b64c468617b996411a22226e35e4c0c89f83bb22"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/items.js"
+hash = "96609a1da5e44fb53da5622183841bcc3284a4c97581a25c41e25622ca9a2c58"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/combiner.js"
+hash = "6f1b6d44419f9d248eec0bd9daca784f33dfbef2733db3c8214e7360213182b0"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/compressor.js"
+hash = "88d4825a9b09d90bf4f5a643e36bbc9dd52c4d86c78f1b8ec3a45a15755e74aa"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/crusher.js"
+hash = "7bb3c4f977ef206c3e8583884937d2684864f4ce8038464aea41fefce084336a"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/enricher.js"
+hash = "c32cb414e4d273a7a9b4e652bc031b258a17cebb4b0d118966c4578ff14c453b"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/injecting.js"
+hash = "fb3263f32e6d4503a46b1df9b07e25109c082cdd794c121b04b9378514de161d"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/metallurgic_infuser.js"
+hash = "9e1cd2e47255603a227e62adbe6fd73b7796c421a1922d87338c3607f5a639a0"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/purification.js"
+hash = "b8c4b92040b0ce8348c5623ec30f218e39eff13e2468bafe2026268a90ef422d"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/remaining_machines.js"
+hash = "cd5aaebeac90a13079f0dddcd22396b6af3e1511eef587b23f78b28d4aa0e586"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/sawing.js"
+hash = "05feec17409267301de4e1a5022f0d64ead548de5be19bc2f430fbced5dde6ee"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/machines/smelter.js"
+hash = "ad4ddc2feb1f81dc62ab80cb5ba6c0518111a01f10ae12f0b4d473ea361d3bd7"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
-hash = "50e500686e37c898e0e6965c92f7763546ebbb9e85cdbb973445bde8492329d8"
+hash = "fbfd91fa3ee08f139f02ababe3488827b89b209a6cffb9b44d09da2ce03ce725"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
@@ -690,11 +826,11 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "0ad00daae5c3eb403d2cc8746fa0d5d8bbda2d6c8965045af5d5bb13763e4b15"
+hash = "41c2906f6b608a505cbf20c9cd50facfa8853392548e4edb9f156fe1e6eb5760"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
-hash = "5e70d6a634659252ce2c8982996d2f4f33cc562c3fb5685cf36511552fef0e5f"
+hash = "3e059f26ec5ab7b8946ed5b9c9b11677f5799d5635a36cc5765495af2932ab3c"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/tacz-incomplete.js"
@@ -706,7 +842,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "426e28a69fede6e6523de123780de4b9d5516fc55c1f9fe2cac509cf6f9217f2"
+hash = "bbac903c762f0458547b98eb7bb5a96fed390a318c6dbe1e3c4b584b89bf3588"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -1091,6 +1227,31 @@ metafile = true
 [[files]]
 file = "mods/lootjs.pw.toml"
 hash = "e8ffbf5788712fac841e1bb0bff8969697f99be47d6f1c3f41ebe9ac965016d3"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-cardboard-tooltip.pw.toml"
+hash = "c4fd46b6185aec9a8ac338bfb0596ad7e890ca1e94c910852d5421805fac09c1"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-covers.pw.toml"
+hash = "657abef45baa4976f38ba410fe3d4cea9c21ca43edbd488c375f83a8d25ff0ff"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-enchantable-mekasuit.pw.toml"
+hash = "508897eca58c32770d728ef92a215a6117d0b41a87a1f1d038a2499340acd053"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "a76a1f1d2139ebe5c31c628ed4bb01f3795cfae931dda4093047260507bbfd43"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "7c411a566d022680769ddb8323984fff292ddeb35e7d8fcfe2cc41b9885d9557"
 metafile = true
 
 [[files]]

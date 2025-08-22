@@ -17,7 +17,8 @@ global.id = {
 	AN: id => `advancednetherite:${id}`,
 	TT: id => `tetra:${id}`,
 	CN: id => `create_new_age:${id}`,
-	CC: id => `create_connected:${id}`
+	CC: id => `create_connected:${id}`,
+	MK: id => `mekanism:${id}`
 };
 
 global.tag = {
@@ -37,5 +38,6 @@ global.tag = {
 	AN: tag => `#advancednetherite:${tag}`,
 	TT: tag => `#tetra:${tag}`,
 	CN: tag => `#create_new_age:${tag}`,
-	CC: tag => `#create_connected:${tag}`
+	CC: tag => `#create_connected:${tag}`,
+	MK: tag => `mekanism:${tag}`
 };

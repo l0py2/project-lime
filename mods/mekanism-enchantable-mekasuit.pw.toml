@@ -1,0 +1,13 @@
+name = "Mekanism: Enchantable MekaSuit"
+filename = "MekanismEnchantableMekasuit-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0f026e11b1ef0d34b582748481f926ad958c1d91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6866051
+project-id = 1323655
