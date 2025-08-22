@@ -26,7 +26,7 @@ hash = "ae9881722434d9ab428b49ac636d10a9f6979161d79795ff35647378f290d803"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "761cf31cf282a0417ff2b1cb26f0d4f60aed07db89c42ec7f833b40b4f9697e2"
+hash = "83cae8a2340f933b4e119a9cdf9390cba0bfee7794fcc6e0a4b5c364149b267d"
 
 [[files]]
 file = "config/guardvillagers-common.toml"
@@ -583,6 +583,10 @@ hash = "1cb6b6ddfbadf779b325617b016fa88a774cc6f54e91e9b1e87ffea2eabdab9d"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/villages.json"
 hash = "0ccd3b184f0ffa19e0e35fcb283432e5d1b6f97a698da332e87df0ae4d95c500"
+
+[[files]]
+file = "kubejs/data/tetra/advancements/upgrades/root.json"
+hash = "c8ce6ed05bc4699a338b3bcc39fb28f448d11ec882dfefe31148d4dcc6697c7c"
 
 [[files]]
 file = "kubejs/server_scripts/ad-astra/engines/engines.js"
