@@ -666,7 +666,7 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "2aa643b87877c7de3ce5f2365bc70d832ea80881770830be6b24cb48c30d8959"
+hash = "b0d1a48effb7512ed13e6644f48bcbdb1e27b736941a60809e830f1601c8e6d9"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
@@ -682,7 +682,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "4a22afca5a090e3e8590b1517d71d8c56c2d0b4f0582fe71f001413b0465b8c2"
+hash = "64b5ed534614c74b2470553b61347635d15ca8f440ecd5bd59a8c8538765806b"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

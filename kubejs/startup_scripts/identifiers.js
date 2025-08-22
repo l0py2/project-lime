@@ -13,7 +13,8 @@ global.id = {
 	CA: id => `createaddition:${id}`,
 	LR: id => `lrtactical:${id}`,
 	IE: id => `immersiveengineering:${id}`,
-	AC: id => `alexscaves:${id}`
+	AC: id => `alexscaves:${id}`,
+	AN: id => `advancednetherite:${id}`
 };
 
 global.tag = {
@@ -29,5 +30,6 @@ global.tag = {
 	CA: tag => `#createaddition:${tag}`,
 	LR: tag => `#lrtactical:${tag}`,
 	IE: tag => `#immersiveengineering:${tag}`,
-	AC: tag => `#alexscaves:${tag}`
+	AC: tag => `#alexscaves:${tag}`,
+	AN: tag => `#advancednetherite:${tag}`
 };

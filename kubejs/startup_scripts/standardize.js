@@ -43,7 +43,17 @@ global.removedRecipes = [
 	global.id.PC('pressure_chamber/wheat_flour'),
 	global.id.CR('industrial_iron_block_from_ingots_iron_stonecutting'),
 	global.id.AA('iron_rod'),
-	global.id.AA('steel_rod')
+	global.id.AA('steel_rod'),
+	global.id.MC('stone_pickaxe'),
+	global.id.MC('iron_pickaxe'),
+	global.id.MC('golden_pickaxe'),
+	global.id.MC('diamond_pickaxe'),
+	global.id.MC('netherite_pickaxe_smithing'),
+	global.id.AN('netherite_iron_pickaxe_smithing'),
+	global.id.AN('netherite_gold_pickaxe_smithing'),
+	global.id.AN('netherite_emerald_pickaxe_smithing'),
+	global.id.AN('netherite_diamond_pickaxe_smithing'),
+	global.id.IE('crafting/pickaxe_steel')
 ];
 
 global.inputReplacements = new Map([
