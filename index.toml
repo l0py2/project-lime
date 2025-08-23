@@ -781,6 +781,10 @@ file = "kubejs/server_scripts/mekanism/recipes/reactors/fusion-reactor.js"
 hash = "c081a0cde5b19c58480a64b90c8ed0bfb46df195d951ab95dbad60e982058b07"
 
 [[files]]
+file = "kubejs/server_scripts/mekanism/recipes/thermal-evaporation-tower/recipe.js"
+hash = "cd6cee1ee7988a500cbe771639c6e0010a3c1c8c26b80f9b9ff900adfd01de64"
+
+[[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
 hash = "fbfd91fa3ee08f139f02ababe3488827b89b209a6cffb9b44d09da2ce03ce725"
 
@@ -878,7 +882,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "9d7ee738bee1ab3e0df874a7e1b10b8e0331461a362b914a50f08f3f1329bef5"
+hash = "c8456ed8f35d8e696e8d5b6caf7dee4707c8aa3665cf83463564849f04bd0490"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
