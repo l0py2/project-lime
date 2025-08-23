@@ -50,7 +50,7 @@ hash = "0558192a2375667743fe0548e9e6f34f36d266a999389c8b5bb93cd8ca5b3740"
 
 [[files]]
 file = "defaultconfigs/immersiveengineering-server.toml"
-hash = "2938bd932f8e562b0f78859ae71ef3fd1e8017e60a437b4e3387fa3a376d6600"
+hash = "d41e2f9f9bac180824ef66b6610938183dc47837af265c1059f5338b73a9a014"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
@@ -511,6 +511,10 @@ hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
 [[files]]
 file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "98fb8ec37df02471997fe4f0f7c7b7ed4f01bf6b6d0b152c65c2f63878bf1bdc"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
