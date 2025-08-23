@@ -18,7 +18,8 @@ global.id = {
 	TT: id => `tetra:${id}`,
 	CN: id => `create_new_age:${id}`,
 	CC: id => `create_connected:${id}`,
-	MK: id => `mekanism:${id}`
+	MK: id => `mekanism:${id}`,
+	MG: id => `mekanismgenerators:${id}`
 };
 
 global.tag = {
@@ -39,5 +40,6 @@ global.tag = {
 	TT: tag => `#tetra:${tag}`,
 	CN: tag => `#create_new_age:${tag}`,
 	CC: tag => `#create_connected:${tag}`,
-	MK: tag => `mekanism:${tag}`
+	MK: tag => `#mekanism:${tag}`,
+	MG: tag => `#mekanismgenerators:${tag}`
 };

@@ -204,17 +204,98 @@ ServerEvents.recipes(event => {
 	//solar_neutron_activator
 	
 	event.recipes.create.mechanical_crafting('mekanism:solar_neutron_activator', [
-		'SSS',
+		'FFF',
 		'DED',
 		'CAC',
 		'BBB',
-		'SSS'
+		'GGG'
 	], {
 		A: global.id.MK('steel_casing'),
 		B: global.tag.M('plates/bronze'),
 		C: global.tag.M('circuits/elite'),
 		D: global.tag.M('alloys/elite'),
 		E: global.id.MK('hdpe_sheet'),
-		S: global.tag.M('plates/steel')
+		F: global.id.MG('solar_generator'),
+		G: global.tag.M('storage_blocks/steel')
 	});
+	
+	//electric_pump
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MK('electric_pump') 
+	},
+		global.id.MK('ingot_osmium'),       
+		global.tag.M('plates/osmium')      
+	);
+	
+	//radioactive_waste
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MK('radioactive_waste_barrel') 
+	},
+		global.id.MK('ingot_lead'),       
+		global.tag.M('plates/lead')      
+	);
+	
+	//radioactive_waste
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MK('radioactive_waste_barrel') 
+	},
+		global.id.MK('ingot_steel'),       
+		global.tag.M('plates/steel')      
+	);
+	
+	//bio-generator
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MK('bio_generator') 
+	},
+		global.id.MK('iron_ingot'),       
+		global.tag.M('plates/ingot')      
+	);
+	
+	//bio-generator
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MK('bio_generator') 
+	},
+		global.tag.M('dusts/redstone'),       
+		global.tag.M('plates/osmium')      
+	);
+	
+	//gas-burning generator
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MG('gas_burning_generator') 
+	},
+		global.tag.M('ingots/osmium'),       
+		global.tag.M('plates/osmium')      
+	);
+	
+	//wood-burning heater
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MK('fuelwood_heater') 
+	},
+		global.tag.M('ingots/steel'),       
+		global.tag.M('plates/steel')      
+	);
+	
+	//heat generator
+	
+	event.replaceInput(
+	{ 
+		output: global.id.MG('heat_generator')
+	},
+		global.tag.M('ingots/steel'),       
+		global.tag.M('plates/steel')      
+	);
 });

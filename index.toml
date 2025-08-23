@@ -50,7 +50,7 @@ hash = "0558192a2375667743fe0548e9e6f34f36d266a999389c8b5bb93cd8ca5b3740"
 
 [[files]]
 file = "defaultconfigs/immersiveengineering-server.toml"
-hash = "2938bd932f8e562b0f78859ae71ef3fd1e8017e60a437b4e3387fa3a376d6600"
+hash = "d41e2f9f9bac180824ef66b6610938183dc47837af265c1059f5338b73a9a014"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
@@ -593,6 +593,10 @@ file = "kubejs/config/client.properties"
 hash = "495380f92674b69cae7119f10c8d45cf80c7bccda95da6dc40bb6f6a14c757ab"
 
 [[files]]
+file = "kubejs/config/common.properties"
+hash = "98fb8ec37df02471997fe4f0f7c7b7ed4f01bf6b6d0b152c65c2f63878bf1bdc"
+
+[[files]]
 file = "kubejs/config/defaultoptions.txt"
 hash = "13c4ad1f0b06d9deca2286d62cca5844ad4080b18a50b495c6aa57b8975e5c89"
 
@@ -701,8 +705,12 @@ file = "kubejs/server_scripts/mekanism/new_tags.js"
 hash = "4aa924e50fbb1a8bebcb3f81b64c468617b996411a22226e35e4c0c89f83bb22"
 
 [[files]]
-file = "kubejs/server_scripts/mekanism/recipes/items.js"
-hash = "96609a1da5e44fb53da5622183841bcc3284a4c97581a25c41e25622ca9a2c58"
+file = "kubejs/server_scripts/mekanism/recipes/generators/wind-turbine.js"
+hash = "81d71ae14691b36276592679a2529f750ebcad071c5c641d0e2f1c0e5e55362f"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/items/items.js"
+hash = "503363f4409c30a928ad8a5eca80613ba4ca458f2db9f9027e3c21edeb9c5c0d"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/machines/combiner.js"
@@ -734,7 +742,7 @@ hash = "b8c4b92040b0ce8348c5623ec30f218e39eff13e2468bafe2026268a90ef422d"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/machines/remaining_machines.js"
-hash = "cd5aaebeac90a13079f0dddcd22396b6af3e1511eef587b23f78b28d4aa0e586"
+hash = "f108f663b4a0ef23dd7def8d18d26d538749c822428a297510ae4fc80339652a"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/machines/sawing.js"
@@ -743,6 +751,14 @@ hash = "05feec17409267301de4e1a5022f0d64ead548de5be19bc2f430fbced5dde6ee"
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/machines/smelter.js"
 hash = "ad4ddc2feb1f81dc62ab80cb5ba6c0518111a01f10ae12f0b4d473ea361d3bd7"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/reactors/fission-reactor.js"
+hash = "5e473f1bbb75ab3002cb051c2d78a993fc40efcd9c2e961a29602a9965d7f7b8"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/reactors/fusion-reactor.js"
+hash = "c081a0cde5b19c58480a64b90c8ed0bfb46df195d951ab95dbad60e982058b07"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
@@ -826,7 +842,7 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "41c2906f6b608a505cbf20c9cd50facfa8853392548e4edb9f156fe1e6eb5760"
+hash = "9a12a67d675d1115d8d13326d3e71bb38c9f8170c85445eed5fe5847c178a7be"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
@@ -842,7 +858,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "bbac903c762f0458547b98eb7bb5a96fed390a318c6dbe1e3c4b584b89bf3588"
+hash = "89ea05655c25b935bb7917d2f540e9fdf950ac9353bc45bcf88397b881c09558"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

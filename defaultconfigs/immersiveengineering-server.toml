@@ -12,3 +12,8 @@
 		#The percentage of power lost every 16 blocks of distance in hv wire
 		#Range: 0.0 ~ 1.0
 		loss = 0.0
+	#Ore generation config - uranium
+	[ores.uranium]
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
