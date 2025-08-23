@@ -717,6 +717,10 @@ file = "kubejs/server_scripts/mekanism/recipes/energy-storage/induction-cells/re
 hash = "d27dd668f13373a66e7446cb52f9a44f17cf7b204ba46e04cb16eac7da8ea1a5"
 
 [[files]]
+file = "kubejs/server_scripts/mekanism/recipes/fluid-storage/dynamic-tank/recipes.js"
+hash = "3ffc18ba51d3a175f7afd54ce17c8fd44f51d3aade15505a58cc0ab39c434399"
+
+[[files]]
 file = "kubejs/server_scripts/mekanism/recipes/generators/turbine.js"
 hash = "661ed1a625fd9c9682efceae581f502bfcf6bb4170e4d8aca0b973ed72f3ab02"
 
@@ -874,7 +878,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "555de5fcee0f050d14ff28d0a59854cf6df6b83e0f514017ffb544f84585c08a"
+hash = "9d7ee738bee1ab3e0df874a7e1b10b8e0331461a362b914a50f08f3f1329bef5"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

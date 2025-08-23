@@ -262,7 +262,10 @@ global.removedRecipes = [
 	global.id.MK('induction/provider/basic'),
 	global.id.MK('induction/provider/advanced'),
 	global.id.MK('induction/provider/elite'),
-	global.id.MK('induction/provider/ultimate')
+	global.id.MK('induction/provider/ultimate'),
+	global.id.MK('dynamic_valve'),
+	global.id.MK('dynamic_tank'),
+	global.id.MK('structural_glass')
 ];
 
 global.inputReplacements = new Map([
