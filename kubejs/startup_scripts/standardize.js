@@ -235,7 +235,20 @@ global.removedRecipes = [
 	global.id.MG('reactor/controller'),
 	global.id.MG('fission_reactor/casing'),
 	global.id.MG('fission_reactor/port'),
-	global.id.MG('fission_reactor/logic_adapter')
+	global.id.MG('fission_reactor/logic_adapter'),
+	global.id.MG('fission_reactor/control_rod_assembly'),
+	global.id.MG('fission_reactor/fuel_assembly'),
+	global.id.MG('reactor/glass'),
+	global.id.MG('turbine/casing'),
+	global.id.MG('rotational_complex'),
+	global.id.MG('turbine/blade'),
+	global.id.MG('turbine/rotor'),
+	global.id.MG('turbine/vent'),
+	global.id.MG('saturating_condenser'),
+	global.id.MK('pressure_disperser'),
+	global.id.MG('electromagnetic_coil'),
+	global.id.MK('energy_tablet'),
+	global.id.MG('turbine/valve')
 ];
 
 global.inputReplacements = new Map([
