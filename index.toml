@@ -1121,6 +1121,11 @@ hash = "f29e468a2aa1801bc8d9fdb0608b148d3e6eca97b25ef146a3e5d26bdff03f89"
 metafile = true
 
 [[files]]
+file = "mods/energymeter.pw.toml"
+hash = "96c83f92d038524c36df54aadad8a3d8ba4a3f3643b998a1a5a228a9f35e2abc"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "e5650ca09fdb53d1c197b4b7d000c432a566c559381106edeee0e2abc2ce1cd0"
 metafile = true
