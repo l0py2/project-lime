@@ -713,12 +713,32 @@ file = "kubejs/server_scripts/mekanism/new_tags.js"
 hash = "44b66740a4270551b3d38699c5a2e677295f0141e00632427b781e59dfb040bb"
 
 [[files]]
+file = "kubejs/server_scripts/mekanism/recipes/boiler/recipes.js"
+hash = "bb3f33431bde2c90255c6e8e01f864c8a86ef66b6bd884557ec22937df150fd7"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/energy-storage/energy-cubes/recipes.js"
+hash = "c4a15b534aa0c2f7cb297f11b07ae1b37806197ce4eb80881edf7cbd5ee2148c"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/energy-storage/induction-cells/recipes.js"
+hash = "2c910ac4cd6a48f2f04c9eb95bbf693aae30496660fe0c9dded5df7ca9cecc31"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/fluid-storage/dynamic-tank/recipes.js"
+hash = "8d4dae243b433701b55831e90f9a1030114b5670cfdaeb131684133f50d6f676"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/generators/turbine.js"
+hash = "6c8732e864f81e1fc6fbe8f4c5aa2adb215d51b57f785c33bd99a51b7e3e45d6"
+
+[[files]]
 file = "kubejs/server_scripts/mekanism/recipes/generators/wind-turbine.js"
 hash = "3fc7e35af746e35b9ea5ab53026d7f6df0e8910b83349d1db496d4ef4c6c180d"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/items/items.js"
-hash = "4f24c361f1b896c4078c8c5dc0496b8c95d921add519ed5b38f2aa4f2c75e79e"
+hash = "9fee706f43256bf780382dd4a84b6ea11fbebb4bfc9b37a7aa5f13ab015aef2a"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/machines/combiner.js"
@@ -762,11 +782,19 @@ hash = "aabeac1ca97ab22e07995510887804c4d80b9a87b2b9ac594d5a5d9eb5950b38"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/reactors/fission-reactor.js"
-hash = "1c16d741776f5877f29b78f24987124874450b754b414a70dba1bf607e785502"
+hash = "2e19ac26f1a61997909b995e78e94b87d52986adc1f32c42754260cd4591f170"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism/recipes/reactors/fusion-reactor.js"
 hash = "ee2c4c5535ea1961cad87bb0670bf8c3370899e73741228d06c3d7eaa4df4ec8"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/sps/recipes.js"
+hash = "128366619f04b46f3194dc254ef59fe7e35b59f4ff18d22125e3e7a63097978b"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/recipes/thermal-evaporation-tower/recipes.js"
+hash = "ce21d03b6ce0ddabf651f663b397466ec33e1126433fa4f976304767b215dc1f"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
@@ -866,7 +894,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "63b0ad674ff955047d7481fc2735e6df9132c7864c8f32f15b6ceb94f15ca04f"
+hash = "4a76766f42564cf9673fcd67172fd128221466b64b8a5d75ecaf668aa74dfaec"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

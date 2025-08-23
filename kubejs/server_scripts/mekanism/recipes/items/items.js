@@ -144,4 +144,21 @@ ServerEvents.recipes(event => {
 		L: global.tag.M('plates/osmium')
 	}
 	);
+	
+	//energy_tablet
+	
+	event.shaped(
+	Item.of(global.id.MK('energy_tablet')),
+	[
+		'RSR',
+		'JQJ',
+		'RSR'
+	],
+	{
+		J: global.tag.M('alloys/advanced'),
+		S: global.tag.M('plates/gold'),
+		Q: global.id.IE('wirecoil_steel'),
+		R: global.id.IE('capacitor_hv')
+	}
+	);
 });

@@ -1,26 +1,8 @@
 ServerEvents.recipes(event => {
-	
-	//reactor_glass
-	
-	event.replaceInput(
-	{
-		output: global.id.MG('reactor_glass')
-	},
-		global.id.MK('ingot_lead'),
-		global.tag.M('plates/lead')
-	);
-	
-	event.replaceInput(
-	{
-		output: global.id.MG('reactor_glass')
-	},
-		global.id.MC('glass'),
-		global.id.PC('pressure_chamber_glass')
-	);
 
 	//fission_reactor_casing
 	
-	event.shaped(
+	event.recipes.create.mechanical_crafting(
 	Item.of(global.id.MG('fission_reactor_casing'), 4),
 	[
 		'BCB',
@@ -36,7 +18,7 @@ ServerEvents.recipes(event => {
 	
 	//fission_reactor_port
 	
-	event.shaped(
+	event.recipes.create.mechanical_crafting(
 	Item.of(global.id.MG('fission_reactor_port'), 2),
 	[
 		'CDC',
@@ -52,7 +34,7 @@ ServerEvents.recipes(event => {
 	
 	//fission_reactor_logic_adapter
 	
-	event.shaped(
+	event.recipes.create.mechanical_crafting(
 	Item.of(global.id.MG('fission_reactor_logic_adapter'), 2),
 	[
 		' F ',
@@ -65,39 +47,51 @@ ServerEvents.recipes(event => {
 	}
 	);
 	
-	//fission_fuel_assembly
+	//reactor_glass
 	
-	event.replaceInput(
+	event.recipes.create.mechanical_crafting(
+	Item.of(global.id.MG('reactor_glass'), 4),
+	[
+		'GBG',
+		'BHB',
+		'GBG'
+	],
 	{
-		output: global.id.MG('fission_fuel_assembly')
-	},
-		global.id.MK('ingot_lead'),
-		global.tag.M('plates/lead')
+		B: global.tag.M('plates/lead'),
+		G: global.id.MK('enriched_iron'),
+		H: global.id.PC('pressure_chamber_glass')
+	}
 	);
 	
-	event.replaceInput(
+	//fission_fuel_assembly
+	
+	event.recipes.create.mechanical_crafting(
+	Item.of(global.id.MG('fission_fuel_assembly')),
+	[
+		'BIB',
+		'BJB',
+		'BIB'
+	],
 	{
-		output: global.id.MG('fission_fuel_assembly')
-	},
-		global.id.MK('ingot_steel'),
-		global.tag.M('plates/steel')
+		B: global.tag.M('plates/lead'),
+		I: global.tag.M('plates/steel'),
+		J: global.id.MK('basic_chemical_tank')
+	}
 	);
 	
 	//control_rod_assembly
 	
-	event.replaceInput(
+	event.recipes.create.mechanical_crafting(
+	Item.of(global.id.MG('control_rod_assembly')),
+	[
+		'BCB',
+		'IBI',
+		'IBI'
+	],
 	{
-		output: global.id.MG('control_rod_assembly')
-	},
-		global.id.MK('ingot_steel'),
-		global.tag.M('plates/steel')
-	);
-	
-	event.replaceInput(
-	{
-		output: global.id.MG('control_rod_assembly')
-	},
-		global.id.MK('ingot_lead'),
-		global.tag.M('plates/lead')
+		B: global.tag.M('plates/lead'),
+		C: global.tag.M('circuits/elite'),
+		I: global.tag.M('plates/steel')
+	}
 	);
 });
