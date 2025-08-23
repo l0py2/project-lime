@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "9215ce0a0748d0c3775f7f47851a437f5e02997d7a32d890c253bb1b4e3c7939"
+hash = "362a11c37aab6033f98b1f20a9c7d7d3955cc1f1a22d241292f10a58256fea62"
 metafile = true
 
 [[files]]
@@ -897,7 +897,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "5066223747bb701831e22f5831f367a54beb92878fb34cf85c9376bccd66996b"
+hash = "bcbdefc3141031a1d3acff9ef3ecd93dae5946c632f1675ba4c9a7cb875b369a"
 metafile = true
 
 [[files]]
@@ -1137,7 +1137,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "fa6e35c376181fa82ad33b9cb4c20382a0effd7eb09a06107dcc884b98f49ff2"
+hash = "067fc433511066d18b1795b86c9856246a8da7f9a4316afd6b25e5eee181f660"
 metafile = true
 
 [[files]]
@@ -1402,7 +1402,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra.pw.toml"
-hash = "714c409d92150537ada20684288310ab44d3a0d29dc833ccf088b24f848ff8c9"
+hash = "6d7d7e9056c82d805e0957f33d8dac048a3a193d91ca7e655e12d4bade9eb4d8"
 metafile = true
 
 [[files]]
