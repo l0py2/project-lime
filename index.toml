@@ -770,7 +770,7 @@ hash = "50e500686e37c898e0e6965c92f7763546ebbb9e85cdbb973445bde8492329d8"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "0a224c4bcaef86fb17e5869067f4b5c2779384ae1804f45a555fe006761b5e19"
+hash = "40148137d141e951c84e3207fd4cb335f15f3fb2cbfeccd8e0b16861a988f327"
 
 [[files]]
 file = "kubejs/server_scripts/tacz/ammunitions.js"

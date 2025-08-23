@@ -4,7 +4,7 @@ LootJS.modifiers(event => {
 	const lootTables = event.addLootTableModifier(/.*/);
 
 	for(const [original, replacement] of global.dropReplacements) {
-		lootTables.replaceLoot(original, replacement);
+		lootTables.replaceLoot(original, replacement, true);
 	}
 
 	for(const item of global.removedItems) {
