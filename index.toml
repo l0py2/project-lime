@@ -701,6 +701,10 @@ file = "kubejs/server_scripts/alexs-caves/recipes.js"
 hash = "4d1233638205dd83aeea441d1080f0a1c1dde58eaae96478055636a57a0366ed"
 
 [[files]]
+file = "kubejs/server_scripts/create/recipes.js"
+hash = "3c20354d1d8913a0455e3e8d3ea6bb364aa4c4a6318af07b74d9674e6f70a4de"
+
+[[files]]
 file = "kubejs/server_scripts/materials.js"
 hash = "ea70baf8ae6cee6a7657245b5d9dfe4ac06d8357d516fe08bd9b277cad76c2f0"
 
@@ -862,7 +866,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "89ea05655c25b935bb7917d2f540e9fdf950ac9353bc45bcf88397b881c09558"
+hash = "63b0ad674ff955047d7481fc2735e6df9132c7864c8f32f15b6ceb94f15ca04f"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -1137,6 +1141,11 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "010d6c402eb65881d8148d951d1b838658396c8e646ced132271e96d4f852cd3"
+metafile = true
+
+[[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+hash = "f516cd414020a90cc732d3fb9b69d375c8f21b8e0acb95fb620420ab3dc7287d"
 metafile = true
 
 [[files]]

@@ -80,7 +80,8 @@ global.removedItems = [
 	global.id.IE('storage_steel'),
 	global.id.IE('slab_storage_lead'),
 	global.id.AA('solar_panel'),
-	global.id.MK('fluidic_plenisher')
+	global.id.MK('fluidic_plenisher'),
+	global.id.IE('dust_wood')
 ];
 
 global.removedRecipeTypes = [
@@ -235,7 +236,9 @@ global.removedRecipes = [
 	global.id.MG('reactor/controller'),
 	global.id.MG('fission_reactor/casing'),
 	global.id.MG('fission_reactor/port'),
-	global.id.MG('fission_reactor/logic_adapter')
+	global.id.MG('fission_reactor/logic_adapter'),
+	global.id.CR('item_application/brass_casing_from_log'),
+	global.id.CR('item_application/brass_casing_from_log_using_deployer')
 ];
 
 global.inputReplacements = new Map([
