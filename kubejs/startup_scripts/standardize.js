@@ -248,7 +248,21 @@ global.removedRecipes = [
 	global.id.MK('pressure_disperser'),
 	global.id.MG('electromagnetic_coil'),
 	global.id.MK('energy_tablet'),
-	global.id.MG('turbine/valve')
+	global.id.MG('turbine/valve'),
+	global.id.MK('energy_cube/basic'),
+	global.id.MK('energy_cube/advanced'),
+	global.id.MK('energy_cube/elite'),
+	global.id.MK('energy_cube/ultimate'),
+	global.id.MK('induction/casing'),
+	global.id.MK('induction/port'),
+	global.id.MK('induction/cell/basic'),
+	global.id.MK('induction/cell/advanced'),
+	global.id.MK('induction/cell/elite'),
+	global.id.MK('induction/cell/ultimate'),
+	global.id.MK('induction/provider/basic'),
+	global.id.MK('induction/provider/advanced'),
+	global.id.MK('induction/provider/elite'),
+	global.id.MK('induction/provider/ultimate')
 ];
 
 global.inputReplacements = new Map([
