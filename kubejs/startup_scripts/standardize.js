@@ -268,7 +268,12 @@ global.removedRecipes = [
 	global.id.MK('structural_glass'),
 	global.id.MK('thermal_evaporation/block'),
 	global.id.MK('thermal_evaporation/controller'),
-	global.id.MK('thermal_evaporation/valve')
+	global.id.MK('thermal_evaporation/valve'),
+	global.id.MK('sps_casing'),
+	global.id.MK('sps_port'),
+	global.id.MK('boiler_valve'),
+	global.id.MK('boiler_casing'),
+	global.id.MK('superheating_element')
 ];
 
 global.inputReplacements = new Map([
