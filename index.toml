@@ -1168,7 +1168,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "010d6c402eb65881d8148d951d1b838658396c8e646ced132271e96d4f852cd3"
+hash = "4c644440d4d4dc1e6f6921075f8c07d81e048a64f3267e58f98b985bf1c28b42"
 metafile = true
 
 [[files]]
@@ -1203,7 +1203,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "3e1eb9740fada46d463ae8f5e1f2cf24d5a85532356f7d5173a7c23a0dd8fb53"
+hash = "cdb49cbc2bf1bd15a0be40373b6bc5c4cbd550d78896ab9317f72ce72858f712"
 metafile = true
 
 [[files]]
@@ -1353,7 +1353,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "cc83aa838038bc43e9db3a173b15740108d2c3a38c1398c3a8ed9efd63faa2dd"
+hash = "46b1343bc4a4000d864a5ecd7032584d3f29339dbe71b8a812fe8daa911db386"
 metafile = true
 
 [[files]]
@@ -1378,7 +1378,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "62a76c5212c04d15c27d7c1141f0a0d7d803aa10d172444359e4dacbdba6da7b"
+hash = "5ca42f4c23aee558ed76923d4fb92ecee736ebacb53790445c09d46bd9ccb27e"
 metafile = true
 
 [[files]]
@@ -1408,7 +1408,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "6e1f95fef4a876674734edd52608618ca5ab56db07d02e800486acddf2acf0d1"
+hash = "5971c0c903055dccf4b1e3becdacb2451ab0fe4b6a72ca274b4e9e37a0f9089e"
 metafile = true
 
 [[files]]
@@ -1418,7 +1418,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c926446d83c568b4863f6bd15a4e022c5247739a0afa9a4fd49856c2f254f8a6"
+hash = "026f2625feac6e7c44899cdf4c47d7779aa0e5be034ab80964c366a080ee5f07"
 metafile = true
 
 [[files]]
