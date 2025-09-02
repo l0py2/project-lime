@@ -17,3 +17,7 @@
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 0
+	[ores.lead]
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
