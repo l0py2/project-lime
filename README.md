@@ -7,4 +7,4 @@
 
 ## Progression
 
-The pack does not contain a quest line but does contain custom advancements.
+The pack does not contain a quest line but custom advancements are planned.
