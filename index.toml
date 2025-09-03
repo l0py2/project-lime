@@ -1198,12 +1198,12 @@ metafile = true
 
 [[files]]
 file = "mods/forgery.pw.toml"
-hash = "517fa043f42580fef3e29c5c76ad8b77e82e7056842205313fa1a4b788c5f090"
+hash = "343bfc7b831ddd7998b64885afc5be6b738915d1dada10e4ff9394e64e11f56c"
 metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "e39179b40f303c9ec2c6e9da6cd7fcde96f5849dd2989a5e852bd72fea2fbac7"
+hash = "e17f96677912ca1e42ab05ba1e959226c7b5244f6a24eb573ace63f57e6c222f"
 metafile = true
 
 [[files]]
@@ -1363,7 +1363,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "46b1343bc4a4000d864a5ecd7032584d3f29339dbe71b8a812fe8daa911db386"
+hash = "6fab924e164f085a461460ad65dc048b528693137ddbc8e3b66667b68305cf54"
 metafile = true
 
 [[files]]
@@ -1389,6 +1389,16 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "5ca42f4c23aee558ed76923d4fb92ecee736ebacb53790445c09d46bd9ccb27e"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled-create.pw.toml"
+hash = "5bac1063d07c12c591dbcb1d7aea39ee863c73e84951334ebeec2754d22843da"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
 metafile = true
 
 [[files]]
@@ -1423,17 +1433,27 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "23063695dff072c1785d0de63884b3db2b38e6f2fcaf816968b9d453eafe4350"
+hash = "6aff8e966a5105bc15e518182caabb72d3e10dc07b52cb2f1a037b7783a44f95"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "026f2625feac6e7c44899cdf4c47d7779aa0e5be034ab80964c366a080ee5f07"
+hash = "280962aa9a4a10df98efc16bf526d69b6ae85b9a45cb69c7375820e84962603f"
 metafile = true
 
 [[files]]
 file = "mods/spyglass-improvements.pw.toml"
 hash = "20a83d346e216aa6d1d3ee0258b744c700af490b6f68464c518b7f8747863d1a"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "4ddff1daf862f7e481a6c30c4cbb4bb32165f2c73cefc908dbf62b18f0d46a56"
 metafile = true
 
 [[files]]
@@ -1477,6 +1497,11 @@ hash = "61466bd93ab560b9e8e5270a196a1776c8348d20875a18d6e32a825327b79046"
 metafile = true
 
 [[files]]
+file = "mods/treechop.pw.toml"
+hash = "de3524544e462fc53f0959a59c879a866730436083527ecf37852f4682b93786"
+metafile = true
+
+[[files]]
 file = "mods/universal-bone-meal-forge.pw.toml"
 hash = "eeffb0e3b66a46f1604244dff3e55bdf5408a9b43ac50b1aaedb090526c279bc"
 metafile = true
@@ -1502,6 +1527,21 @@ hash = "80f1c18e13daa8c790b20dc66069bcba3b6b9054329b9b0e6445ef02664fa004"
 metafile = true
 
 [[files]]
-file = "resourcepacks/mt-ct-d.pw.toml"
-hash = "517bfecc147f7a1f9bc8c0813e5eb61910381eb8da01ab99f17893dbf76ec5e8"
+file = "resourcepacks/fusion-block-transitions.pw.toml"
+hash = "edc9f4d5d105212eeb688a8b0313503490468ae945f7f398fa4f2da3e491b9a2"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-blocks.pw.toml"
+hash = "d47d73e0abe1a5ff386d74070cbcae0a9ae02eb5d101b8c2b725f7b494c1ba5c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-glass.pw.toml"
+hash = "ce4bb3513538341881998df2cef2970bc7f335d0fcec93f2e18749650d542bb6"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mt-bgs.pw.toml"
+hash = "7a575e3cd017f80abc535b85b619b4aac6d9626fa891695bec2a829cd572db4d"
 metafile = true
