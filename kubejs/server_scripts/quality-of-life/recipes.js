@@ -59,4 +59,6 @@ ServerEvents.recipes(event => {
 			D: global.tag.M('gems/diamond')
 		}
 	);
+	
+	event.smelting('minecraft:leather', 'minecraft:rotten_flesh')
 });
