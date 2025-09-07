@@ -701,6 +701,10 @@ file = "kubejs/server_scripts/alexs-caves/recipes.js"
 hash = "4d1233638205dd83aeea441d1080f0a1c1dde58eaae96478055636a57a0366ed"
 
 [[files]]
+file = "kubejs/server_scripts/create/contraption-storage.js"
+hash = "7ada089f4584115609e23e7e46a9b1bc5cc5e05ef3ebae7932b7f230b8623436"
+
+[[files]]
 file = "kubejs/server_scripts/create/recipes.js"
 hash = "3c20354d1d8913a0455e3e8d3ea6bb364aa4c4a6318af07b74d9674e6f70a4de"
 
@@ -878,7 +882,7 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "9a12a67d675d1115d8d13326d3e71bb38c9f8170c85445eed5fe5847c178a7be"
+hash = "8fd2ae4a1110a6d8d06c2442782c9175ead5112559784f699b662fd60daa242e"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"
@@ -1048,7 +1052,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "b6a72e03796007d5a6eabc4451753d0cb3fcd162c0c5da44be595ae22627f30e"
+hash = "7e576b8d760092352df0fe90d88863616bf9edf04ed782c3324086d3c91f3c9a"
 metafile = true
 
 [[files]]
@@ -1088,7 +1092,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "2ad430fa5ca6941fbb645e48d3cce6d6f176be571e7baba08b1fc983caa823a5"
+hash = "a3f0acb8e8f174555b615ff1da684ebfe0817dc4d43df12b6d8def9214c759ed"
 metafile = true
 
 [[files]]
@@ -1433,12 +1437,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "6aff8e966a5105bc15e518182caabb72d3e10dc07b52cb2f1a037b7783a44f95"
+hash = "e197cabfb14ba3f8757e8c2e3b1987c64be7988197e9b7d388051bc5a8372180"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "280962aa9a4a10df98efc16bf526d69b6ae85b9a45cb69c7375820e84962603f"
+hash = "5e484c5eb69d7073dd77eae395897e30d2788f66b353ec05ad2a517e8ea90d9e"
 metafile = true
 
 [[files]]
