@@ -81,7 +81,11 @@ global.removedItems = [
 	global.id.IE('slab_storage_lead'),
 	global.id.AA('solar_panel'),
 	global.id.MK('fluidic_plenisher'),
-	global.id.IE('dust_wood')
+	global.id.IE('dust_wood'),
+	global.id.IE('dust_copper'),
+	global.id.IE('dust_iron'),
+	global.id.IE('dust_gold'),
+	global.id.IE('dust_sulfur'),
 ];
 
 global.removedRecipeTypes = [

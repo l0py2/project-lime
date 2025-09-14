@@ -898,7 +898,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "d766f1eb5a208c9e19226ddd5745a264e7764d2051e1722df11c9e22e4ceaacc"
+hash = "0ea00572ece98f7b77f16fa6bdb6d5c27bf6606e7d9b70c5a1d77ce9c1f622a4"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
