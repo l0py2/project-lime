@@ -802,7 +802,7 @@ hash = "ce21d03b6ce0ddabf651f663b397466ec33e1126433fa4f976304767b215dc1f"
 
 [[files]]
 file = "kubejs/server_scripts/quality-of-life/recipes.js"
-hash = "50e500686e37c898e0e6965c92f7763546ebbb9e85cdbb973445bde8492329d8"
+hash = "ba03d3a36fd6454cbbf5e05cf3c24660a57b291d7164cfeb6738abd29a68709d"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
@@ -898,7 +898,7 @@ hash = "e3be66f67670420be3f17aaa8e138d3377e543d96851714398f3df2ab86ffd36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "4a76766f42564cf9673fcd67172fd128221466b64b8a5d75ecaf668aa74dfaec"
+hash = "d766f1eb5a208c9e19226ddd5745a264e7764d2051e1722df11c9e22e4ceaacc"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

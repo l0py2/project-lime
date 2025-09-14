@@ -275,7 +275,8 @@ global.removedRecipes = [
 	global.id.TT('hammer/diorite'),
 	global.id.TT('hammer/granite'),
 	global.id.TT('hammer/stone'),
-	global.id.TZ('gunpowder')
+	global.id.TZ('gunpowder'),
+	global.id.MK('metallurgic_infuser')
 ];
 
 global.inputReplacements = new Map([
