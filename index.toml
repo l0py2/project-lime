@@ -701,6 +701,10 @@ file = "kubejs/server_scripts/alexs-caves/recipes.js"
 hash = "4d1233638205dd83aeea441d1080f0a1c1dde58eaae96478055636a57a0366ed"
 
 [[files]]
+file = "kubejs/server_scripts/brewing-n-chewing/recipes.js"
+hash = "91e7600b1303a5f4ced476ec72d86f984dea7eb711f7856e4497764b7d9ae0c9"
+
+[[files]]
 file = "kubejs/server_scripts/create/contraption-storage.js"
 hash = "7ada089f4584115609e23e7e46a9b1bc5cc5e05ef3ebae7932b7f230b8623436"
 
@@ -882,7 +886,7 @@ hash = "9bafef886336566fe3f8a8b2c8dade6c20fc4dc23a92d90d9c0e8ce11012e440"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "8fd2ae4a1110a6d8d06c2442782c9175ead5112559784f699b662fd60daa242e"
+hash = "a191c92652328a7a99c4cb0bfc3941e7f2bed11b1924a641d3bd3dac5f12d26e"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/materials.js"

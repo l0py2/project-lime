@@ -20,7 +20,8 @@ global.id = {
 	CC: id => `create_connected:${id}`,
 	MK: id => `mekanism:${id}`,
 	MG: id => `mekanismgenerators:${id}`,
-	EC: id => `everycomp:${id}`
+	EC: id => `everycomp:${id}`,
+	BC: id => `brewinandchewin:${id}`
 };
 
 global.tag = {
@@ -43,5 +44,6 @@ global.tag = {
 	CC: tag => `#create_connected:${tag}`,
 	MK: tag => `#mekanism:${tag}`,
 	MG: tag => `#mekanismgenerators:${tag}`,
-	EC: tag => `#everycomp:${tag}`
+	EC: tag => `#everycomp:${tag}`,
+	BC: tag => `brewinandchewin:${tag}`
 };
