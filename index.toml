@@ -186,6 +186,11 @@ hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "20fcd633516ef654e4a1546ab7e1cd4e22bc96a087544ae583f85df9b7a65468"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "db01ff332b926267e5343601473582e51cddd1dff7c0bfef0809dc9802c07480"
 metafile = true
@@ -231,6 +236,11 @@ hash = "85cc14f129930791df7bddafaeb71dc1336840ec4c8fbc175145989bd85e1c77"
 metafile = true
 
 [[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "a92288574aeb3b2387d8c423b980321efa0f486074d6167aa30195a09d930369"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "967c38265800a8b2353debf37ab919204a1f89e4a57e2e603b7a7de1d68c8956"
 metafile = true
@@ -238,6 +248,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "643d695c3fa6973c50f5815966df42b7259921f6078b54ebb88e958dfa9298a5"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "aea24bc376b53b12d049633a2be9a9911fb6984e189940e804e74bc9fcf921a0"
 metafile = true
 
 [[files]]
@@ -278,11 +293,6 @@ metafile = true
 [[files]]
 file = "mods/creeper-overhaul.pw.toml"
 hash = "83c65e1eb2e5b72692adb428b3f713d7ca2fb681eded29c4414d657d2ea0cfa5"
-metafile = true
-
-[[files]]
-file = "mods/ctm.pw.toml"
-hash = "ff55f6dd98968c446e32885ec0eae66ee882071f8a4efbf1486e57590778b2eb"
 metafile = true
 
 [[files]]
@@ -353,6 +363,11 @@ metafile = true
 [[files]]
 file = "mods/energymeter.pw.toml"
 hash = "96c83f92d038524c36df54aadad8a3d8ba4a3f3643b998a1a5a228a9f35e2abc"
+metafile = true
+
+[[files]]
+file = "mods/ensorcellation.pw.toml"
+hash = "9780912a21d843e262d6f137ae4e7f95ae21e059e82c8a449b5930c767b06dc4"
 metafile = true
 
 [[files]]
@@ -451,6 +466,11 @@ hash = "82f389d06c0e19d2ffcd75d5d85e0d9f09ec17178b8dd3e5afe9350a271e0443"
 metafile = true
 
 [[files]]
+file = "mods/immersive-engineering.pw.toml"
+hash = "6439c6f409308c4a89a12708b54cef41aa5382dc78e6f352b3e8005e96a21a8e"
+metafile = true
+
+[[files]]
 file = "mods/immersive-weathering-forge.pw.toml"
 hash = "0df8d2be472d58b97f73621390c6d3cbaf538de65e9092c03146f102bfed63fe"
 metafile = true
@@ -458,6 +478,11 @@ metafile = true
 [[files]]
 file = "mods/incubation.pw.toml"
 hash = "0369534c917c40abad906a7087198ec286f543860a38b68453111a80ca755e2a"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "be412eead806ac2048ab77cb18e319a49afa733419afd842044edbee0b3581ab"
 metafile = true
 
 [[files]]
@@ -528,6 +553,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism.pw.toml"
 hash = "7c411a566d022680769ddb8323984fff292ddeb35e7d8fcfe2cc41b9885d9557"
+metafile = true
+
+[[files]]
+file = "mods/minecraft-transport-simulator.pw.toml"
+hash = "067a6968ac97746dd514a02fa51fbffdff4ebce3125b0971de537bc099b82fea"
 metafile = true
 
 [[files]]
@@ -711,8 +741,58 @@ hash = "d97655330510c21898fe03027bd9841e34af2c6bc89372f22a6b23e71068b5ab"
 metafile = true
 
 [[files]]
+file = "mods/thermal-cultivation.pw.toml"
+hash = "a2b0b8b765b7d8ef735276c0c09488353da50671f3a62684b1046a052f3a8a15"
+metafile = true
+
+[[files]]
+file = "mods/thermal-dynamics.pw.toml"
+hash = "280fc16d8cbed28aff6aef45470a22b55cd64394f87eb6f59ce640e70fa27399"
+metafile = true
+
+[[files]]
+file = "mods/thermal-expansion.pw.toml"
+hash = "1603a2d57a71762925e57c61ae45649bf6aab128295a31efec214b0676c79024"
+metafile = true
+
+[[files]]
+file = "mods/thermal-foundation.pw.toml"
+hash = "626f0ea226f55c453930ef387b32ad090c8defdd07792fe0aefc4b5afa87cb46"
+metafile = true
+
+[[files]]
+file = "mods/thermal-innovation.pw.toml"
+hash = "d0d2d356f1a5015e354516ed99549815b3dac67307c1374cf5b87e2333afaa62"
+metafile = true
+
+[[files]]
+file = "mods/thermal-integration.pw.toml"
+hash = "ed869df5d51c4496840f3d5fb2c9d86bab6cf25f8b12eb7dda139aaa65b18d05"
+metafile = true
+
+[[files]]
+file = "mods/thermal-locomotion.pw.toml"
+hash = "0459cc802d3353342386dfe9455b99587a4dc39ca4007944d71d248517965754"
+metafile = true
+
+[[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "61466bd93ab560b9e8e5270a196a1776c8348d20875a18d6e32a825327b79046"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
+metafile = true
+
+[[files]]
+file = "mods/tools-complement.pw.toml"
+hash = "7e40039563b86450462026886c96e8c29d977d5c3f1fee05ee676fcba2cc988b"
+metafile = true
+
+[[files]]
+file = "mods/transport-simulator-official-vehicle-set.pw.toml"
+hash = "70e3f044e97ac4eefca113fa888fde8bb0e341481f7fb539c69153baa55bc88d"
 metafile = true
 
 [[files]]
@@ -763,4 +843,39 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "557d160e4a3d856c6bbe36c39ee7c6cd42824363690b61d5f23bbac153c8edbc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-block-transitions.pw.toml"
+hash = "edc9f4d5d105212eeb688a8b0313503490468ae945f7f398fa4f2da3e491b9a2"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-blocks.pw.toml"
+hash = "d47d73e0abe1a5ff386d74070cbcae0a9ae02eb5d101b8c2b725f7b494c1ba5c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-glass.pw.toml"
+hash = "ce4bb3513538341881998df2cef2970bc7f335d0fcec93f2e18749650d542bb6"
+metafile = true
+
+[[files]]
+file = "resourcepacks/glowing-emissive-ores-fusion.pw.toml"
+hash = "332191bdbc5a289d062b5efd880e27896cebc7b8d972861cd4175fb32d970f1f"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mekanism-ctm-w-fusion.pw.toml"
+hash = "3242d9e4d9258b8760933ea421852e2706aaa4da493d4b97008fa7fe34d05c01"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mt-bgs.pw.toml"
+hash = "7a575e3cd017f80abc535b85b619b4aac6d9626fa891695bec2a829cd572db4d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/updated-engineering.pw.toml"
+hash = "fc86015529a4590ea914561127393074d3d358f5fe27af5dcde80aa1ca38a005"
 metafile = true
