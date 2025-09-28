@@ -1,5 +1,0 @@
-[block-behavior]
-	#True if the Nuclear Furnace only uses 'Blasting' recipes, false to use all smelting recipes.
-	nuclear_furnace_blasting_only = false
-	#True if the Nuclear Furnace should only use recipes using the `alexscaves:nuclear_furnace` recipe type, false to use regular behavior.
-	nuclear_furnace_custom_type = false

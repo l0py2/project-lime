@@ -1,7 +1,0 @@
-#Server Settings
-[server]
-	#Settings for Spawning Entities with Backpack
-	[server.entityBackpackAdditions]
-		#Chance of an entity spawning with Backpack
-		#Range: 0.0 ~ 1.0
-		chance = 0.0
