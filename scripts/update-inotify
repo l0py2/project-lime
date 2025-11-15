@@ -1,0 +1,20 @@
+#!/bin/sh
+
+MINECRAFT_DIR="$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Project Lime/minecraft"
+KUBEJS_DIR="$MINECRAFT_DIR/kubejs"
+
+cd ..
+
+while inotifywait -r -e 'modify,move,create,delete' \
+	./kubejs \
+	./config/item_obliterator.json5 \
+	./config/almostunified/unify.json
+do
+	packwiz refresh
+
+	cp ./config/item_obliterator.json5 "$MINECRAFT_DIR/config/item_obliterator.json5"
+	cp ./config/almostunified/unify.json "$MINECRAFT_DIR/config/almostunified/unify.json"
+
+	rm -rf "$KUBEJS_DIR"
+	cp -r ./kubejs "$KUBEJS_DIR"
+done
