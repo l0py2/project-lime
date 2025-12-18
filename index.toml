@@ -25,6 +25,102 @@ file = "config/openloader/data/project-lime-advancements/pack.mcmeta"
 hash = "d2dccca50db7fffa9d9f69ddd112113a62af420c7dd77de955e245b248e781df"
 
 [[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/placed_feature/lake_lava_surface.json"
+hash = "62427971b6d9eee9156e31f5852d14be359a346326cec6aad99a5e3cea75cf14"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/placed_feature/lake_lava_underground.json"
+hash = "90b717fb1ee7f401af9262d05be8f071883ef63a7580564a5d835c762233dc50"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/placed_feature/monster_room.json"
+hash = "74702a6b8ec46b3ae2ceed164c4f0fb2e6f014763b52efd4e94671d5c979a26d"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/placed_feature/monster_room_deep.json"
+hash = "5f8005fa59a680e18cb26f0fafcbe33d462539ab006b6c4337ee077f2832d3a3"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/ancient_cities.json"
+hash = "3d518a66a8b36b49159fa6a8afda94208db126e67b9b658423ed61f9dcae7ba3"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/buried_treasures.json"
+hash = "df0abf636b8f1e0cae413854e5de4782af683fae9272832b3b6369c21003324e"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/desert_pyramids.json"
+hash = "e5906c88277ea6c6664ccce61c4f413568989075fa489ee4bd9430e1d589f51d"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/end_cities.json"
+hash = "d9088bc9c0a701170fca00caffb016f2ca488853227082489731757846cae52a"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/igloos.json"
+hash = "c7e7be47101ecf36ffe596f983430b3241cf2cbd16036854312d40d43dbac997"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/jungle_temples.json"
+hash = "2bdf7e43d65fc9c3d107ea1802a40ae64b7133fd3a2bf78e3320fac4377beafa"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/mineshafts.json"
+hash = "319843180dade3437dafac540c34dbf9b22026c67909a85478c1fe663ba8c434"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/nether_complexes.json"
+hash = "16db6131b9a0aba12d4f3ddf746066c23eeb386e09df9be2687167d4b03f51d3"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/nether_fossils.json"
+hash = "73d3fb18f02299c72601e945b81537e128a9c048f8c51908660c8fbbd83d5cbe"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/ocean_monuments.json"
+hash = "a9ceae55b3aa0d287d1ecfafb0541bb78770dbbee61e288e2d861e166acbdb55"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/ocean_ruins.json"
+hash = "604452ce2c106a9795cb67dd959c857a70718681449194bb74ebb0d2a67a9bb1"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/pillager_outposts.json"
+hash = "716d20725513497c6908cab802bd1aa7793a9ef72a5fee8f0e452820ee092f27"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/ruined_portals.json"
+hash = "f293fad73a805276bf66df036bb60abafb6a72eb699d642e1d7d4004316981c4"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/shipwrecks.json"
+hash = "9ed7fd7918d82e6290f7f581dc6426b413e5cb63530d6c7bf0d6131a06ca9a2e"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/strongholds.json"
+hash = "9e11cbf22b3613b25481e5cae6914a6b14441e071f5918ec3b2563e3e5d34290"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/swamp_huts.json"
+hash = "56cf89ed4b0a4d34ff5bbcd1543e868546915161aa95d58d6a666bde7b2ac135"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/trail_ruins.json"
+hash = "3684743eb9059f028d2cc0da9a1ab7376b082b335169d212f27795356f1dbf79"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/villages.json"
+hash = "f92528a4c2cd6a71a2467c111074723ebdf2d7cc3b72c089374daa4685831bd5"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/data/minecraft/worldgen/structure_set/woodland_mansions.json"
+hash = "8ccd240958e49cf1a4887f9cd8212e351625a7a3790af2e2a97338da60ac6401"
+
+[[files]]
+file = "config/openloader/data/project-lime-structures/pack.mcmeta"
+hash = "b655a4a2e37765466c88dc3f9981c34fd6a69d60a3fc0cdc3790a0e61a3457fd"
+
+[[files]]
 file = "kubejs/config/defaultoptions.txt"
 hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
