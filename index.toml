@@ -1,8 +1,32 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/almostunified/debug.json"
+hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
+
+[[files]]
+file = "config/almostunified/duplicates.json"
+hash = "40639e8cb9e9ea52b8557c50d29fc06e73e2ad1e7ca27ae5ce8fe2eca2e97188"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
+
+[[files]]
+file = "config/almostunified/unify.json"
+hash = "23159b1ed8215bf862ac954057c7d969bb2579cca29222ef09634f6dba5b8f56"
+
+[[files]]
+file = "config/item_obliterator.json5"
+hash = "554edb2ce54ce7f21ebede3d968d04551fc64fe1d4de5bdc30876dd5ebdf96b6"
+
+[[files]]
+file = "config/openloader/data/project-lime-advancements/pack.mcmeta"
+hash = "d2dccca50db7fffa9d9f69ddd112113a62af420c7dd77de955e245b248e781df"
+
+[[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "1ec1b07dcdba5191dbd677bac5f65f3651b1acd6f540016988b1bbbe344f3ed9"
+hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -70,6 +94,16 @@ hash = "90eff86dd87a980cabf0ed7e1eddfdcf5f8ea843bfa1777f1daad1d3a6746b4e"
 metafile = true
 
 [[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "29031642ce9abc223f2665a50940bd7a2cedfd5cfcf3124eb491685f06bfe7c0"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+hash = "daef210e9d3922c541bfa5e62acf19f30202682b143b651cb6c9959e6a53821d"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "efa23002a0bccfb52b58eba217cb7ced382e03d55c4cb766ab6f643451e760d5"
 metafile = true
@@ -77,6 +111,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "1bdf260b93529024685ade5d272bfeca5703b4a9fdb50bb86917e94834c60d8a"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "b3fed05c5f1ab83304f54ad12e42e05e17b3aaf93da7370e94ace9eb863ae890"
 metafile = true
 
 [[files]]
@@ -95,8 +134,23 @@ hash = "94a0ed0630ad6e53af1e317e86a195672f4627552fde677396ac94eefce6ffc6"
 metafile = true
 
 [[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "1678327ac50408273c1828b631929128d3fdfd54cda7b2e823ce9352495a68ff"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "7e9ef26310359f482e595815664b3d08381b30c6517c32a58078b0999e1d953a"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "fdbd4671e4603cbbb0aad97dab3eda4645e16e180e639f16de850c477e178bf1"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "e8ffbf5788712fac841e1bb0bff8969697f99be47d6f1c3f41ebe9ac965016d3"
 metafile = true
 
 [[files]]
@@ -120,8 +174,18 @@ hash = "832184ddd91539e06f1e176eed000a59c4a9ee81aa0447c4caedf98dc6c0f192"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+hash = "f1a2d3a570a6ce0722f0136b4b57371fc067ad7f329e1df9cd3cd765619ac759"
+metafile = true
+
+[[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "5d4bbcd654e3dec83adfbed0c39a29614fbf8aee254b684e93585e787348f604"
+metafile = true
+
+[[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8c65958007f81cdf1a57dac999ec7ffdde17cce6154c9a2f75bbb389fd11efbf"
 metafile = true
 
 [[files]]

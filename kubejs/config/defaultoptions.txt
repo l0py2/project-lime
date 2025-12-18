@@ -1,0 +1,14 @@
+version:3465
+enableVsync:false
+fov:0.375
+gamma:1.0
+renderDistance:16
+simulationDistance:8
+autoJump:false
+mouseSensitivity:0.25
+rawMouseInput:true
+soundCategory_master:0.25
+soundCategory_music:0.1
+soundCategory_record:0.1
+soundCategory_weather:0.1
+soundCategory_ambient:0.1
