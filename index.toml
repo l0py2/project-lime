@@ -121,6 +121,10 @@ file = "config/openloader/data/project-lime-structures/pack.mcmeta"
 hash = "b655a4a2e37765466c88dc3f9981c34fd6a69d60a3fc0cdc3790a0e61a3457fd"
 
 [[files]]
+file = "defaultconfigs/hourglass-server.toml"
+hash = "5b7e4e4e1096d01659ea443f52ddd5550f27e1146e69d9be6c7b6892213adea2"
+
+[[files]]
 file = "kubejs/client_scripts/standardize.js"
 hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
 
@@ -256,6 +260,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "b3fed05c5f1ab83304f54ad12e42e05e17b3aaf93da7370e94ace9eb863ae890"
+metafile = true
+
+[[files]]
+file = "mods/hourglass.pw.toml"
+hash = "fbb371c2bb573d6d84600f10937f535b7f19f7df6e536f25b7b4e46471c32904"
 metafile = true
 
 [[files]]

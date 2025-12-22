@@ -8,6 +8,8 @@
 
 ## Configured mods
 
+- [Hourglass](https://www.curseforge.com/minecraft/mc-mods/hourglass)
+
 ## Added mods
 
 - [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified)
@@ -51,7 +53,6 @@
 - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
 
 - [Woodworks](https://www.curseforge.com/minecraft/mc-mods/woodworks)
-- [Hourglass](https://www.curseforge.com/minecraft/mc-mods/hourglass)
 - [Forgery](https://www.curseforge.com/minecraft/mc-mods/forgery)
 
 ## Description
