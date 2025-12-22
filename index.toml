@@ -121,8 +121,52 @@ file = "config/openloader/data/project-lime-structures/pack.mcmeta"
 hash = "b655a4a2e37765466c88dc3f9981c34fd6a69d60a3fc0cdc3790a0e61a3457fd"
 
 [[files]]
+file = "kubejs/client_scripts/standardize.js"
+hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "69d47ca5467ee3fb46f822c5ed40a57966c2a9edebf127555412c6ac9db4b74d"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "6e04da81e84b9d85af474d2e527466231908ba1df7f4855e875fb818e9f78a5a"
+
+[[files]]
 file = "kubejs/config/defaultoptions.txt"
 hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
+
+[[files]]
+file = "kubejs/server_scripts/progression/basic-recipes.js"
+hash = "639fca8cb40f97880ac6e18766ee710629413e7c15259018813f03c9a21fb76c"
+
+[[files]]
+file = "kubejs/server_scripts/progression/blast-furnace-recipes.js"
+hash = "d0777833d97817319f76396b33c61883d45c30fbb05641a7505d931921f36e06"
+
+[[files]]
+file = "kubejs/server_scripts/progression/smoker-recipes.js"
+hash = "f37dccdbc44266baabc8c2a8db12c06bf3078bfffac13b6e10c0a3b8d3189e27"
+
+[[files]]
+file = "kubejs/server_scripts/quality-of-life/recipes.js"
+hash = "76873312ee97d9d193365a7ef369c9cac8e000176fbd00c43358eec46553ab52"
+
+[[files]]
+file = "kubejs/server_scripts/standardize.js"
+hash = "caab7636463d8e7b2a8fa4634a793c751931bf3ac7a84b4d495d786425721cb4"
+
+[[files]]
+file = "kubejs/startup_scripts/identifiers.js"
+hash = "d38ba460d02fe44f614a7b88379dbd7f35721962eb87513be9de328754abd671"
+
+[[files]]
+file = "kubejs/startup_scripts/recipes.js"
+hash = "7425c6d2688ada60db6fb7146baebe308adda04f7cc5f17c55c6a439d85bf31a"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize.js"
+hash = "ed1e3e28eb605f9ec9cdff9d692a99f666805a0c61a1f35720681da22bb27a75"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
