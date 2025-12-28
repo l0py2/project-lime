@@ -149,6 +149,10 @@ file = "kubejs/server_scripts/progression/blast-furnace-recipes.js"
 hash = "d0777833d97817319f76396b33c61883d45c30fbb05641a7505d931921f36e06"
 
 [[files]]
+file = "kubejs/server_scripts/progression/cutting/wood.js"
+hash = "0b9ba26c3df4bdf79908a474cbe029637b1bbe83d705f2d147fadb474cd5ba87"
+
+[[files]]
 file = "kubejs/server_scripts/progression/smoker-recipes.js"
 hash = "f37dccdbc44266baabc8c2a8db12c06bf3078bfffac13b6e10c0a3b8d3189e27"
 
@@ -158,11 +162,11 @@ hash = "76873312ee97d9d193365a7ef369c9cac8e000176fbd00c43358eec46553ab52"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "caab7636463d8e7b2a8fa4634a793c751931bf3ac7a84b4d495d786425721cb4"
+hash = "dc99a08d0d0c4d811850155c551115a8b0655b1206de45fc5adf5229b548f1c8"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "d38ba460d02fe44f614a7b88379dbd7f35721962eb87513be9de328754abd671"
+hash = "c49a8aedc6b386549376ec77e7782e6b0019079e13597c637dccbecbf65b33e8"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
@@ -195,6 +199,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "f787e4fceef3b671dd9fa26707cdd879500dd75af9f401e2a33241c54583f8a7"
+metafile = true
+
+[[files]]
+file = "mods/blueprint.pw.toml"
+hash = "790de162313fcbe950496580db107eb8da2ae29060cbf611764d1bb352461d03"
 metafile = true
 
 [[files]]
@@ -345,4 +354,9 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "e461c1d7534ab618fc1ff30071f4342b1de2bd8037b8ee0238530c7552c32b07"
+metafile = true
+
+[[files]]
+file = "mods/woodworks.pw.toml"
+hash = "bd3e31f8c53d1e7ed9c1c513d1749c0e28b5c25b5fa07000b69242e9f322a786"
 metafile = true

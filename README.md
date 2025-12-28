@@ -46,13 +46,14 @@
 - [EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores)
 - [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config)
 - [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)
+- [Woodworks](https://www.curseforge.com/minecraft/mc-mods/woodworks)
+- [Blueprint](https://www.curseforge.com/minecraft/mc-mods/blueprint)
 
 ## Planned mods
 
 - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
 - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
 
-- [Woodworks](https://www.curseforge.com/minecraft/mc-mods/woodworks)
 - [Forgery](https://www.curseforge.com/minecraft/mc-mods/forgery)
 
 ## Description

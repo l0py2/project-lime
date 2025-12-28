@@ -1,7 +1,7 @@
 //priority: 100
 
 LootJS.modifiers(event => {
-	if(global.dropReplacements.length == 0 || global.removedItems.length == 0) {
+	if(global.dropReplacements.length == 0 && global.removedItems.length == 0) {
 		return;
 	}
 	
