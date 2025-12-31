@@ -141,23 +141,23 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
 [[files]]
-file = "kubejs/server_scripts/progression/basic-recipes.js"
-hash = "639fca8cb40f97880ac6e18766ee710629413e7c15259018813f03c9a21fb76c"
+file = "kubejs/server_scripts/recipes/cutting/wood.js"
+hash = "292aa03f4016eb0af86dae9742d642b47c951a404fd740a561a9456a293d5658"
 
 [[files]]
-file = "kubejs/server_scripts/progression/blast-furnace-recipes.js"
+file = "kubejs/server_scripts/recipes/heating/blast-furnace.js"
 hash = "d0777833d97817319f76396b33c61883d45c30fbb05641a7505d931921f36e06"
 
 [[files]]
-file = "kubejs/server_scripts/progression/cutting/wood.js"
-hash = "0b9ba26c3df4bdf79908a474cbe029637b1bbe83d705f2d147fadb474cd5ba87"
-
-[[files]]
-file = "kubejs/server_scripts/progression/smoker-recipes.js"
+file = "kubejs/server_scripts/recipes/heating/smoker.js"
 hash = "f37dccdbc44266baabc8c2a8db12c06bf3078bfffac13b6e10c0a3b8d3189e27"
 
 [[files]]
-file = "kubejs/server_scripts/quality-of-life/recipes.js"
+file = "kubejs/server_scripts/recipes/progression.js"
+hash = "639fca8cb40f97880ac6e18766ee710629413e7c15259018813f03c9a21fb76c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/quality-of-life.js"
 hash = "76873312ee97d9d193365a7ef369c9cac8e000176fbd00c43358eec46553ab52"
 
 [[files]]
@@ -174,7 +174,7 @@ hash = "7425c6d2688ada60db6fb7146baebe308adda04f7cc5f17c55c6a439d85bf31a"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "ed1e3e28eb605f9ec9cdff9d692a99f666805a0c61a1f35720681da22bb27a75"
+hash = "e106f1c9cd6d0a4b906c1bb2d2c7fe46b5d14c37ac87244b1080dd1046d9eb6d"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

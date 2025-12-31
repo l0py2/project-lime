@@ -1,7 +1,8 @@
 //priority: 98
 
 global.removedItems = [
-	global.id.MC('furnace')
+	global.id.MC('furnace'),
+	global.id.WW('sawmill')
 ];
 
 global.removedRecipeTypes = [
