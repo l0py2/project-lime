@@ -141,8 +141,16 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/global.js"
+hash = "2c9e7ebce2734d21db1eb9157b048d98c5c3dd39625f818c94c2e85ceb18f40f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stone.js"
+hash = "57e4b1a2ab0c04ac9bc1cf8959c9c1980a1b7345cd95c81a5ad74849b30d82b1"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
-hash = "292aa03f4016eb0af86dae9742d642b47c951a404fd740a561a9456a293d5658"
+hash = "a785020ce2d2c8dc4aa991c87151c7898f6d8c96d2b5ceedd40fa29bd8215f9e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/blast-furnace.js"
