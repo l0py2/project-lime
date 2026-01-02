@@ -146,7 +146,7 @@ hash = "2c9e7ebce2734d21db1eb9157b048d98c5c3dd39625f818c94c2e85ceb18f40f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "698ed47609ed12d376ceed3a8b09ae0216b2b4fcff30c57c79a7415f2b8707f2"
+hash = "dae5b0fed23c47c4624fa5ecb2cb91bde2128afe69d665e6c96147742a74fc01"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"

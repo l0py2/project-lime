@@ -1,151 +1,233 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
-	function createStoneBlock(mod, name, material) {
+	function createBaseStone(mod, name, material) {
 		return {
-			prefix: global.id[mod](''),
+			mod: mod,
 			name: name,
 			material: material == undefined ? name : material
 		};
 	}
-	
-	function createStoneBlockVariant(mod, name, value) {
+
+	function createStoneVariant(mod, blockFormat, materialFormat) {
 		return {
-			prefix: global.id[mod](''),
+			mod: mod,
+			blockFormat: blockFormat,
+			materialFormat: materialFormat == undefined ? blockFormat : materialFormat
+		};
+	}
+
+	function createStoneType(mod, name, value) {
+		return {
+			mod: mod,
 			name: name,
 			value: value
 		};
 	}
-	
-	function createStoneBlockGroup(baseStoneBlock, variants) {
-		return {
-			baseStoneBlock: baseStoneBlock,
-			variants: variants
-		};
-	}
-	
-	function addStoneBlockGroupRecipes(stoneBlockGroup) {
-		let baseBlock = `${stoneBlockGroup.baseStoneBlock.prefix}${stoneBlockGroup.baseStoneBlock.name}`;
-		
-		for(const variant of stoneBlockGroup.variants) {
-			let resultBlock = `${variant.prefix}${stoneBlockGroup.baseStoneBlock.material}_${variant.name}`;
-			
-			event.remove({ output: resultBlock });
-			
-			event.stonecutting(
-				Item.of(resultBlock, variant.value),
-				baseBlock
-			);
-		}
-	}
-	
-	function addStoneBlockConversionRecipes(stoneBlockGroup) {
-		for(let i = 0; i < stoneBlockGroup.length; i++) {
-			event.remove({ output: stoneBlockGroup[i] });
-			
+
+	function addStoneListConversionRecipes(stones) {
+		for(let i = 0; i < stones.length; i++) {
+			event.remove({ output: stones[i] });
+
 			// Blocks before the current
 			for(let j = 0; j < i; j++) {
 				event.stonecutting(
-					stoneBlockGroup[i],
-					stoneBlockGroup[j]
+					stones[i],
+					stones[j]
 				);
 			}
-			
+
 			// Blocks after ther current
-			for(let j = i + 1; j < stoneBlockGroup.length; j++) {
+			for(let j = i + 1; j < stones.length; j++) {
 				event.stonecutting(
-					stoneBlockGroup[i],
-					stoneBlockGroup[j]
+					stones[i],
+					stones[j]
 				);
 			}
 		}
 	}
-	
-	const createVariants = [
-		createStoneBlockVariant('CR', 'slab', 2),
-		createStoneBlockVariant('CR', 'stairs', 1),
-		createStoneBlockVariant('CR', 'wall', 1)
+
+	function addStoneGroupConversionRecipes(baseStones, stoneVariants) {
+		for(const baseStone of baseStones) {
+			let stones = [];
+
+			stones.push(global.id[baseStone.mod](baseStone.name));
+
+			for(const stoneVariant of stoneVariants) {
+				stones.push(global.id[stoneVariant.mod](stoneVariant.blockFormat(baseStone.material)));
+			}
+
+			addStoneListConversionRecipes(stones);
+		}
+	}
+
+	function addStoneRecipes(stones, stoneTypes) {
+		for(const stone of stones) {
+			let baseBlock = global.id[stone.mod](stone.name);
+			let material = stone.material;
+
+			for(const stoneType of stoneTypes) {
+				let resultBlock = global.id[stoneType.mod](`${material}_${stoneType.name}`);
+
+				event.remove({ output: resultBlock });
+
+				event.stonecutting(
+					Item.of(resultBlock, stoneType.value),
+					baseBlock
+				);
+			}
+		}
+	}
+
+	function addStoneGroupRecipes(stones, stoneVariants, stoneTypes) {
+		for(const stone of stones) {
+			for(const stoneVariant of stoneVariants) {
+				let baseBlock = global.id[stoneVariant.mod](stoneVariant.blockFormat(stone.material));
+				let material = stoneVariant.materialFormat(stone.material);
+
+				for(const stoneType of stoneTypes) {
+					let resultBlock = global.id[stoneType.mod](`${material}_${stoneType.name}`);
+
+					event.remove({ output: resultBlock });
+
+					event.stonecutting(
+						Item.of(resultBlock, stoneType.value),
+						baseBlock
+					);
+				}
+			}
+		}
+	}
+
+	const vanillaStones = [
+		createBaseStone('MC', 'granite'),
+		createBaseStone('MC', 'diorite'),
+		createBaseStone('MC', 'andesite')
+	];
+
+	const vanillaCobbleStones = [
+		createBaseStone('MC', 'cobblestone'),
+		createBaseStone('MC', 'mossy_cobblestone'),
+		createBaseStone('MC', 'cobbled_deepslate'),
+		createBaseStone('MC', 'blackstone')
 	];
 	
-	const vanillaVariants = [
-		createStoneBlockVariant('MC', 'slab', 2),
-		createStoneBlockVariant('MC', 'stairs', 1),
-		createStoneBlockVariant('MC', 'wall', 1)
+	const vanillaSimpleStones = [
+		createBaseStone('MC', 'stone')
 	];
 	
-	const incompleteVanillaVariants = [
-		createStoneBlockVariant('MC', 'slab', 2),
-		createStoneBlockVariant('MC', 'stairs', 1)
+	const vanillaDeepStones = [
+		createBaseStone('MC', 'deepslate')
 	];
 	
-	const stoneBlockGroups = [];
+	const vanillaBlackStones = [
+		createBaseStone('MC', 'blackstone')
+	]
+
+	const createStones = [
+		createBaseStone('MC', 'granite'),
+		createBaseStone('MC', 'diorite'),
+		createBaseStone('MC', 'andesite'),
+		createBaseStone('MC', 'calcite'),
+		createBaseStone('MC', 'dripstone_block', 'dripstone'),
+		createBaseStone('MC', 'deepslate'),
+		createBaseStone('MC', 'tuff'),
+		createBaseStone('CR', 'asurine'),
+		createBaseStone('CR', 'crimsite'),
+		createBaseStone('CR', 'limestone'),
+		createBaseStone('CR', 'ochrum'),
+		createBaseStone('CR', 'scoria'),
+		createBaseStone('CR', 'scorchia'),
+		createBaseStone('CR', 'veridium')
+	];
+
+	const vanillaPolishedVaraints = [
+		createStoneVariant('MC', (material) => `polished_${material}`)
+	];
 	
+	const vanillaSimpleStoneVariants = [
+		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		createStoneVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`)
+	];
+	
+	const vanillaFullSimpleStoneVariants = [
+		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		createStoneVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`),
+		createStoneVariant('MC', (material) => `chiseled_${material}_bricks`, (material) => `chiseled_${material}_brick`),
+		createStoneVariant('MC', (material) => `smooth_${material}`)
+	];
+
+	const vanillaDeepStoneVariants = [
+		createStoneVariant('MC', (material) => `polished_${material}`),
+		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		createStoneVariant('MC', (material) => `${material}_tiles`, (material) => `${material}_tile`)
+	];
+
+	const vanillaFullDeepStoneVariants = [
+		createStoneVariant('MC', (material) => `chiseled_${material}`),
+		createStoneVariant('MC', (material) => `polished_${material}`),
+		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		createStoneVariant('MC', (material) => `cracked_${material}_bricks`, (material) => `cracked_${material}_brick`),
+		createStoneVariant('MC', (material) => `${material}_tiles`),
+		createStoneVariant('MC', (material) => `cracked_${material}_tiles`)
+	];
+	
+	const vanillaBlackStoneVariants = [
+		createStoneVariant('MC', (material) => `polished_${material}`),
+		createStoneVariant('MC', (material) => `polished_${material}_bricks`, (material) => `polished_${material}_brick`)
+	];
+	
+	const vanillaFullBlackStoneVariants = [
+		createStoneVariant('MC', (material) => `polished_${material}`),
+		createStoneVariant('MC', (material) => `polished_${material}_bricks`, (material) => `polished_${material}_brick`),
+		createStoneVariant('MC', (material) => `cracked_polished_${material}_bricks`, (material) => `polished_${material}_brick`),
+		createStoneVariant('MC', (material) => `chiseled_polished_${material}`),
+	];
+
+	const createStoneVariants = [
+		createStoneVariant('CR', (material) => `cut_${material}`),
+		createStoneVariant('CR', (material) => `polished_cut_${material}`),
+		createStoneVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
+		createStoneVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`)
+	];
+
+	const fullCreateStoneVariants = [
+		createStoneVariant('CR', (material) => `layered_${material}`),
+		createStoneVariant('CR', (material) => `cut_${material}`),
+		createStoneVariant('CR', (material) => `polished_cut_${material}`),
+		createStoneVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
+		createStoneVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`),
+		createStoneVariant('CR', (material) => `${material}_pillar`)
+	];
+
 	const vanillaStoneTypes = [
-		createStoneBlock('MC', 'granite'),
-		createStoneBlock('MC', 'diorite'),
-		createStoneBlock('MC', 'andesite')
+		createStoneType('MC', 'slab', 2),
+		createStoneType('MC', 'stairs', 1),
+		createStoneType('MC', 'wall', 1)
 	];
-	
-	for(const stoneType of vanillaStoneTypes) {
-		stoneBlockGroups.push(createStoneBlockGroup(stoneType, vanillaVariants));
-		stoneBlockGroups.push(createStoneBlockGroup(createStoneBlock('MC', `polished_${stoneType.material}`), incompleteVanillaVariants));
-	}
-	
-	const cobbleStoneTypes = [
-		createStoneBlock('MC', 'cobblestone'),
-		createStoneBlock('MC', 'cobbled_deepslate'),
-		createStoneBlock('MC', 'mossy_cobblestone')
+
+	const incompleteVanillaStoneTypes = [
+		createStoneType('MC', 'slab', 2),
+		createStoneType('MC', 'stairs', 1)
 	];
-	
-	for(const stoneType of cobbleStoneTypes) {
-		stoneBlockGroups.push(createStoneBlockGroup(stoneType, vanillaVariants));
-	}
-	
+
 	const createStoneTypes = [
-		createStoneBlock('MC', 'granite'),
-		createStoneBlock('MC', 'diorite'),
-		createStoneBlock('MC', 'andesite'),
-		createStoneBlock('MC', 'calcite'),
-		createStoneBlock('MC', 'dripstone_block', 'dripstone'),
-		createStoneBlock('MC', 'deepslate'),
-		createStoneBlock('MC', 'tuff'),
-		createStoneBlock('CR', 'asurine'),
-		createStoneBlock('CR', 'crimsite'),
-		createStoneBlock('CR', 'limestone'),
-		createStoneBlock('CR', 'ochrum'),
-		createStoneBlock('CR', 'scoria'),
-		createStoneBlock('CR', 'scorchia'),
-		createStoneBlock('CR', 'veridium')
+		createStoneType('CR', 'slab', 2),
+		createStoneType('CR', 'stairs', 1),
+		createStoneType('CR', 'wall', 1)
 	];
-	
-	for(const stoneType of createStoneTypes) {		
-		stoneBlockGroups.push(createStoneBlockGroup(createStoneBlock('CR', `cut_${stoneType.material}`), createVariants));
-		stoneBlockGroups.push(createStoneBlockGroup(createStoneBlock('CR', `polished_cut_${stoneType.material}`), createVariants));
-		stoneBlockGroups.push(createStoneBlockGroup(createStoneBlock('CR', `cut_${stoneType.material}_bricks`, `cut_${stoneType.material}_brick`), createVariants));
-		stoneBlockGroups.push(createStoneBlockGroup(createStoneBlock('CR', `small_${stoneType.material}_bricks`, `small_${stoneType.material}_brick`), createVariants));
-	}
-	
-	for(const stoneBlockGroup of stoneBlockGroups) {
-		addStoneBlockGroupRecipes(stoneBlockGroup);
-	}
-	
-	const stoneConversionGroups = [];
-	
-	for(const stoneType of createStoneTypes) {
-		let group = [];
-		
-		group.push(`${stoneType.prefix}${stoneType.name}`);
-		group.push(global.id.CR(`layered_${stoneType.material}`));
-		group.push(global.id.CR(`cut_${stoneType.material}`));
-		group.push(global.id.CR(`polished_cut_${stoneType.material}`));
-		group.push(global.id.CR(`cut_${stoneType.material}_bricks`));
-		group.push(global.id.CR(`small_${stoneType.material}_bricks`));
-		group.push(global.id.CR(`${stoneType.material}_pillar`));
-		
-		stoneConversionGroups.push(group);
-	}
-	
-	for(const stoneConversionGroup of stoneConversionGroups) {
-		addStoneBlockConversionRecipes(stoneConversionGroup);
-	}
+
+	addStoneGroupConversionRecipes(vanillaStones, vanillaPolishedVaraints);
+	addStoneGroupConversionRecipes(vanillaSimpleStones, vanillaFullSimpleStoneVariants);
+	addStoneGroupConversionRecipes(vanillaDeepStones, vanillaFullDeepStoneVariants);
+	addStoneGroupConversionRecipes(vanillaBlackStones, vanillaFullBlackStoneVariants);
+	addStoneGroupConversionRecipes(createStones, fullCreateStoneVariants);
+
+	addStoneRecipes(vanillaStones, vanillaStoneTypes);
+	addStoneRecipes(vanillaCobbleStones, vanillaStoneTypes);
+	addStoneGroupRecipes(vanillaStones, vanillaPolishedVaraints, incompleteVanillaStoneTypes);
+	addStoneGroupRecipes(vanillaSimpleStones, vanillaSimpleStoneVariants, vanillaStoneTypes);
+	addStoneGroupRecipes(vanillaDeepStones, vanillaDeepStoneVariants, vanillaStoneTypes);
+	addStoneGroupRecipes(vanillaBlackStones, vanillaBlackStoneVariants, vanillaStoneTypes);
+	addStoneGroupRecipes(createStones, createStoneVariants, createStoneTypes);
 });
