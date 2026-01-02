@@ -15,6 +15,8 @@ ServerEvents.recipes(event => {
 	function addWoodBlockRecipes(woodBlock, woodType, logType) {
 		let resultBlock = `${woodBlock.prefix}${woodType}_${woodBlock.type}`;
 
+		event.remove({ output: resultBlock });
+
 		if(Math.trunc(woodBlock.value) >= 1) {
 			event.stonecutting(
 				Item.of(resultBlock, Math.trunc(woodBlock.value)),
@@ -26,8 +28,6 @@ ServerEvents.recipes(event => {
 			Item.of(resultBlock, Math.trunc(woodBlock.value * logValue)),
 			global.tag.MC(`${woodType}_${logType}`)
 		);
-
-		event.remove({ output: resultBlock });
 	}
 
 	const woodTypes = [
@@ -97,9 +97,9 @@ ServerEvents.recipes(event => {
 	// All ladder types except oak
 	woodTypes.pop();
 	
+	event.remove({ output: global.id.MC('ladder') });
 	event.stonecutting(global.id.MC('ladder'), global.id.MC('oak_planks'));
 	event.stonecutting(Item.of(global.id.MC('ladder'), logValue), global.tag.MC('oak_logs'));
-	event.remove({ output: global.id.MC('ladder') });
 
 	for(const woodType of woodTypes) {
 		addWoodBlockRecipes(ladder, woodType, 'logs');

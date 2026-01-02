@@ -146,11 +146,11 @@ hash = "2c9e7ebce2734d21db1eb9157b048d98c5c3dd39625f818c94c2e85ceb18f40f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "57e4b1a2ab0c04ac9bc1cf8959c9c1980a1b7345cd95c81a5ad74849b30d82b1"
+hash = "698ed47609ed12d376ceed3a8b09ae0216b2b4fcff30c57c79a7415f2b8707f2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
-hash = "a785020ce2d2c8dc4aa991c87151c7898f6d8c96d2b5ceedd40fa29bd8215f9e"
+hash = "36d0cf2e1b1786e89acd2683c6148b465d4ff41b8ed5bf5c0eb0fd6e4d417c42"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/blast-furnace.js"
