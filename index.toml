@@ -141,6 +141,10 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/copper.js"
+hash = "1eb2c1aca8bfcab377e9f87633f0d858c15a2e864afe95f78483eb6193465df5"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
 hash = "2c9e7ebce2734d21db1eb9157b048d98c5c3dd39625f818c94c2e85ceb18f40f"
 
