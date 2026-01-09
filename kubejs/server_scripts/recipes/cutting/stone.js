@@ -1,30 +1,6 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
-	function createBaseStone(mod, name, material) {
-		return {
-			mod: mod,
-			name: name,
-			material: material == undefined ? name : material
-		};
-	}
-
-	function createStoneVariant(mod, blockFormat, materialFormat) {
-		return {
-			mod: mod,
-			blockFormat: blockFormat,
-			materialFormat: materialFormat == undefined ? blockFormat : materialFormat
-		};
-	}
-
-	function createStoneType(mod, name, value) {
-		return {
-			mod: mod,
-			name: name,
-			value: value
-		};
-	}
-
 	function addStoneListConversionRecipes(stones) {
 		for(let i = 0; i < stones.length; i++) {
 			event.remove({ output: stones[i] });
@@ -100,121 +76,121 @@ ServerEvents.recipes(event => {
 	}
 
 	const vanillaStones = [
-		createBaseStone('MC', 'granite'),
-		createBaseStone('MC', 'diorite'),
-		createBaseStone('MC', 'andesite')
+		global.cutting.createBaseBlock('MC', 'granite'),
+		global.cutting.createBaseBlock('MC', 'diorite'),
+		global.cutting.createBaseBlock('MC', 'andesite')
 	];
 
 	const vanillaCobbleStones = [
-		createBaseStone('MC', 'cobblestone'),
-		createBaseStone('MC', 'mossy_cobblestone'),
-		createBaseStone('MC', 'cobbled_deepslate'),
-		createBaseStone('MC', 'blackstone')
+		global.cutting.createBaseBlock('MC', 'cobblestone'),
+		global.cutting.createBaseBlock('MC', 'mossy_cobblestone'),
+		global.cutting.createBaseBlock('MC', 'cobbled_deepslate'),
+		global.cutting.createBaseBlock('MC', 'blackstone')
 	];
 	
 	const vanillaSimpleStones = [
-		createBaseStone('MC', 'stone')
+		global.cutting.createBaseBlock('MC', 'stone')
 	];
 	
 	const vanillaDeepStones = [
-		createBaseStone('MC', 'deepslate')
+		global.cutting.createBaseBlock('MC', 'deepslate')
 	];
 	
 	const vanillaBlackStones = [
-		createBaseStone('MC', 'blackstone')
+		global.cutting.createBaseBlock('MC', 'blackstone')
 	]
 
 	const createStones = [
-		createBaseStone('MC', 'granite'),
-		createBaseStone('MC', 'diorite'),
-		createBaseStone('MC', 'andesite'),
-		createBaseStone('MC', 'calcite'),
-		createBaseStone('MC', 'dripstone_block', 'dripstone'),
-		createBaseStone('MC', 'deepslate'),
-		createBaseStone('MC', 'tuff'),
-		createBaseStone('CR', 'asurine'),
-		createBaseStone('CR', 'crimsite'),
-		createBaseStone('CR', 'limestone'),
-		createBaseStone('CR', 'ochrum'),
-		createBaseStone('CR', 'scoria'),
-		createBaseStone('CR', 'scorchia'),
-		createBaseStone('CR', 'veridium')
+		global.cutting.createBaseBlock('MC', 'granite'),
+		global.cutting.createBaseBlock('MC', 'diorite'),
+		global.cutting.createBaseBlock('MC', 'andesite'),
+		global.cutting.createBaseBlock('MC', 'calcite'),
+		global.cutting.createBaseBlock('MC', 'dripstone_block', 'dripstone'),
+		global.cutting.createBaseBlock('MC', 'deepslate'),
+		global.cutting.createBaseBlock('MC', 'tuff'),
+		global.cutting.createBaseBlock('CR', 'asurine'),
+		global.cutting.createBaseBlock('CR', 'crimsite'),
+		global.cutting.createBaseBlock('CR', 'limestone'),
+		global.cutting.createBaseBlock('CR', 'ochrum'),
+		global.cutting.createBaseBlock('CR', 'scoria'),
+		global.cutting.createBaseBlock('CR', 'scorchia'),
+		global.cutting.createBaseBlock('CR', 'veridium')
 	];
 
 	const vanillaPolishedVaraints = [
-		createStoneVariant('MC', (material) => `polished_${material}`)
+		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`)
 	];
 	
 	const vanillaSimpleStoneVariants = [
-		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		createStoneVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`)
+		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`)
 	];
 	
 	const vanillaFullSimpleStoneVariants = [
-		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		createStoneVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`),
-		createStoneVariant('MC', (material) => `chiseled_${material}_bricks`, (material) => `chiseled_${material}_brick`),
-		createStoneVariant('MC', (material) => `smooth_${material}`)
+		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `chiseled_${material}_bricks`, (material) => `chiseled_${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `smooth_${material}`)
 	];
 
 	const vanillaDeepStoneVariants = [
-		createStoneVariant('MC', (material) => `polished_${material}`),
-		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		createStoneVariant('MC', (material) => `${material}_tiles`, (material) => `${material}_tile`)
+		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`),
+		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `${material}_tiles`, (material) => `${material}_tile`)
 	];
 
 	const vanillaFullDeepStoneVariants = [
-		createStoneVariant('MC', (material) => `chiseled_${material}`),
-		createStoneVariant('MC', (material) => `polished_${material}`),
-		createStoneVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		createStoneVariant('MC', (material) => `cracked_${material}_bricks`, (material) => `cracked_${material}_brick`),
-		createStoneVariant('MC', (material) => `${material}_tiles`),
-		createStoneVariant('MC', (material) => `cracked_${material}_tiles`)
+		global.cutting.createBlockVariant('MC', (material) => `chiseled_${material}`),
+		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`),
+		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `cracked_${material}_bricks`, (material) => `cracked_${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `${material}_tiles`),
+		global.cutting.createBlockVariant('MC', (material) => `cracked_${material}_tiles`)
 	];
 	
 	const vanillaBlackStoneVariants = [
-		createStoneVariant('MC', (material) => `polished_${material}`),
-		createStoneVariant('MC', (material) => `polished_${material}_bricks`, (material) => `polished_${material}_brick`)
+		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`),
+		global.cutting.createBlockVariant('MC', (material) => `polished_${material}_bricks`, (material) => `polished_${material}_brick`)
 	];
 	
 	const vanillaFullBlackStoneVariants = [
-		createStoneVariant('MC', (material) => `polished_${material}`),
-		createStoneVariant('MC', (material) => `polished_${material}_bricks`, (material) => `polished_${material}_brick`),
-		createStoneVariant('MC', (material) => `cracked_polished_${material}_bricks`, (material) => `polished_${material}_brick`),
-		createStoneVariant('MC', (material) => `chiseled_polished_${material}`),
+		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`),
+		global.cutting.createBlockVariant('MC', (material) => `polished_${material}_bricks`, (material) => `polished_${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `cracked_polished_${material}_bricks`, (material) => `polished_${material}_brick`),
+		global.cutting.createBlockVariant('MC', (material) => `chiseled_polished_${material}`),
 	];
 
 	const createStoneVariants = [
-		createStoneVariant('CR', (material) => `cut_${material}`),
-		createStoneVariant('CR', (material) => `polished_cut_${material}`),
-		createStoneVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
-		createStoneVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`)
+		global.cutting.createBlockVariant('CR', (material) => `cut_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `polished_cut_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
+		global.cutting.createBlockVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`)
 	];
 
 	const fullCreateStoneVariants = [
-		createStoneVariant('CR', (material) => `layered_${material}`),
-		createStoneVariant('CR', (material) => `cut_${material}`),
-		createStoneVariant('CR', (material) => `polished_cut_${material}`),
-		createStoneVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
-		createStoneVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`),
-		createStoneVariant('CR', (material) => `${material}_pillar`)
+		global.cutting.createBlockVariant('CR', (material) => `layered_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `cut_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `polished_cut_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
+		global.cutting.createBlockVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`),
+		global.cutting.createBlockVariant('CR', (material) => `${material}_pillar`)
 	];
 
 	const vanillaStoneTypes = [
-		createStoneType('MC', 'slab', 2),
-		createStoneType('MC', 'stairs', 1),
-		createStoneType('MC', 'wall', 1)
+		global.cutting.createBlockType('MC', 'slab', 2),
+		global.cutting.createBlockType('MC', 'stairs', 1),
+		global.cutting.createBlockType('MC', 'wall', 1)
 	];
 
 	const incompleteVanillaStoneTypes = [
-		createStoneType('MC', 'slab', 2),
-		createStoneType('MC', 'stairs', 1)
+		global.cutting.createBlockType('MC', 'slab', 2),
+		global.cutting.createBlockType('MC', 'stairs', 1)
 	];
 
 	const createStoneTypes = [
-		createStoneType('CR', 'slab', 2),
-		createStoneType('CR', 'stairs', 1),
-		createStoneType('CR', 'wall', 1)
+		global.cutting.createBlockType('CR', 'slab', 2),
+		global.cutting.createBlockType('CR', 'stairs', 1),
+		global.cutting.createBlockType('CR', 'wall', 1)
 	];
 
 	addStoneGroupConversionRecipes(vanillaStones, vanillaPolishedVaraints);

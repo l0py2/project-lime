@@ -146,11 +146,11 @@ hash = "1eb2c1aca8bfcab377e9f87633f0d858c15a2e864afe95f78483eb6193465df5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "2c9e7ebce2734d21db1eb9157b048d98c5c3dd39625f818c94c2e85ceb18f40f"
+hash = "6609a25b4de5b91f64a765820ab6fbf92f191d2408ed60ab39c00e5426d5030c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "dae5b0fed23c47c4624fa5ecb2cb91bde2128afe69d665e6c96147742a74fc01"
+hash = "c587ef675ff73f9e53857cc030e1efb0b3c89d21734beed43243a90c889ca465"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
@@ -182,7 +182,7 @@ hash = "c49a8aedc6b386549376ec77e7782e6b0019079e13597c637dccbecbf65b33e8"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"
-hash = "7425c6d2688ada60db6fb7146baebe308adda04f7cc5f17c55c6a439d85bf31a"
+hash = "797fc0b670e31bac590eda0c7dec20d496757e4457349cc7ee1bcf9eeb62599e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
