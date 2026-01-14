@@ -1,177 +1,64 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
-	const copperIngot = global.id.MC('copper_ingot');
-	
-	const copperStates = [
-		'exposed',
-		'weathered',
-		'oxidized'
+	const states = [
+		'',
+		'exposed_',
+		'weathered_',
+		'oxidized_',
+		'waxed_',
+		'waxed_exposed_',
+		'waxed_weathered_',
+		'waxed_oxidized_'
 	];
-	
-	function createBaseCopperBlock(mod, baseName, format) {
-		return {
-			mod: mod,
-			baseName: baseName,
-			format: format
-		};
-	}
-	
-	function createCopperBlock(mod, format, value) {
-		return {
-			mod: mod,
-			format: format,
-			value: value
-		};
-	}
-	
-	function addCopperBlockListConversionRecipes(copperBlocks, copperStates) {
-		for(let i = 0; i < copperBlocks.length; i++) {
-			event.remove({ output: global.id[copperBlocks[i].mod](copperBlocks[i].baseName) });
-			
-			for(let j = 0; j < i; j++) {
-				event.stonecutting(
-					global.id[copperBlocks[i].mod](copperBlocks[i].baseName),
-					global.id[copperBlocks[j].mod](copperBlocks[j].baseName)
-				);
-			}
-			
-			for(let j = i + 1; j < copperBlocks.length; j++) {
-				event.stonecutting(
-					global.id[copperBlocks[i].mod](copperBlocks[i].baseName),
-					global.id[copperBlocks[j].mod](copperBlocks[j].baseName)
-				);
-			}
-			
-			event.remove({ output: global.id[copperBlocks[i].mod](`waxed_${copperBlocks[i].baseName}`) });
-			
-			for(let j = 0; j < i; j++) {
-				event.stonecutting(
-					global.id[copperBlocks[i].mod](`waxed_${copperBlocks[i].baseName}`),
-					global.id[copperBlocks[j].mod](`waxed_${copperBlocks[j].baseName}`)
-				);
-			}
-			
-			for(let j = i + 1; j < copperBlocks.length; j++) {
-				event.stonecutting(
-					global.id[copperBlocks[i].mod](`waxed_${copperBlocks[i].baseName}`),
-					global.id[copperBlocks[j].mod](`waxed_${copperBlocks[j].baseName}`)
-				);
-			}
-			
-			for(let copperState of copperStates) {
-				let state = `${copperState}`;
-				
-				event.remove({ output: global.id[copperBlocks[i].mod](copperBlocks[i].format(state)) });
-				
-				for(let j = 0; j < i; j++) {
-					event.stonecutting(
-						global.id[copperBlocks[i].mod](copperBlocks[i].format(state)),
-						global.id[copperBlocks[j].mod](copperBlocks[j].format(state))
-					);
-				}
-				
-				for(let j = i + 1; j < copperBlocks.length; j++) {
-					event.stonecutting(
-						global.id[copperBlocks[i].mod](copperBlocks[i].format(state)),
-						global.id[copperBlocks[j].mod](copperBlocks[j].format(state))
-					);
-				}
-				
-				state = `waxed_${copperState}`;
-				
-				event.remove({ output: global.id[copperBlocks[i].mod](copperBlocks[i].format(state)) });
-				
-				for(let j = 0; j < i; j++) {
-					event.stonecutting(
-						global.id[copperBlocks[i].mod](copperBlocks[i].format(state)),
-						global.id[copperBlocks[j].mod](copperBlocks[j].format(state))
-					);
-				}
-				
-				for(let j = i + 1; j < copperBlocks.length; j++) {
-					event.stonecutting(
-						global.id[copperBlocks[i].mod](copperBlocks[i].format(state)),
-						global.id[copperBlocks[j].mod](copperBlocks[j].format(state))
-					);
-				}
-			}
+
+	const vanillaVariants = [
+		global.cutting.createBlockVariant('MC', (state) => `${state}cut_copper`)
+	];
+
+	const createVariants = [
+		global.cutting.createBlockVariant('CR', (state) => `${state}copper_shingles`, (state) => `${state}copper_shingle`),
+		global.cutting.createBlockVariant('CR', (state) => `${state}copper_tiles`, (state) => `${state}copper_tile`)
+	];
+
+	const vanillaTypes = [
+		global.cutting.createBlockType('MC', 'slab', 2),
+		global.cutting.createBlockType('MC', 'stairs', 1)
+	];
+
+	const createTypes = [
+		global.cutting.createBlockType('CR', 'slab', 2),
+		global.cutting.createBlockType('CR', 'stairs', 1)
+	];
+
+	global.cutting.addCuttingGroupRecipes(event, states, vanillaVariants, vanillaTypes);
+	global.cutting.addCuttingGroupRecipes(event, states, createVariants, createTypes);
+
+	const copperBlockConversionGroups = [];
+
+	for(let i = 0; i < states.length; i++) {
+		copperBlockConversionGroups.push([]);
+
+		for(const variant of vanillaVariants) {
+			copperBlockConversionGroups[i].push(global.id[variant.mod](variant.blockFormat(states[i])));
+		}
+
+		for(const variant of createVariants) {
+			copperBlockConversionGroups[i].push(global.id[variant.mod](variant.blockFormat(states[i])));
 		}
 	}
-	
-	function addCopperBlockRecipes(baseCopperBlock, copperBlock, copperStates) {
-		let baseCopperBlockId = global.id[baseCopperBlock.mod](baseCopperBlock.baseName);
-		
-		let prefix = ``;
-		let resultBlock = global.id[copperBlock.mod](copperBlock.format(prefix));
-		
-		event.remove({ output: resultBlock });
-		
-		event.stonecutting(
-			Item.of(resultBlock, copperBlock.value),
-			baseCopperBlockId
-		);
-		
-		baseCopperBlockId = global.id[baseCopperBlock.mod](`waxed_${baseCopperBlock.baseName}`);
-		
-		prefix = `waxed_`;
-		resultBlock = global.id[copperBlock.mod](copperBlock.format(prefix));
-		
-		event.remove({ output: resultBlock });
-		
-		event.stonecutting(
-			Item.of(resultBlock, copperBlock.value),
-			baseCopperBlockId
-		);
-		
-		for(let copperState of copperStates) {
-			baseCopperBlockId = global.id[baseCopperBlock.mod](baseCopperBlock.format(copperState));
-			
-			prefix = `${copperState}_`;
-			resultBlock = global.id[copperBlock.mod](copperBlock.format(prefix));
-			
-			event.remove({ output: resultBlock });
-			
-			event.stonecutting(
-				Item.of(resultBlock, copperBlock.value),
-				baseCopperBlockId
-			);
-			
-			baseCopperBlockId = global.id[baseCopperBlock.mod](baseCopperBlock.format(`waxed_${copperState}`));
-			
-			prefix = `waxed_${copperState}_`;
-			resultBlock = global.id[copperBlock.mod](copperBlock.format(prefix));
-			
-			event.remove({ output: resultBlock });
-			
-			event.stonecutting(
-				Item.of(resultBlock, copperBlock.value),
-				baseCopperBlockId
-			);
-		}
-	}
-	
-	const baseCopperBlocks = [
-		createBaseCopperBlock('MC', 'copper_block', state => `${state}_copper`),
-		createBaseCopperBlock('MC', 'cut_copper', state => `${state}_cut_copper`),
-		createBaseCopperBlock('CR', 'copper_shingles', state => `${state}_copper_shingles`),
-		createBaseCopperBlock('CR', 'copper_tiles', state => `${state}_copper_tiles`)
-	];
-	
-	const copperBlocks = [
-		createCopperBlock('CR', prefix => `${prefix}copper_shingle_slab`, 2),
-		createCopperBlock('CR', prefix => `${prefix}copper_shingle_stairs`, 1),
-		createCopperBlock('CR', prefix => `${prefix}copper_tile_slab`, 2),
-		createCopperBlock('CR', prefix => `${prefix}copper_tile_stairs`, 1),
-		createCopperBlock('MC', prefix => `${prefix}cut_copper_slab`, 2),
-		createCopperBlock('MC', prefix => `${prefix}cut_copper_stairs`, 1)		
-	];
-	
-	addCopperBlockListConversionRecipes(baseCopperBlocks, copperStates);
-	
-	for(let baseCopperBlock of baseCopperBlocks) {
-		for(let copperBlock of copperBlocks) {
-			addCopperBlockRecipes(baseCopperBlock, copperBlock, copperStates);
-		}
+
+	// Vanilla copper block
+	copperBlockConversionGroups[0].push(global.id.MC('copper_block'));
+	copperBlockConversionGroups[1].push(global.id.MC('exposed_copper'));
+	copperBlockConversionGroups[2].push(global.id.MC('weathered_copper'));
+	copperBlockConversionGroups[3].push(global.id.MC('oxidized_copper'));
+	copperBlockConversionGroups[4].push(global.id.MC('waxed_copper_block'));
+	copperBlockConversionGroups[5].push(global.id.MC('waxed_exposed_copper'));
+	copperBlockConversionGroups[6].push(global.id.MC('waxed_weathered_copper'));
+	copperBlockConversionGroups[7].push(global.id.MC('waxed_oxidized_copper'));
+
+	for(let group of copperBlockConversionGroups) {
+		global.cutting.addCuttingConversionRecipes(event, group);
 	}
 });
