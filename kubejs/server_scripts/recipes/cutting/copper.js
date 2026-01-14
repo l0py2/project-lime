@@ -61,4 +61,9 @@ ServerEvents.recipes(event => {
 	for(let group of copperBlockConversionGroups) {
 		global.cutting.addCuttingConversionRecipes(event, group);
 	}
+
+	event.shapeless(
+		global.id.MC('copper_block'),
+		[Item.of(global.tag.M('ingots/copper'), 9)]
+	);
 });

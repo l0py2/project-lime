@@ -142,7 +142,7 @@ hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/copper.js"
-hash = "c57415d30a5d91170522f1473dcb037ade07338042a6aa85413c08f457e8da32"
+hash = "021802a3c8c8647c6577d4c8f9abb2b602fe05d88a15652fc76098e52c381d03"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
