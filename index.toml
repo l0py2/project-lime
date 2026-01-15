@@ -141,20 +141,36 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/andesite-alloy.js"
+hash = "079033bd7356da84baed3d449449a38e66712b7a691e97342002c008b0c89756"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/brass.js"
+hash = "8a538e4ac2f15e2ea577c1d996d27e2b4e8f8bb61cb2dd32a283354a4535c5e3"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/copper.js"
-hash = "021802a3c8c8647c6577d4c8f9abb2b602fe05d88a15652fc76098e52c381d03"
+hash = "f449a9e9e2e995d7cde16aae02e9ffcef0db2bee30794be69f256fca4bb4103f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "bed0ca3331f4b0b8ed532cc8c8d81e74261e1d88fa2bc955f7862f8a4931e87f"
+hash = "88242a721e2c4e7ad7003fd6bdd1a555d46930ffa9ea2c6b1da87508e38ac099"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/iron.js"
+hash = "e1cbcc589340efd4deef5e278fd7c11b1e19687e5c2d5ae3948927915118d69b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "57cb01849ec913c27ba8b9f58558c45c9d3966a7bdcf9c649ea691bb132c6082"
+hash = "6e09bed06cd7908d57322ca9a8297c5bab6c4068a6b1b8ae2e3d2fb628503c75"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
-hash = "36d0cf2e1b1786e89acd2683c6148b465d4ff41b8ed5bf5c0eb0fd6e4d417c42"
+hash = "193636cd1354d0ba618f6d1db896d874ed0d9599b71ed5751fb1158239ce9511"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/zinc.js"
+hash = "4729cbdb092cbbbb78b73365574b18e653d525469d75a0243f4e59d55650f758"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/blast-furnace.js"

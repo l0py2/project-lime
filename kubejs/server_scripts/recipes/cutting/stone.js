@@ -32,13 +32,8 @@ ServerEvents.recipes(event => {
 
 			for(const stoneType of stoneTypes) {
 				let resultBlock = global.id[stoneType.mod](`${material}_${stoneType.name}`);
-
-				event.remove({ output: resultBlock, not: { type: global.id.MC('stonecutting') } });
-
-				event.stonecutting(
-					Item.of(resultBlock, stoneType.value),
-					baseBlock
-				);
+				
+				global.cutting.addCuttingRecipe(event, baseBlock, resultBlock, stoneType.value);
 			}
 		}
 	}

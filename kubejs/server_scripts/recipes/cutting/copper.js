@@ -1,6 +1,8 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
+	const copperBlockValue = 9;
+	
 	const states = [
 		'',
 		'exposed_',
@@ -64,6 +66,27 @@ ServerEvents.recipes(event => {
 
 	event.shapeless(
 		global.id.MC('copper_block'),
-		[Item.of(global.tag.M('ingots/copper'), 9)]
+		[Item.of(global.tag.M('ingots/copper'), copperBlockValue)]
 	);
+	
+	function addCopperCuttingRecipe(result, value) {
+		global.cutting.addCuttingRecipe(
+			event,
+			global.tag.M('ingots/copper'),
+			result,
+			value
+		);
+		
+		global.cutting.addCuttingRecipe(
+			event,
+			global.id.MC('copper_block'),
+			result,
+			value * copperBlockValue
+		);
+	}
+	
+	addCopperCuttingRecipe(global.id.CR('copper_ladder'), 1);
+	addCopperCuttingRecipe(global.id.CR('copper_scaffolding'), 2);
+	addCopperCuttingRecipe(global.id.CR('copper_table_cloth'), 4);
+	addCopperCuttingRecipe(global.id.CR('copper_bars'), 1);
 });
