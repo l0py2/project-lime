@@ -1,26 +1,13 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
-	const andesiteAlloyBlockValue = 9;
+	const rawPair = global.cutting.createRawPair(
+		global.id.CR('andesite_alloy'),
+		global.id.CR('andesite_alloy_block'), 9
+	);
 	
-	function addAndesiteAlloyCuttingRecipe(result, value) {
-		global.cutting.addCuttingRecipe(
-			event,
-			global.id.CR('andesite_alloy'),
-			result,
-			value
-		);
-		
-		global.cutting.addCuttingRecipe(
-			event,
-			global.id.CR('andesite_alloy_block'),
-			result,
-			value * andesiteAlloyBlockValue
-		);
-	}
-	
-	addAndesiteAlloyCuttingRecipe(global.id.CR('andesite_bars'), 1);
-	addAndesiteAlloyCuttingRecipe(global.id.CR('andesite_table_cloth'), 4);
-	addAndesiteAlloyCuttingRecipe(global.id.CR('andesite_ladder'), 1);
-	addAndesiteAlloyCuttingRecipe(global.id.CR('andesite_scaffolding'), 2);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('andesite_bars'), 1);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('andesite_table_cloth'), 4);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('andesite_ladder'), 1);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('andesite_scaffolding'), 2);
 });

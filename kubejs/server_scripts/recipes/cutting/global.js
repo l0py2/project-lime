@@ -1,6 +1,13 @@
 //priority: 9
 
 global.cutting = {
+	createRawPair: (material, materialBlock, blockValue) => {
+		return {
+			material: material,
+			materialBlock: materialBlock,
+			blockValue: blockValue
+		};
+	},
 	createBaseBlock: (mod, name, material) => {
 		return {
 			mod: mod,
@@ -21,6 +28,21 @@ global.cutting = {
 			name: name,
 			value: value
 		};
+	},
+	addRawCuttingRecipe: (event, rawPair, result, value) => {
+		global.cutting.addCuttingRecipe(
+			event,
+			rawPair.material,
+			result,
+			value
+		);
+		
+		global.cutting.addCuttingRecipe(
+			event,
+			rawPair.materialBlock,
+			result,
+			value * rawPair.blockValue
+		);
 	},
 	addCuttingGroupRecipes: (event, baseMaterials, variants, types) => {
 		for(const baseMaterial of baseMaterials) {

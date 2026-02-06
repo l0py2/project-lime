@@ -142,23 +142,31 @@ hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/andesite-alloy.js"
-hash = "079033bd7356da84baed3d449449a38e66712b7a691e97342002c008b0c89756"
+hash = "4875b3b9477fc31ed8a4789ed6e65ed3a197a76c9948d5ae69f8ff7ef869a191"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/bamboo.js"
+hash = "aa0f09fa28e0dddeeff3340e4ba357aee9c94b8ec1ca7fefea383557d8f2d059"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/brass.js"
-hash = "8a538e4ac2f15e2ea577c1d996d27e2b4e8f8bb61cb2dd32a283354a4535c5e3"
+hash = "e7e11225e12994042d035bc40bf7261702ca383da75d95a2ae5fb3a5fd64b818"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/copper.js"
-hash = "f449a9e9e2e995d7cde16aae02e9ffcef0db2bee30794be69f256fca4bb4103f"
+hash = "a9f282ff0a6613aae8a99cea03b877296b7555a845a1a90ff50670e9736c6704"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/fungus.js"
+hash = "038159e76cacac9a54597af5972694e0a35cf61d84d610f4312e0e2d2efadc43"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "88242a721e2c4e7ad7003fd6bdd1a555d46930ffa9ea2c6b1da87508e38ac099"
+hash = "6267ed89269dedc8e3248c7ce306bb5309fd049c4f8dfaaeaffb14be90ef29df"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/iron.js"
-hash = "e1cbcc589340efd4deef5e278fd7c11b1e19687e5c2d5ae3948927915118d69b"
+hash = "30294aba1048ea4fd72cf94ca21a31d31dc13fd083362f4380ff235fb2fdeccf"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
@@ -166,11 +174,11 @@ hash = "6e09bed06cd7908d57322ca9a8297c5bab6c4068a6b1b8ae2e3d2fb628503c75"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
-hash = "193636cd1354d0ba618f6d1db896d874ed0d9599b71ed5751fb1158239ce9511"
+hash = "8f6574823f32ecac9fe34e5def79c774acb3b6e43f7d277eb05d9218e50b9686"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/zinc.js"
-hash = "4729cbdb092cbbbb78b73365574b18e653d525469d75a0243f4e59d55650f758"
+hash = "6b1b6e51d45ce177f059905a04c49892f4488b6ec3afa6435c59f4502d08f95b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/blast-furnace.js"
