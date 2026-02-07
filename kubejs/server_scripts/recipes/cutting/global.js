@@ -8,13 +8,6 @@ global.cutting = {
 			blockValue: blockValue
 		};
 	},
-	createBaseBlock: (mod, name, material) => {
-		return {
-			mod: mod,
-			name: name,
-			material: material == undefined ? name : material
-		};
-	},
 	createBlockVariant: (mod, blockFormat, materialFormat) => {
 		return {
 			mod: mod,

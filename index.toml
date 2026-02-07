@@ -162,7 +162,7 @@ hash = "038159e76cacac9a54597af5972694e0a35cf61d84d610f4312e0e2d2efadc43"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "6267ed89269dedc8e3248c7ce306bb5309fd049c4f8dfaaeaffb14be90ef29df"
+hash = "9c8362202d05929cf68d0190b7d465eedd03cfc523b7f5c6cfa4e61cee7d1df1"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/iron.js"
@@ -170,7 +170,7 @@ hash = "30294aba1048ea4fd72cf94ca21a31d31dc13fd083362f4380ff235fb2fdeccf"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "6e09bed06cd7908d57322ca9a8297c5bab6c4068a6b1b8ae2e3d2fb628503c75"
+hash = "d6034a4c45ed2c3e9616045cb7fff856b7527a0649a2221f76331f7ba15c48d1"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"

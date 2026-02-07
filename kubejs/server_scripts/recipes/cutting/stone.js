@@ -1,6 +1,14 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
+	function createBaseBlock(mod, name, material) {
+		return {
+			mod: mod,
+			name: name,
+			material: material == undefined ? name : material
+		};
+	}
+	
 	function addBaseStoneGroupConversionRecipes(baseStones) {
 		let stones = [];
 
@@ -39,38 +47,38 @@ ServerEvents.recipes(event => {
 	}
 
 	const vanillaStones = [
-		global.cutting.createBaseBlock('MC', 'granite'),
-		global.cutting.createBaseBlock('MC', 'diorite'),
-		global.cutting.createBaseBlock('MC', 'andesite')
+		createBaseBlock('MC', 'granite'),
+		createBaseBlock('MC', 'diorite'),
+		createBaseBlock('MC', 'andesite')
 	];
 
 	const vanillaSimpleStones = [
-		global.cutting.createBaseBlock('MC', 'stone')
+		createBaseBlock('MC', 'stone')
 	];
 
 	const vanillaDeepStones = [
-		global.cutting.createBaseBlock('MC', 'deepslate')
+		createBaseBlock('MC', 'deepslate')
 	];
 
 	const vanillaBlackStones = [
-		global.cutting.createBaseBlock('MC', 'blackstone')
+		createBaseBlock('MC', 'blackstone')
 	]
 
 	const createStones = [
-		global.cutting.createBaseBlock('MC', 'granite'),
-		global.cutting.createBaseBlock('MC', 'diorite'),
-		global.cutting.createBaseBlock('MC', 'andesite'),
-		global.cutting.createBaseBlock('MC', 'calcite'),
-		global.cutting.createBaseBlock('MC', 'dripstone_block', 'dripstone'),
-		global.cutting.createBaseBlock('MC', 'deepslate'),
-		global.cutting.createBaseBlock('MC', 'tuff'),
-		global.cutting.createBaseBlock('CR', 'asurine'),
-		global.cutting.createBaseBlock('CR', 'crimsite'),
-		global.cutting.createBaseBlock('CR', 'limestone'),
-		global.cutting.createBaseBlock('CR', 'ochrum'),
-		global.cutting.createBaseBlock('CR', 'scoria'),
-		global.cutting.createBaseBlock('CR', 'scorchia'),
-		global.cutting.createBaseBlock('CR', 'veridium')
+		createBaseBlock('MC', 'granite'),
+		createBaseBlock('MC', 'diorite'),
+		createBaseBlock('MC', 'andesite'),
+		createBaseBlock('MC', 'calcite'),
+		createBaseBlock('MC', 'dripstone_block', 'dripstone'),
+		createBaseBlock('MC', 'deepslate'),
+		createBaseBlock('MC', 'tuff'),
+		createBaseBlock('CR', 'asurine'),
+		createBaseBlock('CR', 'crimsite'),
+		createBaseBlock('CR', 'limestone'),
+		createBaseBlock('CR', 'ochrum'),
+		createBaseBlock('CR', 'scoria'),
+		createBaseBlock('CR', 'scorchia'),
+		createBaseBlock('CR', 'veridium')
 	];
 
 	const vanillaPolishedVaraints = [
@@ -150,13 +158,13 @@ ServerEvents.recipes(event => {
 	];
 
 	addBaseStoneGroupConversionRecipes([
-		global.cutting.createBaseBlock('MC', 'cobblestone'),
-		global.cutting.createBaseBlock('MC', 'mossy_cobblestone'),
-		global.cutting.createBaseBlock('MC', 'stone')
+		createBaseBlock('MC', 'cobblestone'),
+		createBaseBlock('MC', 'mossy_cobblestone'),
+		createBaseBlock('MC', 'stone')
 	]);
 	addBaseStoneGroupConversionRecipes([
-		global.cutting.createBaseBlock('MC', 'cobbled_deepslate'),
-		global.cutting.createBaseBlock('MC', 'deepslate')
+		createBaseBlock('MC', 'cobbled_deepslate'),
+		createBaseBlock('MC', 'deepslate')
 	]);
 
 	addStoneGroupConversionRecipes(vanillaStones, vanillaPolishedVaraints);
@@ -165,15 +173,15 @@ ServerEvents.recipes(event => {
 	addStoneGroupConversionRecipes(vanillaBlackStones, vanillaFullBlackStoneVariants);
 	addStoneGroupConversionRecipes(createStones, fullCreateStoneVariants);
 
-	addStoneRecipes([global.cutting.createBaseBlock('MC', 'stone')], incompleteVanillaStoneTypes);
-	addStoneRecipes([global.cutting.createBaseBlock('MC', 'smooth_stone')], [global.cutting.createBlockType('MC', 'slab', 2)]);
+	addStoneRecipes([createBaseBlock('MC', 'stone')], incompleteVanillaStoneTypes);
+	addStoneRecipes([createBaseBlock('MC', 'smooth_stone')], [global.cutting.createBlockType('MC', 'slab', 2)]);
 	addStoneRecipes(vanillaStones, vanillaStoneTypes);
 	addStoneRecipes(
 		[
-			global.cutting.createBaseBlock('MC', 'cobblestone'),
-			global.cutting.createBaseBlock('MC', 'mossy_cobblestone'),
-			global.cutting.createBaseBlock('MC', 'cobbled_deepslate'),
-			global.cutting.createBaseBlock('MC', 'blackstone')
+			createBaseBlock('MC', 'cobblestone'),
+			createBaseBlock('MC', 'mossy_cobblestone'),
+			createBaseBlock('MC', 'cobbled_deepslate'),
+			createBaseBlock('MC', 'blackstone')
 		], vanillaStoneTypes
 	);
 
