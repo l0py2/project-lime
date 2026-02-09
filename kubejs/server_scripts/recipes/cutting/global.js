@@ -1,11 +1,11 @@
 //priority: 9
 
 global.cutting = {
-	createRawPair: (material, materialBlock, blockValue) => {
+	createBlock: (mod, name, material) => {
 		return {
-			material: material,
-			materialBlock: materialBlock,
-			blockValue: blockValue
+			mod: mod,
+			name: name,
+			material: material == undefined ? name : material
 		};
 	},
 	createBlockVariant: (mod, blockFormat, materialFormat) => {
@@ -21,6 +21,21 @@ global.cutting = {
 			name: name,
 			value: value
 		};
+	},
+	createRawPair: (material, materialBlock, blockValue) => {
+		return {
+			material: material,
+			materialBlock: materialBlock,
+			blockValue: blockValue
+		};
+	},
+	addCuttingRecipe: (event, input, output, count) => {
+		event.remove({ output: output, not: { type: global.id.MC('stonecutting') } });
+		
+		event.stonecutting(
+			Item.of(output, count == undefined ? 1 : count),
+			input
+		);
 	},
 	addRawCuttingRecipe: (event, rawPair, result, value) => {
 		global.cutting.addCuttingRecipe(
@@ -77,13 +92,30 @@ global.cutting = {
 			}
 		}
 	},
-	addCuttingRecipe: (event, input, output, count) => {
-		event.remove({ output: output, not: { type: global.id.MC('stonecutting') } });
-		
-		event.stonecutting(
-			Item.of(output, count == undefined ? 1 : count),
-			input
-		);
+	addBaseVariantTypeRecipes: (event, bases, variants, types) => {
+		for(const base of bases) {
+			for(const variant of variants) {
+				let variantBlock = global.id[variant.mod](variant.blockFormat(base.material));
+				
+				for(const type of types) {
+					let typeBlock = global.id[type.mod](`${variant.materialFormat(base.material)}_${type.name}`);
+					global.cutting.addCuttingRecipe(event, variantBlock, typeBlock, type.value);
+				}
+			}
+		}
+	},
+	addBaseVariantRecipes: (event, bases, variants) => {
+		for(const base of bases) {
+			let conversions = [
+				global.id[base.mod](base.name)
+			];
+			
+			for(const variant of variants) {
+				conversions.push(global.id[variant.mod](variant.blockFormat(base.material)));
+			}
+			
+			global.cutting.addCuttingConversionRecipes(event, conversions);
+		}
 	}
 };
 
