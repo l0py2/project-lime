@@ -154,7 +154,7 @@ hash = "e7e11225e12994042d035bc40bf7261702ca383da75d95a2ae5fb3a5fd64b818"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/copper.js"
-hash = "a9f282ff0a6613aae8a99cea03b877296b7555a845a1a90ff50670e9736c6704"
+hash = "aa442fd39ee4f5fbc720ddb250d55608ae4b35ea68698f98c48ee2180800425b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/fungus.js"
@@ -162,19 +162,23 @@ hash = "038159e76cacac9a54597af5972694e0a35cf61d84d610f4312e0e2d2efadc43"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "d6d4dbf7ae180bfade9324c1a658ed343e8197bca5d4c00222134e0c044c1dae"
+hash = "c4596f4be885ab98e9a38b4f69b5789093265e0d8cc33742143a67baa482c5f8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/iron.js"
 hash = "30294aba1048ea4fd72cf94ca21a31d31dc13fd083362f4380ff235fb2fdeccf"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "76e2b28f2ae1073423bbd0c02d9a58ff1e991ed26020421356acaf9bcbadd0d2"
+file = "kubejs/server_scripts/recipes/cutting/stones/basalt.js"
+hash = "6a56476fc46d631ce305202733ce6f055b4e4c901542bbc5f4aee02a6b2e1b39"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/blackstone.js"
 hash = "5ca5a5f2f6043d4ac80729d72dff37ff602c88a380c732f99646bedb93ccfcbc"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/cobblestones.js"
+hash = "06f1beed51df748452c9c59598de0cffa0ddf7a72845ff1169b6672fe71c1257"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/create-stones.js"
@@ -182,15 +186,19 @@ hash = "fb3c2468def966d91787413836650b0306a277080df1f539618ba076dfbca029"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/deepslate.js"
-hash = "436563339c62fb8c14a5d995e3654cdac3a2b4ac4554887e612dda2a805be3c1"
+hash = "971081ea8e93db23901315340da5823787176ddf594b335e7e2d89f9f1be8151"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/minecraft-stones.js"
 hash = "1a74c5f0a3d3267fdfcc064a29b0d2cc3be0777dffcf1ea900be5a161749f3e8"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/smooth-stone.js"
+hash = "1ee80bb08c672c41272e1bd58f53f07dae225af71ce1b49db3b4317da5743358"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/stone.js"
-hash = "8bffe499ae5a58dbae4bbc1d8dfb24689645310eb2a86b4f85135a33ac56319a"
+hash = "a1c32eb93661edc811f196a2a8648380e2b626a3dbcf8f86f8f3bb837d60eb71"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"

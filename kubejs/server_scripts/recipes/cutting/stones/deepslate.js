@@ -26,4 +26,9 @@ ServerEvents.recipes(event => {
 	
 	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
 	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
+	
+	global.cutting.addCuttingConversionRecipes(event, [
+		global.id.MC('cobbled_deepslate'),
+		global.id.MC('deepslate')
+	]);
 });

@@ -1,6 +1,26 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
+	function addCuttingGroupRecipes(baseMaterials, variants, types) {
+		for(const baseMaterial of baseMaterials) {
+			for(const variant of variants) {
+				let baseBlock = global.id[variant.mod](variant.blockFormat(baseMaterial));
+				let material = variant.materialFormat(baseMaterial);
+
+				for(const type of types) {
+					let resultBlock = global.id[type.mod](`${material}_${type.name}`);
+
+					event.remove({ output: resultBlock, not: { type: global.id.MC('stonecutting') } });
+
+					event.stonecutting(
+						Item.of(resultBlock, type.value),
+						baseBlock
+					);
+				}
+			}
+		}
+	}
+	
 	const copperBlockValue = 9;
 	
 	const states = [
@@ -33,8 +53,8 @@ ServerEvents.recipes(event => {
 		global.cutting.createBlockType('CR', 'stairs', 1)
 	];
 
-	global.cutting.addCuttingGroupRecipes(event, states, vanillaVariants, vanillaTypes);
-	global.cutting.addCuttingGroupRecipes(event, states, createVariants, createTypes);
+	addCuttingGroupRecipes(states, vanillaVariants, vanillaTypes);
+	addCuttingGroupRecipes(states, createVariants, createTypes);
 
 	const copperBlockConversionGroups = [];
 

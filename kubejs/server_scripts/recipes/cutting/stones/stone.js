@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 	];
 	allVariants = allVariants.concat(variants);
 	
-	const types = [
+	let types = [
 		global.cutting.createBlockType('MC', 'slab', 2),
 		global.cutting.createBlockType('MC', 'stairs', 1),
 		global.cutting.createBlockType('MC', 'wall', 1)
@@ -24,4 +24,17 @@ ServerEvents.recipes(event => {
 	
 	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
 	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
+	
+	types = [
+		global.cutting.createBlockType('MC', 'slab', 2),
+		global.cutting.createBlockType('MC', 'stairs', 1)
+	];
+	
+	global.cutting.addBaseTypeRecipes(event, stones, types);
+	
+	global.cutting.addCuttingConversionRecipes(event, [
+		global.id.MC('cobblestone'),
+		global.id.MC('mossy_cobblestone'),
+		global.id.MC('stone')
+	]);
 });
