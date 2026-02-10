@@ -46,51 +46,6 @@ ServerEvents.recipes(event => {
 		}
 	}
 
-	const vanillaStones = [
-		createBaseBlock('MC', 'granite'),
-		createBaseBlock('MC', 'diorite'),
-		createBaseBlock('MC', 'andesite')
-	];
-
-	const vanillaSimpleStones = [
-		createBaseBlock('MC', 'stone')
-	];
-
-	const vanillaDeepStones = [
-		createBaseBlock('MC', 'deepslate')
-	];
-
-	const vanillaPolishedVaraints = [
-		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`)
-	];
-
-	const vanillaSimpleStoneVariants = [
-		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		global.cutting.createBlockVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`)
-	];
-
-	const vanillaFullSimpleStoneVariants = [
-		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		global.cutting.createBlockVariant('MC', (material) => `mossy_${material}_bricks`, (material) => `mossy_${material}_brick`),
-		global.cutting.createBlockVariant('MC', (material) => `chiseled_${material}_bricks`, (material) => `chiseled_${material}_brick`),
-		global.cutting.createBlockVariant('MC', (material) => `smooth_${material}`)
-	];
-
-	const vanillaDeepStoneVariants = [
-		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`),
-		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		global.cutting.createBlockVariant('MC', (material) => `${material}_tiles`, (material) => `${material}_tile`)
-	];
-
-	const vanillaFullDeepStoneVariants = [
-		global.cutting.createBlockVariant('MC', (material) => `chiseled_${material}`),
-		global.cutting.createBlockVariant('MC', (material) => `polished_${material}`),
-		global.cutting.createBlockVariant('MC', (material) => `${material}_bricks`, (material) => `${material}_brick`),
-		global.cutting.createBlockVariant('MC', (material) => `cracked_${material}_bricks`, (material) => `cracked_${material}_brick`),
-		global.cutting.createBlockVariant('MC', (material) => `${material}_tiles`),
-		global.cutting.createBlockVariant('MC', (material) => `cracked_${material}_tiles`)
-	];
-
 	const vanillaStoneTypes = [
 		global.cutting.createBlockType('MC', 'slab', 2),
 		global.cutting.createBlockType('MC', 'stairs', 1),
@@ -112,13 +67,8 @@ ServerEvents.recipes(event => {
 		createBaseBlock('MC', 'deepslate')
 	]);
 
-	addStoneGroupConversionRecipes(vanillaStones, vanillaPolishedVaraints);
-	addStoneGroupConversionRecipes(vanillaSimpleStones, vanillaFullSimpleStoneVariants);
-	addStoneGroupConversionRecipes(vanillaDeepStones, vanillaFullDeepStoneVariants);
-
 	addStoneRecipes([createBaseBlock('MC', 'stone')], incompleteVanillaStoneTypes);
 	addStoneRecipes([createBaseBlock('MC', 'smooth_stone')], [global.cutting.createBlockType('MC', 'slab', 2)]);
-	addStoneRecipes(vanillaStones, vanillaStoneTypes);
 	addStoneRecipes(
 		[
 			createBaseBlock('MC', 'cobblestone'),
@@ -127,12 +77,4 @@ ServerEvents.recipes(event => {
 			createBaseBlock('MC', 'blackstone')
 		], vanillaStoneTypes
 	);
-
-	function stonesToMaterials(stones) {
-		return stones.map(stone => stone.material);
-	}
-
-	global.cutting.addCuttingGroupRecipes(event, stonesToMaterials(vanillaStones), vanillaPolishedVaraints, incompleteVanillaStoneTypes);
-	global.cutting.addCuttingGroupRecipes(event, stonesToMaterials(vanillaSimpleStones), vanillaSimpleStoneVariants, vanillaStoneTypes);
-	global.cutting.addCuttingGroupRecipes(event, stonesToMaterials(vanillaDeepStones), vanillaDeepStoneVariants, vanillaStoneTypes);
 });

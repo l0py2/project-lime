@@ -116,6 +116,16 @@ global.cutting = {
 			
 			global.cutting.addCuttingConversionRecipes(event, conversions);
 		}
+	},
+	addBaseTypeRecipes: (event, bases, types) => {
+		for(const base of bases) {
+			let baseBlock = global.id[base.mod](base.name);
+			
+			for(const type of types) {
+				let typeBlock = global.id[type.mod](`${base.material}_${type.name}`);
+				global.cutting.addCuttingRecipe(event, baseBlock, typeBlock, type.value);
+			}
+		}
 	}
 };
 
