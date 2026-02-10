@@ -170,7 +170,11 @@ hash = "30294aba1048ea4fd72cf94ca21a31d31dc13fd083362f4380ff235fb2fdeccf"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "e9fc4c83375fb69e4294de2bfb5722e371531c01102b41db81653ad0d15b9881"
+hash = "e866270c5d56ef47e261ee22d6f8c2f446d448008e5e026bcda5fb8279f43b90"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/blackstones.js"
+hash = "5ca5a5f2f6043d4ac80729d72dff37ff602c88a380c732f99646bedb93ccfcbc"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/create-stones.js"
