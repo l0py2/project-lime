@@ -70,18 +70,20 @@ ServerEvents.recipes(event => {
 		}
 	}
 
-	// Vanilla copper block
-	copperBlockConversionGroups[0].push(global.id.MC('copper_block'));
-	copperBlockConversionGroups[1].push(global.id.MC('exposed_copper'));
-	copperBlockConversionGroups[2].push(global.id.MC('weathered_copper'));
-	copperBlockConversionGroups[3].push(global.id.MC('oxidized_copper'));
-	copperBlockConversionGroups[4].push(global.id.MC('waxed_copper_block'));
-	copperBlockConversionGroups[5].push(global.id.MC('waxed_exposed_copper'));
-	copperBlockConversionGroups[6].push(global.id.MC('waxed_weathered_copper'));
-	copperBlockConversionGroups[7].push(global.id.MC('waxed_oxidized_copper'));
+	// Vanilla base copper block
+	const baseBlocks = [
+		global.id.MC('copper_block'),
+		global.id.MC('exposed_copper'),
+		global.id.MC('weathered_copper'),
+		global.id.MC('oxidized_copper'),
+		global.id.MC('waxed_copper_block'),
+		global.id.MC('waxed_exposed_copper'),
+		global.id.MC('waxed_weathered_copper'),
+		global.id.MC('waxed_oxidized_copper')
+	];
 
-	for(let group of copperBlockConversionGroups) {
-		global.cutting.addCuttingConversionRecipes(event, group);
+	for(let i = 0; i < copperBlockConversionGroups.length; i++) {
+		global.cutting.addConversionRecipes(event, baseBlocks[i], copperBlockConversionGroups[i]);
 	}
 
 	event.shapeless(

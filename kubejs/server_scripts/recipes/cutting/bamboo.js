@@ -44,12 +44,7 @@ ServerEvents.recipes(event => {
 		global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
 	}
 	
-	const bambooBlocks = [
-		'bamboo_planks',
-		'bamboo_mosaic'
-	];
-	
-	global.cutting.addCuttingConversionRecipes(event, bambooBlocks);
+	global.cutting.addConversionRecipes(event, global.id.MC('bamboo_planks'), [global.id.MC('bamboo_mosaic')]);
 	
 	global.cutting.addCuttingRecipe(event, global.tag.MC('bamboo_blocks'), global.id.MC('bamboo_planks'), logValue);
 	global.cutting.addCuttingRecipe(event, global.tag.MC('bamboo_blocks'), global.id.MC('bamboo_mosaic'), logValue);

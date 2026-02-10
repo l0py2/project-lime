@@ -52,25 +52,10 @@ global.cutting = {
 			value * rawPair.blockValue
 		);
 	},
-	addCuttingConversionRecipes: (event, blocks) => {
-		for(let i = 0; i < blocks.length; i++) {
-			event.remove({ output: blocks[i], not: { type: global.id.MC('stonecutting') } });
-
-			// Blocks before the current
-			for(let j = 0; j < i; j++) {
-				event.stonecutting(
-					blocks[i],
-					blocks[j]
-				);
-			}
-
-			// Blocks after ther current
-			for(let j = i + 1; j < blocks.length; j++) {
-				event.stonecutting(
-					blocks[i],
-					blocks[j]
-				);
-			}
+	addConversionRecipes: (event, base, blocks) => {
+		for(const block of blocks) {
+			global.cutting.addCuttingRecipe(event, base, block, 1);
+			global.cutting.addCuttingRecipe(event, block, base, 1);
 		}
 	},
 	addBaseVariantTypeRecipes: (event, bases, variants, types) => {
@@ -85,17 +70,16 @@ global.cutting = {
 			}
 		}
 	},
-	addBaseVariantRecipes: (event, bases, variants) => {
+	addBaseVariantRecipes: (event, bases, variants) => {		
 		for(const base of bases) {
-			let conversions = [
-				global.id[base.mod](base.name)
-			];
+			let baseBlock = global.id[base.mod](base.name);
+			let conversions = [];
 			
 			for(const variant of variants) {
 				conversions.push(global.id[variant.mod](variant.blockFormat(base.material)));
 			}
 			
-			global.cutting.addCuttingConversionRecipes(event, conversions);
+			global.cutting.addConversionRecipes(event, baseBlock, conversions);
 		}
 	},
 	addBaseTypeRecipes: (event, bases, types) => {

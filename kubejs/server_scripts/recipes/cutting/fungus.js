@@ -32,13 +32,8 @@ ServerEvents.recipes(event => {
 			let result = global.id[blockType.mod](`${fungus}_${blockType.name}`);
 			global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
 		}
-
-		let woodBlocks = [
-			global.id.MC(`${fungus}_planks`),
-			global.id.WW(`${fungus}_boards`)
-		];
 		
-		global.cutting.addCuttingConversionRecipes(event, woodBlocks);
+		global.cutting.addConversionRecipes(event, global.id.MC(`${fungus}_planks`), [global.id.WW(`${fungus}_boards`)]);
 		
 		global.cutting.addCuttingRecipe(event, global.tag.MC(`${fungus}_stems`), global.id.MC(`${fungus}_planks`), logValue);
 		global.cutting.addCuttingRecipe(event, global.tag.MC(`${fungus}_stems`), global.id.WW(`${fungus}_boards`), logValue);

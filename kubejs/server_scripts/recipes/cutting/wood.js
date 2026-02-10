@@ -57,13 +57,8 @@ ServerEvents.recipes(event => {
 	
 	woodTypes.push('oak');
 	
-	for(const wood of woodTypes) {
-		let woodBlocks = [
-			global.id.MC(`${wood}_planks`),
-			global.id.WW(`${wood}_boards`)
-		];
-		
-		global.cutting.addCuttingConversionRecipes(event, woodBlocks);
+	for(const wood of woodTypes) {		
+		global.cutting.addConversionRecipes(event, global.id.MC(`${wood}_planks`), [global.id.WW(`${wood}_boards`)]);
 		
 		global.cutting.addCuttingRecipe(event, global.tag.MC(`${wood}_logs`), global.id.MC(`${wood}_planks`), logValue);
 		global.cutting.addCuttingRecipe(event, global.tag.MC(`${wood}_logs`), global.id.WW(`${wood}_boards`), logValue);

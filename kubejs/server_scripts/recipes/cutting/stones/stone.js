@@ -32,8 +32,7 @@ ServerEvents.recipes(event => {
 	
 	global.cutting.addBaseTypeRecipes(event, stones, types);
 	
-	global.cutting.addCuttingConversionRecipes(event, [
-		global.id.MC('cobblestone'),
+	global.cutting.addConversionRecipes(event, global.id.MC('cobblestone'), [
 		global.id.MC('mossy_cobblestone'),
 		global.id.MC('stone')
 	]);
