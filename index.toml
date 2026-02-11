@@ -130,7 +130,7 @@ hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "69d47ca5467ee3fb46f822c5ed40a57966c2a9edebf127555412c6ac9db4b74d"
+hash = "eb540ab8276ccff74dd0a97c55397c795adffdc11b3b85669e3571f2eb9cbfa8"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -139,6 +139,10 @@ hash = "6e04da81e84b9d85af474d2e527466231908ba1df7f4855e875fb818e9f78a5a"
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
 hash = "2a8b048ef43131e1691484aee698c0f384afe0905bf7bff8eba7febb99251662"
+
+[[files]]
+file = "kubejs/config/packicon.png"
+hash = "df69087faab6ae64989b8e678a733a1df50b67f68c9719b2d0f580b49db82a71"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
