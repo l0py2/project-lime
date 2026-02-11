@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
 		global.cutting.createBlockType('MC', 'button', 1),
 		global.cutting.createBlockType('MC', 'slab', 2),
 		global.cutting.createBlockType('MC', 'sign', 1),
+		global.cutting.createBlockType('MC', 'hanging_sign', 1),
 		global.cutting.createBlockType('MC', 'trapdoor', 1),
 		global.cutting.createBlockType('WW', 'ladder', 1)
 	];
