@@ -12,7 +12,8 @@ ServerEvents.recipes(event => {
 	
 	let allVariants = [
 		global.cutting.createBlockVariant('MC', (stone) => `cracked_polished_${stone}_bricks`),
-		global.cutting.createBlockVariant('MC', (stone) => `chiseled_polished_${stone}`)
+		global.cutting.createBlockVariant('MC', (stone) => `chiseled_polished_${stone}`),
+		global.cutting.createBlockVariant('SP', (stone) => `${stone}_tile`)
 	];
 	allVariants = allVariants.concat(variants);
 	

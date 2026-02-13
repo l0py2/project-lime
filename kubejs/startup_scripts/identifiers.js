@@ -5,7 +5,8 @@ global.id = {
 	M: id => `forge:${id}`,
 	KJ: id => `kubejs:${id}`,
 	CR: id => `create:${id}`,
-	WW: id => `woodworks:${id}`
+	WW: id => `woodworks:${id}`,
+	SP: id => `supplementaries:${id}`
 };
 
 global.tag = {
@@ -13,5 +14,6 @@ global.tag = {
 	M: id => `#forge:${id}`,
 	KJ: id => `#kubejs:${id}`,
 	CR: id => `#create:${id}`,
-	WW: id => `#woodworks:${id}`
+	WW: id => `#woodworks:${id}`,
+	SP: id => `#supplementaries:${id}`
 };

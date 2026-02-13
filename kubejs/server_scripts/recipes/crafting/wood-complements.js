@@ -21,10 +21,10 @@ ServerEvents.recipes(event => {
 		);
 	}
 	
-	function door(material, input) {
-		event.remove({ id: global.id.MC(`${material}_door`) });
+	function door(mod, material, input) {
+		event.remove({ id: global.id[mod](`${material}_door`) });
 		event.shapeless(
-			global.id.MC(`${material}_door`),
+			global.id[mod](`${material}_door`),
 			[
 				global.tag.MC('wooden_doors'),
 				input
@@ -51,7 +51,17 @@ ServerEvents.recipes(event => {
 	button('stone', global.id.MC('stone'));
 	button('polished_blackstone', global.id.MC('polished_blackstone'));
 	
-	door('iron', global.tag.M('ingots/iron'));
+	door('MC', 'iron', global.tag.M('ingots/iron'));
+	door('SP', 'gold', global.tag.M('ingots/gold'));
 	
 	trapdoor('iron', global.tag.M('ingots/iron'));
+	
+	event.remove({ id: global.id.SP('iron_gate') });
+	event.shapeless(
+		global.id.SP('iron_gate'),
+		[
+			global.tag.MC('fence_gates'),
+			global.tag.M('ingots/iron')
+		]
+	);
 });
