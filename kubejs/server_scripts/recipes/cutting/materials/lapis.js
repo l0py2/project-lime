@@ -2,7 +2,7 @@
 
 ServerEvents.recipes(event => {	
 	const stones = [
-		global.cutting.createBlock('SP', 'ash_bricks')
+		global.cutting.createBlock('SP', 'lapis_bricks')
 	];
 	
 	const types = [

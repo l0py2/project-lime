@@ -9,9 +9,9 @@ ServerEvents.recipes(event => {
 	];
 	
 	const types = [
-		global.cutting.createBlockType('MC', 'slab', 2),
-		global.cutting.createBlockType('MC', 'stairs', 1),
-		global.cutting.createBlockType('MC', 'wall', 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
 	];
 	
 	global.cutting.addBaseTypeRecipes(event, stones, types);

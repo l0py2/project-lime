@@ -5,22 +5,23 @@ ServerEvents.recipes(event => {
 	const manualLogValue = 4;
 	
 	const bambooTypes = [
-		global.cutting.createBlockType('MC', 'stairs', 1),
-		global.cutting.createBlockType('MC', 'door', 1),
-		global.cutting.createBlockType('MC', 'fence', 1),
-		global.cutting.createBlockType('MC', 'pressure_plate', 1),
-		global.cutting.createBlockType('MC', 'fence_gate', 1),
-		global.cutting.createBlockType('MC', 'button', 1),
-		global.cutting.createBlockType('MC', 'slab', 2),
-		global.cutting.createBlockType('MC', 'sign', 1),
-		global.cutting.createBlockType('MC', 'hanging_sign', 1),
-		global.cutting.createBlockType('MC', 'trapdoor', 1),
-		global.cutting.createBlockType('WW', 'ladder', 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_door`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_button`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('MC', (material) => `${material}_sign`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, 1),
+		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, 1),
+		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, 1)
 	];
 	
 	const bambooMosaicTypes = [
-		global.cutting.createBlockType('MC', 'stairs', 1),
-		global.cutting.createBlockType('MC', 'slab', 2)
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
 	];
 	
 	let rawPair = global.cutting.createRawPair(
@@ -29,7 +30,7 @@ ServerEvents.recipes(event => {
 	);
 		
 	for(const blockType of bambooTypes) {
-		let result = global.id[blockType.mod](`bamboo_${blockType.name}`);
+		let result = global.id[blockType.mod](blockType.nameFormat('bamboo'));
 		
 		global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
 	}
@@ -40,7 +41,7 @@ ServerEvents.recipes(event => {
 	);
 	
 	for(const blockType of bambooMosaicTypes) {
-		let result = global.id[blockType.mod](`bamboo_mosaic_${blockType.name}`);
+		let result = global.id[blockType.mod](blockType.nameFormat('bamboo_mosaic'));
 		
 		global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
 	}

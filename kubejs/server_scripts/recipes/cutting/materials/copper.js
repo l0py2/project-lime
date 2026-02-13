@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
 				let material = variant.materialFormat(baseMaterial);
 
 				for(const type of types) {
-					let resultBlock = global.id[type.mod](`${material}_${type.name}`);
+					let resultBlock = global.id[type.mod](type.nameFormat(material));
 
 					event.remove({ output: resultBlock, not: { type: global.id.MC('stonecutting') } });
 
@@ -44,13 +44,13 @@ ServerEvents.recipes(event => {
 	];
 
 	const vanillaTypes = [
-		global.cutting.createBlockType('MC', 'slab', 2),
-		global.cutting.createBlockType('MC', 'stairs', 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1)
 	];
 
 	const createTypes = [
-		global.cutting.createBlockType('CR', 'slab', 2),
-		global.cutting.createBlockType('CR', 'stairs', 1)
+		global.cutting.createBlockType('CR', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('CR', (material) => `${material}_stairs`, 1)
 	];
 
 	addCuttingGroupRecipes(states, vanillaVariants, vanillaTypes);

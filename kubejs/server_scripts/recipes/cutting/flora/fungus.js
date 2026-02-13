@@ -10,17 +10,18 @@ ServerEvents.recipes(event => {
 	];
 	
 	const blockTypes = [
-		global.cutting.createBlockType('MC', 'stairs', 1),
-		global.cutting.createBlockType('MC', 'door', 1),
-		global.cutting.createBlockType('MC', 'fence', 1),
-		global.cutting.createBlockType('MC', 'pressure_plate', 1),
-		global.cutting.createBlockType('MC', 'fence_gate', 1),
-		global.cutting.createBlockType('MC', 'button', 1),
-		global.cutting.createBlockType('MC', 'slab', 2),
-		global.cutting.createBlockType('MC', 'sign', 1),
-		global.cutting.createBlockType('MC', 'hanging_sign', 1),
-		global.cutting.createBlockType('MC', 'trapdoor', 1),
-		global.cutting.createBlockType('WW', 'ladder', 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_door`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_button`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('MC', (material) => `${material}_sign`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, 1),
+		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, 1),
+		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, 1)
 	];
 	
 	for(const fungus of fungusTypes) {
@@ -30,7 +31,7 @@ ServerEvents.recipes(event => {
 		);
 		
 		for(const blockType of blockTypes) {
-			let result = global.id[blockType.mod](`${fungus}_${blockType.name}`);
+			let result = global.id[blockType.mod](blockType.nameFormat(fungus));
 			global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
 		}
 		

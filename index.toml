@@ -146,23 +146,27 @@ hash = "df69087faab6ae64989b8e678a733a1df50b67f68c9719b2d0f580b49db82a71"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
-hash = "e8c59337db45b71b941e55fa9dc148439ffc30f1a4138277d451c1f9452546d4"
+hash = "9446e9eaefb0bbee018d1b8f1332cd66d72645222fa328d2993439bf4da65ec3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/bamboo.js"
-hash = "b17a250a72bdf662ec68ef79488a6828b922453bd2b5d2cb5ea0772bb90c0642"
+hash = "a70e4775adb7fcb868eb13bf441390908811f8beffe594febee87bebc22a3ec1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/flora/fine-wood.js"
+hash = "9c07772aab02d7601f37b0fef609fadc590dd27cac23a1665d1a3aa87bbc0599"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/fungus.js"
-hash = "ec15601ba74483475c2d2a5f196a5989b10179e26766793869800a8355146d1f"
+hash = "3b959f5928608ea39eb2987eefbc1512730bbb07611df03d40c3548ea93d663c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/wood.js"
-hash = "3e95108b426dda1e3670cdc3c48e828ebdf64519262aa22420d53500b5b673cf"
+hash = "5e3f0ff6c5882c50d676205da2c6ada116cf1cdfff9406bb3658eb0302761fc3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "14ad74cf5baceaf395c9958385b56a5f69272dc60f1c761e89bbccfec16432ca"
+hash = "8165afee6ae32b34f79de312a3bce85277b55adfb952959f1acc58f20ce0966a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/materials/andesite-alloy.js"
@@ -174,11 +178,15 @@ hash = "e7e11225e12994042d035bc40bf7261702ca383da75d95a2ae5fb3a5fd64b818"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/materials/copper.js"
-hash = "a162e9857137cc06a7c80ccc0890eb9dc6b8fb1dc37d7369451ec3dd6c2d29e0"
+hash = "0367326280ba7d3173b085e7413f4d2c59d8d5be3cbee1564db11d1f67e4216a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/materials/iron.js"
 hash = "30294aba1048ea4fd72cf94ca21a31d31dc13fd083362f4380ff235fb2fdeccf"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/materials/lapis.js"
+hash = "be14ddb3216885a41d4c248087a84b64ba79b8e486f767c4eff22e87e194ed2f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/materials/zinc.js"
@@ -186,7 +194,7 @@ hash = "6b1b6e51d45ce177f059905a04c49892f4488b6ec3afa6435c59f4502d08f95b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/ash.js"
-hash = "73e4ed39ec0b7d6b2bd13f3170c39a1908cafaf7ccc8f8d048cec62c71d4d413"
+hash = "a844ef25bb3e18c55143d391a0d620beeb6778ce9df7ad31a9f905b9440e3bf4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/basalt.js"
@@ -194,43 +202,51 @@ hash = "bf2991eac7e380fdb727ec0c02625c33a16c39a69335190b6ba8e141fed49721"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/blackstone-tile.js"
-hash = "77ed14cdee36468b6fdf6ea84257225570fd7f2ec3336727a4d176296145e520"
+hash = "ad499441d9c520e4aa0d2bf825876593988c0f2ff42990ab4bd75fdcabf69cd3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/blackstone.js"
-hash = "40ece0ae06587b58318cf1ca772277810e7abbfeed41f79524ab0321613279be"
+hash = "e557beb8f55d6533359f6586307119bc4101e0b9a247fea54b9fc5617f7371bc"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/checker-block.js"
+hash = "a412d544edad879a5f6fe1fc230a1e5c7c2b360e8eb19879de26e0eaa1635b72"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/cobblestones.js"
-hash = "06f1beed51df748452c9c59598de0cffa0ddf7a72845ff1169b6672fe71c1257"
+hash = "4cb59f7df2479956ebe9ec40dd92072690af87ccf020a04fe3539a2ab9cf9abf"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/create-stones.js"
-hash = "fb3c2468def966d91787413836650b0306a277080df1f539618ba076dfbca029"
+hash = "84f8115434a7eba5ea5a84afa16dd9a454c2e5e23bf62a6f11bcdf8a4d7ea005"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/daub.js"
+hash = "16ad082ebfc46a774ca237c753f9252de7ea369fc718d23786aaaaeef534a01d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/deepslate.js"
-hash = "1267f512b18d7dd9777c36c565ed1a3c92309af3ac1691facc07fcee36224aa0"
+hash = "0fe99b18dbe038bf2d8d00505fc7d4884cbd4c8df1e65a5c1abd28677e158d8d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/gravel.js"
-hash = "787c5abd9776016de9761ab414ef357297b7562a9c58ad6fe457639355a4728d"
+hash = "3a8697f8fbb6c912d8753999f5aa49c82741642e99ad09a57a688ca213ded184"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/minecraft-stones.js"
-hash = "1a74c5f0a3d3267fdfcc064a29b0d2cc3be0777dffcf1ea900be5a161749f3e8"
+hash = "9c41da076471836423b1d691a729582262769d3e0a7dcb62fce7563cf05c9134"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/smooth-stone.js"
-hash = "1ee80bb08c672c41272e1bd58f53f07dae225af71ce1b49db3b4317da5743358"
+hash = "3875eb781881ced25dd9fc23ce791a62c3513436acfff1c1c628b0faa9fe8b85"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/stone-tile.js"
-hash = "c73fa0317a1cbf85b7461a63c4dff9c4b5849ed71df7665f578174b74d0485fa"
+hash = "0eef867d7261a4e4f193c9ab9c61aae0defa7f054adc8c637cd61a0fdcdca21e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/stone.js"
-hash = "9b7baccacd91720a7e7d0d1a6ccb2d1305c316eeaa4ef760eb4f349fc9b37864"
+hash = "4b9793ecb5bee4331f97c31b880e89697964babe73fd11e9b14b62efeeb8a139"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/blast-furnace.js"
@@ -254,7 +270,7 @@ hash = "dc99a08d0d0c4d811850155c551115a8b0655b1206de45fc5adf5229b548f1c8"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "815640699010bfa3a9b2dc732a7a4e6528f01bc4fc5c190b1318a4e53a38d356"
+hash = "7bbbc33828234e28f3cbd6f9e428752608ed629edb3456b00f30879b27bdcd6b"
 
 [[files]]
 file = "kubejs/startup_scripts/recipes.js"

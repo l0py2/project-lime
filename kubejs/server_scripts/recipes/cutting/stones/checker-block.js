@@ -2,11 +2,11 @@
 
 ServerEvents.recipes(event => {
 	const stones = [
-		global.cutting.createBlock('MC', 'smooth_stone')
+		global.cutting.createBlock('SP', 'checker_block', 'checker')
 	];
 	
 	const types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
+		global.cutting.createBlockType('SP', (material) => `${material}_slab`, 2)
 	];
 	
 	global.cutting.addBaseTypeRecipes(event, stones, types);

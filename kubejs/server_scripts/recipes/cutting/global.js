@@ -15,10 +15,10 @@ global.cutting = {
 			materialFormat: materialFormat == undefined ? blockFormat : materialFormat
 		};
 	},
-	createBlockType: (mod, name, value) => {
+	createBlockType: (mod, nameFormat, value) => {
 		return {
 			mod: mod,
-			name: name,
+			nameFormat: nameFormat,
 			value: value
 		};
 	},
@@ -63,7 +63,7 @@ global.cutting = {
 				let variantBlock = global.id[variant.mod](variant.blockFormat(base.material));
 				
 				for(const type of types) {
-					let typeBlock = global.id[type.mod](`${variant.materialFormat(base.material)}_${type.name}`);
+					let typeBlock = global.id[type.mod](type.nameFormat(variant.materialFormat(base.material)));
 					global.cutting.addCuttingRecipe(event, variantBlock, typeBlock, type.value);
 				}
 			}
@@ -86,7 +86,7 @@ global.cutting = {
 			let baseBlock = global.id[base.mod](base.name);
 			
 			for(const type of types) {
-				let typeBlock = global.id[type.mod](`${base.material}_${type.name}`);
+				let typeBlock = global.id[type.mod](type.nameFormat(base.material));
 				global.cutting.addCuttingRecipe(event, baseBlock, typeBlock, type.value);
 			}
 		}

@@ -32,9 +32,9 @@ ServerEvents.recipes(event => {
 	allVariants = allVariants.concat(variants);
 	
 	const types = [
-		global.cutting.createBlockType('CR', 'slab', 2),
-		global.cutting.createBlockType('CR', 'stairs', 1),
-		global.cutting.createBlockType('CR', 'wall', 1)
+		global.cutting.createBlockType('CR', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('CR', (material) => `${material}_stairs`, 1),
+		global.cutting.createBlockType('CR', (material) => `${material}_wall`, 1)
 	];
 	
 	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);

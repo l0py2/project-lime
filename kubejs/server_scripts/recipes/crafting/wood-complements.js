@@ -32,10 +32,10 @@ ServerEvents.recipes(event => {
 		);
 	}
 	
-	function trapdoor(material, input) {
-		event.remove({ id: global.id.MC(`${material}_trapdoor`) });
+	function trapdoor(mod, material, input) {
+		event.remove({ id: global.id[mod](`${material}_trapdoor`) });
 		event.shapeless(
-			global.id.MC(`${material}_trapdoor`),
+			global.id[mod](`${material}_trapdoor`),
 			[
 				global.tag.MC('wooden_trapdoors'),
 				input
@@ -53,8 +53,11 @@ ServerEvents.recipes(event => {
 	
 	door('MC', 'iron', global.tag.M('ingots/iron'));
 	door('SP', 'gold', global.tag.M('ingots/gold'));
+	door('SP', 'netherite', global.tag.M('ingots/netherite'));
 	
-	trapdoor('iron', global.tag.M('ingots/iron'));
+	trapdoor('MC', 'iron', global.tag.M('ingots/iron'));
+	trapdoor('SP', 'gold', global.tag.M('ingots/gold'));
+	trapdoor('SP', 'netherite', global.tag.M('ingots/netherite'));
 	
 	event.remove({ id: global.id.SP('iron_gate') });
 	event.shapeless(

@@ -16,16 +16,17 @@ ServerEvents.recipes(event => {
 	woodTypes.push('oak');
 	
 	const blockTypes = [
-		global.cutting.createBlockType('MC', 'stairs', 1),
-		global.cutting.createBlockType('MC', 'door', 1),
-		global.cutting.createBlockType('MC', 'fence', 1),
-		global.cutting.createBlockType('MC', 'pressure_plate', 1),
-		global.cutting.createBlockType('MC', 'fence_gate', 1),
-		global.cutting.createBlockType('MC', 'button', 1),
-		global.cutting.createBlockType('MC', 'slab', 2),
-		global.cutting.createBlockType('MC', 'sign', 1),
-		global.cutting.createBlockType('MC', 'hanging_sign', 1),
-		global.cutting.createBlockType('MC', 'trapdoor', 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_door`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_button`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('MC', (material) => `${material}_sign`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, 1),
+		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, 1)
 	];
 	
 	for(const wood of woodTypes) {
@@ -35,7 +36,7 @@ ServerEvents.recipes(event => {
 		);
 		
 		for(const blockType of blockTypes) {
-			let result = global.id[blockType.mod](`${wood}_${blockType.name}`);
+			let result = global.id[blockType.mod](blockType.nameFormat(wood));
 			global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
 		}
 	}
@@ -44,7 +45,7 @@ ServerEvents.recipes(event => {
 	global.cutting.addCuttingRecipe(event, global.id.MC('oak_planks'), global.id.MC('ladder'), 1);
 	woodTypes.pop();
 	
-	const woodWorksLadder = global.cutting.createBlockType('WW', 'ladder', 1);
+	const woodWorksLadder = global.cutting.createBlockType('WW', (material) => `${material}_ladder`, 1);
 	
 	for(const wood of woodTypes) {
 		let rawPair = global.cutting.createRawPair(
@@ -52,7 +53,7 @@ ServerEvents.recipes(event => {
 			global.tag.MC(`${wood}_logs`), logValue
 		);
 		
-		let result = global.id[woodWorksLadder.mod](`${wood}_${woodWorksLadder.name}`);
+		let result = global.id[woodWorksLadder.mod](woodWorksLadder.nameFormat(wood));
 		global.cutting.addRawCuttingRecipe(event, rawPair, result, woodWorksLadder.value);
 	}
 	
