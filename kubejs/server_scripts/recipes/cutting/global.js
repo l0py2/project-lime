@@ -93,6 +93,35 @@ global.cutting = {
 	}
 };
 
+const logValue = 6; // Cutting planks crafting recipe
+const manualLogValue = 4; // Default planks crafting recipe
+
+global.cutting.flora = {
+	woodRecipes: (event, logType, woodTypes, blockTypes) => {
+		for(const wood of woodTypes) {
+			let rawPair = global.cutting.createRawPair(
+				global.id.MC(`${wood}_planks`),
+				global.tag.MC(`${wood}_${logType}`), logValue
+			);
+			
+			for(const blockType of blockTypes) {
+				let result = global.id[blockType.mod](blockType.nameFormat(wood));
+				global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
+			}
+		}
+	},
+	woodRawRecipes: (event, logType, woodTypes, conversions) => {
+		for(const wood of woodTypes) {		
+			global.cutting.addCuttingRecipe(event, global.tag.MC(`${wood}_${logType}`), global.id.MC(`${wood}_planks`), logValue);
+			
+			event.shapeless(
+				Item.of(global.id.MC(`${wood}_planks`), manualLogValue),
+				[global.tag.MC(`${wood}_${logType}`)]
+			);
+		}
+	}
+};
+
 ServerEvents.recipes(event => {
 	event.remove({ type: global.id.MC('stonecutting') });
 });
