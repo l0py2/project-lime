@@ -100,4 +100,5 @@ ServerEvents.recipes(event => {
 	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_scaffolding'), 2);
 	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_table_cloth'), 4);
 	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_bars'), 1);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SS('copper_plaque'), 1);
 });

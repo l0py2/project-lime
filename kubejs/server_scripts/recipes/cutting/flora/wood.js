@@ -28,13 +28,21 @@ ServerEvents.recipes(event => {
 	
 	global.cutting.flora.woodRecipes(event, 'logs', woodTypes, blockTypes);
 	
-	global.cutting.addCuttingRecipe(event, global.tag.MC('oak_logs'), global.id.MC('ladder'), 6);
-	global.cutting.addCuttingRecipe(event, global.id.MC('oak_planks'), global.id.MC('ladder'), 1);
-	woodTypes.pop();
 	blockTypes = [
-		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, 1)
+		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, 1),
+		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, 2)
 	];
+	
+	woodTypes.pop();
+	const oakRawPair = global.cutting.createRawPair(
+		global.id.MC('oak_planks'),
+		global.tag.MC('oak_logs'), 6
+	);
+	global.cutting.addRawCuttingRecipe(event, oakRawPair, global.id.MC('ladder'), 1);
+	global.cutting.addRawCuttingRecipe(event, oakRawPair, global.id.SP('item_shelf'), 2);
+	
 	global.cutting.flora.woodRecipes(event, 'logs', woodTypes, blockTypes);
+	
 	woodTypes.push('oak');
 	
 	global.cutting.flora.woodRawRecipes(event, 'logs', woodTypes);

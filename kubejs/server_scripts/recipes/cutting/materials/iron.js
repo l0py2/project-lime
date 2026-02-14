@@ -9,4 +9,5 @@ ServerEvents.recipes(event => {
 	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('weathered_iron_block'), 1);
 	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('industrial_iron_block'), 1);
 	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.MC('iron_bars'), 1);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SS('iron_plaque'), 1);
 });
