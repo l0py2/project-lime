@@ -39,16 +39,14 @@ ServerEvents.recipes(event => {
 		global.id.MC('stone')
 	]);
 	
-	// Stone tile
-	stones = [
-		global.cutting.createBlock('SP', 'stone_tile')
-	];
-	
-	types = [
-		global.cutting.createBlockType('SP', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('SP', (material) => `${material}_stairs`, 1),
-		global.cutting.createBlockType('SP', (material) => `${material}_wall`, 1)
-	];
-	
-	global.cutting.addBaseTypeRecipes(event, stones, types);
+	// Stone tile	
+	global.cutting.addBaseTypeRecipes(
+		event,
+		[global.cutting.createBlock('SP', 'stone_tile')],
+		[
+			global.cutting.createBlockType('SP', (material) => `${material}_slab`, 2),
+			global.cutting.createBlockType('SP', (material) => `${material}_stairs`, 1),
+			global.cutting.createBlockType('SP', (material) => `${material}_wall`, 1)
+		]
+	);
 });
