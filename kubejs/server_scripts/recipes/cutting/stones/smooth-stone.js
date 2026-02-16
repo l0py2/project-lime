@@ -1,13 +1,11 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
-	const stones = [
-		global.cutting.createBlock('MC', 'smooth_stone')
-	];
-	
-	const types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
-	];
-	
-	global.cutting.addBaseTypeRecipes(event, stones, types);
+	global.cutting.addBaseTypeRecipes(
+		event,
+		[global.cutting.createBlock('MC', 'smooth_stone')], 
+		[
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
+		]
+	);
 });

@@ -1,6 +1,7 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
+	// Bamboo
 	const woodTypes = [
 		'bamboo'
 	];
@@ -24,4 +25,14 @@ ServerEvents.recipes(event => {
 	
 	global.cutting.flora.woodRecipes(event, 'blocks', woodTypes, types);
 	global.cutting.flora.woodRawRecipes(event, 'blocks', woodTypes);
+	
+	// Bamboo mosaic	
+	global.cutting.addBaseTypeRecipes(
+		event,
+		[global.cutting.createBlock('MC', 'bamboo_mosaic')],
+		[
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
+		]
+	);
 });
