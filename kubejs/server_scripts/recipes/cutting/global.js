@@ -30,7 +30,8 @@ global.cutting = {
 		};
 	},
 	addCuttingRecipe: (event, input, output, count) => {
-		event.remove({ output: output, not: { type: global.id.MC('stonecutting') } });
+		event.remove({ output: output, type: global.id.MC('crafting_shaped') });
+		event.remove({ output: output, type: global.id.MC('crafting_shapeless') });
 		event.stonecutting(
 			Item.of(output, count == undefined ? 1 : count),
 			input

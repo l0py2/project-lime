@@ -49,4 +49,13 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlockType('SP', (material) => `${material}_wall`, 1)
 		]
 	);
+	
+	// Smooth stone
+	global.cutting.addBaseTypeRecipes(
+		event,
+		[global.cutting.createBlock('MC', 'smooth_stone')], 
+		[
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
+		]
+	);
 });

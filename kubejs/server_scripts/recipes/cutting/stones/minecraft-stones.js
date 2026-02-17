@@ -14,13 +14,19 @@ ServerEvents.recipes(event => {
 	let allVariants = [];
 	allVariants = allVariants.concat(variants);
 	
-	const types = [
+	let types = [
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1)
+	];
+	
+	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
+	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
+	
+	types = [
 		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
 		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
 		global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
 	];
 	
-	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
-	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
 	global.cutting.addBaseTypeRecipes(event, stones, types);
 });
