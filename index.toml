@@ -49,6 +49,10 @@ file = "kubejs/config/packicon.png"
 hash = "df69087faab6ae64989b8e678a733a1df50b67f68c9719b2d0f580b49db82a71"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/crafting/scorched-guns.js"
+hash = "011da65750d98b95ff411db6b17a21b8a5101fcc17b308bf39321a3ce1f54607"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
 hash = "9446e9eaefb0bbee018d1b8f1332cd66d72645222fa328d2993439bf4da65ec3"
 
