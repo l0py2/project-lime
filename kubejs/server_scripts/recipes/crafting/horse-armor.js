@@ -1,17 +1,4 @@
 ServerEvents.recipes(event => {
-	event.shaped(
-		global.id.MC('saddle'),
-		[
-			'   ',
-			'LLL',
-			'LIL'
-		],
-		{
-			L: global.tag.M('leather'),
-			I: global.tag.M('ingots/iron')
-		}
-	);
-
 	event.remove({ id: global.id.MC('leather_horse_armor') });
 	event.shaped(
 		global.id.MC('leather_horse_armor'),
@@ -60,6 +47,4 @@ ServerEvents.recipes(event => {
 			D: global.tag.M('gems/diamond')
 		}
 	);
-	
-	event.blasting(global.id.MC('leather'), global.id.MC('rotten_flesh'));
 });

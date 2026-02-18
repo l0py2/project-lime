@@ -1,24 +1,5 @@
 ServerEvents.recipes(event => {
-	const dyeColours = [
-		'white',
-		'light_gray',
-		'gray',
-		'black',
-		'brown',
-		'red',
-		'orange',
-		'yellow',
-		'lime',
-		'green',
-		'cyan',
-		'light_blue',
-		'blue',
-		'purple',
-		'magenta',
-		'pink'
-	];
-	
-	for(const colour of dyeColours) {
+	for(const colour of global.dyeColours) {
 		event.blasting(global.id.MC(`${colour}_glazed_terracotta`), global.id.MC(`${colour}_terracotta`));
 	}
 	
@@ -28,4 +9,5 @@ ServerEvents.recipes(event => {
 	event.blasting(global.id.MC('glass'), global.tag.MC('smelts_to_glass'));
 	event.blasting(global.id.MC('terracotta'), global.id.MC('clay'));
 	event.blasting(global.id.CR('scoria'), global.id.MC('soul_sand'));
+	event.blasting(global.id.MC('leather'), global.id.MC('rotten_flesh'));
 });

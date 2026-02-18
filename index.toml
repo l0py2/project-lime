@@ -49,6 +49,18 @@ file = "kubejs/config/packicon.png"
 hash = "df69087faab6ae64989b8e678a733a1df50b67f68c9719b2d0f580b49db82a71"
 
 [[files]]
+file = "kubejs/server_scripts/global.js"
+hash = "e33934d2b6157d021f16320d2fe9fcdaf3596bbc23c0237d10c19944dcea176e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/crafting/horse-armor.js"
+hash = "6cbd56ca83ccfe7e53ce1d4d7da803fe577a2be2ff1c135bfc1a7b12220f2bc8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/crafting/saddle.js"
+hash = "c2b3ec319b22a967e4306d469a8eb673de960df3526ffc3e88bedbb1e7266f7f"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/crafting/scorched-guns.js"
 hash = "011da65750d98b95ff411db6b17a21b8a5101fcc17b308bf39321a3ce1f54607"
 
@@ -81,39 +93,55 @@ file = "kubejs/server_scripts/recipes/cutting/items/molds.js"
 hash = "4d34859011e192162da7354e7ca44d4cd672b0d415a53e8f09834a1beff92a63"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/andesite-alloy.js"
+file = "kubejs/server_scripts/recipes/cutting/materials/alloys/andesite-alloy.js"
 hash = "4875b3b9477fc31ed8a4789ed6e65ed3a197a76c9948d5ae69f8ff7ef869a191"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/brass.js"
+file = "kubejs/server_scripts/recipes/cutting/materials/alloys/brass.js"
 hash = "e7e11225e12994042d035bc40bf7261702ca383da75d95a2ae5fb3a5fd64b818"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/colorless-glass.js"
-hash = "8c2d1a9bb43079428bdcf8ef34915ef890368447d7debd19c7b2302f4b28acea"
+file = "kubejs/server_scripts/recipes/cutting/materials/alloys/diamond-steel.js"
+hash = "bbf1d82305142c1eee8471575309d02341ef184ea4a1b88f3f8fa5fd5269c42c"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/copper.js"
-hash = "a100cef744fd9c7d4b30edab501f3f479b94b95d82695bf5484ac33ac8d3d4ab"
+file = "kubejs/server_scripts/recipes/cutting/materials/alloys/treated-brass.js"
+hash = "ef82eace3bc4657fbff1551900e32f1982ab7f6a66540816b7f1c85f5b7cae80"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/gold.js"
-hash = "dd426675a935bd92ef24ca8b0d5170e9e240e06c9f37b33de71ff8bd088529b3"
+file = "kubejs/server_scripts/recipes/cutting/materials/alloys/treated-iron.js"
+hash = "05dbfaefa3fbb4289867ae401c81caca14d778407424347fba5ec0006a887884"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/iron.js"
-hash = "1b146020f3170109d47f2df3127fd6e0dd3125228dc33a0f630ffcd1fbddd4af"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/lapis.js"
+file = "kubejs/server_scripts/recipes/cutting/materials/gems/lapis.js"
 hash = "dec6fb828f5c5de808240d5d13c04d436b39d872eafe55f1131f1178631332b0"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/quartz.js"
+file = "kubejs/server_scripts/recipes/cutting/materials/gems/quartz.js"
 hash = "a9e6bdac658f6caca0bdf8d72b14ac600635ffab8091fc0dbcb9618ca7de9913"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/materials/zinc.js"
+file = "kubejs/server_scripts/recipes/cutting/materials/glass/colorless-glass.js"
+hash = "8c2d1a9bb43079428bdcf8ef34915ef890368447d7debd19c7b2302f4b28acea"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/materials/metals/anthralite.js"
+hash = "798b7a77d5a6864be03d435d3f17412c4baac79c9898ea3e5d191c5e5cad6c7a"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/materials/metals/copper.js"
+hash = "a100cef744fd9c7d4b30edab501f3f479b94b95d82695bf5484ac33ac8d3d4ab"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/materials/metals/gold.js"
+hash = "dd426675a935bd92ef24ca8b0d5170e9e240e06c9f37b33de71ff8bd088529b3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/materials/metals/iron.js"
+hash = "1b146020f3170109d47f2df3127fd6e0dd3125228dc33a0f630ffcd1fbddd4af"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/materials/metals/zinc.js"
 hash = "6b1b6e51d45ce177f059905a04c49892f4488b6ec3afa6435c59f4502d08f95b"
 
 [[files]]
@@ -174,7 +202,7 @@ hash = "6ba33d6cb2b207b85af3ed1c4b42d529e352278e231eb48e05981e979df278fe"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/blast-furnace.js"
-hash = "d0777833d97817319f76396b33c61883d45c30fbb05641a7505d931921f36e06"
+hash = "1b57b57352720e6ff2a88e01228412da42a8a4abecff88ab683e43bf4d4af644"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/smoker.js"
@@ -185,24 +213,20 @@ file = "kubejs/server_scripts/recipes/progression.js"
 hash = "639fca8cb40f97880ac6e18766ee710629413e7c15259018813f03c9a21fb76c"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/quality-of-life.js"
-hash = "76873312ee97d9d193365a7ef369c9cac8e000176fbd00c43358eec46553ab52"
-
-[[files]]
 file = "kubejs/server_scripts/standardize.js"
 hash = "dc99a08d0d0c4d811850155c551115a8b0655b1206de45fc5adf5229b548f1c8"
+
+[[files]]
+file = "kubejs/startup_scripts/colours.js"
+hash = "53c695a446d8b3a91d31c8829e2d93fa46d252c33dc0cfaad0f99060d34282aa"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
 hash = "0c603a7445cd6640723992ea1472f1f8032047e04792004c7a5ccad0eb8e07cb"
 
 [[files]]
-file = "kubejs/startup_scripts/recipes.js"
-hash = "797fc0b670e31bac590eda0c7dec20d496757e4457349cc7ee1bcf9eeb62599e"
-
-[[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "e106f1c9cd6d0a4b906c1bb2d2c7fe46b5d14c37ac87244b1080dd1046d9eb6d"
+hash = "e3504bf2a39b3452c7243b7bf70af9c8918d11147a9a38e5dbba97fc3faf69c1"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
