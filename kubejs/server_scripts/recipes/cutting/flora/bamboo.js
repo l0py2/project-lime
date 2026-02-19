@@ -1,6 +1,14 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
+	global.cutting.addConversionRecipes(
+		event,
+		global.id.MC('bamboo_block'),
+		[
+			global.id.MC('stripped_bamboo_block')
+		]
+	);
+	
 	// Bamboo
 	const woodTypes = [
 		'bamboo'
@@ -25,6 +33,16 @@ ServerEvents.recipes(event => {
 	
 	global.cutting.flora.woodRecipes(event, 'blocks', woodTypes, types);
 	global.cutting.flora.woodRawRecipes(event, 'blocks', woodTypes);
+	
+	event.shaped(
+		global.id.MC('bamboo_block'),
+		[
+			'AAA',
+			'AAA',
+			'AAA'
+		],
+		{ A: global.id.MC('bamboo') }
+	);
 	
 	// Bamboo mosaic	
 	global.cutting.addBaseTypeRecipes(

@@ -26,6 +26,22 @@ ServerEvents.recipes(event => {
 	global.cutting.flora.woodRawRecipes(event, 'stems', woodTypes);
 	
 	for(const wood of woodTypes) {
-		global.cutting.addConversionRecipes(event, global.id.MC(`${wood}_planks`), [global.id.WW(`${wood}_boards`)]);
+		global.cutting.addConversionRecipes(
+			event,
+			global.id.MC(`${wood}_planks`),
+			[
+				global.id.WW(`${wood}_boards`)
+			]
+		);
+		
+		global.cutting.addConversionRecipes(
+			event,
+			global.id.MC(`${wood}_stem`),
+			[
+				global.id.MC(`${wood}_hyphae`),
+				global.id.MC(`stripped_${wood}_stem`),
+				global.id.MC(`stripped_${wood}_hyphae`)
+			]
+		);
 	}
 });

@@ -125,4 +125,5 @@ global.cutting.flora = {
 
 ServerEvents.recipes(event => {
 	event.remove({ type: global.id.MC('stonecutting') });
+	event.remove({ type: global.id.CR('cutting') });
 });

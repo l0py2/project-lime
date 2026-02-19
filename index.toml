@@ -74,7 +74,7 @@ hash = "dd2d9d9210b5805a6f0ec4f67fbe9834c97d57828004a305a3ade82b5ac4eb5b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/bamboo.js"
-hash = "e982279d9ed5d846718af023bbb7b6ac3892d09e5f7c54497a1c3e5a9c3e53d8"
+hash = "935f6dd02a9b6878728f28a8b4c6f5021483d5e78a0beb51414bbf7efdfeab8f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/fine-wood.js"
@@ -82,15 +82,15 @@ hash = "9f853873a34a6bd7c66b5bdecbad87af484ac38371f9a9ed5ac8bf1b1cbd181b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/fungus.js"
-hash = "13979f015e33751e405be0257d9980258363f99cd24600b1df9abb52a6c693fe"
+hash = "7453e327af36fcd9ab14cf13031e1c05e7dd396138d9431d317c032a2ba2a494"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/wood.js"
-hash = "d050fe5bf0cf8787aa04d2c49fa23a513f55995f1ebabd111fb5df68d56c4e76"
+hash = "ae9465a9501827b29e4c04f7ce5e7855905228fcb9e2cdd7c3d9e5bafe42de65"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "c92e42ca2dada99458095fa1b7ba4e30d4777edec5922e51c36a874174625920"
+hash = "fda33b424a87d69e2fd909fe7391de4ca5b25dc9b572a328b59d3722d3fb483d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/items/molds.js"
