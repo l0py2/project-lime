@@ -361,6 +361,11 @@ hash = "a1dba016bfd85fbabc5ff7c78f0302d3dd5b20026842231d6422947a7bb5f6f0"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "b9a7e71472f5f88229bf2f9e214b223b3900052bdc56075906d7a22acf74568c"
+metafile = true
+
+[[files]]
 file = "mods/hourglass.pw.toml"
 hash = "35ee1e29189e0778caa9d15fd618d224e9ce6fe94f622c4ae6aea12d7727cead"
 metafile = true
@@ -423,6 +428,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "6b5af5436645a6d990324f845314edbcdc9977131f7ea2b79694ef97f011cc51"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true
 
 [[files]]

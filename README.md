@@ -50,6 +50,8 @@
 - [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries)
 - [Supplementaries Squared](https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared)
 - [Woodworks](https://www.curseforge.com/minecraft/mc-mods/woodworks)
+- [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted)
+- [Resourceful Lib](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
 
 ## Planned mods
 
