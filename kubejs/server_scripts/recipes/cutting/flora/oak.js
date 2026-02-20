@@ -2,11 +2,10 @@
 
 ServerEvents.recipes(event => {
 	const woodTypes = [
-		'crimson',
-		'warped'
+		'oak'
 	];
 	
-	const blockTypes = [
+	let blockTypes = [
 		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
 		global.cutting.createBlockType('MC', (material) => `${material}_door`, global.cutting.values.door),
 		global.cutting.createBlockType('MC', (material) => `${material}_fence`, global.cutting.values.wall),
@@ -17,13 +16,13 @@ ServerEvents.recipes(event => {
 		global.cutting.createBlockType('MC', (material) => `${material}_sign`, global.cutting.values.sign),
 		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, global.cutting.values.sign),
 		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, global.cutting.values.trapdoor),
-		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, global.cutting.values.ladder),
+		global.cutting.createBlockType('MC', (material) => `ladder`, global.cutting.values.ladder),
 		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, global.cutting.values.sign),
-		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, global.cutting.values.slab)
+		global.cutting.createBlockType('SP', (material) => `item_shelf`, global.cutting.values.slab)
 	];
 	
-	global.cutting.flora.woodRecipes(event, 'stems', woodTypes, blockTypes);
-	global.cutting.flora.woodRawRecipes(event, 'stems', woodTypes);
+	global.cutting.flora.woodRecipes(event, 'logs', woodTypes, blockTypes);
+	global.cutting.flora.woodRawRecipes(event, 'logs', woodTypes);
 	
 	for(const wood of woodTypes) {
 		global.cutting.addConversionRecipes(
@@ -36,11 +35,11 @@ ServerEvents.recipes(event => {
 		
 		global.cutting.addConversionRecipes(
 			event,
-			global.id.MC(`${wood}_stem`),
+			global.id.MC(`${wood}_log`),
 			[
-				global.id.MC(`${wood}_hyphae`),
-				global.id.MC(`stripped_${wood}_stem`),
-				global.id.MC(`stripped_${wood}_hyphae`)
+				global.id.MC(`${wood}_wood`),
+				global.id.MC(`stripped_${wood}_log`),
+				global.id.MC(`stripped_${wood}_wood`)
 			]
 		);
 	}

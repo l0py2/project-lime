@@ -70,27 +70,31 @@ hash = "9446e9eaefb0bbee018d1b8f1332cd66d72645222fa328d2993439bf4da65ec3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/ash.js"
-hash = "dd2d9d9210b5805a6f0ec4f67fbe9834c97d57828004a305a3ade82b5ac4eb5b"
+hash = "250152f07ec4ecdcbb7c3daf741dde534422e097917f081ea0603762b626ea42"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/bamboo.js"
-hash = "935f6dd02a9b6878728f28a8b4c6f5021483d5e78a0beb51414bbf7efdfeab8f"
+hash = "a38544981b8e859231b814cc63057a5d7d7cb056b5265817e83dfd00735cfee4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/fine-wood.js"
-hash = "9f853873a34a6bd7c66b5bdecbad87af484ac38371f9a9ed5ac8bf1b1cbd181b"
+hash = "7b5e8821b26d26343bce9a5cffc0bcca36a8290c9bb974843393f9f0b33fa7c0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/fungus.js"
-hash = "7453e327af36fcd9ab14cf13031e1c05e7dd396138d9431d317c032a2ba2a494"
+hash = "d4f2afd407dd3f3f4ca6870f1fd42614a69d53f9dee420528a14441a3e4c3a8e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/flora/oak.js"
+hash = "b48f6d2e066479872bbf687de7c11c978cb5161fe222bf604c9c5ec7662c95a7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/flora/wood.js"
-hash = "ae9465a9501827b29e4c04f7ce5e7855905228fcb9e2cdd7c3d9e5bafe42de65"
+hash = "ddc5f8d1226cb44ac9c48cc28bdc4c5c72e784398639555a8123fb820a548096"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "fda33b424a87d69e2fd909fe7391de4ca5b25dc9b572a328b59d3722d3fb483d"
+hash = "71bc3f06262158fb9c86f0655bd3fbe3d7bb36a71c1cb68882697e5f678207fb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/items/molds.js"
@@ -292,18 +296,8 @@ hash = "d91e210be8d495f6a8e53e0fd314252172f1108b40610767f8fa63a99f0b9179"
 metafile = true
 
 [[files]]
-file = "mods/catalogue.pw.toml"
-hash = "c9a24431a1d17355fc1bfc80eb8c0254df74cf4e9f5199360fb2b2540186611d"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "d55acfb69858455fef20b9686a071b455a0b414b327b2d7a0aa49bc94599964b"
-metafile = true
-
-[[files]]
-file = "mods/configured.pw.toml"
-hash = "94201ec1da8a148b3da55476be54eafd3f62303d3fda84327e4ad9c05b553ae2"
 metafile = true
 
 [[files]]
@@ -372,11 +366,6 @@ hash = "35ee1e29189e0778caa9d15fd618d224e9ce6fe94f622c4ae6aea12d7727cead"
 metafile = true
 
 [[files]]
-file = "mods/item-obliterator.pw.toml"
-hash = "e3c48fd4b82fe25ec174f2fd0f2ca0eb887b0320f99d24aa1996109e167e0c55"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "91fb39ac230e5f6b85fb45cd49c99c3806606c9f96e1961787c047675c4712b1"
 metafile = true
@@ -414,11 +403,6 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "a9b313e2144b4b437d05e94ac6c7c583d8c6f0585efb1cd7c40d02540af045c5"
-metafile = true
-
-[[files]]
-file = "mods/necronomicon.pw.toml"
-hash = "d17e6cdfdc89ce8a6ea9fc794ec9382faa17476d1a98b799abb3a83acfdb64b5"
 metafile = true
 
 [[files]]

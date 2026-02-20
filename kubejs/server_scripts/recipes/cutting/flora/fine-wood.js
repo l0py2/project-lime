@@ -5,8 +5,8 @@ ServerEvents.recipes(event => {
 		event,
 		[global.cutting.createBlock('SP', 'fine_wood')],
 		[
-			global.cutting.createBlockType('SP', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('SP', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('SP', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('SP', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 });

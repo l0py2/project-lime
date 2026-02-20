@@ -15,20 +15,20 @@ ServerEvents.recipes(event => {
 	];
 	
 	const types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_door`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_fence`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_button`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('MC', (material) => `${material}_sign`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, 1),
-		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_mosaic`, 1),
-		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, 1),
-		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, 2)
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+		global.cutting.createBlockType('MC', (material) => `${material}_door`, global.cutting.values.door),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence`, global.cutting.values.wall),
+		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, global.cutting.values.wall),
+		global.cutting.createBlockType('MC', (material) => `${material}_button`),
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+		global.cutting.createBlockType('MC', (material) => `${material}_sign`, global.cutting.values.sign),
+		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, global.cutting.values.sign),
+		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, global.cutting.values.trapdoor),
+		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, global.cutting.values.ladder),
+		global.cutting.createBlockType('MC', (material) => `${material}_mosaic`),
+		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, global.cutting.values.sign),
+		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, global.cutting.values.slab)
 	];
 	
 	global.cutting.flora.woodRecipes(event, 'blocks', woodTypes, types);
@@ -49,8 +49,8 @@ ServerEvents.recipes(event => {
 		event,
 		[global.cutting.createBlock('MC', 'bamboo_mosaic')],
 		[
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab)
 		]
 	);
 });

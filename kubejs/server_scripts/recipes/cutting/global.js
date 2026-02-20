@@ -19,7 +19,7 @@ global.cutting = {
 		return {
 			mod: mod,
 			nameFormat: nameFormat,
-			value: value
+			value: value == undefined ? 1 : value
 		};
 	},
 	createRawPair: (material, materialBlock, blockValue) => {
@@ -121,6 +121,16 @@ global.cutting.flora = {
 			);
 		}
 	}
+};
+
+global.cutting.values = {
+	slab: 2,
+	stairs: 1,
+	wall: 1,
+	sign: 1,
+	door: 1,
+	trapdoor: 2,
+	ladder: 4
 };
 
 ServerEvents.recipes(event => {

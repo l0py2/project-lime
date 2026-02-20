@@ -1,6 +1,7 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
+	// Oak is excluded to be handled separately for being the "default" wood
 	const woodTypes = [
 		'spruce',
 		'mangrove',
@@ -10,41 +11,24 @@ ServerEvents.recipes(event => {
 		'jungle',
 		'cherry'
 	];
-	woodTypes.push('oak');
 	
 	let blockTypes = [
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_door`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_fence`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_button`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('MC', (material) => `${material}_sign`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, 1),
-		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+		global.cutting.createBlockType('MC', (material) => `${material}_door`, global.cutting.values.door),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence`, global.cutting.values.wall),
+		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`),
+		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, global.cutting.values.wall),
+		global.cutting.createBlockType('MC', (material) => `${material}_button`),
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+		global.cutting.createBlockType('MC', (material) => `${material}_sign`, global.cutting.values.sign),
+		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, global.cutting.values.sign),
+		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, global.cutting.values.trapdoor),
+		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, global.cutting.values.ladder),
+		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, global.cutting.values.sign),
+		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, global.cutting.values.slab)
 	];
 	
 	global.cutting.flora.woodRecipes(event, 'logs', woodTypes, blockTypes);
-	
-	blockTypes = [
-		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, 1),
-		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, 2)
-	];
-	
-	woodTypes.pop();
-	const oakRawPair = global.cutting.createRawPair(
-		global.id.MC('oak_planks'),
-		global.tag.MC('oak_logs'), 6
-	);
-	global.cutting.addRawCuttingRecipe(event, oakRawPair, global.id.MC('ladder'), 1);
-	global.cutting.addRawCuttingRecipe(event, oakRawPair, global.id.SP('item_shelf'), 2);
-	
-	global.cutting.flora.woodRecipes(event, 'logs', woodTypes, blockTypes);
-	
-	woodTypes.push('oak');
-	
 	global.cutting.flora.woodRawRecipes(event, 'logs', woodTypes);
 	
 	for(const wood of woodTypes) {
