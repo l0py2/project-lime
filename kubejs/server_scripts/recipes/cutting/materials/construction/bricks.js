@@ -3,13 +3,13 @@
 ServerEvents.recipes(event => {
 	global.cutting.addBaseTypeRecipes(
 		event,
-		[
-			global.cutting.createBlock('MC', 'bricks', 'brick'),
-		],
+		[global.cutting.createBlock('MC', 'bricks', 'brick')],
 		[
 			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
 			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1),
+			global.cutting.createBlockType('HC', (material) => `${material}s_pillar_trim`, global.cutting.values.slab),
+			global.cutting.createBlockType('HC', (material) => `${material}s_corner_trim`)
 		]
 	);
 	

@@ -19,7 +19,9 @@ ServerEvents.recipes(event => {
 		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, global.cutting.values.trapdoor),
 		global.cutting.createBlockType('WW', (material) => `${material}_ladder`, global.cutting.values.ladder),
 		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, global.cutting.values.sign),
-		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, global.cutting.values.slab)
+		global.cutting.createBlockType('SS', (material) => `item_shelf_${material}`, global.cutting.values.slab),
+		global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
+		global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
 	];
 	
 	global.cutting.flora.woodRecipes(event, 'stems', woodTypes, blockTypes);

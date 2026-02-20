@@ -25,7 +25,9 @@ ServerEvents.recipes(event => {
 	types = [
 		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
 		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1),
+		global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
+		global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
 	];
 	
 	global.cutting.addBaseTypeRecipes(event, stones, types);

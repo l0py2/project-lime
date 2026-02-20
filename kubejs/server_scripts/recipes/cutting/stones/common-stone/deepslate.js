@@ -28,4 +28,13 @@ ServerEvents.recipes(event => {
 	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
 	
 	global.cutting.addConversionRecipes(event, global.id.MC('cobbled_deepslate'), [global.id.MC('deepslate')]);
+	
+	global.cutting.addBaseTypeRecipes(
+		event,
+		[global.cutting.createBlock('MC', 'deepslate')],
+		[
+			global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
+			global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
+		]
+	);
 });

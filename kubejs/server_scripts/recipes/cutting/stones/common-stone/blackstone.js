@@ -2,6 +2,15 @@
 
 ServerEvents.recipes(event => {
 	// Blackstone
+	global.cutting.addBaseTypeRecipes(
+		event,
+		[global.cutting.createBlock('MC', 'blackstone')],
+		[
+			global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
+			global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
+		]
+	);
+	
 	global.cutting.addBaseVariantTypeRecipes(
 		event,
 		[global.cutting.createBlock('MC', 'blackstone')],
@@ -15,6 +24,7 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
 		]
 	);
+	
 	global.cutting.addBaseVariantRecipes(
 		event,
 		[global.cutting.createBlock('MC', 'blackstone')],

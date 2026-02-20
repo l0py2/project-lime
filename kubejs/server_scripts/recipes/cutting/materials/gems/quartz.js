@@ -14,6 +14,15 @@ ServerEvents.recipes(event => {
 	
 	global.cutting.addBaseTypeRecipes(
 		event,
+		[global.cutting.createBlock('MC', 'quartz_block', 'quartz')],
+		[
+			global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
+			global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
+		]
+	);
+	
+	global.cutting.addBaseTypeRecipes(
+		event,
 		[
 			global.cutting.createBlock('MC', 'quartz_block', 'quartz'),
 			global.cutting.createBlock('MC', 'smooth_quartz')
