@@ -8,8 +8,8 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlock('SP', 'daub_frame')
 		],
 		[
-			global.cutting.createBlockType('SS', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('SS', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('SS', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('SS', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 

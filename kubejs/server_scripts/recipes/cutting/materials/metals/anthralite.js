@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 		global.id.SG('anthralite_block'), 9
 	);
 	
-	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SG('anthralite_plates'), 1);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SG('anthralite_plates'));
 	
 	global.cutting.addConversionRecipes(
 		event,
@@ -30,8 +30,8 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlockVariant('SG', (material) => `cut_${material}`)
 		],
 		[
-			global.cutting.createBlockType('SG', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('SG', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 	
@@ -39,6 +39,6 @@ ServerEvents.recipes(event => {
 		event,
 		global.id.SG('anthralite_grate'),
 		global.id.SG('anthralite_grate_pane'),
-		1
+		global.cutting.values.wall
 	);
 });

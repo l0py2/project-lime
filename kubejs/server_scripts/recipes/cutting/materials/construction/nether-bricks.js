@@ -17,10 +17,10 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlock('MC', 'nether_bricks', 'nether_brick'),
 		],
 		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_fence`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall),
+			global.cutting.createBlockType('MC', (material) => `${material}_fence`, global.cutting.values.wall)
 		]
 	);
 	
@@ -40,9 +40,9 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlock('MC', 'red_nether_bricks', 'red_nether_brick'),
 		],
 		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall)
 		]
 	);
 	

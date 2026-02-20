@@ -29,8 +29,8 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlockVariant('SG', (material) => `${material}_tiles`)
 		],
 		[
-			global.cutting.createBlockType('SG', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('SG', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 	
@@ -38,6 +38,6 @@ ServerEvents.recipes(event => {
 		event,
 		global.id.SG('treated_brass_grate'),
 		global.id.SG('treated_brass_grate_pane'),
-		1
+		global.cutting.values.wall
 	);
 });

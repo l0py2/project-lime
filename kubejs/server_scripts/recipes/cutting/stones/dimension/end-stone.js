@@ -15,9 +15,9 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlock('MC', 'end_stone_bricks', 'end_stone_brick')
 		],
 		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall)
 		]
 	);
 });

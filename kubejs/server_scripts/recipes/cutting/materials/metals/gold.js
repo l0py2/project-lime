@@ -6,5 +6,5 @@ ServerEvents.recipes(event => {
 		global.id.MC('gold_block'), 9
 	);
 	
-	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SS('gold_plaque'), 1);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SS('gold_plaque'));
 });

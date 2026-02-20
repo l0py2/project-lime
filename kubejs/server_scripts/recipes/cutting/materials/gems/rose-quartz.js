@@ -4,8 +4,7 @@ ServerEvents.recipes(event => {
 	global.cutting.addCuttingRecipe(
 		event,
 		global.id.CR('polished_rose_quartz'),
-		global.id.CR('rose_quartz_block'),
-		1
+		global.id.CR('rose_quartz_block')
 	);
 	
 	global.cutting.addConversionRecipes(

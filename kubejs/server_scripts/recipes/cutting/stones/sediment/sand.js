@@ -32,9 +32,9 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlock('MC', 'red_sandstone')
 		],
 		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1),
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall),
 			global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
 			global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
 		]
@@ -47,8 +47,8 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlock('MC', 'smooth_red_sandstone')
 		],
 		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 	
@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlock('MC', 'cut_red_sandstone')
 		],
 		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab)
 		]
 	);
 });

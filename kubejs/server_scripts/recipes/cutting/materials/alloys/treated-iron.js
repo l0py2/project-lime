@@ -27,8 +27,8 @@ ServerEvents.recipes(event => {
 			global.cutting.createBlockVariant('SG', (material) => `cut_${material}`)
 		],
 		[
-			global.cutting.createBlockType('SG', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('SG', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 	
@@ -36,13 +36,13 @@ ServerEvents.recipes(event => {
 		event,
 		global.id.SG('treated_iron_plates'),
 		global.id.SG('treated_iron_bars'),
-		1
+		global.cutting.values.wall
 	);
 	
 	global.cutting.addCuttingRecipe(
 		event,
 		global.id.SG('treated_iron_grate'),
 		global.id.SG('treated_iron_grate_pane'),
-		1
+		global.cutting.values.wall
 	);
 });

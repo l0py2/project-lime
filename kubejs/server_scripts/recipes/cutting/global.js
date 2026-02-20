@@ -37,7 +37,9 @@ global.cutting = {
 			input
 		);
 	},
-	addRawCuttingRecipe: (event, rawPair, result, value) => {
+	addRawCuttingRecipe: (event, rawPair, result, count) => {
+		const value = count == undefined ? 1 : count;
+		
 		global.cutting.addCuttingRecipe(
 			event,
 			rawPair.material,

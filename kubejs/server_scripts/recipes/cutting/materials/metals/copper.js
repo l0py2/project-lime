@@ -12,44 +12,60 @@ ServerEvents.recipes(event => {
 		global.cutting.createBlock('MC', 'waxed_oxidized_copper', 'waxed_oxidized_')
 	];
 	
+	// Cut copper
 	let variants = [
 		global.cutting.createBlockVariant('MC', (state) => `${state}cut_copper`)
 	];
 	
-	let types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1)
-	];
-
-	global.cutting.addBaseVariantTypeRecipes(event, blocks, variants, types);
+	global.cutting.addBaseVariantTypeRecipes(
+		event,
+		blocks,
+		variants,
+		[
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
+		]
+	);
+	
 	global.cutting.addBaseVariantRecipes(event, blocks, variants);
 	
+	// Copper shingles and tiles
 	variants = [
 		global.cutting.createBlockVariant('CR', (state) => `${state}copper_shingles`, (state) => `${state}copper_shingle`),
 		global.cutting.createBlockVariant('CR', (state) => `${state}copper_tiles`, (state) => `${state}copper_tile`)
 	];
 	
-	types = [
-		global.cutting.createBlockType('CR', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('CR', (material) => `${material}_stairs`, 1)
-	];
-	
-	global.cutting.addBaseVariantTypeRecipes(event, blocks, variants, types);
-	global.cutting.addBaseVariantRecipes(event, blocks, variants);
-	
-	event.shapeless(
-		global.id.MC('copper_block'),
-		[Item.of(global.tag.M('ingots/copper'), 9)]
+	global.cutting.addBaseVariantTypeRecipes(
+		event,
+		blocks,
+		variants,
+		[
+			global.cutting.createBlockType('CR', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('CR', (material) => `${material}_stairs`, global.cutting.values.stairs)
+		]
 	);
 	
+	global.cutting.addBaseVariantRecipes(event, blocks, variants);
+	
+	// Copper
 	const rawPair = global.cutting.createRawPair(
 		global.tag.M('ingots/copper'),
 		global.id.MC('copper_block'), 9
 	);
 	
-	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_ladder'), 1);
-	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_scaffolding'), 2);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_ladder'), global.cutting.values.ladder);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_scaffolding'), global.cutting.values.slab);
 	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_table_cloth'), 4);
-	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_bars'), 1);
-	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SS('copper_plaque'), 1);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.CR('copper_bars'), global.cutting.values.wall);
+	global.cutting.addRawCuttingRecipe(event, rawPair, global.id.SS('copper_plaque'));
+	
+	event.shaped(
+		global.id.MC('copper_block'),
+		[
+			'AAA',
+			'AAA',
+			'AAA'
+		],
+		{ A: global.tag.M('ingots/copper') }
+	);
 });
