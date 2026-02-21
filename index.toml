@@ -30,7 +30,7 @@ hash = "5b7e4e4e1096d01659ea443f52ddd5550f27e1146e69d9be6c7b6892213adea2"
 
 [[files]]
 file = "kubejs/client_scripts/standardize.js"
-hash = "918c208e83ff34a5919e49a5ce36938103cea2e6e7f4c72fc0de12ce78c82bc3"
+hash = "80c9727b450f11c5727f32342d0b4b75c0c75019c112a812041e3ee9c039bf4e"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -254,7 +254,7 @@ hash = "639fca8cb40f97880ac6e18766ee710629413e7c15259018813f03c9a21fb76c"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "dc99a08d0d0c4d811850155c551115a8b0655b1206de45fc5adf5229b548f1c8"
+hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
 
 [[files]]
 file = "kubejs/startup_scripts/colours.js"
@@ -266,7 +266,7 @@ hash = "bd7e11a6b7105c36b9ed7ceea216a3ec1529db4d8e2d901db37a6cc5c2758287"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "e3504bf2a39b3452c7243b7bf70af9c8918d11147a9a38e5dbba97fc3faf69c1"
+hash = "463556a2935250ec3e9d973e5776bae5a19be1e3e3464d798e650f500fae9a0f"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

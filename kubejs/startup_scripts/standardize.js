@@ -23,4 +23,5 @@ global.outputReplacements = new Map([
 ]);
 
 global.dropReplacements = new Map([
+	[global.id.MC('furnace'), global.id.MC('blast_furnace')]
 ]);

@@ -10,4 +10,8 @@ ItemEvents.tooltip(event => {
 	for(const [original, replacement] of global.outputReplacements) {
 		event.add(original, Text.green(`Output replaced with ${replacement}`));
 	}
+	
+	for(const [original, replacement] of global.dropReplacements) {
+		event.add(original, Text.green(`Drop replaced with ${replacement}`));
+	}
 });
