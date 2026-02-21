@@ -12,13 +12,11 @@ ServerEvents.recipes(event => {
 	// Prismarine
 	global.cutting.addBaseTypeRecipes(
 		event,
+		[global.cutting.createBlock('MC', 'prismarine')],
 		[
-			global.cutting.createBlock('MC', 'prismarine'),
-		],
-		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall)
 		]
 	);
 	
@@ -34,24 +32,20 @@ ServerEvents.recipes(event => {
 	// Prismarine bricks
 	global.cutting.addBaseTypeRecipes(
 		event,
+		[global.cutting.createBlock('MC', 'prismarine_bricks', 'prismarine_brick')],
 		[
-			global.cutting.createBlock('MC', 'prismarine_bricks', 'prismarine_brick'),
-		],
-		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 	
 	// Dark prismarine
 	global.cutting.addBaseTypeRecipes(
 		event,
+		[global.cutting.createBlock('MC', 'dark_prismarine')],
 		[
-			global.cutting.createBlock('MC', 'dark_prismarine'),
-		],
-		[
-			global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1)
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 	

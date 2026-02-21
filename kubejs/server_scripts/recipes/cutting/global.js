@@ -1,6 +1,18 @@
 //priority: 9
 
+const logValue = 6; // Cutting planks crafting recipe
+const manualLogValue = 4; // Default planks crafting recipe
+
 global.cutting = {
+	values: {
+		slab: 2,
+		stairs: 1,
+		wall: 1,
+		sign: 1,
+		door: 1,
+		trapdoor: 2,
+		ladder: 4
+	},
 	createBlock: (mod, name, material) => {
 		return {
 			mod: mod,
@@ -93,46 +105,31 @@ global.cutting = {
 				global.cutting.addCuttingRecipe(event, baseBlock, typeBlock, type.value);
 			}
 		}
-	}
-};
-
-const logValue = 6; // Cutting planks crafting recipe
-const manualLogValue = 4; // Default planks crafting recipe
-
-global.cutting.flora = {
-	woodRecipes: (event, logType, woodTypes, blockTypes) => {
-		for(const wood of woodTypes) {
-			let rawPair = global.cutting.createRawPair(
-				global.id.MC(`${wood}_planks`),
-				global.tag.MC(`${wood}_${logType}`), logValue
-			);
+	},
+	flora: {
+		woodRecipes: (event, logType, woodTypes, blockTypes) => {
+			for(const wood of woodTypes) {
+				let rawPair = global.cutting.createRawPair(
+					global.id.MC(`${wood}_planks`),
+					global.tag.MC(`${wood}_${logType}`), logValue
+				);
+				
+				for(const blockType of blockTypes) {
+					let result = global.id[blockType.mod](blockType.nameFormat(wood));
+					global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
+				}
+			}
 			
-			for(const blockType of blockTypes) {
-				let result = global.id[blockType.mod](blockType.nameFormat(wood));
-				global.cutting.addRawCuttingRecipe(event, rawPair, result, blockType.value);
+			for(const wood of woodTypes) {		
+				global.cutting.addCuttingRecipe(event, global.tag.MC(`${wood}_${logType}`), global.id.MC(`${wood}_planks`), logValue);
+				
+				event.shapeless(
+					Item.of(global.id.MC(`${wood}_planks`), manualLogValue),
+					[global.tag.MC(`${wood}_${logType}`)]
+				);
 			}
 		}
-	},
-	woodRawRecipes: (event, logType, woodTypes, conversions) => {
-		for(const wood of woodTypes) {		
-			global.cutting.addCuttingRecipe(event, global.tag.MC(`${wood}_${logType}`), global.id.MC(`${wood}_planks`), logValue);
-			
-			event.shapeless(
-				Item.of(global.id.MC(`${wood}_planks`), manualLogValue),
-				[global.tag.MC(`${wood}_${logType}`)]
-			);
-		}
 	}
-};
-
-global.cutting.values = {
-	slab: 2,
-	stairs: 1,
-	wall: 1,
-	sign: 1,
-	door: 1,
-	trapdoor: 2,
-	ladder: 4
 };
 
 ServerEvents.recipes(event => {

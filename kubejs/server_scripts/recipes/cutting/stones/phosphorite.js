@@ -17,9 +17,9 @@ ServerEvents.recipes(event => {
 		event,
 		[global.cutting.createBlock('SG', 'phosphorite_bricks', 'phosphorite_brick')],
 		[
-			global.cutting.createBlockType('SG', (material) => `${material}_slab`, 2),
-			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, 1),
-			global.cutting.createBlockType('SG', (material) => `${material}_wall`, 1)
+			global.cutting.createBlockType('SG', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('SG', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('SG', (material) => `${material}_wall`, global.cutting.values.wall)
 		]
 	);
 });

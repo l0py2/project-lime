@@ -15,17 +15,17 @@ ServerEvents.recipes(event => {
 	allVariants = allVariants.concat(variants);
 	
 	let types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1)
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
 	];
 	
 	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
 	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
 	
 	types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, 1),
-		global.cutting.createBlockType('MC', (material) => `${material}_wall`, 1),
+		global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+		global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall),
 		global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
 		global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
 	];

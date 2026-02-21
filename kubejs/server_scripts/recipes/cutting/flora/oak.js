@@ -5,26 +5,28 @@ ServerEvents.recipes(event => {
 		'oak'
 	];
 	
-	let blockTypes = [
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
-		global.cutting.createBlockType('MC', (material) => `${material}_door`, global.cutting.values.door),
-		global.cutting.createBlockType('MC', (material) => `${material}_fence`, global.cutting.values.wall),
-		global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`),
-		global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, global.cutting.values.wall),
-		global.cutting.createBlockType('MC', (material) => `${material}_button`),
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
-		global.cutting.createBlockType('MC', (material) => `${material}_sign`, global.cutting.values.sign),
-		global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, global.cutting.values.sign),
-		global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, global.cutting.values.trapdoor),
-		global.cutting.createBlockType('MC', (material) => `ladder`, global.cutting.values.ladder),
-		global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, global.cutting.values.sign),
-		global.cutting.createBlockType('SP', (material) => `item_shelf`, global.cutting.values.slab),
-		global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
-		global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
-	];
-	
-	global.cutting.flora.woodRecipes(event, 'logs', woodTypes, blockTypes);
-	global.cutting.flora.woodRawRecipes(event, 'logs', woodTypes);
+	global.cutting.flora.woodRecipes(
+		event,
+		'logs',
+		woodTypes,
+		[
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_door`, global.cutting.values.door),
+			global.cutting.createBlockType('MC', (material) => `${material}_fence`, global.cutting.values.wall),
+			global.cutting.createBlockType('MC', (material) => `${material}_pressure_plate`),
+			global.cutting.createBlockType('MC', (material) => `${material}_fence_gate`, global.cutting.values.wall),
+			global.cutting.createBlockType('MC', (material) => `${material}_button`),
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_sign`, global.cutting.values.sign),
+			global.cutting.createBlockType('MC', (material) => `${material}_hanging_sign`, global.cutting.values.sign),
+			global.cutting.createBlockType('MC', (material) => `${material}_trapdoor`, global.cutting.values.trapdoor),
+			global.cutting.createBlockType('MC', (material) => `ladder`, global.cutting.values.ladder),
+			global.cutting.createBlockType('SP', (material) => `sign_post_${material}`, global.cutting.values.sign),
+			global.cutting.createBlockType('SP', (material) => `item_shelf`, global.cutting.values.slab),
+			global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
+			global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
+		]
+	);
 	
 	for(const wood of woodTypes) {
 		global.cutting.addConversionRecipes(

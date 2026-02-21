@@ -19,22 +19,22 @@ ServerEvents.recipes(event => {
 	];
 	
 	const variants = [
-		global.cutting.createBlockVariant('CR', (stone) => `cut_${stone}`),
-		global.cutting.createBlockVariant('CR', (stone) => `polished_cut_${stone}`),
-		global.cutting.createBlockVariant('CR', (stone) => `cut_${stone}_bricks`, (stone) => `cut_${stone}_brick`),
-		global.cutting.createBlockVariant('CR', (stone) => `small_${stone}_bricks`, (stone) => `small_${stone}_brick`)
+		global.cutting.createBlockVariant('CR', (material) => `cut_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `polished_cut_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
+		global.cutting.createBlockVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`)
 	];
 	
 	let allVariants = [
-		global.cutting.createBlockVariant('CR', (stone) => `layered_${stone}`),
-		global.cutting.createBlockVariant('CR', (stone) => `${stone}_pillar`)
+		global.cutting.createBlockVariant('CR', (material) => `layered_${material}`),
+		global.cutting.createBlockVariant('CR', (material) => `${material}_pillar`)
 	];
 	allVariants = allVariants.concat(variants);
 	
 	const types = [
-		global.cutting.createBlockType('CR', (material) => `${material}_slab`, 2),
-		global.cutting.createBlockType('CR', (material) => `${material}_stairs`, 1),
-		global.cutting.createBlockType('CR', (material) => `${material}_wall`, 1)
+		global.cutting.createBlockType('CR', (material) => `${material}_slab`, global.cutting.values.slab),
+		global.cutting.createBlockType('CR', (material) => `${material}_stairs`, global.cutting.values.stairs),
+		global.cutting.createBlockType('CR', (material) => `${material}_wall`, global.cutting.values.wall)
 	];
 	
 	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
