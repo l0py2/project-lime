@@ -20,14 +20,11 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
-	global.cutting.addBaseVariantTypeRecipes(
+	global.cutting.addBaseTypeRecipes(
 		event,
 		[
-			global.cutting.createBlock('SG', 'anthralite')
-		],
-		[
-			global.cutting.createBlockVariant('SG', (material) => `${material}_tiles`),
-			global.cutting.createBlockVariant('SG', (material) => `cut_${material}`)
+			global.cutting.createBlock('SG', 'anthralite_tiles'),
+			global.cutting.createBlock('SG', 'cut_anthralite')
 		],
 		[
 			global.cutting.createBlockType('SG', (material) => `${material}_slab`, global.cutting.values.slab),

@@ -7,28 +7,27 @@ ServerEvents.recipes(event => {
 		global.cutting.createBlock('MC', 'andesite')
 	];
 	
-	const variants = [
-		global.cutting.createBlockVariant('MC', (stone) => `polished_${stone}`)
-	];
+	// Raw
+	global.cutting.addBaseTypeRecipes(
+		event,
+		stones,
+		[
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall),
+			global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
+			global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
+		]
+	);
 	
-	let allVariants = [];
-	allVariants = allVariants.concat(variants);
-	
-	let types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
-	];
-	
-	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
-	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
-	
-	types = [
-		global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
-		global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs),
-		global.cutting.createBlockType('MC', (material) => `${material}_wall`, global.cutting.values.wall),
-		global.cutting.createBlockType('HC', (material) => `${material}_pillar_trim`, global.cutting.values.slab),
-		global.cutting.createBlockType('HC', (material) => `${material}_corner_trim`)
-	];
-	
-	global.cutting.addBaseTypeRecipes(event, stones, types);
+	// Polished
+	global.cutting.addBaseVariantTypeRecipes(
+		event,
+		stones,
+		[global.cutting.createBlockVariant('MC', (stone) => `polished_${stone}`)],
+		[
+			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
+		]
+	);
 });

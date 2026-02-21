@@ -19,14 +19,11 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
-	global.cutting.addBaseVariantTypeRecipes(
+	global.cutting.addBaseTypeRecipes(
 		event,
 		[
-			global.cutting.createBlock('SG', 'treated_brass')
-		],
-		[
-			global.cutting.createBlockVariant('SG', (material) => `cut_${material}`),
-			global.cutting.createBlockVariant('SG', (material) => `${material}_tiles`)
+			global.cutting.createBlock('SG', 'cut_treated_brass'),
+			global.cutting.createBlock('SG', 'treated_brass_tiles')
 		],
 		[
 			global.cutting.createBlockType('SG', (material) => `${material}_slab`, global.cutting.values.slab),
@@ -34,10 +31,5 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
-	global.cutting.addCuttingRecipe(
-		event,
-		global.id.SG('treated_brass_grate'),
-		global.id.SG('treated_brass_grate_pane'),
-		global.cutting.values.wall
-	);
+	global.cutting.addCuttingRecipe(event, global.id.SG('treated_brass_grate'), global.id.SG('treated_brass_grate_pane'), global.cutting.values.wall);
 });

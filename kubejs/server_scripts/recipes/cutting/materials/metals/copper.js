@@ -13,39 +13,31 @@ ServerEvents.recipes(event => {
 	];
 	
 	// Cut copper
-	let variants = [
-		global.cutting.createBlockVariant('MC', (state) => `${state}cut_copper`)
-	];
-	
 	global.cutting.addBaseVariantTypeRecipes(
 		event,
 		blocks,
-		variants,
+		[
+			global.cutting.createBlockVariant('MC', (state) => `${state}cut_copper`)
+		],
 		[
 			global.cutting.createBlockType('MC', (material) => `${material}_slab`, global.cutting.values.slab),
 			global.cutting.createBlockType('MC', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
 	
-	global.cutting.addBaseVariantRecipes(event, blocks, variants);
-	
 	// Copper shingles and tiles
-	variants = [
-		global.cutting.createBlockVariant('CR', (state) => `${state}copper_shingles`, (state) => `${state}copper_shingle`),
-		global.cutting.createBlockVariant('CR', (state) => `${state}copper_tiles`, (state) => `${state}copper_tile`)
-	];
-	
 	global.cutting.addBaseVariantTypeRecipes(
 		event,
 		blocks,
-		variants,
+		[
+			global.cutting.createBlockVariant('CR', (state) => `${state}copper_shingles`, (state) => `${state}copper_shingle`),
+			global.cutting.createBlockVariant('CR', (state) => `${state}copper_tiles`, (state) => `${state}copper_tile`)
+		],
 		[
 			global.cutting.createBlockType('CR', (material) => `${material}_slab`, global.cutting.values.slab),
 			global.cutting.createBlockType('CR', (material) => `${material}_stairs`, global.cutting.values.stairs)
 		]
 	);
-	
-	global.cutting.addBaseVariantRecipes(event, blocks, variants);
 	
 	// Copper
 	const rawPair = global.cutting.createRawPair(

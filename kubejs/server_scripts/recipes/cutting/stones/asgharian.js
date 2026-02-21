@@ -1,7 +1,6 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
-	// Blackstone
 	global.cutting.addConversionRecipes(
 		event,
 		global.id.SG('asgharian_bricks'),

@@ -1,6 +1,7 @@
 //priority: 8
 
 ServerEvents.recipes(event => {
+	// Sand
 	global.cutting.addBaseVariantRecipes(
 		event,
 		[
@@ -12,6 +13,7 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
+	// Sandstone
 	global.cutting.addBaseVariantRecipes(
 		event,
 		[
@@ -40,6 +42,7 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
+	// Smooth sandstone
 	global.cutting.addBaseTypeRecipes(
 		event,
 		[
@@ -52,6 +55,7 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
+	// Cut sandstone
 	global.cutting.addBaseTypeRecipes(
 		event,
 		[

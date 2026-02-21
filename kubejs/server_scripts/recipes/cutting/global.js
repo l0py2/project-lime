@@ -83,6 +83,8 @@ global.cutting = {
 				}
 			}
 		}
+		
+		global.cutting.addBaseVariantRecipes(event, bases, variants);
 	},
 	addBaseVariantRecipes: (event, bases, variants) => {		
 		for(const base of bases) {

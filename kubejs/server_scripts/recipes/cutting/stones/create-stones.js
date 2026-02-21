@@ -18,25 +18,28 @@ ServerEvents.recipes(event => {
 		global.cutting.createBlock('CR', 'veridium')
 	];
 	
-	const variants = [
-		global.cutting.createBlockVariant('CR', (material) => `cut_${material}`),
-		global.cutting.createBlockVariant('CR', (material) => `polished_cut_${material}`),
-		global.cutting.createBlockVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
-		global.cutting.createBlockVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`)
-	];
+	global.cutting.addBaseVariantTypeRecipes(
+		event,
+		stones,
+		[
+			global.cutting.createBlockVariant('CR', (material) => `cut_${material}`),
+			global.cutting.createBlockVariant('CR', (material) => `polished_cut_${material}`),
+			global.cutting.createBlockVariant('CR', (material) => `cut_${material}_bricks`, (material) => `cut_${material}_brick`),
+			global.cutting.createBlockVariant('CR', (material) => `small_${material}_bricks`, (material) => `small_${material}_brick`)
+		],
+		[
+			global.cutting.createBlockType('CR', (material) => `${material}_slab`, global.cutting.values.slab),
+			global.cutting.createBlockType('CR', (material) => `${material}_stairs`, global.cutting.values.stairs),
+			global.cutting.createBlockType('CR', (material) => `${material}_wall`, global.cutting.values.wall)
+		]
+	);
 	
-	let allVariants = [
-		global.cutting.createBlockVariant('CR', (material) => `layered_${material}`),
-		global.cutting.createBlockVariant('CR', (material) => `${material}_pillar`)
-	];
-	allVariants = allVariants.concat(variants);
-	
-	const types = [
-		global.cutting.createBlockType('CR', (material) => `${material}_slab`, global.cutting.values.slab),
-		global.cutting.createBlockType('CR', (material) => `${material}_stairs`, global.cutting.values.stairs),
-		global.cutting.createBlockType('CR', (material) => `${material}_wall`, global.cutting.values.wall)
-	];
-	
-	global.cutting.addBaseVariantTypeRecipes(event, stones, variants, types);
-	global.cutting.addBaseVariantRecipes(event, stones, allVariants);
+	global.cutting.addBaseVariantRecipes(
+		event,
+		stones,
+		[
+			global.cutting.createBlockVariant('CR', (material) => `layered_${material}`),
+			global.cutting.createBlockVariant('CR', (material) => `${material}_pillar`)
+		]
+	);
 });

@@ -29,8 +29,6 @@ ServerEvents.recipes(event => {
 		event,
 		[global.cutting.createBlock('MC', 'blackstone')],
 		[
-			global.cutting.createBlockVariant('MC', (material) => `polished_${material}`),
-			global.cutting.createBlockVariant('MC', (material) => `polished_${material}_bricks`, (material) => `polished_${material}_brick`),
 			global.cutting.createBlockVariant('MC', (material) => `cracked_polished_${material}_bricks`),
 			global.cutting.createBlockVariant('MC', (material) => `chiseled_polished_${material}`),
 			global.cutting.createBlockVariant('SP', (material) => `${material}_tile`)

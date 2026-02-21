@@ -20,14 +20,11 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
-	global.cutting.addBaseVariantTypeRecipes(
+	global.cutting.addBaseTypeRecipes(
 		event,
 		[
-			global.cutting.createBlock('SG', 'diamond_steel')
-		],
-		[
-			global.cutting.createBlockVariant('SG', (material) => `${material}_tiles`),
-			global.cutting.createBlockVariant('SG', (material) => `cut_${material}`)
+			global.cutting.createBlock('SG', 'diamond_steel_tiles'),
+			global.cutting.createBlock('SG', 'cut_diamond_steel')
 		],
 		[
 			global.cutting.createBlockType('SG', (material) => `${material}_slab`, global.cutting.values.slab),
@@ -35,17 +32,6 @@ ServerEvents.recipes(event => {
 		]
 	);
 	
-	global.cutting.addCuttingRecipe(
-		event,
-		global.id.SG('diamond_steel_panel'),
-		global.id.SG('diamond_steel_bars'),
-		global.cutting.values.wall
-	);
-	
-	global.cutting.addCuttingRecipe(
-		event,
-		global.id.SG('diamond_steel_grate'),
-		global.id.SG('diamond_steel_grate_pane'),
-		global.cutting.values.wall
-	);
+	global.cutting.addCuttingRecipe(event, global.id.SG('diamond_steel_panel'), global.id.SG('diamond_steel_bars'), global.cutting.values.wall);
+	global.cutting.addCuttingRecipe(event, global.id.SG('diamond_steel_grate'), global.id.SG('diamond_steel_grate_pane'), global.cutting.values.wall);
 });
