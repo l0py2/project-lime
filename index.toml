@@ -57,12 +57,16 @@ file = "kubejs/server_scripts/recipes/crafting/horse-armor.js"
 hash = "6cbd56ca83ccfe7e53ce1d4d7da803fe577a2be2ff1c135bfc1a7b12220f2bc8"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/crafting/saddle.js"
-hash = "c2b3ec319b22a967e4306d469a8eb673de960df3526ffc3e88bedbb1e7266f7f"
+file = "kubejs/server_scripts/recipes/crafting/mods/handcrafted.js"
+hash = "263990684c133cb2fa8470e71d2cc13cad889759080a8fa4ebb6cefc64957f3c"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/crafting/scorched-guns.js"
+file = "kubejs/server_scripts/recipes/crafting/mods/scorched-guns.js"
 hash = "011da65750d98b95ff411db6b17a21b8a5101fcc17b308bf39321a3ce1f54607"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/crafting/saddle.js"
+hash = "c2b3ec319b22a967e4306d469a8eb673de960df3526ffc3e88bedbb1e7266f7f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
@@ -266,7 +270,7 @@ hash = "bd7e11a6b7105c36b9ed7ceea216a3ec1529db4d8e2d901db37a6cc5c2758287"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "9b8df26aad02d065bc59153903e93294f5e3002b43f1a7204d8695488871d49e"
+hash = "2296230d6745ed3f005e26a542148d1034ed0c4e3598d40c70c5083b30eb46ab"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

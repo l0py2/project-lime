@@ -2,11 +2,11 @@
 
 global.removedItems = [
 	global.id.MC('furnace'),
-	global.id.WW('sawmill')
+	global.id.WW('sawmill'),
+	global.id.HC('oven')
 ];
 
 global.removedRecipeTypes = [
-	// global.id.MC('smelting'),
 	global.id.WW('sawmill')
 ];
 
