@@ -304,6 +304,11 @@ hash = "d91e210be8d495f6a8e53e0fd314252172f1108b40610767f8fa63a99f0b9179"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "d55acfb69858455fef20b9686a071b455a0b414b327b2d7a0aa49bc94599964b"
 metafile = true
@@ -319,6 +324,11 @@ hash = "2c106456ac5e37b27820ff0d52751d3a8367cf5468596bf13b8e26f975f9784a"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "967c38265800a8b2353debf37ab919204a1f89e4a57e2e603b7a7de1d68c8956"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "101318e5961966ea964a6f0f22fcbbae0af21e09b5cfb8566e12861e5d8aef5f"
 metafile = true
@@ -326,6 +336,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "b7325f1ad328f8cdc1cbd578570ce5244874fdd529eda5f20568df44dec5a772"
+metafile = true
+
+[[files]]
+file = "mods/delightful.pw.toml"
+hash = "f6f19441deb7a82aba8afe2421758930854518ed7e9e3de56583217227f39bff"
 metafile = true
 
 [[files]]
@@ -346,6 +361,16 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "efa23002a0bccfb52b58eba217cb7ced382e03d55c4cb766ab6f643451e760d5"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "99876b4f4941ce79c052275c1b10530b1581cc86479c4b0252e9c8b0bc93f8b7"
+metafile = true
+
+[[files]]
+file = "mods/farmers-respite.pw.toml"
+hash = "49431cb48a66b264c2cb7702c7bb80155d1a59a42d384348e30700ce0ebc1e4c"
 metafile = true
 
 [[files]]
@@ -406,6 +431,11 @@ metafile = true
 [[files]]
 file = "mods/lootjs.pw.toml"
 hash = "f5cb8ba1d36e87528ff188ca179614b9b6e5b475d1e6bc2ae61076e64a6505d7"
+metafile = true
+
+[[files]]
+file = "mods/miners-delight-plus.pw.toml"
+hash = "8a459a2534f09d18581fa154a84f428b1eaf1721fc8493ebe1e80df490e7502c"
 metafile = true
 
 [[files]]
