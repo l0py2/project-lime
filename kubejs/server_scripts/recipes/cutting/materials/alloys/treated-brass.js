@@ -1,5 +1,3 @@
-//priority: 9
-
 ServerEvents.recipes(event => {
 	const rawPair = global.cutting.createRawPair(
 		global.id.SG('treated_brass_ingot'),

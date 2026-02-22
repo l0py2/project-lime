@@ -1,5 +1,3 @@
-//priority: 9
-
 ServerEvents.recipes(event => {
 	// Blackstone
 	global.cutting.addBaseTypeRecipes(

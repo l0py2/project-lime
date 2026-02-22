@@ -1,4 +1,4 @@
-//priority: 9
+//priority: 1
 
 ServerEvents.recipes(event => {	
 	global.cutting.addConversionRecipes(

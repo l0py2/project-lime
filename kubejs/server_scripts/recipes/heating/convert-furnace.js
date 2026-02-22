@@ -1,5 +1,3 @@
-//priority: 20
-
 ServerEvents.recipes(event => {
 	const smeltingRecipes = global.recipes.getAll(event, { type: global.id.MC('smelting') });
 	const smokingRecipes = global.recipes.getAll(event, { type: global.id.MC('smoking') });

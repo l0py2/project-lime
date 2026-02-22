@@ -1,5 +1,3 @@
-//priority: 9
-
 ServerEvents.recipes(event => {	
 	// Phosphorite
 	global.cutting.addConversionRecipes(

@@ -1,5 +1,3 @@
-//priority: 9
-
 ServerEvents.recipes(event => {
 	// Nether bricks
 	global.cutting.addConversionRecipes(

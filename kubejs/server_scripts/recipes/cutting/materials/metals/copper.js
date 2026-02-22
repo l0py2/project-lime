@@ -1,5 +1,3 @@
-//priority: 9
-
 ServerEvents.recipes(event => {
 	const blocks = [
 		global.cutting.createBlock('MC', 'copper_block', ''),

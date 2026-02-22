@@ -1,5 +1,3 @@
-//priority: 9
-
 ServerEvents.recipes(event => {
 	const stones = [
 		global.cutting.createBlock('MC', 'granite'),

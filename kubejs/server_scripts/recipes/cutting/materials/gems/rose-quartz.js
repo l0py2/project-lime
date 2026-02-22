@@ -1,5 +1,3 @@
-//priority: 9
-
 ServerEvents.recipes(event => {
 	global.cutting.addCuttingRecipe(
 		event,

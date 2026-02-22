@@ -1,4 +1,4 @@
-//priority: 10
+//priority: 98
 
 const logValue = 6; // Cutting planks crafting recipe
 const manualLogValue = 4; // Default planks crafting recipe
@@ -44,6 +44,8 @@ global.cutting = {
 	addCuttingRecipe: (event, input, output, count) => {
 		event.remove({ output: output, type: global.id.MC('crafting_shaped') });
 		event.remove({ output: output, type: global.id.MC('crafting_shapeless') });
+		event.remove({ output: output, type: global.id.MC('smelting') });
+		event.remove({ output: output, type: global.id.MC('blasting') });
 		event.stonecutting(
 			Item.of(output, count == undefined ? 1 : count),
 			input
