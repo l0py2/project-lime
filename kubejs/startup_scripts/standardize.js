@@ -6,7 +6,7 @@ global.removedItems = [
 ];
 
 global.removedRecipeTypes = [
-	global.id.MC('smelting'),
+	// global.id.MC('smelting'),
 	global.id.WW('sawmill')
 ];
 

@@ -1,4 +1,4 @@
-//priority: 8
+//priority: 9
 
 ServerEvents.recipes(event => {
 	global.cutting.addConversionRecipes(event, global.id.MC('cobbled_deepslate'), [global.id.MC('deepslate')]);

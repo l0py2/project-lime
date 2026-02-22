@@ -1,4 +1,4 @@
-//priority: 8
+//priority: 9
 
 ServerEvents.recipes(event => {
 	// Sand

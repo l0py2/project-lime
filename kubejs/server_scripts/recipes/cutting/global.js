@@ -1,4 +1,4 @@
-//priority: 9
+//priority: 10
 
 const logValue = 6; // Cutting planks crafting recipe
 const manualLogValue = 4; // Default planks crafting recipe

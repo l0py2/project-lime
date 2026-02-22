@@ -1,4 +1,4 @@
-//priority: 8
+//priority: 9
 
 ServerEvents.recipes(event => {
 	// Oak is excluded to be handled separately for being the "default" wood
