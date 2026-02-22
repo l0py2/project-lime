@@ -98,7 +98,7 @@ hash = "a78fb48f46c147e81346c2306effd11b31ae96af5a507c5b948f8801946da7f2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/global.js"
-hash = "944326d179033ff14b14aba4f946ad2b97debf6e327bd3150d83502622eda105"
+hash = "527c327f3f677c08c41b211ebab58d84a2968bf9aa2d21afedab8f10433c4a8b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/items/molds.js"
@@ -201,10 +201,6 @@ file = "kubejs/server_scripts/recipes/cutting/stones/common/stone.js"
 hash = "d24edbe70afb72061aacbc9ce30d11fddc303d29e5750a5bb6d310192e7ad708"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/stones/create-stones.js"
-hash = "76cacb4de5c6750bf22537f06726d41b18678e21028d61df0041937dcb3ccd11"
-
-[[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/dimension/blackstone.js"
 hash = "f8c497ec9d3cdee6bc0e35eeb19459d2334db013b51812cdeb8ee40b5b0362aa"
 
@@ -213,8 +209,16 @@ file = "kubejs/server_scripts/recipes/cutting/stones/dimension/end-stone.js"
 hash = "d1e6c9530c44a63596e4c76837604e8bebb5bb2221e48f7ef15f4c379aaacd1d"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/stones/minecraft-stones.js"
+file = "kubejs/server_scripts/recipes/cutting/stones/mod-group/create-stones.js"
+hash = "76cacb4de5c6750bf22537f06726d41b18678e21028d61df0041937dcb3ccd11"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/mod-group/minecraft-stones.js"
 hash = "1c8713db735db56d9a24bb81d6b5a6eff0d4d6eb412e6d01bf2ac92342bc5ca1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/mod-group/quark-stones.js"
+hash = "c6aa26ada15f5b168a5f5609ce45ad3b2a835124ab417091ed966ae015c36fc0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/natural/basalt.js"
@@ -227,6 +231,10 @@ hash = "f1c409876014c2d2058bcd4cb0ff06e8988ff594226ae13ff4933986e3317ff7"
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/natural/dripstone.js"
 hash = "026d5cf2fa47bd5066cc0222e3fdd14133459c0bf58be0007517e0d7505932c4"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cutting/stones/natural/terracotta.js"
+hash = "9190805f16cb460e1d86f9bea67a91740665dc617f60cd711657cea8d45b5ffb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stones/phosphorite.js"
@@ -270,11 +278,11 @@ hash = "53c695a446d8b3a91d31c8829e2d93fa46d252c33dc0cfaad0f99060d34282aa"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "1bbb2d473e9e2de0fbc1f9a895d4e1d847e45fecafdf1b734b7dbd72c42a046e"
+hash = "e542c2ded43628b987dbe44d7290e893323a12f2593cd15f8e528d75a19a71e2"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "2296230d6745ed3f005e26a542148d1034ed0c4e3598d40c70c5083b30eb46ab"
+hash = "b3838ca5dd3e45a32ba4dcecedda9d1eb59b354babc75e6878d16828524b75e6"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -477,6 +485,11 @@ hash = "6b5af5436645a6d990324f845314edbcdc9977131f7ea2b79694ef97f011cc51"
 metafile = true
 
 [[files]]
+file = "mods/quark.pw.toml"
+hash = "4eb683644ee4e38e00b06df946b71ad8fedaa860fcabbd91ec6ceb71c65b8d81"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true
@@ -514,4 +527,9 @@ metafile = true
 [[files]]
 file = "mods/woodworks.pw.toml"
 hash = "9554bbdebaa0cfc8657a9b478d5933cfe69d562875c14f860b5a96ff0d5ae6c5"
+metafile = true
+
+[[files]]
+file = "mods/zeta.pw.toml"
+hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
 metafile = true

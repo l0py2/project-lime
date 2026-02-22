@@ -11,7 +11,8 @@ global.id = {
 	SG: id => `scguns:${id}`,
 	HC: id => `handcrafted:${id}`,
 	FD: id => `farmersdelight:${id}`,
-	DF: id => `delightful:${id}`
+	DF: id => `delightful:${id}`,
+	QK: id => `quark:${id}`
 };
 
 global.tag = {
@@ -25,5 +26,6 @@ global.tag = {
 	SG: id => `#scguns:${id}`,
 	HC: id => `#handcrafted:${id}`,
 	FD: id => `#farmersdelight:${id}`,
-	DF: id => `#delightful:${id}`
+	DF: id => `#delightful:${id}`,
+	QK: id => `#quark:${id}`
 };

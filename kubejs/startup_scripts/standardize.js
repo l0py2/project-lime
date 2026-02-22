@@ -7,7 +7,6 @@ global.removedItems = [
 ];
 
 global.removedRecipeTypes = [
-	global.id.WW('sawmill')
 ];
 
 global.removedRecipes = [

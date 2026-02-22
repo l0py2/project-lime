@@ -46,10 +46,25 @@ global.cutting = {
 		event.remove({ output: output, type: global.id.MC('crafting_shapeless') });
 		event.remove({ output: output, type: global.id.MC('smelting') });
 		event.remove({ output: output, type: global.id.MC('blasting') });
+		
 		event.stonecutting(
 			Item.of(output, count == undefined ? 1 : count),
 			input
 		);
+		
+		const inputIsTag = /#.*/.test(input);
+		const outputIsSlab = /.*_slab/.test(output);
+		
+		if(!inputIsTag && outputIsSlab) {
+			event.shaped(
+				input,
+				[
+					'A ',
+					'A '
+				],
+				{ A: output }
+			);
+		}
 	},
 	addRawCuttingRecipe: (event, rawPair, result, count) => {
 		const value = count == undefined ? 1 : count;
@@ -138,5 +153,6 @@ global.cutting = {
 
 ServerEvents.recipes(event => {
 	event.remove({ type: global.id.MC('stonecutting') });
+	event.remove({ type: global.id.WW('sawmill') });
 	event.remove({ type: global.id.CR('cutting') });
 });
