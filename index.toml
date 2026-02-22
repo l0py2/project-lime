@@ -261,12 +261,16 @@ file = "kubejs/server_scripts/standardize.js"
 hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
 
 [[files]]
+file = "kubejs/server_scripts/tags/create-storage.js"
+hash = "479284b7230e95526ec692f137cc03751231ba7635538399d5f54e3b7d10e840"
+
+[[files]]
 file = "kubejs/startup_scripts/colours.js"
 hash = "53c695a446d8b3a91d31c8829e2d93fa46d252c33dc0cfaad0f99060d34282aa"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "bd7e11a6b7105c36b9ed7ceea216a3ec1529db4d8e2d901db37a6cc5c2758287"
+hash = "1bbb2d473e9e2de0fbc1f9a895d4e1d847e45fecafdf1b734b7dbd72c42a046e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
