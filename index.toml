@@ -102,7 +102,7 @@ hash = "e542c2ded43628b987dbe44d7290e893323a12f2593cd15f8e528d75a19a71e2"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "b3838ca5dd3e45a32ba4dcecedda9d1eb59b354babc75e6878d16828524b75e6"
+hash = "2296230d6745ed3f005e26a542148d1034ed0c4e3598d40c70c5083b30eb46ab"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -197,6 +197,11 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "efa23002a0bccfb52b58eba217cb7ced382e03d55c4cb766ab6f643451e760d5"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "8e8c29a8ccd54f4e94ed84932d3c4067ad697ac62e10c2cd051a004735d5ea4c"
 metafile = true
 
 [[files]]
@@ -320,6 +325,11 @@ hash = "41ecc1c60a8084cc3bdfffbd5cb598ab41294570731eb3697cf63c0a8e4f7c2f"
 metafile = true
 
 [[files]]
+file = "mods/sawmill.pw.toml"
+hash = "03df4d26153286220dd3e423d9682b90764ee827685e8e2969c74a9ee11a40e0"
+metafile = true
+
+[[files]]
 file = "mods/scorched-guns.pw.toml"
 hash = "510af39c0dffb85b33268b8e381348d6e7d3ab28a6ea3a089bf483b63b6fa37c"
 metafile = true
@@ -332,6 +342,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "f9834af674abc824248bedb2e490ab426cff92b036cb20413cbbacd67ec6f5e3"
+metafile = true
+
+[[files]]
+file = "mods/stone-zone.pw.toml"
+hash = "d4c650c4cdf2589768c907bdb1883e74da65c6788423c197af41bcec175ec905"
 metafile = true
 
 [[files]]
