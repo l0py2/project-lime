@@ -1,4 +1,6 @@
 ServerEvents.tags('block', event => {
+	event.add(global.id.CR('chest_mounted_storage'), global.tag.M('chests/wooden'));
+	
 	// Handcrafted
 	event.add(global.id.CR('simple_mounted_storage'), global.tag.HC('side_tables'));
 	event.add(global.id.CR('simple_mounted_storage'), global.tag.HC('desks'));
