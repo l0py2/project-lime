@@ -8,7 +8,7 @@
       "item": "quark:vertical_azalea_planks"
     }
   ],
-  "ingredient_count": 3,
+  "ingredient_count": 1,
   "result": "everycomp:hc/quark/azalea_bench",
   "count": 1,
   "type": "sawmill:woodcutting"

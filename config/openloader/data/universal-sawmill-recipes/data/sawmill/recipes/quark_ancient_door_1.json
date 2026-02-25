@@ -8,7 +8,7 @@
       "item": "quark:vertical_ancient_planks"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "quark:ancient_door",
   "count": 1,
   "type": "sawmill:woodcutting"

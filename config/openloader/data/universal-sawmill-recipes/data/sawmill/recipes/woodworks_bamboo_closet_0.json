@@ -8,7 +8,7 @@
       "item": "minecraft:stripped_bamboo_block"
     }
   ],
-  "ingredient_count": 4,
+  "ingredient_count": 1,
   "result": "woodworks:bamboo_closet",
   "count": 1,
   "type": "sawmill:woodcutting"

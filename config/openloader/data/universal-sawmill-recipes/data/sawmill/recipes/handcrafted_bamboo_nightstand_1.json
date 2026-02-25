@@ -8,7 +8,7 @@
       "item": "quark:vertical_bamboo_planks"
     }
   ],
-  "ingredient_count": 6,
+  "ingredient_count": 1,
   "result": "handcrafted:bamboo_nightstand",
   "count": 1,
   "type": "sawmill:woodcutting"

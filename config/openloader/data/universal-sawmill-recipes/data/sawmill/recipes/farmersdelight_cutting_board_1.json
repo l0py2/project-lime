@@ -3,7 +3,7 @@
   "ingredient": {
     "tag": "minecraft:planks"
   },
-  "ingredient_count": 5,
+  "ingredient_count": 3,
   "result": "farmersdelight:cutting_board",
   "count": 1,
   "type": "sawmill:woodcutting"

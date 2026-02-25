@@ -8,7 +8,7 @@
       "item": "quark:vertical_blossom_planks"
     }
   ],
-  "ingredient_count": 6,
+  "ingredient_count": 3,
   "result": "everycomp:hc/quark/blossom_shelf",
   "count": 1,
   "type": "sawmill:woodcutting"

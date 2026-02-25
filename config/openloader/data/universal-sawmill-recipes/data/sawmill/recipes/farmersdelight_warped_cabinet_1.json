@@ -8,7 +8,7 @@
       "item": "quark:vertical_warped_planks"
     }
   ],
-  "ingredient_count": 9,
+  "ingredient_count": 4,
   "result": "farmersdelight:warped_cabinet",
   "count": 1,
   "type": "sawmill:woodcutting"

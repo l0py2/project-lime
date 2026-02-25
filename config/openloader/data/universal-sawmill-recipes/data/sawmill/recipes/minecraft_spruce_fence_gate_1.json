@@ -8,7 +8,7 @@
       "item": "quark:vertical_spruce_planks"
     }
   ],
-  "ingredient_count": 4,
+  "ingredient_count": 3,
   "result": "minecraft:spruce_fence_gate",
   "count": 1,
   "type": "sawmill:woodcutting"

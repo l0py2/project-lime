@@ -8,7 +8,7 @@
       "item": "quark:vertical_spruce_planks"
     }
   ],
-  "ingredient_count": 8,
+  "ingredient_count": 4,
   "result": "woodworks:spruce_chest",
   "count": 1,
   "type": "sawmill:woodcutting"

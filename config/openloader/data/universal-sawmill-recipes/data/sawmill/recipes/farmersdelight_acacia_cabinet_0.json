@@ -14,7 +14,7 @@
       "item": "minecraft:stripped_acacia_wood"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "farmersdelight:acacia_cabinet",
   "count": 1,
   "type": "sawmill:woodcutting"

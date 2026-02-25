@@ -8,7 +8,7 @@
       "item": "quark:vertical_ancient_planks"
     }
   ],
-  "ingredient_count": 8,
+  "ingredient_count": 4,
   "result": "quark:ancient_chest",
   "count": 1,
   "type": "sawmill:woodcutting"

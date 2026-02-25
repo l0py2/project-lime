@@ -8,7 +8,7 @@
       "item": "quark:vertical_mangrove_planks"
     }
   ],
-  "ingredient_count": 5,
+  "ingredient_count": 2,
   "result": "minecraft:mangrove_boat",
   "count": 1,
   "type": "sawmill:woodcutting"

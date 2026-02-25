@@ -8,7 +8,7 @@
       "item": "quark:vertical_jungle_planks"
     }
   ],
-  "ingredient_count": 7,
+  "ingredient_count": 3,
   "result": "woodworks:chiseled_jungle_bookshelf",
   "count": 1,
   "type": "sawmill:woodcutting"

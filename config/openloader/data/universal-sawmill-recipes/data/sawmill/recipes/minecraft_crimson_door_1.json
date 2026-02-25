@@ -8,7 +8,7 @@
       "item": "quark:vertical_crimson_planks"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "minecraft:crimson_door",
   "count": 1,
   "type": "sawmill:woodcutting"

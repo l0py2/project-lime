@@ -8,7 +8,7 @@
       "item": "quark:vertical_azalea_planks"
     }
   ],
-  "ingredient_count": 5,
+  "ingredient_count": 2,
   "result": "quark:azalea_boat",
   "count": 1,
   "type": "sawmill:woodcutting"

@@ -14,7 +14,7 @@
       "item": "quark:stripped_ancient_wood"
     }
   ],
-  "ingredient_count": 3,
+  "ingredient_count": 1,
   "result": "quark:ancient_chest_boat",
   "count": 1,
   "type": "sawmill:woodcutting"

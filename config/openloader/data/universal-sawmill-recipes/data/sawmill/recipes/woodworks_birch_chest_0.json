@@ -14,7 +14,7 @@
       "item": "minecraft:stripped_birch_wood"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "woodworks:birch_chest",
   "count": 1,
   "type": "sawmill:woodcutting"

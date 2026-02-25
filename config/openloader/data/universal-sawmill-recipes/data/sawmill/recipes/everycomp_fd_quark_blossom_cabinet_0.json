@@ -14,7 +14,7 @@
       "item": "quark:stripped_blossom_wood"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "everycomp:fd/quark/blossom_cabinet",
   "count": 1,
   "type": "sawmill:woodcutting"

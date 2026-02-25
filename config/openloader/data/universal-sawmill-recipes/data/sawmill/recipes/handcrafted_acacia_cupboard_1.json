@@ -8,7 +8,7 @@
       "item": "quark:vertical_acacia_planks"
     }
   ],
-  "ingredient_count": 5,
+  "ingredient_count": 2,
   "result": "handcrafted:acacia_cupboard",
   "count": 1,
   "type": "sawmill:woodcutting"

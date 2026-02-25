@@ -8,7 +8,7 @@
       "item": "quark:vertical_azalea_planks"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "quark:azalea_pressure_plate",
   "count": 1,
   "type": "sawmill:woodcutting"

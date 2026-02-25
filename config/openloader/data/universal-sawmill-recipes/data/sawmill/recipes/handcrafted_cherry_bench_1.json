@@ -8,7 +8,7 @@
       "item": "quark:vertical_cherry_planks"
     }
   ],
-  "ingredient_count": 3,
+  "ingredient_count": 1,
   "result": "handcrafted:cherry_bench",
   "count": 1,
   "type": "sawmill:woodcutting"

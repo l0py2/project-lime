@@ -8,7 +8,7 @@
       "item": "minecraft:stripped_bamboo_block"
     }
   ],
-  "ingredient_count": 3,
+  "ingredient_count": 1,
   "result": "handcrafted:bamboo_nightstand",
   "count": 1,
   "type": "sawmill:woodcutting"

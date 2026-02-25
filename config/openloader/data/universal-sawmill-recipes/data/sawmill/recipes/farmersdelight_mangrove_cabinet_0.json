@@ -14,7 +14,7 @@
       "item": "minecraft:stripped_mangrove_wood"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "farmersdelight:mangrove_cabinet",
   "count": 1,
   "type": "sawmill:woodcutting"

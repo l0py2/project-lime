@@ -8,7 +8,7 @@
       "item": "quark:vertical_mangrove_planks"
     }
   ],
-  "ingredient_count": 6,
+  "ingredient_count": 3,
   "result": "handcrafted:mangrove_drawer",
   "count": 1,
   "type": "sawmill:woodcutting"

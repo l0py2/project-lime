@@ -8,6 +8,15 @@ global.removedItems = [
 	global.id.CR('dough')
 ];
 
+for(const type of global.woodTypes.minecraft) {
+	global.removedItems.push(global.id.QK(`${type}_chest`));
+	global.removedItems.push(global.id.QK(`${type}_trapped_chest`));
+}
+
+for(const type of global.woodTypes.quark) {
+	global.removedItems.push(global.id.EC(`abnww/quark/trapped_${type}_chest`));
+}
+
 global.removedRecipeTypes = [
 	global.id.WW('sawmill')
 ];
@@ -40,3 +49,14 @@ global.dropReplacements = new Map([
 	[global.id.MC('furnace'), global.id.MC('blast_furnace')],
 	[global.id.FD('rope'), global.id.SP('rope')]
 ]);
+
+for(const type of global.woodTypes.minecraft) {
+	global.dropReplacements.set(
+		global.id.QK(`${type}_chest`),
+		global.id.WW(`${type}_chest`)
+	);
+	global.dropReplacements.set(
+		global.id.QK(`${type}_trapped_chest`),
+		global.id.WW(`trapped_${type}_chest`)
+	);
+}

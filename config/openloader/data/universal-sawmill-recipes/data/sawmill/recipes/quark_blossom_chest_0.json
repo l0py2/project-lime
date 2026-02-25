@@ -14,7 +14,7 @@
       "item": "quark:stripped_blossom_wood"
     }
   ],
-  "ingredient_count": 2,
+  "ingredient_count": 1,
   "result": "quark:blossom_chest",
   "count": 1,
   "type": "sawmill:woodcutting"

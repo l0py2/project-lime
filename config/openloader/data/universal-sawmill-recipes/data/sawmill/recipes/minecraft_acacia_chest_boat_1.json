@@ -8,7 +8,7 @@
       "item": "quark:vertical_acacia_planks"
     }
   ],
-  "ingredient_count": 13,
+  "ingredient_count": 6,
   "result": "minecraft:acacia_chest_boat",
   "count": 1,
   "type": "sawmill:woodcutting"

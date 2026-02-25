@@ -14,7 +14,7 @@
       "item": "minecraft:stripped_cherry_wood"
     }
   ],
-  "ingredient_count": 3,
+  "ingredient_count": 1,
   "result": "minecraft:cherry_chest_boat",
   "count": 1,
   "type": "sawmill:woodcutting"

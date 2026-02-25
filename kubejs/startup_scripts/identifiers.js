@@ -1,4 +1,4 @@
-//priority: 100
+//priority: 99
 
 global.id = {
 	MC: id => `minecraft:${id}`,
@@ -14,7 +14,8 @@ global.id = {
 	DF: id => `delightful:${id}`,
 	QK: id => `quark:${id}`,
 	SM: id => `sawmill:${id}`,
-	CC: id => `create_central_kitchen:${id}`
+	CC: id => `create_central_kitchen:${id}`,
+	EC: id => `everycomp:${id}`
 };
 
 global.tag = {
@@ -31,5 +32,6 @@ global.tag = {
 	DF: id => `#delightful:${id}`,
 	QK: id => `#quark:${id}`,
 	SM: id => `#sawmill:${id}`,
-	CC: id => `#create_central_kitchen:${id}`
+	CC: id => `#create_central_kitchen:${id}`,
+	EC: id => `#everycomp:${id}`
 };

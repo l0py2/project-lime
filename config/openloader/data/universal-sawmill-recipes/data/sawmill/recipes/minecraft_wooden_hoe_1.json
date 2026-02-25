@@ -3,7 +3,7 @@
   "ingredient": {
     "tag": "minecraft:planks"
   },
-  "ingredient_count": 3,
+  "ingredient_count": 2,
   "result": "minecraft:wooden_hoe",
   "count": 1,
   "type": "sawmill:woodcutting"

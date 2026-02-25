@@ -8,7 +8,7 @@
       "item": "quark:vertical_oak_planks"
     }
   ],
-  "ingredient_count": 8,
+  "ingredient_count": 4,
   "result": "woodworks:oak_chest",
   "count": 1,
   "type": "sawmill:woodcutting"

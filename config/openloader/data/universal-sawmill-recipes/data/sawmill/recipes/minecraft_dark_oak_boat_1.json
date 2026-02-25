@@ -8,7 +8,7 @@
       "item": "quark:vertical_dark_oak_planks"
     }
   ],
-  "ingredient_count": 5,
+  "ingredient_count": 2,
   "result": "minecraft:dark_oak_boat",
   "count": 1,
   "type": "sawmill:woodcutting"

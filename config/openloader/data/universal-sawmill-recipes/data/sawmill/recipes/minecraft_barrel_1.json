@@ -3,7 +3,7 @@
   "ingredient": {
     "tag": "minecraft:planks"
   },
-  "ingredient_count": 7,
+  "ingredient_count": 3,
   "result": "minecraft:barrel",
   "count": 1,
   "type": "sawmill:woodcutting"

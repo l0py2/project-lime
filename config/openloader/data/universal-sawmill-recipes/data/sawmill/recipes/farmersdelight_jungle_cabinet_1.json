@@ -8,7 +8,7 @@
       "item": "quark:vertical_jungle_planks"
     }
   ],
-  "ingredient_count": 9,
+  "ingredient_count": 4,
   "result": "farmersdelight:jungle_cabinet",
   "count": 1,
   "type": "sawmill:woodcutting"
