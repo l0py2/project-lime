@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:acacia_planks"
+    },
+    {
+      "item": "quark:vertical_acacia_planks"
+    }
+  ],
+  "ingredient_count": 7,
+  "result": "woodworks:chiseled_acacia_bookshelf",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

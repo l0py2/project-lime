@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "quark:azalea_planks"
+    },
+    {
+      "item": "quark:vertical_azalea_planks"
+    }
+  ],
+  "ingredient_count": 13,
+  "result": "quark:azalea_chest_boat",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

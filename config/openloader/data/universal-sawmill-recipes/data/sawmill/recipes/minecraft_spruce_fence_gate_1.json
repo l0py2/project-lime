@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:spruce_planks"
+    },
+    {
+      "item": "quark:vertical_spruce_planks"
+    }
+  ],
+  "ingredient_count": 4,
+  "result": "minecraft:spruce_fence_gate",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

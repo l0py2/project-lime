@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "quark:blossom_planks"
+    },
+    {
+      "item": "quark:vertical_blossom_planks"
+    }
+  ],
+  "ingredient_count": 4,
+  "result": "quark:stripped_blossom_wood",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,10 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "ingredient_count": 3,
+  "result": "minecraft:composter",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

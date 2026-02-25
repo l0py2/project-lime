@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:jungle_planks"
+    },
+    {
+      "item": "quark:vertical_jungle_planks"
+    }
+  ],
+  "ingredient_count": 4,
+  "result": "minecraft:stripped_jungle_log",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

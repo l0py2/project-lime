@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "quark:blossom_planks"
+    },
+    {
+      "item": "quark:vertical_blossom_planks"
+    }
+  ],
+  "ingredient_count": 9,
+  "result": "everycomp:fd/quark/blossom_cabinet",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "quark:ancient_planks"
+    },
+    {
+      "item": "quark:vertical_ancient_planks"
+    }
+  ],
+  "ingredient_count": 6,
+  "result": "everycomp:hc/quark/ancient_shelf",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

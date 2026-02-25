@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:cherry_planks"
+    },
+    {
+      "item": "quark:vertical_cherry_planks"
+    }
+  ],
+  "ingredient_count": 4,
+  "result": "minecraft:stripped_cherry_log",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

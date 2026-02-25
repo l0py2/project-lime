@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:warped_planks"
+    },
+    {
+      "item": "quark:vertical_warped_planks"
+    }
+  ],
+  "ingredient_count": 4,
+  "result": "quark:hollow_warped_stem",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

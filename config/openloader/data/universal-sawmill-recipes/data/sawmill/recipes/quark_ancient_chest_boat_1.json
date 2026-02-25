@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "quark:ancient_planks"
+    },
+    {
+      "item": "quark:vertical_ancient_planks"
+    }
+  ],
+  "ingredient_count": 13,
+  "result": "quark:ancient_chest_boat",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

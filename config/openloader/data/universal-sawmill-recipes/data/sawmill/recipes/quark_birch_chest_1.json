@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "quark:vertical_birch_planks"
+    }
+  ],
+  "ingredient_count": 8,
+  "result": "quark:birch_chest",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}
