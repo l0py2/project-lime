@@ -13,7 +13,8 @@ global.id = {
 	FD: id => `farmersdelight:${id}`,
 	DF: id => `delightful:${id}`,
 	QK: id => `quark:${id}`,
-	SM: id => `sawmill:${id}`
+	SM: id => `sawmill:${id}`,
+	CC: id => `create_central_kitchen:${id}`
 };
 
 global.tag = {
@@ -29,5 +30,6 @@ global.tag = {
 	FD: id => `#farmersdelight:${id}`,
 	DF: id => `#delightful:${id}`,
 	QK: id => `#quark:${id}`,
-	SM: id => `#sawmill:${id}`
+	SM: id => `#sawmill:${id}`,
+	CC: id => `#create_central_kitchen:${id}`
 };
