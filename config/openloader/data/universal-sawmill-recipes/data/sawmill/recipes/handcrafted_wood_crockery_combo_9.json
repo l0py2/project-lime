@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "quark:azalea_planks"
+    },
+    {
+      "item": "quark:vertical_azalea_planks"
+    }
+  ],
+  "ingredient_count": 1,
+  "result": "handcrafted:wood_crockery_combo",
+  "count": 2,
+  "type": "sawmill:woodcutting"
+}

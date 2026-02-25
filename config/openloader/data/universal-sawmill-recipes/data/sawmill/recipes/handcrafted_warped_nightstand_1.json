@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:warped_planks"
+    },
+    {
+      "item": "quark:vertical_warped_planks"
+    }
+  ],
+  "ingredient_count": 3,
+  "result": "handcrafted:warped_nightstand",
+  "count": 1,
+  "type": "sawmill:woodcutting"
+}

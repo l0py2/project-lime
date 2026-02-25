@@ -1,8 +1,13 @@
 {
   "group": "planks",
-  "ingredient": {
-    "tag": "minecraft:planks"
-  },
+  "ingredient": [
+    {
+      "item": "minecraft:jungle_planks"
+    },
+    {
+      "item": "quark:vertical_jungle_planks"
+    }
+  ],
   "ingredient_count": 1,
   "result": "handcrafted:wood_cup",
   "count": 4,

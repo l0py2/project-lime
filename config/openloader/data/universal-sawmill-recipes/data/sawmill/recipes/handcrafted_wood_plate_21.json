@@ -1,0 +1,15 @@
+{
+  "group": "planks",
+  "ingredient": [
+    {
+      "item": "minecraft:oak_planks"
+    },
+    {
+      "item": "quark:vertical_oak_planks"
+    }
+  ],
+  "ingredient_count": 1,
+  "result": "handcrafted:wood_plate",
+  "count": 4,
+  "type": "sawmill:woodcutting"
+}
