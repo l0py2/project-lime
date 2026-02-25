@@ -1,15 +1,15 @@
 {
-  "group": "planks",
+  "group": "logs",
   "ingredient": [
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:bamboo_block"
     },
     {
-      "item": "quark:vertical_spruce_planks"
+      "item": "minecraft:stripped_bamboo_block"
     }
   ],
   "ingredient_count": 1,
   "result": "minecraft:composter",
-  "count": 1,
+  "count": 2,
   "type": "sawmill:woodcutting"
 }

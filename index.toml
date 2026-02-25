@@ -153,6 +153,14 @@ file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/ev
 hash = "792953e0bb83f83fc3b6dbe4468d16575865d61d1cd22f0df576f56b54894eb1"
 
 [[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_ancient_nightstand_0.json"
+hash = "d043fe49e5c235bc2f44fcdddccc1d3524bb8125150c40dab3d2fcb763d7fcf1"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_ancient_nightstand_1.json"
+hash = "41408614cfde1f9f0e67319111ac14dcb0ef5cc90ef3747ccdd72b79d4fa7d62"
+
+[[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_ancient_pillar_trim_0.json"
 hash = "fb7159404b702066b2568ec619ad68d254305896a94fd358c460d8a8aef1f3fd"
 
@@ -321,6 +329,14 @@ file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/ev
 hash = "8809fea87b22afab29c59aa29a70ba6042f41963afc42bd01bdfc1e1a8a89cb0"
 
 [[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_blossom_drawer_0.json"
+hash = "a455a24840d6751c8b17aae6a25ce5972439ab2c75c3bd6e3bdbff519973825b"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_blossom_drawer_1.json"
+hash = "3abc8865fd626833a6606db7d764479a7baf2122c57aecc2de39f447ea3850f6"
+
+[[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_blossom_nightstand_0.json"
 hash = "9541dfe6758a81ca1737669ac80e6ba2fc2ff9431b2c48045edbf5086fc5e711"
 
@@ -335,6 +351,14 @@ hash = "c4c48d46b6a49437262bc363bf1c02f19fbbc66f6a3226e59d41a681c2404ba2"
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_blossom_pillar_trim_1.json"
 hash = "e0fbb521e3d15d2fff3de832f9f342530d81f8b563d8dda2d12b1e4bb07df903"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_blossom_shelf_0.json"
+hash = "0bf121ecac2538a4affa4733fc1105f1c4991d6b9173166526eb3f962d892bbd"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_blossom_shelf_1.json"
+hash = "2b91c7ecc72e99e2d234ae0df4361bd9dd75a8cbcdd7600d75519dbdffc59106"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/everycomp_hc_quark_blossom_side_table_0.json"
@@ -579,14 +603,6 @@ hash = "8884052ebc373743d70b5c9176b920bec9993235ae650e93a2d1d891be69baa8"
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_bamboo_dining_bench_1.json"
 hash = "6e076f2513f224bc997e5426c757ba17bce72a9f52059bf2f443f00b986dcd52"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_bamboo_drawer_0.json"
-hash = "6c73f3bb846b67b878fda45e636df62b74d593281ae91c3957f4f29adb7b6617"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_bamboo_drawer_1.json"
-hash = "65d4d2cc7c4900c17cfc4efb361b3704e394e920c53de7f6f1b9a1cc228b9fec"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_bamboo_nightstand_0.json"
@@ -843,14 +859,6 @@ hash = "986c4b6f64a45a4a0778cc2e515c53cf1a9854040a8b24c23a492a4dbfb66aa3"
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_crimson_cupboard_1.json"
 hash = "26227cabd1ff1d48a9fdadd23b2b9ce071de99175acbf6f8340b63108f5ff265"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_crimson_desk_0.json"
-hash = "6c3c06e190fd3099e2fdd23d878caaa0308ed7884b6c70bd97828fb4d7de5cf2"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_crimson_desk_1.json"
-hash = "1fe0f693af60bbdb7cf3b5362aa1cc040c1c792d71e6d3f9882c3c7cdce85f97"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_crimson_dining_bench_0.json"
@@ -1145,14 +1153,6 @@ file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/ha
 hash = "d4b595a118fa2e4e61e55ee408314d80e6c33608843594f78514d85a6f2af12c"
 
 [[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_mangrove_nightstand_0.json"
-hash = "23d519980ea52c044c89033ab086ccef106d055d5ed3160f130ed89a8a20e3ee"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_mangrove_nightstand_1.json"
-hash = "af11daa088ddee78ed6566084229ea4fa1c80eb9d7d38c37088aef90a35b0d00"
-
-[[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_mangrove_pillar_trim_0.json"
 hash = "74f0c5eace4050e0a9a16b0ffa55a4418a1d7bb596d80c4ff1c8897dfa0f5cf1"
 
@@ -1405,6 +1405,14 @@ file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/ha
 hash = "b4fd7dd330f170ee72eabc135017507b31cf9af4230c68fb33dbb8e7cda747a2"
 
 [[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_warped_drawer_0.json"
+hash = "5ccb546fda15aec9ae4bad37661458fa3a46e6a0d690a9dafdac812ebb496452"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_warped_drawer_1.json"
+hash = "04570d56d08d1e5f319d0c11c35b53e27d711b3c96e558846708b8b870c4c58c"
+
+[[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_warped_nightstand_0.json"
 hash = "5f6fe4596276893f7bad87eb94096da77de4dbee90b044600197b3a5c955b43a"
 
@@ -1419,14 +1427,6 @@ hash = "6f012030ae98548f49908223113116aa052d1231912fc62de52a42aef0502bf6"
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_warped_pillar_trim_1.json"
 hash = "3383b6fe35374dcad95299d19e3c64bd324d3e120281a1233143a6bd1e791240"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_warped_shelf_0.json"
-hash = "13164e29091af0dd2b508df24bab508afab2bf1c056cdbbab737c0313ed2ada5"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_warped_shelf_1.json"
-hash = "8adbba246864e6a13a20294ad2d5e07d6a93928e84afa072bed6a14e035b35ce"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_warped_side_table_0.json"
@@ -1450,315 +1450,27 @@ hash = "dfb9944ccccd725b01d901effd01c3c0207ee71a8c218ec824ce1144b75eff96"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_0.json"
-hash = "4a35f9c6d5cae1fc9159f35d0aba3ea3f6e4cc097034f2ae913fce4a63353d67"
+hash = "5f350fa9e16c28df3d0cf5027175226bc9968429dfeff56459b9dd00b882794d"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_1.json"
-hash = "29eb420d56a05a2f6193977c5a9c8823b8d9118f1b1f16180b8904bdfbe52ea3"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_10.json"
-hash = "bb42b746a41ceb2f2b3e99a10be3352e63222b7dda2aaf9b78a4c02d6bd98415"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_11.json"
-hash = "adfa2e4b2746baaa8d109023b1f42e318201a71c6eb8b2eaf8d67559f4216d5c"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_12.json"
-hash = "8a5bf6df6f1a69ac790ff304f1ebe4f4663317f81ed984ca51d132cb21ed64a9"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_13.json"
-hash = "5d92fc9575b3db74b66d6f63b8c60f4218aacc83ca390e41731c2fcd8084f58d"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_14.json"
-hash = "0ebe40053d2aa9e9b534c09c80c933d83812e30dbca9ed47ded0e57777ed4707"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_15.json"
-hash = "d2f5ef6c6bd6cb6dc6075a0fe4e72c2fcee5df274c37da4da649c4f8fa788e90"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_16.json"
-hash = "bd1dfe9e0513019e28a230cb364a8c86a2369f382a516916105d7cfe8d6f722a"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_17.json"
-hash = "c3ce92ed82672f9da5caefb9564a1296f7fdefe7c6ba9ddc625c052c2aa2ef43"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_18.json"
-hash = "c9c5542080a3969f550376f75f4233784e3f72b645f2a4fcd89ed6f42bdce633"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_19.json"
-hash = "16d64081f8d20001fab8670f0a0ea136f07e84aaeac5195d3c29fa1056a5018e"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_2.json"
-hash = "62e47a81c9d504f8bfc9d23e7d1b3aaa5ab8fefe87e56b09ca56fdaacc94bee1"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_20.json"
-hash = "707df22fb65704dafeb483151b093c9b4a9303e8cc4966c88ad9491a65e38550"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_21.json"
-hash = "c1c3222a4e2a151b6fa82d5e9f10569993bb6ea643c2ede567da2c5bcae37c43"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_22.json"
-hash = "225fd811d15b58ede867bd40394f8438e1c72c8b9d56e42cc893f1f70907be18"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_23.json"
-hash = "80a79a480b4c5786893bf4c5b8237f1bf8dd6f3bec1985b12173931f137310a5"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_24.json"
-hash = "9cfdb5b9cf6acbee298231774fd76f20b0f8fcb85938384ba267e4adff8012f4"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_25.json"
-hash = "c3fde8cc14755764e8788cb13f99fd57e7847a27646ac058ece4cf78f1c00244"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_3.json"
-hash = "f283a7f6fa767e878e2f317912f6eda9deff570046e69a083fbe57d83ce4ac50"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_4.json"
-hash = "88f7bacb0b0566252cfc02d7bf12e0d875cfa45a368a7c3bcaab50ad4639098c"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_5.json"
-hash = "8283eb4963085d3531cf8d13caad645d6394857154e53bcf2ef040320cb48fca"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_6.json"
-hash = "f1ccbc8de3173dd0c99ca4afd85fc7bbd7b700911b8b6ee363f022cb58e3c48b"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_7.json"
-hash = "de03f0d5fda5d773531d1f18526122351c47024a6e50e784c4640c12d57c54e3"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_8.json"
-hash = "14d3228cf26862bbbe3536b3b1ed598de1e8bd9161e01ee4a87bb9fdc1a7be38"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_crockery_combo_9.json"
-hash = "5a20b51be6863de302bf59aa8064698d8be0502b4be9e0483ef66c009afe1e72"
+hash = "72896ddde6a4627032a66e0da70b963b94171cf61646c45d4aadf9d722211ddf"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_0.json"
-hash = "1dad2ed77dc63447bb662c01c01d31c5b17907e20760827e123a0ae26fa8fb98"
+hash = "fcad83047f382cebb2906e0882f4765909bc9815089cc31d4683ccc24ceb7893"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_1.json"
-hash = "e51e4b681e57a8b6df421ab3e66a4f2a84d95fd155c2ad516233ab6561bfa016"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_10.json"
-hash = "bc3265a602f51f43f2be8515a62357012216a058ec0dc9d51e526cb5d149f50e"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_11.json"
-hash = "0443c32c7adb7d416e7ff03e9b52ce0e3025b12435ec76d397814f67e74846c5"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_12.json"
-hash = "b3b0c4137f3d18258990e7ae5291147aaf4e476db80fae65eb8b4708159317db"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_13.json"
-hash = "b155f61eaaedbe34d5e303453125a9a5411f600db1d3dde93fec506aebe59272"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_14.json"
-hash = "bfb6496c0e19d8d2a829f89703dee3d2530c3d337699fac5252d04274d3a5445"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_15.json"
-hash = "1d9cd28e741602070f11ea701eb658aa2ae1b6400dfeff1543f84cc976ce35c0"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_16.json"
-hash = "0c3ed7ae0996f75852ca801790b4812228e4b178bbf0f7396b6adcc6aca4b0de"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_17.json"
-hash = "6bad4196d39cfca0c381eec9735419ead2a3a8236582ec9d2a33cee1114a7af6"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_18.json"
-hash = "af9fdbc9d7c5a2f057a8495ba1a16f8fdc551a21e3eae7ec7b272fe471bbe0e3"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_19.json"
-hash = "a4615a969fa442515bc92298e6e5f719ee73c9907f408c0ac2fa0ed7489c4368"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_2.json"
-hash = "09fedc7039c4b431305c3aaafcbc6ac804470b2d6543f83d61d9a91cc3abe1bd"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_20.json"
-hash = "10225ca8b2863d35b53d238424842f1ecbb3187e3e2ad64ec4393b564520ebc0"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_21.json"
-hash = "796531d8101c895dfd8c2f87b369a3d2865de3e81fa19aff657e6ebcfc4128a1"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_22.json"
-hash = "8ffcbb788238eb90b0eda9c6c8eb290269a274491d99b796b2d3485c69692e36"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_23.json"
-hash = "86b51ad7fbffe49df91384841edf35549829d3ea777e3c821fe56fa106a6695d"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_24.json"
-hash = "1a8d2f80c74d1376aa0b45c6a0bb1505f10daa4a00c2fbf632bb6a0b71c8e945"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_25.json"
-hash = "e2920acfc95539b8b95eb64ee594c452430d21b6489036d60683e5fd0df19350"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_3.json"
-hash = "bc1fbf670a1d9f4b1288052eb6bf4ac165699e720a38a7d35010ac000cf76bcb"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_4.json"
-hash = "1d6f57c1fac7c399ee63c291bbf51fb520c95b4d1c4e620295086dedf202beeb"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_5.json"
-hash = "6436d9b8fa3d82c915ebbca2d717151cf44d9560e9feb07f4eb6652cc3f94f26"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_6.json"
-hash = "bb3db8b559ce15cfe27d0a88e80675ae1f4a5416ed4c9cf820d4a1b85d1d8917"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_7.json"
-hash = "8cb24eed81082977a0b8e08969a1148175b775dbe4af6a997f1203744614e770"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_8.json"
-hash = "c4a5825057638ed9044870b13deefb4c977f747755ffc1ffa2f3e223a49fbb28"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_cup_9.json"
-hash = "21c024b9e351b870913db75b6a16ce70deaa214bbc5d2a943e16c7eda91fb8c4"
+hash = "c7ad3184657f98244488a4aa03bffcfdb3eefe30ca0bd42e4ac14bd40ae2531e"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_0.json"
-hash = "74e90dafd2e67035be2e194e33c0ea62130f10f1f9013c82b3cf866e95a9a292"
+hash = "9d1b8f6925c5a62a5b3578265d99e1e30fd29bfce3a5e4f5b432f98a4ab8fe31"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_1.json"
-hash = "7298f02905f11c18f35ecd774a47e88b6e720a77b26cd32f272f2827693a9a7e"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_10.json"
-hash = "a9782f10eb504064c4b3094167d6e8fdf5241d13c6018856b35e64b36d69be9f"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_11.json"
-hash = "b7e5f2b126c705e6cee9d1b1b309853167f7be569810abb23b6ba9952f01e11b"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_12.json"
-hash = "cc60febd1589ebca520143e153c5ac2adb8e066157fc567ec0706ec68756fa22"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_13.json"
-hash = "ad43467af42cf50d229acc5016cd91fdbe42330d0e74ae4ed2146228c583fdd7"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_14.json"
-hash = "7090f36d21011aaa3922fffc86cbf8083f4b383a283918ad29b1a5c4e8a9f1e9"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_15.json"
-hash = "3c70cbaa9bb8a47434ec2ac84a841d8518a7a498c66a049c2878456ec53c9ef9"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_16.json"
-hash = "6c1a43296928df55795ebd83c9b4af01a29719ad11689a400c469fcbafdec7dc"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_17.json"
-hash = "25bbdf68d935156ec7775b6fd2da5c78976f85c858b34f010c6f8252384e0f8a"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_18.json"
-hash = "4641a0dafb2108576144c055a63c53bbdd9dce1dd8f7bc29a3c4a0a1116f45db"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_19.json"
-hash = "202c554fa52afe085cdc46a3508d89a4b88e4e1a138944a3d12a0d23db57647b"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_2.json"
-hash = "753805c5138d511be6dc1a45f41a4374303ed458db5025e8ba90b84cf77a7460"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_20.json"
-hash = "8aadce8642364e5ca10b1af932b224bff28b24acbe5a2a6db1100b4249e3b3d3"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_21.json"
-hash = "cfc73780853074422c59e554e79651ce4814697f4937218a35da56bef9314b99"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_22.json"
-hash = "9ed555cd1d2f09324d208a280de8df4bd8706d16baed32dbf11bd262623f3158"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_23.json"
-hash = "c314af2636673196984be120110277e7449c1c4d711ad50ce1687396a24fc332"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_24.json"
-hash = "18801a3da54efceed12b096ba9e962cd9d3c3332afc0bcb761fcc251738de372"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_25.json"
-hash = "9db30e19703deebea780599715476e9158ce1bf911342dc8a0338745e2558e56"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_3.json"
-hash = "92af5f30f80d212c469518f3a95df2033024f97b3b6649986176d1b0bd5c9c08"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_4.json"
-hash = "a1109eb0d895fbf3d1823534700962206bdd41653c5d8db56ebd873c9a9a1488"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_5.json"
-hash = "030f1d4cf77fb6fd15ae272101e800bd8b2937b115b685762dde3f49e6735bde"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_6.json"
-hash = "8ec8ec556c45df07b476ff2e61212dd00f7dd6a741c5d4e52dfb89c29f620735"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_7.json"
-hash = "a2f8382da8dcb71d3e185a0b18f53cc77ba66aafc877443450608ed5a117bd3b"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_8.json"
-hash = "2c703f56381dfc31a226c02b2eaec230638e1abc1e899a6d0c4ec47e83325f3f"
-
-[[files]]
-file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/handcrafted_wood_plate_9.json"
-hash = "8b33d01570b81718fa5f73cacad27e7355a09625ac14b1ef559965e2390f45a1"
+hash = "d6fbd4e69a498c67f4250eb497201d5acd42c425effa7dd2a394748185050d4b"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft/acacia_log_0.json"
@@ -2518,11 +2230,35 @@ hash = "8b550899ebe82df3b56cbcaf74dfbba3075b3755ebfd526fcaba23fdbd73fe76"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_0.json"
-hash = "3351b2ca36a585c2f98a0c54db5673b08e3637de574401bdd0fb47b4739bd94e"
+hash = "daebbe57423e208c255d5979895afaaf7aafc2c4cdf60d3c850d96a227f2d285"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_1.json"
+hash = "8d696d202f8087c602a92ad09a17f4f08f78bcfef50231c7d46721d40eef8e04"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_2.json"
+hash = "73abff48c21476cd162249121651aec621a906ab2d3062c826b79cbeb062dfe8"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_3.json"
+hash = "e5f9428fb8e47a267688ce81597c12af3ad04bfd6a3ba5ebde5b70f5b799f22f"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_4.json"
+hash = "3351b2ca36a585c2f98a0c54db5673b08e3637de574401bdd0fb47b4739bd94e"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_5.json"
 hash = "d14ce8f26d2e9d031cd2576e5007e82088e0504f7693ba594adb46e285a5293d"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_6.json"
+hash = "aa278e9ed275b7adbca6370c052213028b7492fb3f3c0bac316b1ac35c3e12a5"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chest_7.json"
+hash = "52b94125396a4e0aafe4d4a763b127527313027f601d7a616a6a690ab24a597c"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_chiseled_bookshelf_0.json"
@@ -2534,11 +2270,107 @@ hash = "0aa7ec073513626cef53d95135f510548079c7af7258f76232b2b7355edf35c4"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_0.json"
-hash = "b3e1eced3847a0fd821cb8141946dd2240219a86f1870ab95117fe6dc8876d32"
+hash = "e194ce249c70e5e553688d454145841fa783b17c820631e9e099e818deace0c6"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_1.json"
-hash = "ec0f9adc678982890e72913cb863b689c3570cb8c36b9504070b697c68120e45"
+hash = "6923ac520c09a8ad6ecfd7afdec74aec2c25821c56e9fe6eec00551996d5a39d"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_10.json"
+hash = "9cb476339fa8a76b18c13f08e879ae91d5758dc1ea091618ff66db253385de56"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_11.json"
+hash = "ebd52292dfdcd6b96f5f2d2114fb8eb7071916f2c1bb582ad832c5f989b28b48"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_12.json"
+hash = "65a2e9a0825f953c50e99ac5129959102edabaa666baf8d02b888d4a7b08db6d"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_13.json"
+hash = "9e6b1af518b997778df1d1136c4b58a52ecd4fc5dc2c5a1341a01ac3a276929e"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_14.json"
+hash = "767a8d8cef43a6f47e695a0d9b4cff13d4f27b7210a5e4933da0878c9eb7f26f"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_15.json"
+hash = "3f203a065ee68b3cd309076bdaa24881573b54067a4adc23a3597e072c684350"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_16.json"
+hash = "26f2b3d6d2d1edcb97ae67ee188c12290e40cc3d6f0059a3fc977815e793dac2"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_17.json"
+hash = "588c0a2502cc3c0fc792326d89d62f2285d4cce3e12b18cc155af27948aa55f9"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_18.json"
+hash = "3f3dc18aa8e9956a712077d699f435ffb81db9eeed83ca308993cd89cb3c94ff"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_19.json"
+hash = "6d09e8db573624bb83ce6ae0a095b9a16fdf05cd73fa6da0edcc1ed0c0dcddb4"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_2.json"
+hash = "ff92b5ea6b4b3782137b2566fc7c6dcc38966589a051b48f97de2edc6b32a28f"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_20.json"
+hash = "466ddf78a6a63def296d2bfb0bb3efcb7ca1efb1bc2a2a659969c682914e5951"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_21.json"
+hash = "ee023d48afedc4f1edb2bb34f7a3a0a112a594a7f9fc462780ff61ebe63bfd7f"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_22.json"
+hash = "e86adfe6278542cbf73172e3450d89e7dd3b2439090c8f7c1585f592274f7f2a"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_23.json"
+hash = "2fef150ae5bd64b8c8c04efa318f5ad828e32c60664659c98a110fe2f4dd5256"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_24.json"
+hash = "b02c9f1fe0675280a6f8780c113c5f397879fafc8958bad964e8609845c869fb"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_25.json"
+hash = "439fe7cf968d0eb17da520e612935bd1e7acbb8cda5b67e06f6be1caea111f9e"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_3.json"
+hash = "e176d6144feb3f5d927bbca994531167196eb8d57efa52489b7544f63076f2ee"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_4.json"
+hash = "13c8c506d23d2da96d4dde8c47803490856569013cf6d90fd867d6a74b45e0a4"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_5.json"
+hash = "6f104c8352efd30c22ed27f669bfdc7b5a2cccfb446231f149ca3cad581d82f2"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_6.json"
+hash = "f4c7dfb01ec7aff2d6fc2ab3a9f9d6816b6f4fdca10e2a7aff458ae1ba9ed7ae"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_7.json"
+hash = "4d177150d5f8d717656d08f5d40d8854e2380faa89eae180cab48215c30002d3"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_8.json"
+hash = "973f1b51137bbbed028a5e6d5ac6e1edd0c8f16166434e6985fa04622ac3cf4a"
+
+[[files]]
+file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_composter_9.json"
+hash = "a24224e2ba0c6e1a86f95a48ed69d564730a5d01dbbb661ba578cfc3c975863b"
 
 [[files]]
 file = "config/openloader/data/universal-sawmill-recipes/data/sawmill/recipes/minecraft_crafting_table_0.json"

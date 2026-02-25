@@ -2,10 +2,10 @@
   "group": "planks",
   "ingredient": [
     {
-      "item": "quark:azalea_planks"
+      "item": "quark:ancient_planks"
     },
     {
-      "item": "quark:vertical_azalea_planks"
+      "item": "quark:vertical_ancient_planks"
     }
   ],
   "ingredient_count": 4,
