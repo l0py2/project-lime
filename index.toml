@@ -5188,6 +5188,11 @@ hash = "80cc9e9ba6f53fa0a165c8ceb24d295eac471ecbb64f2b7711f1751264d96c1f"
 metafile = true
 
 [[files]]
+file = "mods/vertical-slabs-compat.pw.toml"
+hash = "c386f1d1259257dd560da108f648e409d9c3c16210342252bfb6bb97502720b6"
+metafile = true
+
+[[files]]
 file = "mods/woodworks.pw.toml"
 hash = "9554bbdebaa0cfc8657a9b478d5933cfe69d562875c14f860b5a96ff0d5ae6c5"
 metafile = true

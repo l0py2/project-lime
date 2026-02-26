@@ -60,6 +60,7 @@
 - [Searchables](https://www.curseforge.com/minecraft/mc-mods/searchables)
 - [Supplementaries Squared](https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared)
 - [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries)
+- [Vertical Slabs Compat](https://www.curseforge.com/minecraft/mc-mods/vertical-slabs-compat)
 - [Woodworks](https://www.curseforge.com/minecraft/mc-mods/woodworks)
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
