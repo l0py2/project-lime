@@ -4881,6 +4881,10 @@ file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
 hash = "3facffaae9e27334dd33480aaf47977af18973adc55fd7cb8ff93a603c6404d9"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/stone.js"
+hash = "ee03ec63c6414dda7025796b67746a2869c4479698874457af57548d3d33d7ea"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
 hash = "91ed68847315fd25cf39918d06026277f091fa39effd8b4b517e0df1ccdca8de"
 
@@ -4903,6 +4907,14 @@ hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
 hash = "1be39efc11654b589933425bea0dd79a869ba36c481ac7f86d2a35a328d92ed1"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stones/mossy-stone.js"
+hash = "f87f284b65429342f4fb0b4ff2bc2331d25f7b119f6f97f802c04d65c4f724ed"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stones/stone.js"
+hash = "f6c8435276e92c071e6e4a99746407601f36053c1bb4669eb2b510b498db24dc"
 
 [[files]]
 file = "kubejs/startup_scripts/colours.js"
