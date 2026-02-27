@@ -4881,8 +4881,12 @@ file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
 hash = "3facffaae9e27334dd33480aaf47977af18973adc55fd7cb8ff93a603c6404d9"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/slab.js"
+hash = "211919f4cd00bfc704ab7afcb48f1c60ddbb5698956a3178f71578fc4a230699"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "ee03ec63c6414dda7025796b67746a2869c4479698874457af57548d3d33d7ea"
+hash = "f7624e96dd261c351a9551eb5bcc3b64b18adda55f1c2f27b1642acd0d2579e8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
@@ -4907,6 +4911,18 @@ hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
 hash = "1be39efc11654b589933425bea0dd79a869ba36c481ac7f86d2a35a328d92ed1"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stones/andesite.js"
+hash = "efffdd5855a0876dd7da6029f66d27792fb1018f158af22a74a00fda1aebdeb7"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stones/diorite.js"
+hash = "646d9ff35b5938eaf739b61679c5168284d683da528bba6e0df4770bafdc81e8"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stones/granite.js"
+hash = "a15f23651040b24454e5265b75ed7305198667fb9d7ee88800137dd12b0e1c73"
 
 [[files]]
 file = "kubejs/server_scripts/tags/stones/mossy-stone.js"

@@ -1,7 +1,10 @@
 ServerEvents.recipes(event => {
 	const tags = [
 		global.tag.KJ('stone_types/stone'),
-		global.tag.KJ('stone_types/mossy_stone')
+		global.tag.KJ('stone_types/mossy_stone'),
+		global.tag.KJ('stone_types/andesite'),
+		global.tag.KJ('stone_types/diorite'),
+		global.tag.KJ('stone_types/granite')
 	];
 	
 	for(const tag of tags) {
