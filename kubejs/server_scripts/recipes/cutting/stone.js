@@ -8,7 +8,10 @@ ServerEvents.recipes(event => {
 		global.tag.KJ('stone_types/asurine'),
 		global.tag.KJ('stone_types/crimsite'),
 		global.tag.KJ('stone_types/veridium'),
-		global.tag.KJ('stone_types/ochrum')
+		global.tag.KJ('stone_types/ochrum'),
+		global.tag.KJ('stone_types/prismarine'),
+		global.tag.KJ('stone_types/dark_prismarine'),
+		global.tag.KJ('stone_types/phosphorite')
 	];
 	
 	for(const tag of tags) {

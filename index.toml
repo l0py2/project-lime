@@ -4886,7 +4886,7 @@ hash = "211919f4cd00bfc704ab7afcb48f1c60ddbb5698956a3178f71578fc4a230699"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "af82e45be67043ec0f0a72f36b924f7045525fe39907dd253ec715cb3a3ead1b"
+hash = "d40528a66e7ec7aedc5998ab316790e97971f8562942f19f44598c0bb6fc2d32"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
@@ -4925,6 +4925,10 @@ file = "kubejs/server_scripts/tags/stones/crimsite.js"
 hash = "aabe31db1bd94deda8a66403add4572d56f6acbb2ff6e582ca92afdabbdbcbbd"
 
 [[files]]
+file = "kubejs/server_scripts/tags/stones/dark-prismarine.js"
+hash = "ac833d1c8b6417cbf1dad41d049a17d5f1c7f3151451e6437114a05a37374e69"
+
+[[files]]
 file = "kubejs/server_scripts/tags/stones/diorite.js"
 hash = "646d9ff35b5938eaf739b61679c5168284d683da528bba6e0df4770bafdc81e8"
 
@@ -4939,6 +4943,14 @@ hash = "f87f284b65429342f4fb0b4ff2bc2331d25f7b119f6f97f802c04d65c4f724ed"
 [[files]]
 file = "kubejs/server_scripts/tags/stones/ochrum.js"
 hash = "1c03b4f7bdaf03733b21e36a9984a0e1d652bb925b50a7d00d6c84aaf2413f80"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stones/phosphorite.js"
+hash = "be271e657aa66fcbee9502930ac5120b7c64681a5315b39fe5d53fd45a5e9640"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stones/prismarine.js"
+hash = "38a98da60707c026bf409af52b8e084aaac607e0e57442c7a3d3e3cb9da3ab4a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/stones/stone.js"
