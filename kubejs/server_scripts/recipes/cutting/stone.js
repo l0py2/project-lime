@@ -4,7 +4,11 @@ ServerEvents.recipes(event => {
 		global.tag.KJ('stone_types/mossy_stone'),
 		global.tag.KJ('stone_types/andesite'),
 		global.tag.KJ('stone_types/diorite'),
-		global.tag.KJ('stone_types/granite')
+		global.tag.KJ('stone_types/granite'),
+		global.tag.KJ('stone_types/asurine'),
+		global.tag.KJ('stone_types/crimsite'),
+		global.tag.KJ('stone_types/veridium'),
+		global.tag.KJ('stone_types/ochrum')
 	];
 	
 	for(const tag of tags) {
