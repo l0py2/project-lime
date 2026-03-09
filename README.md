@@ -36,6 +36,7 @@
 - [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 - [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite)
 - [FerriteCore ((Neo)Forge)](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
+- [Forgery](https://www.curseforge.com/minecraft/mc-mods/forgery)
 - [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config)
 - [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)
 - [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted)
@@ -53,6 +54,7 @@
 - [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)
 - [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer)
 - [Polymorph (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/polymorph)
+- [Quark Oddities](https://www.curseforge.com/minecraft/mc-mods/quark-oddities)
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [Resourceful Lib](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
 - [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino)
@@ -69,8 +71,6 @@
 
 - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
 - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
-
-- [Forgery](https://www.curseforge.com/minecraft/mc-mods/forgery)
 
 ## Description
 
