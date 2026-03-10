@@ -162,7 +162,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "5cb3a7b0f5cbc06c66a402333496ebc51dcfdd0cc66a12ef1a759acf914dba20"
+hash = "c3cbd8be85d002e0ad4169c116ba88540854d9bcc04882bfe620ff13e35122b1"
 
 [[files]]
 file = "config/forgery/fscript.ini"
@@ -234,7 +234,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "f1743c1a8eda9b871e7a8e5bf9704bd8b5fd54a5bbd69664ed6b0c9c29452852"
+hash = "27d7cabe9e7101259a56648bc79bded1b518cc96ac00f4dc72baf319880d7827"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -5062,7 +5062,7 @@ hash = "5b47cd920667832c25ad7506a3c2a7a2cca10b6937bcf91c5f20ec2c2ddc7be1"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "869b0f4dbce9feff641c09c13db5f33643b0502a45840c3d0a7172971fab62d0"
+hash = "01460245677697f7d3ea3c8f83d6483e220ed788e5eacad64ae17e5c15b99b45"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -5074,7 +5074,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "702b5ba248de7e27f0963d5c7e7e00c5bcbbaeb330d87c0e9c7c5f3b00d8c122"
+hash = "3cecb232dc6fb9196aafcd2cca0d3403b73334c5b6a13066dfde773af5dc5929"
 
 [[files]]
 file = "config/sawmill-common.toml"
@@ -5121,6 +5121,10 @@ file = "config/zeta-common.toml"
 hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
 
 [[files]]
+file = "defaultconfigs/create-server.toml"
+hash = "9ec563c50e1304c3573065b7056ebf2f1d8b4db76c18f8ce45ffc9561b9f0103"
+
+[[files]]
 file = "defaultconfigs/hourglass-server.toml"
 hash = "9f19d9ffa8ac3c63a06deabb97bf29f9901f278ac58a94bbc25310dad1510147"
 
@@ -5162,7 +5166,7 @@ hash = "bf7b288208501f7551f3df57b3470b5ef559b1c3a8ad713d343629450f9358e2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/crafting/mods/scorched-guns.js"
-hash = "755c4d58104591dd415db476eae68f01fa15c13dc62e7a34e007a9c6cf1db2c9"
+hash = "5e64327a528a1090d4c211354d96a3f09e131ec875d339e50209f157a339978f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/crafting/saddle.js"
@@ -5266,7 +5270,7 @@ hash = "2c404551bc01632619fc76a1d3d7d7186e28216c84a9f6490b0889413ef9fce8"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "559226a696b65914da5b5c0e3881e53b0627e64b21febcdbed757e77709b9c48"
+hash = "a40697e9097baaab52f64fc3b7d561999bfcc7c0bf7cc649b2467693f5f7f898"
 
 [[files]]
 file = "kubejs/startup_scripts/wood-types.js"

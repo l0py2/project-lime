@@ -5,7 +5,9 @@ global.removedItems = [
 	global.id.WW('sawmill'),
 	global.id.HC('oven'),
 	global.id.FD('rope'),
-	global.id.CR('dough')
+	global.id.CR('dough'),
+	global.id.SG('air_canister'),
+	global.id.SG('reinforced_air_canister')
 ];
 
 for(const type of global.woodTypes.minecraft) {
@@ -32,7 +34,9 @@ global.removedRecipes = [
 	global.id.DF('food/wheat_dough_from_flour_and_water'),
 	global.id.FD('wheat_dough_from_egg'),
 	global.id.FD('wheat_dough_from_eggs'),
-	global.id.FD('wheat_dough_from_water')
+	global.id.FD('wheat_dough_from_water'),
+	global.id.CR('smoking/bread'),
+	global.id.CR('campfire_cooking/bread')
 ];
 
 global.inputReplacements = new Map([
