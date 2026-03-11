@@ -5062,7 +5062,7 @@ hash = "5b47cd920667832c25ad7506a3c2a7a2cca10b6937bcf91c5f20ec2c2ddc7be1"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "be068d327677e1e8dae1a1bff22ce79bb84dcef4dc9628b88a7a2d4b5357b318"
+hash = "5c508e856a4014c66d7c4ccc3614d55236455a26aa4249b36cc0ae6e9a3d5a42"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -5181,6 +5181,10 @@ file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
 hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/blocks.js"
+hash = "448da27cedd35f48d102451e5e43559edf8cc4bdfd4b2473f34a73b735513a31"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
 hash = "6cafd79fdcb808d308c6d6363f263f67aa7483ab6dc6930dd3f240ce952892ca"
 
@@ -5190,7 +5194,7 @@ hash = "211919f4cd00bfc704ab7afcb48f1c60ddbb5698956a3178f71578fc4a230699"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "d40528a66e7ec7aedc5998ab316790e97971f8562942f19f44598c0bb6fc2d32"
+hash = "05f31ae20a8b9e2039cf6f131fe009f73f6fe85f3b2fa280300fd8e6cafa9887"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
@@ -5205,6 +5209,22 @@ file = "kubejs/server_scripts/recipes/heating/convert-furnace.js"
 hash = "157ab51e68000aab88f54fa9cc583d88364cffb79bcfae5b6726b78c988d14d6"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/mods/handcrafted.js"
+hash = "bf7b288208501f7551f3df57b3470b5ef559b1c3a8ad713d343629450f9358e2"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mods/minecraft/horse-armor.js"
+hash = "47d0eb56429f21efbad8850b7da82acfceb3861454baa89a957c389591fc92bb"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mods/minecraft/saddle.js"
+hash = "8369fb674b11a702d6126216f1b528d2bb7b1ed140e59c5943dfc02a2ef9b3ce"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mods/scorched-guns.js"
+hash = "5e64327a528a1090d4c211354d96a3f09e131ec875d339e50209f157a339978f"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/progression.js"
 hash = "0133b25b45bff7e325ef86b9b62fa520d54773f42100f76bc9720b41738bf21b"
 
@@ -5213,8 +5233,24 @@ file = "kubejs/server_scripts/standardize.js"
 hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/mossy-stone.js"
+hash = "e4a00746d6eaedb0f63c2b033cc082b456b5469153a749c001fe9fd51aac7f30"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/stone.js"
+hash = "17d80f14309b7e5f07e5cfa111ea98b4e7dded36fcb5313d960773a279e719d8"
+
+[[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
 hash = "190920fbc805dbc3c82102117aee3774c3c1b0fc59acb79fc4c8feccecd5ec91"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stairs/mossy-stone.js"
+hash = "19d67d6ca8be25df4d12c2d8beba102fb0c4ab4580e26013a876b875a577b59f"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stairs/stone.js"
+hash = "27eefd37bcdf20a9b544f5381225d9bde0bc6ea8be3a7b479e2f40c47032440a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/stones/andesite.js"
@@ -5263,6 +5299,14 @@ hash = "f6c8435276e92c071e6e4a99746407601f36053c1bb4669eb2b510b498db24dc"
 [[files]]
 file = "kubejs/server_scripts/tags/stones/veridium.js"
 hash = "9b8a8f3911c2b11fdf828013118afcb4d7e6f190224ed59f8e5121a08aecdd90"
+
+[[files]]
+file = "kubejs/server_scripts/tags/walls/mossy-stone.js"
+hash = "261890796753280e0191aa1a1776132831f843abec5adf7d3c310bc6348562a3"
+
+[[files]]
+file = "kubejs/server_scripts/tags/walls/stone.js"
+hash = "534c39dcbf48099d26a84ff088477f3429ad092102f1536e136f000993daa57c"
 
 [[files]]
 file = "kubejs/startup_scripts/colours.js"
