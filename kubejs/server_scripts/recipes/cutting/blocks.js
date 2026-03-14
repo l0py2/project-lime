@@ -1,7 +1,9 @@
 ServerEvents.recipes(event => {
 	const blockTypes = [
 		'stone',
-		'mossy_stone'
+		'mossy_stone',
+		'andesite',
+		'diorite'
 	];
 	
 	for(const blockType of blockTypes) {
@@ -23,7 +25,32 @@ ServerEvents.recipes(event => {
 				output: block
 			});
 			
+			event.remove({
+					type: global.id.MC('crafting_shaped'),
+					input: blockTag,
+					output: block
+				});
+			
 			event.stonecutting(block, blockTag);
+		}
+		
+		let slabTag = global.tag.KJ(`slab_types/${blockType}`);
+		
+		if(Ingredient.of(slabTag).itemIds.length > 0) {
+			for(const slab of Ingredient.of(slabTag).itemIds) {
+				event.remove({
+					type: global.id.MC('stonecutting'),
+					output: slab
+				});
+				
+				event.remove({
+					type: global.id.MC('crafting_shaped'),
+					output: slab
+				});
+				
+				event.stonecutting(Item.of(slab, 2), blockTag);
+				event.stonecutting(slab, slabTag);
+			}
 		}
 		
 		let stairTag = global.tag.KJ(`stair_types/${blockType}`);
@@ -41,6 +68,7 @@ ServerEvents.recipes(event => {
 				});
 				
 				event.stonecutting(stair, blockTag);
+				event.stonecutting(stair, stairTag);
 			}
 		}
 		
@@ -59,6 +87,7 @@ ServerEvents.recipes(event => {
 				});
 				
 				event.stonecutting(wall, blockTag);
+				event.stonecutting(wall, wallTag);
 			}
 		}
 	}

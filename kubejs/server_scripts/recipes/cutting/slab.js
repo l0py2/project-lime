@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-	event.remove({
+	/*event.remove({
 		type: global.id.MC('crafting_shaped'),
 		output: global.tag.MC('slabs')
 	});
@@ -7,5 +7,5 @@ ServerEvents.recipes(event => {
 	event.remove({
 		type: global.id.MC('crafting_shaped'),
 		output: global.tag.QK('vertical_slabs')
-	});
+	});*/
 });

@@ -5062,7 +5062,7 @@ hash = "5b47cd920667832c25ad7506a3c2a7a2cca10b6937bcf91c5f20ec2c2ddc7be1"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "5c508e856a4014c66d7c4ccc3614d55236455a26aa4249b36cc0ae6e9a3d5a42"
+hash = "7ed1112617afde5f1c7f0145545be354a8143deeb7c10114d6e92c8bcc9c7dd4"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -5134,7 +5134,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
-hash = "157287ebaf78e999efece143ac32c5236a8e0c85aee7d85d6b11e479ccf29768"
+hash = "4811b58f857f4eb1a2d3cb4364a14f75bc376bad37b1c9c697c6938311f76fa6"
 
 [[files]]
 file = "kubejs/client_scripts/standardize.js"
@@ -5182,7 +5182,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "448da27cedd35f48d102451e5e43559edf8cc4bdfd4b2473f34a73b735513a31"
+hash = "ec779fcd836200f20ccc56af08e64eb1c53ea7e045b6dd8cefbe16fee3b35601"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5190,7 +5190,7 @@ hash = "6cafd79fdcb808d308c6d6363f263f67aa7483ab6dc6930dd3f240ce952892ca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/slab.js"
-hash = "211919f4cd00bfc704ab7afcb48f1c60ddbb5698956a3178f71578fc4a230699"
+hash = "84ed0bb2845a22f3d0cdc0743eec340d52f0304b3b4d884abf6d33e905aa7b90"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
@@ -5233,6 +5233,14 @@ file = "kubejs/server_scripts/standardize.js"
 hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/andesite.js"
+hash = "12e8bbced996412b51213478f6d65d6059cf260005b5db4dfb905dfd73ec74db"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/diorite.js"
+hash = "f1d841b2fc0b54ec51908f286c93c9942306b34731168c000809de26edd1a423"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/mossy-stone.js"
 hash = "e4a00746d6eaedb0f63c2b033cc082b456b5469153a749c001fe9fd51aac7f30"
 
@@ -5243,6 +5251,30 @@ hash = "17d80f14309b7e5f07e5cfa111ea98b4e7dded36fcb5313d960773a279e719d8"
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
 hash = "190920fbc805dbc3c82102117aee3774c3c1b0fc59acb79fc4c8feccecd5ec91"
+
+[[files]]
+file = "kubejs/server_scripts/tags/slabs/andesite.js"
+hash = "30494bf2fd1124750c7d6fc155f6d977b97dadb018f8421b59560cbe551ce939"
+
+[[files]]
+file = "kubejs/server_scripts/tags/slabs/diorite.js"
+hash = "badb0cad3f1767b78f4bb36608fa949ae8bd132477ce4841649983dbc70c13fb"
+
+[[files]]
+file = "kubejs/server_scripts/tags/slabs/mossy-stone.js"
+hash = "d2778e7c253aacb44a8c3df08cf23e9db9b9ac9d5b1e07a4d62da77ca0a0dbb3"
+
+[[files]]
+file = "kubejs/server_scripts/tags/slabs/stone.js"
+hash = "a992b8aa36eccd0e353e7fa199effb96d53984eb66143515fc16abd40549d293"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stairs/andesite.js"
+hash = "1485c046b0300b187f5a687673cc83393a3735212b852e61b232c27b7ceb4d34"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stairs/diorite.js"
+hash = "3dab7a9f3beb15111e2c72757c17e62446da400c87f142bf414c1761bf534c7f"
 
 [[files]]
 file = "kubejs/server_scripts/tags/stairs/mossy-stone.js"
@@ -5301,6 +5333,14 @@ file = "kubejs/server_scripts/tags/stones/veridium.js"
 hash = "9b8a8f3911c2b11fdf828013118afcb4d7e6f190224ed59f8e5121a08aecdd90"
 
 [[files]]
+file = "kubejs/server_scripts/tags/walls/andesite.js"
+hash = "3efeaae61a869e9f13df7856d3e27ccc5d641417f5840ba9a2318ecf17915308"
+
+[[files]]
+file = "kubejs/server_scripts/tags/walls/diorite.js"
+hash = "1915d486a0f7b5580b8121a78286c3cadf47abdd312da226f917e38b1097d0ed"
+
+[[files]]
 file = "kubejs/server_scripts/tags/walls/mossy-stone.js"
 hash = "261890796753280e0191aa1a1776132831f843abec5adf7d3c310bc6348562a3"
 
@@ -5314,7 +5354,7 @@ hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "2c404551bc01632619fc76a1d3d7d7186e28216c84a9f6490b0889413ef9fce8"
+hash = "2ebc648c72acfe5227e9c1edd79350fbb96216194bc44c5b57ae25b6ea9b6754"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
