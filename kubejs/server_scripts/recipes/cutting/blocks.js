@@ -3,7 +3,12 @@ ServerEvents.recipes(event => {
 		'stone',
 		'mossy_stone',
 		'andesite',
-		'diorite'
+		'diorite',
+		'granite',
+		'crimsite',
+		'asurine',
+		'ochrum',
+		'veridium'
 	];
 	
 	for(const blockType of blockTypes) {
@@ -26,10 +31,10 @@ ServerEvents.recipes(event => {
 			});
 			
 			event.remove({
-					type: global.id.MC('crafting_shaped'),
-					input: blockTag,
-					output: block
-				});
+				type: global.id.MC('crafting_shaped'),
+				input: blockTag,
+				output: block
+			});
 			
 			event.stonecutting(block, blockTag);
 		}

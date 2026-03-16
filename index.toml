@@ -5062,7 +5062,7 @@ hash = "5b47cd920667832c25ad7506a3c2a7a2cca10b6937bcf91c5f20ec2c2ddc7be1"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "7ed1112617afde5f1c7f0145545be354a8143deeb7c10114d6e92c8bcc9c7dd4"
+hash = "2d43c822b18cdc1025e65e98d8477888ba14f67abd0363c6d7c6554e94053bc3"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -5182,7 +5182,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "ec779fcd836200f20ccc56af08e64eb1c53ea7e045b6dd8cefbe16fee3b35601"
+hash = "61239a85145dfe3813281676cd46b2bd1d01879a5e49d8af213a5f2829211a71"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5234,19 +5234,39 @@ hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/andesite.js"
-hash = "12e8bbced996412b51213478f6d65d6059cf260005b5db4dfb905dfd73ec74db"
+hash = "1af7b6529a0d82aac7f67f07a208968b572b7e0d14e844dfe6e6eb37734224b8"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/asurine.js"
+hash = "365889c1509903793be0c7a75d43d59fb771948216390955e501e9942f7eb1b1"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/crimsite.js"
+hash = "805169133b6b8f6156b4e87bd59e506f3d31c6a6ccd2cbc444d7f5e019032425"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/diorite.js"
-hash = "f1d841b2fc0b54ec51908f286c93c9942306b34731168c000809de26edd1a423"
+hash = "cd4d77d8452437ab890d04f0b7368ab79931fef53b2c4313dfa2dd1d0cc4806c"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/granite.js"
+hash = "0ecf8162bc4264ace0d24f0794e35459d7f8e951bd18a1a2e02d2ed53a84aec5"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/mossy-stone.js"
-hash = "e4a00746d6eaedb0f63c2b033cc082b456b5469153a749c001fe9fd51aac7f30"
+hash = "79ee60505ba8803ca11e4f439c0c0d6efabdaffa0ac5683111ee874f1ba434a2"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/ochrum.js"
+hash = "9e65755eb78d3c9550492dff5a601f9517d0cb1170523689be933e9d3f3c65e7"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone.js"
-hash = "17d80f14309b7e5f07e5cfa111ea98b4e7dded36fcb5313d960773a279e719d8"
+hash = "23e663bf550c99b3b2495ac2fce656009f000a8b1e18c142498c8ffa86a4a722"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/veridium.js"
+hash = "b6d911aac8793afbcd634986bc09e494c48b73097e0641d79f474081e059dc85"
 
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
