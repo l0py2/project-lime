@@ -5206,7 +5206,7 @@ hash = "a8dd4493c47326d522e5ce0cb7e0250eb6a0872193b75329827b8fa4e0464375"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/heating/convert-furnace.js"
-hash = "157ab51e68000aab88f54fa9cc583d88364cffb79bcfae5b6726b78c988d14d6"
+hash = "be77d374703ada4f2a33745ea13ac34f70731d7d72122cf7332cbead04a85d6a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/handcrafted.js"

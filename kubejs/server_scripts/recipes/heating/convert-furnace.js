@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 	const smeltingRecipes = global.recipes.getAll(event, { type: global.id.MC('smelting') });
 	const smokingRecipes = global.recipes.getAll(event, { type: global.id.MC('smoking') });
-	const blastingRecipes = global.recipes.getAll(event, { type: global.id.MC('smoking') });
+	const blastingRecipes = global.recipes.getAll(event, { type: global.id.MC('blasting') });
 	
 	for(const smeltingRecipe of smeltingRecipes) {
 		let food = false;
