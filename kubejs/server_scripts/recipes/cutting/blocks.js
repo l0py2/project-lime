@@ -16,7 +16,11 @@ ServerEvents.recipes(event => {
 		'jasper',
 		'myalite',
 		'scoria',
-		'scorchia'
+		'scorchia',
+		'calcite',
+		'limestone',
+		'tuff',
+		'permafrost'
 	];
 	
 	for(const blockType of blockTypes) {

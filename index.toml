@@ -5190,7 +5190,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "6e90adb9da7459163c7591e77197d2632dbb692f83e49200ace8e8450cc1c6e6"
+hash = "e9d684e4ac91678091dd90ba2766f08f842e86941154116431c433b792609f14"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5249,6 +5249,10 @@ file = "kubejs/server_scripts/tags/blocks/asurine.js"
 hash = "15512f90209c6e0d403219ca5ea18d49660c55bb0580a0868af42868d7faf780"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/calcite.js"
+hash = "67b29b9bd126ee75d00316ee6bede9d5fb41bd797025090aaeb8627e0164555b"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/crimsite.js"
 hash = "1f236ec475a61a079cc7a757e303cb07327040d202c23aad81531f782127e76c"
 
@@ -5269,6 +5273,10 @@ file = "kubejs/server_scripts/tags/blocks/jasper.js"
 hash = "d30b545b9a242a582e72ff137227549183858c999b658d3a7f380dc0f1b1f0dc"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/limestone.js"
+hash = "97a175439b6890f3d55028b9cd0dbe2d9d30a04df6ceaea2ee317b222b1ef02a"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/mossy-stone.js"
 hash = "e1469fadc7c9595ae40cf1a30b32fe9facb17c2cf6fe40b3294833e4e286485d"
 
@@ -5279,6 +5287,10 @@ hash = "f19c694414df71d004bad9696878758c3735dc5cd2cbd9f6124d6c3b269822f0"
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/ochrum.js"
 hash = "6386c5a5071d35d94aa9ff9f1a646b43bdb819c8c81e57538cb85fef091073b0"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/permafrost.js"
+hash = "8b36fa111925f94999936e48d14ea9224b150cc614769ff59cdc1dbbf73496a9"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/phosphorite.js"
@@ -5303,6 +5315,10 @@ hash = "17a6053260aaf6846b5f4a81a41a0c37e5124a2e40192a5cf1a1125bc74f71fd"
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone.js"
 hash = "7f609609889bcb7b7f20cbe9e3f0aa86e153de12425216131157d41020ade086"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/tuff.js"
+hash = "314b7c8f9072fea8dd2ccb3f1c250f82e15ad2faec621bc020673e81539602ef"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/veridium.js"
