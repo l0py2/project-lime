@@ -14,19 +14,12 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.KJ('block_types/granite'), global.id.CR('granite_pillar'));
 
 	event.add(global.id.KJ('slab_types/granite'), global.id.MC('granite_slab'));
-	event.add(global.id.KJ('slab_types/granite'), global.id.QK('granite_vertical_slab'));
 	event.add(global.id.KJ('slab_types/granite'), global.id.QK('granite_bricks_slab'));
-	event.add(global.id.KJ('slab_types/granite'), global.id.QK('granite_bricks_vertical_slab'));
 	event.add(global.id.KJ('slab_types/granite'), global.id.MC('polished_granite_slab'));
-	event.add(global.id.KJ('slab_types/granite'), global.id.QK('polished_granite_vertical_slab'));
 	event.add(global.id.KJ('slab_types/granite'), global.id.CR('cut_granite_slab'));
-	event.add(global.id.KJ('slab_types/granite'), global.id.SC('create/cut_granite_vertical_slab'));
 	event.add(global.id.KJ('slab_types/granite'), global.id.CR('polished_cut_granite_slab'));
-	event.add(global.id.KJ('slab_types/granite'), global.id.SC('create/polished_cut_granite_vertical_slab'));
 	event.add(global.id.KJ('slab_types/granite'), global.id.CR('cut_granite_brick_slab'));
-	event.add(global.id.KJ('slab_types/granite'), global.id.SC('create/cut_granite_brick_vertical_slab'));
 	event.add(global.id.KJ('slab_types/granite'), global.id.CR('small_granite_brick_slab'));
-	event.add(global.id.KJ('slab_types/granite'), global.id.SC('create/small_granite_brick_vertical_slab'));
 
 	event.add(global.id.KJ('stair_types/granite'), global.id.MC('granite_stairs'));
 	event.add(global.id.KJ('stair_types/granite'), global.id.MC('polished_granite_stairs'));

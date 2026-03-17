@@ -118,7 +118,7 @@ hash = "662ecbc927ea1b7936eddef9fc99e9fa222a31f7394e71e2e4115e3fdeb3b4a7"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "27a7cab8aa6861180f3ee542ba5e6b642bd5c8dc8b98f41ad94c01b5c3900646"
+hash = "490a67ffeb73f6e4c2f4fb7bf488e5d6b3502797c4296972b6575af8205dcbef"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
@@ -5070,7 +5070,7 @@ hash = "5b47cd920667832c25ad7506a3c2a7a2cca10b6937bcf91c5f20ec2c2ddc7be1"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6ab8e84aee1366300b4d010f025d6f9d9d357635f1739cc0dbe0a3d5cf507aff"
+hash = "d94139ee6b8684ff0596956b1b52c8a66a767a2d91e5ece6c161a6c82bbb7b9f"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -5082,7 +5082,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "3cecb232dc6fb9196aafcd2cca0d3403b73334c5b6a13066dfde773af5dc5929"
+hash = "81a424dca6fea281d3125d563f6f8c96c028d0acf81f01aa4a2927456afe300c"
 
 [[files]]
 file = "config/sawmill-common.toml"
@@ -5102,7 +5102,7 @@ hash = "ff0e73991cdec44d2d626de45c43bd5eb17622a85c0738ed6906ed60e0a8a848"
 
 [[files]]
 file = "config/stonezone-hazardous.toml"
-hash = "1ae89b68ac943a225b54b4c0f8a665950139fead5ca01a3609c1337e6afab1f1"
+hash = "4708a3eb5f712c85bb0519468713b4b261d3b6f23bea277b5fe60b8a53da8205"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -5190,7 +5190,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "d332a7fda390a57d041ed732df558f963944d21b19013173d6a6f2ca7b1ab21a"
+hash = "6e90adb9da7459163c7591e77197d2632dbb692f83e49200ace8e8450cc1c6e6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5238,51 +5238,75 @@ hash = "0133b25b45bff7e325ef86b9b62fa520d54773f42100f76bc9720b41738bf21b"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "cca8908b1a9b506e75a14d052da9f7dcc89e4a614a8df2181f5236bc7dd52e5d"
+hash = "689c6cdad04ea8163759237fe01d950725c8e7be505ad96d3d94b05f3a5ef01b"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/andesite.js"
-hash = "1af7b6529a0d82aac7f67f07a208968b572b7e0d14e844dfe6e6eb37734224b8"
+hash = "6f309d8b83f1ac01fc37db0c699bfb8ab66579c612663fb8049bffdee9127272"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/asurine.js"
-hash = "365889c1509903793be0c7a75d43d59fb771948216390955e501e9942f7eb1b1"
+hash = "15512f90209c6e0d403219ca5ea18d49660c55bb0580a0868af42868d7faf780"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/crimsite.js"
-hash = "805169133b6b8f6156b4e87bd59e506f3d31c6a6ccd2cbc444d7f5e019032425"
+hash = "1f236ec475a61a079cc7a757e303cb07327040d202c23aad81531f782127e76c"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/dark-prismarine.js"
-hash = "4ca660c7df3508e3701b76683b970a7f8ae9525eea0d30de84f0c133de856cb2"
+hash = "6e662933b9a4a5483cb776064c3f85c4fc802c538750a9ce25ea206ff7136ccb"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/diorite.js"
-hash = "cd4d77d8452437ab890d04f0b7368ab79931fef53b2c4313dfa2dd1d0cc4806c"
+hash = "15e861375c773f03dd9b98af8ffa107d7e0557e81a19672b4e4f0ed6953a3016"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/granite.js"
-hash = "0ecf8162bc4264ace0d24f0794e35459d7f8e951bd18a1a2e02d2ed53a84aec5"
+hash = "1049aad82210660b643c44fea9565f323dc0604febada808dad0b5624bc584b2"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/jasper.js"
+hash = "d30b545b9a242a582e72ff137227549183858c999b658d3a7f380dc0f1b1f0dc"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/mossy-stone.js"
-hash = "79ee60505ba8803ca11e4f439c0c0d6efabdaffa0ac5683111ee874f1ba434a2"
+hash = "e1469fadc7c9595ae40cf1a30b32fe9facb17c2cf6fe40b3294833e4e286485d"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/myalite.js"
+hash = "f19c694414df71d004bad9696878758c3735dc5cd2cbd9f6124d6c3b269822f0"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/ochrum.js"
-hash = "9e65755eb78d3c9550492dff5a601f9517d0cb1170523689be933e9d3f3c65e7"
+hash = "6386c5a5071d35d94aa9ff9f1a646b43bdb819c8c81e57538cb85fef091073b0"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/phosphorite.js"
+hash = "27df0998e47e6bd35e30f052ec1a9878f12e8a629dad47ad15ebbdcf62591f56"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/prismarine.js"
-hash = "0c58ec5a5a86de99f15118ae9fbc596a702f713ee9d94ea150d4b83d2eb517ea"
+hash = "501399285f49f143562a08421f5062af88a68541d92ceefd23203bdc8a58e9b1"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/scorchia.js"
+hash = "ea71f720d85f27a9424362d9c2f4d2f90342ee905ff95b58a3da073d404c0617"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/scoria.js"
+hash = "03cd4f743bff00e9b9cb60741bc511525451769e6f4a2b4e4ba2b250e8d2ca73"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/shale.js"
+hash = "17a6053260aaf6846b5f4a81a41a0c37e5124a2e40192a5cf1a1125bc74f71fd"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone.js"
-hash = "23e663bf550c99b3b2495ac2fce656009f000a8b1e18c142498c8ffa86a4a722"
+hash = "7f609609889bcb7b7f20cbe9e3f0aa86e153de12425216131157d41020ade086"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/veridium.js"
-hash = "b6d911aac8793afbcd634986bc09e494c48b73097e0641d79f474081e059dc85"
+hash = "c9d9eb56defae875461302516a0baff7dac1186d4252149e7b70ce08acc5d774"
 
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
@@ -5390,7 +5414,7 @@ hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "2ebc648c72acfe5227e9c1edd79350fbb96216194bc44c5b57ae25b6ea9b6754"
+hash = "2c404551bc01632619fc76a1d3d7d7186e28216c84a9f6490b0889413ef9fce8"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
@@ -5688,11 +5712,6 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "80cc9e9ba6f53fa0a165c8ceb24d295eac471ecbb64f2b7711f1751264d96c1f"
-metafile = true
-
-[[files]]
-file = "mods/vertical-slabs-compat.pw.toml"
-hash = "c386f1d1259257dd560da108f648e409d9c3c16210342252bfb6bb97502720b6"
 metafile = true
 
 [[files]]

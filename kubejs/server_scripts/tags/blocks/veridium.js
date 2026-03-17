@@ -10,13 +10,9 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.KJ('block_types/veridium'), global.id.SZ('hc/create/veridium_corner_trim'));
 	
 	event.add(global.id.KJ('slab_types/veridium'), global.id.CR('cut_veridium_slab'));
-	event.add(global.id.KJ('slab_types/veridium'), global.id.SC('create/cut_veridium_vertical_slab'));
 	event.add(global.id.KJ('slab_types/veridium'), global.id.CR('polished_cut_veridium_slab'));
-	event.add(global.id.KJ('slab_types/veridium'), global.id.SC('create/polished_cut_veridium_vertical_slab'));
 	event.add(global.id.KJ('slab_types/veridium'), global.id.CR('cut_veridium_brick_slab'));
-	event.add(global.id.KJ('slab_types/veridium'), global.id.SC('create/cut_veridium_brick_vertical_slab'));
 	event.add(global.id.KJ('slab_types/veridium'), global.id.CR('small_veridium_brick_slab'));
-	event.add(global.id.KJ('slab_types/veridium'), global.id.SC('create/small_veridium_brick_vertical_slab'));
 	
 	event.add(global.id.KJ('stair_types/veridium'), global.id.CR('cut_veridium_stairs'));
 	event.add(global.id.KJ('stair_types/veridium'), global.id.CR('polished_cut_veridium_stairs'));

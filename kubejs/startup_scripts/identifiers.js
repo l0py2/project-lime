@@ -16,8 +16,7 @@ global.id = {
 	SM: id => `sawmill:${id}`,
 	CC: id => `create_central_kitchen:${id}`,
 	EC: id => `everycomp:${id}`,
-	SZ: id => `stonezone:${id}`,
-	SC: id => `v_slab_compat:${id}`
+	SZ: id => `stonezone:${id}`
 };
 
 global.tag = {
@@ -36,6 +35,5 @@ global.tag = {
 	SM: id => `#sawmill:${id}`,
 	CC: id => `#create_central_kitchen:${id}`,
 	EC: id => `#everycomp:${id}`,
-	SZ: id => `#stonezone:${id}`,
-	SC: id => `#v_slab_compat:${id}`
+	SZ: id => `#stonezone:${id}`
 };

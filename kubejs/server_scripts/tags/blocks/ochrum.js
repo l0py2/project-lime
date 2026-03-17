@@ -10,13 +10,9 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.KJ('block_types/ochrum'), global.id.SZ('hc/create/ochrum_corner_trim'));
 	
 	event.add(global.id.KJ('slab_types/ochrum'), global.id.CR('cut_ochrum_slab'));
-	event.add(global.id.KJ('slab_types/ochrum'), global.id.SC('create/cut_ochrum_vertical_slab'));
 	event.add(global.id.KJ('slab_types/ochrum'), global.id.CR('polished_cut_ochrum_slab'));
-	event.add(global.id.KJ('slab_types/ochrum'), global.id.SC('create/polished_cut_ochrum_vertical_slab'));
 	event.add(global.id.KJ('slab_types/ochrum'), global.id.CR('cut_ochrum_brick_slab'));
-	event.add(global.id.KJ('slab_types/ochrum'), global.id.SC('create/cut_ochrum_brick_vertical_slab'));
 	event.add(global.id.KJ('slab_types/ochrum'), global.id.CR('small_ochrum_brick_slab'));
-	event.add(global.id.KJ('slab_types/ochrum'), global.id.SC('create/small_ochrum_brick_vertical_slab'));
 	
 	event.add(global.id.KJ('stair_types/ochrum'), global.id.CR('cut_ochrum_stairs'));
 	event.add(global.id.KJ('stair_types/ochrum'), global.id.CR('polished_cut_ochrum_stairs'));

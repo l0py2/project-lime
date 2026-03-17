@@ -23,7 +23,7 @@
 	#        "biomesoplenty:redwood"		COMMENT: exclude redwood from Stone Mod for any module
 	#    ]
 	#
-	blacklist = []
+	blacklist = ["quark:limestone"]
 
 [mudtype]
 	#Exclude MudType from all of Modules

@@ -60,8 +60,6 @@ ServerEvents.recipes(event => {
 			replacement
 		);
 	}
-
-	for(const item of global.removedItems) {
-		event.remove({ output: item });
-	}
+	
+	event.remove({ output: global.tag.KJ('removed') });
 });

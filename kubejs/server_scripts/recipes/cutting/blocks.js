@@ -10,7 +10,13 @@ ServerEvents.recipes(event => {
 		'ochrum',
 		'veridium',
 		'prismarine',
-		'dark_prismarine'
+		'dark_prismarine',
+		'phosphorite',
+		'shale',
+		'jasper',
+		'myalite',
+		'scoria',
+		'scorchia'
 	];
 	
 	for(const blockType of blockTypes) {
@@ -35,6 +41,11 @@ ServerEvents.recipes(event => {
 			event.remove({
 				type: global.id.MC('crafting_shaped'),
 				input: blockTag,
+				output: block
+			});
+			
+			event.remove({
+				mod: 'stonezone',
 				output: block
 			});
 			
