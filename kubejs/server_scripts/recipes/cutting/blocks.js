@@ -8,7 +8,9 @@ ServerEvents.recipes(event => {
 		'crimsite',
 		'asurine',
 		'ochrum',
-		'veridium'
+		'veridium',
+		'prismarine',
+		'dark_prismarine'
 	];
 	
 	for(const blockType of blockTypes) {

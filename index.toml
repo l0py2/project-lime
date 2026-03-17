@@ -5070,7 +5070,7 @@ hash = "5b47cd920667832c25ad7506a3c2a7a2cca10b6937bcf91c5f20ec2c2ddc7be1"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "a79c9b61833db73ca2465e6275ad379af55eceb14eea7e3f29e4df5c0b200694"
+hash = "6ab8e84aee1366300b4d010f025d6f9d9d357635f1739cc0dbe0a3d5cf507aff"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -5190,7 +5190,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "61239a85145dfe3813281676cd46b2bd1d01879a5e49d8af213a5f2829211a71"
+hash = "d332a7fda390a57d041ed732df558f963944d21b19013173d6a6f2ca7b1ab21a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5253,6 +5253,10 @@ file = "kubejs/server_scripts/tags/blocks/crimsite.js"
 hash = "805169133b6b8f6156b4e87bd59e506f3d31c6a6ccd2cbc444d7f5e019032425"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/dark-prismarine.js"
+hash = "4ca660c7df3508e3701b76683b970a7f8ae9525eea0d30de84f0c133de856cb2"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/diorite.js"
 hash = "cd4d77d8452437ab890d04f0b7368ab79931fef53b2c4313dfa2dd1d0cc4806c"
 
@@ -5267,6 +5271,10 @@ hash = "79ee60505ba8803ca11e4f439c0c0d6efabdaffa0ac5683111ee874f1ba434a2"
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/ochrum.js"
 hash = "9e65755eb78d3c9550492dff5a601f9517d0cb1170523689be933e9d3f3c65e7"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/prismarine.js"
+hash = "0c58ec5a5a86de99f15118ae9fbc596a702f713ee9d94ea150d4b83d2eb517ea"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone.js"
