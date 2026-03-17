@@ -5190,7 +5190,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "e9d684e4ac91678091dd90ba2766f08f842e86941154116431c433b792609f14"
+hash = "49e25246ba0c925a18a06db8db2ae838a0273caaa7e768bb9714305b5cf88eec"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5245,6 +5245,10 @@ file = "kubejs/server_scripts/tags/blocks/andesite.js"
 hash = "6f309d8b83f1ac01fc37db0c699bfb8ab66579c612663fb8049bffdee9127272"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/asgharian.js"
+hash = "c37c6ec17f0b0d7b0524f64cefee1dc16570befcb9529a1fee5d14c743833425"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/asurine.js"
 hash = "15512f90209c6e0d403219ca5ea18d49660c55bb0580a0868af42868d7faf780"
 
@@ -5265,6 +5269,10 @@ file = "kubejs/server_scripts/tags/blocks/diorite.js"
 hash = "15e861375c773f03dd9b98af8ffa107d7e0557e81a19672b4e4f0ed6953a3016"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/dripstone.js"
+hash = "fb37472d04387a401783049b853fa3f5340bb410e8c5732dbd3512bf6082181e"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/granite.js"
 hash = "1049aad82210660b643c44fea9565f323dc0604febada808dad0b5624bc584b2"
 
@@ -5275,6 +5283,10 @@ hash = "d30b545b9a242a582e72ff137227549183858c999b658d3a7f380dc0f1b1f0dc"
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/limestone.js"
 hash = "97a175439b6890f3d55028b9cd0dbe2d9d30a04df6ceaea2ee317b222b1ef02a"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/mossy-asgharian.js"
+hash = "1c4da71e0f77db45f23a4123e3485ce185b67bc9d07c50a3435a02e5edac076a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/mossy-stone.js"
