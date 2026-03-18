@@ -5070,7 +5070,7 @@ hash = "5b47cd920667832c25ad7506a3c2a7a2cca10b6937bcf91c5f20ec2c2ddc7be1"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "d94139ee6b8684ff0596956b1b52c8a66a767a2d91e5ece6c161a6c82bbb7b9f"
+hash = "151ec0bad428463d8a4bf8b1daa6632241aa9e004b7ee923b266fa2c43d92989"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -5190,7 +5190,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "49e25246ba0c925a18a06db8db2ae838a0273caaa7e768bb9714305b5cf88eec"
+hash = "4d2f9770c43f1ea38c89bbbdd5a8cdd993cefb679b569d4f09088729012e8f91"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5249,8 +5249,20 @@ file = "kubejs/server_scripts/tags/blocks/asgharian.js"
 hash = "c37c6ec17f0b0d7b0524f64cefee1dc16570befcb9529a1fee5d14c743833425"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/ash-brick.js"
+hash = "52bd47ac6a524bb91a97b654bb6189ce262ec69fb851bd46cf3cda8d3e49d43c"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/asurine.js"
 hash = "15512f90209c6e0d403219ca5ea18d49660c55bb0580a0868af42868d7faf780"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/blue-nether-brick.js"
+hash = "010c4e8ed16a90ce563b3401c839f4792ddf3e3a1856184b1c98995dd1cef62a"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/brick.js"
+hash = "373ab11260008408a6aceef6c43f97977552b7c4916f46a45906ed4f095f164a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/calcite.js"
@@ -5297,6 +5309,14 @@ file = "kubejs/server_scripts/tags/blocks/myalite.js"
 hash = "f19c694414df71d004bad9696878758c3735dc5cd2cbd9f6124d6c3b269822f0"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/nether-brick.js"
+hash = "1e97863bbfb9733b68690b244d6daa60e9c9cc29beaa41dbd44f330c8fdbd9b8"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/netherrack.js"
+hash = "3cbc98e77613e2359d22597a5502deeec51a4f1818cb4c3522f36b72b196a084"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/ochrum.js"
 hash = "6386c5a5071d35d94aa9ff9f1a646b43bdb819c8c81e57538cb85fef091073b0"
 
@@ -5311,6 +5331,10 @@ hash = "27df0998e47e6bd35e30f052ec1a9878f12e8a629dad47ad15ebbdcf62591f56"
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/prismarine.js"
 hash = "501399285f49f143562a08421f5062af88a68541d92ceefd23203bdc8a58e9b1"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/red-nether-brick.js"
+hash = "605b415ad203cedb18338180f8218432ced4cc0706b1d6d2773cf82a8e851aea"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/scorchia.js"

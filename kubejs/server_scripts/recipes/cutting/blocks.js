@@ -23,13 +23,21 @@ ServerEvents.recipes(event => {
 		'permafrost',
 		'asgharian',
 		'mossy_asgharian',
-		'dripstone'
+		'dripstone',
+		'nether_brick',
+		'red_nether_brick',
+		'blue_nether_brick',
+		'netherrack',
+		'brick',
+		'ash_brick'
 	];
 	
 	for(const blockType of blockTypes) {
 		let blockTag = global.tag.KJ(`block_types/${blockType}`);
 		
 		for(const block of Ingredient.of(blockTag).itemIds) {
+			console.log(block);
+			
 			event.remove({
 				type: global.id.MC('stonecutting'),
 				output: block
@@ -114,6 +122,6 @@ ServerEvents.recipes(event => {
 				// event.stonecutting(wall, blockTag);
 				// event.stonecutting(wall, wallTag);
 			}
-		}
+		}		
 	}
 });
