@@ -5174,7 +5174,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/blocks.js"
-hash = "4d2f9770c43f1ea38c89bbbdd5a8cdd993cefb679b569d4f09088729012e8f91"
+hash = "af21a2ce3e6e2d5f27fa166873552ee2f4fc40f7d77cd845db79f42de0c640fb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/convert-cutting.js"
@@ -5301,6 +5301,10 @@ file = "kubejs/server_scripts/tags/blocks/prismarine.js"
 hash = "501399285f49f143562a08421f5062af88a68541d92ceefd23203bdc8a58e9b1"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/quartz.js"
+hash = "1794b1edcbc427ce5fb662b55402dd72473e7d26895cee00abd906365a530ad3"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/red-nether-brick.js"
 hash = "605b415ad203cedb18338180f8218432ced4cc0706b1d6d2773cf82a8e851aea"
 
@@ -5318,7 +5322,7 @@ hash = "17a6053260aaf6846b5f4a81a41a0c37e5124a2e40192a5cf1a1125bc74f71fd"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone.js"
-hash = "7f609609889bcb7b7f20cbe9e3f0aa86e153de12425216131157d41020ade086"
+hash = "9bde837758be5eb2ec1757a895a6e17a0e84a5f8a370b73614e8da1bac091f17"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/tuff.js"

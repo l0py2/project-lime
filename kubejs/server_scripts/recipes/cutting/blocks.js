@@ -29,7 +29,8 @@ ServerEvents.recipes(event => {
 		'blue_nether_brick',
 		'netherrack',
 		'brick',
-		'ash_brick'
+		'ash_brick',
+		'quartz'
 	];
 	
 	for(const blockType of blockTypes) {
@@ -64,7 +65,7 @@ ServerEvents.recipes(event => {
 				output: block
 			});
 			
-			// event.stonecutting(block, blockTag);
+			event.stonecutting(block, blockTag);
 		}
 		
 		let slabTag = global.tag.KJ(`slab_types/${blockType}`);
@@ -81,8 +82,8 @@ ServerEvents.recipes(event => {
 					output: slab
 				});
 				
-				// event.stonecutting(Item.of(slab, 2), blockTag);
-				// event.stonecutting(slab, slabTag);
+				event.stonecutting(Item.of(slab, 2), blockTag);
+				event.stonecutting(slab, slabTag);
 			}
 		}
 		
@@ -100,8 +101,8 @@ ServerEvents.recipes(event => {
 					output: stair
 				});
 				
-				// event.stonecutting(stair, blockTag);
-				// event.stonecutting(stair, stairTag);
+				event.stonecutting(stair, blockTag);
+				event.stonecutting(stair, stairTag);
 			}
 		}
 		
@@ -119,8 +120,8 @@ ServerEvents.recipes(event => {
 					output: wall
 				});
 				
-				// event.stonecutting(wall, blockTag);
-				// event.stonecutting(wall, wallTag);
+				event.stonecutting(wall, blockTag);
+				event.stonecutting(wall, wallTag);
 			}
 		}		
 	}
