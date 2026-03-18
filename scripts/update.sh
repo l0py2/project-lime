@@ -24,8 +24,11 @@ cd ..
 
 if [ "$1" = 'pull' ]
 then
+	rm -rf ./kubejs
 	cp -rfT "$KUBEJS_DIR" ./kubejs
+	rm -rf ./config
 	cp -rfT "$CONFIG_DIR" ./config
+	rm -rf ./defaultconfigs
 	cp -rfT "$DEFAULT_SERVER_CONFIG_DIR" ./defaultconfigs
 
 	if [ -d "$SAWMILL_DATA_DIR" ]
@@ -36,9 +39,12 @@ then
 	packwiz refresh
 elif [ "$1" = 'push' ]
 then
-	cp -rfTv ./kubejs "$KUBEJS_DIR"
-	cp -rfTv ./config "$CONFIG_DIR"
-	cp -rfTv ./defaultconfigs "$DEFAULT_SERVER_CONFIG_DIR"
+	rm -rf "$KUBEJS_DIR"
+	cp -rfT ./kubejs "$KUBEJS_DIR"
+	rm -rf "$CONFIG_DIR"
+	cp -rfT ./config "$CONFIG_DIR"
+	rm -rf "$DEFAULT_SERVER_CONFIG_DIR"
+	cp -rfT ./defaultconfigs "$DEFAULT_SERVER_CONFIG_DIR"
 else
 	printf 'Invalid mode specified\n\n'
 	printf 'pull - to copy files from instance to repository\n'
