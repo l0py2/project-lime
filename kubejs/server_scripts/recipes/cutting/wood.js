@@ -1,13 +1,114 @@
 ServerEvents.recipes(event => {
-	event.remove({
-		type: global.id.SM('woodcutting'),
-		input: global.tag.MC('planks'),
-		output: global.tag.MC('logs')
-	});
+	const blockTypes = [
+		'oak',
+		'spruce',
+		'birch',
+		'jungle',
+		'acacia',
+		'dark_oak',
+		'mangrove',
+		'cherry',
+		'crimson',
+		'warped',
+		'bamboo',
+		'ancient',
+		'azalea',
+		'blossom'
+	];
 	
 	event.remove({
-		type: global.id.SM('woodcutting'),
-		input: global.tag.MC('planks'),
-		output: global.tag.QK('hollow_logs')
+		type: global.id.CR('cutting'),
+		input: global.tag.MC('planks')
 	});
+	
+	for(const blockType of blockTypes) {
+		let blockTag = global.tag.KJ(`block_types/${blockType}`);
+		
+		for(const block of Ingredient.of(blockTag).itemIds) {
+			event.remove({
+				type: global.id.MC('stonecutting'),
+				output: block
+			});
+			
+			event.remove({
+				type: global.id.CR('cutting'),
+				input: blockTag,
+				output: block
+			});
+			
+			event.remove({
+				type: global.id.MC('crafting_shaped'),
+				input: blockTag,
+				output: block
+			});
+			
+			event.stonecutting(block, blockTag);
+		}
+		
+		let slabTag = global.tag.KJ(`slab_types/${blockType}`);
+		
+		for(const slab of Ingredient.of(slabTag).itemIds) {
+			event.remove({
+				type: global.id.MC('stonecutting'),
+				output: slab
+			});
+			
+			event.remove({
+				type: global.id.CR('cutting'),
+				output: slab
+			});
+				
+			event.remove({
+				type: global.id.MC('crafting_shaped'),
+				output: slab
+			});
+				
+			event.stonecutting(Item.of(slab, 2), blockTag);
+			event.stonecutting(slab, slabTag);
+		}
+		
+		let stairTag = global.tag.KJ(`stair_types/${blockType}`);
+		
+		for(const stair of Ingredient.of(stairTag).itemIds) {
+			event.remove({
+				type: global.id.MC('stonecutting'),
+				output: stair
+			});
+			
+			event.remove({
+				type: global.id.CR('cutting'),
+				output: stair
+			});
+				
+			event.remove({
+				type: global.id.MC('crafting_shaped'),
+				output: stair
+			});
+				
+			event.stonecutting(stair, blockTag);
+			event.stonecutting(stair, stairTag);
+		}
+		
+		let wallTag = global.tag.KJ(`wall_types/${blockType}`);
+		
+		for(const wall of Ingredient.of(wallTag).itemIds) {
+			event.remove({
+				type: global.id.MC('stonecutting'),
+				output: wall
+			});
+			
+			event.remove({
+				type: global.id.CR('cutting'),
+				output: wall
+			});
+				
+			event.remove({
+				type: global.id.MC('crafting_shaped'),
+				output: wall
+			});
+			
+			event.stonecutting(Item.of(wall, 2), blockTag);
+			event.stonecutting(wall, wallTag);
+		}	
+	}
 });

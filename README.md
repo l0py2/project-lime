@@ -63,7 +63,6 @@
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [Resourceful Lib](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
 - [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino)
-- [Sawmill](https://www.curseforge.com/minecraft/mc-mods/sawmill)
 - [Searchables](https://www.curseforge.com/minecraft/mc-mods/searchables)
 - [Supplementaries Squared](https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared)
 - [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries)

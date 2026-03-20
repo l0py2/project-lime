@@ -41,31 +41,29 @@ ServerEvents.recipes(event => {
 		
 		let wallTag = global.tag.KJ(`wall_types/${blockType}`);
 			
-		if(Ingredient.of(wallTag).itemIds.length > 0) {
-			for(const wall of Ingredient.of(wallTag).itemIds) {
-				event.remove({
-					type: global.id.MC('stonecutting'),
-					output: wall
-				});
+		for(const wall of Ingredient.of(wallTag).itemIds) {
+			event.remove({
+				type: global.id.MC('stonecutting'),
+				output: wall
+			});
 				
-				event.remove({
-					type: global.id.MC('smelting'),
-					output: wall
-				});
-					
-				event.remove({
-					type: global.id.MC('blasting'),
-					output: wall
-				});
-					
-				event.remove({
-					type: global.id.MC('crafting_shaped'),
-					output: wall
-				});
-					
-				event.stonecutting(Item.of(wall, 2), blockTag);
-				event.stonecutting(wall, wallTag);
-			}
+			event.remove({
+				type: global.id.MC('smelting'),
+				output: wall
+			});
+			
+			event.remove({
+				type: global.id.MC('blasting'),
+				output: wall
+			});
+			
+			event.remove({
+				type: global.id.MC('crafting_shaped'),
+				output: wall
+			});
+				
+			event.stonecutting(Item.of(wall, 2), blockTag);
+			event.stonecutting(wall, wallTag);
 		}
 	}
 });

@@ -18,7 +18,6 @@ fi
 KUBEJS_DIR="$MINECRAFT_DIR/kubejs"
 CONFIG_DIR="$MINECRAFT_DIR/config"
 DEFAULT_SERVER_CONFIG_DIR="$MINECRAFT_DIR/defaultconfigs"
-SAWMILL_DATA_DIR="$MINECRAFT_DIR/debug/generated_resource_pack/sawmill"
 
 cd ..
 
@@ -30,11 +29,6 @@ then
 	cp -rfT "$CONFIG_DIR" ./config
 	rm -rf ./defaultconfigs
 	cp -rfT "$DEFAULT_SERVER_CONFIG_DIR" ./defaultconfigs
-
-	if [ -d "$SAWMILL_DATA_DIR" ]
-	then
-		mv -fT "$SAWMILL_DATA_DIR" ./config/openloader/data/universal-sawmill-recipes/data/sawmill
-	fi
 	
 	packwiz refresh
 elif [ "$1" = 'push' ]
