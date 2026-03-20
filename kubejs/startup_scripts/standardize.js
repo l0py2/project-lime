@@ -7,7 +7,11 @@ global.removedItems = [
 	global.id.FD('rope'),
 	global.id.CR('dough'),
 	global.id.SG('air_canister'),
-	global.id.SG('reinforced_air_canister')
+	global.id.SG('reinforced_air_canister'),
+	global.id.QK('limestone_bricks'),
+	global.id.QK('limestone_bricks_slab'),
+	global.id.QK('limestone_bricks_stairs'),
+	global.id.QK('limestone_bricks_wall')
 ];
 
 for(const type of global.woodTypes.minecraft) {

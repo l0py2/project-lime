@@ -30,8 +30,24 @@ ServerEvents.recipes(event => {
 		'netherrack',
 		'brick',
 		'ash_brick',
-		'quartz'
+		'quartz',
+		'blackstone',
+		'deepslate',
+		'sand',
+		'red_sand',
+		'checker',
+		'end_stone',
+		'soul_sand',
+		'terracotta',
+		'midori',
+		'dripstone',
+		'purpur',
+		'mud'
 	];
+	
+	for(const colour of global.dyeColours) {
+		blockTypes.push(`${colour}_terracotta`);
+	}
 	
 	for(const blockType of blockTypes) {
 		let blockTag = global.tag.KJ(`block_types/${blockType}`);
