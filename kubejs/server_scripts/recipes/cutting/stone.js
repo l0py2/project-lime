@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
 		'asgharian',
 		'ash_brick',
 		'asurine',
+		'basalt',
 		'blackstone',
 		'blue_nether_brick',
 		'brick',

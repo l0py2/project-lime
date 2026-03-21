@@ -270,7 +270,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "14b944330d00d7ce88611f3e575ef611ee61eda21b3bccc93e3819b9a4ec878a"
+hash = "34b2eac7dadbe6a620421bd7525fd344f5bb9084c8d287f68c62e706d4caddad"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -282,11 +282,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "81a424dca6fea281d3125d563f6f8c96c028d0acf81f01aa4a2927456afe300c"
-
-[[files]]
-file = "config/sawmill-common.toml"
-hash = "eb936856e74a26041c37b9eb044fb23c481b9689fe771f9e7b59760ceeddaadb"
+hash = "46d89917133873edfba346439f6706c4015b00ecc4fcbe09fcbdea2aee69cf7c"
 
 [[files]]
 file = "config/scguns-client.toml"
@@ -373,12 +369,16 @@ file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
 hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/cutting/copper.js"
+hash = "4251d3c7c16e2914ad0d98d794b1ae00f42b2dbc3f10d19288b6b83ddd8a4cbe"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/cutting/glass.js"
 hash = "84795e431ca2d9268de6d8403f92888565c1465e6e6fb15dff29f151e3a8d4b6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "18bc3e25849fd5112ae2004af2d619df573c20d164303e9ed113a151c4b5555e"
+hash = "c845b75f54eb2a04557b5d2d4771c4bf8de196370b386252ec0d2b14c591da84"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
@@ -409,6 +409,18 @@ file = "kubejs/server_scripts/standardize.js"
 hash = "689c6cdad04ea8163759237fe01d950725c8e7be505ad96d3d94b05f3a5ef01b"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/copper/copper.js"
+hash = "dd7b61f348f27fcad2b8d7cbd2bcb6be09df7bc09fe104346a29ccb6efa2a67d"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/copper/oxidized-copper.js"
+hash = "d87b0ee4f07071a0d77263472a58cbbaa9acdc555553c7ca651ad7e1f807290b"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/copper/waxed-copper.js"
+hash = "43906cb593ca2fc5f6cff21a78c679967949da263b53cd50eca7beaede89d781"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/glass/framed-glass.js"
 hash = "3e0685c6bdb672141f87d4bd309cb067108ad9a1ad39b2074d046c977f9d2c4c"
 
@@ -431,6 +443,10 @@ hash = "52bd47ac6a524bb91a97b654bb6189ce262ec69fb851bd46cf3cda8d3e49d43c"
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/asurine.js"
 hash = "15512f90209c6e0d403219ca5ea18d49660c55bb0580a0868af42868d7faf780"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/stone/basalt.js"
+hash = "f4b7fa745fc805b2d7d79a28f90978953ce582e32b868329acfeba515c97ec98"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/blackstone.js"
