@@ -621,6 +621,10 @@ file = "kubejs/startup_scripts/colours.js"
 hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
 
 [[files]]
+file = "kubejs/startup_scripts/hide-removed.js"
+hash = "9d489b8996b0eb1953b930ec4c78b8f6035df656c37649775e1ac178458406af"
+
+[[files]]
 file = "kubejs/startup_scripts/identifiers.js"
 hash = "8e416bee03a559b3e665fbc7194208f0a8fa028b07cf06bb813126655f22c20f"
 
