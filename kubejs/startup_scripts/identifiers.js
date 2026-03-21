@@ -15,7 +15,8 @@ global.id = {
 	QK: id => `quark:${id}`,
 	CC: id => `create_central_kitchen:${id}`,
 	EC: id => `everycomp:${id}`,
-	SZ: id => `stonezone:${id}`
+	SZ: id => `stonezone:${id}`,
+	CC: id => `create_connected:${id}`
 };
 
 global.tag = {
@@ -33,5 +34,6 @@ global.tag = {
 	QK: id => `#quark:${id}`,
 	CC: id => `#create_central_kitchen:${id}`,
 	EC: id => `#everycomp:${id}`,
-	SZ: id => `#stonezone:${id}`
+	SZ: id => `#stonezone:${id}`,
+	CC: id => `#create_connected:${id}`
 };

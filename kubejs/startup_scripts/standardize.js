@@ -11,7 +11,18 @@ global.removedItems = [
 	global.id.QK('limestone_bricks'),
 	global.id.QK('limestone_bricks_slab'),
 	global.id.QK('limestone_bricks_stairs'),
-	global.id.QK('limestone_bricks_wall')
+	global.id.QK('limestone_bricks_wall'),
+	global.id.CC('copycat_block'),
+	global.id.CC('copycat_slab'),
+	global.id.CC('copycat_beam'),
+	global.id.CC('copycat_vertical_step'),
+	global.id.CC('copycat_stairs'),
+	global.id.CC('copycat_fence'),
+	global.id.CC('copycat_fence_gate'),
+	global.id.CC('copycat_wall'),
+	global.id.CC('copycat_board'),
+	global.id.CC('copycat_box'),
+	global.id.CC('copycat_catwalk')
 ];
 
 for(const type of global.woodTypes.minecraft) {

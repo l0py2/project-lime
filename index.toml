@@ -49,6 +49,22 @@ file = "config/brewinandchewin-common.toml"
 hash = "8ebeb27f31aa49b530e2689679ca8096887847d7e4d93a87d9d50143f5957f77"
 
 [[files]]
+file = "config/chalk-client.toml"
+hash = "ce3f311460e4198f74c6a9f8bb8ad0ddcb12f00d20760f3edff929d666815392"
+
+[[files]]
+file = "config/chalk-common.toml"
+hash = "b363fb18520a9f6865339ec122faed555ce655db955c8e8108662ed2d662f061"
+
+[[files]]
+file = "config/copycats-client.toml"
+hash = "9c4e1c84d2cd936b850b7d69ab97e4b617e464551cc3ce44aeb0aaed4eb6c6c5"
+
+[[files]]
+file = "config/copycats-common.toml"
+hash = "6eae5e6f03453087e9493c578bce1f1a8d33d13191a8827651e52d37797555af"
+
+[[files]]
 file = "config/craftingtweaks-common.toml"
 hash = "7ac94e5c0a1bfbe7611666c05491a2da0009940cfa6e7886d6a4f6051f672c09"
 
@@ -63,6 +79,18 @@ hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 [[files]]
 file = "config/create_central_kitchen-common.toml"
 hash = "f94307edd006e1f48e2d9b0fdd74a792186972bc405de9dfe668adcf335426a7"
+
+[[files]]
+file = "config/create_connected-common.toml"
+hash = "8a0892dc26e5540f987ccfa440fae00d72830fc4f2cdfae820682779ea9c7a77"
+
+[[files]]
+file = "config/create_new_age-client.toml"
+hash = "6c43ef83a82c7bfb82f3f5fc39bcdd9fe1cf56c76ca035971cc067f99153fbad"
+
+[[files]]
+file = "config/create_new_age-common.toml"
+hash = "2b94526494fc5aee3fb801a0e5827585d39f028b1383bae85cfb7ca18dae00bb"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -123,6 +151,18 @@ hash = "490a67ffeb73f6e4c2f4fb7bf488e5d6b3502797c4296972b6575af8205dcbef"
 [[files]]
 file = "config/everycomp-hazardous.toml"
 hash = "e1c71ed9fd6cc4ce9b1ba9bd3d11f1108b1489502d113dcab65d9dd9342ed800"
+
+[[files]]
+file = "config/exposure-client.toml"
+hash = "7c90d2dcaa3daed34168278cc5d6b4457eb63195547a7fdbb0577352badb7f0e"
+
+[[files]]
+file = "config/exposure-common.toml"
+hash = "1344a5f2292b2805368a6ee5fc53d661febb1f0a13bd27bf9a3d65fafa7f837b"
+
+[[files]]
+file = "config/exposure_polaroid-client.toml"
+hash = "e0c59418446049b8ff1226a38ee817d05fea08a4f444b9aeb0677d5286ef1765"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -214,11 +254,11 @@ hash = "4624fc2e033829004e59a6269ccc409529d653d7cfa902e8cb3dc570daba14a2"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "e64824b839c6f2df41af67acfa520c34c0cac44152adf87749ccf05cfd0ade9e"
+hash = "a6312ba6763c2cb5c3a5c0f1ed2a478d40047bdd71d509e0061d325d26419476"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "95eb2b1ed52c7f07c53f6fc60ffb855ed0f0aefcd68d1b002f0b56cc56a7f23f"
+hash = "28cc5f5c3d5ea29f9fe6d10342a120229b4a20f5d82afb6693990bec61b7aa15"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -242,7 +282,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "26df2283f529808cf38293d82c736d86cdbe36411898d3270b82ddd7d17db9bc"
+hash = "4a04297821184acbedf60211b2a10ce98894ffd61d8c78d5352e68f69f4832c0"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -270,7 +310,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "34b2eac7dadbe6a620421bd7525fd344f5bb9084c8d287f68c62e706d4caddad"
+hash = "2e7940b6afc3e25d8d69ce3108da0d6a012428c5141ce6619dfe1da6c034ad9d"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -283,6 +323,14 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 [[files]]
 file = "config/quark-common.toml"
 hash = "46d89917133873edfba346439f6706c4015b00ecc4fcbe09fcbdea2aee69cf7c"
+
+[[files]]
+file = "config/railways-client.toml"
+hash = "f3e6295841dd104d85bbc1bd529c09c4a3bd4a6d0a7cc859f1aa7f866481a10c"
+
+[[files]]
+file = "config/railways-common.toml"
+hash = "1f660c8bd0c374799862392ef7a56253544f5adaf653e59386cd1eb34f94fa2f"
 
 [[files]]
 file = "config/scguns-client.toml"
@@ -626,11 +674,11 @@ hash = "9d489b8996b0eb1953b930ec4c78b8f6035df656c37649775e1ac178458406af"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "8e416bee03a559b3e665fbc7194208f0a8fa028b07cf06bb813126655f22c20f"
+hash = "67ace69970c2b28fbb9f6f01121f7dd2cd70f968d0b11813dddd64b043aca817"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "b89e81461b465a253e28c002950cbd512613a2b0f10bfb44ee58c05485f3bcdf"
+hash = "84ccf2e56977b8676aa6051d6a4df1bf5a63165edaa77465505bdea0e7a888d2"
 
 [[files]]
 file = "kubejs/startup_scripts/wood-types.js"
@@ -682,6 +730,11 @@ hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
 metafile = true
 
 [[files]]
+file = "mods/chalk.pw.toml"
+hash = "f928175ba3f7fe5499a532622dd7dd85c2b6aeef84a2e50f7eb88c5d2cb8e563"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
@@ -692,13 +745,43 @@ hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "4101243ecfad34970b81cf6c99f458b67fe848d11870112bc9bab3b16af985eb"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "6a18fc2c584371e5f5fe6b621980e3ae4695bff2c5e90d7758c4acbf099743b0"
 metafile = true
 
 [[files]]
+file = "mods/create-aquatic-ambitions.pw.toml"
+hash = "76c45d397433d35d337e4a7ff523800b9d39a3c9b5e3dd56e3db6d7cfd31e675"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "967c38265800a8b2353debf37ab919204a1f89e4a57e2e603b7a7de1d68c8956"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "8d3f40c638fa0085a62a3ac477a3f2ed23e63af62da2cdf502183fa0bddbca7c"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "200b30b8eeaaf2fa9e8345fcabdd80f6195b5af67926fb1e277931100e7e1eff"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "af254a9e26ed280c6078e2d02aa9f511d5b3f0ae43767e6a35a87583014e5e6e"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "a432e8775c2bdec53fca88146917905c5c82273e1b66af48b5ace0809433c8fe"
 metafile = true
 
 [[files]]
@@ -759,6 +842,16 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "8e8c29a8ccd54f4e94ed84932d3c4067ad697ac62e10c2cd051a004735d5ea4c"
+metafile = true
+
+[[files]]
+file = "mods/exposure-polaroid.pw.toml"
+hash = "6b1bf52ca9ee2a4de79a4e9ed3e85c3ef62566c92047f06fe8c68b661dadcff6"
+metafile = true
+
+[[files]]
+file = "mods/exposure.pw.toml"
+hash = "a59d11cc5513f8725c71c1c53e6569912fffbe4ba0daa4530640d731a81ddab4"
 metafile = true
 
 [[files]]
