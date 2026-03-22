@@ -62,4 +62,30 @@ ServerEvents.recipes(event => {
 	);
 	
 	event.blasting(global.id.MC('leather'), global.id.MC('rotten_flesh')).xp(0.1);
+	
+	event.remove({ id: global.id.MC('stonecutter') });
+	
+	event.shaped(
+		global.id.MC('stonecutter'),
+		[
+			' A ',
+			'BBB'
+		],
+		{
+			A: global.tag.M('ingots/iron'),
+			B: global.tag.M('stone')
+		}
+	);
+	
+	event.shaped(
+		global.id.MC('stonecutter'),
+		[
+			' A ',
+			'BBB'
+		],
+		{
+			A: global.tag.M('ingots/copper'),
+			B: global.tag.M('stone')
+		}
+	);
 });

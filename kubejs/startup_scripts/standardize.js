@@ -110,6 +110,22 @@ for(const type of global.woodTypes.quark) {
 	global.removedItems.push(global.id.EC(`abnww/quark/trapped_${type}_chest`));
 }
 
+for(const type of global.toolTypes.minecraft) {
+	global.removedItems.push(global.id.TC(`${type}_knife`));
+}
+
+for(const type of global.toolTypes.thermal) {
+	global.removedItems.push(global.id.TC(`${type}_shovel`));
+	global.removedItems.push(global.id.TC(`${type}_pickaxe`));
+	global.removedItems.push(global.id.TC(`${type}_axe`));
+	global.removedItems.push(global.id.TC(`${type}_hoe`));
+	global.removedItems.push(global.id.TC(`${type}_sword`));
+	global.removedItems.push(global.id.TC(`${type}_excavator`));
+	global.removedItems.push(global.id.TC(`${type}_hammer`));
+	global.removedItems.push(global.id.TC(`${type}_sickle`));
+	global.removedItems.push(global.id.TC(`${type}_knife`));
+}
+
 global.removedRecipeTypes = [
 	global.id.WW('sawmill'),
 	global.id.SG('lightning_battery'),

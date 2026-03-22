@@ -6,10 +6,6 @@
 - [Textures from Timeless and Classics Zero](https://github.com/MCModderAnchor/TACZ)
 - [Data Pack Generators](https://misode.github.io/)
 
-## Configured mods
-
-- [Hourglass](https://www.curseforge.com/minecraft/mc-mods/hourglass)
-
 ## Added mods
 
 - [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified)
@@ -23,6 +19,8 @@
 - [Brewin' And Chewin'](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin)
 - [Chalk](https://www.curseforge.com/minecraft/mc-mods/chalk)
 - [Cloth Config API (Fabric/Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
+- [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core)
+- [Comforts](https://www.curseforge.com/minecraft/mc-mods/comforts)
 - [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks)
 - [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition)
@@ -34,6 +32,7 @@
 - [Create: Enchantment Industry](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry)
 - [Create: New Age](https://www.curseforge.com/minecraft/mc-mods/create-new-age)
 - [Create: Power Grid](https://www.curseforge.com/minecraft/mc-mods/power-grid)
+- [Create: Power Loader](https://www.curseforge.com/minecraft/mc-mods/create-power-loader)
 - [Create: Steam 'n' Rails](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails)
 - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
 - [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios)
@@ -56,6 +55,7 @@
 - [Forgery](https://www.curseforge.com/minecraft/mc-mods/forgery)
 - [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config)
 - [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+- [HT's TreeChop](https://www.curseforge.com/minecraft/mc-mods/treechop)
 - [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted)
 - [Hourglass](https://www.curseforge.com/minecraft/mc-mods/hourglass)
 - [Immersive Aircraft \[Fabric/Forge\]](https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft)
@@ -78,22 +78,19 @@
 - [Resourceful Lib](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib)
 - [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino)
 - [Searchables](https://www.curseforge.com/minecraft/mc-mods/searchables)
+- [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
+- [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core)
+- [Spyglass Improvements: Zoom, Quick Access... \[Fabric/NeoForge\]](https://www.curseforge.com/minecraft/mc-mods/spyglass-improvements)
 - [Supplementaries Squared](https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared)
 - [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries)
+- [Tool's Complement](https://www.curseforge.com/minecraft/mc-mods/tools-complement)
 - [Woodworks](https://www.curseforge.com/minecraft/mc-mods/woodworks)
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
 
-## Planned mods
-
-- [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
-- [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
-
 ## Description
 
 - Minecraft and mods progression tweaked
-- No structures
-- Craftable end portal frames
 
 ## Progression
 

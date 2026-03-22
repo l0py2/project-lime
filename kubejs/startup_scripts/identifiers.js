@@ -20,7 +20,8 @@ global.id = {
 	NA: id => `create_new_age:${id}`,
 	CA: id => `createaddition:${id}`,
 	PG: id => `powergrid:${id}`,
-	DG: id => `createdieselgenerators:${id}`
+	DG: id => `createdieselgenerators:${id}`,
+	TC: id => `tools_complement:${id}`
 };
 
 global.tag = {
@@ -43,5 +44,6 @@ global.tag = {
 	NA: id => `#create_new_age:${id}`,
 	CA: id => `#createaddition:${id}`,
 	PG: id => `#powergrid:${id}`,
-	DG: id => `#createdieselgenerators:${id}`
+	DG: id => `#createdieselgenerators:${id}`,
+	TC: id => `#tools_complement:${id}`
 };

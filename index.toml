@@ -57,6 +57,18 @@ file = "config/chalk-common.toml"
 hash = "b363fb18520a9f6865339ec122faed555ce655db955c8e8108662ed2d662f061"
 
 [[files]]
+file = "config/cofh_core-client.toml"
+hash = "c683eaf3dcb24312ce939ad6580490cde2dc5477349cd87e9b3ae45575f21a6b"
+
+[[files]]
+file = "config/cofh_core-common.toml"
+hash = "e254fd10199336dd0e0c1c3f20a8daa1fdf9ca026b02dd9c0064ae1f058b9393"
+
+[[files]]
+file = "config/comforts-server.toml"
+hash = "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438"
+
+[[files]]
 file = "config/copycats-client.toml"
 hash = "9c4e1c84d2cd936b850b7d69ab97e4b617e464551cc3ce44aeb0aaed4eb6c6c5"
 
@@ -222,7 +234,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/forgery/features.ini"
-hash = "c3cbd8be85d002e0ad4169c116ba88540854d9bcc04882bfe620ff13e35122b1"
+hash = "4ec3f87c0f294e3fa2e6dd3a28475ad2c0d7f3fc42df32fa8d9a6d0c8485e47d"
 
 [[files]]
 file = "config/forgery/fscript.ini"
@@ -270,11 +282,11 @@ hash = "4624fc2e033829004e59a6269ccc409529d653d7cfa902e8cb3dc570daba14a2"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "a6312ba6763c2cb5c3a5c0f1ed2a478d40047bdd71d509e0061d325d26419476"
+hash = "3c73e103d71e917b2709ddd81c367c1975f56d95446ece7f0bf5a2858f24f8f8"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "28cc5f5c3d5ea29f9fe6d10342a120229b4a20f5d82afb6693990bec61b7aa15"
+hash = "e0a59eba97947222d5ae92328724e5efc910bdb336ab53e48b35b61ec1f7e545"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -326,7 +338,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "4d57d8d231525734a53cbc11d9e8841b3c8cad3ad0fc9fb26b30a6c24b5a719d"
+hash = "0c832023be94ea7d140914bd3e441ef6170c986290346d5d0305e257d6fee215"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -365,6 +377,22 @@ file = "config/scguns-common.toml"
 hash = "34c62f87445890056489346df6a599fa67a308ad2ead657a439e5e6a53b860a9"
 
 [[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "67c90bbdfca3c7488d9496df0af4d1be7483634a0c4d179281d1c7c91ef32e7b"
+
+[[files]]
+file = "config/sophisticatedcore-client.toml"
+hash = "3175ac14ac1da55ba706d1f0321c0b5620cd968a381e60323b283778e7b6d9e6"
+
+[[files]]
+file = "config/sophisticatedcore-common.toml"
+hash = "92936a4d0b6da633fa1f49750cc55d7cde372f08d85dec0b3d56d71cafbaf193"
+
+[[files]]
+file = "config/spyglass-improvements/settings.json"
+hash = "2dfe5640c98b51dd7de7395d52851458f154454b4e92e3c612de1641b79bcdac"
+
+[[files]]
 file = "config/stonezone-common.toml"
 hash = "ff0e73991cdec44d2d626de45c43bd5eb17622a85c0738ed6906ed60e0a8a848"
 
@@ -385,6 +413,14 @@ file = "config/suppsquared-common.toml"
 hash = "2c20ac633c33b24a105115888730e73444ea6d11a291318de3cf5fa157f83685"
 
 [[files]]
+file = "config/treechop-client.toml"
+hash = "ae1995c3bac2a03f767a2c8da6af75364f8a0fc8de6bd82334d05191d97bdc79"
+
+[[files]]
+file = "config/treechop-common.toml"
+hash = "020e51de0257db1acf83204e5981142f1dac1f54309b5d8e867e8f3a0c56d8d6"
+
+[[files]]
 file = "config/woodworks-common.toml"
 hash = "cf9d7c1916b5cb88ce6002a331d5bf7a22942b7d35e2f83589bd56c975dd0d71"
 
@@ -398,7 +434,11 @@ hash = "9ec563c50e1304c3573065b7056ebf2f1d8b4db76c18f8ce45ffc9561b9f0103"
 
 [[files]]
 file = "defaultconfigs/hourglass-server.toml"
-hash = "9f19d9ffa8ac3c63a06deabb97bf29f9901f278ac58a94bbc25310dad1510147"
+hash = "c30ae90737963f7fff887b3db395746b8b3ecf91cbeacfb958de9bf2617eee81"
+
+[[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "34fc6fecea11f6e8653055674eaa3ae381deaf234655c3600e0a70bd7fe3dba1"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -474,7 +514,7 @@ hash = "bf7b288208501f7551f3df57b3470b5ef559b1c3a8ad713d343629450f9358e2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/minecraft.js"
-hash = "fb1dcb005378c66c99ca830c9fab4b345ca187ec142ae0fdd89f2c87ba76119b"
+hash = "368092ad171c3d11856733f09d0679c17577d859420136060c152c484a1794c1"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/scorched-guns.js"
@@ -706,15 +746,15 @@ hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "a753d6aa1cebd2f1a3d8161523fb9d6e1c04ee564c57cad7364bbd019bdce6da"
+hash = "f0dae0ac649db13b39206765ea83a761aaf2387d212235999b73dbc4d2855707"
+
+[[files]]
+file = "kubejs/startup_scripts/materials.js"
+hash = "1704ee929b027a880e45840ed337068680965573d196cf2ad55ccc92e822519e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "cace330a47ca36b5562f207bfac6989b2ba1f8c30f6f3745c9d035ecfba1447e"
-
-[[files]]
-file = "kubejs/startup_scripts/wood-types.js"
-hash = "d9c2c2a6b94220eeb770c4af6b732442e9e8315be3c99f23b29745f2883a55b6"
+hash = "2d6a211bb4fdd41d87325718399b4eeec5ed02a174f9300139266a27b6437458"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -772,6 +812,16 @@ hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "20fcd633516ef654e4a1546ab7e1cd4e22bc96a087544ae583f85df9b7a65468"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "58bf97ca61f74ea9a540f6e6090aef631155748c49b83a7a338b34d8dece9109"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
@@ -814,6 +864,11 @@ metafile = true
 [[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "af254a9e26ed280c6078e2d02aa9f511d5b3f0ae43767e6a35a87583014e5e6e"
+metafile = true
+
+[[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "39cb52a90d4f3c40ad7d845e597b91c49526b8307fd52ac56b3fda2ae46160a1"
 metafile = true
 
 [[files]]
@@ -1057,6 +1112,21 @@ hash = "8c1ddc34636bfb9ab2209a4d387900f03682a65ed5fcf8b5027ffdd9ba49880f"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "782433f991090207695716539dbf9ffffca9d8228571510bc4148f2fc22e1da4"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "632d7a6488538f9794319046f3056f5fadb7ffab2e2b43834db5ad13be116fe0"
+metafile = true
+
+[[files]]
+file = "mods/spyglass-improvements.pw.toml"
+hash = "6cb4a76ae4cf333b8de9d40c0570894b63393101bb88d3630540d029af0747bd"
+metafile = true
+
+[[files]]
 file = "mods/stone-zone.pw.toml"
 hash = "d4c650c4cdf2589768c907bdb1883e74da65c6788423c197af41bcec175ec905"
 metafile = true
@@ -1069,6 +1139,16 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "80cc9e9ba6f53fa0a165c8ceb24d295eac471ecbb64f2b7711f1751264d96c1f"
+metafile = true
+
+[[files]]
+file = "mods/tools-complement.pw.toml"
+hash = "7e40039563b86450462026886c96e8c29d977d5c3f1fee05ee676fcba2cc988b"
+metafile = true
+
+[[files]]
+file = "mods/treechop.pw.toml"
+hash = "de3524544e462fc53f0959a59c879a866730436083527ecf37852f4682b93786"
 metafile = true
 
 [[files]]

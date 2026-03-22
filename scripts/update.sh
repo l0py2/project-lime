@@ -39,6 +39,9 @@ then
 	cp -rfT ./config "$CONFIG_DIR"
 	rm -rf "$DEFAULT_SERVER_CONFIG_DIR"
 	cp -rfT ./defaultconfigs "$DEFAULT_SERVER_CONFIG_DIR"
+elif [ "$1" = 'reset-server' ]
+then
+	find "$MINECRAFT_DIR/saves" -mindepth 1 -maxdepth 1 -type d -exec rm -rf "{}/serverconfig" \;
 else
 	printf 'Invalid mode specified\n\n'
 	printf 'pull - to copy files from instance to repository\n'
