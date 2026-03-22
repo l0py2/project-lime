@@ -93,6 +93,18 @@ file = "config/create_new_age-common.toml"
 hash = "2b94526494fc5aee3fb801a0e5827585d39f028b1383bae85cfb7ca18dae00bb"
 
 [[files]]
+file = "config/createaddition-common.toml"
+hash = "1f45a741dc79ba3ad0000884a5677bd76f0235ccb81d99957a181247e416cae6"
+
+[[files]]
+file = "config/createdieselgenerators-client.toml"
+hash = "517f456eab2ca28cfcd471b2fefb23641301a3bbf49fc5c4a9111914166aea93"
+
+[[files]]
+file = "config/createdieselgenerators-common.toml"
+hash = "3c9ccf9ddb67bbb16a6e59ee8bee9531dca9c07dd58bf12f5dde6d482a577dc6"
+
+[[files]]
 file = "config/curios-client.toml"
 hash = "ebc96c813d601e9c61b6929a8490e71fa990dc64918c19e1f9937bb275510abc"
 
@@ -146,7 +158,7 @@ hash = "662ecbc927ea1b7936eddef9fc99e9fa222a31f7394e71e2e4115e3fdeb3b4a7"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "490a67ffeb73f6e4c2f4fb7bf488e5d6b3502797c4296972b6575af8205dcbef"
+hash = "415478845ce407097c9665c64d6eb6bf80bafcb4423092c25f4259c1961ab0d0"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
@@ -241,6 +253,10 @@ file = "config/hourglass-client.toml"
 hash = "23c83d21ba514f9dd1aed6a7d4641c1fe0ed48c5a46ce6f802182cce616626f4"
 
 [[files]]
+file = "config/immersive_aircraft.json"
+hash = "7e934f3c7ff3beaeb73d7242b68467fc62b779827c9cd3a79736fe79c93d4aec"
+
+[[files]]
 file = "config/jade/hide-blocks.json"
 hash = "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b"
 
@@ -282,7 +298,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "4a04297821184acbedf60211b2a10ce98894ffd61d8c78d5352e68f69f4832c0"
+hash = "ec5b1ff9e6e3b8aada3860b294d0c3ef861df78d0f3bc34c3db8552c396074f5"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -310,7 +326,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "2e7940b6afc3e25d8d69ce3108da0d6a012428c5141ce6619dfe1da6c034ad9d"
+hash = "8b6582fad436d508031631c9e01973a4922141bdb19e6f2639e13e45f80a7e29"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -319,6 +335,14 @@ hash = "43a7425a314be7d78c2e31d44ab8f46c5ee824ab10906ab8909923d23646b6ad"
 [[files]]
 file = "config/ponder-client.toml"
 hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
+
+[[files]]
+file = "config/powergrid-client.toml"
+hash = "c096e72721900b8d874e04247dc10c43fde74b80f8a48087c29fac94b3a44b9d"
+
+[[files]]
+file = "config/powergrid-common.toml"
+hash = "7a9f66275cbdf16c82dce7e7194574f90240647533e0fed172bd791b292e9107"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -359,10 +383,6 @@ hash = "960f6ab5f13a3e2e439545c825762d661f24f7a183746c5708fbb78c4aadda77"
 [[files]]
 file = "config/suppsquared-common.toml"
 hash = "2c20ac633c33b24a105115888730e73444ea6d11a291318de3cf5fa157f83685"
-
-[[files]]
-file = "config/v_slab_compat-common.toml"
-hash = "ee3dcbc1ff32050214fe041a293f983820b7fe9b2b4325a794ccb52ad013453a"
 
 [[files]]
 file = "config/woodworks-common.toml"
@@ -409,8 +429,20 @@ file = "kubejs/config/packicon.png"
 hash = "df69087faab6ae64989b8e678a733a1df50b67f68c9719b2d0f580b49db82a71"
 
 [[files]]
+file = "kubejs/data/create_new_age/worldgen/configured_feature/magnetite_block.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
 file = "kubejs/server_scripts/global.js"
 hash = "85408947fe4ee2007da43833b4fb78fcaed8cc4a245c7fc232e9e62444fe4b95"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/convert-charging.js"
+hash = "7b9f94cc1bbd291decd398ddf04d5aa08b872f0c6c5b543868ce61d960e3b548"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/convert-furnace.js"
+hash = "be77d374703ada4f2a33745ea13ac34f70731d7d72122cf7332cbead04a85d6a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
@@ -431,10 +463,6 @@ hash = "c845b75f54eb2a04557b5d2d4771c4bf8de196370b386252ec0d2b14c591da84"
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
 hash = "cb3373166bef1fd63954ffe3f3dbe6fbb670a5ef91c360f0fa9358c2eff8ffc2"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/heating/convert-furnace.js"
-hash = "be77d374703ada4f2a33745ea13ac34f70731d7d72122cf7332cbead04a85d6a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/handcrafted.js"
@@ -669,16 +697,12 @@ file = "kubejs/startup_scripts/colours.js"
 hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
 
 [[files]]
-file = "kubejs/startup_scripts/hide-removed.js"
-hash = "9d489b8996b0eb1953b930ec4c78b8f6035df656c37649775e1ac178458406af"
-
-[[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "67ace69970c2b28fbb9f6f01121f7dd2cd70f968d0b11813dddd64b043aca817"
+hash = "0fef1a1f9a8a9702428b944774906d82a86d1c90ab91d0e89a3038f16a67fca1"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "84ccf2e56977b8676aa6051d6a4df1bf5a63165edaa77465505bdea0e7a888d2"
+hash = "96962b1f0d9bb012608e0a101b390b3ca64f0212e02bd23074351f4b1389b4e4"
 
 [[files]]
 file = "kubejs/startup_scripts/wood-types.js"
@@ -770,6 +794,11 @@ hash = "8d3f40c638fa0085a62a3ac477a3f2ed23e63af62da2cdf502183fa0bddbca7c"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "d708dafda8d474f4d0b0805a5fd2222c6bb21444d336de262016ef4de0ebfcb4"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "200b30b8eeaaf2fa9e8345fcabdd80f6195b5af67926fb1e277931100e7e1eff"
 metafile = true
@@ -787,6 +816,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "8a5f33277995fccd2be6793c4fba1b5d657983be32f0b47e4afab4eac70b8ab8"
 metafile = true
 
 [[files]]
@@ -900,6 +934,16 @@ hash = "fbb371c2bb573d6d84600f10937f535b7f19f7df6e536f25b7b4e46471c32904"
 metafile = true
 
 [[files]]
+file = "mods/immersive-aircraft.pw.toml"
+hash = "82f389d06c0e19d2ffcd75d5d85e0d9f09ec17178b8dd3e5afe9350a271e0443"
+metafile = true
+
+[[files]]
+file = "mods/immersive-machinery.pw.toml"
+hash = "abf30f9ed0ce36e9df7b1e9d57a29a31d1302168c50bdfa1e2f47cf05ff60c95"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
 metafile = true
@@ -962,6 +1006,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8c65958007f81cdf1a57dac999ec7ffdde17cce6154c9a2f75bbb389fd11efbf"
+metafile = true
+
+[[files]]
+file = "mods/power-grid.pw.toml"
+hash = "f04f4da5a3f0fe80638b7e64ec4406815b689772615c2f9535251a11545cc9cb"
 metafile = true
 
 [[files]]

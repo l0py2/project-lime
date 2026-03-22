@@ -16,7 +16,10 @@ global.id = {
 	CC: id => `create_central_kitchen:${id}`,
 	EC: id => `everycomp:${id}`,
 	SZ: id => `stonezone:${id}`,
-	CC: id => `create_connected:${id}`
+	CC: id => `create_connected:${id}`,
+	NA: id => `create_new_age:${id}`,
+	CA: id => `createaddition:${id}`,
+	PG: id => `powergrid:${id}`
 };
 
 global.tag = {
@@ -35,5 +38,8 @@ global.tag = {
 	CC: id => `#create_central_kitchen:${id}`,
 	EC: id => `#everycomp:${id}`,
 	SZ: id => `#stonezone:${id}`,
-	CC: id => `#create_connected:${id}`
+	CC: id => `#create_connected:${id}`,
+	NA: id => `#create_new_age:${id}`,
+	CA: id => `#createaddition:${id}`,
+	PG: id => `#powergrid:${id}`
 };

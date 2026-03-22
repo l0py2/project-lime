@@ -31,10 +31,17 @@
 			ancient = true
 			blossom = true
 
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
 	[types.cake]
 
 		[types.cake.farmersrespite]
 			coffee_cake = true
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
 
 	[types.leaves_type]
 
