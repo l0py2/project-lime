@@ -32,7 +32,7 @@
 			blossom = true
 
 		[types.wood_type.createdieselgenerators]
-			chip_wood = true
+			chip_wood = false
 
 	[types.cake]
 

@@ -158,7 +158,7 @@ hash = "662ecbc927ea1b7936eddef9fc99e9fa222a31f7394e71e2e4115e3fdeb3b4a7"
 
 [[files]]
 file = "config/everycomp-entries.toml"
-hash = "415478845ce407097c9665c64d6eb6bf80bafcb4423092c25f4259c1961ab0d0"
+hash = "68cd2360e3385b62bd87d38209581f4a6b79d41d7c5c57cf18f6b2c613a8aad2"
 
 [[files]]
 file = "config/everycomp-hazardous.toml"
@@ -326,7 +326,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "8b6582fad436d508031631c9e01973a4922141bdb19e6f2639e13e45f80a7e29"
+hash = "4d57d8d231525734a53cbc11d9e8841b3c8cad3ad0fc9fb26b30a6c24b5a719d"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -434,7 +434,7 @@ hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "85408947fe4ee2007da43833b4fb78fcaed8cc4a245c7fc232e9e62444fe4b95"
+hash = "8ece4120faf3066f13343b025c8d4d73198b5d9eb11c6606613fd3474af13390"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/convert-charging.js"
@@ -458,11 +458,15 @@ hash = "84795e431ca2d9268de6d8403f92888565c1465e6e6fb15dff29f151e3a8d4b6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "c845b75f54eb2a04557b5d2d4771c4bf8de196370b386252ec0d2b14c591da84"
+hash = "b9178023b04b2c34ce2e40db535c89e56b6cf2e5efef497e146bab878cf259e2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
 hash = "cb3373166bef1fd63954ffe3f3dbe6fbb670a5ef91c360f0fa9358c2eff8ffc2"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mods/create-power-grid.js"
+hash = "7252c64267a42924a37910fcad929d3297d60324bb8a66cae79e4d2eeaa5d23a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/handcrafted.js"
@@ -515,6 +519,10 @@ hash = "c37c6ec17f0b0d7b0524f64cefee1dc16570befcb9529a1fee5d14c743833425"
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/ash-brick.js"
 hash = "52bd47ac6a524bb91a97b654bb6189ce262ec69fb851bd46cf3cda8d3e49d43c"
+
+[[files]]
+file = "kubejs/server_scripts/tags/blocks/stone/asphalt.js"
+hash = "0c1a742979c28c3a8efab2ab4820ade299506b1378bd12d7de7ad0ac1d5f8ccb"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/asurine.js"
@@ -698,11 +706,11 @@ hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "0fef1a1f9a8a9702428b944774906d82a86d1c90ab91d0e89a3038f16a67fca1"
+hash = "a753d6aa1cebd2f1a3d8161523fb9d6e1c04ee564c57cad7364bbd019bdce6da"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "96962b1f0d9bb012608e0a101b390b3ca64f0212e02bd23074351f4b1389b4e4"
+hash = "cace330a47ca36b5562f207bfac6989b2ba1f8c30f6f3745c9d035ecfba1447e"
 
 [[files]]
 file = "kubejs/startup_scripts/wood-types.js"

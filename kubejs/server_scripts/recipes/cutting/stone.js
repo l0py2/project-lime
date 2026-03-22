@@ -3,6 +3,7 @@ ServerEvents.recipes(event => {
 		'andesite',
 		'asgharian',
 		'ash_brick',
+		'asphalt',
 		'asurine',
 		'basalt',
 		'blackstone',

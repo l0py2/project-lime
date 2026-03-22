@@ -12,5 +12,14 @@ global.recipes = {
 		);
 		
 		return recipes;
+	},
+	CA: {
+		rolling: (event, input, output) => {			
+			event.custom({
+				type: global.id.CA('rolling'),
+				input: input.toJson(),
+				result: output.toJson()
+			});
+		}
 	}
 };
