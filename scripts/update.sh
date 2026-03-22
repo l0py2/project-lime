@@ -46,5 +46,6 @@ else
 	printf 'Invalid mode specified\n\n'
 	printf 'pull - to copy files from instance to repository\n'
 	printf 'push - to copy files from repository to instance\n'
+	printf 'reset-server - to remove server configuration files from all the saves\n'
 	exit 1
 fi
