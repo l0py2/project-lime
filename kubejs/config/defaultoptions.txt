@@ -12,3 +12,4 @@ soundCategory_music:0.1
 soundCategory_record:0.1
 soundCategory_weather:0.1
 soundCategory_ambient:0.1
+resourcePacks:["vanilla","mod_resources","file/cubic-sun-moon-v1.8.5.zip"]

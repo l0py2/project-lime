@@ -338,7 +338,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0c832023be94ea7d140914bd3e441ef6170c986290346d5d0305e257d6fee215"
+hash = "230a4a2916fffaeb522e2d26762de94606af8308c052eaafc94785628ba0d663"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -462,7 +462,7 @@ hash = "9b92c1e6de99ab25e68a5b7adbace70e05116246d78a09bcf29456e5b115d885"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "cd16b1452e7d0664deef63bdfa01012ff668271c51bf74b56f2e20256fa8c796"
+hash = "0851af929496d4b2804a264fbd31ab22c1698a6b6fc060449b94eff581f07824"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -1159,4 +1159,9 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cubic-sun-moon.pw.toml"
+hash = "987abf62fcc4e3dc807df91e549f20e95ff43b74a49c88ddbc395ea85d398b9b"
 metafile = true
