@@ -21,7 +21,8 @@ global.id = {
 	CA: id => `createaddition:${id}`,
 	PG: id => `powergrid:${id}`,
 	DG: id => `createdieselgenerators:${id}`,
-	TC: id => `tools_complement:${id}`
+	TC: id => `tools_complement:${id}`,
+	FQ: id => `ftbquests:${id}`
 };
 
 global.tag = {
@@ -45,5 +46,6 @@ global.tag = {
 	CA: id => `#createaddition:${id}`,
 	PG: id => `#powergrid:${id}`,
 	DG: id => `#createdieselgenerators:${id}`,
-	TC: id => `#tools_complement:${id}`
+	TC: id => `#tools_complement:${id}`,
+	FQ: id => `#ftbquests:${id}`
 };

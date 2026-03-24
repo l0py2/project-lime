@@ -98,7 +98,14 @@ global.removedItems = [
 	global.id.SG('reinforced_air_canister'),
 	global.id.SP('createdieselgenerators/sign_post_chip_wood'),
 	global.id.SS('createdieselgenerators/item_shelf_chip_wood'),
-	global.id.WW('sawmill')
+	global.id.WW('sawmill'),
+	global.id.FQ('book'),
+	global.id.FQ('loot_crate_opener'),
+	global.id.FQ('screen_1'),
+	global.id.FQ('screen_3'),
+	global.id.FQ('screen_5'),
+	global.id.FQ('screen_7'),
+	global.id.FQ('task_screen_configurator')
 ];
 
 for(const type of global.woodTypes.minecraft) {

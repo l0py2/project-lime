@@ -257,6 +257,26 @@ file = "config/forgery/yeet_recipes.ini"
 hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/guns.snbt"
+hash = "0462696aa1e1a3a248887d5b3261279718bd6053edc9925ae3c421ad6d05f7d2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/starting.snbt"
+hash = "68c0c11d82301104170d85040702be1f479d3e36f4368644ab30cbbd8266e428"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "96d89e1348431453e17ab51d7198433cff17f45d0da761c727ebc7e59677d28b"
+
+[[files]]
+file = "config/ftbxmodcompat.snbt"
+hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
+
+[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -310,7 +330,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "ec5b1ff9e6e3b8aada3860b294d0c3ef861df78d0f3bc34c3db8552c396074f5"
+hash = "f96531da3aa1ca3b1c2ee18671d2bc0f389bab70c3da657252ab39767bd749e6"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -338,7 +358,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "3c481bd65e961469d25da29a88da82cbbbbbd925ebee6b01d6649924749d3791"
+hash = "7c09639951864fd4751b4b5a6e802c969b9c7ed0e95e49e48309cb99adba1d22"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -517,6 +537,10 @@ file = "defaultconfigs/ftbquests/client-config.snbt"
 hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
 
 [[files]]
+file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
+hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
+
+[[files]]
 file = "defaultconfigs/hourglass-server.toml"
 hash = "c30ae90737963f7fff887b3db395746b8b3ecf91cbeacfb958de9bf2617eee81"
 
@@ -534,7 +558,7 @@ hash = "d6874e285dab6c5b7e945eb1fe25a7c924c6dc360cb0c381fb7743064a74938c"
 
 [[files]]
 file = "defaultconfigs/openpartiesandclaims-server.toml"
-hash = "40ae89a0dfe774a8730911db508094bb4734812827d2aed710d403c1979595ec"
+hash = "39391be12dbd2dbf6da2dcc25094cf0dcacce3c941f173558ba6af1ca9d5f699"
 
 [[files]]
 file = "defaultconfigs/openpartiesandclaims-wilderness-config.toml"
@@ -850,7 +874,7 @@ hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "f0dae0ac649db13b39206765ea83a761aaf2387d212235999b73dbc4d2855707"
+hash = "1cd4f4e2519eba9518dd91f00ad5e22917b2e0de837846260a3f59b22d2c983c"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
@@ -858,7 +882,7 @@ hash = "1704ee929b027a880e45840ed337068680965573d196cf2ad55ccc92e822519e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "2d6a211bb4fdd41d87325718399b4eeec5ed02a174f9300139266a27b6437458"
+hash = "72c1c852bbad8a1ff3a86d950169f174b2a1c89cc6575b878eb6f613f3964462"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -1076,11 +1100,6 @@ hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
 metafile = true
 
 [[files]]
-file = "mods/ftb-filter-system.pw.toml"
-hash = "306994966b56905bb3468a0a9abb5bbcef853d4b1081526e62143c86fe473932"
-metafile = true
-
-[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
 metafile = true
@@ -1123,6 +1142,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-machinery.pw.toml"
 hash = "abf30f9ed0ce36e9df7b1e9d57a29a31d1302168c50bdfa1e2f47cf05ff60c95"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
 
 [[files]]
