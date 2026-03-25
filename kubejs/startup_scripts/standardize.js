@@ -98,14 +98,7 @@ global.removedItems = [
 	global.id.SG('reinforced_air_canister'),
 	global.id.SP('createdieselgenerators/sign_post_chip_wood'),
 	global.id.SS('createdieselgenerators/item_shelf_chip_wood'),
-	global.id.WW('sawmill'),
-	global.id.FQ('book'),
-	global.id.FQ('loot_crate_opener'),
-	global.id.FQ('screen_1'),
-	global.id.FQ('screen_3'),
-	global.id.FQ('screen_5'),
-	global.id.FQ('screen_7'),
-	global.id.FQ('task_screen_configurator')
+	global.id.WW('sawmill')
 ];
 
 for(const type of global.woodTypes.minecraft) {
@@ -133,41 +126,41 @@ for(const type of global.toolTypes.thermal) {
 	global.removedItems.push(global.id.TC(`${type}_knife`));
 }
 
-global.removedRecipeTypes = [
-	global.id.WW('sawmill'),
-	global.id.SG('lightning_battery'),
-	global.id.SG('powered_macerating'),
-	global.id.SG('powered_mechanical_pressing'),
-	global.id.DG('compression_molding'),
-	global.id.DG('wire_cutting'),
-	global.id.DG('hammering')
-];
-
 global.removedRecipes = [
-	global.id.MC('iron_nugget_from_blasting'),
-	global.id.MC('gold_nugget_from_blasting'),
-	global.id.CC('crafting/dough_1'),
-	global.id.CC('crafting/dough_2'),
-	global.id.CC('crafting/dough_3'),
-	global.id.CR('crafting/appliances/dough'),
-	global.id.DF('food/wheat_dough_from_flour_and_eggs'),
-	global.id.DF('food/wheat_dough_from_flour_and_water'),
-	global.id.FD('wheat_dough_from_egg'),
-	global.id.FD('wheat_dough_from_eggs'),
-	global.id.FD('wheat_dough_from_water'),
-	global.id.CR('smoking/bread'),
-	global.id.CR('campfire_cooking/bread'),
-	global.id.CA('compacting/seed_oil'),
-	global.id.NA('shaped/reinforced_energiser'),
-	global.id.JA('create.material_to_plate.zinc')
+	{ id: global.id.MC('iron_nugget_from_blasting') },
+	{ id: global.id.MC('gold_nugget_from_blasting') },
+	{ id: global.id.CC('crafting/dough_1') },
+	{ id: global.id.CC('crafting/dough_2') },
+	{ id: global.id.CC('crafting/dough_3') },
+	{ id: global.id.CR('crafting/appliances/dough') },
+	{ id: global.id.DF('food/wheat_dough_from_flour_and_eggs') },
+	{ id: global.id.DF('food/wheat_dough_from_flour_and_water') },
+	{ id: global.id.FD('wheat_dough_from_egg') },
+	{ id: global.id.FD('wheat_dough_from_eggs') },
+	{ id: global.id.FD('wheat_dough_from_water') },
+	{ id: global.id.CR('smoking/bread') },
+	{ id: global.id.CR('campfire_cooking/bread') },
+	{ id: global.id.CA('compacting/seed_oil') },
+	{ id: global.id.NA('shaped/reinforced_energiser') },
+	{ id: global.id.JA('create.material_to_plate.zinc') },
+	{ type: global.id.WW('sawmill') },
+	{ type: global.id.SG('lightning_battery') },
+	{ type: global.id.SG('powered_macerating') },
+	{ type: global.id.SG('powered_mechanical_pressing') },
+	{ type: global.id.DG('compression_molding') },
+	{ type: global.id.DG('wire_cutting') },
+	{ type: global.id.DG('hammering') },
+	{ mod: 'ftbquests' },
+	{ mod: 'itemfilters' }
 ];
 
 global.inputReplacements = new Map([
 	[global.id.MC('furnace'), global.id.MC('blast_furnace')],
-	[global.id.FD('rope'), global.id.SP('rope')],
+	[global.id.FD('rope'), global.tag.M('rope')],
 	[global.id.CA('copper_spool'), global.id.PG('copper_coil')],
 	[global.id.SG('lightning_battery'), global.id.PG('battery')],
 	[global.id.CA('capacitor'), global.id.PG('capacitor')],
+	[global.id.CR('dough'), global.tag.M('dough/wheat')]
 ]);
 
 global.outputReplacements = new Map([

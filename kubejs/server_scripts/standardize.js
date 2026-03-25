@@ -1,5 +1,3 @@
-//priority: 100
-
 LootJS.modifiers(event => {
 	if(global.dropReplacements.length == 0 && global.removedItems.length == 0) {
 		return;
@@ -37,12 +35,8 @@ ServerEvents.tags('fluid', event => {
 });
 
 ServerEvents.recipes(event => {
-	for(const type of global.removedRecipeTypes) {
-		event.remove({ type: type });
-	}
-
-	for(const recipe of global.removedRecipes) {
-		event.remove({ id: recipe });
+	for(const filter of global.removedRecipes) {
+		event.remove(filter);
 	}
 
 	for(const [original, replacement] of global.inputReplacements) {
@@ -61,5 +55,15 @@ ServerEvents.recipes(event => {
 		);
 	}
 	
-	event.remove({ output: global.tag.KJ('removed') });
+	event.replaceInput(
+		{ input: global.tag.KJ('removed') },
+		global.tag.KJ('removed'),
+		global.id.MC('air')
+	);
+	
+	event.replaceOutput(
+		{ output: global.tag.KJ('removed') },
+		global.tag.KJ('removed'),
+		global.id.MC('air')
+	);
 });

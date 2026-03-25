@@ -266,7 +266,7 @@ hash = "ae777fedc1906220b7a0c1639f18563076d41afbea39586d4a8affcf3b11ba72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "127bf53694e68c958edaae9bcdd5c140c3b5c5649598b8502373a66d40525fea"
+hash = "70cc198b902d626189a2685cbaa0e9ccaed0d7e1c2e9f653ed3fe5f90e0802c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/starting.snbt"
@@ -973,15 +973,27 @@ file = "kubejs/server_scripts/global.js"
 hash = "8ece4120faf3066f13343b025c8d4d73198b5d9eb11c6606613fd3474af13390"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/convert-charging.js"
-hash = "7b9f94cc1bbd291decd398ddf04d5aa08b872f0c6c5b543868ce61d960e3b548"
+file = "kubejs/server_scripts/recipes/conversions/convert-charging.js"
+hash = "a938467b4f29f9f142bd91e7602fa228e32d9aadc0279968dd9c8e8a7a68d3e9"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/convert-furnace.js"
-hash = "be77d374703ada4f2a33745ea13ac34f70731d7d72122cf7332cbead04a85d6a"
+file = "kubejs/server_scripts/recipes/conversions/convert-furnace.js"
+hash = "56416899ec1812ad8c3eed7a7799db67e3c57b3ba3aa6a1d6cb2c14e7b100c52"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/crafting/wood-complements.js"
+file = "kubejs/server_scripts/recipes/core/ore-farming.js"
+hash = "ad020916b04ac6d889a919a12f9fc14d141720da526e094601f3be169d81a709"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/core/ore-processing.js"
+hash = "3a9e8269e91c8b0ebfbea676e9973555bd0360a7a578a7c94e425eae230d499d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/core/progression.js"
+hash = "0133b25b45bff7e325ef86b9b62fa520d54773f42100f76bc9720b41738bf21b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/core/wood-complements.js"
 hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
@@ -1017,16 +1029,8 @@ file = "kubejs/server_scripts/recipes/mods/scorched-guns.js"
 hash = "5e64327a528a1090d4c211354d96a3f09e131ec875d339e50209f157a339978f"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/ore-processing.js"
-hash = "3a9e8269e91c8b0ebfbea676e9973555bd0360a7a578a7c94e425eae230d499d"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/progression.js"
-hash = "0133b25b45bff7e325ef86b9b62fa520d54773f42100f76bc9720b41738bf21b"
-
-[[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "689c6cdad04ea8163759237fe01d950725c8e7be505ad96d3d94b05f3a5ef01b"
+hash = "ac565fe6b523a6783dba155a9927ca3d9a2207645b1a536e1c395bc8895b35c1"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/copper/copper.js"
@@ -1238,7 +1242,7 @@ hash = "e29ba88edc85ac57891544cdefa4a09be9350f5a5d07ee3d6d5e34d46017a2cf"
 
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
-hash = "190920fbc805dbc3c82102117aee3774c3c1b0fc59acb79fc4c8feccecd5ec91"
+hash = "84586d7068c518ce3425e9daee69d9a544569f26f1ff34d4de899add937445a1"
 
 [[files]]
 file = "kubejs/startup_scripts/colours.js"
@@ -1254,7 +1258,7 @@ hash = "85d163d4065593e9d5126bb476ac9c255dc21517b1b10ea7b80bba31d38699d6"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "6e7db6e4ca1c69a2389ef5bfda0625b2cd9b48ec37b241fe5817e08a26445e53"
+hash = "11321af8b07f9ed0bc77169e43968d03df2d13bb9fc492d12126612b5c7e60fc"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

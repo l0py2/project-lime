@@ -11,21 +11,14 @@ ServerEvents.tags('block', event => {
 	event.add(global.id.CR('simple_mounted_storage'), global.tag.HC('shelves'));
 	
 	// Farmer's Delight
-	[
-		global.id.FD('oak_cabinet'),
-		global.id.FD('spruce_cabinet'),
-		global.id.FD('birch_cabinet'),
-		global.id.FD('jungle_cabinet'),
-		global.id.FD('acacia_cabinet'),
-		global.id.FD('dark_oak_cabinet'),
-		global.id.FD('mangrove_cabinet'),
-		global.id.FD('cherry_cabinet'),
-		global.id.FD('bamboo_cabinet'),
-		global.id.FD('warped_cabinet'),
-		global.id.FD('crimson_cabinet'),
-		global.id.DF('quartz_cabinet'),
-		global.id.DF('basalt_cabinet')
-	].forEach(block => {
-		event.add(global.id.CR('simple_mounted_storage'), block);
-	});
+	for(const wood of global.woodTypes.minecraft) {
+		event.add(global.id.CR('simple_mounted_storage'), global.id.FD(`${wood}_cabinet`));
+	}
+	
+	for(const wood of global.woodTypes.quark) {
+		event.add(global.id.CR('simple_mounted_storage'), global.id.EC(`fd/quark/${wood}_cabinet`));
+	}
+	
+	event.add(global.id.CR('simple_mounted_storage'), global.id.DF('quartz_cabinet'));
+	event.add(global.id.CR('simple_mounted_storage'), global.id.DF('basalt_cabinet'));
 });
