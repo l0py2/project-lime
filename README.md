@@ -6,9 +6,15 @@
 - [Textures from Timeless and Classics Zero](https://github.com/MCModderAnchor/TACZ)
 - [Data Pack Generators](https://misode.github.io/)
 
+## Added shader packs
+
+- [Complementary Shaders - Reimagined](https://www.curseforge.com/minecraft/shaders/complementary-reimagined)
+
 ## Added resource packs
 
+- [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack)
 - [Cubic Sun & Moon](https://www.curseforge.com/minecraft/texture-packs/cubic-sun-moon)
+- [Fast Better Grass](https://www.curseforge.com/minecraft/texture-packs/fast-better-grass)
 
 ## Added mods
 
@@ -24,6 +30,7 @@
 - [Chalk](https://www.curseforge.com/minecraft/mc-mods/chalk)
 - [Cloth Config API (Fabric/Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
 - [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core)
+- [Colorwheel](https://www.curseforge.com/minecraft/mc-mods/colorwheel)
 - [Comforts](https://www.curseforge.com/minecraft/mc-mods/comforts)
 - [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks)
@@ -76,8 +83,10 @@
 - [LootJS: KubeJS Addon](https://www.curseforge.com/minecraft/mc-mods/lootjs)
 - [Miner's Delight +](https://www.curseforge.com/minecraft/mc-mods/miners-delight-plus)
 - [ModernFix](https://www.curseforge.com/minecraft/mc-mods/modernfix)
+- [More Mob Variants](https://www.curseforge.com/minecraft/mc-mods/more-mob-variants)
 - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 - [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix)
+- [Oculus](https://www.curseforge.com/minecraft/mc-mods/oculus)
 - [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)
 - [Open Parties and Claims](https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims)
 - [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer)
@@ -93,6 +102,7 @@
 - [Supplementaries Squared](https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared)
 - [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries)
 - [Tool's Complement](https://www.curseforge.com/minecraft/mc-mods/tools-complement)
+- [Visuality: Reforged](https://www.curseforge.com/minecraft/mc-mods/visuality-reforged)
 - [Woodworks](https://www.curseforge.com/minecraft/mc-mods/woodworks)
 - [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)

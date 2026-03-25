@@ -65,6 +65,10 @@ file = "config/cofh_core-common.toml"
 hash = "e254fd10199336dd0e0c1c3f20a8daa1fdf9ca026b02dd9c0064ae1f058b9393"
 
 [[files]]
+file = "config/colorwheel-client.toml"
+hash = "36b5d2eebd3ec8bcade14f6c0798453e3698677d25b3b6c231001579e8250113"
+
+[[files]]
 file = "config/comforts-server.toml"
 hash = "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438"
 
@@ -138,7 +142,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
 file = "config/emi.css"
@@ -287,6 +291,10 @@ hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 [[files]]
 file = "config/hourglass-client.toml"
 hash = "23c83d21ba514f9dd1aed6a7d4641c1fe0ed48c5a46ce6f802182cce616626f4"
+
+[[files]]
+file = "config/immediatelyfast.json"
+hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
 
 [[files]]
 file = "config/immersive_aircraft.json"
@@ -717,6 +725,10 @@ file = "config/moonlight-common.toml"
 hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
+file = "config/oculus.properties"
+hash = "61d067696339eb2a462f1c1e5243e6478b7dc41d117e3b8ac3fabca5735f6122"
+
+[[files]]
 file = "config/openloader/advanced_options.json"
 hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
@@ -726,7 +738,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9c9b05b9221895533f70dd4c97dbc34992f2d318f0ec408e7f5a0a67b7ebc533"
+hash = "5386b437f11becb53dd9d43aa258bf8e72ee00a0e45e560913d7f052a386c371"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -746,7 +758,7 @@ hash = "7a9f66275cbdf16c82dce7e7194574f90240647533e0fed172bd791b292e9107"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "1fe7f8df3af300cf74253b0c13530d9fa0a488388aa315d42abf47f458f72a07"
+hash = "451ad843ef872ff3e45e0f81968592b38aee296edcc16fe9708e5f1bb5987813"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -811,6 +823,26 @@ hash = "ae1995c3bac2a03f767a2c8da6af75364f8a0fc8de6bd82334d05191d97bdc79"
 [[files]]
 file = "config/treechop-common.toml"
 hash = "020e51de0257db1acf83204e5981142f1dac1f54309b5d8e867e8f3a0c56d8d6"
+
+[[files]]
+file = "config/visuality/config.toml"
+hash = "4127fd1edf4e15159bb8365cb8816c5ae0b6108a02d34aa1d964f4e16b7e3275"
+
+[[files]]
+file = "config/visuality/particle_emitters/block_ambient.json"
+hash = "734a10c828571b65d71d2f27ff2d3350603d097e96c5d0dd5f49319fe21b803b"
+
+[[files]]
+file = "config/visuality/particle_emitters/block_step.json"
+hash = "54d4448f6c45ba1ad311f6c35b55b9b800ad4ae664f075707e05cd798b6eab7b"
+
+[[files]]
+file = "config/visuality/particle_emitters/entity_armor.json"
+hash = "4fea5a33cd09a91423bf58e9404ded2edd4ba3faff2d41543c5366adab92a73a"
+
+[[files]]
+file = "config/visuality/particle_emitters/entity_hit.json"
+hash = "db1fe2d772c0ed136c2d1da0c315bc50ba9760032a60253be6f37ce1d7e38ead"
 
 [[files]]
 file = "config/woodworks-common.toml"
@@ -958,7 +990,7 @@ hash = "9b92c1e6de99ab25e68a5b7adbace70e05116246d78a09bcf29456e5b115d885"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "0851af929496d4b2804a264fbd31ab22c1698a6b6fc060449b94eff581f07824"
+hash = "a7172d3f46081f1878e1206161366879f593c19234d033c90d7a3f79f2ed80b2"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -1321,6 +1353,11 @@ hash = "20fcd633516ef654e4a1546ab7e1cd4e22bc96a087544ae583f85df9b7a65468"
 metafile = true
 
 [[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "b1a21d0ab6969be88d32155276a5efb2019f2dedd910f5708a1afdb9171e151a"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "58bf97ca61f74ea9a540f6e6090aef631155748c49b83a7a338b34d8dece9109"
 metafile = true
@@ -1447,7 +1484,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "a59d11cc5513f8725c71c1c53e6569912fffbe4ba0daa4530640d731a81ddab4"
+hash = "2b7e34feead35203c6637b7c8afb49cb823ff6ddade568b131ca07c35ad02845"
 metafile = true
 
 [[files]]
@@ -1511,6 +1548,11 @@ hash = "fbb371c2bb573d6d84600f10937f535b7f19f7df6e536f25b7b4e46471c32904"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "2621dfb5b3ad17a3adf927cc92a3bc6b0dd982c32f0265f920b29a61b34d182e"
+metafile = true
+
+[[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "82f389d06c0e19d2ffcd75d5d85e0d9f09ec17178b8dd3e5afe9350a271e0443"
 metafile = true
@@ -1571,6 +1613,11 @@ hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
+file = "mods/more-mob-variants.pw.toml"
+hash = "e8dcf2468e5b23c5ed71ce8c6e5d48ae70b9cb3281eab6c35401b0beecfc8a1c"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
@@ -1578,6 +1625,11 @@ metafile = true
 [[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
 metafile = true
 
 [[files]]
@@ -1681,6 +1733,11 @@ hash = "de3524544e462fc53f0959a59c879a866730436083527ecf37852f4682b93786"
 metafile = true
 
 [[files]]
+file = "mods/visuality-reforged.pw.toml"
+hash = "7d26046aea03fcae4f1e5875d818543a5a401e2ae239cdfe3f18307309014290"
+metafile = true
+
+[[files]]
 file = "mods/woodworks.pw.toml"
 hash = "bd3e31f8c53d1e7ed9c1c513d1749c0e28b5c25b5fa07000b69242e9f322a786"
 metafile = true
@@ -1701,6 +1758,21 @@ hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
 metafile = true
 
 [[files]]
+file = "resourcepacks/create-immersive-aircrafts-resource-pack.pw.toml"
+hash = "19141afdc23ddd08b517b48b93c14fc416d5aedd775ee2d03eca9cd79f3d8c62"
+metafile = true
+
+[[files]]
 file = "resourcepacks/cubic-sun-moon.pw.toml"
 hash = "987abf62fcc4e3dc807df91e549f20e95ff43b74a49c88ddbc395ea85d398b9b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fast-better-grass.pw.toml"
+hash = "9ccc01c5b73a73990f2b1f32bfe408e3f1324625182d8ba8d6d7f2bb1100f0bb"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "753adc976b00bdb2f4e060e18700d778d0938c76805c46747acccb139fdc7025"
 metafile = true
