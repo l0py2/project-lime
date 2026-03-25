@@ -338,7 +338,7 @@ hash = "75a37aa9a4c06a7edae27df7fc87957bde8c7334b168f091b481d17006875401"
 
 [[files]]
 file = "config/jaopca/materials/anthralite.toml"
-hash = "1ba1d35d460d9c550b9c107cf1c514b667d14d2de0aa94af53a7e898dea8cacd"
+hash = "9685232d993de2d1780d12421ed7948c4553c263ab6d272e3073a3542d762104"
 
 [[files]]
 file = "config/jaopca/materials/antimony.toml"
@@ -726,7 +726,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f0ca79a88e22829101d32b8e44feee34e1ba47a36e8e93de6582b553bbdc6695"
+hash = "9c9b05b9221895533f70dd4c97dbc34992f2d318f0ec408e7f5a0a67b7ebc533"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -1017,6 +1017,10 @@ file = "kubejs/server_scripts/recipes/mods/scorched-guns.js"
 hash = "5e64327a528a1090d4c211354d96a3f09e131ec875d339e50209f157a339978f"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/ore-processing.js"
+hash = "3a9e8269e91c8b0ebfbea676e9973555bd0360a7a578a7c94e425eae230d499d"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/progression.js"
 hash = "0133b25b45bff7e325ef86b9b62fa520d54773f42100f76bc9720b41738bf21b"
 
@@ -1238,19 +1242,19 @@ hash = "190920fbc805dbc3c82102117aee3774c3c1b0fc59acb79fc4c8feccecd5ec91"
 
 [[files]]
 file = "kubejs/startup_scripts/colours.js"
-hash = "96e2959c3e9704c715cf14f8876be217992a0131213626353bb8548093715a63"
+hash = "642301e7da2ba10564f4ff93a8de08fe0f4c9891d9d9c0859fe144dad83f486c"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "1cd4f4e2519eba9518dd91f00ad5e22917b2e0de837846260a3f59b22d2c983c"
+hash = "14d44a20996bda22bc29c749a12338ffdc5168140b09c82bd1d758106b85e47b"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "1704ee929b027a880e45840ed337068680965573d196cf2ad55ccc92e822519e"
+hash = "85d163d4065593e9d5126bb476ac9c255dc21517b1b10ea7b80bba31d38699d6"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "72c1c852bbad8a1ff3a86d950169f174b2a1c89cc6575b878eb6f613f3964462"
+hash = "6e7db6e4ca1c69a2389ef5bfda0625b2cd9b48ec37b241fe5817e08a26445e53"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

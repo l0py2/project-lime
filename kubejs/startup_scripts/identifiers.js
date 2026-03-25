@@ -1,4 +1,4 @@
-//priority: 99
+//priority: 100
 
 global.id = {
 	MC: id => `minecraft:${id}`,
@@ -22,7 +22,8 @@ global.id = {
 	PG: id => `powergrid:${id}`,
 	DG: id => `createdieselgenerators:${id}`,
 	TC: id => `tools_complement:${id}`,
-	FQ: id => `ftbquests:${id}`
+	FQ: id => `ftbquests:${id}`,
+	JA: id => `jaopca:${id}`
 };
 
 global.tag = {
@@ -47,5 +48,6 @@ global.tag = {
 	PG: id => `#powergrid:${id}`,
 	DG: id => `#createdieselgenerators:${id}`,
 	TC: id => `#tools_complement:${id}`,
-	FQ: id => `#ftbquests:${id}`
+	FQ: id => `#ftbquests:${id}`,
+	JA: id => `#jaopca:${id}`
 };

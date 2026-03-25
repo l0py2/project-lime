@@ -1,4 +1,4 @@
-//priority: 99
+//priority: 98
 
 global.removedItems = [
 	global.id.CA('alternator'),
@@ -158,7 +158,8 @@ global.removedRecipes = [
 	global.id.CR('smoking/bread'),
 	global.id.CR('campfire_cooking/bread'),
 	global.id.CA('compacting/seed_oil'),
-	global.id.NA('shaped/reinforced_energiser')
+	global.id.NA('shaped/reinforced_energiser'),
+	global.id.JA('create.material_to_plate.zinc')
 ];
 
 global.inputReplacements = new Map([

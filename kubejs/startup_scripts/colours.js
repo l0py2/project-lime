@@ -1,4 +1,4 @@
-//priority: 100
+//priority: 99
 
 global.dyeColours = [
 	'white',
