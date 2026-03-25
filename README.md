@@ -67,6 +67,7 @@
 - [Immersive Aircraft \[Fabric/Forge\]](https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft)
 - [Immersive Machinery \[Fabric/Forge\]](https://www.curseforge.com/minecraft/mc-mods/immersive-machinery)
 - [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters)
+- [JAOPCA](https://www.curseforge.com/minecraft/mc-mods/jaopca)
 - [Jade 🔍](https://www.curseforge.com/minecraft/mc-mods/jade)
 - [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei)
 - [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)

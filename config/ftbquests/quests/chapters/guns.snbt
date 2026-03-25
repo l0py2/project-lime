@@ -17,46 +17,39 @@
 	quests: [
 		{
 			id: "301A82C4048D7381"
-			tasks: [{
-				id: "336F9DC7D50F5C47"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "scguns:gun_bench"
-							}
-							{
-								Count: 1b
-								id: "create:mechanical_crafter"
-							}
-						]
+			tasks: [
+				{
+					id: "336F9DC7D50F5C47"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "scguns:gun_bench"
+								}
+								{
+									Count: 1b
+									id: "create:mechanical_crafter"
+								}
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6015E1A519A3EE3C"
+					item: "scguns:antique_blueprint"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			id: "4859BB613ED959FF"
-			optional: true
-			tasks: [{
-				id: "46995CB4C66C7B77"
-				item: "scguns:antique_blueprint"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"301A82C4048D7381"
-				"4859BB613ED959FF"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["301A82C4048D7381"]
 			id: "0EDEB5B0E4638728"
 			tasks: [{
 				id: "7DCCDD92332BF885"
