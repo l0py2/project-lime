@@ -141,7 +141,7 @@
 	"Vertical Planks" = true
 	"Vertical Slabs" = false
 	"Wooden Posts" = true
-	"More Stone Variants" = true
+	"More Stone Variants" = false
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -342,7 +342,7 @@
 	"Ambient Discs" = true
 	"Ancient Tomes" = true
 	"Beacon Redirection" = true
-	"Bottled Cloud" = true
+	"Bottled Cloud" = false
 	"Color Runes" = true
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
@@ -771,13 +771,13 @@
 	"Big Stone Clusters" = true
 	"Blossom Trees" = true
 	"Chorus Vegetation" = true
-	Corundum = true
+	Corundum = false
 	"Fairy Rings" = true
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
 	"Monster Box" = false
 	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
+	"New Stone Types" = false
 	"No More Lava Pockets" = true
 	Permafrost = true
 	"Spiral Spires" = true
@@ -1172,7 +1172,7 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = false
+		"Enable Limestone" = true
 		"Enable Jasper" = true
 		"Enable Shale" = true
 		"Enable Myalite" = true
@@ -1350,9 +1350,9 @@
 	Crabs = true
 	Forgotten = true
 	Foxhound = true
-	Shiba = true
-	Stonelings = true
-	Toretoise = true
+	Shiba = false
+	Stonelings = false
+	Toretoise = false
 	Wraith = true
 
 	[mobs.crabs]

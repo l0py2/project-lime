@@ -2,28 +2,6 @@
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
 
-	[types.stone_type]
-
-		[types.stone_type.create]
-			limestone = true
-			asurine = true
-			crimsite = true
-			ochrum = true
-			veridium = true
-			scoria = true
-			scorchia = true
-
-		[types.stone_type.quark]
-			soul_sandstone = true
-			limestone = true
-			jasper = true
-			shale = true
-			myalite = true
-			permafrost = true
-
-		[types.stone_type.scguns]
-			phosphorite = true
-
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -55,44 +33,6 @@
 
 #Disables specific entries
 [entries]
-
-	[entries.stone_type]
-
-		[entries.stone_type.create]
-			small_brick_wall = true
-			cut_wall = true
-			small_bricks = true
-			cut_brick_slab = true
-			polished_cut_slab = true
-			small_brick_stairs = true
-			cut_bricks = true
-			cut = true
-			polished_cut = true
-			small_brick_slab = true
-			layered = true
-			polished_cut_stairs = true
-			cut_brick_wall = true
-			pillar = true
-			cut_stairs = true
-			cut_brick_stairs = true
-			polished_cut_wall = true
-			cut_slab = true
-
-		[entries.stone_type.handcrafted]
-			corner_trim = true
-			pillar_trim = true
-
-		[entries.stone_type.quark]
-			polished_vertical_slab = true
-			pillar = true
-			vertical_slab = true
-
-	[entries.mud_type]
-
-		[entries.mud_type.quark]
-			carved_bricks = true
-			pillar = true
-			brick_lattice = true
 
 	[entries.wood_type]
 
@@ -139,6 +79,10 @@
 			stripped_post = true
 			ladder = true
 			vertical_slab = true
+
+		[entries.wood_type.boatload]
+			large_boat = true
+			furnace_boat = true
 
 	[entries.leaves_type]
 

@@ -6,8 +6,6 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.KJ('block_types/scoria'), global.id.CR('small_scoria_bricks'));
 	event.add(global.id.KJ('block_types/scoria'), global.id.CR('layered_scoria'));
 	event.add(global.id.KJ('block_types/scoria'), global.id.CR('scoria_pillar'));
-	event.add(global.id.KJ('block_types/scoria'), global.id.SZ('hc/create/scoria_pillar_trim'));
-	event.add(global.id.KJ('block_types/scoria'), global.id.SZ('hc/create/scoria_corner_trim'));
 	
 	event.add(global.id.KJ('slab_types/scoria'), global.id.CR('cut_scoria_slab'));
 	event.add(global.id.KJ('slab_types/scoria'), global.id.CR('polished_cut_scoria_slab'));

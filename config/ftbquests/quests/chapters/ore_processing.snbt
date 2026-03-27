@@ -27,20 +27,16 @@
 				title: "Deepslate Ore"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6EB34D54F67594A6"
-				"1E1CF19608923E7B"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["6EB34D54F67594A6"]
 			icon: "create:millstone"
 			id: "6A27EC18A6B80FC2"
 			tasks: [{
 				id: "510DD7988C9E9C0D"
-				title: "Milling"
+				title: "Milling 1-2"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -55,7 +51,7 @@
 				title: "Crushing"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -67,7 +63,7 @@
 				title: "Washing"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -79,7 +75,7 @@
 				title: "Compacting"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -88,6 +84,7 @@
 				"1E1CF19608923E7B"
 				"6A27EC18A6B80FC2"
 				"756E8AD3C3CD8E94"
+				"689C901324F1BAD1"
 			]
 			dependency_requirement: "one_completed"
 			icon: "minecraft:blast_furnace"
@@ -98,7 +95,19 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E1CF19608923E7B"]
+			icon: "create:millstone"
+			id: "689C901324F1BAD1"
+			tasks: [{
+				id: "6C9D618EED784450"
+				title: "Milling 2-3"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 	title: "Ore Processing"

@@ -6,8 +6,6 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.KJ('block_types/veridium'), global.id.CR('small_veridium_bricks'));
 	event.add(global.id.KJ('block_types/veridium'), global.id.CR('layered_veridium'));
 	event.add(global.id.KJ('block_types/veridium'), global.id.CR('veridium_pillar'));
-	event.add(global.id.KJ('block_types/veridium'), global.id.SZ('hc/create/veridium_pillar_trim'));
-	event.add(global.id.KJ('block_types/veridium'), global.id.SZ('hc/create/veridium_corner_trim'));
 	
 	event.add(global.id.KJ('slab_types/veridium'), global.id.CR('cut_veridium_slab'));
 	event.add(global.id.KJ('slab_types/veridium'), global.id.CR('polished_cut_veridium_slab'));

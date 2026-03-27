@@ -118,9 +118,24 @@
 				id: "5990280845EB66A1"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					tag: {
-						value: "forge:ingots/iron"
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:ingots/iron"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "forge:ingots/zinc"
+								}
+							}
+						]
 					}
 				}
 				type: "item"
@@ -137,6 +152,40 @@
 			}]
 			x: 3.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["545E924EDDABDBF6"]
+			id: "3AE647803D0F7B5C"
+			tasks: [{
+				id: "600A74CFE3FD6252"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			icon: "minecraft:clock"
+			id: "10A74A4BDAFCBCA4"
+			tasks: [{
+				id: "3AF9BE48BE658FCE"
+				title: "Day = 80 m"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10A74A4BDAFCBCA4"]
+			icon: "minecraft:red_bed"
+			id: "25B7929D8E36D277"
+			tasks: [{
+				id: "0397A2A9D9760ADD"
+				title: "Night = 20 m"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "Starting"
