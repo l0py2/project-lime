@@ -173,24 +173,8 @@ file = "config/enchdesc.json"
 hash = "69e1df6089b71c3c2fe2c7cf6760937094fd22434111f527229a9fcea3f90bc5"
 
 [[files]]
-file = "config/everycomp-client.toml"
-hash = "c868e4a51a63df55559537615761232bc26fdecbb5aa940eb328e30e077c4c63"
-
-[[files]]
-file = "config/everycomp-common.toml"
-hash = "662ecbc927ea1b7936eddef9fc99e9fa222a31f7394e71e2e4115e3fdeb3b4a7"
-
-[[files]]
-file = "config/everycomp-entries.toml"
-hash = "fa18c7826f23a04a9945899387a54bbda70f84a8cf777ded190e94016c5e75ac"
-
-[[files]]
-file = "config/everycomp-hazardous.toml"
-hash = "e1c71ed9fd6cc4ce9b1ba9bd3d11f1108b1489502d113dcab65d9dd9342ed800"
-
-[[files]]
 file = "config/exposure-client.toml"
-hash = "7c90d2dcaa3daed34168278cc5d6b4457eb63195547a7fdbb0577352badb7f0e"
+hash = "7b3b5d1a47c1a2b7ff94aac218e5a38850558105ef55d11a8841930b2aa791ba"
 
 [[files]]
 file = "config/exposure-common.toml"
@@ -274,15 +258,23 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/guns.snbt"
-hash = "ae777fedc1906220b7a0c1639f18563076d41afbea39586d4a8affcf3b11ba72"
+hash = "66afa9b2ef8910a4ce7866442c2c79295e52ccb31402a0167b3530dac0d1363e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/locomotion.snbt"
+hash = "3076a82d08bd25cb77a8a5c02fd6024ab08c261bc78ec5039e36c542cdcf2a58"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "f47d25ea092bb1ee1d3ff82a326402a1d290354798641481a2ae17a23a0bd7e5"
+hash = "8dfb10183bf33368b595009d8167d619c4d325cf5540895fa3e9420246af57b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/starting.snbt"
-hash = "e9a74f82d79ebe6fbc15c4d0dbc9c2c11446be3f099977d5c1ef6d142f400e3f"
+hash = "71ceddb94463f30b0ac9e08c60feb04901b6b7674b3fcebb2548ff7320dd0864"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/supply.snbt"
+hash = "e93024e0892317d3e500f9030a486c03fda703223a243f55836f398d98d786f0"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -746,7 +738,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b1569bc58e50550d0d57176c589b384e1d14546056483f6896037df8c5acf564"
+hash = "4111260e179fbb420a3627b2c1dcb08b9bd34eabebfc56b383d6c42ad3d9d705"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -758,7 +750,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "40cc31214d6e0df34bcff3029cfae237f3ba31e7ad31ff3ba383a7ad7d24af82"
+hash = "062dd242d57539de1ee6de4e55b9bb464ac422ab9a02fc259f1046a7be072920"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -786,7 +778,7 @@ hash = "7a9f66275cbdf16c82dce7e7194574f90240647533e0fed172bd791b292e9107"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "6d736b264c20267327718c04c8b52e0c1eede2dc7218859c29c2d2df58dfa9e6"
+hash = "09c5f3156edc94ce8bdc2f7ea3524b00a6c825a3c97d524de7254ad5997031f2"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -1058,11 +1050,11 @@ hash = "84795e431ca2d9268de6d8403f92888565c1465e6e6fb15dff29f151e3a8d4b6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "dfd6d20b65f21289f67cac874f9331ae3c6867bb3cc671211ee5cb512d08cda6"
+hash = "dbb07ac1120c633880625fdb3113825a9f980f3af4641b415975a474789922ab"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/wood.js"
-hash = "cb3373166bef1fd63954ffe3f3dbe6fbb670a5ef91c360f0fa9358c2eff8ffc2"
+hash = "cc17f3ffe6c559e449b281da11581df06b5799725cbaff3e1216e9e66beec835"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/create-power-grid.js"
@@ -1181,6 +1173,10 @@ file = "kubejs/server_scripts/tags/blocks/stone/minecraft/granite.js"
 hash = "1049aad82210660b643c44fea9565f323dc0604febada808dad0b5624bc584b2"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/stone/minecraft/honey.js"
+hash = "27a235fe74105f83804d117b9eeda611ced3d3e79bb5b679d7b261769c0f4971"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/mossy-stone.js"
 hash = "e1469fadc7c9595ae40cf1a30b32fe9facb17c2cf6fe40b3294833e4e286485d"
 
@@ -1273,12 +1269,8 @@ file = "kubejs/server_scripts/tags/blocks/wood/minecraft.js"
 hash = "4257278d557526ab4b813025fe4c5fc96bbef769baa447cae1dadeac013b57a3"
 
 [[files]]
-file = "kubejs/server_scripts/tags/blocks/wood/quark.js"
-hash = "e29ba88edc85ac57891544cdefa4a09be9350f5a5d07ee3d6d5e34d46017a2cf"
-
-[[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
-hash = "84586d7068c518ce3425e9daee69d9a544569f26f1ff34d4de899add937445a1"
+hash = "a8491406081baeb107f3308787c48858fdb976d4170541c46f7322ff38f94887"
 
 [[files]]
 file = "kubejs/startup_scripts/colours.js"
@@ -1286,15 +1278,15 @@ hash = "642301e7da2ba10564f4ff93a8de08fe0f4c9891d9d9c0859fe144dad83f486c"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "bf87c7fc5dc1094369819e04ead8f01fe94699b7b1147fda9def37d8e64c9764"
+hash = "697af0caf7bd53ab4ee4334f665e0f96cb14ae0cc2d6e48f5d82b8e9af4e896b"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "85d163d4065593e9d5126bb476ac9c255dc21517b1b10ea7b80bba31d38699d6"
+hash = "279b3c4dd4f0b2395ffd4127ddb7306e0dd68896e5a306c0551a747e650afdde"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize.js"
-hash = "11321af8b07f9ed0bc77169e43968d03df2d13bb9fc492d12126612b5c7e60fc"
+hash = "dff85f98c34e201e96bb872a639c1a248bcb86b01fd5a8cb44ddb92ee50f2d48"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -1489,11 +1481,6 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "e4c69a3551a4343fc76fb135266aecac0042863693f04d2c58a26c71b6e988d9"
-metafile = true
-
-[[files]]
-file = "mods/every-compat.pw.toml"
-hash = "37025c2896cf52fa7190c9cc305cd730fff6f5688a2569517966c5a4e2a1c036"
 metafile = true
 
 [[files]]

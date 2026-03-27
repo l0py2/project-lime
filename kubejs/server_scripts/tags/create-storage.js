@@ -15,10 +15,6 @@ ServerEvents.tags('block', event => {
 		event.add(global.id.CR('simple_mounted_storage'), global.id.FD(`${wood}_cabinet`));
 	}
 	
-	for(const wood of global.woodTypes.quark) {
-		event.add(global.id.CR('simple_mounted_storage'), global.id.EC(`fd/quark/${wood}_cabinet`));
-	}
-	
 	event.add(global.id.CR('simple_mounted_storage'), global.id.DF('quartz_cabinet'));
 	event.add(global.id.CR('simple_mounted_storage'), global.id.DF('basalt_cabinet'));
 });

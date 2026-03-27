@@ -58,7 +58,6 @@
 - [EMIffect (Status Effects EMI Plugin)](https://www.curseforge.com/minecraft/mc-mods/emiffect-status-effects-emi-plugin)
 - [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium)
 - [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
-- [Every Compat (Wood Good)](https://www.curseforge.com/minecraft/mc-mods/every-compat)
 - [Exposure: Polaroid](https://www.curseforge.com/minecraft/mc-mods/exposure-polaroid)
 - [Exposure](https://www.curseforge.com/minecraft/mc-mods/exposure)
 - [FTB Library (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
@@ -116,8 +115,8 @@
 
 ## Description
 
-- Minecraft and mods progression tweaked
+Minecraft and mods progression tweaked.
 
 ## Progression
 
-The pack does not contain a quest line but custom advancements are planned.
+The pack contains a custom questline to serve as a guide.

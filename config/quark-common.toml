@@ -168,8 +168,8 @@
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
-		"Enable Berry Sack" = true
-		"Enable Glow Berry Sack" = true
+		"Enable Berry Sack" = false
+		"Enable Glow Berry Sack" = false
 		"Enable Blaze Lantern" = true
 		"Enable Bonded Leather" = true
 		"Enable Bonded Rabbit Hide" = true
@@ -766,10 +766,10 @@
 		"Smelt Raw Ore Blocks" = true
 
 [world]
-	"Ancient Wood" = true
-	"Azalea Wood" = true
+	"Ancient Wood" = false
+	"Azalea Wood" = false
 	"Big Stone Clusters" = true
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Chorus Vegetation" = true
 	Corundum = false
 	"Fairy Rings" = true

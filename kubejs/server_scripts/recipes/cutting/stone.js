@@ -41,7 +41,8 @@ ServerEvents.recipes(event => {
 		'stone',
 		'terracotta',
 		'tuff',
-		'veridium'
+		'veridium',
+		'honey'
 	];
 	
 	for(const colour of global.dyeColours) {

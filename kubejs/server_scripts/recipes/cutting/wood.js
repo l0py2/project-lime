@@ -10,10 +10,7 @@ ServerEvents.recipes(event => {
 		'cherry',
 		'crimson',
 		'warped',
-		'bamboo',
-		'ancient',
-		'azalea',
-		'blossom'
+		'bamboo'
 	];
 	
 	event.remove({

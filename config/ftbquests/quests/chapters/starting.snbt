@@ -187,6 +187,36 @@
 			x: 4.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["545E924EDDABDBF6"]
+			id: "1A7E3D20E66609D6"
+			tasks: [
+				{
+					id: "618AD54719E0C251"
+					item: {
+						Count: 1
+						id: "tools_complement:iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E148705C2830BF3"
+					item: {
+						Count: 1
+						id: "tools_complement:iron_excavator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
 	]
 	title: "Starting"
 }

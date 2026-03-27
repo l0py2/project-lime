@@ -68,11 +68,6 @@ global.woodTypes = {
 		'crimson',
 		'warped',
 		'bamboo'
-	],
-	quark: [
-		'azalea',
-		'ancient',
-		'blossom'
 	]
 };
 
@@ -91,7 +86,7 @@ global.toolTypes = {
 		'nickel',
 		'bronze',
 		'electrum',
-		'invara',
+		'invar',
 		'constantan'
 	]
 };

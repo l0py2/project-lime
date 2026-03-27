@@ -98,16 +98,15 @@ global.removedItems = [
 	global.id.SG('reinforced_air_canister'),
 	global.id.SP('createdieselgenerators/sign_post_chip_wood'),
 	global.id.SS('createdieselgenerators/item_shelf_chip_wood'),
-	global.id.WW('sawmill')
+	global.id.WW('sawmill'),
+	global.id.IM('bamboo_bee'),
+	global.id.IM('redstone_sheep'),
+	global.id.IM('redstone_mechanism')
 ];
 
 for(const type of global.woodTypes.minecraft) {
 	global.removedItems.push(global.id.QK(`${type}_chest`));
 	global.removedItems.push(global.id.QK(`${type}_trapped_chest`));
-}
-
-for(const type of global.woodTypes.quark) {
-	global.removedItems.push(global.id.EC(`abnww/quark/trapped_${type}_chest`));
 }
 
 for(const type of global.toolTypes.minecraft) {

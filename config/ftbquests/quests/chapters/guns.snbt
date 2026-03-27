@@ -116,6 +116,51 @@
 			x: 0.0d
 			y: 1.5d
 		}
+		{
+			dependencies: [
+				"0C026CE6E2860756"
+				"14ECCE3BDFF22B2E"
+			]
+			id: "2D86571D1D3BE054"
+			tasks: [{
+				id: "01879D53B943ABF5"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D86571D1D3BE054"]
+			id: "0E83CB861023AEDA"
+			tasks: [{
+				id: "63C24367598BF3AD"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "14ECCE3BDFF22B2E"
+			tasks: [{
+				id: "44330401B673972F"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0C026CE6E2860756"
+			tasks: [{
+				id: "4DD7D8BAFD9979C6"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
 	]
-	title: "Guns"
+	title: "Armament"
 }

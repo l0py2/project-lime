@@ -14,7 +14,6 @@ global.id = {
 	DF: id => `delightful:${id}`,
 	QK: id => `quark:${id}`,
 	CC: id => `create_central_kitchen:${id}`,
-	EC: id => `everycomp:${id}`,
 	CC: id => `create_connected:${id}`,
 	NA: id => `create_new_age:${id}`,
 	CA: id => `createaddition:${id}`,
@@ -22,7 +21,9 @@ global.id = {
 	DG: id => `createdieselgenerators:${id}`,
 	TC: id => `tools_complement:${id}`,
 	FQ: id => `ftbquests:${id}`,
-	JA: id => `jaopca:${id}`
+	JA: id => `jaopca:${id}`,
+	BB: id => `buzzier_bees:${id}`,
+	IM: id => `immersive_machinery:${id}`
 };
 
 global.tag = {
@@ -39,7 +40,6 @@ global.tag = {
 	DF: id => `#delightful:${id}`,
 	QK: id => `#quark:${id}`,
 	CC: id => `#create_central_kitchen:${id}`,
-	EC: id => `#everycomp:${id}`,
 	CC: id => `#create_connected:${id}`,
 	NA: id => `#create_new_age:${id}`,
 	CA: id => `#createaddition:${id}`,
@@ -47,5 +47,7 @@ global.tag = {
 	DG: id => `#createdieselgenerators:${id}`,
 	TC: id => `#tools_complement:${id}`,
 	FQ: id => `#ftbquests:${id}`,
-	JA: id => `#jaopca:${id}`
+	JA: id => `#jaopca:${id}`,
+	BB: id => `#buzzier_bees:${id}`,
+	IM: id => `#immersive_machinery:${id}`
 };
