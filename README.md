@@ -15,6 +15,7 @@
 - [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack)
 - [Cubic Sun & Moon](https://www.curseforge.com/minecraft/texture-packs/cubic-sun-moon)
 - [Fast Better Grass](https://www.curseforge.com/minecraft/texture-packs/fast-better-grass)
+- [Updated Engineering](https://www.curseforge.com/minecraft/texture-packs/updated-engineering)
 
 ## Added mods
 
@@ -112,6 +113,7 @@
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
+- [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
 
 ## Description
 

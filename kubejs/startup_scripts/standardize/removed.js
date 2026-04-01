@@ -101,7 +101,76 @@ global.removedItems = [
 	global.id.WW('sawmill'),
 	global.id.IM('bamboo_bee'),
 	global.id.IM('redstone_sheep'),
-	global.id.IM('redstone_mechanism')
+	global.id.IM('redstone_mechanism'),
+	global.id.IE('mold_plate'),
+	global.id.IE('mold_gear'),
+	global.id.IE('mold_rod'),
+	global.id.IE('mold_bullet_casing'),
+	global.id.IE('mold_wire'),
+	global.id.IE('mold_packing_4'),
+	global.id.IE('mold_packing_9'),
+	global.id.IE('mold_unpacking'),
+	global.id.IE('waterwheel_segment'),
+	global.id.IE('windmill_blade'),
+	global.id.IE('windmill_sail'),
+	global.id.IE('revolver'),
+	global.id.IE('casull'),
+	global.id.IE('armor_piercing'),
+	global.id.IE('buckshot'),
+	global.id.IE('he'),
+	global.id.IE('silver'),
+	global.id.IE('dragons_breath'),
+	global.id.IE('potion'),
+	global.id.IE('flare'),
+	global.id.IE('firework'),
+	global.id.IE('homing'),
+	global.id.IE('wolfpack'),
+	global.id.IE('shader'),
+	global.id.IE('shader_bag_common'),
+	global.id.IE('shader_bag_uncommon'),
+	global.id.IE('shader_bag_rare'),
+	global.id.IE('shader_bag_epic'),
+	global.id.IE('shader_bag_ie_masterwork'),
+	global.id.IE('conveyor_basic'),
+	global.id.IE('conveyor_redstone'),
+	global.id.IE('conveyor_dropper'),
+	global.id.IE('conveyor_vertical'),
+	global.id.IE('conveyor_splitter'),
+	global.id.IE('conveyor_extract'),
+	global.id.IE('windmill'),
+	global.id.IE('watermill'),
+	global.id.IE('empty_casing'),
+	global.id.IE('empty_shell'),
+	global.id.IE('strip_curtain'),
+	global.id.IE('toolupgrade_revolver_bayonet'),
+	global.id.IE('toolupgrade_revolver_magazine'),
+	global.id.IE('toolupgrade_revolver_electro'),
+	global.id.IE('sorter'),
+	global.id.IE('item_batcher'),
+	global.id.IE('fluid_sorter'),
+	global.id.IE('fluid_pump'),
+	global.id.IE('fluid_placer'),
+	global.id.IE('dynamo'),
+	global.id.IE('charging_station'),
+	global.id.IE('fluid_pipe'),
+	global.id.IE('turret_chem'),
+	global.id.IE('turret_gun'),
+	global.id.IE('transformer'),
+	global.id.IE('transformer_hv'),
+	global.id.IE('breaker_switch'),
+	global.id.IE('redstone_breaker'),
+	global.id.IE('current_transformer'),
+	global.id.IE('connector_lv'),
+	global.id.IE('connector_lv_relay'),
+	global.id.IE('connector_mv'),
+	global.id.IE('connector_mv_relay'),
+	global.id.IE('connector_hv'),
+	global.id.IE('connector_hv_relay'),
+	global.id.IE('wirecoil_copper'),
+	global.id.IE('wirecoil_electrum'),
+	global.id.IE('wirecoil_steel'),
+	global.id.IE('wirecoil_copper_ins'),
+	global.id.IE('wirecoil_electrum_ins')
 ];
 
 for(const type of global.woodTypes.minecraft) {
@@ -123,6 +192,10 @@ for(const type of global.toolTypes.thermal) {
 	global.removedItems.push(global.id.TC(`${type}_hammer`));
 	global.removedItems.push(global.id.TC(`${type}_sickle`));
 	global.removedItems.push(global.id.TC(`${type}_knife`));
+	global.removedItems.push(global.id.TC(`${type}_helmet`));
+	global.removedItems.push(global.id.TC(`${type}_chestplate`));
+	global.removedItems.push(global.id.TC(`${type}_leggings`));
+	global.removedItems.push(global.id.TC(`${type}_boots`));
 }
 
 global.removedRecipes = [
@@ -152,34 +225,3 @@ global.removedRecipes = [
 	{ mod: 'ftbquests' },
 	{ mod: 'itemfilters' }
 ];
-
-global.inputReplacements = new Map([
-	[global.id.MC('furnace'), global.id.MC('blast_furnace')],
-	[global.id.FD('rope'), global.tag.M('rope')],
-	[global.id.CA('copper_spool'), global.id.PG('copper_coil')],
-	[global.id.SG('lightning_battery'), global.id.PG('battery')],
-	[global.id.CA('capacitor'), global.id.PG('capacitor')],
-	[global.id.CR('dough'), global.tag.M('dough/wheat')]
-]);
-
-global.outputReplacements = new Map([
-	[global.id.FD('rope'), global.id.SP('rope')],
-	[global.id.CR('dough'), global.id.FD('wheat_dough')],
-	[global.id.CA('tesla_coil'), global.id.NA('reinforced_energiser')]
-]);
-
-global.dropReplacements = new Map([
-	[global.id.MC('furnace'), global.id.MC('blast_furnace')],
-	[global.id.FD('rope'), global.id.SP('rope')]
-]);
-
-for(const type of global.woodTypes.minecraft) {
-	global.dropReplacements.set(
-		global.id.QK(`${type}_chest`),
-		global.id.WW(`${type}_chest`)
-	);
-	global.dropReplacements.set(
-		global.id.QK(`${type}_trapped_chest`),
-		global.id.WW(`trapped_${type}_chest`)
-	);
-}

@@ -20,9 +20,10 @@ ServerEvents.recipes(event => {
 		}
 		
 		if(!(food || exists)) {
-			let newRecipe = smeltingRecipe;
+			let newRecipe = Object.assign(smeltingRecipe);
 			
 			newRecipe.type = global.id.MC('blasting');
+			newRecipe.cookingtime = 100;
 			
 			event.custom(newRecipe);
 		}

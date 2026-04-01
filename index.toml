@@ -18,7 +18,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "c3dbe7cff4beb8d172ebab4f0ccfe879d9bc1afe3ddee95ce319e13354040d86"
+hash = "eb532dc86b6f8f5b7f5f146ffd2d338dc98a1105b1e97980d4c7b57243ec40ce"
 
 [[files]]
 file = "config/amendments-client.toml"
@@ -309,6 +309,14 @@ file = "config/immersive_aircraft.json"
 hash = "7e934f3c7ff3beaeb73d7242b68467fc62b779827c9cd3a79736fe79c93d4aec"
 
 [[files]]
+file = "config/immersiveengineering-client.toml"
+hash = "10e2de8d987432c81724371ff27ccc2a452e88f22880c45777ca0cd35eda6118"
+
+[[files]]
+file = "config/immersiveengineering-common.toml"
+hash = "728dcca3a45c8350e379078da02812cca77acb7e7a2d36011ddf5fe861b29bdb"
+
+[[files]]
 file = "config/jade/hide-blocks.json"
 hash = "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b"
 
@@ -322,11 +330,11 @@ hash = "4624fc2e033829004e59a6269ccc409529d653d7cfa902e8cb3dc570daba14a2"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "3c73e103d71e917b2709ddd81c367c1975f56d95446ece7f0bf5a2858f24f8f8"
+hash = "3f0658222d00751cdb43a80b855fec99ab21c60dec01abd3220562c025fe6fe7"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "e0a59eba97947222d5ae92328724e5efc910bdb336ab53e48b35b61ec1f7e545"
+hash = "bca8722a46737cf5b7de77e605229be09d96dbfeba62ef4381c7d87fe9ab71bf"
 
 [[files]]
 file = "config/jaopca/custom_forms.json"
@@ -451,6 +459,10 @@ hash = "c262d0f78c266182b7a296e71ed9be7015b8e01239f4ee4a508d0fc8075f67f6"
 [[files]]
 file = "config/jaopca/materials/gravitite.toml"
 hash = "1e2af5303c9656f6d10c20caf4a8f9d0b4b935c3c195cb3b47df141cb8afb224"
+
+[[files]]
+file = "config/jaopca/materials/hop_graphite.toml"
+hash = "635bee864faa77845d1693fc811c70d78f287eb734c15e59d5b0a44f2c94a489"
 
 [[files]]
 file = "config/jaopca/materials/invar.toml"
@@ -673,6 +685,18 @@ file = "config/jaopca/modules/dusts.toml"
 hash = "1cc09411baf6883b0568cdb69c48b8d0d993f036837327dfd7215040b1b1bf0e"
 
 [[files]]
+file = "config/jaopca/modules/immersiveengineering.toml"
+hash = "4c82570453bd231a56a8586f310bce14eea1f6c7b153e68f8c31bd7225eeb60f"
+
+[[files]]
+file = "config/jaopca/modules/immersiveengineering_compat.toml"
+hash = "9cc6b1342263354ff37c1937ff2e66c8634fd53aef04aa34d1f96646f5964663"
+
+[[files]]
+file = "config/jaopca/modules/immersiveengineering_non_ingot.toml"
+hash = "4c82570453bd231a56a8586f310bce14eea1f6c7b153e68f8c31bd7225eeb60f"
+
+[[files]]
 file = "config/jaopca/modules/molten.toml"
 hash = "1cc09411baf6883b0568cdb69c48b8d0d993f036837327dfd7215040b1b1bf0e"
 
@@ -718,7 +742,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "f96531da3aa1ca3b1c2ee18671d2bc0f389bab70c3da657252ab39767bd749e6"
+hash = "d37f084723a25936fd05abf7401bc2aa7bf0ae03d436972d39eb2d88beeb0f07"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -738,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4111260e179fbb420a3627b2c1dcb08b9bd34eabebfc56b383d6c42ad3d9d705"
+hash = "ac91d6b5de30cb274c82abbe9766409f53ab0b60d3aacb2f95f7ca8fecc3bf98"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -750,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "062dd242d57539de1ee6de4e55b9bb464ac422ab9a02fc259f1046a7be072920"
+hash = "6198bd99cfeac238cc078ad726dd8409635750858ac27808974c2539a00cfb5e"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1022,7 +1046,7 @@ hash = "a938467b4f29f9f142bd91e7602fa228e32d9aadc0279968dd9c8e8a7a68d3e9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/conversions/convert-furnace.js"
-hash = "56416899ec1812ad8c3eed7a7799db67e3c57b3ba3aa6a1d6cb2c14e7b100c52"
+hash = "98b86ceccceaa767ae6944a86e13b9c0f422c55736c775ed13c0040f84a0431c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/core/ore-farming.js"
@@ -1278,15 +1302,23 @@ hash = "642301e7da2ba10564f4ff93a8de08fe0f4c9891d9d9c0859fe144dad83f486c"
 
 [[files]]
 file = "kubejs/startup_scripts/identifiers.js"
-hash = "697af0caf7bd53ab4ee4334f665e0f96cb14ae0cc2d6e48f5d82b8e9af4e896b"
+hash = "63818f9a96dc684fdcf7ccc09c670a3db4871537732196fd74d1030a0d987bb1"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
 hash = "279b3c4dd4f0b2395ffd4127ddb7306e0dd68896e5a306c0551a747e650afdde"
 
 [[files]]
-file = "kubejs/startup_scripts/standardize.js"
-hash = "dff85f98c34e201e96bb872a639c1a248bcb86b01fd5a8cb44ddb92ee50f2d48"
+file = "kubejs/startup_scripts/standardize/hide-removed.js"
+hash = "b29cea15e9ccfe4f9e27b9d26d60faa8f00e8b880ab3d726f6fcc667af55fb34"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/removed.js"
+hash = "cecb01835d7403affb1b9e4be7bca8d8b0ce1f927916201bd67634ff2bc28c66"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/replacement.js"
+hash = "787070f1e05908e3f2448f9467af501c311ed67865bc89b5e4ef96ce219deaa7"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -1574,6 +1606,11 @@ hash = "82f389d06c0e19d2ffcd75d5d85e0d9f09ec17178b8dd3e5afe9350a271e0443"
 metafile = true
 
 [[files]]
+file = "mods/immersive-engineering.pw.toml"
+hash = "6439c6f409308c4a89a12708b54cef41aa5382dc78e6f352b3e8005e96a21a8e"
+metafile = true
+
+[[files]]
 file = "mods/immersive-machinery.pw.toml"
 hash = "abf30f9ed0ce36e9df7b1e9d57a29a31d1302168c50bdfa1e2f47cf05ff60c95"
 metafile = true
@@ -1786,6 +1823,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/fast-better-grass.pw.toml"
 hash = "9ccc01c5b73a73990f2b1f32bfe408e3f1324625182d8ba8d6d7f2bb1100f0bb"
+metafile = true
+
+[[files]]
+file = "resourcepacks/updated-engineering.pw.toml"
+hash = "090341f6bbf3ef32c690a0a801b294613955e8d1be7230eba217d507fd416cf9"
 metafile = true
 
 [[files]]

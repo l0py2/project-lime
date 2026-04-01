@@ -23,7 +23,8 @@ global.id = {
 	FQ: id => `ftbquests:${id}`,
 	JA: id => `jaopca:${id}`,
 	BB: id => `buzzier_bees:${id}`,
-	IM: id => `immersive_machinery:${id}`
+	IM: id => `immersive_machinery:${id}`,
+	IE: id => `immersiveengineering:${id}`
 };
 
 global.tag = {
@@ -49,5 +50,6 @@ global.tag = {
 	FQ: id => `#ftbquests:${id}`,
 	JA: id => `#jaopca:${id}`,
 	BB: id => `#buzzier_bees:${id}`,
-	IM: id => `#immersive_machinery:${id}`
+	IM: id => `#immersive_machinery:${id}`,
+	IE: id => `#immersiveengineering:${id}`
 };

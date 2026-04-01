@@ -60,6 +60,9 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "delightful": {
     "crop_progress": true,
     "pie_icons": true,
