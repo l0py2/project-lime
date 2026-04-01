@@ -62,4 +62,32 @@ ServerEvents.recipes(event => {
 			event.stonecutting(stair, stairTag);
 		}
 	}
+	
+	for(const blockType of blockTypes) {
+		let slabTag = global.tag.KJ(`slab_types/${blockType}`);
+		
+		for(const slab of Ingredient.of(slabTag).itemIds) {
+			let originalBlock = global.id.getOriginalBlock(slab, 'slab');
+			
+			if(originalBlock != 'minecraft:air') {
+				event.shapeless(
+					originalBlock,
+					[Item.of(slab, 2)]
+				);
+			}
+		}
+		
+		let stairTag = global.tag.KJ(`stair_types/${blockType}`);
+		
+		for(const stair of Ingredient.of(stairTag).itemIds) {
+			let originalBlock = global.id.getOriginalBlock(stair, 'stairs');
+			
+			if(originalBlock != 'minecraft:air') {
+				event.shapeless(
+					Item.of(originalBlock, 2),
+					[Item.of(stair, 2)]
+				);
+			}
+		}
+	}
 });

@@ -23,3 +23,15 @@ global.recipes = {
 		}
 	}
 };
+
+global.id.getOriginalBlock = (blockVariant, sufix) => {
+	let rawBlockId = blockVariant.replace('_' + sufix, '');
+		
+	let blockId = Item.of(rawBlockId).id;
+		
+	if(blockId != 'minecraft:air') {
+		return blockId;
+	}
+		
+	return Item.of(rawBlockId + 's').id;
+}

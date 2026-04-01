@@ -5,6 +5,7 @@ global.removedItems = global.removedItems.concat([
 ]);
 
 global.removedRecipes = global.removedRecipes.concat([
+	{ id: global.id.CR('crafting/appliances/dough') },
 	{ id: global.id.CR('smoking/bread') },
 	{ id: global.id.CR('campfire_cooking/bread') }
 ]);

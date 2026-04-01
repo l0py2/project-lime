@@ -154,7 +154,7 @@ hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
 file = "config/emi.css"
-hash = "ed5c1b56e6b08b3dd74f7b070928e80a44cad0dc9fdca96427440cdacd5653bd"
+hash = "7f44dbc5c8bc7d4e4e70ec8b2b7a9e8c681fbb6c3a558e44fcb189db93c0dc11"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -762,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "044ae30af8322d3ccddc463af646c98b2b73b906610c66a0d11cee32ebfd1810"
+hash = "f3ca3505d11ac64def3d717bf3fa6622de3a6a2ada9bfbce83148af295ef0897"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -774,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "839b8b056d5232f1f256098bfa20ecbcfa51f4d6a9f680eeebce78dab4e3dc8d"
+hash = "49412f56356bc0591a6c2049418d34b093e6fa4b30ad52b724955a8eb9ed69c5"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1038,7 +1038,7 @@ hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "8ece4120faf3066f13343b025c8d4d73198b5d9eb11c6606613fd3474af13390"
+hash = "3785389fc76de11600037eba53c0cee5ce63f3b994c46db70a7a8fed9bcdc312"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/conversions/convert-charging.js"
@@ -1066,7 +1066,7 @@ hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/copper.js"
-hash = "4251d3c7c16e2914ad0d98d794b1ae00f42b2dbc3f10d19288b6b83ddd8a4cbe"
+hash = "f076ebb1791066bfcd61bb4f22e917ca966d085092187bd21af6fd916952cb2f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cutting/glass.js"
@@ -1310,11 +1310,15 @@ hash = "5037399813b10ef2130d8ea108d21c3700ee63d57b18cc24f483cbfde8cfa9bc"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/global.js"
-hash = "684d37782ae8d2e3884739f369a8419a2b1d2140c249188547d6dafa39495f49"
+hash = "8ac9b2882ca5d3c946b51f4aa21399eca6b69c28391672123cba52f7cec587b7"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/hide-removed.js"
 hash = "65f0773ad5431f53112003fa662eed9040bf8d0618789dec5dfd78d84a954474"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/create-central-kitchen.js"
+hash = "1dd0a50541ca56a4fe2b7e8cc8dff2e174e387fe8e0674daa1081f7dfcec022a"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create-connected.js"
@@ -1334,7 +1338,11 @@ hash = "93692506f520a55d6061335e9753e0742d177f0e8cbb11fdcabc8f5517d37a69"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create.js"
-hash = "0983c5687cc5a8afad9a35d60e8b0a8ceae059f69b69a761e0ae4a28e06fa726"
+hash = "629dbc49bc80aab7fa65ce3b5744e8109db884c80fceb960dc10b8084e860bab"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/delightful.js"
+hash = "52af3dbbe03ee25b3e91087f6e54406e5f9cf29427c800d0ad10d823c1d6d4a1"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/farmers-delight.js"
@@ -1343,6 +1351,10 @@ hash = "535987f4c1318263fb2d647b7f19494e8f7c5e5a718ab60ca3b34834e6199b0c"
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-engineering.js"
 hash = "93b42de01117129554f69ab41d55fd23adbc84378da45afb04db24ba344bd5a4"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/immersive-machinery.js"
+hash = "3df33edeb9e7d2362458a167384f8e1501bbad347e47f6dbb98e7c9ef15cdfa1"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/minecraft.js"
@@ -1359,6 +1371,10 @@ hash = "0f8405f555d32700b134b214e8d8bb28e18b2190b66887ae4875f2ba06d5f20f"
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/tools-complement.js"
 hash = "7f895dcc49ee92b509d0896fab438d5682a3b6017979eb86b1264c06234d7280"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/woodworks.js"
+hash = "bf15af504461b699e422fe7e9e7c7b46c736fc6f55e809ed0d737dfaf9c0724f"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
