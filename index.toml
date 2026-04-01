@@ -154,7 +154,7 @@ hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
 file = "config/emi.css"
-hash = "7f44dbc5c8bc7d4e4e70ec8b2b7a9e8c681fbb6c3a558e44fcb189db93c0dc11"
+hash = "ed5c1b56e6b08b3dd74f7b070928e80a44cad0dc9fdca96427440cdacd5653bd"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -462,7 +462,7 @@ hash = "1e2af5303c9656f6d10c20caf4a8f9d0b4b935c3c195cb3b47df141cb8afb224"
 
 [[files]]
 file = "config/jaopca/materials/hop_graphite.toml"
-hash = "635bee864faa77845d1693fc811c70d78f287eb734c15e59d5b0a44f2c94a489"
+hash = "ad6ff7c3fc2a8148af50b19299c38472b88545107f576867acfe88f96863f2dd"
 
 [[files]]
 file = "config/jaopca/materials/invar.toml"
@@ -762,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ac91d6b5de30cb274c82abbe9766409f53ab0b60d3aacb2f95f7ca8fecc3bf98"
+hash = "044ae30af8322d3ccddc463af646c98b2b73b906610c66a0d11cee32ebfd1810"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -774,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "6198bd99cfeac238cc078ad726dd8409635750858ac27808974c2539a00cfb5e"
+hash = "839b8b056d5232f1f256098bfa20ecbcfa51f4d6a9f680eeebce78dab4e3dc8d"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1098,7 +1098,7 @@ hash = "5e64327a528a1090d4c211354d96a3f09e131ec875d339e50209f157a339978f"
 
 [[files]]
 file = "kubejs/server_scripts/standardize.js"
-hash = "ac565fe6b523a6783dba155a9927ca3d9a2207645b1a536e1c395bc8895b35c1"
+hash = "378e51016f344a2424d28f7bfbc27db25073b6cf49ff39cc89240aa6f72a8015"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/copper/copper.js"
@@ -1297,28 +1297,68 @@ file = "kubejs/server_scripts/tags/create-storage.js"
 hash = "a8491406081baeb107f3308787c48858fdb976d4170541c46f7322ff38f94887"
 
 [[files]]
-file = "kubejs/startup_scripts/colours.js"
+file = "kubejs/startup_scripts/global/colours.js"
 hash = "642301e7da2ba10564f4ff93a8de08fe0f4c9891d9d9c0859fe144dad83f486c"
 
 [[files]]
-file = "kubejs/startup_scripts/identifiers.js"
-hash = "63818f9a96dc684fdcf7ccc09c670a3db4871537732196fd74d1030a0d987bb1"
+file = "kubejs/startup_scripts/global/identifiers.js"
+hash = "7947263944c26f335d1a634f9106ebe644e389511e04e70066ec8d136dc478b9"
 
 [[files]]
-file = "kubejs/startup_scripts/materials.js"
-hash = "279b3c4dd4f0b2395ffd4127ddb7306e0dd68896e5a306c0551a747e650afdde"
+file = "kubejs/startup_scripts/global/materials.js"
+hash = "5037399813b10ef2130d8ea108d21c3700ee63d57b18cc24f483cbfde8cfa9bc"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/global.js"
+hash = "684d37782ae8d2e3884739f369a8419a2b1d2140c249188547d6dafa39495f49"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/hide-removed.js"
-hash = "b29cea15e9ccfe4f9e27b9d26d60faa8f00e8b880ab3d726f6fcc667af55fb34"
+hash = "65f0773ad5431f53112003fa662eed9040bf8d0618789dec5dfd78d84a954474"
 
 [[files]]
-file = "kubejs/startup_scripts/standardize/removed.js"
-hash = "cecb01835d7403affb1b9e4be7bca8d8b0ce1f927916201bd67634ff2bc28c66"
+file = "kubejs/startup_scripts/standardize/mods/create-connected.js"
+hash = "b8272b7a0f1ed599806865eafa44cf140a2f69950b0de6989e653f9256b3b183"
 
 [[files]]
-file = "kubejs/startup_scripts/standardize/replacement.js"
-hash = "787070f1e05908e3f2448f9467af501c311ed67865bc89b5e4ef96ce219deaa7"
+file = "kubejs/startup_scripts/standardize/mods/create-craft-additions.js"
+hash = "598019d6086ef459c879b53468952757890e607d91b8f423bf8ef83edc37dd4d"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/create-diesel-generators.js"
+hash = "8f066a56a961572f178d029fe97f032f46d0b145132a21b38910d2f35151ab5d"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/create-new-age.js"
+hash = "93692506f520a55d6061335e9753e0742d177f0e8cbb11fdcabc8f5517d37a69"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/create.js"
+hash = "0983c5687cc5a8afad9a35d60e8b0a8ceae059f69b69a761e0ae4a28e06fa726"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/farmers-delight.js"
+hash = "535987f4c1318263fb2d647b7f19494e8f7c5e5a718ab60ca3b34834e6199b0c"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/immersive-engineering.js"
+hash = "93b42de01117129554f69ab41d55fd23adbc84378da45afb04db24ba344bd5a4"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/minecraft.js"
+hash = "e1a98d351940f425e6e82399710a62f856408e6c3b9945903dcdb930538aa332"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/quark.js"
+hash = "25b3e7309d078226a7b349056704aac1f9318f2be252fb370484c38cb26a1b72"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/scorched-guns.js"
+hash = "0f8405f555d32700b134b214e8d8bb28e18b2190b66887ae4875f2ba06d5f20f"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/tools-complement.js"
+hash = "7f895dcc49ee92b509d0896fab438d5682a3b6017979eb86b1264c06234d7280"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"

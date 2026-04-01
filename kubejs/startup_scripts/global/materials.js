@@ -70,23 +70,3 @@ global.woodTypes = {
 		'bamboo'
 	]
 };
-
-global.toolTypes = {
-	minecraft: [
-		'copper',
-		'iron',
-		'gold',
-		'diamond',
-		'netherite'
-	],
-	thermal: [
-		'tin',
-		'lead',
-		'silver',
-		'nickel',
-		'bronze',
-		'electrum',
-		'invar',
-		'constantan'
-	]
-};
