@@ -762,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ba396e9ec17f0e586925e2054f160c86d751bc0a4c7daf29e7feee52087cd0c5"
+hash = "e5148917371cd83d6a8602bfeb02910fcdec7bd084d19090c73e790e96870e66"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -774,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "2d24ed97a9efd177c77b80cd8d3fb9a20b9f47754c6af829bf60913b950db5e3"
+hash = "7b230a196ba4e1f9844b3e2fc211917678503d78c19b3796d41f892fe22408a9"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1034,6 +1034,198 @@ hash = "df69087faab6ae64989b8e678a733a1df50b67f68c9719b2d0f580b49db82a71"
 
 [[files]]
 file = "kubejs/data/create_new_age/worldgen/configured_feature/magnetite_block.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/recipes/arc_recycling_list.json"
+hash = "5f864dab40305ab337c030511972ec40f7c850c91d4f21c24f34c3c3e7ff5b3e"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/arcfurnace.nbt"
+hash = "7e9d11fcf7f998295bf82050eb29d0595a6b4f7fb83cbd40a668eafa1249fb3f"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/assembler.nbt"
+hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/auto_workbench.nbt"
+hash = "f1bbf7210f1878e536bfdf0dfc0a32b1a938cae42846f8ddb49e2da3f503ee8f"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/bottling_machine.nbt"
+hash = "c7e5a6f74a3103bf74306e238d86a79b004be5a60524e3d4d1e9d732daf586f3"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/crusher.nbt"
+hash = "9cd4be938fc51211d309f161a52521b9a4eaaf6162e45e37c3e4c721e02117c0"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/diesel_generator.nbt"
+hash = "8a669d0663cd558ebb90f5802c7205c0acfefe1f042b678f3052d72c66db1c34"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/fermenter.nbt"
+hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/lightning_rod.nbt"
+hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/metal_press.nbt"
+hash = "1113cf310fe1adc1aa98ff79a66d437fa3aedb13ee4078e4dc2da4121ac20822"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/mixer.nbt"
+hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/refinery.nbt"
+hash = "9cd4be938fc51211d309f161a52521b9a4eaaf6162e45e37c3e4c721e02117c0"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/sawmill.nbt"
+hash = "9cd4be938fc51211d309f161a52521b9a4eaaf6162e45e37c3e4c721e02117c0"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/sheetmetal_tank.nbt"
+hash = "0481cee7564b7a54f03f44342b4de37b37d973107e98fa05239cd0b4ca0e6e24"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/silo.nbt"
+hash = "f455a2bf6581ecce33f03e35ac7a7d5479a2eedec5242790a40d57eba6425604"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/multiblocks/squeezer.nbt"
+hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/desert_electrician.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/desert_engineer.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/desert_gunsmith.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/desert_machinist.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/desert_outfitter.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/plains_electrician.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/plains_engineer.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/plains_gunsmith.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/plains_machinist.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/plains_outfitter.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_electrician.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_engineer.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_gunsmith.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_machinist.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_outfitter.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_electrician.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_engineer.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_gunsmith.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_machinist.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_outfitter.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_electrician.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_engineer.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_gunsmith.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_machinist.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_outfitter.nbt"
+hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/worldgen/configured_feature/bauxite.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/worldgen/configured_feature/deep_nickel.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/worldgen/configured_feature/lead.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/worldgen/configured_feature/mineral_veins.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/worldgen/configured_feature/nickel.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/worldgen/configured_feature/silver.json"
+hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/worldgen/configured_feature/uranium.json"
 hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
