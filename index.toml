@@ -1038,7 +1038,7 @@ hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
 file = "kubejs/server_scripts/global.js"
-hash = "6d216c9ef9fc898e22d703cbaf8f53cba7652b270dc84d299b7d038baff3fed7"
+hash = "6deb5117e10cd24637687448e3c06e8d523dbd81ff3ae8e31f7732eddc0731bc"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/conversions/convert-charging.js"
@@ -1097,8 +1097,16 @@ file = "kubejs/server_scripts/recipes/mods/scorched-guns.js"
 hash = "5e64327a528a1090d4c211354d96a3f09e131ec875d339e50209f157a339978f"
 
 [[files]]
-file = "kubejs/server_scripts/standardize.js"
-hash = "378e51016f344a2424d28f7bfbc27db25073b6cf49ff39cc89240aa6f72a8015"
+file = "kubejs/server_scripts/standardize/loot.js"
+hash = "6837259099ae1d2f30fa5be74d717a15671c573e0ad374ec3cafc0c23cc2e27c"
+
+[[files]]
+file = "kubejs/server_scripts/standardize/recipes.js"
+hash = "fe0941e66cf67d2954331e254cd0642f51f376ddf8f325e3024300047606944d"
+
+[[files]]
+file = "kubejs/server_scripts/standardize/tags.js"
+hash = "14c4a8cb205a4ee93a69cf2cf5c801e12f2d922a761bc6e379314d947cb99fc6"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/copper/copper.js"
@@ -1326,7 +1334,7 @@ hash = "535987f4c1318263fb2d647b7f19494e8f7c5e5a718ab60ca3b34834e6199b0c"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-engineering.js"
-hash = "93b42de01117129554f69ab41d55fd23adbc84378da45afb04db24ba344bd5a4"
+hash = "9524113070b4fa00987e3123adb09543d74a79cc73c00fb6d78cecbf574e47a3"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-machinery.js"

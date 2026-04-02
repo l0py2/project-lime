@@ -50,13 +50,19 @@ global.id.getOriginalBlock = (blockVariant, sufix) => {
 }
 
 global.recipes = {
-	getAll: (event, filter) => {
+	getAll: (event, filter, returnIds) => {
 		const recipes = [];
 		
 		event.forEachRecipe(
 			filter,
 			recipe => {
-				recipes.push(JSON.parse(recipe.json.toString()));
+				let recipeJson = JSON.parse(recipe.json.toString());
+				
+				if(returnIds) {
+					recipeJson.id = recipe.getId();
+				}
+				
+				recipes.push(recipeJson);
 			}
 		);
 		
