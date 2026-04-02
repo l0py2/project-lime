@@ -11,8 +11,6 @@ ServerEvents.tags('item', event => {
 		event.add(global.id.KJ(`block_types/${stoneType}`), global.id.QK(`${stoneType}_bricks`));
 		event.add(global.id.KJ(`block_types/${stoneType}`), global.id.QK(`chiseled_${stoneType}_bricks`));
 		event.add(global.id.KJ(`block_types/${stoneType}`), global.id.QK(`${stoneType}_pillar`));
-		event.add(global.id.KJ(`block_types/${stoneType}`), global.id.HC(`${stoneType}_pillar_trim`));
-		event.add(global.id.KJ(`block_types/${stoneType}`), global.id.HC(`${stoneType}_corner_trim`));
 
 		event.add(global.id.KJ(`slab_types/${stoneType}`), global.id.MC(`${stoneType}_slab`));
 		event.add(global.id.KJ(`slab_types/${stoneType}`), global.id.QK(`${stoneType}_bricks_slab`));

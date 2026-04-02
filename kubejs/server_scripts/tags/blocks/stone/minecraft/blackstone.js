@@ -6,8 +6,6 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.KJ('block_types/blackstone'), global.id.MC('cracked_polished_blackstone_bricks'));
 	event.add(global.id.KJ('block_types/blackstone'), global.id.SP('blackstone_tile'));
 	event.add(global.id.KJ('block_types/blackstone'), global.id.QK('blackstone_bricks'));
-	event.add(global.id.KJ('block_types/blackstone'), global.id.HC('blackstone_pillar_trim'));
-	event.add(global.id.KJ('block_types/blackstone'), global.id.HC('blackstone_corner_trim'));
 
 	event.add(global.id.KJ('slab_types/blackstone'), global.id.MC('blackstone_slab'));
 	event.add(global.id.KJ('slab_types/blackstone'), global.id.MC('polished_blackstone_slab'));

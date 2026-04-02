@@ -762,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3b9e09375ab64cf7cf5afa3b1d825bff5a68b2446a660ce237406a75575c730f"
+hash = "2f58086daa71e25f236f82d456a9f4624405b3a36763743c3af8435486161105"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -774,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "adf96048100aeb71ba15925eadb5ffdc262a959578855ca07bba533b5b9fb1c0"
+hash = "68bfcb6b4158be94ad36994332c5d25bb13c1c0019a386c0a768d6ecb3b5b311"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1133,12 +1133,16 @@ file = "kubejs/server_scripts/tags/blocks/stone/create/create-stones.js"
 hash = "d7796638e1607126eaeccdf7a5afce678b209b209aa50fd7b692781db643386a"
 
 [[files]]
+file = "kubejs/server_scripts/tags/blocks/stone/handcrafted/trims.js"
+hash = "a559a7c80b1699e366ceba7e6de17f42940862805c9533ee6b1a788cd2002a94"
+
+[[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/basalt.js"
 hash = "f4b7fa745fc805b2d7d79a28f90978953ce582e32b868329acfeba515c97ec98"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/blackstone.js"
-hash = "5d4ea4c60a1e0fc956649e3ae22cd9dc73bfd4ebd4384949fd7b53d3b3bf98aa"
+hash = "d363ab34834a226235aac08b0929cb2ad217b667bb419496957294dc09f20930"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/brick.js"
@@ -1146,7 +1150,7 @@ hash = "373ab11260008408a6aceef6c43f97977552b7c4916f46a45906ed4f095f164a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/calcite.js"
-hash = "d23479586d3f0fdc9fa2bf0f1328e9eb93dd1933519e9b2f1b49b401fc1b8247"
+hash = "838c80d4f5ae61d123d0f781fe3551faa82c50f58e6b2a79c32a971226ae80e8"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/dark-prismarine.js"
@@ -1154,11 +1158,11 @@ hash = "6e662933b9a4a5483cb776064c3f85c4fc802c538750a9ce25ea206ff7136ccb"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/deepslate.js"
-hash = "ed6b3301de92fb6cbeee35b056f38ab17c71553c53be165270a8a3f787ba9faf"
+hash = "462b0511db7bc28a7c4beddea9730e2b7a6b426e2d53b034bc6c38753ca47fb6"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/dripstone.js"
-hash = "2d7184062bcf9554a7970b11a9f0d68426ae40f3a632257315d523ae41118391"
+hash = "02517f256f21b72efff2cca362c6b4ac71d21cb57f263c253180248855b820e2"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/end-stone.js"
@@ -1170,7 +1174,7 @@ hash = "27a235fe74105f83804d117b9eeda611ced3d3e79bb5b679d7b261769c0f4971"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/miscellaneous-stones.js"
-hash = "929c8f815f51613bda04326141c93721f33794a84bcc579507c8fb0b899f2745"
+hash = "6b2ca92a5255c179504aaf692e25bcd385eb910b9ea83e74cf50b61d1988a482"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/mossy-stone.js"
@@ -1198,7 +1202,7 @@ hash = "cbf1bf760756a99f4f25b8e9e007f9001ee6202ee4287bb49e1cffb81533a79f"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/quartz.js"
-hash = "1794b1edcbc427ce5fb662b55402dd72473e7d26895cee00abd906365a530ad3"
+hash = "734690f14059840fcd844729f65e11e6bd4c5e07bd1dd207629491c8b83a22c3"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/red-nether-brick.js"
@@ -1218,7 +1222,7 @@ hash = "a808219bec0730e31482d81c5cde5bc88cc8cbde5d326cfe5f75f460a01d4e61"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/stone.js"
-hash = "3a11fbad2aa8798badcc216dee45d3a924041fb7e769cd25732249055e918054"
+hash = "f6173e4f4c8da67550ad63d169a97a782d825318a2bb35a80d94d45a95252c06"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/stone/minecraft/terracotta.js"

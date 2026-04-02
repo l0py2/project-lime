@@ -4,8 +4,6 @@ ServerEvents.tags('item', event => {
 	event.add(global.id.KJ('block_types/calcite'), global.id.QK('calcite_bricks'));
 	event.add(global.id.KJ('block_types/calcite'), global.id.QK('chiseled_calcite_bricks'));
 	event.add(global.id.KJ('block_types/calcite'), global.id.QK('calcite_pillar'));
-	event.add(global.id.KJ('block_types/calcite'), global.id.HC('calcite_pillar_trim'));
-	event.add(global.id.KJ('block_types/calcite'), global.id.HC('calcite_corner_trim'));
 	
 	event.add(global.id.KJ('slab_types/calcite'), global.id.QK('calcite_bricks_slab'));
 	event.add(global.id.KJ('slab_types/calcite'), global.id.QK('calcite_slab'));
