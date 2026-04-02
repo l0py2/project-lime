@@ -66,4 +66,9 @@ ServerEvents.recipes(event => {
 			event.stonecutting(wall, wallTag);
 		}
 	}
+	
+	for(const blockType of blockTypes) {
+		let wallTag = global.tag.KJ(`wall_types/${blockType}`);
+		global.recipes.revertBlockVariant(event, Ingredient.of(wallTag).itemIds, 2, 'wall');
+	}
 });

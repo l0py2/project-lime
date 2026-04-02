@@ -133,4 +133,15 @@ ServerEvents.recipes(event => {
 			event.stonecutting(wall, wallTag);
 		}	
 	}
+	
+	for(const blockType of blockTypes) {
+		let slabTag = global.tag.KJ(`slab_types/${blockType}`);
+		global.recipes.revertBlockVariant(event, Ingredient.of(slabTag).itemIds, 2, 'slab');
+		
+		let stairTag = global.tag.KJ(`stair_types/${blockType}`);
+		global.recipes.revertBlockVariant(event, Ingredient.of(stairTag).itemIds, 1, 'stairs');
+		
+		let wallTag = global.tag.KJ(`wall_types/${blockType}`);
+		global.recipes.revertBlockVariant(event, Ingredient.of(wallTag).itemIds, 2, 'wall');
+	}
 });
