@@ -89,5 +89,25 @@ global.removedItems = global.removedItems.concat([
 	global.id.IE('alu_post'),
 	global.id.IE('steel_wallmount'),
 	global.id.IE('alu_wallmount'),
-	global.id.IE('treated_post')
+	global.id.IE('treated_post'),
+	global.id.IE('stick_aluminum'),
+	global.id.IE('gunpart_barrel'),
+	global.id.IE('gunpart_hammer'),
+	global.id.IE('wire_copper'),
+	global.id.IE('wire_electrum'),
+	global.id.IE('wire_aluminum'),
+	global.id.IE('wire_lead')
+]);
+
+global.removedRecipes = global.removedRecipes.concat([
+	{ type: global.id.IE('arc_furnace') },
+	{ type: global.id.IE('bottling_machine') },
+	{ type: global.id.IE('crusher') },
+	{ type: global.id.IE('fermenter') },
+	{ type: global.id.IE('metal_press') },
+	{ type: global.id.IE('mixer') },
+	{ type: global.id.IE('refinery') },
+	{ type: global.id.IE('sawmill') },
+	{ type: global.id.IE('squeezer') },
+	{ id: global.id.IE('crafting/tinted_glass_lead_wire') }
 ]);

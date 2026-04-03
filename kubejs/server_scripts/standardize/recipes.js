@@ -20,14 +20,15 @@ ServerEvents.recipes(event => {
 	}
 	
 	const recipes = global.recipes.getAll(event, {}, true);
+	const removedRecipes = new Set();
+	const modifiedRecipes = new Map();
+	
 	const resultProperties = [
 		'result',
 		'results',
-		'output'
+		'output',
+		'outputs'
 	];
-	
-	const removedRecipes = new Set();
-	const modifiedRecipes = new Map();
 	
 	for(const recipe of recipes) {
 		for(const item of global.removedItems) {

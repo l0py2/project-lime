@@ -154,7 +154,7 @@ hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
 file = "config/emi.css"
-hash = "7f44dbc5c8bc7d4e4e70ec8b2b7a9e8c681fbb6c3a558e44fcb189db93c0dc11"
+hash = "a24e86e01d9d1495feecd01587925a2402febef5cba531c4ec0dc2bc679f0dd8"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -762,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e5148917371cd83d6a8602bfeb02910fcdec7bd084d19090c73e790e96870e66"
+hash = "8c04f44dfd06c5178057f6eaeb530324e693f22ec963a4fe078e2b8f536a7cc0"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -774,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "7b230a196ba4e1f9844b3e2fc211917678503d78c19b3796d41f892fe22408a9"
+hash = "dee13250473bc6166ca458875dd6194622b7e0fbb8ca1f2454d3657f54670a9e"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1294,7 +1294,7 @@ hash = "6837259099ae1d2f30fa5be74d717a15671c573e0ad374ec3cafc0c23cc2e27c"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/recipes.js"
-hash = "ad2c14f6fbe192a501e058194bd8f2d268798d8d25df6110e61458a193910948"
+hash = "bc98f290f8ca1c3d80c5e1316b1ee2bae20763659d4e0d7ee9fdb9bd758f2d82"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/tags.js"
@@ -1486,7 +1486,7 @@ hash = "5037399813b10ef2130d8ea108d21c3700ee63d57b18cc24f483cbfde8cfa9bc"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/global.js"
-hash = "8ac9b2882ca5d3c946b51f4aa21399eca6b69c28391672123cba52f7cec587b7"
+hash = "0ce8bb030094d69b2b76baec61553172cf846a1f96f696feb29f318c2a3f4684"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/hide-removed.js"
@@ -1526,7 +1526,7 @@ hash = "535987f4c1318263fb2d647b7f19494e8f7c5e5a718ab60ca3b34834e6199b0c"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-engineering.js"
-hash = "9524113070b4fa00987e3123adb09543d74a79cc73c00fb6d78cecbf574e47a3"
+hash = "26695afbce14a24648dc3f0d1a5a96ce99d54f0139847604a7f2b68da0e9f384"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-machinery.js"
