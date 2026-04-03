@@ -19,6 +19,6 @@ global.outputReplacements = [];
 global.dropReplacements = [];
 
 global.itemTagReplacements = [
-	[global.tag.M('wires/aluminum'), global.tag.M('wires/iron')],
-	[global.tag.M('wires/electrum'), global.tag.M('wires/gold')]
+	[global.id.M('wires/aluminum'), global.id.M('wires/iron')],
+	[global.id.M('wires/electrum'), global.id.M('wires/gold')]
 ];
