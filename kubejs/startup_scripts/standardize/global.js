@@ -1,5 +1,8 @@
 //priority: 98
 
+global.hiddenItems = [
+];
+
 global.removedItems = [
 	global.id.HC('oven'),
 	global.id.SP('createdieselgenerators/sign_post_chip_wood'),

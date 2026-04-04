@@ -54,6 +54,10 @@ const creativeTabs = [
 
 for(const tab of creativeTabs) {
 	StartupEvents.modifyCreativeTab(tab, event => {
+		for(const hiddenItem of global.hiddenItems) {
+			event.remove(hiddenItem);
+		}
+		
 		for(const removedItem of global.removedItems) {
 			event.remove(removedItem);
 		}

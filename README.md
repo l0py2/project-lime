@@ -114,6 +114,7 @@
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
 - [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
+- [FTB XMod Compat](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat)
 
 ## Description
 

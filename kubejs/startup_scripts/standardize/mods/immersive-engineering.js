@@ -123,6 +123,11 @@ const removedOres = [
 ];
 
 for(const ore of removedOres) {
+	global.hiddenItems.push(global.id.IE(`ingot_${ore}`));
+	global.hiddenItems.push(global.id.IE(`nugget_${ore}`));
+	global.hiddenItems.push(global.id.IE(`dust_${ore}`));
+	global.hiddenItems.push(global.id.IE(`plate_${ore}`));
+	
 	global.removedItems.push(global.id.IE(`ore_${ore}`));
 	global.removedItems.push(global.id.IE(`deepslate_ore_${ore}`));
 	global.removedItems.push(global.id.IE(`raw_${ore}`));
@@ -141,6 +146,7 @@ global.removedRecipes = global.removedRecipes.concat([
 	{ type: global.id.IE('refinery') },
 	{ type: global.id.IE('sawmill') },
 	{ type: global.id.IE('squeezer') },
-	{ id: global.id.IE('crafting/tinted_glass_lead_wire') }
+	{ id: global.id.IE('crafting/tinted_glass_lead_wire') },
+	{ type: global.id.IE('mineral_mix') } // Remove every vein to prevent generation of veins with removed ores
 ]);
 })();

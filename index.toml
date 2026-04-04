@@ -762,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6a2bd51b5d6feef5b2b7ada4584c4a3178d7cbbb06eb8cd0d34343fdd0c519d7"
+hash = "70272f2a97306d98307897ebb747e12e3e85a1b2b538d977a6ba2cd982b1100b"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -774,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "bd06122fe3b5c5e09377e719032d8d8b426af84a056cd80bac093d46382f1cc3"
+hash = "d90d3447ffb9364089bab185c7761073885328c177af871285a7cb0cc3de76df"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1486,11 +1486,11 @@ hash = "5037399813b10ef2130d8ea108d21c3700ee63d57b18cc24f483cbfde8cfa9bc"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/global.js"
-hash = "dd3f812fb13399e0e589291dbcffc672135ab57cdce8171c513f612f0c865bf4"
+hash = "3a3db517719185cb7976e53146d48649a955d76fca85c0c5b221dfa7c3a76a36"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/hide-removed.js"
-hash = "65f0773ad5431f53112003fa662eed9040bf8d0618789dec5dfd78d84a954474"
+hash = "f89141f955bd79995ff8bc0bbd6b1069a4a953e67f69c373c929d1055e410c3b"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create-central-kitchen.js"
@@ -1526,7 +1526,7 @@ hash = "535987f4c1318263fb2d647b7f19494e8f7c5e5a718ab60ca3b34834e6199b0c"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-engineering.js"
-hash = "de8a1a1fea7718792fb643b6525ce9f797ecaf8f3265ab4f2e15609c230b4078"
+hash = "8a2c8fd1d7dad7455e06d75233c823f0ca1f329ec70ec36d2b53e2c1c546f28f"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-machinery.js"
@@ -1795,6 +1795,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
 
 [[files]]
