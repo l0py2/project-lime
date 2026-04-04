@@ -1,5 +1,6 @@
 //priority: 97
 
+(() => {
 global.removedItems = global.removedItems.concat([
 	global.id.IE('armor_piercing'),
 	global.id.IE('breaker_switch'),
@@ -96,8 +97,39 @@ global.removedItems = global.removedItems.concat([
 	global.id.IE('wire_copper'),
 	global.id.IE('wire_electrum'),
 	global.id.IE('wire_aluminum'),
-	global.id.IE('wire_lead')
+	global.id.IE('wire_lead'),
+	global.id.IE('wooden_grip'),
+	global.id.IE('gunpart_drum'),
+	global.id.IE('plate_gold'),
+	global.id.IE('plate_iron'),
+	global.id.IE('capacitor_lv'),
+	global.id.IE('capacitor_mv'),
+	global.id.IE('capacitor_hv'),
+	global.id.IE('wirecutter'),
+	global.id.IE('balloon'),
+	global.id.IE('wirecoil_structure_rope'),
+	global.id.IE('wirecoil_structure_steel'),
+	global.id.IE('powerpack'),
+	global.id.IE('manual'),
+	global.id.IE('turntable')
 ]);
+
+const removedOres = [
+	'aluminum',
+	'lead',
+	'silver',
+	'nickel',
+	'uranium'
+];
+
+for(const ore of removedOres) {
+	global.removedItems.push(global.id.IE(`ore_${ore}`));
+	global.removedItems.push(global.id.IE(`deepslate_ore_${ore}`));
+	global.removedItems.push(global.id.IE(`raw_${ore}`));
+	global.removedItems.push(global.id.IE(`raw_block_${ore}`));
+	global.removedItems.push(global.id.IE(`sheetmetal_${ore}`));
+	global.removedItems.push(global.id.IE(`slab_sheetmetal_${ore}`));
+}
 
 global.removedRecipes = global.removedRecipes.concat([
 	{ type: global.id.IE('arc_furnace') },
@@ -111,3 +143,4 @@ global.removedRecipes = global.removedRecipes.concat([
 	{ type: global.id.IE('squeezer') },
 	{ id: global.id.IE('crafting/tinted_glass_lead_wire') }
 ]);
+})();

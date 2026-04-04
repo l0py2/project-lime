@@ -310,11 +310,11 @@ hash = "7e934f3c7ff3beaeb73d7242b68467fc62b779827c9cd3a79736fe79c93d4aec"
 
 [[files]]
 file = "config/immersiveengineering-client.toml"
-hash = "10e2de8d987432c81724371ff27ccc2a452e88f22880c45777ca0cd35eda6118"
+hash = "f6799d46f670baaa0a0714015922bce860e792bd109bdd180e709f2aed25de8a"
 
 [[files]]
 file = "config/immersiveengineering-common.toml"
-hash = "43fb35615eb185c96d264075efd137e14fd2c8247bc5364592f79f0bf59133f8"
+hash = "54414f0f36d26a02c2a4fbc22ba024c8963c4a16a101b00913195499263839cd"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -762,7 +762,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b167da2d462474362f6fcc4863418c9a7d52db7676a8e93fc64803796ec45c06"
+hash = "6a2bd51b5d6feef5b2b7ada4584c4a3178d7cbbb06eb8cd0d34343fdd0c519d7"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -774,7 +774,7 @@ hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "12074d64956c526b3f192d83f946b5c277bb057cf87ad1513c4a5c19c8743faa"
+hash = "bd06122fe3b5c5e09377e719032d8d8b426af84a056cd80bac093d46382f1cc3"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1486,7 +1486,7 @@ hash = "5037399813b10ef2130d8ea108d21c3700ee63d57b18cc24f483cbfde8cfa9bc"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/global.js"
-hash = "e68a6ef2861fbd338ce78b3e1150018fbfc0fc574235b4566cd1bfd9cfd102c2"
+hash = "dd3f812fb13399e0e589291dbcffc672135ab57cdce8171c513f612f0c865bf4"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/hide-removed.js"
@@ -1518,7 +1518,7 @@ hash = "629dbc49bc80aab7fa65ce3b5744e8109db884c80fceb960dc10b8084e860bab"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/delightful.js"
-hash = "52af3dbbe03ee25b3e91087f6e54406e5f9cf29427c800d0ad10d823c1d6d4a1"
+hash = "91cc2fd1f983ff2450ed091511221f57f46ec83dbf76eb864bbb6a3e7a8d0bc9"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/farmers-delight.js"
@@ -1526,11 +1526,11 @@ hash = "535987f4c1318263fb2d647b7f19494e8f7c5e5a718ab60ca3b34834e6199b0c"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-engineering.js"
-hash = "26695afbce14a24648dc3f0d1a5a96ce99d54f0139847604a7f2b68da0e9f384"
+hash = "de8a1a1fea7718792fb643b6525ce9f797ecaf8f3265ab4f2e15609c230b4078"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-machinery.js"
-hash = "3df33edeb9e7d2362458a167384f8e1501bbad347e47f6dbb98e7c9ef15cdfa1"
+hash = "52af3dbbe03ee25b3e91087f6e54406e5f9cf29427c800d0ad10d823c1d6d4a1"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/minecraft.js"
