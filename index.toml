@@ -1789,7 +1789,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "f3b67e17e908e6875111e74d75f37fd8f17b21fc20f86e827e363f0d0c0a8c3b"
+hash = "6ee8b1088f09da2ee136001c9282d7f2f32a15223d5bb2071b45b35115a0b0d5"
 metafile = true
 
 [[files]]
@@ -1994,7 +1994,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "520af431ce815cc2aee1d15609a5169b3475fb978d8b6412b77b3686ca13214f"
+hash = "8b132a783e62bb100ffca91f1072bfd2fc0442bfec8f12b8b51f1062ddbecb1c"
 metafile = true
 
 [[files]]
