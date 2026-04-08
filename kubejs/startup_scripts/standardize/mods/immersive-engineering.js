@@ -111,7 +111,20 @@ global.removedItems = global.removedItems.concat([
 	global.id.IE('wirecoil_structure_steel'),
 	global.id.IE('wirecutter'),
 	global.id.IE('wolfpack'),
-	global.id.IE('wooden_grip')
+	global.id.IE('wooden_grip'),
+	global.id.IE('alu_fence'),
+	global.id.IE('alu_slope'),
+	global.id.IE('metal_ladder_alu'),
+	global.id.IE('alu_scaffolding_standard'),
+	global.id.IE('slab_alu_scaffolding_standard'),
+	global.id.IE('stairs_alu_scaffolding_standard'),
+	global.id.IE('alu_scaffolding_grate_top'),
+	global.id.IE('slab_alu_scaffolding_grate_top'),
+	global.id.IE('stairs_alu_scaffolding_grate_top'),
+	global.id.IE('alu_scaffolding_wooden_top'),
+	global.id.IE('slab_alu_scaffolding_wooden_top'),
+	global.id.IE('stairs_alu_scaffolding_wooden_top'),
+	global.id.IE('chute_aluminum')
 ]);
 
 const removedOres = [
@@ -134,6 +147,11 @@ for(const ore of removedOres) {
 	global.removedItems.push(global.id.IE(`raw_block_${ore}`));
 	global.removedItems.push(global.id.IE(`sheetmetal_${ore}`));
 	global.removedItems.push(global.id.IE(`slab_sheetmetal_${ore}`));
+	global.removedItems.push(global.id.IE(`storage_${ore}`));
+	global.removedItems.push(global.id.IE(`slab_storage_${ore}`));
+	
+	global.removedRecipes.push({ id: global.id.IE(`crafting/ingot_${ore}_to_nugget_${ore}`) });
+	global.removedRecipes.push({ id: global.id.IE(`crafting/plate_aluminum_hammering`) });
 }
 
 global.removedRecipes = global.removedRecipes.concat([
@@ -148,5 +166,10 @@ global.removedRecipes = global.removedRecipes.concat([
 	{ type: global.id.IE('squeezer') },
 	{ id: global.id.IE('crafting/tinted_glass_lead_wire') },
 	{ type: global.id.IE('mineral_mix') } // Remove every vein to prevent generation of veins with removed ores
+]);
+
+global.inputReplacements = global.inputReplacements.concat([
+	[global.id.IE('plate_aluminum'), global.tag.M('plates/iron')],
+	[global.id.IE('ingot_aluminum'), global.tag.M('ingots/iron')]
 ]);
 })();

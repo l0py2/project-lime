@@ -1,200 +1,115 @@
-ServerEvents.recipes(event => {
-	function removeRecipes() {
-		for(const filter of global.removedRecipes) {
-			event.remove(filter);
+ServerEvents.recipes(event => {	
+	function equalIngredients(ingredient1, ingredient2) {
+		if(ingredient1 == ingredient2) {
+			return true;
+		}
+		
+		if(typeof ingredient1 == 'string') {
+			ingredient1 = ingredient1.startsWith('#') ? { tag: ingredient1.slice(1) } : { item: ingredient1 };
+		}
+		
+		if(typeof ingredient2 == 'string') {
+			ingredient2 = ingredient2.startsWith('#') ? { tag: ingredient2.slice(1) } : { item: ingredient2 };
+		}
+		
+		return ingredient1.item == ingredient2.item && ingredient1.tag == ingredient2.tag;
+	}
+	
+	function replaceIngredient(ingredient, replacement) {
+		const replacementIsTag = replacement.startsWith('#');
+		
+		if(typeof ingredient == 'string') {
+			if(replacementIsTag) {
+				ingredient = {
+					tag: replacement.slice(1)
+				};
+			} else {
+				ingredient = {
+					item: replacement
+				};
+			}
+		} else {
+			if(replacementIsTag) {
+				delete ingredient.item;
+				ingredient.tag = replacement.slice(1);
+			} else {
+				ingredient.item = replacement;
+			}
 		}
 	}
 	
-	function replaceInputs() {
-		for(const [original, replacement] of global.inputReplacements) {
-			event.replaceInput(
-				{ input: original },
-				original,
-				replacement
-			);
+	function replaceInputSequencedAssembly(recipe, original, replacement) {
+		if(recipe.sequence == undefined) {
+			return false;
 		}
 		
-		const recipes = global.recipes.getAll(event, {}, true);
-		const modifiedRecipes = new Map();
+		if(!Array.isArray(recipe.sequence)) {
+			return false;
+		}
 		
-		const commonProperties = [
-			'ingredient',
-			'ingredients',
-			'input',
-			'inputs'
-		];
+		let modified = false;
 		
-		for(const [original, replacement] of global.inputReplacements) {
-			const replacementIsTag = replacement.startsWith('#');
+		for(const recipeStep of recipe.sequence) {
+			if(!Array.isArray(recipeStep.ingredients)) {
+				continue;
+			}
 			
-			for(const recipe of recipes) {
-				for(const property of commonProperties) {
-					if(recipe[property] == undefined) {
-						continue;
-					}
-					
-					if(typeof recipe[property] == 'string' && original == recipe[property]) {
-						if(replacementIsTag) {
-							recipe[property] = { tag: replacement.slice(1) };
-						} else {
-							recipe[property] = replacement;
-						}
-						
-						modifiedRecipes.set(recipe.id, recipe);
-					} else if(Array.isArray(recipe[property])) {
-						let tagIndex;
-							
-						do {
-							tagIndex = -1;
-							let complex = false;
-							
-							for(let i = 0; i < recipe[property].length; i++) {
-								if(typeof recipe[property][i] == 'string' && original == recipe[property][i]) {
-									tagIndex = i;
-									break;
-								} else if(typeof recipe[property][i] == 'object' && recipe[property][i].hasOwnProperty('item') && original == recipe[property][i].item) {
-									tagIndex = i;
-									complex = true;
-									break;
-								}
-							}
-								
-							if(tagIndex != -1) {
-								if(complex) {
-									if(replacementIsTag) {
-										delete recipe[property][tagIndex].item;
-										recipe[property][tagIndex].tag = replacement.slice(1);
-									} else {
-										recipe[property][tagIndex].item = replacement;
-									}
-								} else {
-									if(replacementIsTag) {
-										recipe[property][tagIndex] = { tag: replacement.slice(1) };
-									} else {
-										recipe[property][tagIndex] = replacement;
-									}
-								}
-								
-								modifiedRecipes.set(recipe.id, recipe);
-							}
-						} while(tagIndex != -1);
-					} else if(typeof recipe[property] == 'object' && recipe[property].hasOwnProperty('item') && original == recipe[property].item) {
-						if(replacementIsTag) {
-							delete recipe[property].item;
-							recipe[property].tag = replacement.slice(1);
-						} else {
-							recipe[property].item = replacement;
-						}
-						
-						modifiedRecipes.set(recipe.id, recipe);
-					}
+			for(const ingredient of recipeStep.ingredients) {
+				if(equalIngredients(original, ingredient)) {
+					replaceIngredient(ingredient, replacement);
+					modified = true;
 				}
 			}
 		}
-
-		for(const [recipeId, recipe] of modifiedRecipes) {
-			event.remove({ id: recipeId });
-			event.custom(recipe).id(recipeId);
-		}
+		
+		return modified;
 	}
 	
-	function replaceOutputs() {
-		for(const [original, replacement] of global.inputReplacements) {
-			event.replaceOutput(
-				{ input: original },
-				original,
-				replacement
-			);
+	function replaceInputGeneric(recipe, original, replacement) {		
+		if(recipe.ingredient != undefined) {
+			if(equalIngredients(original, recipe.ingredient)) {
+				replaceIngredient(recipe.ingredient, replacement);
+				return true;
+			}
 		}
 		
-		const recipes = global.recipes.getAll(event, {}, true);
-		const modifiedRecipes = new Map();
+		let modified = false;
 		
-		const commonProperties = [
-			'result',
-			'results',
-			'output',
-			'outputs'
-		];
-		
-		for(const [original, replacement] of global.inputReplacements) {
-			const replacementIsTag = replacement.startsWith('#');
-			
-			for(const recipe of recipes) {
-				for(const property of commonProperties) {
-					if(recipe[property] == undefined) {
-						continue;
-					}
-					
-					if(typeof recipe[property] == 'string' && original == recipe[property]) {
-						if(replacementIsTag) {
-							recipe[property] = { tag: replacement.slice(1) };
-						} else {
-							recipe[property] = replacement;
-						}
-						
-						modifiedRecipes.set(recipe.id, recipe);
-					} else if(Array.isArray(recipe[property])) {
-						let tagIndex;
-							
-						do {
-							tagIndex = -1;
-							let complex = false;
-							
-							for(let i = 0; i < recipe[property].length; i++) {
-								if(typeof recipe[property][i] == 'string' && original == recipe[property][i]) {
-									tagIndex = i;
-									break;
-								} else if(typeof recipe[property][i] == 'object' && recipe[property][i].hasOwnProperty('item') && original == recipe[property][i].item) {
-									tagIndex = i;
-									complex = true;
-									break;
-								}
-							}
-								
-							if(tagIndex != -1) {
-								if(complex) {
-									if(replacementIsTag) {
-										delete recipe[property][tagIndex].item;
-										recipe[property][tagIndex].tag = replacement.slice(1);
-									} else {
-										recipe[property][tagIndex].item = replacement;
-									}
-								} else {
-									if(replacementIsTag) {
-										recipe[property][tagIndex] = { tag: replacement.slice(1) };
-									} else {
-										recipe[property][tagIndex] = replacement;
-									}
-								}
-								
-								modifiedRecipes.set(recipe.id, recipe);
-							}
-						} while(tagIndex != -1);
-					} else if(typeof recipe[property] == 'object' && recipe[property].hasOwnProperty('item') && original == recipe[property].item) {
-						if(replacementIsTag) {
-							delete recipe[property].item;
-							recipe[property].tag = replacement.slice(1);
-						} else {
-							recipe[property].item = replacement;
-						}
-						
-						modifiedRecipes.set(recipe.id, recipe);
-					}
+		if(recipe.ingredients != undefined && Array.isArray(recipe.ingredients)) {
+			for(const ingredient of recipe.ingredients) {
+				if(equalIngredients(original, ingredient)) {
+					replaceIngredient(ingredient, replacement);
+					modified = true;
 				}
 			}
 		}
-
-		for(const [recipeId, recipe] of modifiedRecipes) {
-			event.remove({ id: recipeId });
-			event.custom(recipe).id(recipeId);
-		}
-	}
-
-	function replaceItemTags() {
-		const recipes = global.recipes.getAll(event, {}, true);
-		const modifiedRecipes = new Map();
 		
+		return modified;
+	}
+	
+	function replaceOutputGeneric(recipe, original, replacement) {
+		if(recipe.result != undefined) {
+			if(equalIngredients(original, recipe.result)) {
+				replaceIngredient(recipe.result, replacement);
+				return true;
+			}
+		}
+		
+		let modified = false;
+		
+		if(recipe.results != undefined && Array.isArray(recipe.results)) {
+			for(const ingredient of recipe.results) {
+				if(equalIngredients(original, ingredient)) {
+					replaceIngredient(ingredient, replacement);
+					modified = true;
+				}
+			}
+		}
+		
+		return modified;
+	}
+	
+	function replaceItemTags(recipes, modifiedRecipes) {
 		const commonProperties = [
 			'result',
 			'results',
@@ -238,18 +153,9 @@ ServerEvents.recipes(event => {
 				}
 			}
 		}
-
-		for(const [recipeId, recipe] of modifiedRecipes) {
-			event.remove({ id: recipeId });
-			event.custom(recipe).id(recipeId);
-		}
 	}
 
-	function removeItems() {
-		const recipes = global.recipes.getAll(event, {}, true);
-		const removedRecipes = new Set();
-		const modifiedRecipes = new Map();
-		
+	function removeItems(recipes, removedRecipes, modifiedRecipes) {
 		const commonProperties = [
 			'result',
 			'results',
@@ -297,23 +203,64 @@ ServerEvents.recipes(event => {
 				}
 			}
 		}
-
-		for(const recipe of removedRecipes) {
-			modifiedRecipes.delete(recipe);
-			event.remove({ id: recipe });
-		}
-		
-		for(const [recipeId, recipe] of modifiedRecipes) {
-			event.remove({ id: recipeId });
-			event.custom(recipe).id(recipeId);
-		}
-		
-		event.remove({ output: global.tag.KJ('removed') });
 	}
 
-	removeRecipes();
-	replaceInputs();
-	replaceOutputs();
-	replaceItemTags();
-	removeItems();
+	for(const filter of global.removedRecipes) {
+		event.remove(filter);
+	}
+	
+	for(const [original, replacement] of global.inputReplacements) {
+		event.replaceInput(
+			{ input: original },
+			original,
+			replacement
+		);
+	}
+	
+	for(const [original, replacement] of global.inputReplacements) {
+		event.replaceOutput(
+			{ input: original },
+			original,
+			replacement
+		);
+	}
+
+	const recipes = global.recipes.getAll(event, {}, true);
+	const removedRecipes = new Set();
+	const modifiedRecipes = new Map();
+
+	for(const recipe of recipes) {
+		for(const [original, replacement] of global.inputReplacements) {
+			if(recipe.type == global.id.CR('sequenced_assembly')) {
+				if(replaceInputSequencedAssembly(recipe, original, replacement)) {
+					modifiedRecipes.set(recipe.id, recipe);
+				}
+			} else {
+				if(replaceInputGeneric(recipe, original, replacement)) {
+					modifiedRecipes.set(recipe.id, recipe);
+				}
+			}
+		}
+		
+		for(const [original, replacement] of global.outputReplacements) {
+			if(replaceOutputGeneric(recipe, original, replacement)) {
+				modifiedRecipes.set(recipe.id, recipe);
+			}
+		}
+	}
+	
+	replaceItemTags(recipes, modifiedRecipes);
+	removeItems(recipes, removedRecipes, modifiedRecipes);
+	
+	for(const recipe of removedRecipes) {
+		modifiedRecipes.delete(recipe);
+		event.remove({ id: recipe });
+	}
+		
+	for(const [recipeId, recipe] of modifiedRecipes) {
+		event.remove({ id: recipeId });
+		event.custom(recipe).id(recipeId);
+	}
+	
+	event.remove({ output: global.tag.KJ('removed') });
 });

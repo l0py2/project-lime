@@ -11,7 +11,7 @@ ServerEvents.tags('block', event => {
 	event.add(global.id.CR('simple_mounted_storage'), global.tag.HC('shelves'));
 	
 	// Farmer's Delight
-	for(const wood of global.woodTypes.minecraft) {
+	for(const wood of global.materials.wood.minecraft) {
 		event.add(global.id.CR('simple_mounted_storage'), global.id.FD(`${wood}_cabinet`));
 	}
 	
