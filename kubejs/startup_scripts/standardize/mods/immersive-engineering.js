@@ -124,7 +124,14 @@ global.removedItems = global.removedItems.concat([
 	global.id.IE('alu_scaffolding_wooden_top'),
 	global.id.IE('slab_alu_scaffolding_wooden_top'),
 	global.id.IE('stairs_alu_scaffolding_wooden_top'),
-	global.id.IE('chute_aluminum')
+	global.id.IE('chute_aluminum'),
+	global.id.IE('dust_wood'),
+	global.id.IE('sawdust'),
+	global.id.IE('fiberboard'),
+	global.id.IE('plate_duroplast'),
+	global.id.IE('duroplast'),
+	global.id.IE('logic_circuit'),
+	global.id.IE('circuit_board')
 ]);
 
 const removedOres = [
@@ -170,6 +177,7 @@ global.removedRecipes = global.removedRecipes.concat([
 
 global.inputReplacements = global.inputReplacements.concat([
 	[global.id.IE('plate_aluminum'), global.tag.M('plates/iron')],
-	[global.id.IE('ingot_aluminum'), global.tag.M('ingots/iron')]
+	[global.id.IE('ingot_aluminum'), global.tag.M('ingots/iron')],
+	[global.id.IE('circuit_board'), global.id.PG('empty_circuit')]
 ]);
 })();

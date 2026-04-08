@@ -25,7 +25,13 @@ global.removedItems = global.removedItems.concat([
 	global.id.CA('seed_oil_bucket'),
 	global.id.CA('small_light_connector'),
 	global.id.CA('spool'),
-	global.id.CA('tesla_coil')
+	global.id.CA('tesla_coil'),
+	global.id.CA('copper_rod'),
+	global.id.CA('zinc_sheet'),
+	global.id.CA('iron_rod'),
+	global.id.CA('gold_rod'),
+	global.id.CA('electrum_rod'),
+	global.id.CA('brass_rod')
 ]);
 
 global.removedRecipes = global.removedRecipes.concat([
