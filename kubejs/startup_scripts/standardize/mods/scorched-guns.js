@@ -1,4 +1,4 @@
-//priority: 97
+//priority: 49
 
 global.removedItems = global.removedItems.concat([
 	global.id.SG('air_canister'),

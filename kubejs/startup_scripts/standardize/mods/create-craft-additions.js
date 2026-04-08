@@ -1,4 +1,4 @@
-//priority: 97
+//priority: 49
 
 global.removedItems = global.removedItems.concat([
 	global.id.CA('alternator'),
@@ -25,8 +25,7 @@ global.removedItems = global.removedItems.concat([
 	global.id.CA('seed_oil_bucket'),
 	global.id.CA('small_light_connector'),
 	global.id.CA('spool'),
-	global.id.CA('tesla_coil'),
-	global.id.CA('zinc_sheet')
+	global.id.CA('tesla_coil')
 ]);
 
 global.removedRecipes = global.removedRecipes.concat([

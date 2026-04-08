@@ -55,7 +55,7 @@ global.materials.metals = [
 	}
 ];
 
-global.woodTypes = {
+global.materials.wood = {
 	minecraft: [
 		'oak',
 		'spruce',

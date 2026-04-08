@@ -1,4 +1,4 @@
-//priority: 96
+//priority: 48
 
 (() => {
 // Used "/kubejs dump_registry minecraft:creativ_mode_tab" to get all creative tabs

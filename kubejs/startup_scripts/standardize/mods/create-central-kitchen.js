@@ -1,4 +1,4 @@
-//priority: 97
+//priority: 49
 
 global.removedRecipes = global.removedRecipes.concat([
 	{ id: global.id.CK('crafting/dough_1') },

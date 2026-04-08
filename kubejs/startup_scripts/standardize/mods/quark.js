@@ -1,4 +1,4 @@
-//priority: 97
+//priority: 49
 
 global.removedItems = global.removedItems.concat([
 	global.id.QK('limestone_bricks'),
@@ -7,16 +7,15 @@ global.removedItems = global.removedItems.concat([
 	global.id.QK('limestone_bricks_wall')
 ]);
 
-for(const type of global.woodTypes.minecraft) {
+for(const type of global.materials.wood.minecraft) {
 	global.removedItems.push(global.id.QK(`${type}_chest`));
 	global.removedItems.push(global.id.QK(`${type}_trapped_chest`));
-}
 
-for(const type of global.woodTypes.minecraft) {
 	global.dropReplacements.push([
 		global.id.QK(`${type}_chest`),
 		global.id.WW(`${type}_chest`)
 	]);
+	
 	global.dropReplacements.push([
 		global.id.QK(`${type}_trapped_chest`),
 		global.id.WW(`trapped_${type}_chest`)
