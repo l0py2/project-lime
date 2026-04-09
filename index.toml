@@ -726,7 +726,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6911cd94bbe0184286fce32402084ec3ccb288982865ea8f8d4d4f84c17e96ec"
+hash = "7f0f91128c1052489305ad3cd2354219e6a02cc5cd3f42b9fed26b770ea2a4cb"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -734,7 +734,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "53f1da4cd83ec3f21cc115d3698dece2abb11442beac7b3f2154ed03ad07e446"
+hash = "fc9d5bb9e82725f0f993f10f4ad4c71ea7e4526b93f8f9d0da375795131a8c7b"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1054,7 +1054,7 @@ hash = "6837259099ae1d2f30fa5be74d717a15671c573e0ad374ec3cafc0c23cc2e27c"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/recipes.js"
-hash = "a6e5ef7d69a2001f740a3b0cab0a034d5d57224af9be306716241795226cadbb"
+hash = "7c11f80e790a22fdbb382509447d4acb5137b35bbdbd952d8bc482c34d0ace2a"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/tags.js"
@@ -1294,7 +1294,7 @@ hash = "d1e8e265d8bb8a9ed5ef6b063d091409dece8a71fc868084b3a20e7658a1210e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/quark.js"
-hash = "75ad6350c20d7a550c5fa73411d2ee78b07eb6977f26bdea9687ffb14a089c4f"
+hash = "1102f350cf85f54db824093d1f1a0e356f54966f5368c22aac817b7e0adf05e2"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/scorched-guns.js"

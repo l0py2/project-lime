@@ -21,3 +21,7 @@ for(const type of global.materials.wood.minecraft) {
 		global.id.WW(`trapped_${type}_chest`)
 	]);
 }
+
+global.removedRecipes = global.removedRecipes.concat([
+	{ id: global.id.QK('building/crafting/furnaces/mixed_furnace') }
+]);

@@ -68,8 +68,14 @@ function SimpleRecipe() {
 	
 	this.replaceOutput = (original, replacement) => {
 		if(this.json.result == original) {
-			this.json.resul = replacement;
+			this.json.result = replacement;
 			this.modified = true;
+		}
+	};
+	
+	this.removeOutput = (removedItem) => {
+		if(this.json.result == removedItem) {
+			this.empty = true;
 		}
 	};
 }
@@ -142,6 +148,14 @@ function ShapedRecipe() {
 			this.modified = true;
 		}
 	}
+	
+	this.removeOutput = (removedItem) => {
+		const removedItemObject = ingredientStringToObject(removedItem);
+		
+		if(equalIngredients(this.json.result, removedItemObject)) {
+			this.empty = true;
+		}
+	}
 }
 
 ShapelessRecipe.fromJson = (rawRecipe) => {
@@ -203,6 +217,94 @@ function ShapelessRecipe() {
 			this.modified = true;
 		}
 	}
+	
+	this.removeOutput = (removedItem) => {
+		const removedItemObject = ingredientStringToObject(removedItem);
+		
+		if(equalIngredients(this.json.result, removedItemObject)) {
+			this.empty = true;
+		}
+	}
+}
+
+CreateRecipe.fromJson = (rawRecipe) => {
+	if(rawRecipe.ingredients == undefined) {
+		return null;
+	}
+	
+	if(!Array.isArray(rawRecipe.ingredients)) {
+		return null;
+	}
+		
+	if(rawRecipe.results == undefined) {
+		return null;
+	}
+	
+	if(!Array.isArray(rawRecipe.results)) {
+		return null;
+	}
+		
+	let recipe = new CreateRecipe();
+	
+	recipe.json = rawRecipe;
+	
+	return recipe;
+};
+
+function CreateRecipe() {
+	this.modified = false;
+	this.empty = false;
+	this.json = {};
+	
+	this.replaceInput = (original, replacement) => {
+		const originalObject = ingredientStringToObject(original);
+		const replacementObject = ingredientStringToObject(replacement);
+				
+		for(let i = 0; i < this.json.ingredients.length; i++) {
+			if(equalIngredients(this.json.ingredients[i], originalObject)) {
+				replaceIngredient(this.json.ingredients[i], replacementObject);
+				this.modified = true;
+			}
+		}
+	};
+	
+	this.replaceOutput = (original, replacement) => {
+		const originalObject = ingredientStringToObject(original);
+		const replacementObject = ingredientStringToObject(replacement);
+		
+		for(let i = 0; i < this.json.results.length; i++) {
+			if(equalIngredients(this.json.results[i], originalObject)) {
+				replaceIngredient(this.json.results[i], replacementObject);
+				this.modified = true;
+			}
+		}
+	}
+	
+	this.removeOutput = (removedItem) => {
+		const removedItemObject = ingredientStringToObject(removedItem);
+		
+		let indexToRemove;
+		
+		do {
+			indexToRemove = -1;
+			
+			for(let i = 0; i < this.json.results.length; i++) {
+				if(equalIngredients(this.json.results[i], removedItemObject)) {
+					indexToRemove = i;
+					break;
+				}
+			}
+			
+			if(indexToRemove != -1) {
+				this.json.results.splice(indexToRemove, 1);
+				this.modified = true;
+			}
+		} while(indexToRemove != -1);
+		
+		if(this.json.results.length < 1) {
+			this.empty = true;
+		}
+	}
 }
 
 ServerEvents.recipes(event => {
@@ -223,6 +325,8 @@ ServerEvents.recipes(event => {
 			recipes.push(recipe);
 		} else if((recipe = ShapelessRecipe.fromJson(rawRecipe)) != null) {
 			recipes.push(recipe);
+		} else if((recipe = CreateRecipe.fromJson(rawRecipe)) != null) {
+			recipes.push(recipe);
 		}
 	}
 	
@@ -237,11 +341,14 @@ ServerEvents.recipes(event => {
 		
 		for(const removedItem of global.removedItems) {
 			recipe.replaceInput(removedItem, global.id.MC('barrier'));
+			recipe.removeOutput(removedItem);
 		}
 	}
 	
 	for(const recipe of recipes) {
-		if(recipe.modified) {
+		if(recipe.empty) {
+			event.remove({ id: recipe.json.id });
+		} else if(recipe.modified) {
 			event.remove({ id: recipe.json.id });
 			event.custom(recipe.json);
 		}

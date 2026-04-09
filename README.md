@@ -83,7 +83,6 @@
 - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 - [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix)
 - [Oculus](https://www.curseforge.com/minecraft/mc-mods/oculus)
-- [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)
 - [Open Parties and Claims](https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims)
 - [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer)
 - [Personality](https://www.curseforge.com/minecraft/mc-mods/personality)
