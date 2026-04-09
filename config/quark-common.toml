@@ -45,7 +45,7 @@
 	tools = true
 	tweaks = true
 	world = true
-	mobs = true
+	mobs = false
 	client = true
 	experimental = true
 	oddities = true
@@ -546,7 +546,7 @@
 	"Safer Creatures" = true
 	"Shulker Packing" = true
 	"Simple Harvest" = true
-	"Slabs To Blocks" = true
+	"Slabs To Blocks" = false
 	"Slimes To Magma Cubes" = true
 	"Snow Golem Player Heads" = true
 	"Utility Recipes" = true
@@ -1350,9 +1350,9 @@
 	Crabs = true
 	Forgotten = true
 	Foxhound = true
-	Shiba = false
-	Stonelings = false
-	Toretoise = false
+	Shiba = true
+	Stonelings = true
+	Toretoise = true
 	Wraith = true
 
 	[mobs.crabs]
@@ -1827,7 +1827,7 @@
 	"Matrix Enchanting" = true
 	Pipes = false
 	"Tiny Potato" = true
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them

@@ -253,34 +253,6 @@ file = "config/forgery/yeet_recipes.ini"
 hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/guns.snbt"
-hash = "66afa9b2ef8910a4ce7866442c2c79295e52ccb31402a0167b3530dac0d1363e"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/locomotion.snbt"
-hash = "3076a82d08bd25cb77a8a5c02fd6024ab08c261bc78ec5039e36c542cdcf2a58"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "8dfb10183bf33368b595009d8167d619c4d325cf5540895fa3e9420246af57b3"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/starting.snbt"
-hash = "71ceddb94463f30b0ac9e08c60feb04901b6b7674b3fcebb2548ff7320dd0864"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/supply.snbt"
-hash = "e93024e0892317d3e500f9030a486c03fda703223a243f55836f398d98d786f0"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "96d89e1348431453e17ab51d7198433cff17f45d0da761c727ebc7e59677d28b"
-
-[[files]]
 file = "config/ftbxmodcompat.snbt"
 hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
@@ -307,14 +279,6 @@ hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
 [[files]]
 file = "config/immersive_aircraft.json"
 hash = "7e934f3c7ff3beaeb73d7242b68467fc62b779827c9cd3a79736fe79c93d4aec"
-
-[[files]]
-file = "config/immersiveengineering-client.toml"
-hash = "f6799d46f670baaa0a0714015922bce860e792bd109bdd180e709f2aed25de8a"
-
-[[files]]
-file = "config/immersiveengineering-common.toml"
-hash = "54414f0f36d26a02c2a4fbc22ba024c8963c4a16a101b00913195499263839cd"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -742,7 +706,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "d37f084723a25936fd05abf7401bc2aa7bf0ae03d436972d39eb2d88beeb0f07"
+hash = "ec5b1ff9e6e3b8aada3860b294d0c3ef861df78d0f3bc34c3db8552c396074f5"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -762,19 +726,15 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "70272f2a97306d98307897ebb747e12e3e85a1b2b538d977a6ba2cd982b1100b"
+hash = "6911cd94bbe0184286fce32402084ec3ccb288982865ea8f8d4d4f84c17e96ec"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
 hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
-file = "config/openloader/data/project-lime-advancements/pack.mcmeta"
-hash = "04832f0a25b371052a2960a777673d607982d08250dd3f08d7a94c8cb043f494"
-
-[[files]]
 file = "config/packetfixer.properties"
-hash = "d90d3447ffb9364089bab185c7761073885328c177af871285a7cb0cc3de76df"
+hash = "53f1da4cd83ec3f21cc115d3698dece2abb11442beac7b3f2154ed03ad07e446"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -802,7 +762,7 @@ hash = "7a9f66275cbdf16c82dce7e7194574f90240647533e0fed172bd791b292e9107"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "09c5f3156edc94ce8bdc2f7ea3524b00a6c825a3c97d524de7254ad5997031f2"
+hash = "3295b1fea7eb214fd24cea5ef47893ffe7f1f25f07531d72901eb39a7e53ec51"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -965,18 +925,6 @@ file = "defaultconfigs/create-server.toml"
 hash = "9ec563c50e1304c3573065b7056ebf2f1d8b4db76c18f8ce45ffc9561b9f0103"
 
 [[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
-
-[[files]]
-file = "defaultconfigs/ftbquests/client-config.snbt"
-hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
-
-[[files]]
-file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
-hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
-
-[[files]]
 file = "defaultconfigs/hourglass-server.toml"
 hash = "176b70c44c5ed2e4f8ca73e60a102c9a4c19f4389fc9faa992361ecc31929991"
 
@@ -994,7 +942,7 @@ hash = "d6874e285dab6c5b7e945eb1fe25a7c924c6dc360cb0c381fb7743064a74938c"
 
 [[files]]
 file = "defaultconfigs/openpartiesandclaims-server.toml"
-hash = "39391be12dbd2dbf6da2dcc25094cf0dcacce3c941f173558ba6af1ca9d5f699"
+hash = "802b6a2d4e141fc54ea594da30a06437235c04446cff1eab18082d576cc60e9f"
 
 [[files]]
 file = "defaultconfigs/openpartiesandclaims-wilderness-config.toml"
@@ -1014,7 +962,7 @@ hash = "47ee344cefbfe472fbbc9f73483386de16e7bb709fbb04c53004d954459e0769"
 
 [[files]]
 file = "kubejs/client_scripts/standardize.js"
-hash = "80c9727b450f11c5727f32342d0b4b75c0c75019c112a812041e3ee9c039bf4e"
+hash = "e71881902699ded8dc8eaa7b10f72cad8679a70459ca57814f14970fb4656590"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1037,200 +985,12 @@ file = "kubejs/data/create_new_age/worldgen/configured_feature/magnetite_block.j
 hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
-file = "kubejs/data/immersiveengineering/recipes/arc_recycling_list.json"
-hash = "5f864dab40305ab337c030511972ec40f7c850c91d4f21c24f34c3c3e7ff5b3e"
+file = "kubejs/server_scripts/global/id.js"
+hash = "ac9be5151041d0e8aaa220922fe562a84e304c8409fe2c44b1e9abfa40e118c5"
 
 [[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/arcfurnace.nbt"
-hash = "7e9d11fcf7f998295bf82050eb29d0595a6b4f7fb83cbd40a668eafa1249fb3f"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/assembler.nbt"
-hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/auto_workbench.nbt"
-hash = "f1bbf7210f1878e536bfdf0dfc0a32b1a938cae42846f8ddb49e2da3f503ee8f"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/bottling_machine.nbt"
-hash = "c7e5a6f74a3103bf74306e238d86a79b004be5a60524e3d4d1e9d732daf586f3"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/crusher.nbt"
-hash = "9cd4be938fc51211d309f161a52521b9a4eaaf6162e45e37c3e4c721e02117c0"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/diesel_generator.nbt"
-hash = "8a669d0663cd558ebb90f5802c7205c0acfefe1f042b678f3052d72c66db1c34"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/fermenter.nbt"
-hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/lightning_rod.nbt"
-hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/metal_press.nbt"
-hash = "1113cf310fe1adc1aa98ff79a66d437fa3aedb13ee4078e4dc2da4121ac20822"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/mixer.nbt"
-hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/refinery.nbt"
-hash = "9cd4be938fc51211d309f161a52521b9a4eaaf6162e45e37c3e4c721e02117c0"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/sawmill.nbt"
-hash = "9cd4be938fc51211d309f161a52521b9a4eaaf6162e45e37c3e4c721e02117c0"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/sheetmetal_tank.nbt"
-hash = "0481cee7564b7a54f03f44342b4de37b37d973107e98fa05239cd0b4ca0e6e24"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/silo.nbt"
-hash = "f455a2bf6581ecce33f03e35ac7a7d5479a2eedec5242790a40d57eba6425604"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/multiblocks/squeezer.nbt"
-hash = "cc5e59330e40746a6d6ef813b353f636b5adf63f0a89d7c0b14f43d7df44b41f"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/desert_electrician.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/desert_engineer.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/desert_gunsmith.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/desert_machinist.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/desert_outfitter.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/plains_electrician.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/plains_engineer.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/plains_gunsmith.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/plains_machinist.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/plains_outfitter.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_electrician.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_engineer.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_gunsmith.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_machinist.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/savanna_outfitter.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_electrician.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_engineer.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_gunsmith.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_machinist.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/snowy_outfitter.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_electrician.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_engineer.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_gunsmith.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_machinist.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/structures/village/houses/taiga_outfitter.nbt"
-hash = "02bd91b22d2f30acc7bcec34fd85ab7e2fff72038de6b51990cc28d2aacb9357"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/worldgen/configured_feature/bauxite.json"
-hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/worldgen/configured_feature/deep_nickel.json"
-hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/worldgen/configured_feature/lead.json"
-hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/worldgen/configured_feature/mineral_veins.json"
-hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/worldgen/configured_feature/nickel.json"
-hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/worldgen/configured_feature/silver.json"
-hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
-
-[[files]]
-file = "kubejs/data/immersiveengineering/worldgen/configured_feature/uranium.json"
-hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
-
-[[files]]
-file = "kubejs/server_scripts/global.js"
-hash = "6deb5117e10cd24637687448e3c06e8d523dbd81ff3ae8e31f7732eddc0731bc"
+file = "kubejs/server_scripts/global/recipes.js"
+hash = "b28078dbd106486376888540216a1725df21ded963007e477a0ad7bab41b56b1"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/conversions/convert-charging.js"
@@ -1294,11 +1054,11 @@ hash = "6837259099ae1d2f30fa5be74d717a15671c573e0ad374ec3cafc0c23cc2e27c"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/recipes.js"
-hash = "9b3889ab968297966bbeabe3ccfbedfb2ca8ac9d55c8cbeed11d4442977dedd4"
+hash = "a6e5ef7d69a2001f740a3b0cab0a034d5d57224af9be306716241795226cadbb"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/tags.js"
-hash = "14c4a8cb205a4ee93a69cf2cf5c801e12f2d922a761bc6e379314d947cb99fc6"
+hash = "b22c0de924cbb2d809d024c5395ffbc7bf4e024f2278a48ae95d1eadec9218e8"
 
 [[files]]
 file = "kubejs/server_scripts/tags/blocks/copper/copper.js"
@@ -1470,7 +1230,7 @@ hash = "4257278d557526ab4b813025fe4c5fc96bbef769baa447cae1dadeac013b57a3"
 
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
-hash = "a8491406081baeb107f3308787c48858fdb976d4170541c46f7322ff38f94887"
+hash = "6bc5ca3a675f88b96f8362da6263cd377af0f9befebbb44dcec2c921a2e93486"
 
 [[files]]
 file = "kubejs/startup_scripts/global/colours.js"
@@ -1482,75 +1242,71 @@ hash = "7947263944c26f335d1a634f9106ebe644e389511e04e70066ec8d136dc478b9"
 
 [[files]]
 file = "kubejs/startup_scripts/global/materials.js"
-hash = "5037399813b10ef2130d8ea108d21c3700ee63d57b18cc24f483cbfde8cfa9bc"
-
-[[files]]
-file = "kubejs/startup_scripts/standardize/global.js"
-hash = "3a3db517719185cb7976e53146d48649a955d76fca85c0c5b221dfa7c3a76a36"
+hash = "db7fcf60fbb2b8960da252b3360d32e131c7b34fb3c84090dcf7548658ba8f8b"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/hide-removed.js"
-hash = "f89141f955bd79995ff8bc0bbd6b1069a4a953e67f69c373c929d1055e410c3b"
+hash = "b704f263023b787b33dfacbd7f4d6fa26c5f4518993565f7078df69dd8550e8c"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/main.js"
+hash = "085c531caeeffc7926131d4992c4e7898b705b45e67b1cf97c590cd9e87e5e0d"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create-central-kitchen.js"
-hash = "1dd0a50541ca56a4fe2b7e8cc8dff2e174e387fe8e0674daa1081f7dfcec022a"
+hash = "44ef7253de3ee875f8991370820b8e5a54a75c0fa011a4c10b4d8d2605863a08"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create-connected.js"
-hash = "b8272b7a0f1ed599806865eafa44cf140a2f69950b0de6989e653f9256b3b183"
+hash = "4c8b0aa3ade34132cc9349e3f245c3c817a4fe4a1a2e3cbfc5fc94ede899694c"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create-craft-additions.js"
-hash = "598019d6086ef459c879b53468952757890e607d91b8f423bf8ef83edc37dd4d"
+hash = "e77e8ed2a79954a116fe764b4b8c7d47859742003f5ad0d98eed69695061e3af"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create-diesel-generators.js"
-hash = "8f066a56a961572f178d029fe97f032f46d0b145132a21b38910d2f35151ab5d"
+hash = "8b3eef72ac4ff4fbfc1befade396c87ec8bcdc382c85ac2ccb1219d7025a7742"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create-new-age.js"
-hash = "93692506f520a55d6061335e9753e0742d177f0e8cbb11fdcabc8f5517d37a69"
+hash = "6493f54552910108618cf3dfc1957407e4e45000ce292697cdecc8b7913aa004"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/create.js"
-hash = "629dbc49bc80aab7fa65ce3b5744e8109db884c80fceb960dc10b8084e860bab"
+hash = "063b5a5116a7c139367930eef9442d5cae601d73f5d0298be49d7445d0928d16"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/delightful.js"
-hash = "91cc2fd1f983ff2450ed091511221f57f46ec83dbf76eb864bbb6a3e7a8d0bc9"
+hash = "7c3e08d5e1f2357d0ff6264b8d57031eae384d9d40fa8c0c45c4041645f7ca98"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/farmers-delight.js"
-hash = "535987f4c1318263fb2d647b7f19494e8f7c5e5a718ab60ca3b34834e6199b0c"
-
-[[files]]
-file = "kubejs/startup_scripts/standardize/mods/immersive-engineering.js"
-hash = "8a2c8fd1d7dad7455e06d75233c823f0ca1f329ec70ec36d2b53e2c1c546f28f"
+hash = "0ebdacb3204a75295bb3e7e9bbba4c89ddefdecf6990127a2acebb909726605f"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/immersive-machinery.js"
-hash = "52af3dbbe03ee25b3e91087f6e54406e5f9cf29427c800d0ad10d823c1d6d4a1"
+hash = "b18932e105db7e629c7f03f42f4b63a6e23c5bd3a31a3436640dec561229ff73"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/minecraft.js"
-hash = "e1a98d351940f425e6e82399710a62f856408e6c3b9945903dcdb930538aa332"
+hash = "d1e8e265d8bb8a9ed5ef6b063d091409dece8a71fc868084b3a20e7658a1210e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/quark.js"
-hash = "25b3e7309d078226a7b349056704aac1f9318f2be252fb370484c38cb26a1b72"
+hash = "75ad6350c20d7a550c5fa73411d2ee78b07eb6977f26bdea9687ffb14a089c4f"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/scorched-guns.js"
-hash = "0f8405f555d32700b134b214e8d8bb28e18b2190b66887ae4875f2ba06d5f20f"
+hash = "dd09d80bb8cf29865ea9566e50d068515c4789c613bcb09c76cbb2e5a8b9cc07"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/tools-complement.js"
-hash = "7f895dcc49ee92b509d0896fab438d5682a3b6017979eb86b1264c06234d7280"
+hash = "5d1e11776978dae86310566ed4943ba933cd0aab183d04d573edb0570b898b4e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/woodworks.js"
-hash = "bf15af504461b699e422fe7e9e7c7b46c736fc6f55e809ed0d737dfaf9c0724f"
+hash = "7baac2f5429111b9a149d497da51f141a615e9a82ff01f11fbc346804ac722e6"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -1783,26 +1539,6 @@ hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
 metafile = true
 
 [[files]]
-file = "mods/ftb-library-forge.pw.toml"
-hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-forge.pw.toml"
-hash = "6ee8b1088f09da2ee136001c9282d7f2f32a15223d5bb2071b45b35115a0b0d5"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-forge.pw.toml"
-hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
-metafile = true
-
-[[files]]
-file = "mods/ftb-xmod-compat.pw.toml"
-hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
-metafile = true
-
-[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "82c1bd758e0562f94f461b297930876b64c2e99feea47b3815efb3da02e0a059"
 metafile = true
@@ -1843,18 +1579,8 @@ hash = "82f389d06c0e19d2ffcd75d5d85e0d9f09ec17178b8dd3e5afe9350a271e0443"
 metafile = true
 
 [[files]]
-file = "mods/immersive-engineering.pw.toml"
-hash = "6439c6f409308c4a89a12708b54cef41aa5382dc78e6f352b3e8005e96a21a8e"
-metafile = true
-
-[[files]]
 file = "mods/immersive-machinery.pw.toml"
 hash = "abf30f9ed0ce36e9df7b1e9d57a29a31d1302168c50bdfa1e2f47cf05ff60c95"
-metafile = true
-
-[[files]]
-file = "mods/item-filters.pw.toml"
-hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
 
 [[files]]
@@ -1920,11 +1646,6 @@ metafile = true
 [[files]]
 file = "mods/oculus.pw.toml"
 hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
-metafile = true
-
-[[files]]
-file = "mods/open-loader.pw.toml"
-hash = "a773f5a00bfad575c0f830ed0f67edbd6b99fa5c29a51d27d7cfcfef02b3dccb"
 metafile = true
 
 [[files]]
@@ -2055,16 +1776,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/cubic-sun-moon.pw.toml"
 hash = "987abf62fcc4e3dc807df91e549f20e95ff43b74a49c88ddbc395ea85d398b9b"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fast-better-grass.pw.toml"
-hash = "9ccc01c5b73a73990f2b1f32bfe408e3f1324625182d8ba8d6d7f2bb1100f0bb"
-metafile = true
-
-[[files]]
-file = "resourcepacks/updated-engineering.pw.toml"
-hash = "090341f6bbf3ef32c690a0a801b294613955e8d1be7230eba217d507fd416cf9"
 metafile = true
 
 [[files]]

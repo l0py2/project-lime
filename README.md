@@ -2,8 +2,6 @@
 
 ## Thanks to
 
-- [Immersive Engineering Break Switch Sound Replacement](https://www.curseforge.com/minecraft/texture-packs/immersive-engineering-break-switch-sound)
-- [Textures from Timeless and Classics Zero](https://github.com/MCModderAnchor/TACZ)
 - [Data Pack Generators](https://misode.github.io/)
 
 ## Added shader packs
@@ -14,8 +12,6 @@
 
 - [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack)
 - [Cubic Sun & Moon](https://www.curseforge.com/minecraft/texture-packs/cubic-sun-moon)
-- [Fast Better Grass](https://www.curseforge.com/minecraft/texture-packs/fast-better-grass)
-- [Updated Engineering](https://www.curseforge.com/minecraft/texture-packs/updated-engineering)
 
 ## Added mods
 
@@ -61,9 +57,6 @@
 - [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
 - [Exposure: Polaroid](https://www.curseforge.com/minecraft/mc-mods/exposure-polaroid)
 - [Exposure](https://www.curseforge.com/minecraft/mc-mods/exposure)
-- [FTB Library (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
-- [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge)
-- [FTB Teams (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
 - [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 - [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite)
 - [FerriteCore ((Neo)Forge)](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
@@ -77,7 +70,6 @@
 - [Hourglass](https://www.curseforge.com/minecraft/mc-mods/hourglass)
 - [Immersive Aircraft \[Fabric/Forge\]](https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft)
 - [Immersive Machinery \[Fabric/Forge\]](https://www.curseforge.com/minecraft/mc-mods/immersive-machinery)
-- [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters)
 - [JAOPCA](https://www.curseforge.com/minecraft/mc-mods/jaopca)
 - [Jade 🔍](https://www.curseforge.com/minecraft/mc-mods/jade)
 - [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei)
@@ -113,8 +105,6 @@
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
-- [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
-- [FTB XMod Compat](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat)
 
 ## Description
 

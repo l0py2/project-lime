@@ -43,6 +43,7 @@ SimpleRecipe.fromJson = (rawRecipe) => {
 
 function SimpleRecipe() {
 	this.modified = false;
+	this.empty = false;
 	this.json = {};
 	this.multipleInput = false;
 	
@@ -107,6 +108,7 @@ ShapedRecipe.fromJson = (rawRecipe) => {
 
 function ShapedRecipe() {
 	this.modified = false;
+	this.empty = false;
 	this.json = {};
 	this.multipleInputByKey = new Map();
 	
@@ -168,6 +170,7 @@ ShapelessRecipe.fromJson = (rawRecipe) => {
 
 function ShapelessRecipe() {
 	this.modified = false;
+	this.empty = false;
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
@@ -232,8 +235,8 @@ ServerEvents.recipes(event => {
 			recipe.replaceOutput(original, replacement);
 		}
 		
-		for(const [original, replacement] of global.itemTagReplacements) {
-			recipe.replaceInput(original, replacement);
+		for(const removedItem of global.removedItems) {
+			recipe.replaceInput(removedItem, global.id.MC('barrier'));
 		}
 	}
 	
