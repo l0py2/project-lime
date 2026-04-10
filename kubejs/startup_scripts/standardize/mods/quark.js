@@ -23,5 +23,7 @@ for(const type of global.materials.wood.minecraft) {
 }
 
 global.removedRecipes = global.removedRecipes.concat([
-	{ id: global.id.QK('building/crafting/furnaces/mixed_furnace') }
+	{ id: global.id.QK('building/crafting/furnaces/mixed_furnace') },
+	{ id: global.id.QK('tweaks/crafting/utility/chests/mixed_chest_wood') },
+	{ id: global.id.QK('building/crafting/chests/mixed_chest') }
 ]);

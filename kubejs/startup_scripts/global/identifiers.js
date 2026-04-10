@@ -21,7 +21,8 @@ global.id = {
 	DG: id => `createdieselgenerators:${id}`,
 	BB: id => `buzzier_bees:${id}`,
 	IM: id => `immersive_machinery:${id}`,
-	CD: id => `culturaldelights:${id}`
+	CD: id => `culturaldelights:${id}`,
+	OS: id => `sophisticatedstorage:${id}`
 };
 
 global.tag = {
@@ -45,5 +46,6 @@ global.tag = {
 	DG: id => `#createdieselgenerators:${id}`,
 	BB: id => `#buzzier_bees:${id}`,
 	IM: id => `#immersive_machinery:${id}`,
-	CD: id => `#culturaldelights:${id}`
+	CD: id => `#culturaldelights:${id}`,
+	OS: id => `#sophisticatedstorage:${id}`
 };

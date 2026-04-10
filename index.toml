@@ -794,7 +794,7 @@ hash = "86630c911ef13831fe61e44e88dcc2a38c3ed7d2cf198da405fcd5e8bec6bafa"
 
 [[files]]
 file = "config/sophisticatedstorage-common.toml"
-hash = "55a7b289f6d2ecb116d39b385fb8a883f8317734dd42f3be16af11380e26c0a3"
+hash = "9b9eef3b8738f24e8913e86d109d01176b7f16dfb83dc55781dd7edf997c4ccb"
 
 [[files]]
 file = "config/spelunkery-client.toml"
@@ -994,7 +994,7 @@ hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
 file = "kubejs/server_scripts/default-commands.js"
-hash = "ac408509a1b9584edc93f9f4ba40cb6c4c99637696082fa2aa041585a9617599"
+hash = "902d56934efed6513ebec644d1e59bf2c6367e7c7c78f9dd44a92560fcbf0f82"
 
 [[files]]
 file = "kubejs/server_scripts/global/id.js"
@@ -1250,7 +1250,7 @@ hash = "642301e7da2ba10564f4ff93a8de08fe0f4c9891d9d9c0859fe144dad83f486c"
 
 [[files]]
 file = "kubejs/startup_scripts/global/identifiers.js"
-hash = "f86438180e7d6630fa2b23591ad392c800f3c6053123ef3383ae68c3d0456c2c"
+hash = "b15bf59d07ba7c505fb3732a72d8b2db0a263e1a2126f8ab2ce131e290e4499c"
 
 [[files]]
 file = "kubejs/startup_scripts/global/materials.js"
@@ -1302,15 +1302,19 @@ hash = "b18932e105db7e629c7f03f42f4b63a6e23c5bd3a31a3436640dec561229ff73"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/minecraft.js"
-hash = "d1e8e265d8bb8a9ed5ef6b063d091409dece8a71fc868084b3a20e7658a1210e"
+hash = "71bf06003766ac2f5c7924304a7ee11895c50a92269bb1a9d735a529aae28148"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/quark.js"
-hash = "1102f350cf85f54db824093d1f1a0e356f54966f5368c22aac817b7e0adf05e2"
+hash = "63f0c94e7e9824ac82321644fbd9e044e32f955e516dd028b351362aee20c004"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/scorched-guns.js"
 hash = "dd09d80bb8cf29865ea9566e50d068515c4789c613bcb09c76cbb2e5a8b9cc07"
+
+[[files]]
+file = "kubejs/startup_scripts/standardize/mods/sophisticated-storage.js"
+hash = "85819471af4e478a1c61c3b7102a1aa34cc9d2217d362d8eed1887fccf9e5add"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/woodworks.js"
