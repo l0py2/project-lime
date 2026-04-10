@@ -154,7 +154,7 @@ hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
 file = "config/emi.css"
-hash = "a24e86e01d9d1495feecd01587925a2402febef5cba531c4ec0dc2bc679f0dd8"
+hash = "7f44dbc5c8bc7d4e4e70ec8b2b7a9e8c681fbb6c3a558e44fcb189db93c0dc11"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -726,7 +726,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6ef3985bbead2a0a81abf2989ee8ed4e21d084e90aaa09d2eb4617e63e28ff23"
+hash = "ddfcb9ccf77b9977b288c76901a63b9b3c3ed4717ba1435da0e3ff0c6f8e9790"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -734,7 +734,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "01cf9eeeb311b83d457245394b6be0fcceff7cd9595f2c56f3ccf593275ccef2"
+hash = "a34a56b4fce4ce77f00bc9d4303efe1f8a1cec4b0c135a5a6d2869e52d0943a0"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -974,7 +974,7 @@ hash = "9b92c1e6de99ab25e68a5b7adbace70e05116246d78a09bcf29456e5b115d885"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "beb87102534836dac7e6db0b0945f6b65ce079587afb8230d075f8f19ab6a8c7"
+hash = "fbfaca9c603f44f16be39461f88dc439d916822f2cb26e31c7cb136b1ecf84d8"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -1543,6 +1543,11 @@ hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "82c1bd758e0562f94f461b297930876b64c2e99feea47b3815efb3da02e0a059"
 metafile = true
@@ -1780,6 +1785,21 @@ metafile = true
 [[files]]
 file = "resourcepacks/cubic-sun-moon.pw.toml"
 hash = "987abf62fcc4e3dc807df91e549f20e95ff43b74a49c88ddbc395ea85d398b9b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-block-transitions.pw.toml"
+hash = "29e7e41a66e1c26606f33d59912139cd534ab14ef2c70bbba1da81702716422e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-glass.pw.toml"
+hash = "9558758e85c4d4e25da6c62d2381e24de2794f1307136ee9b4be98ed32baf6ad"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mt-bgs.pw.toml"
+hash = "7a575e3cd017f80abc535b85b619b4aac6d9626fa891695bec2a829cd572db4d"
 metafile = true
 
 [[files]]
