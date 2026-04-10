@@ -726,7 +726,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7f0f91128c1052489305ad3cd2354219e6a02cc5cd3f42b9fed26b770ea2a4cb"
+hash = "6ef3985bbead2a0a81abf2989ee8ed4e21d084e90aaa09d2eb4617e63e28ff23"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -734,7 +734,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "fc9d5bb9e82725f0f993f10f4ad4c71ea7e4526b93f8f9d0da375795131a8c7b"
+hash = "01cf9eeeb311b83d457245394b6be0fcceff7cd9595f2c56f3ccf593275ccef2"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -985,6 +985,10 @@ file = "kubejs/data/create_new_age/worldgen/configured_feature/magnetite_block.j
 hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
+file = "kubejs/server_scripts/default-commands.js"
+hash = "ac408509a1b9584edc93f9f4ba40cb6c4c99637696082fa2aa041585a9617599"
+
+[[files]]
 file = "kubejs/server_scripts/global/id.js"
 hash = "ac9be5151041d0e8aaa220922fe562a84e304c8409fe2c44b1e9abfa40e118c5"
 
@@ -1054,7 +1058,7 @@ hash = "6837259099ae1d2f30fa5be74d717a15671c573e0ad374ec3cafc0c23cc2e27c"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/recipes.js"
-hash = "7c11f80e790a22fdbb382509447d4acb5137b35bbdbd952d8bc482c34d0ace2a"
+hash = "c316e959f40e5789621430e4bad8438b055a879cff71f5e13c2edacdb4cd2e39"
 
 [[files]]
 file = "kubejs/server_scripts/standardize/tags.js"
@@ -1246,7 +1250,7 @@ hash = "db7fcf60fbb2b8960da252b3360d32e131c7b34fb3c84090dcf7548658ba8f8b"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/hide-removed.js"
-hash = "b704f263023b787b33dfacbd7f4d6fa26c5f4518993565f7078df69dd8550e8c"
+hash = "f0145b7b1a09c907fd68f809e15afc019ae68e333e089b277f5c82ba07abd73e"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/main.js"
