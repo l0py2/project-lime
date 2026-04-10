@@ -12,6 +12,9 @@
 
 - [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack)
 - [Cubic Sun & Moon](https://www.curseforge.com/minecraft/texture-packs/cubic-sun-moon)
+- [Fusion Connected Glass](https://www.curseforge.com/minecraft/texture-packs/fusion-connected-glass)
+- [Fusion Block Transitions](https://www.curseforge.com/minecraft/texture-packs/fusion-block-transitions)
+- [Midnighttigger's Better Grass](https://www.curseforge.com/minecraft/texture-packs/mt-bgs)
 
 ## Added mods
 
@@ -104,6 +107,13 @@
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
+- [Fusion (Connected Textures)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures)
+- [Advanced Netherite (Forge / NeoForge)](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite)
+- [Spelunkery](https://www.curseforge.com/minecraft/mc-mods/spelunkery)
+- [Alex's Delight](https://www.curseforge.com/minecraft/mc-mods/alexs-delight)
+- [Alex's Mobs](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs)
+- [Citadel](https://www.curseforge.com/minecraft/mc-mods/citadel)
+- [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights)
 
 ## Description
 
