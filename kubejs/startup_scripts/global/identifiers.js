@@ -1,8 +1,8 @@
 //priority: 100
 
 global.id = {
-	MC: id => `minecraft:${id}`,
 	M: id => `forge:${id}`,
+	MC: id => `minecraft:${id}`,
 	KJ: id => `kubejs:${id}`,
 	CR: id => `create:${id}`,
 	WW: id => `woodworks:${id}`,
@@ -19,17 +19,14 @@ global.id = {
 	CA: id => `createaddition:${id}`,
 	PG: id => `powergrid:${id}`,
 	DG: id => `createdieselgenerators:${id}`,
-	TC: id => `tools_complement:${id}`,
-	FQ: id => `ftbquests:${id}`,
-	JA: id => `jaopca:${id}`,
 	BB: id => `buzzier_bees:${id}`,
 	IM: id => `immersive_machinery:${id}`,
-	IE: id => `immersiveengineering:${id}`
+	CD: id => `culturaldelights:${id}`
 };
 
 global.tag = {
-	MC: id => `#minecraft:${id}`,
 	M: id => `#forge:${id}`,
+	MC: id => `#minecraft:${id}`,
 	KJ: id => `#kubejs:${id}`,
 	CR: id => `#create:${id}`,
 	WW: id => `#woodworks:${id}`,
@@ -46,10 +43,7 @@ global.tag = {
 	CA: id => `#createaddition:${id}`,
 	PG: id => `#powergrid:${id}`,
 	DG: id => `#createdieselgenerators:${id}`,
-	TC: id => `#tools_complement:${id}`,
-	FQ: id => `#ftbquests:${id}`,
-	JA: id => `#jaopca:${id}`,
 	BB: id => `#buzzier_bees:${id}`,
 	IM: id => `#immersive_machinery:${id}`,
-	IE: id => `#immersiveengineering:${id}`
+	CD: id => `#culturaldelights:${id}`
 };
