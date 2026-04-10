@@ -114,6 +114,11 @@
 - [Alex's Mobs](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs)
 - [Citadel](https://www.curseforge.com/minecraft/mc-mods/citadel)
 - [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights)
+- [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
+- [Sophisticated Storage Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)
+- [Sophisticated Backpacks Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-create-integration)
+- [Create: Extra Gauges](https://www.curseforge.com/minecraft/mc-mods/create-extra-gauges)
+- [Create: Alloyed](https://www.curseforge.com/minecraft/mc-mods/create-alloyed)
 
 ## Description
 

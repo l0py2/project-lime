@@ -561,6 +561,14 @@ file = "config/exposure_polaroid-client.toml"
 hash = "e0c59418446049b8ff1226a38ee817d05fea08a4f444b9aeb0677d5286ef1765"
 
 [[files]]
+file = "config/extra_gauges-client.toml"
+hash = "4e6cd820b21809464268a562cc1388d3ed0484086df271946a7b128e40b08092"
+
+[[files]]
+file = "config/extra_gauges-common.toml"
+hash = "c4a4c23880a6d55064f1a5a741ab94e26b410fb09e1f185e015ae02790ebe45a"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "e5f8f5743c23e6c1e569070d720f91e66495e8da03550a0d37d9a07c6d543014"
 
@@ -1102,7 +1110,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4cc0108cc7520bab4a27d50e92a627c19bb761a450695b3ba34fe96b19fddd9f"
+hash = "495ea0044c4c2293b16fdbddd348bdb52553c19740040ef86220e650fb281fb3"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -1110,7 +1118,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "ee4daeb249980c5462d57035646c0f9ef3c7fcf8554d48c0e75b950d3c4e41c5"
+hash = "713f2e23b806a5badb0344c32c4f9aac07f7426f2bffc1fdb9f5074d78686511"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1170,7 +1178,15 @@ hash = "3175ac14ac1da55ba706d1f0321c0b5620cd968a381e60323b283778e7b6d9e6"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "92936a4d0b6da633fa1f49750cc55d7cde372f08d85dec0b3d56d71cafbaf193"
+hash = "ac9416c7a986462d82b063f5b632e953f86462cd7cdcf905eebc80547aaf7cfd"
+
+[[files]]
+file = "config/sophisticatedstorage-client.toml"
+hash = "86630c911ef13831fe61e44e88dcc2a38c3ed7d2cf198da405fcd5e8bec6bafa"
+
+[[files]]
+file = "config/sophisticatedstorage-common.toml"
+hash = "55a7b289f6d2ecb116d39b385fb8a883f8317734dd42f3be16af11380e26c0a3"
 
 [[files]]
 file = "config/spelunkery-client.toml"
@@ -1190,7 +1206,7 @@ hash = "33057c518c3901a5bfadedb064c0bcfbd6fc6fcb7519736ac11e4c9e440ae4d8"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "960f6ab5f13a3e2e439545c825762d661f24f7a183746c5708fbb78c4aadda77"
+hash = "4ca79cfa521663d93dce1f48f4fce79cf56f4069a2ebc9b231f724997bf9a10f"
 
 [[files]]
 file = "config/suppsquared-common.toml"
@@ -1817,6 +1833,11 @@ hash = "6a18fc2c584371e5f5fe6b621980e3ae4695bff2c5e90d7758c4acbf099743b0"
 metafile = true
 
 [[files]]
+file = "mods/create-alloyed.pw.toml"
+hash = "573972b3639d8111d9863145853f2c5412b46e5668b9c66e42d99bffcc5d2717"
+metafile = true
+
+[[files]]
 file = "mods/create-aquatic-ambitions.pw.toml"
 hash = "76c45d397433d35d337e4a7ff523800b9d39a3c9b5e3dd56e3db6d7cfd31e675"
 metafile = true
@@ -1839,6 +1860,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "200b30b8eeaaf2fa9e8345fcabdd80f6195b5af67926fb1e277931100e7e1eff"
+metafile = true
+
+[[files]]
+file = "mods/create-extra-gauges.pw.toml"
+hash = "b4066f8ee6f30a59e0550e258e5ef15e59bcb20eac3ec06af4bf2e1d772c3707"
 metafile = true
 
 [[files]]
@@ -2127,6 +2153,11 @@ hash = "8c1ddc34636bfb9ab2209a4d387900f03682a65ed5fcf8b5027ffdd9ba49880f"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "0462f0b658c766e1ccb9974f576090713738606d6513aba89cf8d5ba2b00847b"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "5b701d850f295b0e6ba578fe5599f533a1930a4b17458dce3f20d7b02c050065"
 metafile = true
@@ -2134,6 +2165,16 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "4e24dc04cef348fd40e0967e05446343665e02f201dc80731272416214054c22"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "f1041536d5be1416653a6901482b7c15853e6157a36b83e2e6b9f5049a047835"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "eda4fa4321ceb00a56bafcebc9097e500eda91abc8ae98b850f5d7525cbbde8c"
 metafile = true
 
 [[files]]
