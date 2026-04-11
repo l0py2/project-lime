@@ -994,7 +994,7 @@ hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
 file = "kubejs/server_scripts/block-conversions/apply.js"
-hash = "e3ed701139104f56384e8f3ce17bf2318630823b3d24c8d2da7eeff43e30027d"
+hash = "c13cf02d33ff87db8ac22d783f88daa0cd2675618bf9e424aa3c0d3c99bea7c0"
 
 [[files]]
 file = "kubejs/server_scripts/block-conversions/main.js"
@@ -1173,12 +1173,8 @@ file = "kubejs/server_scripts/default-commands.js"
 hash = "902d56934efed6513ebec644d1e59bf2c6367e7c7c78f9dd44a92560fcbf0f82"
 
 [[files]]
-file = "kubejs/server_scripts/global/id.js"
-hash = "ac9be5151041d0e8aaa220922fe562a84e304c8409fe2c44b1e9abfa40e118c5"
-
-[[files]]
 file = "kubejs/server_scripts/global/recipes.js"
-hash = "b28078dbd106486376888540216a1725df21ded963007e477a0ad7bab41b56b1"
+hash = "90b32ebd59ce0ec0989e521dcb633735c13ec52aa67b8f7db14b2729809d7961"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/conversions/convert-charging.js"

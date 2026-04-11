@@ -120,14 +120,79 @@ ServerEvents.recipes(event => {
 		}
 	}
 	
+	function getOriginalBlock(blockVariant, sufix) {
+		const [mod, blockName] = blockVariant.split(':');
+		const rawBlockName = blockName.replace('_' + sufix, '');
+		let blockId = 'minecraft:air';
+		
+		blockId = Item.of(rawBlockName + '_planks').id;
+			
+		if(blockId != 'minecraft:air') {
+			return blockId;
+		}
+		
+		blockId = Item.of(rawBlockName + '_block').id;
+		
+		if(blockId != 'minecraft:air') {
+			return blockId;
+		}
+		
+		blockId = Item.of(rawBlockName + 's').id; // For plural blocks like bricks
+			
+		if(blockId != 'minecraft:air') {
+			return blockId;
+		}
+		
+		blockId = Item.of(`${mod}:${rawBlockName}`).id; // To prevent naming collisions
+		
+		if(blockId != 'minecraft:air') {
+			return blockId;
+		}
+		
+		blockId = Item.of(rawBlockName).id;
+		
+		if(blockId != 'minecraft:air') {
+			return blockId;
+		}
+		
+		return 'minecraft:air';
+	}
+	
+	function revertBlockVariant(event, blocks, value, baseSufix) {
+		for(const block of blocks) {
+			let sufix = baseSufix;
+			
+			if(baseSufix == 'wall') {
+				if(block.includes('fence_gate')) {
+					sufix = 'fence_gate';
+				} else if(block.includes('pane')) {
+					sufix = 'pane';
+				} else if(block.includes('fence')) {
+					sufix = 'fence';
+				}
+			}
+			
+			let originalBlock = getOriginalBlock(block, sufix);
+			
+			if(originalBlock != 'minecraft:air') {
+				event.remove({ input: block, output: originalBlock });
+				
+				event.shapeless(
+					originalBlock,
+					[Item.of(block, value)]
+				);
+			}
+		}
+	}
+	
 	for(const blockType of global.blockConversions.types) {
 		let slabTag = global.tag.KJ(`slab_types/${blockType}`);
-		global.recipes.revertBlockVariant(event, Ingredient.of(slabTag).itemIds, 2, 'slab');
+		revertBlockVariant(event, Ingredient.of(slabTag).itemIds, 2, 'slab');
 		
 		let stairTag = global.tag.KJ(`stair_types/${blockType}`);
-		global.recipes.revertBlockVariant(event, Ingredient.of(stairTag).itemIds, 1, 'stairs');
+		revertBlockVariant(event, Ingredient.of(stairTag).itemIds, 1, 'stairs');
 		
 		let wallTag = global.tag.KJ(`wall_types/${blockType}`);
-		global.recipes.revertBlockVariant(event, Ingredient.of(wallTag).itemIds, 2, 'wall');
+		revertBlockVariant(event, Ingredient.of(wallTag).itemIds, 2, 'wall');
 	}
 });
