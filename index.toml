@@ -1659,7 +1659,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
+hash = "f0d2394f2d9c3e7d25f744aabc26fbc806eb8694e239b333cfe56e4a6df07f17"
 metafile = true
 
 [[files]]
@@ -1749,7 +1749,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "5b701d850f295b0e6ba578fe5599f533a1930a4b17458dce3f20d7b02c050065"
+hash = "74bbe56aa4d02368cf42e9ae1a873aab1783fcf1e56f07592cf897ee4f9bd1c1"
 metafile = true
 
 [[files]]
