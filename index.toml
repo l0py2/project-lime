@@ -706,7 +706,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "3720deebb7e923b97f1c60b910d3590f41fdc80792b18f20b75ba0cd90ec6ebd"
+hash = "a98afb4f389eb14bf8ce5d295492d9a0d548ec1b537c84d020b5bfdf5e7a2c8f"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -718,7 +718,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "56a9a6753b47c50d11978e2ce6bee08e0b7ef50bb0ccc5b33a552e76d432427f"
+hash = "d7be20335c4b52c9d526bf3b5c3bc0a5bea487b010114d54c8cc92b1f95bed08"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -726,7 +726,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9ce2d32c569f9de68661c46965b802cf43fc87ba62c840f0b856a0f5ca4db942"
+hash = "901ba7e4e8e327c2da6efceba071a8a7944767ebd71ab4d284148a026386b0d8"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1425,11 +1425,6 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "6a18fc2c584371e5f5fe6b621980e3ae4695bff2c5e90d7758c4acbf099743b0"
-metafile = true
-
-[[files]]
-file = "mods/create-alloyed.pw.toml"
-hash = "573972b3639d8111d9863145853f2c5412b46e5668b9c66e42d99bffcc5d2717"
 metafile = true
 
 [[files]]
