@@ -10,16 +10,28 @@ global.removedItems = global.removedItems.concat([
 for(const type of global.materials.wood.minecraft) {
 	global.removedItems.push(global.id.QK(`${type}_chest`));
 	global.removedItems.push(global.id.QK(`${type}_trapped_chest`));
-
-	global.dropReplacements.push([
-		global.id.QK(`${type}_chest`),
-		global.id.WW(`${type}_chest`)
-	]);
 	
-	global.dropReplacements.push([
-		global.id.QK(`${type}_trapped_chest`),
-		global.id.WW(`trapped_${type}_chest`)
-	]);
+	if(type == 'bamboo') {
+		global.dropReplacements.push([
+			global.id.QK(`${type}_chest`),
+			global.id.WW(`${type}_closet`)
+		]);
+		
+		global.dropReplacements.push([
+			global.id.QK(`${type}_trapped_chest`),
+			global.id.WW(`trapped_${type}_closet`)
+		]);
+	} else {
+		global.dropReplacements.push([
+			global.id.QK(`${type}_chest`),
+			global.id.WW(`${type}_chest`)
+		]);
+		
+		global.dropReplacements.push([
+			global.id.QK(`${type}_trapped_chest`),
+			global.id.WW(`trapped_${type}_chest`)
+		]);
+	}
 }
 
 global.removedRecipes = global.removedRecipes.concat([

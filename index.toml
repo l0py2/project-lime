@@ -1213,6 +1213,10 @@ file = "kubejs/server_scripts/recipes/mods/scorched-guns.js"
 hash = "5e64327a528a1090d4c211354d96a3f09e131ec875d339e50209f157a339978f"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/mods/sophisticated-storage.js"
+hash = "20823bbf4bc2fccdcd07b6b5bf02ac5beb168825f079d7c5cccf38d6313c7995"
+
+[[files]]
 file = "kubejs/server_scripts/standardize/loot.js"
 hash = "6837259099ae1d2f30fa5be74d717a15671c573e0ad374ec3cafc0c23cc2e27c"
 
@@ -1294,7 +1298,7 @@ hash = "71bf06003766ac2f5c7924304a7ee11895c50a92269bb1a9d735a529aae28148"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/quark.js"
-hash = "63f0c94e7e9824ac82321644fbd9e044e32f955e516dd028b351362aee20c004"
+hash = "70e14009e144a0bccf0035a1f3f05c47c188a32bc1e04f1f86854050499ff1d3"
 
 [[files]]
 file = "kubejs/startup_scripts/standardize/mods/scorched-guns.js"
