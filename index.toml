@@ -966,7 +966,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
-hash = "47ee344cefbfe472fbbc9f73483386de16e7bb709fbb04c53004d954459e0769"
+hash = "dc52c4b312fc405e8dcf0145fb8bcc91dc1978cd8ee60dc946903a78364859df"
 
 [[files]]
 file = "kubejs/client_scripts/standardize.js"
