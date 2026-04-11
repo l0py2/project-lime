@@ -993,6 +993,190 @@ file = "kubejs/data/create_new_age/worldgen/configured_feature/magnetite_block.j
 hash = "3e24e7fe9b2a75daa7feb12dc0bed24f585ef66d2e2cf9c566c28af408cbd576"
 
 [[files]]
+file = "kubejs/server_scripts/block-conversions/apply.js"
+hash = "4516df45b41be8e98ad6843e74203393621203c5340c131b849e04485b3edd55"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/main.js"
+hash = "40e8854c0e72fd1e3f94fc94837ee26399252faf4fa7263f6691566de7c61253"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/recipes/stone.js"
+hash = "96500d171722ad6aa56ff983d7e8ba450d93067537414ce08ed2a942d8f7211f"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/recipes/wood.js"
+hash = "e858b1d75b1901a2c1c179bce4f734be133c70852cc6245397fdd0ac9e9f26ff"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/copper/copper.js"
+hash = "a079e23a1c6f6185ca3037afd0adf5950101fdcda248705271b8a55a3de4a678"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/copper/oxidized-copper.js"
+hash = "93e36cdd750330ba1ffce6bbfa83a126ee88b03b08f53b8f9a93fbe5d0e3dcda"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/copper/waxed-copper.js"
+hash = "c188f8ec331dcfb0bf4787a50b5135d7b0f86b70585540e778d324e14e44f173"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/glass/framed-glass.js"
+hash = "da04be68682adbafd5806ca8171f3d4c8928d7e713a4d809da45870b63660c61"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/glass/glass.js"
+hash = "c289d3a8224e7041702753bde43ebd5d5bdec8cbba907286d0d751651401f0d6"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/create-diesel-generators/asphalt.js"
+hash = "0c1a742979c28c3a8efab2ab4820ade299506b1378bd12d7de7ad0ac1d5f8ccb"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/create/common-variants.js"
+hash = "46ad9c31a39fde49abcb095d762c89620f11f86ceea6ddfd7215321c266537a3"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/create/create-stones.js"
+hash = "d7796638e1607126eaeccdf7a5afce678b209b209aa50fd7b692781db643386a"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/handcrafted/trims.js"
+hash = "a559a7c80b1699e366ceba7e6de17f42940862805c9533ee6b1a788cd2002a94"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/basalt.js"
+hash = "f4b7fa745fc805b2d7d79a28f90978953ce582e32b868329acfeba515c97ec98"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/blackstone.js"
+hash = "d363ab34834a226235aac08b0929cb2ad217b667bb419496957294dc09f20930"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/brick.js"
+hash = "373ab11260008408a6aceef6c43f97977552b7c4916f46a45906ed4f095f164a"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/calcite.js"
+hash = "838c80d4f5ae61d123d0f781fe3551faa82c50f58e6b2a79c32a971226ae80e8"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/dark-prismarine.js"
+hash = "6e662933b9a4a5483cb776064c3f85c4fc802c538750a9ce25ea206ff7136ccb"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/deepslate.js"
+hash = "462b0511db7bc28a7c4beddea9730e2b7a6b426e2d53b034bc6c38753ca47fb6"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/dripstone.js"
+hash = "02517f256f21b72efff2cca362c6b4ac71d21cb57f263c253180248855b820e2"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/end-stone.js"
+hash = "a5da39dff7d2c61536ecde93403f7bd2dcb762f4ef55c0567d6f768bf35b0408"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/honey.js"
+hash = "27a235fe74105f83804d117b9eeda611ced3d3e79bb5b679d7b261769c0f4971"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/miscellaneous-stones.js"
+hash = "6b2ca92a5255c179504aaf692e25bcd385eb910b9ea83e74cf50b61d1988a482"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/mossy-stone.js"
+hash = "e1469fadc7c9595ae40cf1a30b32fe9facb17c2cf6fe40b3294833e4e286485d"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/mud.js"
+hash = "ddda45c44aadbb813f569c273cc6e9952ed6f9c94e8e57589a8495e7dfa60a0a"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/nether-brick.js"
+hash = "1e97863bbfb9733b68690b244d6daa60e9c9cc29beaa41dbd44f330c8fdbd9b8"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/netherrack.js"
+hash = "3cbc98e77613e2359d22597a5502deeec51a4f1818cb4c3522f36b72b196a084"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/prismarine.js"
+hash = "501399285f49f143562a08421f5062af88a68541d92ceefd23203bdc8a58e9b1"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/purpur.js"
+hash = "cbf1bf760756a99f4f25b8e9e007f9001ee6202ee4287bb49e1cffb81533a79f"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/quartz.js"
+hash = "734690f14059840fcd844729f65e11e6bd4c5e07bd1dd207629491c8b83a22c3"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/red-nether-brick.js"
+hash = "605b415ad203cedb18338180f8218432ced4cc0706b1d6d2773cf82a8e851aea"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/red-sand.js"
+hash = "a25a361421e6100a7ace3be97003f982aef663d167ce0f0795ffb5c9e397e6dc"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/sand.js"
+hash = "19f107b3ba663482bd3c3d327a51192403ca522285b5d5b7000726be9c5bce1b"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/soul-sand.js"
+hash = "a808219bec0730e31482d81c5cde5bc88cc8cbde5d326cfe5f75f460a01d4e61"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/stone.js"
+hash = "f6173e4f4c8da67550ad63d169a97a782d825318a2bb35a80d94d45a95252c06"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/terracotta.js"
+hash = "f1f5b6e59a1ef9206564ddc2c4e6be38aca773a7c78df2cf536cf1894d7635e3"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/minecraft/tuff.js"
+hash = "99f392364a310d3872f6660c520f64f41424cb5c9bd195de4c95186b8330b6fb"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/quark/blue-nether-brick.js"
+hash = "010c4e8ed16a90ce563b3401c839f4792ddf3e3a1856184b1c98995dd1cef62a"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/quark/permafrost.js"
+hash = "186662002d54f9bff5691bb31c210614e8757878d9fe6810d682266747fb36b5"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/scorched-guns/asgharian.js"
+hash = "c37c6ec17f0b0d7b0524f64cefee1dc16570befcb9529a1fee5d14c743833425"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/scorched-guns/mossy-asgharian.js"
+hash = "1c4da71e0f77db45f23a4123e3485ce185b67bc9d07c50a3435a02e5edac076a"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/scorched-guns/phosphorite.js"
+hash = "dd6664c84fb82d22d6c55775b6f9a4c0f42589cbb2290999ff529b582852814a"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/supplementaries/ash-brick.js"
+hash = "52bd47ac6a524bb91a97b654bb6189ce262ec69fb851bd46cf3cda8d3e49d43c"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/stone/supplementaries/checker.js"
+hash = "66466e0039be5478ab6347ab453a12d827e7cfd43e78df447baf1ef81236d2c1"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/wood/bamboo.js"
+hash = "befae5f972777b00337ade577d3e856f91ef8ce21a9f0f29cc7712518bf0b842"
+
+[[files]]
+file = "kubejs/server_scripts/block-conversions/tags/wood/minecraft.js"
+hash = "4257278d557526ab4b813025fe4c5fc96bbef769baa447cae1dadeac013b57a3"
+
+[[files]]
 file = "kubejs/server_scripts/default-commands.js"
 hash = "902d56934efed6513ebec644d1e59bf2c6367e7c7c78f9dd44a92560fcbf0f82"
 
@@ -1025,22 +1209,6 @@ file = "kubejs/server_scripts/recipes/core/wood-complements.js"
 hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/cutting/copper.js"
-hash = "6e7d74b6657ae789fd4c49e6bf581400c379305e65184e879f6d0ddb3bcf19c0"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/cutting/glass.js"
-hash = "9bb32469165c384f1ceae75c4dc3db1e0cdf8ddfabae5f89fcb34d91c8756ad7"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/cutting/stone.js"
-hash = "96500d171722ad6aa56ff983d7e8ba450d93067537414ce08ed2a942d8f7211f"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/cutting/wood.js"
-hash = "e858b1d75b1901a2c1c179bce4f734be133c70852cc6245397fdd0ac9e9f26ff"
-
-[[files]]
 file = "kubejs/server_scripts/recipes/mods/create-power-grid.js"
 hash = "7252c64267a42924a37910fcad929d3297d60324bb8a66cae79e4d2eeaa5d23a"
 
@@ -1067,174 +1235,6 @@ hash = "c316e959f40e5789621430e4bad8438b055a879cff71f5e13c2edacdb4cd2e39"
 [[files]]
 file = "kubejs/server_scripts/standardize/tags.js"
 hash = "b22c0de924cbb2d809d024c5395ffbc7bf4e024f2278a48ae95d1eadec9218e8"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/copper/copper.js"
-hash = "dd7b61f348f27fcad2b8d7cbd2bcb6be09df7bc09fe104346a29ccb6efa2a67d"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/copper/oxidized-copper.js"
-hash = "d87b0ee4f07071a0d77263472a58cbbaa9acdc555553c7ca651ad7e1f807290b"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/copper/waxed-copper.js"
-hash = "43906cb593ca2fc5f6cff21a78c679967949da263b53cd50eca7beaede89d781"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/glass/framed-glass.js"
-hash = "3e0685c6bdb672141f87d4bd309cb067108ad9a1ad39b2074d046c977f9d2c4c"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/glass/glass.js"
-hash = "cac3144dc0517b20ff5ae713c6d20a5e592e17c502a20838d67649a554389cd5"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/create-diesel-generators/asphalt.js"
-hash = "0c1a742979c28c3a8efab2ab4820ade299506b1378bd12d7de7ad0ac1d5f8ccb"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/create/common-variants.js"
-hash = "46ad9c31a39fde49abcb095d762c89620f11f86ceea6ddfd7215321c266537a3"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/create/create-stones.js"
-hash = "d7796638e1607126eaeccdf7a5afce678b209b209aa50fd7b692781db643386a"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/handcrafted/trims.js"
-hash = "a559a7c80b1699e366ceba7e6de17f42940862805c9533ee6b1a788cd2002a94"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/basalt.js"
-hash = "f4b7fa745fc805b2d7d79a28f90978953ce582e32b868329acfeba515c97ec98"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/blackstone.js"
-hash = "d363ab34834a226235aac08b0929cb2ad217b667bb419496957294dc09f20930"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/brick.js"
-hash = "373ab11260008408a6aceef6c43f97977552b7c4916f46a45906ed4f095f164a"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/calcite.js"
-hash = "838c80d4f5ae61d123d0f781fe3551faa82c50f58e6b2a79c32a971226ae80e8"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/dark-prismarine.js"
-hash = "6e662933b9a4a5483cb776064c3f85c4fc802c538750a9ce25ea206ff7136ccb"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/deepslate.js"
-hash = "462b0511db7bc28a7c4beddea9730e2b7a6b426e2d53b034bc6c38753ca47fb6"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/dripstone.js"
-hash = "02517f256f21b72efff2cca362c6b4ac71d21cb57f263c253180248855b820e2"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/end-stone.js"
-hash = "a5da39dff7d2c61536ecde93403f7bd2dcb762f4ef55c0567d6f768bf35b0408"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/honey.js"
-hash = "27a235fe74105f83804d117b9eeda611ced3d3e79bb5b679d7b261769c0f4971"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/miscellaneous-stones.js"
-hash = "6b2ca92a5255c179504aaf692e25bcd385eb910b9ea83e74cf50b61d1988a482"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/mossy-stone.js"
-hash = "e1469fadc7c9595ae40cf1a30b32fe9facb17c2cf6fe40b3294833e4e286485d"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/mud.js"
-hash = "ddda45c44aadbb813f569c273cc6e9952ed6f9c94e8e57589a8495e7dfa60a0a"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/nether-brick.js"
-hash = "1e97863bbfb9733b68690b244d6daa60e9c9cc29beaa41dbd44f330c8fdbd9b8"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/netherrack.js"
-hash = "3cbc98e77613e2359d22597a5502deeec51a4f1818cb4c3522f36b72b196a084"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/prismarine.js"
-hash = "501399285f49f143562a08421f5062af88a68541d92ceefd23203bdc8a58e9b1"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/purpur.js"
-hash = "cbf1bf760756a99f4f25b8e9e007f9001ee6202ee4287bb49e1cffb81533a79f"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/quartz.js"
-hash = "734690f14059840fcd844729f65e11e6bd4c5e07bd1dd207629491c8b83a22c3"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/red-nether-brick.js"
-hash = "605b415ad203cedb18338180f8218432ced4cc0706b1d6d2773cf82a8e851aea"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/red-sand.js"
-hash = "a25a361421e6100a7ace3be97003f982aef663d167ce0f0795ffb5c9e397e6dc"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/sand.js"
-hash = "19f107b3ba663482bd3c3d327a51192403ca522285b5d5b7000726be9c5bce1b"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/soul-sand.js"
-hash = "a808219bec0730e31482d81c5cde5bc88cc8cbde5d326cfe5f75f460a01d4e61"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/stone.js"
-hash = "f6173e4f4c8da67550ad63d169a97a782d825318a2bb35a80d94d45a95252c06"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/terracotta.js"
-hash = "f1f5b6e59a1ef9206564ddc2c4e6be38aca773a7c78df2cf536cf1894d7635e3"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/minecraft/tuff.js"
-hash = "99f392364a310d3872f6660c520f64f41424cb5c9bd195de4c95186b8330b6fb"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/quark/blue-nether-brick.js"
-hash = "010c4e8ed16a90ce563b3401c839f4792ddf3e3a1856184b1c98995dd1cef62a"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/quark/permafrost.js"
-hash = "186662002d54f9bff5691bb31c210614e8757878d9fe6810d682266747fb36b5"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/scorched-guns/asgharian.js"
-hash = "c37c6ec17f0b0d7b0524f64cefee1dc16570befcb9529a1fee5d14c743833425"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/scorched-guns/mossy-asgharian.js"
-hash = "1c4da71e0f77db45f23a4123e3485ce185b67bc9d07c50a3435a02e5edac076a"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/scorched-guns/phosphorite.js"
-hash = "dd6664c84fb82d22d6c55775b6f9a4c0f42589cbb2290999ff529b582852814a"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/supplementaries/ash-brick.js"
-hash = "52bd47ac6a524bb91a97b654bb6189ce262ec69fb851bd46cf3cda8d3e49d43c"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/stone/supplementaries/checker.js"
-hash = "66466e0039be5478ab6347ab453a12d827e7cfd43e78df447baf1ef81236d2c1"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/wood/bamboo.js"
-hash = "befae5f972777b00337ade577d3e856f91ef8ce21a9f0f29cc7712518bf0b842"
-
-[[files]]
-file = "kubejs/server_scripts/tags/blocks/wood/minecraft.js"
-hash = "4257278d557526ab4b813025fe4c5fc96bbef769baa447cae1dadeac013b57a3"
 
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
