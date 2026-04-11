@@ -17,6 +17,12 @@ ServerEvents.recipes(event => {
 			});
 			
 			event.remove({
+				type: global.id.CR('cutting'),
+				input: blockTag,
+				output: block
+			});
+			
+			event.remove({
 				type: global.id.MC('smelting'),
 				input: blockTag,
 				output: block
@@ -44,6 +50,11 @@ ServerEvents.recipes(event => {
 				type: global.id.MC('stonecutting'),
 				output: slab
 			});
+			
+			event.remove({
+				type: global.id.CR('cutting'),
+				output: slab
+			});
 				
 			event.remove({
 				type: global.id.MC('crafting_shaped'),
@@ -61,6 +72,11 @@ ServerEvents.recipes(event => {
 				type: global.id.MC('stonecutting'),
 				output: stair
 			});
+			
+			event.remove({
+				type: global.id.CR('cutting'),
+				output: stair
+			});
 				
 			event.remove({
 				type: global.id.MC('crafting_shaped'),
@@ -76,6 +92,11 @@ ServerEvents.recipes(event => {
 		for(const wall of Ingredient.of(wallTag).itemIds) {
 			event.remove({
 				type: global.id.MC('stonecutting'),
+				output: wall
+			});
+			
+			event.remove({
+				type: global.id.CR('cutting'),
 				output: wall
 			});
 				

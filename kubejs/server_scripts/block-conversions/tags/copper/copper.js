@@ -1,6 +1,6 @@
 //priority: 49
 
-global.blockConversions.types.push('copper');
+global.blockConversions.types.add('copper');
 
 global.blockConversions.tags.push([global.id.KJ('block_types/copper'), global.id.MC('copper_block')]);
 global.blockConversions.tags.push([global.id.KJ('block_types/copper'), global.id.MC('cut_copper')]);

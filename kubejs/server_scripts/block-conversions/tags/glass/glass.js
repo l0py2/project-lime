@@ -1,6 +1,6 @@
 //priority: 49
 
-global.blockConversions.types.push('glass');
+global.blockConversions.types.add('glass');
 
 global.blockConversions.tags.push([global.id.KJ('block_types/glass'), global.id.MC('glass')]);
 global.blockConversions.tags.push([global.id.KJ('block_types/glass'), global.id.CR('tiled_glass')]);
@@ -14,7 +14,7 @@ global.blockConversions.tags.push([global.id.KJ('wall_types/glass'), global.id.C
 global.blockConversions.tags.push([global.id.KJ('wall_types/glass'), global.id.CR('vertical_framed_glass_pane')]);
 	
 for(const colour of global.dyeColours) {
-	global.blockConversions.types.push(`${colour}_stained_glass`);
+	global.blockConversions.types.add(`${colour}_stained_glass`);
 	
 	global.blockConversions.tags.push([global.id.KJ(`block_types/${colour}_stained_glass`), global.id.MC(`${colour}_stained_glass`)]);
 	global.blockConversions.tags.push([global.id.KJ(`wall_types/${colour}_stained_glass`), global.id.MC(`${colour}_stained_glass_pane`)]);

@@ -1,7 +1,7 @@
-ServerEvents.tags('item', event => {
-	event.add(global.id.KJ('block_types/asphalt'), global.id.DG('asphalt_block'));
+//priority: 49
 
-	event.add(global.id.KJ('slab_types/asphalt'), global.id.DG('asphalt_slab'));
+global.blockConversions.types.add('asphalt');
 
-	event.add(global.id.KJ('stair_types/asphalt'), global.id.DG('asphalt_stairs'));
-});
+global.blockConversions.tags.push([global.id.KJ('block_types/asphalt'), global.id.DG('asphalt_block')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/asphalt'), global.id.DG('asphalt_slab')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/asphalt'), global.id.DG('asphalt_stairs')]);

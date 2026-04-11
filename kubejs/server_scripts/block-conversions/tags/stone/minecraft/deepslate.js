@@ -1,24 +1,23 @@
-ServerEvents.tags('item', event => {
-	event.add(global.id.KJ('block_types/deepslate'), global.id.MC('deepslate'));
-	event.add(global.id.KJ('block_types/deepslate'), global.id.MC('cobbled_deepslate'));
-	event.add(global.id.KJ('block_types/deepslate'), global.id.MC('chiseled_deepslate'));
-	event.add(global.id.KJ('block_types/deepslate'), global.id.MC('polished_deepslate'));
-	event.add(global.id.KJ('block_types/deepslate'), global.id.MC('deepslate_bricks'));
-	event.add(global.id.KJ('block_types/deepslate'), global.id.MC('cracked_deepslate_bricks'));
-	event.add(global.id.KJ('block_types/deepslate'), global.id.MC('deepslate_tiles'));
+//priority: 49
 
-	event.add(global.id.KJ('slab_types/deepslate'), global.id.MC('cobbled_deepslate_slab'));
-	event.add(global.id.KJ('slab_types/deepslate'), global.id.MC('polished_deepslate_slab'));
-	event.add(global.id.KJ('slab_types/deepslate'), global.id.MC('deepslate_brick_slab'));
-	event.add(global.id.KJ('slab_types/deepslate'), global.id.MC('deepslate_tile_slab'));
+global.blockConversions.types.add('deepslate');
 
-	event.add(global.id.KJ('stair_types/deepslate'), global.id.MC('cobbled_deepslate_stairs'));
-	event.add(global.id.KJ('stair_types/deepslate'), global.id.MC('polished_deepslate_stairs'));
-	event.add(global.id.KJ('stair_types/deepslate'), global.id.MC('deepslate_brick_stairs'));
-	event.add(global.id.KJ('stair_types/deepslate'), global.id.MC('deepslate_tile_stairs'));
-
-	event.add(global.id.KJ('wall_types/deepslate'), global.id.MC('cobbled_deepslate_wall'));
-	event.add(global.id.KJ('wall_types/deepslate'), global.id.MC('polished_deepslate_wall'));
-	event.add(global.id.KJ('wall_types/deepslate'), global.id.MC('deepslate_brick_wall'));
-	event.add(global.id.KJ('wall_types/deepslate'), global.id.MC('deepslate_tile_wall'));
-});
+global.blockConversions.tags.push([global.id.KJ('block_types/deepslate'), global.id.MC('deepslate')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/deepslate'), global.id.MC('cobbled_deepslate')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/deepslate'), global.id.MC('chiseled_deepslate')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/deepslate'), global.id.MC('polished_deepslate')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/deepslate'), global.id.MC('deepslate_bricks')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/deepslate'), global.id.MC('cracked_deepslate_bricks')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/deepslate'), global.id.MC('deepslate_tiles')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/deepslate'), global.id.MC('cobbled_deepslate_slab')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/deepslate'), global.id.MC('polished_deepslate_slab')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/deepslate'), global.id.MC('deepslate_brick_slab')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/deepslate'), global.id.MC('deepslate_tile_slab')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/deepslate'), global.id.MC('cobbled_deepslate_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/deepslate'), global.id.MC('polished_deepslate_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/deepslate'), global.id.MC('deepslate_brick_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/deepslate'), global.id.MC('deepslate_tile_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('wall_types/deepslate'), global.id.MC('cobbled_deepslate_wall')]);
+global.blockConversions.tags.push([global.id.KJ('wall_types/deepslate'), global.id.MC('polished_deepslate_wall')]);
+global.blockConversions.tags.push([global.id.KJ('wall_types/deepslate'), global.id.MC('deepslate_brick_wall')]);
+global.blockConversions.tags.push([global.id.KJ('wall_types/deepslate'), global.id.MC('deepslate_tile_wall')]);

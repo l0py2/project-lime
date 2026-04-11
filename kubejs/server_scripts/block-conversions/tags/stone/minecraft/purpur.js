@@ -1,8 +1,8 @@
-ServerEvents.tags('item', event => {
-	event.add(global.id.KJ('block_types/purpur'), global.id.MC('purpur_block'));
-	event.add(global.id.KJ('block_types/purpur'), global.id.MC('purpur_pillar'));
+//priority: 49
 
-	event.add(global.id.KJ('slab_types/purpur'), global.id.MC('purpur_slab'));
-	
-	event.add(global.id.KJ('stair_types/purpur'), global.id.MC('purpur_stairs'));
-});
+global.blockConversions.types.add('purpur');
+
+global.blockConversions.tags.push([global.id.KJ('block_types/purpur'), global.id.MC('purpur_block')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/purpur'), global.id.MC('purpur_pillar')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/purpur'), global.id.MC('purpur_slab')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/purpur'), global.id.MC('purpur_stairs')]);

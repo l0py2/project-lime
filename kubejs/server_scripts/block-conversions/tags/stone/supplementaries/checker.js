@@ -1,5 +1,6 @@
-ServerEvents.tags('item', event => {
-	event.add(global.id.KJ('block_types/checker'), global.id.SP('checker_block'));
+//priority: 49
 
-	event.add(global.id.KJ('slab_types/checker'), global.id.SP('checker_slab'));
-});
+global.blockConversions.types.add('checker');
+
+global.blockConversions.tags.push([global.id.KJ('block_types/checker'), global.id.SP('checker_block')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/checker'), global.id.SP('checker_slab')]);

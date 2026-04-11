@@ -1,5 +1,7 @@
-ServerEvents.tags('item', event => {
-	event.add(global.id.KJ('block_types/basalt'), global.id.MC('basalt'));
-	event.add(global.id.KJ('block_types/basalt'), global.id.MC('smooth_basalt'));
-	event.add(global.id.KJ('block_types/basalt'), global.id.MC('polished_basalt'));
-});
+//priority: 49
+
+global.blockConversions.types.add('basalt');
+
+global.blockConversions.tags.push([global.id.KJ('block_types/basalt'), global.id.MC('basalt')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/basalt'), global.id.MC('smooth_basalt')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/basalt'), global.id.MC('polished_basalt')]);

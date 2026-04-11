@@ -1,17 +1,16 @@
-ServerEvents.tags('item', event => {
-	event.add(global.id.KJ('block_types/mossy_stone'), global.id.MC('mossy_cobblestone'));
-	event.add(global.id.KJ('block_types/mossy_stone'), global.id.MC('mossy_stone_bricks'));
-	event.add(global.id.KJ('block_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks'));
+//priority: 49
 
-	event.add(global.id.KJ('slab_types/mossy_stone'), global.id.MC('mossy_cobblestone_slab'));
-	event.add(global.id.KJ('slab_types/mossy_stone'), global.id.MC('mossy_stone_brick_slab'));
-	event.add(global.id.KJ('slab_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks_slab'));
+global.blockConversions.types.add('mossy_stone');
 
-	event.add(global.id.KJ('stair_types/mossy_stone'), global.id.MC('mossy_cobblestone_stairs'));
-	event.add(global.id.KJ('stair_types/mossy_stone'), global.id.MC('mossy_stone_brick_stairs'));
-	event.add(global.id.KJ('stair_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks_stairs'));
-
-	event.add(global.id.KJ('wall_types/mossy_stone'), global.id.MC('mossy_cobblestone_wall'));
-	event.add(global.id.KJ('wall_types/mossy_stone'), global.id.MC('mossy_stone_brick_wall'));
-	event.add(global.id.KJ('wall_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks_wall'));
-});
+global.blockConversions.tags.push([global.id.KJ('block_types/mossy_stone'), global.id.MC('mossy_cobblestone')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/mossy_stone'), global.id.MC('mossy_stone_bricks')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/mossy_stone'), global.id.MC('mossy_cobblestone_slab')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/mossy_stone'), global.id.MC('mossy_stone_brick_slab')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks_slab')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/mossy_stone'), global.id.MC('mossy_cobblestone_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/mossy_stone'), global.id.MC('mossy_stone_brick_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('wall_types/mossy_stone'), global.id.MC('mossy_cobblestone_wall')]);
+global.blockConversions.tags.push([global.id.KJ('wall_types/mossy_stone'), global.id.MC('mossy_stone_brick_wall')]);
+global.blockConversions.tags.push([global.id.KJ('wall_types/mossy_stone'), global.id.QK('mossy_cobblestone_bricks_wall')]);

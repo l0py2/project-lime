@@ -1,13 +1,13 @@
-ServerEvents.tags('item', event => {
-	event.add(global.id.KJ('block_types/quartz'), global.id.MC('quartz_block'));
-	event.add(global.id.KJ('block_types/quartz'), global.id.MC('chiseled_quartz_block'));
-	event.add(global.id.KJ('block_types/quartz'), global.id.MC('quartz_bricks'));
-	event.add(global.id.KJ('block_types/quartz'), global.id.MC('quartz_pillar'));
-	event.add(global.id.KJ('block_types/quartz'), global.id.MC('smooth_quartz'));
+//priority: 49
 
-	event.add(global.id.KJ('slab_types/quartz'), global.id.MC('quartz_slab'));
-	event.add(global.id.KJ('slab_types/quartz'), global.id.MC('smooth_quartz_slab'));
+global.blockConversions.types.add('quartz');
 
-	event.add(global.id.KJ('stair_types/quartz'), global.id.MC('quartz_stairs'));
-	event.add(global.id.KJ('stair_types/quartz'), global.id.MC('smooth_quartz_stairs'));
-});
+global.blockConversions.tags.push([global.id.KJ('block_types/quartz'), global.id.MC('quartz_block')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/quartz'), global.id.MC('chiseled_quartz_block')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/quartz'), global.id.MC('quartz_bricks')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/quartz'), global.id.MC('quartz_pillar')]);
+global.blockConversions.tags.push([global.id.KJ('block_types/quartz'), global.id.MC('smooth_quartz')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/quartz'), global.id.MC('quartz_slab')]);
+global.blockConversions.tags.push([global.id.KJ('slab_types/quartz'), global.id.MC('smooth_quartz_slab')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/quartz'), global.id.MC('quartz_stairs')]);
+global.blockConversions.tags.push([global.id.KJ('stair_types/quartz'), global.id.MC('smooth_quartz_stairs')]);

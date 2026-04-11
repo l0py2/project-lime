@@ -11,7 +11,7 @@ const states = [
 ];
 	
 for(const state of states) {
-	global.blockConversions.types.push(`${state}_copper`);
+	global.blockConversions.types.add(`${state}_copper`);
 	
 	global.blockConversions.tags.push([global.id.KJ(`block_types/${state}_copper`), global.id.MC(`${state}_copper`)]);
 	global.blockConversions.tags.push([global.id.KJ(`block_types/${state}_copper`), global.id.MC(`${state}_cut_copper`)]);

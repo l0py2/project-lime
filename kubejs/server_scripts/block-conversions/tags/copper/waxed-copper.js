@@ -1,6 +1,6 @@
 //priority: 49
 
-global.blockConversions.types.push('waxed_copper');
+global.blockConversions.types.add('waxed_copper');
 
 global.blockConversions.tags.push([global.id.KJ('block_types/waxed_copper'), global.id.MC('waxed_copper_block')]);
 global.blockConversions.tags.push([global.id.KJ('block_types/waxed_copper'), global.id.MC('waxed_cut_copper')]);

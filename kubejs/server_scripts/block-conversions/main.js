@@ -1,6 +1,6 @@
 //priority: 50
 
 global.blockConversions = {
-	types: [],
+	types: new Set(),
 	tags: []
 };
