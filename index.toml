@@ -718,7 +718,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "88472911f53586a42be1e08803bafa08de604e427762a20d7eec01f91a01af4c"
+hash = "b9929b920807ec82daa376281f597e25649fce904d8ea854870862b3558da94b"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -726,7 +726,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "59b11ac260387850562dd57611d79a0ef8559ba0d4fd42c7bb7327fff512d475"
+hash = "41046b008f9cb0c8fc115547fee5abb12e7522f52cbed4ce7c83141ef4b7db77"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1021,10 +1021,6 @@ file = "kubejs/server_scripts/recipes/core/ore-processing.js"
 hash = "3a9e8269e91c8b0ebfbea676e9973555bd0360a7a578a7c94e425eae230d499d"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/core/progression.js"
-hash = "0133b25b45bff7e325ef86b9b62fa520d54773f42100f76bc9720b41738bf21b"
-
-[[files]]
 file = "kubejs/server_scripts/recipes/core/wood-complements.js"
 hash = "1f1f57f4ac4d79138d49bce32940deb56780643d5ad19f785e4eb446dfb54eb7"
 
@@ -1054,7 +1050,7 @@ hash = "bf7b288208501f7551f3df57b3470b5ef559b1c3a8ad713d343629450f9358e2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/minecraft.js"
-hash = "368092ad171c3d11856733f09d0679c17577d859420136060c152c484a1794c1"
+hash = "6dc9114a588aea4bc76bd5c6c6b8f7d0824958e5263e42ff2e9d982b27f62b6a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mods/scorched-guns.js"
@@ -1243,6 +1239,10 @@ hash = "4257278d557526ab4b813025fe4c5fc96bbef769baa447cae1dadeac013b57a3"
 [[files]]
 file = "kubejs/server_scripts/tags/create-storage.js"
 hash = "6bc5ca3a675f88b96f8362da6263cd377af0f9befebbb44dcec2c921a2e93486"
+
+[[files]]
+file = "kubejs/server_scripts/tags/minecraft.js"
+hash = "00167890c2f7833b8525e54b0e4101617c0678c14d35bb07bc2bf8a3fa2a0ef5"
 
 [[files]]
 file = "kubejs/startup_scripts/global/colours.js"

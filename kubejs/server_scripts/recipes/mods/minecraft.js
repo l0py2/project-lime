@@ -88,4 +88,32 @@ ServerEvents.recipes(event => {
 			B: global.tag.M('stone')
 		}
 	);
+	
+	event.remove({ output: global.id.MC('blast_furnace') });
+	event.shaped(
+		global.id.MC('blast_furnace'),
+		[
+			'AAA',
+			'B B',
+			'AAA'
+		],
+		{
+			'A': global.tag.MC('stone_tool_materials'),
+			'B': global.id.MC('clay_ball')
+		}
+	);
+	
+	event.remove({ output: global.id.MC('smoker') });
+	event.shaped(
+		global.id.MC('smoker'),
+		[
+			'ABA',
+			'B B',
+			'ABA'
+		],
+		{
+			'A': global.tag.MC('logs'),
+			'B': global.tag.MC('stone_tool_materials')
+		}
+	);
 });
