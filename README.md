@@ -1,5 +1,13 @@
 # Project Lime
 
+## Description
+
+Minecraft and mods progression tweaked.
+
+## Guide
+
+- [Basics](docs/players/basics.md)
+
 ## Thanks to
 
 - [Data Pack Generators](https://misode.github.io/)
@@ -117,11 +125,3 @@
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
 - [CobbleGen \[Fabric/(Neo)Forge\]](https://www.curseforge.com/minecraft/mc-mods/cobblegen)
-
-## Description
-
-Minecraft and mods progression tweaked.
-
-## Guide
-
-- [Basics](docs/players/basics.md)
