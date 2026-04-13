@@ -116,6 +116,7 @@
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 - [Zeta](https://www.curseforge.com/minecraft/mc-mods/zeta)
 - [~SCORCHED GUNS 2](https://www.curseforge.com/minecraft/mc-mods/scorched-guns)
+- [CobbleGen \[Fabric/(Neo)Forge\]](https://www.curseforge.com/minecraft/mc-mods/cobblegen)
 
 ## Description
 

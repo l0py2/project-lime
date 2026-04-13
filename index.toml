@@ -1403,6 +1403,11 @@ hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
+file = "mods/cobblegen.pw.toml"
+hash = "fd74270e3aa8393b608660203830c131d490ddbbddf2e3b0cb290c46f42acbe1"
+metafile = true
+
+[[files]]
 file = "mods/colorwheel.pw.toml"
 hash = "4da6adf77e6450d833ba13ea8e2326143d56d6b3505f97ef6c64a3665444134d"
 metafile = true
