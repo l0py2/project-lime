@@ -5,96 +5,65 @@
 		{
 			"id": "minecraft:cobblestone",
 			"weight": 100.0,
-			"minY": 0,
+			"minY": 0
 		},
 		{
 			"id": "minecraft:cobbled_deepslate",
 			"weight": 100.0,
-			"maxY": 0,
-		},
+			"maxY": 0
+		}
 	],
 	"stoneGen": [
 		{
 			"id": "minecraft:stone",
 			"weight": 100.0,
+			"minY": 0
 		},
+		{
+			"id": "minecraft:deepslate",
+			"weight": 100.0,
+			"maxY": 0
+		}
 	],
 	"basaltGen": [
 		{
 			"id": "minecraft:basalt",
-			"weight": 100.0,
-		},
+			"weight": 100.0
+		}
 	],
 	"customGen": {
 		"cobbleGen": {
 			"minecraft:bedrock": [
 				{
-					"id": "minecraft:emerald_ore",
-					"weight": 2.0,
+					"id": "minecraft:cobbled_deepslate",
+					"weight": 50
 				},
 				{
-					"id": "minecraft:diamond_ore",
-					"weight": 5.0,
+					"id": "create:crimsite",
+					"weight": 50,
+					"biomes": ["minecraft:plains", "minecraft:snowy_plains", "minecraft:sunflower_plains"]
 				},
 				{
-					"id": "minecraft:lapis_ore",
-					"weight": 8.0,
+					"id": "create:asurine",
+					"weight": 50,
+					"biomes": ["minecraft:taiga", "minecraft:snowy_taiga"]
 				},
 				{
-					"id": "minecraft:gold_ore",
-					"weight": 10.0,
+					"id": "create:veridium",
+					"weight": 50,
+					"biomes": [
+						"minecraft:warm_ocean",
+						"minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean",
+						"minecraft:ocean", "minecraft:deep_ocean",
+						"minecraft:cold_ocean", "minecraft:deep_cold_ocean"
+					]
 				},
 				{
-					"id": "minecraft:iron_ore",
-					"weight": 15.0,
-				},
-				{
-					"id": "minecraft:coal_ore",
-					"weight": 20.0,
-				},
-				{
-					"id": "minecraft:cobblestone",
-					"weight": 80.0,
-				},
-			],
-		},
-		"stoneGen": {
-			"minecraft:bedrock": [
-				{
-					"id": "minecraft:stone",
-					"weight": 40.0,
-				},
-				{
-					"id": "minecraft:diorite",
-					"weight": 20.0,
-				},
-				{
-					"id": "minecraft:andesite",
-					"weight": 20.0,
-				},
-				{
-					"id": "minecraft:granite",
-					"weight": 20.0,
-				},
-			],
-		},
-		"basaltGen": {
-			"minecraft:bedrock": [
-				{
-					"id": "minecraft:end_stone",
-					"weight": 100.0,
-					"dimensions": [
-						"minecraft:the_end",
-					],
-				},
-				{
-					"id": "minecraft:blackstone",
-					"weight": 100.0,
-					"excludedDimensions": [
-						"minecraft:overworld",
-					],
-				},
-			],
-		},
-	},
+					"id": "create:ochrum",
+					"weight": 50,
+					"biomes": ["minecraft:badlands", "minecraft:wooded_badlands", "minecraft:eroded_badlands"]
+				}
+			]
+		}
+	}
 }

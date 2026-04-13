@@ -122,6 +122,6 @@
 
 Minecraft and mods progression tweaked.
 
-## Progression
+## Guide
 
-The pack contains a custom questline to serve as a guide.
+- [Basics](docs/players/basics.md)

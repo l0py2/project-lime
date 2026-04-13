@@ -409,6 +409,10 @@ file = "config/berry_good-common.toml"
 hash = "063288c23cc0302177b68b487872ea9cdd3d3d5f916ddf47d1dcd393cc4a56fa"
 
 [[files]]
+file = "config/betterf3.toml"
+hash = "2681f4c1874e704b7e0ec6ab81a1e9f91723fe18bcd7435a1f8f8dc2bf5b84e5"
+
+[[files]]
 file = "config/blueprint-client.toml"
 hash = "89ef9f568d793018db983b9f944e85876a4cebd408f8f4d2182b3c38fa44ef7e"
 
@@ -439,6 +443,14 @@ hash = "b363fb18520a9f6865339ec122faed555ce655db955c8e8108662ed2d662f061"
 [[files]]
 file = "config/citadel-common.toml"
 hash = "3fcd8013137a86c00953d4be1e56945b84b87594be722bbf3b3be8d752e2577f"
+
+[[files]]
+file = "config/cobblegen-meta.json5"
+hash = "f108130582fc5ef2a4392c11f25c31573a046aa768eab90ba38c429adc4a871f"
+
+[[files]]
+file = "config/cobblegen.json5"
+hash = "946a19bc62b30cbc732420e88286af31f670d3f0bd784f3639bddaba69d02c73"
 
 [[files]]
 file = "config/colorwheel-client.toml"
@@ -718,7 +730,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "dc97930a33337a638e11758a0372dc21ca3b5ed1fc95c1bcc0f66b413269b9e5"
+hash = "4371b78c48dc802f408928145966b6e0e84b2e0acea92729b0c1ae573a1355b5"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -726,7 +738,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "68127c0545d67a4d99e964c04393a37e1ee2fa238c2f3d4e17960c443169d704"
+hash = "22a035b06b8b070895fc11635489103e8c631a7dcf25b194ff5da16842902dfb"
 
 [[files]]
 file = "config/personality-client.toml"
