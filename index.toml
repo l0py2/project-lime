@@ -718,7 +718,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d7be20335c4b52c9d526bf3b5c3bc0a5bea487b010114d54c8cc92b1f95bed08"
+hash = "dc97930a33337a638e11758a0372dc21ca3b5ed1fc95c1bcc0f66b413269b9e5"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -726,7 +726,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "901ba7e4e8e327c2da6efceba071a8a7944767ebd71ab4d284148a026386b0d8"
+hash = "68127c0545d67a4d99e964c04393a37e1ee2fa238c2f3d4e17960c443169d704"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -966,7 +966,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_overlay.png"
-hash = "dc52c4b312fc405e8dcf0145fb8bcc91dc1978cd8ee60dc946903a78364859df"
+hash = "4eadc302a1612b6d78a90a82a988f493a3185c9d9322de6b0a57094443ed1a5f"
 
 [[files]]
 file = "kubejs/client_scripts/standardize.js"
