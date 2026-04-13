@@ -1624,7 +1624,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
+hash = "7462fac47d19eab330cdf24eb07c65a5c421ded2d94675fb8ef21cdbbb034c13"
 metafile = true
 
 [[files]]
@@ -1654,7 +1654,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "f0d2394f2d9c3e7d25f744aabc26fbc806eb8694e239b333cfe56e4a6df07f17"
+hash = "312aeaafd4344280e133e8cf94d881beefce06ba3954d0f44b12c4437cb6f15b"
 metafile = true
 
 [[files]]
@@ -1679,7 +1679,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "a7be56217f4a94ea27c3dac095da4b2ea56d8964fefaf19599fda08bc7f97e59"
+hash = "7c28442cd0ed14c96da1f331be121d754f8ced6afa7bfae709ba66988f5d8ceb"
 metafile = true
 
 [[files]]
@@ -1744,22 +1744,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "74bbe56aa4d02368cf42e9ae1a873aab1783fcf1e56f07592cf897ee4f9bd1c1"
+hash = "2561f8494640e66d11d22fa064a9ef9eff44d4e2a614ead87ad6c5ed887383c6"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "4e24dc04cef348fd40e0967e05446343665e02f201dc80731272416214054c22"
+hash = "228b67d1e0c562f646503405e0494df09f13f25e5df307876a85064efb85103d"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "f1041536d5be1416653a6901482b7c15853e6157a36b83e2e6b9f5049a047835"
+hash = "6cd78e10eb1ae384f7bd4d0f976e326fb6f761b1e3959af4b873e63cfecc1862"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "eda4fa4321ceb00a56bafcebc9097e500eda91abc8ae98b850f5d7525cbbde8c"
+hash = "961e320ce533603244c76e918095fa95a032cb89e3683f7f8e1876636fc51f94"
 metafile = true
 
 [[files]]
