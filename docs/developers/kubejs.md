@@ -19,8 +19,9 @@
 
 ### Load order (higher priority first to load)
 
-- global/id.js (100)
-- global/recipes.js (99)
+- global/recipes.js (100)
+- global/recipe-types/main.js (99)
+- global/recipe-types/\* (98)
 - block-conversions/main.js (50)
 - block-conversions/tags/\* (49)
 - block-conversions/apply.js (48)
