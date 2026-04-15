@@ -4,8 +4,8 @@ ServerEvents.recipes(event => {
 	}
 	
 	const rawRecipes = global.recipes.getAll(event, {}, true);
-	
 	const recipes = [];
+	const unkownRecipeTypes = new Set();
 	
 	for(const rawRecipe of rawRecipes) {
 		let recipe;
@@ -19,6 +19,14 @@ ServerEvents.recipes(event => {
 				break;
 			}
 		}
+		
+		if(recipe == null) {
+			unkownRecipeTypes.add(rawRecipe.type);
+		}
+	}
+	
+	for(const recipeType of unkownRecipeTypes) {
+		console.log(`Unkown recipe type: ${recipeType}`);
 	}
 	
 	for(const recipe of recipes) {

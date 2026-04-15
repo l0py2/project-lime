@@ -1,23 +1,11 @@
 //priority: 98
 
-ShapedRecipe.fromJson = (rawRecipe) => {
-	if(rawRecipe.key == undefined) {
+MCShapedRecipe.fromJson = (rawRecipe) => {
+	if(rawRecipe.type != global.id.MC('crafting_shaped')) {
 		return null;
 	}
 	
-	if(typeof rawRecipe.key != 'object') {
-		return null;
-	}
-	
-	if(rawRecipe.result == undefined) {
-		return null;
-	}
-	
-	if(typeof rawRecipe.result != 'object') {
-		return null;
-	}
-	
-	let recipe = new ShapedRecipe();
+	let recipe = new MCShapedRecipe();
 	
 	recipe.json = rawRecipe;
 	
@@ -32,7 +20,7 @@ ShapedRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 }
 
-function ShapedRecipe() {
+function MCShapedRecipe() {
 	this.modified = false;
 	this.empty = false;
 	this.json = {};
@@ -78,4 +66,4 @@ function ShapedRecipe() {
 	}
 }
 
-global.recipes.types.push(ShapedRecipe);
+global.recipes.types.push(MCShapedRecipe);
