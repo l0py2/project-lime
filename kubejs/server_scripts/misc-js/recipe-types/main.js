@@ -1,6 +1,4 @@
-//priority: 99
-
-global.recipes.types = [];
+//priority: 9999
 
 function ingredientStringToObject(ingredientString) {
 	return ingredientString.startsWith('#') ? { tag: ingredientString.slice(1) } : { item: ingredientString };

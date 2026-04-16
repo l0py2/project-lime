@@ -1,4 +1,4 @@
-//priority: 98
+//priority: 9998
 
 SimpleRecipe.fromJson = (rawRecipe) => {
 	if(rawRecipe.ingredient == undefined) {
@@ -63,4 +63,4 @@ function SimpleRecipe() {
 	};
 }
 
-global.recipes.types.push(SimpleRecipe);
+MiscJS.recipeTypes.push(SimpleRecipe);

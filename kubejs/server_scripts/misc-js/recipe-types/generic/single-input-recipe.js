@@ -1,4 +1,4 @@
-//priority: 98
+//priority: 9998
 
 SingleInputRecipe.fromJson = (rawRecipe) => {
 	if(rawRecipe.input == undefined) {
@@ -66,4 +66,4 @@ function SingleInputRecipe() {
 	};
 }
 
-global.recipes.types.push(SingleInputRecipe);
+MiscJS.recipeTypes.push(SingleInputRecipe);

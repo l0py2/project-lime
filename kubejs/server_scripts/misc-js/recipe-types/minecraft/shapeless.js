@@ -1,6 +1,6 @@
-//priority: 98
+//priority: 9998
 
-ShapelessRecipe.fromJson = (rawRecipe) => {
+MCShapelessRecipe.fromJson = (rawRecipe) => {
 	if(rawRecipe.ingredients == undefined) {
 		return null;
 	}
@@ -17,14 +17,14 @@ ShapelessRecipe.fromJson = (rawRecipe) => {
 		return null;
 	}
 		
-	let recipe = new ShapelessRecipe();
+	let recipe = new MCShapelessRecipe();
 	
 	recipe.json = rawRecipe;
 		
 	return recipe;
 };
 
-function ShapelessRecipe() {
+function MCShapelessRecipe() {
 	this.modified = false;
 	this.empty = false;
 	this.json = {};
@@ -69,4 +69,4 @@ function ShapelessRecipe() {
 	}
 }
 
-global.recipes.types.push(ShapelessRecipe);
+MiscJS.recipeTypes.push(MCShapelessRecipe);

@@ -1,14 +1,26 @@
-//priority: 98
+//priority: 9998
 
-CreateRecipe.fromJson = (rawRecipe) => {
-	if(rawRecipe.ingredients == undefined) {
+CRSequencedAssemblyRecipe.fromJson = (rawRecipe) => {
+	if(rawRecipe.ingredient == undefined) {
 		return null;
 	}
 	
-	if(!Array.isArray(rawRecipe.ingredients)) {
+	if(typeof rawRecipe.ingredient != 'object') {
 		return null;
 	}
-		
+	
+	if(Array.isArray(rawRecipe.ingredient)) {
+		return null;
+	}
+	
+	if(rawRecipe.sequence == undefined) {
+		return null;
+	}
+	
+	if(!Array.isArray(rawRecipe.sequence)) {
+		return null;
+	}
+	
 	if(rawRecipe.results == undefined) {
 		return null;
 	}
@@ -17,14 +29,14 @@ CreateRecipe.fromJson = (rawRecipe) => {
 		return null;
 	}
 		
-	let recipe = new CreateRecipe();
+	let recipe = new CRSequencedAssemblyRecipe();
 	
 	recipe.json = rawRecipe;
 	
 	return recipe;
 };
 
-function CreateRecipe() {
+function CRSequencedAssemblyRecipe() {
 	this.modified = false;
 	this.empty = false;
 	this.json = {};
@@ -32,11 +44,18 @@ function CreateRecipe() {
 	this.replaceInput = (original, replacement) => {
 		const originalObject = ingredientStringToObject(original);
 		const replacementObject = ingredientStringToObject(replacement);
-				
-		for(let i = 0; i < this.json.ingredients.length; i++) {
-			if(equalIngredients(this.json.ingredients[i], originalObject)) {
-				replaceIngredient(this.json.ingredients[i], replacementObject);
-				this.modified = true;
+		
+		if(equalIngredients(this.json.ingredient, originalObject)) {
+			replaceIngredient(this.json.ingredient, replacementObject);
+			this.modified = true;
+		}
+		
+		for(let sequence of this.json.sequence) {
+			for(let ingredient of sequence.ingredients) {
+				if(equalIngredients(ingredient, originalObject)) {
+					replaceIngredient(ingredient, replacementObject);
+					this.modified = true;
+				}
 			}
 		}
 	};
@@ -45,9 +64,9 @@ function CreateRecipe() {
 		const originalObject = ingredientStringToObject(original);
 		const replacementObject = ingredientStringToObject(replacement);
 		
-		for(let i = 0; i < this.json.results.length; i++) {
-			if(equalIngredients(this.json.results[i], originalObject)) {
-				replaceIngredient(this.json.results[i], replacementObject);
+		for(let result of this.json.results)  {
+			if(equalIngredients(result, originalObject)) {
+				replaceIngredient(result, replacementObject);
 				this.modified = true;
 			}
 		}
@@ -80,4 +99,4 @@ function CreateRecipe() {
 	}
 }
 
-global.recipes.types.push(CreateRecipe);
+MiscJS.recipeTypes.push(CRSequencedAssemblyRecipe);

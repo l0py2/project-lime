@@ -3,31 +3,7 @@ ServerEvents.recipes(event => {
 		event.remove(recipeFilter);
 	}
 	
-	const rawRecipes = global.recipes.getAll(event, {}, true);
-	const recipes = [];
-	const unkownRecipeTypes = new Set();
-	
-	for(const rawRecipe of rawRecipes) {
-		let recipe;
-		
-		for(const recipeType of global.recipes.types) {
-			recipe = recipeType.fromJson(rawRecipe);
-			
-			if(recipe != null) {
-				recipes.push(recipe);
-				// Prevent a single recipe to have multiple types
-				break;
-			}
-		}
-		
-		if(recipe == null) {
-			unkownRecipeTypes.add(rawRecipe.type);
-		}
-	}
-	
-	for(const recipeType of unkownRecipeTypes) {
-		console.log(`Unkown recipe type: ${recipeType}`);
-	}
+	const recipes = MiscJS.getAllRecipesObjects(event, {});
 	
 	for(const recipe of recipes) {
 		for(const [original, replacement] of global.inputReplacements) {
