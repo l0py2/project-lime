@@ -31,19 +31,19 @@ function SimpleRecipe() {
 	this.multipleInput = false;
 	
 	this.replaceInput = (original, replacement) => {
-		const originalObject = ingredientStringToObject(original);
-		const replacementObject = ingredientStringToObject(replacement);
+		const originalObject = MiscJS.ingredientStringToObject(original);
+		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
 		if(this.multipleInput) {
 			for(let i = 0; i < this.json.ingredient.length; i++) {
-				if(equalIngredients(this.json.ingredient[i], originalObject)) {
-					replaceIngredient(this.json.ingredient[i], replacementObject);
+				if(MiscJS.equalIngredients(this.json.ingredient[i], originalObject)) {
+					MiscJS.replaceIngredient(this.json.ingredient[i], replacementObject);
 					this.modified = true;
 				}
 			}
 		} else {
-			if(equalIngredients(this.json.ingredient, originalObject)) {
-				replaceIngredient(this.json.ingredient, replacementObject);
+			if(MiscJS.equalIngredients(this.json.ingredient, originalObject)) {
+				MiscJS.replaceIngredient(this.json.ingredient, replacementObject);
 				this.modified = true;
 			}
 		}

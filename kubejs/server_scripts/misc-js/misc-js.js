@@ -1,9 +1,8 @@
 //priority: 10000
 
-MiscJS.recipeTypes = [];
+function MiscJS() {}
 
-function MiscJS() {
-}
+MiscJS.recipeTypes = [];
 
 MiscJS.getAllRecipes = (event, filter, advanced) => {
 	const recipes = [];

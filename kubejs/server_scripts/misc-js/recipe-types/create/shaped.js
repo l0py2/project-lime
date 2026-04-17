@@ -1,37 +1,46 @@
 //priority: 9998
 
-MinecraftShapelessRecipe.fromJson = (rawRecipe) => {
-	if(rawRecipe.type != 'minecraft:crafting_shapeless') {
+CreateShapedRecipe.fromJson = (rawRecipe) => {
+	if(rawRecipe.type != 'create:mechanical_crafting') {
 		return null;
 	}
 	
-	let recipe = new MinecraftShapelessRecipe();
+	let recipe = new CreateShapedRecipe();
 	
 	recipe.json = rawRecipe;
-		
+	
+	for(const key in recipe.json.key) {
+		if(Array.isArray(recipe.json.key[key])) {
+			recipe.multipleInputByKey.set(key, true);
+		} else {
+			recipe.multipleInputByKey.set(key, false);
+		}
+	}
+	
 	return recipe;
-};
+}
 
-function MinecraftShapelessRecipe() {
+function CreateShapedRecipe() {
 	this.modified = false;
 	this.empty = false;
 	this.json = {};
+	this.multipleInputByKey = new Map();
 	
 	this.replaceInput = (original, replacement) => {
 		const originalObject = MiscJS.ingredientStringToObject(original);
 		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
-		for(let i = 0; i < this.json.ingredients.length; i++) {
-			if(Array.isArray(this.json.ingredients[i])) {
-				for(let j = 0; j < this.json.ingredients[i].length; j++) {
-					if(MiscJS.equalIngredients(this.json.ingredients[i][j], originalObject)) {
-						MiscJS.replaceIngredient(this.json.ingredients[i][j], replacementObject);
+		for(const [key, multipleInput] of this.multipleInputByKey) {
+			if(multipleInput) {
+				for(let i = 0; i < this.json.key[key].length; i++) {
+					if(MiscJS.equalIngredients(this.json.key[key][i], originalObject)) {
+						MiscJS.replaceIngredient(this.json.key[key][i], replacementObject);
 						this.modified = true;
 					}
 				}
 			} else {
-				if(MiscJS.equalIngredients(this.json.ingredients[i], originalObject)) {
-					MiscJS.replaceIngredient(this.json.ingredients[i], replacementObject);
+				if(MiscJS.equalIngredients(this.json.key[key], originalObject)) {
+					MiscJS.replaceIngredient(this.json.key[key], replacementObject);
 					this.modified = true;
 				}
 			}
@@ -57,4 +66,4 @@ function MinecraftShapelessRecipe() {
 	};
 }
 
-MiscJS.recipeTypes.push(MinecraftShapelessRecipe);
+MiscJS.recipeTypes.push(CreateShapedRecipe);

@@ -1,6 +1,6 @@
 //priority: 9998
 
-CRProcessingRecipe.fromJson = (rawRecipe) => {
+CreateProcessingRecipe.fromJson = (rawRecipe) => {
 	if(rawRecipe.ingredients == undefined) {
 		return null;
 	}
@@ -17,44 +17,44 @@ CRProcessingRecipe.fromJson = (rawRecipe) => {
 		return null;
 	}
 		
-	let recipe = new CRProcessingRecipe();
+	let recipe = new CreateProcessingRecipe();
 	
 	recipe.json = rawRecipe;
 	
 	return recipe;
 };
 
-function CRProcessingRecipe() {
+function CreateProcessingRecipe() {
 	this.modified = false;
 	this.empty = false;
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
-		const originalObject = ingredientStringToObject(original);
-		const replacementObject = ingredientStringToObject(replacement);
+		const originalObject = MiscJS.ingredientStringToObject(original);
+		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 				
 		for(let i = 0; i < this.json.ingredients.length; i++) {
-			if(equalIngredients(this.json.ingredients[i], originalObject)) {
-				replaceIngredient(this.json.ingredients[i], replacementObject);
+			if(MiscJS.equalIngredients(this.json.ingredients[i], originalObject)) {
+				MiscJS.replaceIngredient(this.json.ingredients[i], replacementObject);
 				this.modified = true;
 			}
 		}
 	};
 	
 	this.replaceOutput = (original, replacement) => {
-		const originalObject = ingredientStringToObject(original);
-		const replacementObject = ingredientStringToObject(replacement);
+		const originalObject = MiscJS.ingredientStringToObject(original);
+		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
 		for(let i = 0; i < this.json.results.length; i++) {
-			if(equalIngredients(this.json.results[i], originalObject)) {
-				replaceIngredient(this.json.results[i], replacementObject);
+			if(MiscJS.equalIngredients(this.json.results[i], originalObject)) {
+				MiscJS.replaceIngredient(this.json.results[i], replacementObject);
 				this.modified = true;
 			}
 		}
-	}
+	};
 	
 	this.removeOutput = (removedItem) => {
-		const removedItemObject = ingredientStringToObject(removedItem);
+		const removedItemObject = MiscJS.ingredientStringToObject(removedItem);
 		
 		let indexToRemove;
 		
@@ -62,7 +62,7 @@ function CRProcessingRecipe() {
 			indexToRemove = -1;
 			
 			for(let i = 0; i < this.json.results.length; i++) {
-				if(equalIngredients(this.json.results[i], removedItemObject)) {
+				if(MiscJS.equalIngredients(this.json.results[i], removedItemObject)) {
 					indexToRemove = i;
 					break;
 				}
@@ -77,7 +77,7 @@ function CRProcessingRecipe() {
 		if(this.json.results.length < 1) {
 			this.empty = true;
 		}
-	}
+	};
 }
 
-MiscJS.recipeTypes.push(CRProcessingRecipe);
+MiscJS.recipeTypes.push(CreateProcessingRecipe);

@@ -38,29 +38,29 @@ function SingleInputRecipe() {
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
-		const originalObject = ingredientStringToObject(original);
-		const replacementObject = ingredientStringToObject(replacement);
+		const originalObject = MiscJS.ingredientStringToObject(original);
+		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
-		if(equalIngredients(this.json.input, originalObject)) {
-			replaceIngredient(this.json.input, replacementObject);
+		if(MiscJS.equalIngredients(this.json.input, originalObject)) {
+			MiscJS.replaceIngredient(this.json.input, replacementObject);
 			this.modified = true;
 		}
 	};
 	
 	this.replaceOutput = (original, replacement) => {
-		const originalObject = ingredientStringToObject(original);
-		const replacementObject = ingredientStringToObject(replacement);
+		const originalObject = MiscJS.ingredientStringToObject(original);
+		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
-		if(equalIngredients(this.json.result, originalObject)) {
-			replaceIngredient(this.json.result, replacementObject);
+		if(MiscJS.equalIngredients(this.json.result, originalObject)) {
+			MiscJS.replaceIngredient(this.json.result, replacementObject);
 			this.modified = true;
 		}
 	};
 	
 	this.removeOutput = (removedItem) => {
-		const removedItemObject = ingredientStringToObject(removedItem);
+		const removedItemObject = MiscJS.ingredientStringToObject(removedItem);
 		
-		if(equalIngredients(this.json.result, removedItemObject)) {
+		if(MiscJS.equalIngredients(this.json.result, removedItemObject)) {
 			this.empty = true;
 		}
 	};

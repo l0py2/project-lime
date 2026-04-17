@@ -1,6 +1,6 @@
 //priority: 9998
 
-CRSequencedAssemblyRecipe.fromJson = (rawRecipe) => {
+CreateSequencedAssemblyRecipe.fromJson = (rawRecipe) => {
 	if(rawRecipe.ingredient == undefined) {
 		return null;
 	}
@@ -29,31 +29,31 @@ CRSequencedAssemblyRecipe.fromJson = (rawRecipe) => {
 		return null;
 	}
 		
-	let recipe = new CRSequencedAssemblyRecipe();
+	let recipe = new CreateSequencedAssemblyRecipe();
 	
 	recipe.json = rawRecipe;
 	
 	return recipe;
 };
 
-function CRSequencedAssemblyRecipe() {
+function CreateSequencedAssemblyRecipe() {
 	this.modified = false;
 	this.empty = false;
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
-		const originalObject = ingredientStringToObject(original);
-		const replacementObject = ingredientStringToObject(replacement);
+		const originalObject = MiscJS.ingredientStringToObject(original);
+		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
-		if(equalIngredients(this.json.ingredient, originalObject)) {
-			replaceIngredient(this.json.ingredient, replacementObject);
+		if(MiscJS.equalIngredients(this.json.ingredient, originalObject)) {
+			MiscJS.replaceIngredient(this.json.ingredient, replacementObject);
 			this.modified = true;
 		}
 		
 		for(let sequence of this.json.sequence) {
 			for(let ingredient of sequence.ingredients) {
-				if(equalIngredients(ingredient, originalObject)) {
-					replaceIngredient(ingredient, replacementObject);
+				if(MiscJS.equalIngredients(ingredient, originalObject)) {
+					MiscJS.replaceIngredient(ingredient, replacementObject);
 					this.modified = true;
 				}
 			}
@@ -61,19 +61,19 @@ function CRSequencedAssemblyRecipe() {
 	};
 	
 	this.replaceOutput = (original, replacement) => {
-		const originalObject = ingredientStringToObject(original);
-		const replacementObject = ingredientStringToObject(replacement);
+		const originalObject = MiscJS.ingredientStringToObject(original);
+		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
 		for(let result of this.json.results)  {
-			if(equalIngredients(result, originalObject)) {
-				replaceIngredient(result, replacementObject);
+			if(MiscJS.equalIngredients(result, originalObject)) {
+				MiscJS.replaceIngredient(result, replacementObject);
 				this.modified = true;
 			}
 		}
-	}
+	};
 	
 	this.removeOutput = (removedItem) => {
-		const removedItemObject = ingredientStringToObject(removedItem);
+		const removedItemObject = MiscJS.ingredientStringToObject(removedItem);
 		
 		let indexToRemove;
 		
@@ -81,7 +81,7 @@ function CRSequencedAssemblyRecipe() {
 			indexToRemove = -1;
 			
 			for(let i = 0; i < this.json.results.length; i++) {
-				if(equalIngredients(this.json.results[i], removedItemObject)) {
+				if(MiscJS.equalIngredients(this.json.results[i], removedItemObject)) {
 					indexToRemove = i;
 					break;
 				}
@@ -96,7 +96,7 @@ function CRSequencedAssemblyRecipe() {
 		if(this.json.results.length < 1) {
 			this.empty = true;
 		}
-	}
+	};
 }
 
-MiscJS.recipeTypes.push(CRSequencedAssemblyRecipe);
+MiscJS.recipeTypes.push(CreateSequencedAssemblyRecipe);
