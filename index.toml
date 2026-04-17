@@ -730,7 +730,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "07ca5fc8175ce531803f4a6a80a1dd575dfffae57ed103bc7123aba290685845"
+hash = "db68fc9fea56e46f5af4f91a4d3a8ca67ed691d2c697396b14231ca0f81ea907"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -738,7 +738,7 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9170dcfbe961154ac502fd201f9de7893f72a4b3113e8c51547dec7527d803a7"
+hash = "bcd923b5547b3e13a7bb64ccc7bc127f5a7896cbf99b9886f83b64edd604f016"
 
 [[files]]
 file = "config/personality-client.toml"
@@ -1186,39 +1186,131 @@ hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/misc-js.js"
-hash = "e4dedc950b92819b112b8c0e04fefd1426ae916e59595d74bb4b52fe474b6f0b"
+hash = "1d82885b86e6f6349712d39979ddaee0c829d3dd9f63637858909cde5dac5f47"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/alexmobs/ignored.js"
+hash = "a959b5a895768da3d3275a0ee9781456c3a2214335042c883c654078dbb589bb"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/almostunified/ignored.js"
+hash = "346a38029a12d6ff94c05829917fd5c9436172674d10e5b7ad97a0cdafa38acd"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/amendments/ignored.js"
+hash = "c93ed8712cb4010f6fbcab40a9d660da7b9f74548c922c1acaadc930686998a7"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/brewinandchewin/ignored.js"
+hash = "a9acf76d81abb1b1284851be2ff2ffc653e9c6dc0548f7da4b62759f836d296b"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/create/ignored.js"
+hash = "662168d8049c14e655b33d1f39949c61af8452194332b5f6cf08ba4faaa5fd23"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/recipe-types/create/processing.js"
-hash = "13ea3f7cb0c242406cafec26946c491a2d2548c3e0c0fed2e9bce68a696328c1"
+hash = "b25be105240163cb12a4f47a719cb299f8526552bf6fc3a275f9c40458f0043e"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/recipe-types/create/sequenced-assembly.js"
-hash = "ed73be9f1bb0cd37c9bc6d3ddb0af8b7d616f90475dd903b2b526ee49081b5a1"
+hash = "237200459410d6ec77d83165520ea4b8eddd90781aafc32945af84c846428152"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/recipe-types/create/shaped.js"
-hash = "f8fadb7cc0963eb6a3df2729a358715306ded8ccbc317ef093d6b226d43b2f88"
+hash = "03f5fd23648f0645905d79bf2a39782d640aa8c1530038571c9929c434110943"
 
 [[files]]
-file = "kubejs/server_scripts/misc-js/recipe-types/generic/simple-recipe.js"
-hash = "65818fd3d7a46509d812cf8510d04f4996898e75b6ec8e43aaa1f0578c4adbef"
+file = "kubejs/server_scripts/misc-js/recipe-types/createaddition/charging.js"
+hash = "665c67e2b028d3cf292a4af8ae81dd286b4a4b04f06f04c691479800352d7dcc"
 
 [[files]]
-file = "kubejs/server_scripts/misc-js/recipe-types/generic/single-input-recipe.js"
-hash = "8c9375560455af550e165338eec1728f3e89b6896e930fe6457c30a0d496920d"
+file = "kubejs/server_scripts/misc-js/recipe-types/createaddition/ignored.js"
+hash = "a928778026f664adf1a82b91c84a067919e432b9d0d90c0dbb8526bb720c6f2e"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/createaddition/rolling.js"
+hash = "56d162ed38f5930bcb68c60c4db92da23ea75a6e27be754606ad0eaed391a807"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/exposure/ignored.js"
+hash = "0d015187dd6ea67889dc3e0d44487ea3cb460d6b2d5e9116b806d9a6e1cf891c"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/farmersdelight/cutting.js"
+hash = "14f63567f19354d4d073d2d91a8250d443dc96af77d9f57f596b5a608fc0fe88"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/farmersdelight/ignored.js"
+hash = "406580dea45f98ea461e3ffa7aff60823fd72f591ed18480e2a30851e4f36131"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/farmersrespite/ignored.js"
+hash = "c566e8f3b6d41fc3d881db6424f7c86bc15e37df7b865768e42ed3ae24e2a6df"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/recipe-types/main.js"
 hash = "840c960651c3f4174de8ae6197d5fdaed1cb6087b6241643fbb8350ab7383eee"
 
 [[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/blasting.js"
+hash = "2f07607578bb5da345dc876f999c42ba013d68b8cb8b4551d54fac2672c706f1"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/campfire-cooking.js"
+hash = "219a23f1c3c364a2d1e85f6f7d410ab17c99b7ec6178216789b9f7bd72aa4429"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/ignored.js"
+hash = "91c7d9832057f942364b53522a80e96f362a79511c0f8f6a30a017eb1e775e44"
+
+[[files]]
 file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/shaped.js"
-hash = "b8900c8c7463072fd847a52e74d6fc046103e931e59527cc70046e494e9d67ae"
+hash = "9eb29f185c20c33c7d9851daa4d0a997b1e40a16dc4cf91d4cc55290cb27f0ee"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/shapeless.js"
-hash = "a72a703d910d7428c0c0c2f5f0d6838e1286cedfe266e206993322588501cb94"
+hash = "f19712aedd52c0a038fa57b77b4258d3f2f0994b4a9ae47edc5c76690e7798b2"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/smelting.js"
+hash = "c85a856a96fa3768f126d1750e4fc914b004174777443ab0fe1785852ca7f42f"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/smoking.js"
+hash = "928f8748e9e23ae9f3e96dbd85bb4ee1de52b24d7e19ae72eafe550086be0b46"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/minecraft/stonecutting.js"
+hash = "2ca624f35771cf6741ce25a0ed4b15c07bd3021a6113b06a545751c5d5c5b262"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/powergrid/ignored.js"
+hash = "1475f4e31c1818820e0f391ad2d33f7800363ab417e8b82a2e0f507cf1b2266e"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/quark/ignored.js"
+hash = "cf06da80dd773cedbb2c68c9b76395153b0a6af14bb798b4ac044b0965cbfcc9"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/sophisticatedbackpacks/ignored.js"
+hash = "2994dbecaa0eb3bda9f260923e3b5ad391757ee19c0c9d799edc70f1fca74474"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/sophisticatedcore/ignored.js"
+hash = "118a9bff19aedaaa5bdff811d6695a8a30faaeb7b995f7dca84f1579a474e9f0"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/sophisticatedstorage/ignored.js"
+hash = "5c46942d4c2de8ac0a15dd312a207a23566bf961df9893ffc0f2cab5271eed58"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/supplementaries/ignored.js"
+hash = "6cbf3270e973657d055c57f590b6d41c642bcb5bf403b68c284d8795f25ffefc"
+
+[[files]]
+file = "kubejs/server_scripts/misc-js/recipe-types/suppsquared/ignored.js"
+hash = "8b32e5b82d0607405d2b39248427dc3b867dbac4595823fe40fdbb31f19cb231"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/reload.js"
@@ -1230,7 +1322,7 @@ hash = "6837259099ae1d2f30fa5be74d717a15671c573e0ad374ec3cafc0c23cc2e27c"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/standardize/recipes.js"
-hash = "80d2a363595706586bcf4b3e4788068e9b069b572b58b84cca714d3969611d40"
+hash = "c9582b99ae827fe600703fdae1686570534e3ef47b504b7fde728ee31c86ec79"
 
 [[files]]
 file = "kubejs/server_scripts/misc-js/standardize/tags.js"

@@ -1,40 +1,22 @@
 //priority: 9998
 
-SingleInputRecipe.fromJson = (rawRecipe) => {
-	if(rawRecipe.input == undefined) {
-		return null;
-	}
-	
-	if(typeof rawRecipe.input != 'object') {
-		return null;
-	}
-	
-	if(Array.isArray(rawRecipe.input)) {
-		return null;
-	}
-
-	if(rawRecipe.result == undefined) {
-		return null;
-	}
-	
-	if(typeof rawRecipe.result != 'object') {
-		return null;
-	}
-	
-	if(Array.isArray(rawRecipe.result)) {
+CreateadditionChargingRecipe.fromJson = (rawRecipe) => {
+	if(rawRecipe.type != 'createaddition:charging') {
 		return null;
 	}
 		
-	let recipe = new SingleInputRecipe();
+	let recipe = new CreateadditionChargingRecipe();
 	
 	recipe.json = rawRecipe;
-		
+	
 	return recipe;
 };
 
-function SingleInputRecipe() {
+function CreateadditionChargingRecipe() {
 	this.modified = false;
 	this.empty = false;
+	
+	this.id = 'minecraft:void';
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
@@ -64,6 +46,10 @@ function SingleInputRecipe() {
 			this.empty = true;
 		}
 	};
+	
+	this.toJson = () => {
+		return this.json;
+	};
 }
 
-MiscJS.recipeTypes.push(SingleInputRecipe);
+MiscJS.recipeTypes.push(CreateadditionChargingRecipe);

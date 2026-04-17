@@ -3,6 +3,7 @@
 function MiscJS() {}
 
 MiscJS.recipeTypes = [];
+MiscJS.ignoredRecipeTypes = [];
 
 MiscJS.getAllRecipes = (event, filter, advanced) => {
 	const recipes = [];
@@ -35,7 +36,7 @@ MiscJS.getAllRecipesObjects = (event, filter) => {
 			recipe = recipeType.fromJson(rawRecipe.json);
 			
 			if(recipe != null) {
-				recipe.json.id = rawRecipe.id;
+				recipe.id = rawRecipe.id;
 				recipes.push(recipe);
 				// Prevent a single recipe to have multiple types
 				break;
@@ -48,7 +49,9 @@ MiscJS.getAllRecipesObjects = (event, filter) => {
 	}
 	
 	for(const recipeType of unkownRecipeTypes) {
-		console.log(`Unkown recipe type: ${recipeType}`);
+		if(MiscJS.ignoredRecipeTypes.indexOf(recipeType) == -1) {
+			console.log(`Unkown recipe type: ${recipeType}`);
+		}
 	}
 	
 	return recipes;
@@ -63,7 +66,7 @@ MiscJS.replaceInput = (event, filter, original, replacement) => {
 	
 	for(const recipe of recipes) {
 		if(recipe.modified) {
-			event.custom(recipe.json).id(recipe.json.id);
+			event.custom(recipe.toJson()).id(recipe.id);
 		}
 	}
 };
@@ -77,7 +80,7 @@ MiscJS.replaceOutput = (event, filter, original, replacement) => {
 	
 	for(const recipe of recipes) {
 		if(recipe.modified) {
-			event.custom(recipe.json).id(recipe.json.id);
+			event.custom(recipe.toJson()).id(recipe.id);
 		}
 	}
 };
@@ -95,9 +98,9 @@ MiscJS.removeOutput = (event, filter, original) => {
 	
 	for(const recipe of recipes) {
 		if(recipe.empty) {
-			event.remove({ id: recipe.json.id });
+			event.remove({ id: recipe.id });
 		} else if(recipe.modified) {
-			event.custom(recipe.json).id(recipe.json.id);
+			event.custom(recipe.toJson()).id(recipe.id);
 		}
 	}
 };

@@ -1,30 +1,18 @@
 //priority: 9998
 
-CreateProcessingRecipe.fromJson = (rawRecipe) => {
-	if(rawRecipe.ingredients == undefined) {
-		return null;
-	}
-	
-	if(!Array.isArray(rawRecipe.ingredients)) {
+FarmersdelightCuttingRecipe.fromJson = (rawRecipe) => {
+	if(rawRecipe.type != 'farmersdelight:cutting') {
 		return null;
 	}
 		
-	if(rawRecipe.results == undefined) {
-		return null;
-	}
-	
-	if(!Array.isArray(rawRecipe.results)) {
-		return null;
-	}
-		
-	let recipe = new CreateProcessingRecipe();
+	let recipe = new FarmersdelightCuttingRecipe();
 	
 	recipe.json = rawRecipe;
 	
 	return recipe;
 };
 
-function CreateProcessingRecipe() {
+function FarmersdelightCuttingRecipe() {
 	this.modified = false;
 	this.empty = false;
 	
@@ -34,7 +22,7 @@ function CreateProcessingRecipe() {
 	this.replaceInput = (original, replacement) => {
 		const originalObject = MiscJS.ingredientStringToObject(original);
 		const replacementObject = MiscJS.ingredientStringToObject(replacement);
-				
+		
 		for(let i = 0; i < this.json.ingredients.length; i++) {
 			if(MiscJS.equalIngredients(this.json.ingredients[i], originalObject)) {
 				MiscJS.replaceIngredient(this.json.ingredients[i], replacementObject);
@@ -47,9 +35,9 @@ function CreateProcessingRecipe() {
 		const originalObject = MiscJS.ingredientStringToObject(original);
 		const replacementObject = MiscJS.ingredientStringToObject(replacement);
 		
-		for(let i = 0; i < this.json.results.length; i++) {
-			if(MiscJS.equalIngredients(this.json.results[i], originalObject)) {
-				MiscJS.replaceIngredient(this.json.results[i], replacementObject);
+		for(let i = 0; i < this.json.result.length; i++) {
+			if(MiscJS.equalIngredients(this.json.result[i], originalObject)) {
+				MiscJS.replaceIngredient(this.json.result[i], replacementObject);
 				this.modified = true;
 			}
 		}
@@ -63,20 +51,20 @@ function CreateProcessingRecipe() {
 		do {
 			indexToRemove = -1;
 			
-			for(let i = 0; i < this.json.results.length; i++) {
-				if(MiscJS.equalIngredients(this.json.results[i], removedItemObject)) {
+			for(let i = 0; i < this.json.result.length; i++) {
+				if(MiscJS.equalIngredients(this.json.result[i], removedItemObject)) {
 					indexToRemove = i;
 					break;
 				}
 			}
 			
 			if(indexToRemove != -1) {
-				this.json.results.splice(indexToRemove, 1);
+				this.json.result.splice(indexToRemove, 1);
 				this.modified = true;
 			}
 		} while(indexToRemove != -1);
 		
-		if(this.json.results.length < 1) {
+		if(this.json.result.length < 1) {
 			this.empty = true;
 		}
 	};
@@ -86,4 +74,4 @@ function CreateProcessingRecipe() {
 	};
 }
 
-MiscJS.recipeTypes.push(CreateProcessingRecipe);
+MiscJS.recipeTypes.push(FarmersdelightCuttingRecipe);

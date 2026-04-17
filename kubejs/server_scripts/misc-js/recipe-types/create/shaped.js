@@ -23,6 +23,8 @@ CreateShapedRecipe.fromJson = (rawRecipe) => {
 function CreateShapedRecipe() {
 	this.modified = false;
 	this.empty = false;
+	
+	this.id = 'minecraft:void';
 	this.json = {};
 	this.multipleInputByKey = new Map();
 	
@@ -63,6 +65,10 @@ function CreateShapedRecipe() {
 		if(MiscJS.equalIngredients(this.json.result, removedItemObject)) {
 			this.empty = true;
 		}
+	};
+	
+	this.toJson = () => {
+		return this.json;
 	};
 }
 

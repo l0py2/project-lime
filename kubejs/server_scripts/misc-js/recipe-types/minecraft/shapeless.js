@@ -15,6 +15,8 @@ MinecraftShapelessRecipe.fromJson = (rawRecipe) => {
 function MinecraftShapelessRecipe() {
 	this.modified = false;
 	this.empty = false;
+	
+	this.id = 'minecraft:void';
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
@@ -54,6 +56,10 @@ function MinecraftShapelessRecipe() {
 		if(MiscJS.equalIngredients(this.json.result, removedItemObject)) {
 			this.empty = true;
 		}
+	};
+	
+	this.toJson = () => {
+		return this.json;
 	};
 }
 

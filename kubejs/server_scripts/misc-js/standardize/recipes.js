@@ -22,10 +22,9 @@ ServerEvents.recipes(event => {
 	
 	for(const recipe of recipes) {
 		if(recipe.empty) {
-			event.remove({ id: recipe.json.id });
+			event.remove({ id: recipe.id });
 		} else if(recipe.modified) {
-			event.remove({ id: recipe.json.id });
-			event.custom(recipe.json);
+			event.custom(recipe.toJson()).id(recipe.id);
 		}
 	}
 });

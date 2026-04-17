@@ -39,6 +39,8 @@ CreateSequencedAssemblyRecipe.fromJson = (rawRecipe) => {
 function CreateSequencedAssemblyRecipe() {
 	this.modified = false;
 	this.empty = false;
+	
+	this.id = 'minecraft:void';
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
@@ -96,6 +98,10 @@ function CreateSequencedAssemblyRecipe() {
 		if(this.json.results.length < 1) {
 			this.empty = true;
 		}
+	};
+	
+	this.toJson = () => {
+		return this.json;
 	};
 }
 

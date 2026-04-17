@@ -1,32 +1,22 @@
 //priority: 9998
 
-SimpleRecipe.fromJson = (rawRecipe) => {
-	if(rawRecipe.ingredient == undefined) {
+MinecraftSmeltingRecipe.fromJson = (rawRecipe) => {
+	if(rawRecipe.type != 'minecraft:smelting') {
 		return null;
 	}
 		
-	if(rawRecipe.result == undefined) {
-		return null;
-	}
-			
-	if(typeof rawRecipe.result != 'string') {
-		return null;
-	}
-		
-	let recipe = new SimpleRecipe();
+	let recipe = new MinecraftSmeltingRecipe();
 	
 	recipe.json = rawRecipe;
-	
-	if(Array.isArray(recipe.json.ingredient)) {
-		recipe.multipleInput = true;
-	}
 		
 	return recipe;
 };
 
-function SimpleRecipe() {
+function MinecraftSmeltingRecipe() {
 	this.modified = false;
 	this.empty = false;
+	
+	this.id = 'minecraft:void';
 	this.json = {};
 	this.multipleInput = false;
 	
@@ -61,6 +51,10 @@ function SimpleRecipe() {
 			this.empty = true;
 		}
 	};
+	
+	this.toJson = () => {
+		return this.json;
+	};
 }
 
-MiscJS.recipeTypes.push(SimpleRecipe);
+MiscJS.recipeTypes.push(MinecraftSmeltingRecipe);

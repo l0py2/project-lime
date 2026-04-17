@@ -1,19 +1,13 @@
 //priority: 100
 
 global.recipes = {
-	getAll: (event, filter, returnIds) => {
+	getAll: (event, filter) => {
 		const recipes = [];
 		
 		event.forEachRecipe(
 			filter,
 			recipe => {
-				let recipeJson = JSON.parse(recipe.json.toString());
-				
-				if(returnIds) {
-					recipeJson.id = recipe.getId();
-				}
-				
-				recipes.push(recipeJson);
+				recipes.push(JSON.parse(recipe.json.toString()));
 			}
 		);
 		
