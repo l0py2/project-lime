@@ -161,6 +161,22 @@ file = "kubejs/server_scripts/game/drop-block.js"
 hash = "932956306f363e54ee2a0c20379f590be2caee91751d59bd0705c88843dc4dee"
 
 [[files]]
+file = "kubejs/server_scripts/mods/minecraft/crafting-stations.js"
+hash = "2a16f20005fdc98bbdb45883848dc2b8396779080b25e7c9df696c656745d513"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/misc.js"
+hash = "956999db8ef4c4c5bfb3fdb0f9191c750fc1bd158c19b4a972718fdce2b27e6a"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/mount-items.js"
+hash = "1643f37963f049559a167f364766abd0ef7fe7743dfc73a91cfedcfe899b9cb4"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/tools.js"
+hash = "e95ba2f26054163e727ea0a496c4f1d375baf00f2764cd74290f3429c81ac40d"
+
+[[files]]
 file = "kubejs/server_scripts/unify-js/ingredient-manipulation.js"
 hash = "33e5eb23edb3371ecb05f59fa43465063f15afbf150fc14360fe4b308e639c3d"
 
@@ -218,7 +234,7 @@ hash = "0d96568acab14ff08ab7efecc25eab625260f1c7b1808ab8f6ff874e15b354e6"
 
 [[files]]
 file = "kubejs/startup_scripts/unify-js/mods/minecraft.js"
-hash = "f37ae114b3705821d0a47126a0a8ae4151a98dcc2d0e00a1f06c14c008c96427"
+hash = "f273f4f5074b43b56a7935c5939043f735950361fa81a3293c5b5a4c3c5cac24"
 
 [[files]]
 file = "kubejs/startup_scripts/unify-js/variables.js"
