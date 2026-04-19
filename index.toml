@@ -29,6 +29,10 @@ file = "config/incontrol-server.toml"
 hash = "3e6efcad6e8fc9714583efa0771c386698f2f147d16b91319fa334a5ad5703a9"
 
 [[files]]
+file = "config/incontrol/areas.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
 file = "config/incontrol/breakevents.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -150,11 +154,11 @@ hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
 
 [[files]]
 file = "kubejs/server_scripts/game/drop-block.js"
-hash = "2c20b997f53c880ebc0c642d24c3a1b46b2ff4031fa16faa85347fb6a0297025"
+hash = "932956306f363e54ee2a0c20379f590be2caee91751d59bd0705c88843dc4dee"
 
 [[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+file = "kubejs/startup_scripts/constants.js"
+hash = "0d96568acab14ff08ab7efecc25eab625260f1c7b1808ab8f6ff874e15b354e6"
 
 [[files]]
 file = "mods/controlling.pw.toml"
