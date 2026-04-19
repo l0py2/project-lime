@@ -32,6 +32,7 @@ Minecraft and mods progression tweaked.
 - [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei)
 - [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) **6**
 - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
+- [Create](https://www.curseforge.com/minecraft/mc-mods/create)
 
 ### Optimization
 

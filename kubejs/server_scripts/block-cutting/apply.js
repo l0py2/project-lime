@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
 	const alternativeRecipeTypes = [
 		'minecraft:smelting',
 		'minecraft:blasting',
-		'minecraft:crafting_shaped'
+		'minecraft:crafting_shaped',
+		'create:cutting'
 	];
 	
 	for(const blockType of BlockCutting.types) {
