@@ -157,10 +157,6 @@ file = "kubejs/server_scripts/default-commands.js"
 hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
 
 [[files]]
-file = "kubejs/server_scripts/game/drop-block.js"
-hash = "932956306f363e54ee2a0c20379f590be2caee91751d59bd0705c88843dc4dee"
-
-[[files]]
 file = "kubejs/server_scripts/mods/minecraft/crafting-stations.js"
 hash = "2a16f20005fdc98bbdb45883848dc2b8396779080b25e7c9df696c656745d513"
 
