@@ -165,6 +165,10 @@ file = "kubejs/server_scripts/block-cutting/mods/minecraft/copper/copper.js"
 hash = "2ead850566b6d58f759344e0c4410663cb78e6b9b57a59fe548fefbcec72d3d9"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/glass.js"
+hash = "263c32b5ddf054fd76441ad52789a0edda37aefcea3ecbeb0614cccdbbeefbe5"
+
+[[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/basalt.js"
 hash = "72b8f0cc84d04ba210fa1208a2b6281236ab1ed206b25fe1b49e4b860721fe3c"
 
