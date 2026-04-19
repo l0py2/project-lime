@@ -191,6 +191,10 @@ ServerEvents.recipes(event => {
 			return Item.of(`${mod}:${rawBlockName}`).id;
 		}
 		
+		if(Item.exists(`${mod}:${rawBlockName}s`)) {
+			return Item.of(`${mod}:${rawBlockName}s`).id;
+		}
+		
 		if(Item.exists(rawBlockName)) {
 			return Item.of(rawBlockName).id;
 		}

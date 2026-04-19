@@ -170,7 +170,11 @@ hash = "3998d52379aeab4a9999492220b8afb40ae56e8360d6c1a5fb956b37d615c041"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/apply.js"
-hash = "9f9b00ef9c97bc6ce999b02c362fae88b9fb2979c5c16dad5a0580a38507ac28"
+hash = "1df2b8ead9e7fe0960f4b126314dde2577e36d2a3d6b0d3635fa136fa4b333f5"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/create/copper.js"
+hash = "c3b9a8aed908766bd64f1cbdc0b64b65119af4cea7f2bb7420dd6175e9e9675d"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/bricks/bricks.js"
@@ -181,7 +185,7 @@ file = "kubejs/server_scripts/block-cutting/mods/minecraft/bricks/nether-bricks.
 hash = "e459588e8582a1425efe08d73e5c035dc5f819c08e4a270a2f7c04793554170d"
 
 [[files]]
-file = "kubejs/server_scripts/block-cutting/mods/minecraft/copper/copper.js"
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/copper.js"
 hash = "2ead850566b6d58f759344e0c4410663cb78e6b9b57a59fe548fefbcec72d3d9"
 
 [[files]]
