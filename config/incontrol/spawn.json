@@ -2,11 +2,48 @@
 	{
 		"hostile": true,
 		"when": "onjoin",
-		"spawntype": ["mob_summoned", "spawn_egg"],
+		"spawntype": ["mob_summoned"],
 		"result": "default"
 	},
 	{
-		"hostile": true,
+		"mob": "minecraft:creeper",
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": ["minecraft:skeleton", "minecraft:stray"],
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:witch",
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:zombie_villager",
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:warden",
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:enderman",
+		"dimension": ["minecraft:overworld", "minecraft:nether"],
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": "minecraft:spider",
+		"minheight": 32,
 		"when": "onjoin",
 		"result": "deny"
 	}
