@@ -24,7 +24,6 @@ ServerEvents.recipes(event => {
 		if(recipe.empty) {
 			event.remove({ id: recipe.id });
 		} else if(recipe.modified) {
-			console.log('MODIFIED!');
 			event.custom(recipe.toJson()).id(recipe.id);
 		}
 	}

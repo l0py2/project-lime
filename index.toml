@@ -174,7 +174,7 @@ hash = "e95ba2f26054163e727ea0a496c4f1d375baf00f2764cd74290f3429c81ac40d"
 
 [[files]]
 file = "kubejs/server_scripts/unify-js/ingredient-manipulation.js"
-hash = "33e5eb23edb3371ecb05f59fa43465063f15afbf150fc14360fe4b308e639c3d"
+hash = "d3e19736cfbd730105f991737bdea8489403346c98cc4c10a13b1383bcb222a8"
 
 [[files]]
 file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/blasting.js"
@@ -218,7 +218,7 @@ hash = "664ec602b85a8945f1740ea8b237a325c07d6cc700fda96d9a0094c238515ae5"
 
 [[files]]
 file = "kubejs/server_scripts/unify-js/unify/recipes.js"
-hash = "2e512bf646fcbd1343d07b8060154421c600d103cef7a4297d4cdfdb13e5b093"
+hash = "483d8f8279edd609084d1b50d90b94b593677ce8f1db1bc3f73d4abe6e528da6"
 
 [[files]]
 file = "kubejs/server_scripts/unify-js/unify/tags.js"
@@ -230,7 +230,7 @@ hash = "0d96568acab14ff08ab7efecc25eab625260f1c7b1808ab8f6ff874e15b354e6"
 
 [[files]]
 file = "kubejs/startup_scripts/unify-js/mods/minecraft.js"
-hash = "f273f4f5074b43b56a7935c5939043f735950361fa81a3293c5b5a4c3c5cac24"
+hash = "7a362e791bd5b0e636154c590f955888ace135b25467d729829914e48153ec9b"
 
 [[files]]
 file = "kubejs/startup_scripts/unify-js/variables.js"
