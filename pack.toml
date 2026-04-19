@@ -1,13 +1,13 @@
 name = "Project Lime"
-author = "l0py2, Lagosta4K"
+author = "l0py2"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7b81c9e9d9e6e21a9865a2dded0dfd77e7683d679b98fe5b0114eaed9a31f17e"
+hash = "87e6381bbecc9aa8c593d71bad4b27c08e609c8fb7168e07bac7e25d698d221c"
 
 [versions]
-forge = "47.4.10"
-minecraft = "1.20.1"
+minecraft = "1.21.1"
+neoforge = "21.1.227"
