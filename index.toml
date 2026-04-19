@@ -153,6 +153,86 @@ file = "kubejs/server_scripts/block-cutting/apply.js"
 hash = "6a9c752b4a5f094d1193362d49d873fa4420f837ef92d5c4668914be999bc471"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/bricks/bricks.js"
+hash = "698c2f02aef6d4c4562da6adc7448fa172f314ad3bb5123f7288ad0cd874039d"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/bricks/nether-bricks.js"
+hash = "e459588e8582a1425efe08d73e5c035dc5f819c08e4a270a2f7c04793554170d"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/basalt.js"
+hash = "72b8f0cc84d04ba210fa1208a2b6281236ab1ed206b25fe1b49e4b860721fe3c"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/blackstone.js"
+hash = "bedfbfc57e2b806adf3db51d8a6d3fbc0f6069301a130c0c2577b80fc438f91f"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/calcite.js"
+hash = "bdd0f8842041b1a22ff17feb6d8924c1f4d7d3dd87afc30834f05a231121e1cb"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/dark-prismarine.js"
+hash = "771ec741122da446c7580419d309ab31136cf7f813824c06c299351c0c37fd27"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/deepslate.js"
+hash = "1088e66a6ed43537bb65419aa68664ca8499601baddba70193c4f8317d6c92ae"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/dripstone.js"
+hash = "35aa78a530d1fb94e9af1245f5f0d2c02342c92a5607845fb95068510b96dd13"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/end-stone.js"
+hash = "2171e4964e79fdc734aedf627a8a57e89f9f0683d87698d6e167e5b55272aef3"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/misc.js"
+hash = "294d3ce3ddd1400339b07a474636a4f7c867d59553db2f64a3ef7adddf49bb12"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/mossy-stone.js"
+hash = "7f8d9de73c23333a3e2e2480f419df45733adcc3eedb483613d60b9fd3b48f84"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/mud.js"
+hash = "8c3910a419ef429ad81fd48759258319c762d635ec6cf0f0d93fe6bb92a57e7f"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/prismarine.js"
+hash = "3f3409f46182ed41225d7b26b1e8937352f641a27632c18aba90a5424e31a685"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/purpur.js"
+hash = "6bb59d0687473aff338c6053dddfc404532530f398ffec0818d30a6424732509"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/quartz.js"
+hash = "e09e57c4f511c15790ddea27de8f2ad2be0642fa439cb697f2bfcb2b105d0629"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/red-nether-brick.js"
+hash = "45b197c974157049679a0239eda96cc19d107eec4b02ab276bb8e581383be103"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/red-sand.js"
+hash = "d25283ccfd735ef83bcf85843d23ee26da6bf388c019200a5de487138eea2c26"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/sand.js"
+hash = "ef0301ec1b930855e529ea3946ebeb349f6e4ceca709e459ce2770b7e8808765"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/stone.js"
+hash = "1f73d915a90aecefedeb943f5dde94b084d09c3a334de03c4418162280267436"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/tuff.js"
+hash = "b7e0969d9c2427d86814e1267be754bcc6cd1e48045f884f4e8162edc2f3860c"
+
+[[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/wood/bamboo.js"
 hash = "468c8ea83f4ca371559e1ec9995c7379de1c2bd9c1d8fbf62a0634f0730cddfd"
 
