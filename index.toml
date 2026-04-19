@@ -6,7 +6,7 @@ hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
 file = "config/emi.css"
-hash = "9fa24b9307a960428865fddf89bf18ad0659141055e918cd113a3e510a2d2b7f"
+hash = "7f44dbc5c8bc7d4e4e70ec8b2b7a9e8c681fbb6c3a558e44fcb189db93c0dc11"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -133,8 +133,8 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+file = "kubejs/client_scripts/unify-js/unification-tooltip.js"
+hash = "0fabbff5003336b7bd0c80373691cc5b068e298b38c5ea9843a5d71f9ef1280f"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -149,6 +149,10 @@ file = "kubejs/config/web_server.json"
 hash = "3998d52379aeab4a9999492220b8afb40ae56e8360d6c1a5fb956b37d615c041"
 
 [[files]]
+file = "kubejs/server_scripts/conversion/smelting-to-blasting.js"
+hash = "90d090807149d43f2152263c2feea7b3f1116eff50717a3443bad9855d8065bd"
+
+[[files]]
 file = "kubejs/server_scripts/default-commands.js"
 hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
 
@@ -157,8 +161,68 @@ file = "kubejs/server_scripts/game/drop-block.js"
 hash = "932956306f363e54ee2a0c20379f590be2caee91751d59bd0705c88843dc4dee"
 
 [[files]]
+file = "kubejs/server_scripts/unify-js/ingredient-manipulation.js"
+hash = "33e5eb23edb3371ecb05f59fa43465063f15afbf150fc14360fe4b308e639c3d"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/blasting.js"
+hash = "04677030fa66a5e093182326876ecf19cf60fa00dedc0abdd7b2eb45ecc1b3f6"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/campfire-cooking.js"
+hash = "429967a9fa4904ee1057bd8d8af581ab6aa21467deafe40003b023ed40779f3c"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/ignored.js"
+hash = "aeabe4dea995b49eea386e8e929f0a04c9df97eda14d40376cb21d9d181407f4"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/shaped.js"
+hash = "b0b42d52365e6f844a66990f3f0788bff5e6147b9f177814c24ed62633748bcb"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/shapeless.js"
+hash = "8cde3a8117aef7bf11fef7b344e07165a9c36350cd88e91dd4cf0781930ca9ec"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/smelting.js"
+hash = "5c3821f5bc4ac950c1c55076d1669d3eb33457bdd33f3d83eb953cc42fdb0ea6"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/smoking.js"
+hash = "1330fb59fad398217953b42bfa2e0c95f3dcac15745e19f15f8524fb443950f7"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/stonecutting.js"
+hash = "9afc20195c5178666d654272a0debfe4f7659b8918bbd070ad48879cd1f826cb"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/unify-js.js"
+hash = "a62bbf4a974533c731a6d25e55a0f4793b19ea487826d4d129c26355c1d452c3"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/unify/loot.js"
+hash = "664ec602b85a8945f1740ea8b237a325c07d6cc700fda96d9a0094c238515ae5"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/unify/recipes.js"
+hash = "2e512bf646fcbd1343d07b8060154421c600d103cef7a4297d4cdfdb13e5b093"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/unify/tags.js"
+hash = "550ab58090a35446deeedfecd150959fc639baaa126a6962cf4b2f7fbea14bde"
+
+[[files]]
 file = "kubejs/startup_scripts/constants.js"
 hash = "0d96568acab14ff08ab7efecc25eab625260f1c7b1808ab8f6ff874e15b354e6"
+
+[[files]]
+file = "kubejs/startup_scripts/unify-js/mods/minecraft.js"
+hash = "f37ae114b3705821d0a47126a0a8ae4151a98dcc2d0e00a1f06c14c008c96427"
+
+[[files]]
+file = "kubejs/startup_scripts/unify-js/variables.js"
+hash = "593f06a39371920c6d67ee8786971161035bee548b1a43d7bdabac5892ccaa07"
 
 [[files]]
 file = "mods/controlling.pw.toml"
