@@ -170,7 +170,7 @@ hash = "1643f37963f049559a167f364766abd0ef7fe7743dfc73a91cfedcfe899b9cb4"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/tools.js"
-hash = "e95ba2f26054163e727ea0a496c4f1d375baf00f2764cd74290f3429c81ac40d"
+hash = "f06bd263328bc738b60b40145aff1c4dd39243c711d46c10bb156cabf4647155"
 
 [[files]]
 file = "kubejs/server_scripts/unify-js/ingredient-manipulation.js"

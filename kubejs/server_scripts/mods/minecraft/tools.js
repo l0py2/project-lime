@@ -14,99 +14,58 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'minecraft:netherite_hoe_smithing' });
 	event.remove({ id: 'minecraft:netherite_sword_smithing' });
 	
-	function enchantTool(tool) {
-		event.shapeless(
-			`${tool}[unbreakable={},enchantments={levels:{"minecraft:silk_touch":1}}]`,
-			[
-				`${tool}[unbreakable={}]`,
-				'#c:gems/emerald'
-			]
+	function enchantedTool(pattern, tool) {
+		let baseTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":3}}]`;
+		let silkTouchTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":3,"minecraft:silk_touch":1}}]`;
+		
+		event.shaped(
+			baseTool,
+			pattern,
+			{
+				A: '#minecraft:planks',
+				B: '#c:rods/wooden'
+			}
 		);
 		
-		event.shapeless(
-			`${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":5}}]`,
-			[
-				`${tool}[unbreakable={}]`,
-				'#c:ingots/netherite'
-			]
-		);
-		
-		event.shapeless(
-			`${tool}[unbreakable={},enchantments={levels:{"minecraft:silk_touch":1,"minecraft:efficiency":5}}]`,
-			[
-				`${tool}[unbreakable={},enchantments={levels:{"minecraft:silk_touch":1}}]`,
-				'#c:ingots/netherite'
-			]
-		);
-		
-		event.shapeless(
-			`${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":5,"minecraft:silk_touch":1}}]`,
-			[
-				`${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":5}}]`,
-				'#c:gems/emerald'
-			]
-		);
+		event.shapeless(silkTouchTool, [baseTool, '#c:gems/emerald']);
+		event.shapeless(baseTool, [silkTouchTool]);
 	}
 	
-	event.shaped(
-		'minecraft:netherite_axe[unbreakable={}]',
+	enchantedTool(
 		[
 			'AA ',
 			'AB ',
-			' B '
+			' B ',
 		],
-		{
-			A: '#minecraft:planks',
-			B: '#c:rods/wooden'
-		}
+		'minecraft:netherite_axe'
 	);
 	
-	enchantTool('minecraft:netherite_axe');
-	
-	event.shaped(
-		'minecraft:netherite_pickaxe[unbreakable={}]',
+	enchantedTool(
 		[
 			'AAA',
 			' B ',
-			' B '
+			' B ',
 		],
-		{
-			A: '#minecraft:planks',
-			B: '#c:rods/wooden'
-		}
+		'minecraft:netherite_pickaxe'
 	);
 	
-	enchantTool('minecraft:netherite_pickaxe');	
-	
-	event.shaped(
-		'minecraft:netherite_shovel[unbreakable={}]',
+	enchantedTool(
 		[
 			' A ',
 			' B ',
-			' B '
+			' B ',
 		],
-		{
-			A: '#minecraft:planks',
-			B: '#c:rods/wooden'
-		}
+		'minecraft:netherite_shovel'
 	);
 	
-	enchantTool('minecraft:netherite_shovel');
-	
-	event.shaped(
-		'minecraft:netherite_hoe[unbreakable={}]',
+	enchantedTool(
 		[
 			'AA ',
 			' B ',
-			' B '
+			' B ',
 		],
-		{
-			A: '#minecraft:planks',
-			B: '#c:rods/wooden'
-		}
+		'minecraft:netherite_hoe'
 	);
-	
-	enchantTool('minecraft:netherite_hoe');
 	
 	event.shaped(
 		'minecraft:netherite_sword[unbreakable={}]',
