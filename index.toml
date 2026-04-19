@@ -149,6 +149,22 @@ file = "kubejs/config/web_server.json"
 hash = "3998d52379aeab4a9999492220b8afb40ae56e8360d6c1a5fb956b37d615c041"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/apply.js"
+hash = "6a9c752b4a5f094d1193362d49d873fa4420f837ef92d5c4668914be999bc471"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/wood/bamboo.js"
+hash = "468c8ea83f4ca371559e1ec9995c7379de1c2bd9c1d8fbf62a0634f0730cddfd"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/minecraft/wood/misc.js"
+hash = "1ba97ecc3da853b5ef84e0f1417d28e5097c5b2ae0fd248a5fbaf4d52b6b32da"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/variables.js"
+hash = "eab28f0821aff74a99cc5fe4e6b77829b6111a6e2e2b125c413e90794af57890"
+
+[[files]]
 file = "kubejs/server_scripts/conversion/smelting-to-blasting.js"
 hash = "90d090807149d43f2152263c2feea7b3f1116eff50717a3443bad9855d8065bd"
 
