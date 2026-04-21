@@ -181,6 +181,14 @@ file = "kubejs/server_scripts/block-cutting/mods/create/glass.js"
 hash = "cd253310d8c928ec32eb831fead378f783744041f0f19b552c403629e76c290b"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/mods/create/stone/common-stone.js"
+hash = "2cb8b5ece4c2f17fe74a016768864dbbb3ee31caf713efebeb8a3e2a11cbe771"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/create/stone/rose-quartz.js"
+hash = "5484a01ce7dbdc824b249dee704bf7f3677346ed22323185767447730c489505"
+
+[[files]]
 file = "kubejs/server_scripts/block-cutting/mods/create/windows.js"
 hash = "b65f9af9145f8d7f943749b16ae41eb443ab254a5360f975a8c79470c2582b48"
 
