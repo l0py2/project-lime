@@ -4,7 +4,6 @@ LootJS.modifiers(event => {
 	lootTables.removeLoot('minecraft:netherite_pickaxe');
 	lootTables.removeLoot('minecraft:netherite_shovel');
 	lootTables.removeLoot('minecraft:netherite_hoe');
-	lootTables.removeLoot('minecraft:netherite_sword');
 });
 
 ServerEvents.recipes(event => {
@@ -12,11 +11,12 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'minecraft:netherite_pickaxe_smithing' });
 	event.remove({ id: 'minecraft:netherite_shovel_smithing' });
 	event.remove({ id: 'minecraft:netherite_hoe_smithing' });
-	event.remove({ id: 'minecraft:netherite_sword_smithing' });
 	
 	function enchantedTool(pattern, tool) {
-		let baseTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":3}}]`;
-		let silkTouchTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":3,"minecraft:silk_touch":1}}]`;
+		let baseTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":1}}]`;
+		let silkTouchTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":1,"minecraft:silk_touch":1}}]`;
+		let improvedTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":3}}]`;
+		let ultimateTool = `${tool}[unbreakable={},enchantments={levels:{"minecraft:efficiency":5}}]`;
 		
 		event.shaped(
 			baseTool,
@@ -28,7 +28,8 @@ ServerEvents.recipes(event => {
 		);
 		
 		event.shapeless(silkTouchTool, [baseTool, '#c:gems/emerald']);
-		event.shapeless(baseTool, [silkTouchTool]);
+		event.shapeless(improvedTool, [baseTool, '#c:ingots/netherite']);
+		event.shapeless(ultimateTool, [improvedTool, '#c:nether_stars']);
 	}
 	
 	enchantedTool(
@@ -65,18 +66,5 @@ ServerEvents.recipes(event => {
 			' B ',
 		],
 		'minecraft:netherite_hoe'
-	);
-	
-	event.shaped(
-		'minecraft:netherite_sword[unbreakable={}]',
-		[
-			' A ',
-			' A ',
-			' B '
-		],
-		{
-			A: '#minecraft:planks',
-			B: '#c:rods/wooden'
-		}
 	);
 });

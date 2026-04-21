@@ -306,7 +306,7 @@ hash = "1643f37963f049559a167f364766abd0ef7fe7743dfc73a91cfedcfe899b9cb4"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/tools.js"
-hash = "f06bd263328bc738b60b40145aff1c4dd39243c711d46c10bb156cabf4647155"
+hash = "e252376bf8bb803e9151f613eb8c75cb4df2ffbb7413610580bcea4f1389fbb6"
 
 [[files]]
 file = "kubejs/server_scripts/unify-js/ingredient-manipulation.js"
@@ -433,8 +433,12 @@ file = "kubejs/startup_scripts/new-items/steel.js"
 hash = "c1a2893e36ecbe1b0e41f6b61e83efebcdbbc9aa339788897c14c33c06cb897f"
 
 [[files]]
+file = "kubejs/startup_scripts/tools.js"
+hash = "ce87552932ca3b5ef95ea2d56f7addf73a8ea52ef0ef7b3e1d00be3f5248113e"
+
+[[files]]
 file = "kubejs/startup_scripts/unify-js/mods/minecraft.js"
-hash = "7a362e791bd5b0e636154c590f955888ace135b25467d729829914e48153ec9b"
+hash = "424985b5902ad25f4d38a559a5d911ffd541f54f1066c2b6dfdc71156e73c91a"
 
 [[files]]
 file = "kubejs/startup_scripts/unify-js/variables.js"

@@ -15,7 +15,6 @@ global.removedItems = global.removedItems.concat([
 	global.removedItems.push(`minecraft:${material}_pickaxe`);
 	global.removedItems.push(`minecraft:${material}_shovel`);
 	global.removedItems.push(`minecraft:${material}_hoe`);
-	global.removedItems.push(`minecraft:${material}_sword`);
 });
 
 global.removedRecipes = global.removedRecipes.concat([
