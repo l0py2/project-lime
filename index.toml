@@ -138,7 +138,11 @@ hash = "1c060e845e29386597054765729f34b0933fa3d1ff75cdd686a4e925cfe973d8"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
-hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+hash = "688fa1a15fcf49b790e82dd8a28896420291f7a1155bb6df51ea5b0aaa3b95e2"
+
+[[files]]
+file = "config/paxi/datapacks/project-lime-advancements/pack.mcmeta"
+hash = "ae5ae995429a424ac24b5ffc0ae216b179416bb62c8a666244e32558505023a3"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
