@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
 			'I I'
 		],
 		{
-			I: '#c:ingots/iron'
+			I: '#c:plates/iron'
 		}
 	);
 	
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
 			'G G'
 		],
 		{
-			G: '#c:ingots/gold'
+			G: '#c:plates/gold'
 		}
 	);
 	
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
 		'minecraft:saddle',
 		[
 			'LLL',
-			'LIL',
+			' I ',
 			'   '
 		],
 		{
