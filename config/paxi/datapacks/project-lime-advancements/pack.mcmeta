@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": "Project Lime custom advancements"
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": ".*",
+				"path": "advancement/.*"
+			}
+		]
+	}
+}

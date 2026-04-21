@@ -1,20 +1,22 @@
 ServerEvents.recipes(event => {
-	const smeltingRecipes = UnifyJS.getAllRecipes(event, { type: 'minecraft:smelting' }).map(recipe => recipe.json);
+	const smeltingRecipes = UnifyJS.getAllRecipes(event, { type: 'minecraft:smelting' });
 	const smokingRecipes = UnifyJS.getAllRecipes(event, { type: 'minecraft:smoking' }).map(recipe => recipe.json);
 	const blastingRecipes = UnifyJS.getAllRecipes(event, { type: 'minecraft:blasting' }).map(recipe => recipe.json);
 	
-	for(const smeltingRecipe of smeltingRecipes) {
+	for(const smeltingRecipeWithId of smeltingRecipes) {
+		let smeltingRecipe = smeltingRecipeWithId.json;
+		
 		let food = false;
 		let exists = false;
 		
 		for(const smokingRecipe of smokingRecipes) {
-			if(smeltingRecipe.result == smokingRecipe.result) {
+			if(smeltingRecipe.result.id == smokingRecipe.result.id) {
 				food = true;
 			}
 		}
 		
 		for(const blastingRecipe of blastingRecipes) {
-			if(smeltingRecipe.result == blastingRecipe.result) {
+			if(smeltingRecipe.result.id == blastingRecipe.result.id) {
 				exists = true;
 			}
 		}
@@ -25,7 +27,7 @@ ServerEvents.recipes(event => {
 			newRecipe.type = 'minecraft:blasting';
 			newRecipe.cookingtime = 100;
 			
-			event.custom(newRecipe);
+			event.custom(newRecipe).id(smeltingRecipeWithId.id);
 		}
 	}
 	
