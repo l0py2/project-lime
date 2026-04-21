@@ -278,7 +278,7 @@ hash = "eab28f0821aff74a99cc5fe4e6b77829b6111a6e2e2b125c413e90794af57890"
 
 [[files]]
 file = "kubejs/server_scripts/conversion/smelting-to-blasting.js"
-hash = "90d090807149d43f2152263c2feea7b3f1116eff50717a3443bad9855d8065bd"
+hash = "0d9d52b650e7ec3631f385717d4be06af619d97d11d872c2f8f8a02842ca0a6f"
 
 [[files]]
 file = "kubejs/server_scripts/default-commands.js"
