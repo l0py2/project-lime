@@ -5,6 +5,18 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/apathy-boss.toml"
+hash = "bb255a85171c6958b90548faf794a400f13079f3a7fcdf3c7ccbc56754060045"
+
+[[files]]
+file = "config/apathy-general.toml"
+hash = "cbf43ed7578138d6e1eae4996ed74e07d1d4840d5bc89fdbd29dc084e53bb4c4"
+
+[[files]]
+file = "config/apathy-mobs.toml"
+hash = "f735f11feb4dcfb5863c7bda54b1aedeb5208d70bf902f7b3714244183012f15"
+
+[[files]]
 file = "config/create-client.toml"
 hash = "e20f6769fd946b918f24cfd54a422a599faa43394ee9a33012e645102a366da3"
 
@@ -86,11 +98,11 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "f955253abd94bca601aa4dc1fd70c9b2f3791fd1f46e00359bb918192c342bdc"
+hash = "2a8502dae22a29a4b5f9d0a6c496af6c7b84fedfc916085434675057f2d9897f"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "84b939885b209bf2c45464ca2ee75ae2a0e8b15f8749bb4ef2a687d204cf7828"
+hash = "8158b2711a3a9faf60cab860019ac24774404c1302fdc0679cd7bdfd24feac6e"
 
 [[files]]
 file = "config/jei-server.toml"
