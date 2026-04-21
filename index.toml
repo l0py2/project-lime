@@ -285,6 +285,10 @@ file = "kubejs/server_scripts/default-commands.js"
 hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
 
 [[files]]
+file = "kubejs/server_scripts/mods/kubejs/steel.js"
+hash = "2d0ad74ba856aed6eb10b9409961a40b96ba37726b7eefc9aa054ae354df0a40"
+
+[[files]]
 file = "kubejs/server_scripts/mods/minecraft/crafting-stations.js"
 hash = "2a16f20005fdc98bbdb45883848dc2b8396779080b25e7c9df696c656745d513"
 
@@ -303,6 +307,66 @@ hash = "f06bd263328bc738b60b40145aff1c4dd39243c711d46c10bb156cabf4647155"
 [[files]]
 file = "kubejs/server_scripts/unify-js/ingredient-manipulation.js"
 hash = "d3e19736cfbd730105f991737bdea8489403346c98cc4c10a13b1383bcb222a8"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/compacting.js"
+hash = "902c399d40a80bca4766db48f107bbac65e3cfcaf6abfc92ddd9440e11c422ca"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/crushing.js"
+hash = "a0457c207431f6b849bd8c48f407840f4a7e0df591daff4b84c40304e9aed083"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/cutting.js"
+hash = "2d5df364315b98370a507fbe22327b2f586e6029bf0a029d4464023889ce5285"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/deploying.js"
+hash = "60e36ab3b3e43afb128483c9e99da7bd8c8592d9f4fc41a197b063e1ec55b5c0"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/filling.js"
+hash = "cc057342df2f78d44c436782f9e8681c4e3da94da6106dc9d3a0c393b99001a6"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/haunting.js"
+hash = "3d8ddbb61d0e2de2dc88b57aedf4efec3c32269e27268cf4aabbb6c8c9a3ae78"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/ignored.js"
+hash = "40db8ead0f15c590b679ee922c5f83880d5034706ff3521ed360e78fb321aa8e"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/item-application.js"
+hash = "c356db770afbb37ab30d8963b276a41fb65d244f3d486c9c5a782a1854a30d1a"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/mechanical-crafting.js"
+hash = "329af6d772073095e44a940e7ddeb2530439d24bd678b2d3b252621b81b16b84"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/milling.js"
+hash = "e3e3661d30370fae401f82b0803e61caaa721e610022c984e76438a06a54c8d2"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/mixing.js"
+hash = "780178933e27023dc85f944bda17c8bd025c247646d90bcd7bdd1416e1cd8d84"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/pressing.js"
+hash = "4673c9b5a331ca00e41e73f5554fc07e57fb84af805a13d3ddf13c2fe4fdbe2e"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/sandpaper-polishing.js"
+hash = "a8533d00c9cc5a2c26feeca49f485637643a2bf4dc4db762ae0a62320ee002a8"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/sequenced-assembly.js"
+hash = "7dc701196e57116f7a0e1192f06111abc6b2ea1c0b23102a9e683888d7286878"
+
+[[files]]
+file = "kubejs/server_scripts/unify-js/recipe-types/create/splashing.js"
+hash = "28e2078622f9e20d2fe26f9cc5c0f2cd6718ab23c1656aa393eefdbb2dc193d2"
 
 [[files]]
 file = "kubejs/server_scripts/unify-js/recipe-types/minecraft/blasting.js"
@@ -355,6 +419,10 @@ hash = "550ab58090a35446deeedfecd150959fc639baaa126a6962cf4b2f7fbea14bde"
 [[files]]
 file = "kubejs/startup_scripts/constants.js"
 hash = "0d96568acab14ff08ab7efecc25eab625260f1c7b1808ab8f6ff874e15b354e6"
+
+[[files]]
+file = "kubejs/startup_scripts/new-items/steel.js"
+hash = "c1a2893e36ecbe1b0e41f6b61e83efebcdbbc9aa339788897c14c33c06cb897f"
 
 [[files]]
 file = "kubejs/startup_scripts/unify-js/mods/minecraft.js"
