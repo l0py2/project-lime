@@ -177,6 +177,14 @@ file = "kubejs/server_scripts/block-cutting/mods/create/copper.js"
 hash = "c3b9a8aed908766bd64f1cbdc0b64b65119af4cea7f2bb7420dd6175e9e9675d"
 
 [[files]]
+file = "kubejs/server_scripts/block-cutting/mods/create/glass.js"
+hash = "cd253310d8c928ec32eb831fead378f783744041f0f19b552c403629e76c290b"
+
+[[files]]
+file = "kubejs/server_scripts/block-cutting/mods/create/windows.js"
+hash = "b65f9af9145f8d7f943749b16ae41eb443ab254a5360f975a8c79470c2582b48"
+
+[[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/bricks/bricks.js"
 hash = "698c2f02aef6d4c4562da6adc7448fa172f314ad3bb5123f7288ad0cd874039d"
 
