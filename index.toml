@@ -86,11 +86,11 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "a776481264d30dc3589dcea02fceecc5ebdf60d19aad6ee346ab4381adb6dd6d"
+hash = "f955253abd94bca601aa4dc1fd70c9b2f3791fd1f46e00359bb918192c342bdc"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+hash = "84b939885b209bf2c45464ca2ee75ae2a0e8b15f8749bb4ef2a687d204cf7828"
 
 [[files]]
 file = "config/jei-server.toml"
