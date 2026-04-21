@@ -26,7 +26,7 @@ hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "d063982581108b8c7ed6c670c4f4a302abe39be7bfeb565de96b8d9d880426cd"
+hash = "5c9cfe11654b537378ada82f3ff7cd632539981f1efc90b04625d3355306fa5a"
 
 [[files]]
 file = "config/emi.css"
@@ -393,6 +393,10 @@ file = "kubejs/server_scripts/default-commands.js"
 hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
 
 [[files]]
+file = "kubejs/server_scripts/mods/create/wearables.js"
+hash = "1f1dab89ce83c41551af34f81f6e951b9944c7302ef8002371e746beed35ae1f"
+
+[[files]]
 file = "kubejs/server_scripts/mods/kubejs/oxidize-copper.js"
 hash = "f10617d2edcd196735b2ac81aa801ae630ba5fbe3abfb0766f9edd02a9c09577"
 
@@ -414,7 +418,7 @@ hash = "956999db8ef4c4c5bfb3fdb0f9191c750fc1bd158c19b4a972718fdce2b27e6a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/mount-items.js"
-hash = "1643f37963f049559a167f364766abd0ef7fe7743dfc73a91cfedcfe899b9cb4"
+hash = "e8fb704a4e04fd0dfb6fd118a32d24a2ddab74660e5cbf98dbe6569126730ae7"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/tools.js"

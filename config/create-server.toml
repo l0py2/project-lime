@@ -108,12 +108,12 @@
 	#Amount of sail-type blocks required for a windmill to assemble successfully.
 	# Default: 8
 	# Range: > 0
-	minimumWindmillSails = 8
+	minimumWindmillSails = 4
 	#.
 	#Number of sail-type blocks required to increase windmill speed by 1RPM.
 	# Default: 8
 	# Range: > 1
-	windmillSailsPerRPM = 8
+	windmillSailsPerRPM = 4
 	#.
 	#Max Distance in blocks a Weighted Ejector can throw
 	# Default: 32
@@ -338,7 +338,7 @@
 				hand_crank = 8.0
 				creative_motor = 16384.0
 				large_water_wheel = 128.0
-				windmill_bearing = 512.0
+				windmill_bearing = 1024.0
 
 #.
 #Create's liquid manipulation tools
