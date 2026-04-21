@@ -202,7 +202,7 @@ hash = "e459588e8582a1425efe08d73e5c035dc5f819c08e4a270a2f7c04793554170d"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/copper.js"
-hash = "2ead850566b6d58f759344e0c4410663cb78e6b9b57a59fe548fefbcec72d3d9"
+hash = "42a0df3571073c841fa744092b4c44b77a3f2397c9660f07d1b20932cf053a27"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/glass.js"
@@ -278,7 +278,7 @@ hash = "1f73d915a90aecefedeb943f5dde94b084d09c3a334de03c4418162280267436"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/stone/tuff.js"
-hash = "b7e0969d9c2427d86814e1267be754bcc6cd1e48045f884f4e8162edc2f3860c"
+hash = "bd2984d5c5d3c83b14c358bdfd02b48c51c336877e4a0e774c772775cd5b451d"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/wood/bamboo.js"
