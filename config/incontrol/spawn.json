@@ -37,7 +37,7 @@
 	},
 	{
 		"mob": "minecraft:enderman",
-		"dimension": ["minecraft:overworld", "minecraft:nether"],
+		"dimension": ["minecraft:overworld"],
 		"when": "onjoin",
 		"result": "deny"
 	},

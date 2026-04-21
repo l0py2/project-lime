@@ -86,7 +86,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "3b86a605579243a7ac237fbe59ac93c700c6c625935dedba9d4948b6eeb26f1a"
+hash = "a776481264d30dc3589dcea02fceecc5ebdf60d19aad6ee346ab4381adb6dd6d"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -293,6 +293,10 @@ file = "kubejs/server_scripts/mods/minecraft/crafting-stations.js"
 hash = "2a16f20005fdc98bbdb45883848dc2b8396779080b25e7c9df696c656745d513"
 
 [[files]]
+file = "kubejs/server_scripts/mods/minecraft/end-portal.js"
+hash = "360f0aa97f58067fc96b6348d23645ba0e1f72d36dc8234e797920c1e215b7aa"
+
+[[files]]
 file = "kubejs/server_scripts/mods/minecraft/misc.js"
 hash = "956999db8ef4c4c5bfb3fdb0f9191c750fc1bd158c19b4a972718fdce2b27e6a"
 
@@ -419,6 +423,10 @@ hash = "550ab58090a35446deeedfecd150959fc639baaa126a6962cf4b2f7fbea14bde"
 [[files]]
 file = "kubejs/startup_scripts/constants.js"
 hash = "0d96568acab14ff08ab7efecc25eab625260f1c7b1808ab8f6ff874e15b354e6"
+
+[[files]]
+file = "kubejs/startup_scripts/mineable-end-portal.js"
+hash = "f2863f444e559687eae7dd7bb5699b6a1107f5fe4dd08ca6b84bebaf98cbe9bf"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/steel.js"
