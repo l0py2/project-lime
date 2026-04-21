@@ -21,22 +21,12 @@
 		"result": "deny"
 	},
 	{
-		"mob": "minecraft:villager",
+		"mob": ["minecraft:villager", "minecraft:wandering_trader", "minecraft:trader_llama"],
 		"when": "onjoin",
 		"result": "deny"
 	},
 	{
-		"mob": ["minecraft:wandering_trader", "minecraft:trader_llama"],
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": "minecraft:witch",
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": ["minecraft:evoker", "minecraft:vex"],
+		"mob": ["minecraft:witch", "minecraft:evoker", "minecraft:vex"],
 		"when": "onjoin",
 		"result": "deny"
 	},
@@ -62,19 +52,25 @@
 		"result": "deny"
 	},
 	{
+		"mob": ["minecraft:elder_guardian", "minecraft:guardian"],
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
 		"mob": ["minecraft:spider", "minecraft:cave_spider"],
 		"minheight": 32,
 		"when": "onjoin",
 		"result": "deny"
 	},
 	{
-		"mob": ["minecraft:bat", "minecraft:allay"],
-		"minheight": 32,
+		"mob": ["minecraft:spider", "minecraft:cave_spider"],
+		"mincount": 16,
 		"when": "onjoin",
 		"result": "deny"
 	},
 	{
-		"mob": ["minecraft:elder_guardian", "minecraft:guardian"],
+		"mob": ["minecraft:bat", "minecraft:allay"],
+		"minheight": 32,
 		"when": "onjoin",
 		"result": "deny"
 	},

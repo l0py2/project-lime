@@ -5,6 +5,18 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/apathy-boss.toml"
+hash = "bb255a85171c6958b90548faf794a400f13079f3a7fcdf3c7ccbc56754060045"
+
+[[files]]
+file = "config/apathy-general.toml"
+hash = "cbf43ed7578138d6e1eae4996ed74e07d1d4840d5bc89fdbd29dc084e53bb4c4"
+
+[[files]]
+file = "config/apathy-mobs.toml"
+hash = "f735f11feb4dcfb5863c7bda54b1aedeb5208d70bf902f7b3714244183012f15"
+
+[[files]]
 file = "config/create-client.toml"
 hash = "e20f6769fd946b918f24cfd54a422a599faa43394ee9a33012e645102a366da3"
 
@@ -14,7 +26,7 @@ hash = "2e77b1d93b40ce3f381ad7eb2a9e6d7148de917518be5c2616939a4369c4b140"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "d063982581108b8c7ed6c670c4f4a302abe39be7bfeb565de96b8d9d880426cd"
+hash = "5c9cfe11654b537378ada82f3ff7cd632539981f1efc90b04625d3355306fa5a"
 
 [[files]]
 file = "config/emi.css"
@@ -86,11 +98,11 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "f955253abd94bca601aa4dc1fd70c9b2f3791fd1f46e00359bb918192c342bdc"
+hash = "2a8502dae22a29a4b5f9d0a6c496af6c7b84fedfc916085434675057f2d9897f"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "84b939885b209bf2c45464ca2ee75ae2a0e8b15f8749bb4ef2a687d204cf7828"
+hash = "8158b2711a3a9faf60cab860019ac24774404c1302fdc0679cd7bdfd24feac6e"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -381,6 +393,10 @@ file = "kubejs/server_scripts/default-commands.js"
 hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
 
 [[files]]
+file = "kubejs/server_scripts/mods/create/wearables.js"
+hash = "1f1dab89ce83c41551af34f81f6e951b9944c7302ef8002371e746beed35ae1f"
+
+[[files]]
 file = "kubejs/server_scripts/mods/kubejs/oxidize-copper.js"
 hash = "f10617d2edcd196735b2ac81aa801ae630ba5fbe3abfb0766f9edd02a9c09577"
 
@@ -402,7 +418,7 @@ hash = "956999db8ef4c4c5bfb3fdb0f9191c750fc1bd158c19b4a972718fdce2b27e6a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/mount-items.js"
-hash = "1643f37963f049559a167f364766abd0ef7fe7743dfc73a91cfedcfe899b9cb4"
+hash = "e8fb704a4e04fd0dfb6fd118a32d24a2ddab74660e5cbf98dbe6569126730ae7"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/tools.js"

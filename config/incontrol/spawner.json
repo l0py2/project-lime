@@ -6,7 +6,7 @@
 		"conditions": {
 			"dimension": "minecraft:overworld",
 			"minheight": -64,
-			"maxheight": 256,
+			"maxheight": 32,
 			"maxthis": 16,
 			"and": {
 				"maxlight": 0
@@ -20,7 +20,7 @@
 		"conditions": {
 			"dimension": "minecraft:overworld",
 			"minheight": -64,
-			"maxheight": 256,
+			"maxheight": 32,
 			"maxthis": 8,
 			"and": {
 				"maxlight": 0
