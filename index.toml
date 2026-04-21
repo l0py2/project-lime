@@ -202,7 +202,7 @@ hash = "e459588e8582a1425efe08d73e5c035dc5f819c08e4a270a2f7c04793554170d"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/copper.js"
-hash = "42a0df3571073c841fa744092b4c44b77a3f2397c9660f07d1b20932cf053a27"
+hash = "62376b496baf4b150fad5d60ef518bc1b7146117fd2334ac701a3003a553b1cd"
 
 [[files]]
 file = "kubejs/server_scripts/block-cutting/mods/minecraft/glass.js"
@@ -289,10 +289,6 @@ file = "kubejs/server_scripts/block-cutting/mods/minecraft/wood/misc.js"
 hash = "1ba97ecc3da853b5ef84e0f1417d28e5097c5b2ae0fd248a5fbaf4d52b6b32da"
 
 [[files]]
-file = "kubejs/server_scripts/block-cutting/oxidize-copper.js"
-hash = "78ff44bf6bdf52b8ef003eaa4a2d4ec6122cdb724339a8ff79effa54268870b2"
-
-[[files]]
 file = "kubejs/server_scripts/block-cutting/variables.js"
 hash = "eab28f0821aff74a99cc5fe4e6b77829b6111a6e2e2b125c413e90794af57890"
 
@@ -303,6 +299,10 @@ hash = "0d9d52b650e7ec3631f385717d4be06af619d97d11d872c2f8f8a02842ca0a6f"
 [[files]]
 file = "kubejs/server_scripts/default-commands.js"
 hash = "d5adcb56bedfec5cf701bff5ecb42c0a373259734b513b2d1ea2355d68bb206c"
+
+[[files]]
+file = "kubejs/server_scripts/mods/kubejs/oxidize-copper.js"
+hash = "f10617d2edcd196735b2ac81aa801ae630ba5fbe3abfb0766f9edd02a9c09577"
 
 [[files]]
 file = "kubejs/server_scripts/mods/kubejs/steel.js"
