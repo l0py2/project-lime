@@ -12,25 +12,6 @@ CreateSandpaperPolishingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateSandpaperPolishingRecipe.custom = (event, inputs, outputs) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:sandpaper_polishing',
-		ingredients: ingredients,
-		results: results
-	});
-};
-
 function CreateSandpaperPolishingRecipe() {
 	this.modified = false;
 	this.empty = false;

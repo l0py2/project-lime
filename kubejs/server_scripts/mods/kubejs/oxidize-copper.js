@@ -9,9 +9,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		CreateSplashingRecipe.custom(event, [Ingredient.of(baseBlock)], [Item.of(exposedBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(exposedBlock)], [Item.of(wheatheredBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(wheatheredBlock)], [Item.of(oxidizedBlock)]);
+		event.recipes.create.splashing(exposedBlock, baseBlock);
+		event.recipes.create.splashing(wheatheredBlock, exposedBlock);
+		event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
 	}
 	
 	for(const exposedBlock of Ingredient.of('#kubejs:slabs/exposed_copper').itemIds) {
@@ -19,9 +19,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		CreateSplashingRecipe.custom(event, [Ingredient.of(baseBlock)], [Item.of(exposedBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(exposedBlock)], [Item.of(wheatheredBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(wheatheredBlock)], [Item.of(oxidizedBlock)]);
+		event.recipes.create.splashing(exposedBlock, baseBlock);
+		event.recipes.create.splashing(wheatheredBlock, exposedBlock);
+		event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
 	}
 	
 	for(const exposedBlock of Ingredient.of('#kubejs:stairs/exposed_copper').itemIds) {
@@ -29,9 +29,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		CreateSplashingRecipe.custom(event, [Ingredient.of(baseBlock)], [Item.of(exposedBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(exposedBlock)], [Item.of(wheatheredBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(wheatheredBlock)], [Item.of(oxidizedBlock)]);
+		event.recipes.create.splashing(exposedBlock, baseBlock);
+		event.recipes.create.splashing(wheatheredBlock, exposedBlock);
+		event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
 	}
 	
 	for(const exposedBlock of Ingredient.of('#kubejs:doors/exposed_copper').itemIds) {
@@ -39,9 +39,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		CreateSplashingRecipe.custom(event, [Ingredient.of(baseBlock)], [Item.of(exposedBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(exposedBlock)], [Item.of(wheatheredBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(wheatheredBlock)], [Item.of(oxidizedBlock)]);
+		event.recipes.create.splashing(exposedBlock, baseBlock);
+		event.recipes.create.splashing(wheatheredBlock, exposedBlock);
+		event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
 	}
 	
 	for(const exposedBlock of Ingredient.of('#kubejs:trapdoors/exposed_copper').itemIds) {
@@ -49,9 +49,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		CreateSplashingRecipe.custom(event, [Ingredient.of(baseBlock)], [Item.of(exposedBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(exposedBlock)], [Item.of(wheatheredBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(wheatheredBlock)], [Item.of(oxidizedBlock)]);
+		event.recipes.create.splashing(exposedBlock, baseBlock);
+		event.recipes.create.splashing(wheatheredBlock, exposedBlock);
+		event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
 	}
 	
 	for(const exposedBlock of Ingredient.of('#kubejs:bulbs/exposed_copper').itemIds) {
@@ -59,8 +59,8 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		CreateSplashingRecipe.custom(event, [Ingredient.of(baseBlock)], [Item.of(exposedBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(exposedBlock)], [Item.of(wheatheredBlock)]);
-		CreateSplashingRecipe.custom(event, [Ingredient.of(wheatheredBlock)], [Item.of(oxidizedBlock)]);
+		event.recipes.create.splashing(exposedBlock, baseBlock);
+		event.recipes.create.splashing(wheatheredBlock, exposedBlock);
+		event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
 	}
 });

@@ -1,38 +1,18 @@
 //priority: 998
 
-CreatePressingRecipe.fromJson = (rawRecipe) => {
+CreateCuttingRecipe.fromJson = (rawRecipe) => {
 	if(rawRecipe.type != 'create:cutting') {
 		return null;
 	}
 		
-	let recipe = new CreatePressingRecipe();
+	let recipe = new CreateCuttingRecipe();
 	
 	recipe.json = rawRecipe;
 	
 	return recipe;
 };
 
-CreatePressingRecipe.custom = (event, inputs, outputs, processingTime) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {		
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:cutting',
-		ingredients: ingredients,
-		results: results,
-		processing_time: processingTime != undefined ? processingTime : 100
-	});
-};
-
-function CreatePressingRecipe() {
+function CreateCuttingRecipe() {
 	this.modified = false;
 	this.empty = false;
 	
@@ -94,4 +74,4 @@ function CreatePressingRecipe() {
 	};
 }
 
-UnifyJS.recipeTypes.push(CreatePressingRecipe);
+UnifyJS.recipeTypes.push(CreateCuttingRecipe);

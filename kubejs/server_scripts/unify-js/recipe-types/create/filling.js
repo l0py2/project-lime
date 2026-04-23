@@ -12,25 +12,6 @@ CreateFillingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateFillingRecipe.custom = (event, inputs, outputs) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:filling',
-		ingredients: ingredients,
-		results: results
-	});
-};
-
 function CreateFillingRecipe() {
 	this.modified = false;
 	this.empty = false;

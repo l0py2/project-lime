@@ -32,6 +32,6 @@ ServerEvents.recipes(event => {
 			A: '#c:ingots/steel'
 		}
 	);
-	
-	CreatePressingRecipe.custom(event, [Ingredient.of('#c:ingots/steel')], [Item.of('kubejs:steel_sheet')]);
+
+	event.recipes.create.pressing('kubejs:steel_sheet', 'kubejs:steel_ingot');
 });

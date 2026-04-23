@@ -12,26 +12,6 @@ CreateCompactingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateCompactingRecipe.custom = (event, inputs, outputs, heat) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:compacting',
-		ingredients: ingredients,
-		results: results,
-		heat_requirement: heat
-	});
-};
-
 function CreateCompactingRecipe() {
 	this.modified = false;
 	this.empty = false;

@@ -12,25 +12,6 @@ CreateHauntingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateHauntingRecipe.custom = (event, inputs, outputs) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:haunting',
-		ingredients: ingredients,
-		results: results
-	});
-};
-
 function CreateHauntingRecipe() {
 	this.modified = false;
 	this.empty = false;

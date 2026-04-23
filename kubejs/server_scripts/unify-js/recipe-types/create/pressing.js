@@ -12,25 +12,6 @@ CreatePressingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreatePressingRecipe.custom = (event, inputs, outputs) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:pressing',
-		ingredients: ingredients,
-		results: results
-	});
-};
-
 function CreatePressingRecipe() {
 	this.modified = false;
 	this.empty = false;

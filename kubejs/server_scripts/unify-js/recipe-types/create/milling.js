@@ -12,26 +12,6 @@ CreateMillingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateMillingRecipe.custom = (event, inputs, outputs, processingTime) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {		
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:milling',
-		ingredients: ingredients,
-		results: results,
-		processing_time: processingTime != undefined ? processingTime : 100
-	});
-};
-
 function CreateMillingRecipe() {
 	this.modified = false;
 	this.empty = false;

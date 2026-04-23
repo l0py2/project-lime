@@ -12,26 +12,6 @@ CreateDeployingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateDeployingRecipe.custom = (event, inputs, outputs, keepItem) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:deploying',
-		ingredients: ingredients,
-		results: results,
-		keep_held_item: keepItem != undefined ? keepItem : false
-	});
-};
-
 function CreateDeployingRecipe() {
 	this.modified = false;
 	this.empty = false;

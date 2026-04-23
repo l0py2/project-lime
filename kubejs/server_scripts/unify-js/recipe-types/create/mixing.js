@@ -12,26 +12,6 @@ CreateMixingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateMixingRecipe.custom = (event, inputs, outputs, heat) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:mixing',
-		ingredients: ingredients,
-		results: results,
-		heat_requirement: heat
-	});
-};
-
 function CreateMixingRecipe() {
 	this.modified = false;
 	this.empty = false;

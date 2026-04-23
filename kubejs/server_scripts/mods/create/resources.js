@@ -11,8 +11,6 @@ ServerEvents.recipes(event => {
 		],
 	);
 	
-	CreateMixingRecipe.custom(event, [Ingredient.of('#c:stones'), Ingredient.of('#c:ingots/zinc')], [Item.of('create:andesite_alloy', 16)], 'heated');
-	CreateMixingRecipe.custom(event, [Ingredient.of('#c:stones'), Ingredient.of('#c:ingots/zinc')], [Item.of('create:andesite_alloy', 32)], 'superheated');
-	
-	
+	event.recipes.create.mixing(Item.of('create:andesite_alloy', 16), ['#c:stones', '#c:ingots/zinc']).heated();
+	event.recipes.create.mixing(Item.of('create:andesite_alloy', 32), ['#c:stones', '#c:ingots/zinc']).superheated();	
 });

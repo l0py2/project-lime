@@ -12,25 +12,6 @@ CreateSplashingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateSplashingRecipe.custom = (event, inputs, outputs) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:splashing',
-		ingredients: ingredients,
-		results: results
-	});
-};
-
 function CreateSplashingRecipe() {
 	this.modified = false;
 	this.empty = false;

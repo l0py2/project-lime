@@ -12,26 +12,6 @@ CreateCrushingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateCrushingRecipe.custom = (event, inputs, outputs, processingTime) => {
-	const ingredients = [];
-	const results = [];
-	
-	for(const input of inputs) {
-		ingredients.push(input.toJson());
-	}
-	
-	for(const output of outputs) {		
-		results.push(output.toJson());
-	}
-	
-	event.custom({
-		type: 'create:crushing',
-		ingredients: ingredients,
-		results: results,
-		processing_time: processingTime != undefined ? processingTime : 100
-	});
-};
-
 function CreateCrushingRecipe() {
 	this.modified = false;
 	this.empty = false;

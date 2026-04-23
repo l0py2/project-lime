@@ -58,8 +58,8 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank' });
-	CreateMechanicalCraftingRecipe.custom(
-		event, 
+	event.recipes.create.mechanical_crafting(
+		'create:netherite_backtank',
 		[
 			'BCB',
 			'BAB',
@@ -67,49 +67,46 @@ ServerEvents.recipes(event => {
 			' B '
 		], 
 		{
-			A: Ingredient.of('create:copper_backtank'),
-			B: Ingredient.of('#c:plates/obsidian'),
-			C: Ingredient.of('#c:ingots/netherite'),
-			D: Ingredient.of('#c:storage_blocks/steel')
-		},
-		Item.of('create:netherite_backtank')
+			A: 'create:copper_backtank',
+			B: '#c:plates/obsidian',
+			C: '#c:ingots/netherite',
+			D: '#c:storage_blocks/steel'
+		}
 	);
 
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet' });
-	CreateMechanicalCraftingRecipe.custom(
-		event,
+	event.recipes.create.mechanical_crafting(
+		'create:netherite_diving_helmet',
 		[
 			'BCB',
 			'BAB',
 			'DED'
 		],
 		{
-			A: Ingredient.of('create:copper_diving_helmet'),
-			B: Ingredient.of('#c:plates/obsidian'),
-			C: Ingredient.of('#c:ingots/netherite'),
-			D: Ingredient.of('#c:storage_blocks/steel'),
-			E: Ingredient.of('#c:glass_blocks/tinted')
-		},
-		Item.of('create:netherite_diving_helmet')
+			A: 'create:copper_diving_helmet',
+			B: '#c:plates/obsidian',
+			C: '#c:ingots/netherite',
+			D: '#c:storage_blocks/steel',
+			E: '#c:glass_blocks/tinted'
+		}
 	);
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots' });
-	CreateMechanicalCraftingRecipe.custom(
-		event,
+	event.recipes.create.mechanical_crafting(
+		'create:netherite_diving_boots',
 		[
 			'BCB',
 			'BAB',
 			'D D'
 		],
 		{
-			A: Ingredient.of('create:copper_diving_boots'),
-			B: Ingredient.of('#c:plates/obsidian'),
-			C: Ingredient.of('#c:ingots/netherite'),
-			D: Ingredient.of('#c:storage_blocks/steel')
-		},
-		Item.of('create:netherite_diving_boots')
+			A: 'create:copper_diving_boots',
+			B: '#c:plates/obsidian',
+			C: '#c:ingots/netherite',
+			D: '#c:storage_blocks/steel'
+		}
 	);
 });
