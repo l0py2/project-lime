@@ -33,5 +33,5 @@ ServerEvents.recipes(event => {
 		}
 	);
 
-	event.recipes.create.pressing('kubejs:steel_sheet', 'kubejs:steel_ingot');
+	event.recipes.create.pressing('kubejs:steel_sheet', Ingredient.of('#c:ingots/steel'));
 });
