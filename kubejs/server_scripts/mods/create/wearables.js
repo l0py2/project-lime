@@ -58,8 +58,8 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank' });
-	event.recipes.create.mechanical_crafting(
-		'create:netherite_backtank',
+	CreateMechanicalCraftingRecipe.custom(
+		event,
 		[
 			'BCB',
 			'BAB',
@@ -71,14 +71,14 @@ ServerEvents.recipes(event => {
 			B: '#c:plates/obsidian',
 			C: '#c:ingots/netherite',
 			D: '#c:storage_blocks/steel'
-		}
+		},
+		'create:netherite_backtank'
 	);
-
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet' });
-	event.recipes.create.mechanical_crafting(
-		'create:netherite_diving_helmet',
+	CreateMechanicalCraftingRecipe.custom(
+		event,
 		[
 			'BCB',
 			'BAB',
@@ -90,13 +90,14 @@ ServerEvents.recipes(event => {
 			C: '#c:ingots/netherite',
 			D: '#c:storage_blocks/steel',
 			E: '#c:glass_blocks/tinted'
-		}
+		},
+		'create:netherite_diving_helmet'
 	);
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots' });
-	event.recipes.create.mechanical_crafting(
-		'create:netherite_diving_boots',
+	CreateMechanicalCraftingRecipe.custom(
+		event,
 		[
 			'BCB',
 			'BAB',
@@ -107,6 +108,7 @@ ServerEvents.recipes(event => {
 			B: '#c:plates/obsidian',
 			C: '#c:ingots/netherite',
 			D: '#c:storage_blocks/steel'
-		}
+		},
+		'create:netherite_diving_boots'
 	);
 });

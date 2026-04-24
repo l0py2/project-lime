@@ -18,6 +18,28 @@ CreateMechanicalCraftingRecipe.fromJson = (rawRecipe) => {
 	}
 	
 	return recipe;
+}
+
+CreateMechanicalCraftingRecipe.toJson = (pattern, ingredients, output, acceptMirrored) => {
+	let key = {};
+	
+	for(const ingredientKey in ingredients) {
+		key[ingredientKey] = Create.inputToIngredient(ingredients[ingredientKey]);
+	}
+	
+	return {
+		type: 'create:mechanical_crafting',
+		category: 'misc',
+		show_notification: true,
+		pattern: pattern,
+		key: key,
+		result: Create.outputToResult(output),
+		accept_mirrored: acceptMirrored != undefined ? acceptMirrored : false
+	};
+};
+
+CreateMechanicalCraftingRecipe.custom = (event, pattern, ingredients, output, acceptMirrored) => {
+	event.custom(CreateMechanicalCraftingRecipe.toJson(pattern, ingredients, output, acceptMirrored));
 };
 
 function CreateMechanicalCraftingRecipe() {

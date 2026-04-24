@@ -9,9 +9,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		event.recipes.create.splashing(exposedBlock, baseBlock);
-		event.recipes.create.splashing(wheatheredBlock, exposedBlock);
-		event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
+		CreateSplashingRecipe.custom(event, baseBlock, exposedBlock);
+		CreateSplashingRecipe.custom(event, exposedBlock, wheatheredBlock);
+		CreateSplashingRecipe.custom(event, wheatheredBlock, oxidizedBlock);
 	}
 	
 	[
@@ -26,9 +26,9 @@ ServerEvents.recipes(event => {
 			let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 			let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 			
-			event.recipes.create.splashing(exposedBlock, baseBlock);
-			event.recipes.create.splashing(wheatheredBlock, exposedBlock);
-			event.recipes.create.splashing(oxidizedBlock, wheatheredBlock);
+			CreateSplashingRecipe.custom(event, baseBlock, exposedBlock);
+			CreateSplashingRecipe.custom(event, exposedBlock, wheatheredBlock);
+			CreateSplashingRecipe.custom(event, wheatheredBlock, oxidizedBlock);
 		}
 	});
 });

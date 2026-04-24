@@ -4,7 +4,7 @@ CreateCompactingRecipe.fromJson = (rawRecipe) => {
 	if(rawRecipe.type != 'create:compacting') {
 		return null;
 	}
-		
+	
 	let recipe = new CreateCompactingRecipe();
 	
 	recipe.json = rawRecipe;
@@ -12,61 +12,36 @@ CreateCompactingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
+CreateCompactingRecipe.toJson = (inputs, outputs, heat) => {
+	const recipe = Create.genericToJson(inputs, outputs);
+	
+	recipe.type = 'create:compacting';
+	recipe.heat_requirement = heat;
+	
+	return recipe;
+};
+
+CreateCompactingRecipe.custom = (event, inputs, outputs, heat) => {
+	event.custom(CreateCompactingRecipe.toJson(inputs, outputs, heat));
+};
+
 function CreateCompactingRecipe() {
 	this.modified = false;
 	this.empty = false;
 	
-	this.id = 'minecraft:void';
+	this.id = 'minecraft:air';
 	this.json = {};
 	
 	this.replaceInput = (original, replacement) => {
-		const originalObject = UnifyJS.ingredientStringToObject(original);
-		const replacementObject = UnifyJS.ingredientStringToObject(replacement);
-				
-		for(let i = 0; i < this.json.ingredients.length; i++) {
-			if(UnifyJS.equalIngredients(this.json.ingredients[i], originalObject)) {
-				UnifyJS.replaceIngredient(this.json.ingredients[i], replacementObject);
-				this.modified = true;
-			}
-		}
+		Create.genericRelaceInput(this, original, replacement);
 	};
 	
 	this.replaceOutput = (original, replacement) => {
-		const originalObject = UnifyJS.ingredientStringToResultObject(original);
-		const replacementObject = UnifyJS.ingredientStringToResultObject(replacement);
-		
-		for(let i = 0; i < this.json.results.length; i++) {
-			if(UnifyJS.equalIngredients(this.json.results[i], originalObject)) {
-				UnifyJS.replaceIngredient(this.json.results[i], replacementObject);
-				this.modified = true;
-			}
-		}
+		Create.genericReplaceOutput(this, original, replacement);
 	};
 	
 	this.removeOutput = (removedItem) => {
-		const removedItemObject = UnifyJS.ingredientStringToResultObject(removedItem);
-		
-		let indexToRemove;
-		
-		do {
-			indexToRemove = -1;
-			
-			for(let i = 0; i < this.json.results.length; i++) {
-				if(UnifyJS.equalIngredients(this.json.results[i], removedItemObject)) {
-					indexToRemove = i;
-					break;
-				}
-			}
-			
-			if(indexToRemove != -1) {
-				this.json.results.splice(indexToRemove, 1);
-				this.modified = true;
-			}
-		} while(indexToRemove != -1);
-		
-		if(this.json.results.length < 1) {
-			this.empty = true;
-		}
+		Create.genericRemoveOutput(this, removedItem);
 	};
 	
 	this.toJson = () => {
