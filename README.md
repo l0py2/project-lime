@@ -37,6 +37,8 @@ Minecraft and mods progression tweaked.
 - [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 - [Apathy Mod](https://www.curseforge.com/minecraft/mc-mods/apathy-mod)
 - [KubeJS Create](https://www.curseforge.com/minecraft/mc-mods/kubejs-create)
+- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+- [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
 
 ### Optimization
 
