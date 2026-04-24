@@ -14,7 +14,35 @@
 		}
 	},
 	{
+		"mob": "minecraft:spider",
+		"attempts": 20,
+		"persecond": 0.5,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"minheight": -64,
+			"maxheight": 32,
+			"maxthis": 16,
+			"and": {
+				"maxlight": 0
+			}
+		}
+	},
+	{
 		"mob": "minecraft:allay",
+		"attempts": 20,
+		"persecond": 0.5,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"minheight": -64,
+			"maxheight": 32,
+			"maxthis": 8,
+			"and": {
+				"maxlight": 0
+			}
+		}
+	},
+	{
+		"mob": "minecraft:bat",
 		"attempts": 20,
 		"persecond": 0.5,
 		"conditions": {
@@ -37,7 +65,7 @@
 			"maxheight": 256,
 			"maxthis": 4,
 			"and": {
-				"minlight_sky": 15
+				"seesky": true
 			}
 		}
 	}

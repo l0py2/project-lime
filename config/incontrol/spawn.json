@@ -1,81 +1,48 @@
 [
 	{
-		"hostile": true,
+		"spawntype": [
+			"spawner", "structure",
+			"command", "mob_summoned", "event",
+			"breeding",
+			"spawn_egg", "bucket", "dispenser"
+		],
 		"when": "onjoin",
-		"spawntype": ["mob_summoned"],
 		"result": "default"
 	},
 	{
-		"mob": "minecraft:creeper",
+		"dimension": ["minecraft:the_nether", "minecraft:the_end"],
+		"when": "onjoin",
+		"result": "default"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"hostile": true,
+		"incontrol": false,
 		"when": "onjoin",
 		"result": "deny"
 	},
 	{
-		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"mob": [
+			"minecraft:cave_spider", "minecraft:spider",
+			"minecraft:allay", "minecraft:bat",
+			"minecraft:sniffer"
+		],
+		"incontrol": false,
 		"when": "onjoin",
 		"result": "deny"
 	},
 	{
-		"mob": ["minecraft:skeleton", "minecraft:stray", "minecraft:bogged"],
+		"block": [
+			"tag:minecraft:dirt", "tag:c:stones",
+			"tag:c:gravels", "tag:c:sands",
+			"minecraft:clay",
+			"tag:minecraft:snow",
+			"minecraft:water", "minecraft:lava"
+		],
 		"when": "onjoin",
-		"result": "deny"
+		"result": "default"
 	},
 	{
-		"mob": ["minecraft:villager", "minecraft:wandering_trader", "minecraft:trader_llama"],
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": ["minecraft:witch", "minecraft:evoker", "minecraft:vex"],
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": ["minecraft:vindicator", "minecraft:pillager", "minecraft:ravager"],
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": "minecraft:zombie_villager",
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": "minecraft:warden",
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": "minecraft:enderman",
-		"dimension": ["minecraft:overworld"],
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": ["minecraft:elder_guardian", "minecraft:guardian"],
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": ["minecraft:spider", "minecraft:cave_spider"],
-		"minheight": 32,
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": ["minecraft:spider", "minecraft:cave_spider"],
-		"mincount": 16,
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": ["minecraft:bat", "minecraft:allay"],
-		"minheight": 32,
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
-		"mob": "minecraft:piglin_brute",
 		"when": "onjoin",
 		"result": "deny"
 	}
