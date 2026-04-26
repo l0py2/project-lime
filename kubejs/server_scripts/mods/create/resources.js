@@ -13,4 +13,19 @@ ServerEvents.recipes(event => {
 	
 	CreateMixingRecipe.custom(event, ['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 16), 'heated');
 	CreateMixingRecipe.custom(event, ['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 32), 'superheated');	
+	
+	event.remove({ id: 'jei:/create/sequenced_assembly/sturdy_sheet' });
+	/*
+	starting item = '#c:plates/steel'
+	
+	1st filling lava
+	2nd deploying = '#c:plates/steel'
+	3rd deploying = '#c:dusts/obsidian'
+	4th sawing
+	5th pressing
+	
+	repeat 2 times 90%
+	
+	final item = 'create:sturdy_sheet'
+	*/
 });

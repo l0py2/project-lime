@@ -115,4 +115,77 @@ ServerEvents.recipes(event => {
 			C: 'minecraft:lead'
 		}
 	);
+	
+	event.remove({ id: 'create:crafting/kinetics/mechanical_crafter' });
+	event.shaped(
+		Item.of('create:mechanical_crafter', 3),
+		[
+			' D ',
+			'ABA',
+			' C '
+		],
+		{
+			A: 'create:electron_tube',
+			B: 'create:brass_casing',
+			C: 'minecraft:crafting_table',
+			D: 'create:precision_mechanism'
+		}
+	);
+	
+	event.remove({ id: 'create:crafting/kinetics/rotation_speed_controller' });
+	CreateMechanicalCraftingRecipe.custom(event,
+		[
+			' A ',
+			'DCD',
+			' B '
+		],
+		{
+			A: 'create:precision_mechanism',
+			B: 'create:brass_casing',
+			C: 'create:gearshift',
+			D: 'create:electron_tube'
+		},
+		'create:rotation_speed_controller'
+	);
+	
+	event.remove({ id: 'create:crafting/kinetics/mechanical_arm' });
+	CreateMechanicalCraftingRecipe.custom(event,
+		[
+			'BBC',
+			'B  ',
+			'AED'
+		],
+		{
+			A: 'create:precision_mechanism',
+			B: '#c:plates/brass',
+			C: 'create:brass_hand',
+			D: 'create:brass_casing',
+			E: 'create:cogwheel'
+		},
+		'create:mechanical_arm'
+	);
+	
+	event.remove({ id: 'create:crafting/kinetics/sequenced_gearshift' });
+	event.shapeless(
+		'create:sequenced_gearshift',
+		[
+			'create:electron_tube',
+			'create:cogwheel',
+			'create:gearshift'
+		]
+	);
+	
+	event.remove({ id: 'create:crafting/kinetics/item_drain' });
+	event.shaped(
+		'create:item_drain',
+		[
+			' B ',
+			' A ',
+			'   '
+		],
+		{
+			A: 'create:copper_casing',
+			B: 'create:fluid_pipe'
+		}
+	);
 });
