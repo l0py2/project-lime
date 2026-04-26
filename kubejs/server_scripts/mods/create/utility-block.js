@@ -58,4 +58,61 @@ ServerEvents.recipes(event => {
 			D: 'create:precision_mechanism'
 		}
 	);
+	
+	event.remove({ id: 'create:crafting/kinetics/mechanical_piston' });
+	event.shaped(
+		'create:mechanical_piston',
+		[
+			' A ',
+			' B '
+		],
+		{
+			A: 'minecraft:piston',
+			B: 'create:piston_extension_pole'
+		}
+	);
+
+	event.remove({ id: 'create:crafting/kinetics/piston_extension_pole' });
+	event.shaped(
+		Item.of('create:piston_extension_pole', 8),
+		[
+			' A ',
+			' B ',
+			' A '
+		],
+		{
+			A: '#minecraft:planks',
+			B: 'create:shaft'
+		}
+	);
+	
+	event.remove({ id: 'create:crafting/kinetics/rope_pulley' });
+	event.shaped(
+		'create:rope_pulley',
+		[
+			' A ',
+			' C ',
+			' B '
+		],
+		{
+			A: 'create:andesite_casing',
+			B: '#c:plates/iron',
+			C: 'minecraft:lead'
+		}
+	);
+	
+	event.remove({ id: 'create:crafting/kinetics/elevator_pulley' });
+	event.shaped(
+		'create:elevator_pulley',
+		[
+			' A ',
+			' C ',
+			' B '
+		],
+		{
+			A: 'create:brass_casing',
+			B: '#c:plates/steel',
+			C: 'minecraft:lead'
+		}
+	);
 });
