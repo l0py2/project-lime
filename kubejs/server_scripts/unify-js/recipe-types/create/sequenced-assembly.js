@@ -12,6 +12,25 @@ CreateSequencedAssemblyRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
+CreateSequencedAssemblyRecipe.toJson = (input, sequence, loops, outputs, transitionalItem) => {
+	const recipe = {};
+	
+	recipe.type = 'create:sequenced_assembly';
+	recipe.ingredient = Create.inputToIngredient(input);
+	recipe.sequence = sequence;
+	recipe.loops = loops;
+	recipe.results = Create.outputsToResults(Array.isArray(outputs) ? outputs : [outputs]);
+	recipe.transitional_item = {
+		id: transitionalItem != undefined ? transitionalItem : input
+	};
+	
+	return recipe;
+};
+
+CreateSequencedAssemblyRecipe.custom = (event, input, sequence, loops, outputs, transitionalItem) => {
+	event.custom(CreateSequencedAssemblyRecipe.toJson(input, sequence, loops, outputs, transitionalItem));
+};
+
 function CreateSequencedAssemblyRecipe() {
 	this.modified = false;
 	this.empty = false;

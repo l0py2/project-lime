@@ -12,7 +12,7 @@ CreateFillingRecipe.fromJson = (rawRecipe) => {
 	return recipe;
 };
 
-CreateDeployingRecipe.toJson = (inputs, outputs) => {	
+CreateFillingRecipe.toJson = (inputs, outputs) => {	
 	const recipe = Create.genericToJson(inputs, outputs);
 	
 	recipe.type = 'create:filling';
@@ -21,7 +21,7 @@ CreateDeployingRecipe.toJson = (inputs, outputs) => {
 };
 
 CreateFillingRecipe.custom = (event, inputs, outputs) => {
-	event.custom(CreateDeployingRecipe.toJson(inputs, outputs));
+	event.custom(CreateFillingRecipe.toJson(inputs, outputs));
 };
 
 function CreateFillingRecipe() {
