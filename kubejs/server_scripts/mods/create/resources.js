@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 	CreateMixingRecipe.custom(event, ['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 16), 'heated');
 	CreateMixingRecipe.custom(event, ['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 32), 'superheated');	
 	
-	event.remove({ id: 'jei:/create/sequenced_assembly/sturdy_sheet' });
+	event.remove({ id: 'create:sequenced_assembly/sturdy_sheet' });
 	/*
 	starting item = '#c:plates/steel'
 	
@@ -28,4 +28,7 @@ ServerEvents.recipes(event => {
 	
 	final item = 'create:sturdy_sheet'
 	*/
+	
+	event.remove({ id: 'create:crafting/materials/rose_quartz' });
+	CreateMixingRecipe.custom(event, ['minecraft:quartz', 'minecraft:redstone'], Item.of('create:rose_quartz'), 'heated');
 });

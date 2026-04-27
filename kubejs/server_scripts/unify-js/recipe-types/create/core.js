@@ -62,7 +62,7 @@ Create.genericRemoveOutput = (recipe, removedItem) => {
 Create.inputToIngredient = (input) => {
 	if(typeof input == 'string') {
 		return Ingredient.of(input).toJson();
-	} else if(input.constructor.name == 'Fluid') {
+	} else if(input instanceof Fluid) {
 		return {
 			type: 'fluid_stack',
 			fluid: input.fluid,

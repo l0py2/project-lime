@@ -14,4 +14,18 @@ ServerEvents.recipes(event => {
 			A: '#c:nuggets/iron'
 		}
 	);
+	
+	event.remove({ id: 'minecraft:lodestone' });
+	event.shaped(
+		'minecraft:lodestone',
+		[
+			'AAA',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: '#minecraft:stone_bricks',
+			B: '#c:ingots/iron'
+		}
+	);
 });
