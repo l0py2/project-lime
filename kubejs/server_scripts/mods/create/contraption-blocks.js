@@ -55,12 +55,13 @@ ServerEvents.recipes(event => {
 		[
 			' C ',
 			'CAC',
-			' B '
+			'DBD'
 		],
 		{
 			A: '#c:storage_blocks/steel',
 			B: 'create:brass_casing',
-			C: '#c:plates/steel'
+			C: '#c:plates/steel',
+			D: 'create:precision_mechanism'
 		}
 	);
 	
@@ -70,12 +71,13 @@ ServerEvents.recipes(event => {
 		[
 			' C ',
 			'CAC',
-			' B '
+			'BDB'
 		],
 		{
 			A: '#c:ingots/steel',
 			B: 'create:brass_casing',
-			C: '#c:plates/steel'
+			C: '#c:plates/steel',
+			D: 'create:precision_mechanism'
 		}
 	);
 	
@@ -85,12 +87,13 @@ ServerEvents.recipes(event => {
 		[
 			'CAC',
 			'CAC',
-			' B '
+			'BDB'
 		],
 		{
 			A: '#c:ingots/steel',
 			B: 'create:brass_casing',
-			C: '#c:plates/steel'
+			C: '#c:plates/steel',
+			D: 'create:precision_mechanism'
 		}
 	);
 	
@@ -100,12 +103,30 @@ ServerEvents.recipes(event => {
 		[
 			'CCC',
 			'AAA',
-			' B '
+			'BDB'
 		],
 		{
 			A: '#c:ingots/steel',
 			B: 'create:brass_casing',
-			C: '#c:plates/steel'
+			C: '#c:plates/steel',
+			D: 'create:precision_mechanism'
+		}
+	);
+	
+	event.remove({ id: 'create:crafting/kinetics/mechanical_roller' });
+	event.shaped(
+		'create:mechanical_roller',
+		[
+			'CAC',
+			'BEB',
+			' D '
+		],
+		{
+			A: 'create:electron_tube',
+			B: 'create:brass_casing',
+			C: '#c:plates/steel',
+			D: 'create:crushing_wheel',
+			E: 'create:precision_mechanism'
 		}
 	);
 });

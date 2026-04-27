@@ -77,8 +77,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet' });
-	CreateMechanicalCraftingRecipe.custom(
-		event,
+	CreateMechanicalCraftingRecipe.custom(event,
 		[
 			'BCB',
 			'BAB',
@@ -96,8 +95,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots' });
-	CreateMechanicalCraftingRecipe.custom(
-		event,
+	CreateMechanicalCraftingRecipe.custom(event,
 		[
 			'BCB',
 			'BAB',
