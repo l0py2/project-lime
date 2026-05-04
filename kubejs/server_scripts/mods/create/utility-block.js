@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	potato.recipes.applyEvent(event);
+	
 	event.remove({ id: 'create:crafting/kinetics/spout' });
 	event.shaped(
 		'create:spout',
@@ -133,7 +135,7 @@ ServerEvents.recipes(event => {
 	);
 	
 	event.remove({ id: 'create:crafting/kinetics/rotation_speed_controller' });
-	CreateMechanicalCraftingRecipe.custom(event,
+	potato.event.create_mechanical_crafting(
 		[
 			' A ',
 			'DCD',
@@ -149,7 +151,7 @@ ServerEvents.recipes(event => {
 	);
 	
 	event.remove({ id: 'create:crafting/kinetics/mechanical_arm' });
-	CreateMechanicalCraftingRecipe.custom(event,
+	potato.event.create_mechanical_crafting(
 		[
 			'BBC',
 			'B  ',

@@ -1,4 +1,4 @@
-//priority: 1000
+//priority: 500
 
 global.removedItems = [];
 global.removedRecipes = [];

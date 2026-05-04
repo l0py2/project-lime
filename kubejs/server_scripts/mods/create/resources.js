@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	potato.recipes.applyEvent(event);
+	
 	event.remove({ id: 'create:crafting/materials/andesite_alloy' });
 	event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' });
 	event.remove({ id: 'create:mixing/andesite_alloy_from_zinc' });
@@ -11,10 +13,10 @@ ServerEvents.recipes(event => {
 		],
 	);
 	
-	CreateMixingRecipe.custom(event, ['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 16), 'heated');
-	CreateMixingRecipe.custom(event, ['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 32), 'superheated');	
+	potato.event.create_mixing(['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 16), 'heated');
+	potato.event.create_mixing(['#c:stones', '#c:ingots/zinc'], Item.of('create:andesite_alloy', 32), 'superheated');	
 	
-	event.remove({ id: 'create:sequenced_assembly/sturdy_sheet' });
+	// event.remove({ id: 'create:sequenced_assembly/sturdy_sheet' });
 	/*
 	starting item = '#c:plates/steel'
 	
@@ -30,5 +32,5 @@ ServerEvents.recipes(event => {
 	*/
 	
 	event.remove({ id: 'create:crafting/materials/rose_quartz' });
-	CreateMixingRecipe.custom(event, ['minecraft:quartz', 'minecraft:redstone'], Item.of('create:rose_quartz'), 'heated');
+	potato.event.create_mixing(['minecraft:quartz', 'minecraft:redstone'], 'create:rose_quartz', 'heated');
 });

@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	potato.recipes.applyEvent(event);
+	
 	event.shapeless(
 		'kubejs:steel_nugget',
 		['#c:ingots/steel']
@@ -33,5 +35,5 @@ ServerEvents.recipes(event => {
 		}
 	);
 
-	CreatePressingRecipe.custom(event, '#c:ingots/steel', 'kubejs:steel_sheet');
+	potato.event.create_pressing('#c:ingots/steel', 'kubejs:steel_sheet');
 });

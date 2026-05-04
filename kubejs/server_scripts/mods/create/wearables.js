@@ -58,8 +58,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank' });
-	CreateMechanicalCraftingRecipe.custom(
-		event,
+	potato.event.create_mechanical_crafting(
 		[
 			'BCB',
 			'BAB',
@@ -77,7 +76,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet' });
-	CreateMechanicalCraftingRecipe.custom(event,
+	potato.event.create_mechanical_crafting(
 		[
 			'BCB',
 			'BAB',
@@ -95,7 +94,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots' });
-	CreateMechanicalCraftingRecipe.custom(event,
+	potato.event.create_mechanical_crafting(
 		[
 			'BCB',
 			'BAB',
