@@ -530,7 +530,7 @@ hash = "6e2558a002db9acb98e8b886952f831eec279767789a730bdd640de95880db09"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/resources.js"
-hash = "e18373d0ad1ff2688e583c7695b977be5b7f5f527a947e9c97333dd1f99ce470"
+hash = "9d8abbdae4d8513f006e5454ee0c31f085194a87b628ad2781b9012b5bc3b764"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/storage-blocks.js"
@@ -587,6 +587,22 @@ hash = "a5946f396e1f4e2bb1302505717d090d4326804b3404ad6100cd3df02b38b504"
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/tools.js"
 hash = "e252376bf8bb803e9151f613eb8c75cb4df2ffbb7413610580bcea4f1389fbb6"
+
+[[files]]
+file = "kubejs/server_scripts/potato/mods/create/cutting.js"
+hash = "d584d96d63943471bad939895204143fc7aba792bc2bd98b6aa41e5e431097a5"
+
+[[files]]
+file = "kubejs/server_scripts/potato/mods/create/deploying.js"
+hash = "8fa29dc2305cf9e875ebb49cb2b46adf830f396cbccd3517d52dc4d074deda85"
+
+[[files]]
+file = "kubejs/server_scripts/potato/mods/create/filling.js"
+hash = "19b84a12e31d7edc56e71aa83c54190efe0c8042fa78cdfcc0617c2e605a1c3c"
+
+[[files]]
+file = "kubejs/server_scripts/potato/mods/create/fluid.js"
+hash = "02e866693dc0083506d4ff669c50747e51cfd41d157286e3379525f101cc1e15"
 
 [[files]]
 file = "kubejs/server_scripts/potato/mods/create/item-application.js"
