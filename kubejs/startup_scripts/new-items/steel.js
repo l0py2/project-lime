@@ -6,25 +6,19 @@ StartupEvents.registry('item', event => {
 		.create('steel_ingot')
 		.displayName('Steel Ingot')
 		.tag('c:ingots')
-		.tag('c:ingots/steel')
-		.texture('minecraft:item/iron_ingot')
-		.color(0, steelColor);
+		.tag('c:ingots/steel');
 	
 	event
 		.create('steel_nugget')
 		.displayName('Steel Nugget')
 		.tag('c:nuggets')
-		.tag('c:nuggets/steel')
-		.texture('minecraft:item/iron_nugget')
-		.color(0, steelColor);
+		.tag('c:nuggets/steel');
 	
 	event
 		.create('steel_sheet')
 		.displayName('Steel Sheet')
 		.tag('c:plates')
-		.tag('c:plates/steel')
-		.texture('create:item/iron_sheet')
-		.color(0, steelColor);
+		.tag('c:plates/steel');
 });
 
 StartupEvents.registry('block', event => {
@@ -40,11 +34,6 @@ StartupEvents.registry('block', event => {
 		.tagBlock('minecraft:needs_stone_tool')
 		.tagBlock('minecraft:incorrect_for_wooden_tool')
 		.tagBlock('minecraft:incorrect_for_gold_tool')
-		.soundType('stone')
-		.item(item => {
-			item.color(0, steelColor);
-		})
-		.texture('minecraft:block/iron_block')
-		.color(0, steelColor);
+		.soundType('stone');
 });
 })();

@@ -369,6 +369,22 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/steel_block.png"
+hash = "4c027dddc1060aa0ee43e12c09af772870e2780f99fcc911e517f0c07d908780"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_ingot.png"
+hash = "67de2797b0ff228d3e214b21fb4f3afd37f33888909a8cb3b3fc77bd60a07c67"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_nugget.png"
+hash = "4da99ef85b9e6370efa624c1e20c1dadb31b12b07dee37622aa8da7287fd8a54"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_sheet.png"
+hash = "25be98e3aaa28f5013e421d4aa305b9151283be6bf24480e94a160bf05071028"
+
+[[files]]
 file = "kubejs/client_scripts/unify.js"
 hash = "0fabbff5003336b7bd0c80373691cc5b068e298b38c5ea9843a5d71f9ef1280f"
 
@@ -658,7 +674,7 @@ hash = "f2863f444e559687eae7dd7bb5699b6a1107f5fe4dd08ca6b84bebaf98cbe9bf"
 
 [[files]]
 file = "kubejs/startup_scripts/new-items/steel.js"
-hash = "c1a2893e36ecbe1b0e41f6b61e83efebcdbbc9aa339788897c14c33c06cb897f"
+hash = "5942e041b50887e30c0b08577a8547e650bd5501c682484f4b18071ef5f43f53"
 
 [[files]]
 file = "kubejs/startup_scripts/tools.js"

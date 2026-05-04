@@ -1,12 +1,12 @@
 name = "Project Lime"
-author = "l0py2"
+author = "l0py2, Lagosta4K"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "49582649d21739682a3dc47dc274f4123905c501be02e2862cc791447de2b1aa"
+hash = "39b9e92ac541e4a470ebeda253a51f17b71b3c86accf970726a6d804693660e3"
 
 [versions]
 minecraft = "1.21.1"
