@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	potato.recipes.applyEvent(event);
+	
 	event.remove({ id: 'create:crafting/appliances/copper_diving_helmet' });
 	event.shaped(
 		'create:copper_diving_helmet',

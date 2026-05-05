@@ -8,6 +8,8 @@ potato.recipes.recipeTypes.set(
 			return null;
 		}
 		
+		ingredient = Ingredient.isIngredient(ingredient) ? ingredient.toJson() : Ingredient.of(ingredient).toJson();
+		
 		if(!Array.isArray(results)) {
 			console.error('Invalid results (allowed types: array)');
 			return null;
@@ -35,13 +37,9 @@ potato.recipes.recipeTypes.set(
 			return null;
 		}
 		
-		ingredient = Ingredient.isIngredient(ingredient) ? ingredient : Ingredient.of(ingredient);
-		
 		return {
 			type: 'create:splashing',
-			ingredients: [
-				ingredient.toJson()
-			],
+			ingredients: [ingredient],
 			results: results
 		};
 	}

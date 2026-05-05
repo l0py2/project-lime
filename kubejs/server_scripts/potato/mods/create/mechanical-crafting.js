@@ -36,7 +36,7 @@ potato.recipes.recipeTypes.set(
 			return null;
 		}
 		
-		result = Item.isItem(result) ? result : Item.of(result);
+		result = Item.isItem(result) ? result.toJson() : Item.of(result).toJson();
 		
 		return {
 			type: 'create:mechanical_crafting',
@@ -44,7 +44,7 @@ potato.recipes.recipeTypes.set(
 			accept_mirrored: false,
 			pattern: pattern,
 			key: keys,
-			result: result.toJson()
+			result: result
 		};
 	}
 );

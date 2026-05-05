@@ -8,6 +8,8 @@ potato.recipes.recipeTypes.set(
 			return null;
 		}
 		
+		ingredient = Ingredient.isIngredient(ingredient) ? ingredient.toJson() : Ingredient.of(ingredient).toJson();
+		
 		if(!Array.isArray(sequence)) {
 			console.error('Invalid sequence (allowed types: array)');
 			return null;
@@ -50,12 +52,11 @@ potato.recipes.recipeTypes.set(
 			return null;
 		}
 	
-		ingredient = Ingredient.isIngredient(ingredient) ? ingredient : Ingredient.of(ingredient);
 		transitionalItem = Item.isItem(transitionalItem) ? transitionalItem : Item.of(transitionalItem);
 		
 		return {
 			type: 'create:sequenced_assembly',
-			ingredient: ingredient.toJson(),
+			ingredient: ingredient,
 			sequence: sequence,
 			loops: loops,
 			results: results,

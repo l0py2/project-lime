@@ -8,31 +8,46 @@ potato.recipes.recipeTypes.set(
 			return null;
 		}
 		
+		let invalidIngredients = false;
+		
 		ingredients = ingredients.map(ingredient => {
-			if(typeof ingredient != 'string' && !Ingredient.isIngredient(ingredient)) {
-				console.error('Invalid ingredient type (allowed types: string or Ingredient.of)');
-				return null;
+			if(typeof ingredient == 'string') {
+				ingredient = Ingredient.of(ingredient).toJson();
+			} else if(Ingredient.isIngredient(ingredient)) {
+				ingredient = ingredient.toJson();
+			} else if(CreateFluid.isFluid(ingredient)) {
+				ingredient = ingredient.toJson();
+			} else {
+				invalidIngredients = true;
+				ingredient = null;
 			}
-			
-			ingredient = Ingredient.isIngredient(ingredient) ? ingredient : Ingredient.of(ingredient);
-			ingredient = ingredient.toJson();
-			
+
 			return ingredient;
 		});
 		
-		if(typeof result != 'string' && !Item.isItem(result)) {
-			console.error('Invalid result type (allowed types: string or Item.of)');
+		if(invalidIngredients) {
+			console.error('Invalid ingredient type (allowed types: string, Ingredient.of, CreateFluid.of)');
 			return null;
 		}
 		
-		result = Item.isItem(result) ? result : Item.of(result);
+		if(typeof result == 'string') {
+			result = Item.of(result).toJson();
+		} else if(Item.isItem(result)) {
+			result = result.toJson();
+		} else if(CreateFluid.isFluid(result)) {
+			result = {
+				id: result.id,
+				amount: result.amount
+			};
+		} else {
+			console.error('Invalid result type (allowed types: string, Item.of, CreateFluid.of)');
+			return null;
+		}
 		
 		let recipe = {
 			type: 'create:mixing',
 			ingredients: ingredients,
-			results: [
-				result.toJson()
-			]
+			results: [result]
 		};
 		
 		if(heatRequirement == undefined) {

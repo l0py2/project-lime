@@ -13,31 +13,37 @@ potato.recipes.recipeTypes.set(
 			return null;
 		}
 		
+		let invalidIngredients = false;
+		
+		ingredients = ingredients.map(ingredient => {
+			if(typeof ingredient == 'string') {
+				ingredient = Ingredient.of(ingredient).toJson();
+			} else if(Ingredient.isIngredient(ingredient)) {
+				ingredient = ingredient.toJson();
+			} else {
+				invalidIngredients = true;
+				ingredient = null;
+			}
+
+			return ingredient;
+		});
+		
+		if(invalidIngredients) {
+			console.error('Invalid ingredient type (allowed types: string or Ingredient.of)');
+			return null;
+		}
+		
 		if(typeof result != 'string' && !Item.isItem(result)) {
 			console.error('Invalid result type (allowed types: string or Item.of)');
 			return null;
 		}
 		
-		ingredients = ingredients.map(ingredient => {
-			if(typeof ingredient != 'string' && !Ingredient.isIngredient(ingredient)) {
-				console.error('Invalid ingredient type (allowed types: string or Ingredient.of)');
-				return null;
-			}
-			
-			ingredient = Ingredient.isIngredient(ingredient) ? ingredient : Ingredient.of(ingredient);
-			ingredient = ingredient.toJson();
-			
-			return ingredient;
-		});
-		
-		result = result instanceof Item ? result : Item.of(result);
+		result = Item.isItem(result) ? result.toJson() : Item.of(result).toJson();
 		
 		return {
 			type: 'create:item_application',
 			ingredients: ingredients,
-			results: [
-				result.toJson()
-			]
+			results: [result]
 		};
 	}
 );
