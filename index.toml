@@ -21,6 +21,10 @@ file = "config/apathy-mobs.toml"
 hash = "f735f11feb4dcfb5863c7bda54b1aedeb5208d70bf902f7b3714244183012f15"
 
 [[files]]
+file = "config/better-advanced-tooltips-client.toml"
+hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
+
+[[files]]
 file = "config/create-client-1.toml.bak"
 hash = "e20f6769fd946b918f24cfd54a422a599faa43394ee9a33012e645102a366da3"
 
@@ -605,8 +609,20 @@ file = "kubejs/server_scripts/mods/minecraft/tools.js"
 hash = "e252376bf8bb803e9151f613eb8c75cb4df2ffbb7413610580bcea4f1389fbb6"
 
 [[files]]
+file = "kubejs/server_scripts/potato/mods/common/output-replacers.js"
+hash = "9982a336dfb4420682aef048eae2995671fb8d0f76cd624c4c6bf72d4e9bc410"
+
+[[files]]
+file = "kubejs/server_scripts/potato/mods/create/compacting.js"
+hash = "f58cd20bf70237114d1355c3b0e826e59f017e3c4ccdad2a7dd763f36d8b8398"
+
+[[files]]
+file = "kubejs/server_scripts/potato/mods/create/crushing.js"
+hash = "e3beae289cec0012a25595572fa5044bcdb287ad2f290995a37641b2733ad6a4"
+
+[[files]]
 file = "kubejs/server_scripts/potato/mods/create/cutting.js"
-hash = "eb54cd9cd050f2d21aee2ae378ba307cd6d8f79c44ab4ae5c431c8f716af52e4"
+hash = "8b609899f45f7dfbd825a73989c521b86202fcd2636c949445d8fdde5ab79f98"
 
 [[files]]
 file = "kubejs/server_scripts/potato/mods/create/deploying.js"
@@ -618,7 +634,7 @@ hash = "b488978ccd72fd9b8487928fe7a798afe146c075513e8f4cec3e3a4a3332abbc"
 
 [[files]]
 file = "kubejs/server_scripts/potato/mods/create/fluid.js"
-hash = "02e866693dc0083506d4ff669c50747e51cfd41d157286e3379525f101cc1e15"
+hash = "6f1e7c456e57ce88030ccb854fd6f9a20f7680799b28b424e34c521e77aa1e7f"
 
 [[files]]
 file = "kubejs/server_scripts/potato/mods/create/item-application.js"
@@ -633,12 +649,16 @@ file = "kubejs/server_scripts/potato/mods/create/mechanical-crafting.js"
 hash = "ec2c919c04b1bf34272bffd1adfffea14d99a396ff6fb8f2d896f395803d06f8"
 
 [[files]]
+file = "kubejs/server_scripts/potato/mods/create/milling.js"
+hash = "e4011010e04f78badc53eb8b7aeca94df3ada34029143cea3b61455b9de60c10"
+
+[[files]]
 file = "kubejs/server_scripts/potato/mods/create/mixing.js"
-hash = "0f685c59a8ea68c6b68157f02cbe133e29ab848c7098c401cfc4afac56926ded"
+hash = "61dc94ce6cbc575342037d2861d9ce5417faf9e5ae4191bbb2bb3fc5936ca107"
 
 [[files]]
 file = "kubejs/server_scripts/potato/mods/create/pressing.js"
-hash = "e84cdad3821740a04d03fc8c2f51976537b5993a2cbe59d0d5bbab7e58f75b6e"
+hash = "2be5ade8c491fdb3a4db402a15e692aa57e8844f99c533719aeb91b4bfb947b8"
 
 [[files]]
 file = "kubejs/server_scripts/potato/mods/create/sequenced-assembly.js"
@@ -647,10 +667,6 @@ hash = "20bfb10af789a9286b0dfd1144707827586d0ec1927294809634ca86364255a7"
 [[files]]
 file = "kubejs/server_scripts/potato/mods/create/splashing.js"
 hash = "c848946b3c7f89f9305943b2495198b34799f049818ad416acd4a440f26dee53"
-
-[[files]]
-file = "kubejs/server_scripts/potato/mods/output-replacers.js"
-hash = "9982a336dfb4420682aef048eae2995671fb8d0f76cd624c4c6bf72d4e9bc410"
 
 [[files]]
 file = "kubejs/server_scripts/potato/potato.js"

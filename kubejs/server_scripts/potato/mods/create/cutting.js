@@ -17,7 +17,7 @@ potato.recipes.recipeTypes.set(
 		
 		result = Item.isItem(result) ? result.toJson() : Item.of(result).toJson();
 		
-		if(typeof processingTime != 'number') {
+		if(processingTime != undefined && typeof processingTime != 'number') {
 			console.error('Invalid processing time type (allowed types: number)');
 			return null;
 		}
@@ -26,7 +26,7 @@ potato.recipes.recipeTypes.set(
 			type: 'create:cutting',
 			ingredients: [ingredient],
 			results: [result],
-			processing_time: processingTime
+			processing_time: processingTime != undefined ? processingTime : 200
 		};
 	}
 );

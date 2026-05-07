@@ -1,7 +1,7 @@
 //priority: 1008
 
 potato.recipes.recipeTypes.set(
-	'create_mixing',
+	'create_compacting',
 	(ingredients, result, heatRequirement) => {
 		if(!Array.isArray(ingredients)) {
 			console.error('Invalid ingredients type (allowed types: array)');
@@ -34,7 +34,7 @@ potato.recipes.recipeTypes.set(
 			result = Item.of(result).toJson();
 		} else if(Item.isItem(result)) {
 			result = result.toJson();
-		} else if(CreateFluid.isFluid(result)) {
+		} else if(result instanceof CreateFluid) {
 			result = {
 				id: result.id,
 				amount: result.amount
@@ -45,7 +45,7 @@ potato.recipes.recipeTypes.set(
 		}
 		
 		let recipe = {
-			type: 'create:mixing',
+			type: 'create:compacting',
 			ingredients: ingredients,
 			results: [result]
 		};

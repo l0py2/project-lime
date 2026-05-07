@@ -12,7 +12,7 @@ function CreateFluid(id, amount) {
 	}
 	
 	this.id = id;
-	this.amount = amount;
+	this.amount = Intger.valueOf(amount);
 	
 	this.toJson = () => {
 		if(id.startsWith('#')) {
@@ -32,13 +32,5 @@ function CreateFluid(id, amount) {
 };
 
 CreateFluid.of = (id, amount) => {
-	return new CreateFluid(id, amount);
-};
-
-CreateFluid.isFluid = (fluid) => {
-	if(typeof fluid != 'object') {
-		return false;
-	}
-	
-	return fluid instanceof CreateFluid;
+	return new CreateFluid(id, amount != undefined ? amount : 250);
 };
