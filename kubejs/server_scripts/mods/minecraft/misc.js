@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => {	
 	event.blasting('minecraft:leather', 'minecraft:rotten_flesh').xp(0.1);
 	
-	event.remove({ id: 'minecraft:chain' });
-	event.remove({ id: 'create:crafting/appliances/chain_from_zinc' });
+	event.remove({ output: 'minecraft:chain' });
+	
 	event.shaped(
 		'minecraft:chain',
 		[
@@ -15,7 +15,8 @@ ServerEvents.recipes(event => {
 		}
 	);
 	
-	event.remove({ id: 'minecraft:lodestone' });
+	event.remove({ output: 'minecraft:lodestone' });
+	
 	event.shaped(
 		'minecraft:lodestone',
 		[

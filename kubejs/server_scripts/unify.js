@@ -22,16 +22,18 @@ ServerEvents.tags('item', event => {
 });
 
 ServerEvents.tags('block', event => {
-	for(const block of global.removedItems) {
-		event.removeAllTagsFrom(block);
-		event.add('kubejs:removed', block);
-		event.add('minecraft:mineable/axe', block);
-		event.add('minecraft:mineable/pickaxe', block);
+	for(const item of global.removedItems) {
+		if(Item.of(item).getBlock()) {
+			event.removeAllTagsFrom(item);
+			event.add('kubejs:removed', item);
+			event.add('minecraft:mineable/axe', item);
+			event.add('minecraft:mineable/pickaxe', item);
+		}
 	}
 });
 
 ServerEvents.recipes(event => {
-	potato.recipes.applyEvent(event);
+	mutils.recipes.applyEvent(event);
 	
 	for(const recipeFilter of global.removedRecipes) {
 		event.remove(recipeFilter);
@@ -42,12 +44,11 @@ ServerEvents.recipes(event => {
 	}
 		
 	for(const [original, replacement] of global.outputReplacements) {
-		potato.event.replaceOutput({}, original, replacement);
+		mutils.event.replaceOutput({}, original, replacement);
 	}
-		
+	
 	for(const removedItem of global.removedItems) {
 		event.replaceInput({}, removedItem, 'minecraft:barrier');
-		potato.event.replaceOutput({}, removedItem, 'minecraft:air');
+		mutils.event.replaceOutput({}, removedItem, 'minecraft:air');
 	}
 });
-

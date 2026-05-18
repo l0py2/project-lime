@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
-	event.remove({ id: 'minecraft:leather_horse_armor' });
+	event.remove({ output: 'minecraft:leather_horse_armor' });
+	
 	event.shaped(
 		'minecraft:leather_horse_armor',
 		[

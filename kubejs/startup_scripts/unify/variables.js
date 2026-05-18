@@ -1,7 +1,8 @@
-//priority: 500
+//priority: 110
 
-global.removedItems = [];
 global.removedRecipes = [];
+global.removedItems = [];
+
 global.inputReplacements = [];
 global.outputReplacements = [];
 global.dropReplacements = [];

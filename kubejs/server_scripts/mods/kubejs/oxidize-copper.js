@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-	potato.recipes.applyEvent(event);
+	mutils.recipes.applyEvent(event);
 	
 	for(const exposedBlock of Ingredient.of('#kubejs:blocks/exposed_copper').itemIds) {
 		let baseBlock = exposedBlock.replace('exposed_', '');
@@ -11,9 +11,9 @@ ServerEvents.recipes(event => {
 		let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 		let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 		
-		potato.event.create_splashing(baseBlock, [exposedBlock]);
-		potato.event.create_splashing(exposedBlock, [wheatheredBlock]);
-		potato.event.create_splashing(wheatheredBlock, [oxidizedBlock]);
+		mutils.event.create_splashing(baseBlock, [exposedBlock]);
+		mutils.event.create_splashing(exposedBlock, [wheatheredBlock]);
+		mutils.event.create_splashing(wheatheredBlock, [oxidizedBlock]);
 	}
 	
 	[
@@ -28,9 +28,9 @@ ServerEvents.recipes(event => {
 			let wheatheredBlock = exposedBlock.replace('exposed', 'weathered');
 			let oxidizedBlock = exposedBlock.replace('exposed', 'oxidized');
 			
-			potato.event.create_splashing(baseBlock, [exposedBlock]);
-			potato.event.create_splashing(exposedBlock, [wheatheredBlock]);
-			potato.event.create_splashing(wheatheredBlock, [oxidizedBlock]);
+			mutils.event.create_splashing(baseBlock, [exposedBlock]);
+			mutils.event.create_splashing(exposedBlock, [wheatheredBlock]);
+			mutils.event.create_splashing(wheatheredBlock, [oxidizedBlock]);
 		}
 	});
 });

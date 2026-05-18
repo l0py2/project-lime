@@ -1,2 +1,4 @@
 /*.zip
+/*.mrpack
 /config/*.bak
+/kubejs/config/common.json

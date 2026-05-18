@@ -1,7 +1,5 @@
 {
 	"loadOrder": [
-		"project-lime-advancements",
-		"vanilla",
-		"mod_data"
+		"no-advancements"
 	]
 }

@@ -1,5 +1,7 @@
 ItemEvents.modifyTooltips(event => {
-	event.add(global.removedItems, Text.red('Item removed'));
+	for(const item of global.removedItems) {
+		event.add(item, Text.red('Item removed'));
+	}
 
 	for(const [original, replacement] of global.inputReplacements) {
 		if(!original.startsWith('#')) {
@@ -15,5 +17,11 @@ ItemEvents.modifyTooltips(event => {
 	
 	for(const [original, replacement] of global.dropReplacements) {
 		event.add(original, Text.green(`Drop replaced with ${replacement}`));
+	}
+});
+
+RecipeViewerEvents.removeEntries('item', event => {
+	for(const item of global.removedItems) {
+		event.remove(item);
 	}
 });
