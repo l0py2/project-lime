@@ -338,7 +338,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "4ed7462eff625197342734a337e0065ce2be979fcb28256e9cff55cfe093189c"
+hash = "2e9b77a830b2875d443dfd7b71ad63f31bf1a09192f8b50580f0859197ed8963"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -430,7 +430,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f1a4fd08142227ebc8391c34124e4d1145822f72a00670eb947cae8b978e8cbf"
+hash = "f8730278d765a9acbaefdc65a9f864e8971d47128b765a32cacd318af02acc75"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -439,6 +439,82 @@ hash = "1c060e845e29386597054765729f34b0933fa3d1ff75cdd686a4e925cfe973d8"
 [[files]]
 file = "config/paxi/datapack_load_order.json"
 hash = "db9f3a5765a8917a94584df165be4b8a73adb70467f9545c2f89b6472c6dcd19"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/placed_feature/monster_room.json"
+hash = "f394184f67938fef2e0d36f15f733f2ea71f256829b37fae463d3ca70a79f204"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/placed_feature/monster_room_deep.json"
+hash = "922e5e1eaef0c7405887eb91e2bc1b17d2ec676f217da9617ad5e1e1d7bbd48f"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/ancient_cities.json"
+hash = "827f9b971822913453de52cae77a81375ec0262c6cf062081e52c73302d619c7"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/buried_treasures.json"
+hash = "2eb9eb7c9a8c4cb5cf99c634d4e2d08ef26af3b934d29836aed2e46809e6e6a2"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/desert_pyramids.json"
+hash = "a4f67706f7ebfb0f80c3e5a32a213be89300715b644e4e5eb631962ccbebe476"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/igloos.json"
+hash = "0be4fae76371e17a7e41c8bcceea71866db2df458367c9a8885c5387622cade3"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/jungle_temples.json"
+hash = "e3504d8f6b61f86ef7e0c605927e5c0d59b0b0fe5e632ca33decb531a6dadcc3"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/mineshafts.json"
+hash = "e92c87ef5bbf069a848952a6caea8db10c5d8878aa10fe74e5062a2639e47b75"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/ocean_monuments.json"
+hash = "01716269239f843a43f5e86e82ec899e6b66538822f88d807bf484c424b62147"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/ocean_ruins.json"
+hash = "c94b857d90cb01ece47915170a66803887bcb01a9d82a874f3c266d11666d1d0"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/pillager_outposts.json"
+hash = "1e683a7b02f44ebf3b26b1810c3e3ea60c0594b4d89016bf881a71f474cdc027"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/ruined_portals.json"
+hash = "ffd2d8633a38d739d65029257d522b81a0b6f71562d2068ce413104c71cbb968"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/shipwrecks.json"
+hash = "b3cd304e3c6ef6eea36b88e8ae22ccd39508a5e5765afea17b085866ddbf4878"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/strongholds.json"
+hash = "172823e36c54c41cedb78a1c22673005a8ee708586ce87373490174d027430e1"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/swamp_huts.json"
+hash = "06c21237a6a510a97647d678f900308092f6b5e92d3793fa2ec46af6cd744839"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/trail_ruins.json"
+hash = "3e4f2730946be6cdfe3064bfaf2bfb9bef231dec651f5686590c6abb1c49df1c"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/villages.json"
+hash = "eaa8e30d1977f83c23f97c1ab89f1a73a007468ec31636bcae5d7cfd65d8e010"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/data/minecraft/worldgen/structure_set/woodland_mansions.json"
+hash = "0fbaa0af7b65dd0d8370961ed14adc2ec75ef573a63d6232bb28abe9c2d20cb2"
+
+[[files]]
+file = "config/paxi/datapacks/custom-world/pack.mcmeta"
+hash = "81fd83b977ae2bd54c274c47000a843be0884875ab05821b21f4dc89ffaa9d11"
 
 [[files]]
 file = "config/paxi/datapacks/no-advancements/pack.mcmeta"
@@ -665,32 +741,24 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+file = "kubejs/assets/kubejs/textures/block/steel_block.png"
+hash = "4c027dddc1060aa0ee43e12c09af772870e2780f99fcc911e517f0c07d908780"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+file = "kubejs/assets/kubejs/textures/item/steel_ingot.png"
+hash = "67de2797b0ff228d3e214b21fb4f3afd37f33888909a8cb3b3fc77bd60a07c67"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_nugget.png"
+hash = "4da99ef85b9e6370efa624c1e20c1dadb31b12b07dee37622aa8da7287fd8a54"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/steel_sheet.png"
+hash = "25be98e3aaa28f5013e421d4aa305b9151283be6bf24480e94a160bf05071028"
 
 [[files]]
 file = "kubejs/client_scripts/unify.js"
 hash = "e2485a6cfb6c6251f12e028584fa00517eed11616d1c00bb410aff04f857a453"
-
-[[files]]
-file = "kubejs/config/client.json"
-hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
-
-[[files]]
-file = "kubejs/config/common.json"
-hash = "ee8a20d1ec6a5d7d44903d0061fd445a40c79d461ebc2af6d5c15bf0af9c0df7"
-
-[[files]]
-file = "kubejs/config/defaultoptions.txt"
-hash = "98af4d53f68d4f8e1c48a1b8e8951dd9f149ad224a88e6e5211a6fc412481660"
-
-[[files]]
-file = "kubejs/config/web_server.json"
-hash = "8df03b2516934fd3caf7e088cb8afd33c6af7c481a9f2163aefbc6ad36067300"
 
 [[files]]
 file = "kubejs/data/brewinandchewin/recipe/cooking/fiery_fondue_pot.json"
@@ -853,8 +921,44 @@ file = "kubejs/server_scripts/java-classes.js"
 hash = "ac3ec24124b2f693f29e45cba3343d4310e2ad52419a817c1914647c4895e58f"
 
 [[files]]
+file = "kubejs/server_scripts/mods/create/hard/contraption-blocks.js"
+hash = "290f0c14425ea9d7177adf88c3353dd993c8c83e5275a78061d53b5f659e3fc8"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/deco-blocks.js"
+hash = "59265a642388640a2cc129eb400d6ca9d1b0ff0573df7710db15ece6291a4b88"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/generators.js"
+hash = "2a94444a44851dfcee3500712a6c9fcec7fdd08e602bbd942c1e52427368da6f"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/resources.js"
+hash = "7c81dcb8a1612aeaaad2552dd6af53f0ee9b997bf967452dd97ca6ffa7ab8ab1"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/storage-blocks.js"
+hash = "bfa446c55a40cc93a6d79a9b044041bc3d1ff7d458d0745fc1fdd4860989577f"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/train-blocks.js"
+hash = "00b9bbb854e4acef848d1b07c47fb48743c363e044458d867be48151874aa488"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/utility-block.js"
+hash = "6a3fe0ee27a5cf05c9d32d319407382e059e31871c4273d6b211fa3a6934c0ec"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/utility-items.js"
+hash = "236dad612491f0e94180d22efeeecb9b675de57c4efbc05550ab2bd39771268a"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/hard/wearables.js"
+hash = "1077770635704c72c0593dfb2f63c97ad601039ecff9b1db9971efa75e5326a8"
+
+[[files]]
 file = "kubejs/server_scripts/mods/create/transmission-blocks.js"
-hash = "64bb77d488e3dc0542eff785991cd7106f5b4c3517f40a1a3281e75de54b46e1"
+hash = "0e9cb8a0eaf563388a971167717d21adc4727918492cd67d1f0dd3b114378bab"
 
 [[files]]
 file = "kubejs/server_scripts/mods/handcrafted/books.js"
@@ -863,6 +967,18 @@ hash = "b8c7600503505a8cf8b4c22c2e22e7e38e0134ca247fb1f1abf8926c8054748d"
 [[files]]
 file = "kubejs/server_scripts/mods/kubejs/oxidize-copper.js"
 hash = "d9589a55333611e158b50813aff63d8be5ea2b42bf963743ab41bda05436607b"
+
+[[files]]
+file = "kubejs/server_scripts/mods/kubejs/steel.js"
+hash = "e28d195454768755541014bf874480ed034f325217e0b4b2058170e87b1e11aa"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/end-portal.js"
+hash = "360f0aa97f58067fc96b6348d23645ba0e1f72d36dc8234e797920c1e215b7aa"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/hard/redstone-items.js"
+hash = "d99d325a668a4790de27737ec35130969d77a21302757bc9d3d59c6f2be0b9c6"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/misc.js"
@@ -961,8 +1077,16 @@ file = "kubejs/server_scripts/unify.js"
 hash = "77ecd093db4d22f1ff49914f11c2532378cad0e5b47679c8723e0c331afef2c6"
 
 [[files]]
+file = "kubejs/startup_scripts/block-modifications/mineable-end-portal.js"
+hash = "f2863f444e559687eae7dd7bb5699b6a1107f5fe4dd08ca6b84bebaf98cbe9bf"
+
+[[files]]
 file = "kubejs/startup_scripts/constants.js"
 hash = "36c6dc6dfc9e6de90a4d92f4d2734ec62250bcb66655b63e0ab8e40877e98e7a"
+
+[[files]]
+file = "kubejs/startup_scripts/new-items/steel.js"
+hash = "657c594b8ab21fd2aa0a483b0ef1ece97526cfbace0818b1aa312cf84ea25e17"
 
 [[files]]
 file = "kubejs/startup_scripts/unify/mods/create-connected.js"
@@ -1042,7 +1166,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "d18f00631377bb11109c6cf3c67261aeedec73e79727e50019e91a913ec88183"
+hash = "209446eb003bb59111833db0e0328657a9ffe7d85d6016ddf3ecfd5a2f7e13c5"
 metafile = true
 
 [[files]]
@@ -1102,7 +1226,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "44df18a2448d91a2e781af5e4ad1a639e70b79b4041bf846b8776166f8d2a5b9"
+hash = "2ba3112a833d6e23aae1e0a38a7a324f89efb8a532ea101f355dc38490840b3b"
 metafile = true
 
 [[files]]
@@ -1237,7 +1361,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "7862ee4443273e49cd365331f05e0514d3f798a9ced3e5d8b6dd103dd7e92e1a"
+hash = "1b0bcb6b0739ac51a706398c6f3765e1875e95490a9284603ee5628c259a4f63"
 metafile = true
 
 [[files]]
