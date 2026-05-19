@@ -1,5 +1,3 @@
-//packmode: hard
-
 ServerEvents.recipes(event => {
 	event.remove({ id: 'create:crafting/kinetics/wooden_bracket' });
 	event.stonecutting('4x create:wooden_bracket', '#minecraft:planks');

@@ -12,7 +12,7 @@ function CreateFluid(id, amount) {
 	}
 	
 	this.id = id;
-	this.amount = Intger.valueOf(amount);
+	this.amount = Integer.valueOf(amount);
 	
 	this.toJson = () => {
 		if(id.startsWith('#')) {

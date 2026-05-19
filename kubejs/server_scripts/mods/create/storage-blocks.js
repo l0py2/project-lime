@@ -1,5 +1,3 @@
-//packmode: hard
-
 ServerEvents.recipes(event => {
 	event.remove({ id: 'create:crafting/kinetics/fluid_tank' });
 	event.shaped(

@@ -1,5 +1,3 @@
-//packmode: hard
-
 ServerEvents.recipes(event => {
 	event.remove({ id: 'create:crafting/kinetics/filter' });
 	event.shaped(

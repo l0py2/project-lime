@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ output: 'create:belt_connector' });
 	event.shaped(
-		Item.of('create:belt_connector', 2),
+		'2x create:belt_connector',
 		[
 			'AAA',
 			'AAA'
@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ output: 'create:weighted_ejector' });
 	event.shaped(
-		Item.of('create:weighted_ejector'),
+		'create:weighted_ejector',
 		[
 			' A ',
 			' B ',

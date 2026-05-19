@@ -1,7 +1,5 @@
-//packmode: hard
-
 ServerEvents.recipes(event => {
-	potato.recipes.applyEvent(event);
+	mutils.recipes.applyEvent(event);
 	
 	event.remove({ id: 'create:crafting/kinetics/spout' });
 	event.shaped(
@@ -137,7 +135,7 @@ ServerEvents.recipes(event => {
 	);
 	
 	event.remove({ id: 'create:crafting/kinetics/rotation_speed_controller' });
-	potato.event.create_mechanical_crafting(
+	mutils.event.create_mechanical_crafting(
 		[
 			' A ',
 			'DCD',
@@ -153,7 +151,7 @@ ServerEvents.recipes(event => {
 	);
 	
 	event.remove({ id: 'create:crafting/kinetics/mechanical_arm' });
-	potato.event.create_mechanical_crafting(
+	mutils.event.create_mechanical_crafting(
 		[
 			'BBC',
 			'B  ',

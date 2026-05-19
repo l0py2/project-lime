@@ -338,7 +338,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "2e9b77a830b2875d443dfd7b71ad63f31bf1a09192f8b50580f0859197ed8963"
+hash = "931f8361216cb1b761ef50649eef38d0428a6909e85b2f56f17172a0ee85643c"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -430,7 +430,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f8730278d765a9acbaefdc65a9f864e8971d47128b765a32cacd318af02acc75"
+hash = "de6228fcddc52fa4aa018e73aef187b55df90b94ba9237aafdf06b7c1afe6718"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -921,44 +921,44 @@ file = "kubejs/server_scripts/java-classes.js"
 hash = "ac3ec24124b2f693f29e45cba3343d4310e2ad52419a817c1914647c4895e58f"
 
 [[files]]
-file = "kubejs/server_scripts/mods/create/hard/contraption-blocks.js"
-hash = "290f0c14425ea9d7177adf88c3353dd993c8c83e5275a78061d53b5f659e3fc8"
+file = "kubejs/server_scripts/mods/create/contraption-blocks.js"
+hash = "25a90cf9af8c1315441de5b5babf64afbcbef0b4c9e0bd9f7c88a8fb3711600b"
 
 [[files]]
-file = "kubejs/server_scripts/mods/create/hard/deco-blocks.js"
-hash = "59265a642388640a2cc129eb400d6ca9d1b0ff0573df7710db15ece6291a4b88"
+file = "kubejs/server_scripts/mods/create/deco-blocks.js"
+hash = "e9024254ecc0b8a04f2cbdbf799b6f99032a577a1670a6c4ab03c3afea2e7c51"
 
 [[files]]
-file = "kubejs/server_scripts/mods/create/hard/generators.js"
-hash = "2a94444a44851dfcee3500712a6c9fcec7fdd08e602bbd942c1e52427368da6f"
+file = "kubejs/server_scripts/mods/create/generators.js"
+hash = "6e2558a002db9acb98e8b886952f831eec279767789a730bdd640de95880db09"
 
 [[files]]
-file = "kubejs/server_scripts/mods/create/hard/resources.js"
-hash = "7c81dcb8a1612aeaaad2552dd6af53f0ee9b997bf967452dd97ca6ffa7ab8ab1"
+file = "kubejs/server_scripts/mods/create/resources.js"
+hash = "c7ceeef4e9cc2d53d41d1987d18dd9c2fcb5bfc43bfaf13bdf2ac7b2ec796d17"
 
 [[files]]
-file = "kubejs/server_scripts/mods/create/hard/storage-blocks.js"
-hash = "bfa446c55a40cc93a6d79a9b044041bc3d1ff7d458d0745fc1fdd4860989577f"
+file = "kubejs/server_scripts/mods/create/storage-blocks.js"
+hash = "d7e38d260e45b8b104a33864065476937f41ba2ddbbe43e5e2d3290744a230ec"
 
 [[files]]
-file = "kubejs/server_scripts/mods/create/hard/train-blocks.js"
-hash = "00b9bbb854e4acef848d1b07c47fb48743c363e044458d867be48151874aa488"
-
-[[files]]
-file = "kubejs/server_scripts/mods/create/hard/utility-block.js"
-hash = "6a3fe0ee27a5cf05c9d32d319407382e059e31871c4273d6b211fa3a6934c0ec"
-
-[[files]]
-file = "kubejs/server_scripts/mods/create/hard/utility-items.js"
-hash = "236dad612491f0e94180d22efeeecb9b675de57c4efbc05550ab2bd39771268a"
-
-[[files]]
-file = "kubejs/server_scripts/mods/create/hard/wearables.js"
-hash = "1077770635704c72c0593dfb2f63c97ad601039ecff9b1db9971efa75e5326a8"
+file = "kubejs/server_scripts/mods/create/train-blocks.js"
+hash = "342dc694fc2d32a7f7ec2512456d5d38e0439156a594554827e78e6a82ee517e"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/transmission-blocks.js"
-hash = "0e9cb8a0eaf563388a971167717d21adc4727918492cd67d1f0dd3b114378bab"
+hash = "8dcede78a8da93b78b127c54f79858e208a349731d29fccd50c5fb34d1b32dbf"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/utility-block.js"
+hash = "1da3d442dbd4128233fb2522502ae095a49c919b6334019823d088cddc29fa99"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/utility-items.js"
+hash = "2d5d000825c1492748735808913dc2be5a050a97de67ce47212107289139e1b8"
+
+[[files]]
+file = "kubejs/server_scripts/mods/create/wearables.js"
+hash = "d22d4a9fa26c4d25733ac63f4d4308dfdf43dd5ffda62b8739da3f3430ff9730"
 
 [[files]]
 file = "kubejs/server_scripts/mods/handcrafted/books.js"
@@ -977,16 +977,16 @@ file = "kubejs/server_scripts/mods/minecraft/end-portal.js"
 hash = "360f0aa97f58067fc96b6348d23645ba0e1f72d36dc8234e797920c1e215b7aa"
 
 [[files]]
-file = "kubejs/server_scripts/mods/minecraft/hard/redstone-items.js"
-hash = "d99d325a668a4790de27737ec35130969d77a21302757bc9d3d59c6f2be0b9c6"
-
-[[files]]
 file = "kubejs/server_scripts/mods/minecraft/misc.js"
 hash = "23c7e3a4cd28e446f26530a7eea54eea6d55fec81b21faf8c491938cdf925a8b"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/mount-items.js"
 hash = "fed55f98458ee30c5bed090e45458d8811e51709d2865b7eb62772d1b9d0b0f0"
+
+[[files]]
+file = "kubejs/server_scripts/mods/minecraft/redstone-items.js"
+hash = "a24420b1819c27f7217edbb8ed0637ddd2bb5be1b79791bbb453e9cab72d14cd"
 
 [[files]]
 file = "kubejs/server_scripts/mods/minecraft/smelting-to-blasting.js"
@@ -1026,11 +1026,11 @@ hash = "81c97b38ad2a55e226ef28ba1f1f4d04e299f707a2f27ad913517ac9791c4aa0"
 
 [[files]]
 file = "kubejs/server_scripts/mutils/mods/create/filling.js"
-hash = "55c6c03e1711c194180aefc63935a32115d809176c5caf261ce94cf18fae38be"
+hash = "2ef3de65351d5e4560feccde6a266f59375f63c874cf628804e4539e97eba4b8"
 
 [[files]]
 file = "kubejs/server_scripts/mutils/mods/create/fluid.js"
-hash = "6f1e7c456e57ce88030ccb854fd6f9a20f7680799b28b424e34c521e77aa1e7f"
+hash = "4c8749c171e12c20d4dab671a293797552efe1c370859b9819f97b5b0e3f7062"
 
 [[files]]
 file = "kubejs/server_scripts/mutils/mods/create/item-application.js"
@@ -1415,11 +1415,6 @@ hash = "d891b5301e4fe59ad978edd97c1477c50f928c4a2cfb31d8cdcc7f4965323267"
 metafile = true
 
 [[files]]
-file = "mods/remove-terralith-intro-message.pw.toml"
-hash = "2e9dead89853555c8d909fe2549af2db5e5051c690fae695df93d2369aa8314c"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
@@ -1477,16 +1472,6 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "084ba00d5d41d76f4975935f3ada0fb1fce41bce59dd3901f54684c3588cb9f6"
-metafile = true
-
-[[files]]
-file = "mods/terralith-biome-saplings.pw.toml"
-hash = "61d849b5dd59f7f9ccf950bbce846363c89dacd6a68af977c7cfa2f29c0ef8a6"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]

@@ -1,8 +1,6 @@
-//packmode: hard
-
 ServerEvents.recipes(event => {
-	potato.recipes.applyEvent(event);
-	
+	mutils.recipes.applyEvent(event);
+
 	event.remove({ id: 'create:crafting/appliances/copper_diving_helmet' });
 	event.shaped(
 		'create:copper_diving_helmet',
@@ -62,7 +60,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_backtank' });
-	potato.event.create_mechanical_crafting(
+	mutils.event.create_mechanical_crafting(
 		[
 			'BCB',
 			'BAB',
@@ -80,7 +78,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_helmet' });
-	potato.event.create_mechanical_crafting(
+	mutils.event.create_mechanical_crafting(
 		[
 			'BCB',
 			'BAB',
@@ -98,7 +96,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots_from_netherite' });
 	event.remove({ id: 'create:crafting/appliances/netherite_diving_boots' });
-	potato.event.create_mechanical_crafting(
+	mutils.event.create_mechanical_crafting(
 		[
 			'BCB',
 			'BAB',

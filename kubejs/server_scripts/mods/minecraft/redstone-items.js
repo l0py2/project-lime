@@ -1,5 +1,3 @@
-//packmode: hard
-
 ServerEvents.recipes(event => {	
 	event.remove({ output: 'minecraft:piston' });
 	event.shaped(

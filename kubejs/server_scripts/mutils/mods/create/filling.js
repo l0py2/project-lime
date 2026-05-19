@@ -18,9 +18,9 @@ mutils.recipes.recipeTypes.set(
 		ingredients = ingredients.map(ingredient => {
 			if(typeof ingredient == 'string') {
 				ingredient = Ingredient.of(ingredient).toJson();
-			} else if(Ingredient.isIngredient(ingredient)) {
+			} else if(ingredient instanceof MinecraftIngredient) {
 				ingredient = ingredient.toJson();
-			} else if(CreateFluid.isFluid(ingredient)) {
+			} else if(ingredient instanceof CreateFluid) {
 				ingredient = ingredient.toJson();
 			} else {
 				invalidIngredients = true;
