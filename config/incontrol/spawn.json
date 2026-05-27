@@ -1,0 +1,10 @@
+[
+	{
+		"when": "onjoin",
+		"dimension": "minecraft:overworld",
+		"spawntype": "natural",
+		"hostile": true,
+		"minheight": 32,
+		"result": "deny"
+	}
+]
