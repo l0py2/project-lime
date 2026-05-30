@@ -1,0 +1,68 @@
+# Modlist
+
+- AppleSkin 3.0.9+mc1.21 https://modrinth.com/mod/EsAfCjCV
+- Architectury 13.0.8 https://modrinth.com/mod/lhGA9TYQ
+- Balm 21.0.58 https://modrinth.com/mod/MBAkmtvl
+- BetterF3 11.0.3 https://modrinth.com/mod/8shC1gFX
+- Brewin' And Chewin' 4.4.2 https://modrinth.com/mod/hIu9KJTT
+- CC: Tweaked 1.119.0 https://modrinth.com/mod/gu7yAYhd
+- Cloth Config v15 API 15.0.140 https://modrinth.com/mod/9s6osm5g
+- Comforts 9.0.5+1.21.1 https://modrinth.com/mod/SaCpeal4
+- Controlling 19.0.5 https://modrinth.com/mod/xv94TkTM
+- Create 6.0.10 https://modrinth.com/mod/LNytGWDc
+- Create Aeronautics 1.2.1 https://modrinth.com/mod/oWaK0Q19
+- Create Diesel Generators 1.21.1-1.3.12 https://modrinth.com/mod/ZM3tt6p1
+- Create: Central Kitchen 2.4.0 https://modrinth.com/mod/btq68HMO
+- Create: Connected 1.2.0-mc1.21.1 https://modrinth.com/mod/Vg5TIO6d
+- Create: Copycats+ 3.0.4+mc.1.21.1-neoforge https://modrinth.com/mod/UT2M39wf
+- Create: Dragons Plus 1.10.1 https://modrinth.com/mod/dzb1a5WV
+- Create: Enchantment Industry 2.3.1 https://modrinth.com/mod/JWGBpFUP
+- Create: New Age 1.1.7c+mc1.21.1 https://modrinth.com/mod/FTeXqI9v
+- Create: Power Grid 0.5.5.1 https://modrinth.com/mod/eWiBLJ9R
+- Curios API 9.5.1+1.21.1 https://modrinth.com/mod/vvuO3ImH
+- EMI 1.1.24+1.21.1+neoforge https://modrinth.com/mod/fRiHVvU7
+- EMI Enchanting 0.1.2+1.21+neoforge https://modrinth.com/mod/wbWoo11W
+- EMI Loot 0.7.9+1.21+neoforge https://modrinth.com/mod/qbbO7Jns
+- EMI Ores 1.2+1.21.1+neoforge https://modrinth.com/mod/sG4TqDb8
+- EMIffect 2.1.6+mc1.21.1 https://modrinth.com/mod/705gWllI
+- Exposure 1.9.16 https://modrinth.com/mod/hB899VmG
+- Exposure Polaroid 1.1.4 https://modrinth.com/mod/WEWiqYkW
+- Farmer's Delight 1.3.2 https://modrinth.com/mod/R2OftAxM
+- Ferrite Core 7.0.3 https://modrinth.com/mod/uXXizFIs
+- Fusion 1.2.12 https://modrinth.com/mod/p19vrgc2
+- Fzzy Config 0.7.6+1.21+neoforge https://modrinth.com/mod/hYykXjDp
+- Handcrafted 4.0.3 https://modrinth.com/mod/pJmCFF0p
+- ImmediatelyFast 1.6.10+1.21.1 https://modrinth.com/mod/5ZwdcRci
+- InControl 1.21-10.2.6 https://modrinth.com/mod/KpICtuVx
+- Jade 15.10.5+neoforge https://modrinth.com/mod/nvQzSEkH
+- Just Enough Items 19.27.0.340 https://modrinth.com/mod/u6dRKJwZ
+- Kotlin for Forge NrSebcsG https://modrinth.com/mod/ordsPcFz
+- KubeJS 2101.7.2-build.368 https://modrinth.com/mod/umyGl7zF
+- LambDynamicLights 4.8.8+1.21.1 https://modrinth.com/mod/yBW8D80W
+- Lithium 0.15.3+mc1.21.1 https://modrinth.com/mod/gvQqBUqZ
+- LootJS 1.21.1-3.7.0 https://modrinth.com/mod/fJFETWDN
+- ModernFix 5.27.11+mc1.21.1 https://modrinth.com/mod/nmDcB62a
+- Mouse Tweaks 2.26.1 https://modrinth.com/mod/aC3cM3Vq
+- NetherPortalFix 21.1.1 https://modrinth.com/mod/nPZr02ET
+- Open Parties and Claims 0.26.2 https://modrinth.com/mod/gF3BGWvG
+- PacketFixer 3.3.1 https://modrinth.com/mod/c7m1mi73
+- Paxi 1.21.1-NeoForge-5.1.3 https://modrinth.com/mod/CU0PAyzb
+- Polymorph 1.1.0+1.21.1 https://modrinth.com/mod/tagwiZkJ
+- Quark 4.1-480 https://modrinth.com/mod/qnQsVE2z
+- Quark Oddities 1.21.1 https://modrinth.com/mod/qeEEslrN
+- Resourceful Lib 3.0.12 https://modrinth.com/mod/G1hIVOrD
+- Rhino 2101.2.7-build.81 https://modrinth.com/mod/sk9knFPE
+- Sable 1.2.2 https://modrinth.com/mod/T9PomCSv
+- Searchables 1.0.2 https://modrinth.com/mod/fuuu3xnx
+- Sodium 0.6.13+mc1.21.1 https://modrinth.com/mod/AANobbMI
+- Sophisticated Backpacks 3.25.49 https://modrinth.com/mod/TyCTlI4b
+- Sophisticated Backpacks Create Integration 0.1.5 https://modrinth.com/mod/s85zLEDe
+- Sophisticated Core 1.4.42 https://modrinth.com/mod/nmoqTijg
+- Sophisticated Storage 1.5.52 https://modrinth.com/mod/hMlaZH8f
+- Sophisticated Storage Create Integration 0.1.17 https://modrinth.com/mod/MJ0hdevs
+- Spyglass Improvements 1.5.7 https://modrinth.com/mod/Z6ykjRlM
+- Visuality: Reforged 2.1.0 https://modrinth.com/mod/z13R7Et1
+- Xaero's Minimap 25.3.13 https://modrinth.com/mod/1bokaNcj
+- Xaero's World Map 1.40.16 https://modrinth.com/mod/NcUtCpym
+- YUNG's API 1.21.1-NeoForge-5.1.6 https://modrinth.com/mod/Ua7DFN59
+- Zeta 1.1-40 https://modrinth.com/mod/MVARlG2f
