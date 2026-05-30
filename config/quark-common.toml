@@ -34,7 +34,7 @@
 
 [categories]
 	automation = false
-	building = false
+	building = true
 	management = true
 	tools = true
 	tweaks = true
@@ -94,40 +94,40 @@
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 [building]
-	"Celebratory Lamps" = true
-	"Compressed Blocks" = true
-	"Duskbound Blocks" = true
-	"Framed Glass" = true
-	"Glass Item Frame" = true
-	"Gold Bars" = true
+	"Celebratory Lamps" = false
+	"Compressed Blocks" = false
+	"Duskbound Blocks" = false
+	"Framed Glass" = false
+	"Glass Item Frame" = false
+	"Gold Bars" = false
 	Grate = true
-	Hedges = true
-	"Hollow Logs" = true
-	"Industrial Palette" = true
-	"Japanese Palette" = true
-	"Leaf Carpet" = true
-	Midori = true
-	"More Brick Types" = true
-	"More Mud Blocks" = true
+	Hedges = false
+	"Hollow Logs" = false
+	"Industrial Palette" = false
+	"Japanese Palette" = false
+	"Leaf Carpet" = false
+	Midori = false
+	"More Brick Types" = false
+	"More Mud Blocks" = false
 	"More Potted Plants" = true
-	"Nether Brick Fence Gate" = true
-	"Rainbow Lamps" = true
-	"Raw Metal Bricks" = true
+	"Nether Brick Fence Gate" = false
+	"Rainbow Lamps" = false
+	"Raw Metal Bricks" = false
 	Rope = true
-	"Shear Vines" = true
-	Shingles = true
-	"Soul Sandstone" = true
-	Stools = true
+	"Shear Vines" = false
+	Shingles = false
+	"Soul Sandstone" = false
+	Stools = false
 	"Sturdy Stone" = true
-	Thatch = true
-	"Variant Bookshelves" = true
-	"Variant Chests" = true
-	"Variant Furnaces" = true
-	"Variant Ladders" = true
-	"Vertical Planks" = true
-	"Vertical Slabs" = true
-	"Wooden Posts" = true
-	"More Stone Variants" = true
+	Thatch = false
+	"Variant Bookshelves" = false
+	"Variant Chests" = false
+	"Variant Furnaces" = false
+	"Variant Ladders" = false
+	"Vertical Planks" = false
+	"Vertical Slabs" = false
+	"Wooden Posts" = false
+	"More Stone Variants" = false
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
